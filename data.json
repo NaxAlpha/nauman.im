@@ -1,0 +1,116 @@
+{
+  "personal": {
+    "name": "Nauman Mustafa",
+    "title": "Sr. Machine Learning Engineer",
+    "email": "nauman.mustafa.x@gmail.com",
+    "phone": "+81-90-3194-6885",
+    "location": "Tokyo, Japan",
+    "social": {
+      "linkedin": "linkedin.com/in/naxalpha",
+      "github": "github.com/naxalpha",
+      "medium": "medium.com/@NaxAlpha"
+    }
+  },
+  "summary": "Senior Machine Learning Engineer with 6+ years of experience turning business challenges into AI solutions. Skilled in developing deep learning models, OCR systems, and LLM-powered tools. Experienced in leading projects, building MLOps pipelines, and deploying scalable solutions using GKE/Kubernetes. Passionate about AI innovation with expertise in cloud technologies, automation, and multilingual text recognition.",
+  "workExperience": [
+    {
+      "title": "Sr. Machine Learning Engineer",
+      "company": "Autify",
+      "location": "Tokyo, Japan",
+      "period": {
+        "start": "05/2020",
+        "end": "Present"
+      },
+      "description": "Provides test automation for mobile & web apps",
+      "achievements": [
+        "Lead the ML team by managing and providing directions for various the ML projects.",
+        "Deployed an optimised pipeline for Visual Regression API serving over 14 million requests at the cost of 1200$/mo using Knative on GKE.",
+        "Developed & trained an in-house OCR model from scratch using transformers with the character recognition rate of > 95% for 30k+ Japanese and English characters.",
+        "Developed an LLM-powered chrome extension that suggest users to what to test given the context of the application.",
+        "Developing an LLM-powered Test Generation system that generates tests, gherkin & playwright code from PRD specs of a feature."
+      ]
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "company": "VisionX",
+      "location": "Islamabad, Pakistan",
+      "period": {
+        "start": "06/2018",
+        "end": "05/2020"
+      },
+      "description": "Machine Learning & Computer Vision-based services",
+      "achievements": [
+        "Implemented lyrics extraction using EAST & Tesseract for music sheet parsing program.",
+        "Improved proprietary algorithm for information retrieval from camera captured images of parcel.",
+        "Bootstrapped infrastructure for SaaS-based product for information extraction from receipts.",
+        "Trained deep learning models like BERT for classification (dataset N > 100k) and GPT-2 and T5 for the text parsing of unstructured data.",
+        "Deployed GPT-2 (medium) for text parsing salably using Docker on Cloud Run & Kubernetes in production."
+      ]
+    },
+    {
+      "title": "Research Assistant (Internship)",
+      "company": "DAAD - RheinMain University of Applied Sciences",
+      "location": "Wiesbaden, Germany",
+      "period": {
+        "start": "06/2017",
+        "end": "09/2017"
+      },
+      "description": "",
+      "achievements": [
+        "Implemented forward-backward motion tracker using OpenCV for fish tracking",
+        "Developed UI interface to debug and annotate the fish tracking algorithm"
+      ]
+    }
+  ],
+  "skills": [
+    "Python",
+    "Deep Learning",
+    "PyTorch",
+    "Transformers",
+    "Docker",
+    "Google Cloud",
+    "Kubernetes",
+    "LoRA",
+    "Diffusion Models",
+    "LLMs",
+    "Prompting"
+  ],
+  "languages": [
+    {
+      "language": "Urdu",
+      "proficiency": "Native or Bilingual Proficiency"
+    },
+    {
+      "language": "English",
+      "proficiency": "Full Professional Proficiency"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Long Pythia",
+      "date": "04/2023",
+      "description": "This project extends the context length of a pre-trained LLM i.e. Pythia by EleutherAI to 8000 tokens."
+    },
+    {
+      "name": "Token Compression",
+      "date": "08/2023",
+      "description": "This project explores how to compress multiple LLM tokens into a single embedding vector."
+    }
+  ],
+  "interests": [
+    "AI",
+    "Philosophy",
+    "Technology"
+  ],
+  "education": [
+    {
+      "degree": "Bachelors of Engineering",
+      "institution": "National University of Sciences and Technology",
+      "period": {
+        "start": "09/2014",
+        "end": "06/2018"
+      },
+      "gpa": "3.7/4.0"
+    }
+  ]
+}

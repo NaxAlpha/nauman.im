@@ -1,0 +1,223 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+header {
+  background-color: #4527a0;
+  color: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin: 5px 0 0;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+section h2 {
+  color: #4527a0;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+/* Work experience */
+.job {
+  margin-bottom: 25px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.job-company {
+  color: #4527a0;
+  font-weight: bold;
+}
+
+.job-period {
+  color: #666;
+  font-style: italic;
+}
+
+.job-location {
+  color: #666;
+}
+
+.job-description {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+/* Skills section */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background-color: #4527a0;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Projects section */
+.project {
+  margin-bottom: 20px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.project-name {
+  font-weight: bold;
+  color: #4527a0;
+}
+
+.project-date {
+  color: #666;
+}
+
+/* Education section */
+.education-item {
+  margin-bottom: 20px;
+}
+
+.education-degree {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.education-school {
+  color: #4527a0;
+}
+
+.education-period {
+  color: #666;
+  font-style: italic;
+}
+
+.education-gpa {
+  float: right;
+  font-weight: bold;
+}
+
+/* Languages section */
+.language {
+  margin-bottom: 10px;
+}
+
+.language-name {
+  font-weight: bold;
+}
+
+/* Interests section */
+.interests-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interest {
+  background-color: #e0e0e0;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Footer and contact */
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact-item a {
+  color: #4527a0;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  .job-header {
+    flex-direction: column;
+  }
+  
+  .education-gpa {
+    float: none;
+    display: block;
+  }
+  
+  .contact-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
