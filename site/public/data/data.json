@@ -1,7 +1,7 @@
 {
   "personal": {
     "name": "Nauman Mustafa",
-    "title": "Sr. Machine Learning Engineer",
+    "title": "Sr. ML & AI Engineer & Consultant",
     "email": "nauman.mustafa.x@gmail.com",
     "phone": "+81-90-3194-6885",
     "location": "Tokyo, Japan",
@@ -11,7 +11,7 @@
       "medium": "medium.com/@NaxAlpha"
     }
   },
-  "summary": "Senior Machine Learning Engineer with 6+ years of experience turning business challenges into AI solutions. Skilled in developing deep learning models, OCR systems, and LLM-powered tools. Experienced in leading projects, building MLOps pipelines, and deploying scalable solutions using GKE/Kubernetes. Passionate about AI innovation with expertise in cloud technologies, automation, and multilingual text recognition.",
+  "summary": "Senior Machine Learning & AI Engineer with 7 years of experience solving business challenges into AI solutions. Skilled in developing deep learning models, OCR systems, and LLM-powered agents. Experienced in leading projects, building MLOps pipelines, and deploying scalable solutions on Cloud. Passionate about AI innovation with expertise in cloud technologies, automation, multilingual text recognition and LLM-based Agent development.",
   "workExperience": [
     {
       "title": "Sr. Machine Learning Engineer",
@@ -100,6 +100,12 @@
       "date": "04/2023",
       "description": "This project extends the context length of a pre-trained LLM i.e. Pythia by EleutherAI to 8000 tokens.",
       "url": "https://naxalpha.substack.com/p/a-quest-for-very-long-context-part"
+    },
+    {
+      "name": "Prompt Engineering before it was cool",
+      "date": "06/2020",
+      "description": "I wrote this essay on how to use Large Language models like Google T5 and GPT-2 for solving various problems before LLM prompting became a trend.",
+      "url": "https://www.toptal.com/deep-learning/exploring-pre-trained-models"
     }
   ],
   "interests": [
