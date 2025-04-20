@@ -16,6 +16,7 @@
     {
       "title": "Sr. Machine Learning Engineer",
       "company": "Autify",
+      "companyUrl": "https://autify.com",
       "location": "Tokyo, Japan",
       "period": {
         "start": "05/2020",
@@ -33,6 +34,7 @@
     {
       "title": "Machine Learning Engineer",
       "company": "VisionX",
+      "companyUrl": "https://visionx.io",
       "location": "Islamabad, Pakistan",
       "period": {
         "start": "06/2018",
@@ -50,6 +52,7 @@
     {
       "title": "Research Assistant (Internship)",
       "company": "DAAD - RheinMain University of Applied Sciences",
+      "companyUrl": "https://www.hs-rm.de/en/",
       "location": "Wiesbaden, Germany",
       "period": {
         "start": "06/2017",
@@ -87,14 +90,16 @@
   ],
   "projects": [
     {
-      "name": "Long Pythia",
-      "date": "04/2023",
-      "description": "This project extends the context length of a pre-trained LLM i.e. Pythia by EleutherAI to 8000 tokens."
-    },
-    {
       "name": "Token Compression",
       "date": "08/2023",
-      "description": "This project explores how to compress multiple LLM tokens into a single embedding vector."
+      "description": "This project explores how to compress multiple LLM tokens into a single embedding vector.",
+      "url": "https://naxalpha.substack.com/p/token-compression-reducing-attention"
+    },
+    {
+      "name": "Long Pythia",
+      "date": "04/2023",
+      "description": "This project extends the context length of a pre-trained LLM i.e. Pythia by EleutherAI to 8000 tokens.",
+      "url": "https://naxalpha.substack.com/p/a-quest-for-very-long-context-part"
     }
   ],
   "interests": [
@@ -106,6 +111,7 @@
     {
       "degree": "Bachelors of Engineering",
       "institution": "National University of Sciences and Technology",
+      "institutionUrl": "https://nust.edu.pk",
       "period": {
         "start": "09/2014",
         "end": "06/2018"
