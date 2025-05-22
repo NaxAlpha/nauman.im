@@ -1,11 +1,450 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Hello, World!</title>
-	</head>
-	<body>
-		<h1 id="heading">Hello, World!</h1>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nauman Mustafa - Machine Learning Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --heading-color: #111111;
+            --accent-color: #3498db;
+            --secondary-bg: #f5f7fa;
+            --border-color: #e1e4e8;
+            --card-bg: #ffffff;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+        
+        [data-theme="dark"] {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --heading-color: #ffffff;
+            --accent-color: #3498db;
+            --secondary-bg: #1e1e1e;
+            --border-color: #2d2d2d;
+            --card-bg: #1a1a1a;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 30px;
+            padding: 5px 15px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 2px 5px var(--shadow-color);
+        }
+        
+        .theme-toggle i {
+            margin-right: 5px;
+            color: var(--text-color);
+        }
+        
+        .theme-toggle span {
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        header {
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-color);
+            margin-bottom: 20px;
+        }
+        
+        .profile h1 {
+            font-size: 2.5rem;
+            color: var(--heading-color);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin: 5px;
+            padding: 5px 10px;
+            background-color: var(--secondary-bg);
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .contact-item i {
+            margin-right: 5px;
+            color: var(--accent-color);
+        }
+        
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                padding: 0 40px;
+            }
+            
+            .content-wrapper {
+                flex-direction: row;
+            }
+            
+            .left-panel {
+                flex: 1;
+                position: sticky;
+                top: 80px;
+                height: fit-content;
+            }
+            
+            .right-panel {
+                flex: 2;
+            }
+        }
+        
+        section {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px var(--shadow-color);
+            border: 1px solid var(--border-color);
+        }
+        
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--accent-color);
+        }
+        
+        h3 {
+            color: var(--heading-color);
+            font-size: 1.4rem;
+            margin: 15px 0 10px;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        ul ul, ol ol, ul ol, ol ul {
+            margin-top: 8px;
+        }
+        
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .job-title {
+            font-weight: 600;
+            color: var(--heading-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .job-meta {
+            font-size: 0.9rem;
+            color: var(--text-color);
+            opacity: 0.8;
+            margin-bottom: 15px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 30px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+            color: var(--text-color);
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Switch Theme</span>
+    </div>
+    
+    <div class="container">
+        <header>
+            <div class="profile">
+                <img src="./photo.png" alt="Nauman Mustafa" class="profile-img">
+                <h1>Nauman Mustafa</h1>
+                <div class="contact-info">
+                    <div class="contact-item"><i class="fas fa-envelope"></i> nauman.mustafa.x@gmail.com</div>
+                    <div class="contact-item"><i class="fas fa-phone"></i> +92-337-6310-376 🇵🇰</div>
+                    <div class="contact-item"><i class="fas fa-phone"></i> +81-90-3194-6885 🇯🇵</div>
+                    <div class="contact-item"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/naxalpha/" target="_blank">linkedin.com/in/naxalpha</a></div>
+                    <div class="contact-item"><i class="fab fa-github"></i> <a href="https://github.com/NaxAlpha" target="_blank">github.com/NaxAlpha</a></div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="content-wrapper">
+            <div class="left-panel">
+                <section id="about">
+                    <h2>About Me</h2>
+                    <ul>
+                        <li>Sr. Vibe Coder (prev. Sr. Machine Learning Engineer)</li>
+                        <li>7+ years of industry experience.
+                            <ul>
+                                <li>6 years of experience in Machine Learning Engineering</li>
+                                <li>2 years of experience vibe coding product PoCs</li>
+                            </ul>
+                        </li>
+                        <li>My Skillset includes:
+                            <ul>
+                                <li>Python</li>
+                                <li>Pytorch</li>
+                                <li>Docker</li>
+                                <li>FastAPI</li>
+                                <li>Google Cloud</li>
+                                <li>Prompt Engineering</li>
+                            </ul>
+                        </li>
+                        <li>Technical solutions I built:
+                            <ul>
+                                <li>OCR</li>
+                                <li>Computer Vision</li>
+                                <li>Natural Language Processing</li>
+                                <li>Transformers (Deep Learning) Modelling</li>
+                                <li>Training and Fine-tuning</li>
+                                <li>Large Language Models</li>
+                            </ul>
+                        </li>
+                        <li>Industry domains I have worked in:
+                            <ul>
+                                <li>Retail
+                                    <ul>
+                                        <li>Receipt Scanning</li>
+                                    </ul>
+                                </li>
+                                <li>Software Testing
+                                    <ul>
+                                        <li>Visual Testing</li>
+                                        <li>e2e Test Generation</li>
+                                        <li>Source code analysis</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                
+                <section id="projects">
+                    <h2>Personal Projects</h2>
+                    <ul>
+                        <li><a href="https://naxalpha.substack.com/p/a-quest-for-very-long-context-part" target="_blank">Long Pythia (April 2024)</a> - Explored token length extension when it was common to have 2048 or 4096 context length.</li>
+                    </ul>
+                </section>
+            </div>
+            
+            <div class="right-panel">
+                <section id="experience">
+                    <h2>Professional Experience</h2>
+                    
+                    <div class="job">
+                        <h3 class="job-title">Sr. Machine Learning Engineer @ <a href="https://autify.com/" target="_blank">Autify</a></h3>
+                        <div class="job-meta">
+                            <span><i class="far fa-calendar-alt"></i> May 2020 - June 2025</span> | 
+                            <span><i class="fas fa-map-marker-alt"></i> Tokyo, Japan</span>
+                        </div>
+                        <ul>
+                            <li>(Jan 2025 - June 2025) Bootstrapped project Lexa:
+                                <ul>
+                                    <li>Generate PRD from Source Code</li>
+                                    <li>Vibe-coded entire desktop app using cursor in Swift UI</li>
+                                    <li>Vibe-migrated the desktop app to Electron for multiple platforms</li>
+                                </ul>
+                            </li>
+                            <li>(Jan 2024 - Dec 2024) Bootstrapped project Genesis:
+                                <ul>
+                                    <li>Designed Prompts for the following:
+                                        <ul>
+                                            <li>Generate Test Cases from PRD</li>
+                                            <li>Generate Test Scenarios from Test Cases</li>
+                                            <li>Generate Playwright code from Test Scenarios using Agentic AI</li>
+                                        </ul>
+                                    </li>
+                                    <li>Build Backend/frontend using LLMs</li>
+                                </ul>
+                            </li>
+                            <li>(July 2023 - Dec 2023) Developed Step Suggestion Chrome Extension:
+                                <ul>
+                                    <li>Wrote frontend code in PReact</li>
+                                    <li>Wrote Backend in Python/FastAPI</li>
+                                    <li>Developed the algorithm to slim down the HTML</li>
+                                    <li>Designed the prompt to provide next step suggestions based on current page</li>
+                                </ul>
+                            </li>
+                            <li>(Jan 2022 - June 2023) Core Deep Learning Work
+                                <ul>
+                                    <li>Developed MLUI, an ensemble of ML models for parsing screenshot of mobile apps
+                                        <ul>
+                                            <li>A custom OCR model based on encoder-decoder transformer architecture trained on synthetic data</li>
+                                            <li>Retina net fine-tuned on rico + internal dataset for detecting UI elements</li>
+                                            <li>A post processing model to merge the output of the above two models</li>
+                                        </ul>
+                                    </li>
+                                    <li>Deployment of MLUI at scale on GKE using cost-effective GPU & queue optimizations</li>
+                                    <li>Explored Reinforcement Learning for automated testing</li>
+                                </ul>
+                            </li>
+                            <li>(Jan 2021 - Dec 2021) Built the baseline ML Infrastructure at Autify
+                                <ul>
+                                    <li>Set up Google Cloud GKE for ML Deployment</li>
+                                    <li>Set up pipeline for VRT (Visual Regression Testing) algorithm deployment at scale on GKE</li>
+                                    <li>Fine-tuned Adobe Semantic Web Segmentation model</li>
+                                    <li>Explored Visual Self-Healing using Template Matching</li>
+                                </ul>
+                            </li>
+                            <li>(May 2020 - Dec 2020) Early Exploration of Application of ML on Web Apps
+                                <ul>
+                                    <li>Implemented OpenCV-based web screenshot comparison</li>
+                                    <li>Fine-tuned BERT on HTML data</li>
+                                    <li>Optimized the weights of an internal feature extraction algorithm using evolutionary algorithms</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Theme toggle functionality with cookie support
+        (function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeIcon = themeToggle.querySelector('i');
+            const themeText = themeToggle.querySelector('span');
+            
+            // Function to set a cookie
+            function setCookie(name, value, days) {
+                let expires = "";
+                if (days) {
+                    const date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    expires = "; expires=" + date.toUTCString();
+                }
+                document.cookie = name + "=" + (value || "") + expires + "; path=/";
+            }
+            
+            // Function to get a cookie
+            function getCookie(name) {
+                const nameEQ = name + "=";
+                const ca = document.cookie.split(';');
+                for(let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+            
+            // Function to update theme
+            function updateTheme(theme) {
+                if (theme === 'dark') {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                    themeIcon.className = 'fas fa-moon';
+                    themeText.textContent = 'Light Mode';
+                } else {
+                    document.documentElement.setAttribute('data-theme', 'light');
+                    themeIcon.className = 'fas fa-sun';
+                    themeText.textContent = 'Dark Mode';
+                }
+            }
+            
+            // Check for saved theme preference or use default
+            const savedTheme = getCookie('theme') || 'light';
+            updateTheme(savedTheme);
+            
+            // Toggle theme on click
+            themeToggle.addEventListener('click', function() {
+                const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                
+                // Update theme
+                updateTheme(newTheme);
+                
+                // Save preference to cookie (expires in 365 days)
+                setCookie('theme', newTheme, 365);
+            });
+        })();
+    </script>
+</body>
 </html>
