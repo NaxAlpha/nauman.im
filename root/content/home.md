@@ -42,9 +42,11 @@
         - e2e Test Generation
         - Source code analysis
 
-## Personal Projects
+## Personal Work
 
-- [Long Pythia (April 2024)](https://naxalpha.substack.com/p/a-quest-for-very-long-context-part) Explored token length extension when it was common to have 2048 or 4096 context length.
+- [Long Pythia (April 2023)](/long-pythia) Explored token length extension when it was common to have 2048 or 4096 context length.
+
+- [Deep Learning in Cloud (March 2019)](/deep-learning-in-cloud) Explored the cloud computing options for deep learning.
 
 ## Professional Experience
 

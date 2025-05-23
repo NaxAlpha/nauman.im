@@ -203,6 +203,10 @@
             color: white;
         }
         
+        [data-theme="dark"] .badge {
+            opacity: 0.9;
+        }
+        
         .badge-primary { background-color: #3498db; }
         .badge-secondary { background-color: #95a5a6; }
         .badge-purple { background-color: #9b59b6; }
@@ -210,6 +214,9 @@
         .badge-orange { background-color: #f39c12; }
         .badge-red { background-color: #e74c3c; }
         .badge-teal { background-color: #1abc9c; }
+        .badge-blue { background-color: #2980b9; }
+        .badge-indigo { background-color: #6c5ce7; }
+        .badge-pink { background-color: #fd79a8; }
         
         /* Experience Styles */
         .job {
@@ -253,6 +260,19 @@
         .job-content ul ul {
             margin-top: 6px;
             margin-left: 20px;
+        }
+        
+        .project-highlight {
+            text-decoration: underline;
+        }
+        
+        .date-range {
+            color: #6c757d;
+        }
+        
+        .date-range i {
+            margin-right: 4px;
+            color: #6c757d;
         }
         
         /* Projects Styles */
@@ -473,10 +493,14 @@
                     <div class="about-item">
                         <h4>Industry Domains</h4>
                         <div class="badges">
-                            <span class="badge badge-teal">Retail - Receipt Scanning</span>
-                            <span class="badge badge-teal">Software Testing</span>
-                            <span class="badge badge-teal">e2e Test Generation</span>
-                            <span class="badge badge-teal">Source Code Analysis</span>
+                            <span class="badge badge-blue">Retail</span>
+                            <span class="badge badge-teal">Receipt Scanning</span>
+                        </div>
+                        <div class="badges">
+                            <span class="badge badge-indigo">Software Testing</span>
+                            <span class="badge badge-pink">Visual Testing</span>
+                            <span class="badge badge-pink">e2e Test Generation</span>
+                            <span class="badge badge-pink">Source Code Analysis</span>
                         </div>
                     </div>
                 </div>
@@ -490,10 +514,18 @@
                     <ul class="project-list">
                         <li>
                             <a href="/long-pythia/">
-                                <strong>Long Pythia (April 2024)</strong>
+                                <strong>Long Pythia (April 2023)</strong>
                             </a>
                             <div class="project-description">
                                 Explored token length extension when it was common to have 2048 or 4096 context length.
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/deep-learning-in-cloud/">
+                                <strong>Deep Learning in Cloud (March 2019)</strong>
+                            </a>
+                            <div class="project-description">
+                                Explored the cloud computing options for deep learning.
                             </div>
                         </li>
                     </ul>
@@ -513,14 +545,14 @@
                         </div>
                         
                         <div class="job-content">
-                            <p><strong>(Jan 2025 - June 2025) Bootstrapped project Lexa:</strong></p>
+                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>Jan 2025 - June 2025</span> <span class="project-highlight">Bootstrapped project Lexa</span>:</strong></p>
                             <ul>
                                 <li>Generate PRD from Source Code</li>
                                 <li>Vibe-coded entire desktop app using cursor in Swift UI</li>
                                 <li>Vibe-migrated the desktop app to Electron for multiple platforms</li>
                             </ul>
                             
-                            <p><strong>(Jan 2024 - Dec 2024) Bootstrapped project Genesis:</strong></p>
+                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>Jan 2024 - Dec 2024</span> <span class="project-highlight">Bootstrapped project Genesis</span>:</strong></p>
                             <ul>
                                 <li>Designed Prompts for the following:
                                     <ul>
@@ -532,7 +564,7 @@
                                 <li>Build Backend/frontend using LLMs</li>
                             </ul>
                             
-                            <p><strong>(July 2023 - Dec 2023) Developed Step Suggestion Chrome Extension:</strong></p>
+                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>July 2023 - Dec 2023</span> <span class="project-highlight">Developed Step Suggestion Chrome Extension</span>:</strong></p>
                             <ul>
                                 <li>Wrote frontend code in PReact</li>
                                 <li>Wrote Backend in Python/FastAPI</li>
@@ -540,7 +572,7 @@
                                 <li>Designed the prompt to provide next step suggestions based on current page</li>
                             </ul>
                             
-                            <p><strong>(Jan 2022 - June 2023) Core Deep Learning Work:</strong></p>
+                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>Jan 2022 - June 2023</span> <span class="project-highlight">Core Deep Learning Work</span>:</strong></p>
                             <ul>
                                 <li>Developed MLUI, an ensemble of ML models for parsing screenshot of mobile apps
                                     <ul>
@@ -553,7 +585,7 @@
                                 <li>Explored Reinforcement Learning for automated testing</li>
                             </ul>
                             
-                            <p><strong>(Jan 2021 - Dec 2021) Built the baseline ML Infrastructure at Autify:</strong></p>
+                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>Jan 2021 - Dec 2021</span> <span class="project-highlight">Built the baseline ML Infrastructure at Autify</span>:</strong></p>
                             <ul>
                                 <li>Set up Google Cloud GKE for ML Deployment</li>
                                 <li>Set up pipeline for VRT (Visual Regression Testing) algorithm deployment at scale on GKE</li>
@@ -561,7 +593,7 @@
                                 <li>Explored Visual Self-Healing using Template Matching</li>
                             </ul>
                             
-                            <p><strong>(May 2020 - Dec 2020) Early Exploration of Application of ML on Web Apps:</strong></p>
+                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>May 2020 - Dec 2020</span> <span class="project-highlight">Early Exploration of Application of ML on Web Apps</span>:</strong></p>
                             <ul>
                                 <li>Implemented OpenCV-based web screenshot comparison</li>
                                 <li>Fine-tuned BERT on HTML data</li>
