@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Learning in Cloud — Cheap but High Quality - Nauman Mustafa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Dark Mode</span>
+    </div>
+    
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <a href="https://medium.datadriveninvestor.com/deep-learning-in-cloud-df0c654d61b1" target="_blank" class="original-post-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Read Original on Medium</span>
+                </a>
+                
+                <h1 class="hero-title">Deep Learning in Cloud</h1>
+                <h2 class="hero-subtitle">Cheap but High Quality</h2>
+                
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>Nauman Mustafa</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>Mar 18, 2019</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>3 min read</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+            
+            <article class="article">
+                <div class="update-notice">
+                    <p><strong>Edit:</strong> Apparently, Google changed GPUs for Colab from K80 to Tesla T4. So now you can do high quality deep learning for free in Google Colab. But If you need more power, you can go V100 Preemptible machines, which cost far less compared to AWS.</p>
+                </div>
+                
+                <p>Google Colab is a free platform that provides GPUs for training and is best for experimenting, but not ideal for training large models like Big GANs and Large Language models. And it's a hassle to always upload your model to Google Drive and then reload it when the machine is interrupted.</p>
+                
+                <p>I have a decent GTX 1060 Laptop which I use to experiment with my model and set up training scripts. But once done, my laptop is good-for-nothing for such big models. So I started looking for alternate solutions. Then I found clouds :D</p>
+                
+                <div class="platform-section">
+                    <h2 class="platform-name">
+                        <div class="platform-icon aws">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        Amazon Web Services (AWS)
+                    </h2>
+                    
+                    <p>When it comes to cloud, many of us prefer AWS as it has been around for a while, it is trustworthy and it has a huge number of services. But its price is much higher than its competitors. (For training my model, I will be comparing GPU machine prices.)</p>
+                    
+                    <div class="pricing-grid">
+                        <div class="pricing-item">
+                            <div class="gpu-name">p2.xlarge (K80)</div>
+                            <div class="price">$0.90</div>
+                            <div class="price-unit">per hour</div>
+                            <div class="performance">Good-for-nothing for deep learning</div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="gpu-name">p3.2xlarge (V100)</div>
+                            <div class="price">$3.00</div>
+                            <div class="price-unit">per hour</div>
+                            <div class="performance">Worth it but costly</div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="gpu-name">p3.2xlarge Spot</div>
+                            <div class="price">$1.20</div>
+                            <div class="price-unit">per hour</div>
+                            <div class="performance">V100 at better price</div>
+                            <div class="best-value">Better!</div>
+                        </div>
+                    </div>
+                    
+                    <p>p2.xlarge costs only 0.9$/hour, is again good-for-nothing as K80 GPUs perform poorly for deep learning. p3.2xlarge is 3$/hour for V100, which is in many cases worth it but still too costly. Going for spot instance it costs only 1.2$ per hour. Now that's how I like it.</p>
+                </div>
+                
+                <div class="platform-section">
+                    <h2 class="platform-name">
+                        <div class="platform-icon paperspace">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        Paperspace
+                    </h2>
+                    
+                    <p>My search continued as some of my models require less compute than V100 and 1.2$/hour is still expensive to most of us. This led me to Paperspace, an alternative to AWS but still provides low-end GPUs.</p>
+                    
+                    <div class="pricing-grid">
+                        <div class="pricing-item">
+                            <div class="gpu-name">P4000</div>
+                            <div class="price">$0.51</div>
+                            <div class="price-unit">per hour</div>
+                            <div class="performance">≈ GTX 1070 performance</div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="gpu-name">P5000</div>
+                            <div class="price">$0.78</div>
+                            <div class="price-unit">per hour</div>
+                            <div class="performance">≈ GTX 1080 performance</div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="gpu-name">P6000</div>
+                            <div class="price">$1.10</div>
+                            <div class="price-unit">per hour</div>
+                            <div class="performance">≈ GTX 1080 Ti performance</div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="gpu-name">V100</div>
+                            <div class="price">$2.30</div>
+                            <div class="price-unit">per hour</div>
+                            <div class="performance">High-end performance</div>
+                        </div>
+                    </div>
+                    
+                    <p>P4000 GPU on paperspace is close to performance to a desktop-grade GTX 1070 and costs only 0.51$ per hour. Going higher P5000 is close to GTX 1080 and costs 0.78$/hour. There is also P6000 which is ~GTX 1080 Ti with a price point of 1.1$/hour. V100 costs 2.3$. Good thing is these are not spot instances, so the price is justifiably lower than AWS.</p>
+                    
+                    <p>I used paperspace for quite some time but their upfront cost (5$/mo for 50GB HDD) was kind of a drag for me. I only used like 5–10 hours of training on one machine a month. So my quest for cheap GPUs went on.</p>
+                </div>
+                
+                <div class="platform-section">
+                    <h2 class="platform-name">
+                        <div class="platform-icon gcp">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        Google Cloud Platform (GCP)
+                    </h2>
+                    
+                    <p>Google Cloud, a competitor of AWS, is growing cloud platform. Their mouth-watering price caught up on me. Their Preemptible (Spot instance) costs only 0.8$/hour for V100 and Preemptible Tesla T4 (which is comparable to RTX 2070 or 1080 + Mix precision) COSTS ONLY 0.35$/hour.</p>
+                    
+                    <div class="pricing-grid">
+                        <div class="pricing-item">
+                            <div class="gpu-name">Tesla T4 Preemptible</div>
+                            <div class="price">$0.35</div>
+                            <div class="price-unit">per hour</div>
+                            <div class="performance">≈ RTX 2070 + Mixed Precision</div>
+                            <div class="best-value">Amazing!</div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="gpu-name">V100 Preemptible</div>
+                            <div class="price">$0.80</div>
+                            <div class="price-unit">per hour</div>
+                            <div class="performance">High-end at great price</div>
+                            <div class="best-value">Great!</div>
+                        </div>
+                    </div>
+                    
+                    <p>On Google Colab, you have to keep uploading model to Google Drive to save it otherwise its lost. But on these machine, even though they are preemptible when they shut down, their data is still intact. All you have to do is save your model every now and then :D</p>
+                </div>
+                
+                <div class="cost-card">
+                    <h3>
+                        <i class="fas fa-lightbulb"></i>
+                        Key Takeaway
+                    </h3>
+                    <p>Google Cloud Platform offers the most cost-effective solution for deep learning workloads, especially with their preemptible instances. Tesla T4 at $0.35/hour provides excellent value for most deep learning tasks, while V100 preemptible instances at $0.80/hour offer high-end performance at a fraction of AWS costs.</p>
+                </div>
+            </article>
+            
+            <section class="comments-section">
+                <h2 class="comments-title">
+                    <i class="fas fa-comments"></i>
+                    Responses (1)
+                </h2>
+                
+                <div class="comment">
+                    <div class="comment-header">
+                        <div class="comment-avatar">AY</div>
+                        <div class="comment-meta">
+                            <div class="comment-author">Alper Yilmaz</div>
+                            <div class="comment-date">Sep 18, 2019</div>
+                        </div>
+                    </div>
+                    <div class="comment-content">
+                        vast.ai rents GPU as well. GTX 1080 Ti is around 0.10$/hr. GTX 2080 Ti is little over 0.20$/hr. They also have machines with 4X or 8X GPUs. For example, 4x RTX 2080 Ti is around 0.85$/hr.
+                    </div>
+                    
+                    <div class="comment-reply">
+                        <div class="comment-header">
+                            <div class="comment-avatar">NM</div>
+                            <div class="comment-meta">
+                                <div class="comment-author">Nauman Mustafa <span style="color: var(--text-muted); font-weight: normal; font-size: 0.9em;">Author</span></div>
+                                <div class="comment-date">Sep 18, 2019</div>
+                            </div>
+                        </div>
+                        <div class="comment-content">
+                            Hi Alper,<br>
+                            Thanks for sharing vast.ai. I had missed it previously but yes it is great platform and provides much better costing options than any cloud platform.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="/lib/theme-switch.js"></script>
+</body>
+</html>
