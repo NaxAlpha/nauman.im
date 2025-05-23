@@ -135,22 +135,24 @@
             gap: 30px;
         }
         
+        .left-panel {
+            flex: 1;
+            position: sticky;
+            top: 80px;
+            height: fit-content;
+        }
+        
+        .right-panel {
+            flex: 1;
+        }
+        
         @media (min-width: 768px) {
-            .container {
-                padding: 0 40px;
-            }
-            
             .content-wrapper {
                 flex-direction: row;
             }
-            
             .left-panel {
                 flex: 1;
-                position: sticky;
-                top: 80px;
-                height: fit-content;
             }
-            
             .right-panel {
                 flex: 2;
             }
@@ -236,22 +238,22 @@
     </div>
     
     <div class="container">
-        <header>
-            <div class="profile">
-                <img src="./photo.png" alt="Nauman Mustafa" class="profile-img">
-                <h1>Nauman Mustafa</h1>
-                <div class="contact-info">
-                    <div class="contact-item"><i class="fas fa-envelope"></i> nauman.mustafa.x@gmail.com</div>
-                    <div class="contact-item"><i class="fas fa-phone"></i> +92-337-6310-376 🇵🇰</div>
-                    <div class="contact-item"><i class="fas fa-phone"></i> +81-90-3194-6885 🇯🇵</div>
-                    <div class="contact-item"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/naxalpha/" target="_blank">linkedin.com/in/naxalpha</a></div>
-                    <div class="contact-item"><i class="fab fa-github"></i> <a href="https://github.com/NaxAlpha" target="_blank">github.com/NaxAlpha</a></div>
-                </div>
-            </div>
-        </header>
-        
         <div class="content-wrapper">
             <div class="left-panel">
+                <header>
+                    <div class="profile">
+                        <img src="./photo.png" alt="Nauman Mustafa" class="profile-img">
+                        <h1>Nauman Mustafa</h1>
+                        <div class="contact-info">
+                            <div class="contact-item"><i class="fas fa-envelope"></i> nauman.mustafa.x@gmail.com</div>
+                            <div class="contact-item"><i class="fas fa-phone"></i> +92-337-6310-376 🇵🇰</div>
+                            <div class="contact-item"><i class="fas fa-phone"></i> +81-90-3194-6885 🇯🇵</div>
+                            <div class="contact-item"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/naxalpha/" target="_blank">linkedin.com/in/naxalpha</a></div>
+                            <div class="contact-item"><i class="fab fa-github"></i> <a href="https://github.com/NaxAlpha" target="_blank">github.com/NaxAlpha</a></div>
+                        </div>
+                    </div>
+                </header>
+                
                 <section id="about">
                     <h2>About Me</h2>
                     <ul>
@@ -300,16 +302,16 @@
                         </li>
                     </ul>
                 </section>
-                
+            </div>
+            
+            <div class="right-panel">
                 <section id="projects">
                     <h2>Personal Projects</h2>
                     <ul>
                         <li><a href="https://naxalpha.substack.com/p/a-quest-for-very-long-context-part" target="_blank">Long Pythia (April 2024)</a> - Explored token length extension when it was common to have 2048 or 4096 context length.</li>
                     </ul>
                 </section>
-            </div>
-            
-            <div class="right-panel">
+                
                 <section id="experience">
                     <h2>Professional Experience</h2>
                     
