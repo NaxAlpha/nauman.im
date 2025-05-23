@@ -391,7 +391,7 @@
             </a>
             
             <article class="article-content">
-                <p>Since the announcement of GPT4-32k, I have been obsessed with very long sequence length for transformer models. I had <a href="https://www.linkedin.com/feed/update/urn:li:activity:7022084803038511104/" target="_blank">predicted</a> before the release of GPT-4 that it may have very long context length like 50k or above. While I did not get the number right, I think this is a good direction of the field. A lot of intelligence tasks requiring nuance need huge context and 1024 or 2048 tokens are not sufficient for that.</p>
+                <p>Since the announcement of GPT4-32k, I have been obsessed with very long sequence length for transformer models. I had <a href="/social/linkedin-gpt-4-rumers/">predicted</a> before the release of GPT-4 that it may have very long context length like 50k or above. While I did not get the number right, I think this is a good direction of the field. A lot of intelligence tasks requiring nuance need huge context and 1024 or 2048 tokens are not sufficient for that.</p>
                 
                 <p>In this series of essays, I will be sharing some of the techniques I have tried to work towards this goal. My goal was not to 'try out' the tricks available in existing literature but rather come up with novel methods so when doing the research or writing this essay, I did not come across any papers related to those techniques. If you know any such works, feel free to drop that in the comments.</p>
                 
@@ -455,57 +455,6 @@
         </footer>
     </div>
     
-    <script>
-        // Theme toggle functionality
-        (function() {
-            const themeToggle = document.getElementById('theme-toggle');
-            const themeIcon = themeToggle.querySelector('i');
-            const themeText = themeToggle.querySelector('span');
-            
-            function setCookie(name, value, days) {
-                let expires = "";
-                if (days) {
-                    const date = new Date();
-                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-                    expires = "; expires=" + date.toUTCString();
-                }
-                document.cookie = name + "=" + (value || "") + expires + "; path=/";
-            }
-            
-            function getCookie(name) {
-                const nameEQ = name + "=";
-                const ca = document.cookie.split(';');
-                for(let i = 0; i < ca.length; i++) {
-                    let c = ca[i];
-                    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-                    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
-                }
-                return null;
-            }
-            
-            function updateTheme(theme) {
-                if (theme === 'dark') {
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                    themeIcon.className = 'fas fa-moon';
-                    themeText.textContent = 'Light Mode';
-                } else {
-                    document.documentElement.setAttribute('data-theme', 'light');
-                    themeIcon.className = 'fas fa-sun';
-                    themeText.textContent = 'Dark Mode';
-                }
-            }
-            
-            // Load saved theme or default to light
-            const savedTheme = getCookie('theme') || 'light';
-            updateTheme(savedTheme);
-            
-            themeToggle.addEventListener('click', function() {
-                const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
-                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-                updateTheme(newTheme);
-                setCookie('theme', newTheme, 365);
-            });
-        })();
-    </script>
+    <script src="/lib/theme-switch.js"></script>
 </body>
 </html>

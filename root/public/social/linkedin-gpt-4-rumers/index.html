@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT-4 Predictions - Nauman Mustafa | LinkedIn Post</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-primary: #f3f2ef;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f8f9fa;
+            --text-primary: #000000;
+            --text-secondary: #666666;
+            --text-muted: #999999;
+            --linkedin-blue: #0a66c2;
+            --linkedin-blue-hover: #084d92;
+            --linkedin-blue-light: #e7f3ff;
+            --border-color: #d9d9d9;
+            --border-light: #e9e5df;
+            --shadow-light: rgba(0, 0, 0, 0.08);
+            --shadow-medium: rgba(0, 0, 0, 0.12);
+            --reaction-like: #378fe9;
+            --reaction-celebrate: #df7c00;
+            --reaction-insightful: #8a63d2;
+            --reaction-funny: #f5c25b;
+            --hover-bg: #f3f2ef;
+        }
+        
+        [data-theme="dark"] {
+            --bg-primary: #1b1f23;
+            --bg-secondary: #2d3339;
+            --bg-tertiary: #3a4149;
+            --text-primary: #ffffff;
+            --text-secondary: #b0b0b0;
+            --text-muted: #7c7c7c;
+            --linkedin-blue: #70b5f9;
+            --linkedin-blue-hover: #5a9bd4;
+            --linkedin-blue-light: #1a3854;
+            --border-color: #4a4a4a;
+            --border-light: #404040;
+            --shadow-light: rgba(0, 0, 0, 0.2);
+            --shadow-medium: rgba(0, 0, 0, 0.3);
+            --hover-bg: #404040;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.5;
+            color: var(--text-primary);
+            background-color: var(--bg-primary);
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+        
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 2px 8px var(--shadow-light);
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            transition: all 0.3s ease;
+        }
+        
+        .theme-toggle:hover {
+            background: var(--hover-bg);
+            box-shadow: 0 4px 12px var(--shadow-medium);
+        }
+        
+        .theme-toggle i {
+            margin-right: 6px;
+            color: var(--linkedin-blue);
+        }
+        
+        .container {
+            max-width: 540px;
+            margin: 0 auto;
+            padding: 20px 16px;
+            min-height: 100vh;
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 13px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background: var(--hover-bg);
+            color: var(--linkedin-blue);
+        }
+        
+        .back-button i {
+            font-size: 12px;
+        }
+        
+        .linkedin-post {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            border: 1px solid var(--border-light);
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        
+        .post-header {
+            padding: 12px 16px;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        
+        .profile-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--linkedin-blue), #0077b5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+        
+        .post-author-info {
+            flex: 1;
+            min-width: 0;
+        }
+        
+        .author-name {
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 14px;
+            line-height: 1.2;
+            margin-bottom: 2px;
+        }
+        
+        .author-title {
+            color: var(--text-secondary);
+            font-size: 12px;
+            line-height: 1.3;
+            margin-bottom: 4px;
+        }
+        
+        .post-meta {
+            color: var(--text-muted);
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .post-meta i {
+            font-size: 10px;
+        }
+        
+        .follow-btn {
+            background: none;
+            border: 1px solid var(--linkedin-blue);
+            color: var(--linkedin-blue);
+            border-radius: 16px;
+            padding: 4px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .follow-btn:hover {
+            background: var(--linkedin-blue-light);
+        }
+        
+        .post-content {
+            padding: 0 16px 12px;
+        }
+        
+        .post-text {
+            color: var(--text-primary);
+            font-size: 14px;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+        
+        .post-text p {
+            margin-bottom: 12px;
+        }
+        
+        .post-text p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .post-text ol {
+            margin-left: 20px;
+            margin-bottom: 12px;
+        }
+        
+        .post-text li {
+            margin-bottom: 8px;
+        }
+        
+        .hashtags {
+            margin-top: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        
+        .hashtag {
+            color: var(--linkedin-blue);
+            text-decoration: none;
+            font-weight: 500;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        
+        .hashtag:hover {
+            color: var(--linkedin-blue-hover);
+            text-decoration: underline;
+        }
+        
+        .post-image {
+            margin: 12px 0;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid var(--border-light);
+        }
+        
+        .post-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .engagement-summary {
+            padding: 12px 16px;
+            border-top: 1px solid var(--border-light);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+        
+        .reaction-count {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .reaction-icons {
+            display: flex;
+            gap: -2px;
+        }
+        
+        .reaction-icon {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8px;
+            color: white;
+            border: 1px solid var(--bg-secondary);
+            margin-left: -2px;
+        }
+        
+        .reaction-like { background: var(--reaction-like); }
+        .reaction-celebrate { background: var(--reaction-celebrate); }
+        .reaction-insightful { background: var(--reaction-insightful); }
+        .reaction-funny { background: var(--reaction-funny); }
+        
+        .interaction-stats {
+            display: flex;
+            gap: 12px;
+        }
+        
+        .interaction-actions {
+            padding: 8px 16px;
+            border-top: 1px solid var(--border-light);
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .action-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 12px;
+            font-weight: 600;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.3s ease;
+            flex: 1;
+            justify-content: center;
+        }
+        
+        .action-btn:hover {
+            background: var(--hover-bg);
+            color: var(--text-secondary);
+        }
+        
+        .action-btn i {
+            font-size: 14px;
+        }
+        
+        .comments-section {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            border: 1px solid var(--border-light);
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .comment {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-light);
+        }
+        
+        .comment:last-child {
+            border-bottom: none;
+        }
+        
+        .comment-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        
+        .comment-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #666, #999);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 12px;
+            flex-shrink: 0;
+        }
+        
+        .comment-info {
+            flex: 1;
+        }
+        
+        .comment-author {
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 12px;
+        }
+        
+        .comment-title {
+            color: var(--text-secondary);
+            font-size: 11px;
+        }
+        
+        .comment-text {
+            color: var(--text-primary);
+            font-size: 12px;
+            line-height: 1.4;
+            margin-bottom: 8px;
+        }
+        
+        .comment-actions {
+            display: flex;
+            gap: 12px;
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+        
+        .comment-action {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 11px;
+            padding: 0;
+        }
+        
+        .comment-action:hover {
+            color: var(--linkedin-blue);
+        }
+        
+        .original-post-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--linkedin-blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 24px;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .original-post-btn:hover {
+            background: var(--linkedin-blue-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(10, 102, 194, 0.3);
+        }
+        
+        .original-post-btn i {
+            font-size: 12px;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 640px) {
+            .container {
+                padding: 16px 8px;
+            }
+            
+            .theme-toggle {
+                top: 12px;
+                right: 12px;
+                padding: 6px 10px;
+                font-size: 11px;
+            }
+            
+            .post-header {
+                padding: 10px;
+                flex-wrap: wrap;
+            }
+            
+            .post-author-info {
+                flex: 1;
+                min-width: calc(100% - 120px);
+            }
+            
+            .post-meta {
+                flex-wrap: wrap;
+                font-size: 11px;
+                gap: 3px;
+            }
+            
+            .follow-btn {
+                font-size: 11px;
+                padding: 3px 10px;
+                margin-top: 4px;
+                align-self: flex-start;
+            }
+            
+            .post-content {
+                padding: 0 10px 10px;
+            }
+            
+            .post-text {
+                font-size: 13px;
+                line-height: 1.5;
+            }
+            
+            .post-text ol {
+                margin-left: 16px;
+            }
+            
+            .post-text li {
+                margin-bottom: 6px;
+                font-size: 12px;
+            }
+            
+            .hashtags {
+                gap: 4px;
+            }
+            
+            .hashtag {
+                font-size: 12px;
+            }
+            
+            .engagement-summary {
+                padding: 10px;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+            
+            .interaction-actions {
+                padding: 8px 10px;
+            }
+            
+            .action-btn {
+                padding: 6px 8px;
+                font-size: 11px;
+                gap: 4px;
+            }
+            
+            .action-btn i {
+                font-size: 12px;
+            }
+            
+            .comment {
+                padding: 10px;
+            }
+            
+            .comment[style*="margin-left"] {
+                margin-left: 16px !important;
+                padding-left: 12px !important;
+            }
+            
+            .comment-header {
+                gap: 6px;
+            }
+            
+            .comment-avatar {
+                width: 28px;
+                height: 28px;
+                font-size: 11px;
+            }
+            
+            .comment-author {
+                font-size: 11px;
+            }
+            
+            .comment-title {
+                font-size: 10px;
+                line-height: 1.2;
+            }
+            
+            .comment-text {
+                font-size: 11px;
+                line-height: 1.4;
+            }
+            
+            .comment-actions {
+                font-size: 10px;
+                gap: 8px;
+            }
+            
+            .author-name {
+                font-size: 13px;
+            }
+            
+            .author-title {
+                font-size: 11px;
+                line-height: 1.2;
+            }
+            
+            .back-button {
+                font-size: 12px;
+                padding: 6px 12px;
+            }
+            
+            .original-post-btn {
+                font-size: 12px;
+                padding: 8px 16px;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                padding: 24px 20px;
+            }
+        }
+        
+        .highlight-text {
+            background: var(--linkedin-blue-light);
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Dark Mode</span>
+    </div>
+    
+    <div class="container">
+        <a href="../../" class="back-button">
+            <i class="fas fa-arrow-left"></i>
+            <span>Back to Home</span>
+        </a>
+        
+        <div class="linkedin-post">
+            <div class="post-header">
+                <div class="profile-avatar">NM</div>
+                <div class="post-author-info">
+                    <div class="author-name">Nauman Mustafa</div>
+                    <div class="author-title">Sr. Machine Learning Engineer @ Autify</div>
+                    <div class="post-meta">
+                        <span id="post-age-short">2y</span>
+                        <i class="fas fa-circle"></i>
+                        <span id="post-age-long">2 years ago</span>
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-globe"></i>
+                        <span>Visible to anyone on or off LinkedIn</span>
+                    </div>
+                </div>
+                <button class="follow-btn">Follow</button>
+            </div>
+            
+            <div class="post-content">
+                <div class="post-text">
+                    <p><span class="highlight-text">Average GPT-4 rumor in 2023.</span></p>
+                    
+                    <p>On a serious note tho, GPT 4 isn't probably going to be too big compared to GPT-3 as we kind of already have hit the limits of computations. However here are some of the things to expect (this is just my personal opinion based on my knowledge of the field):</p>
+                    
+                    <ol start="0">
+                        <li>the size won't be bigger than ~10x at best or more likely it will be just the same size.</li>
+                        <li>it may include some optimization tricks from recent research. like longer context, better layers, faster attention, etc.</li>
+                        <li>the quality of the data would probably be the biggest factor, there is a possibility they might be training the new model on YouTube video transcripts.</li>
+                        <li>multi-modality could be a possibility like GPT directly outputting images along with the text but i see it less probable. More probable is for them to use dalle to synthesize images.</li>
+                        <li>there will probably be more specialized versions/experts like chatgpt, along with the core special one i.e. davinci.</li>
+                        <li>it will more likely have longer context (currently it has 8k tokens), it might have some sort of memory to increase context way beyond 50k.</li>
+                    </ol>
+                    
+                    <div class="hashtags">
+                        <span class="hashtag">#chatgpt</span>
+                        <span class="hashtag">#gpt3</span>
+                        <span class="hashtag">#gpt4</span>
+                        <span class="hashtag">#gpt</span>
+                        <span class="hashtag">#training</span>
+                        <span class="hashtag">#data</span>
+                        <span class="hashtag">#research</span>
+                        <span class="hashtag">#openai</span>
+                    </div>
+                </div>
+                
+                <div class="post-image">
+                    <img src="./img.jpeg" alt="GPT-4 prediction meme">
+                </div>
+            </div>
+            
+            <div class="engagement-summary">
+                <div class="reaction-count">
+                    <div class="reaction-icons">
+                        <div class="reaction-icon reaction-like">👍</div>
+                        <div class="reaction-icon reaction-insightful">💡</div>
+                        <div class="reaction-icon reaction-funny">😂</div>
+                    </div>
+                    <span>29</span>
+                </div>
+                <div class="interaction-stats">
+                    <span>2 comments</span>
+                    <span>1 repost</span>
+                </div>
+            </div>
+            
+            <div class="interaction-actions">
+                <button class="action-btn">
+                    <i class="far fa-thumbs-up"></i>
+                    <span>Like</span>
+                </button>
+                <button class="action-btn">
+                    <i class="far fa-comment"></i>
+                    <span>Comment</span>
+                </button>
+                <button class="action-btn">
+                    <i class="fas fa-share"></i>
+                    <span>Repost</span>
+                </button>
+                <button class="action-btn">
+                    <i class="far fa-paper-plane"></i>
+                    <span>Send</span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="comments-section">
+            <div class="comment">
+                <div class="comment-header">
+                    <div class="comment-avatar">UA</div>
+                    <div class="comment-info">
+                        <div class="comment-author">Umar Azam</div>
+                        <div class="comment-title">Systems Integrator at OTTO by Rockwell Automation</div>
+                    </div>
+                </div>
+                <div class="comment-text">
+                    Wouldn't a 10x size increase cause a 10x compute+cost increase per query as well ?
+                </div>
+                <div class="comment-actions">
+                    <span class="comment-age">2y</span>
+                    <button class="comment-action">Like</button>
+                    <button class="comment-action">Reply</button>
+                </div>
+            </div>
+            
+            <div class="comment" style="margin-left: 24px; border-left: 2px solid var(--border-light); padding-left: 20px;">
+                <div class="comment-header">
+                    <div class="comment-avatar" style="background: linear-gradient(135deg, var(--linkedin-blue), #0077b5);">NM</div>
+                    <div class="comment-info">
+                        <div class="comment-author">Nauman Mustafa <span style="color: var(--text-muted); font-weight: normal;">• Author</span></div>
+                        <div class="comment-title">Sr. Machine Learning Engineer @ Autify</div>
+                    </div>
+                </div>
+                <div class="comment-text">
+                    yup, usually the relationship is not linear, especially at this scale, the cost per query could go 20 to 50x.
+                </div>
+                <div class="comment-actions">
+                    <span class="comment-age">2y</span>
+                    <button class="comment-action">Like</button>
+                    <button class="comment-action">Reply</button>
+                </div>
+            </div>
+        </div>
+        
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7022084803038511104/" target="_blank" class="original-post-btn">
+            <i class="fab fa-linkedin"></i>
+            <span>View Original Post</span>
+        </a>
+    </div>
+    
+    <script src="/lib/theme-switch.js"></script>
+    <script>
+        // Make hashtags clickable but do nothing
+        document.querySelectorAll('.hashtag').forEach(hashtag => {
+            hashtag.addEventListener('click', function(e) {
+                e.preventDefault();
+                // Do nothing - hashtags look like links but don't navigate
+            });
+        });
+        
+        // Add interaction to action buttons
+        document.querySelectorAll('.action-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Simple visual feedback
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                }, 150);
+            });
+        });
+        
+        // Dynamic age calculation
+        (function() {
+            function calculatePostAge() {
+                // Post was created in January 2023 (let's assume January 15, 2023)
+                const postDate = new Date('2023-01-15');
+                const currentDate = new Date();
+                
+                const diffTime = Math.abs(currentDate - postDate);
+                const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                const diffWeeks = Math.floor(diffDays / 7);
+                const diffMonths = Math.floor(diffDays / 30);
+                const diffYears = Math.floor(diffDays / 365);
+                
+                let shortAge, longAge;
+                
+                if (diffYears >= 1) {
+                    shortAge = `${diffYears}y`;
+                    longAge = diffYears === 1 ? '1 year ago' : `${diffYears} years ago`;
+                } else if (diffMonths >= 1) {
+                    shortAge = `${diffMonths}mo`;
+                    longAge = diffMonths === 1 ? '1 month ago' : `${diffMonths} months ago`;
+                } else if (diffWeeks >= 1) {
+                    shortAge = `${diffWeeks}w`;
+                    longAge = diffWeeks === 1 ? '1 week ago' : `${diffWeeks} weeks ago`;
+                } else {
+                    shortAge = `${diffDays}d`;
+                    longAge = diffDays === 1 ? '1 day ago' : `${diffDays} days ago`;
+                }
+                
+                // Update post age
+                const postAgeShort = document.getElementById('post-age-short');
+                const postAgeLong = document.getElementById('post-age-long');
+                if (postAgeShort) postAgeShort.textContent = shortAge;
+                if (postAgeLong) postAgeLong.textContent = longAge;
+                
+                // Update comment ages (comments are roughly the same age as the post)
+                document.querySelectorAll('.comment-age').forEach(commentAge => {
+                    commentAge.textContent = shortAge;
+                });
+            }
+            
+            // Calculate age on page load
+            calculatePostAge();
+        })();
+    </script>
+</body>
+</html>
