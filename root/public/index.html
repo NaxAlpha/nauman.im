@@ -43,6 +43,7 @@
             color: var(--text-color);
             background-color: var(--bg-color);
             transition: background-color 0.3s ease, color 0.3s ease;
+            font-size: 18px;
         }
         
         .container {
@@ -100,10 +101,10 @@
         }
         
         .profile h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             color: var(--heading-color);
-            margin-bottom: 10px;
-            font-weight: 700;
+            margin-bottom: 15px;
+            font-weight: 800;
         }
         
         .contact-info {
@@ -111,7 +112,7 @@
             flex-wrap: wrap;
             justify-content: center;
             gap: 15px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
         
         .contact-item {
@@ -121,7 +122,7 @@
             padding: 5px 10px;
             background-color: var(--secondary-bg);
             border-radius: 20px;
-            font-size: 0.9rem;
+            font-size: 1rem;
         }
         
         .contact-item i {
@@ -169,29 +170,32 @@
         
         h2 {
             color: var(--heading-color);
-            font-size: 1.8rem;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
             border-bottom: 2px solid var(--accent-color);
+            line-height: 1.2;
         }
         
         h3 {
             color: var(--heading-color);
-            font-size: 1.4rem;
-            margin: 15px 0 10px;
+            font-size: 1.6rem;
+            margin: 20px 0 15px;
+            font-weight: 600;
+            line-height: 1.3;
         }
         
         ul, ol {
-            margin-left: 20px;
-            margin-bottom: 15px;
+            margin-left: 25px;
+            margin-bottom: 20px;
         }
         
         li {
-            margin-bottom: 8px;
+            margin-bottom: 10px;
         }
         
         ul ul, ol ol, ul ol, ol ul {
-            margin-top: 8px;
+            margin-top: 10px;
         }
         
         a {
@@ -205,18 +209,38 @@
         }
         
         .job-title {
-            font-weight: 600;
+            font-weight: 700;
             color: var(--heading-color);
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
+            font-size: 1.4rem;
         }
         
         .job-meta {
-            font-size: 0.9rem;
+            font-size: 1rem;
             color: var(--text-color);
             opacity: 0.8;
+            margin-bottom: 15px;
+        }
+        
+        .skill {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 10px;
+        }
+        
+        .project-description {
+            font-size: 1.1rem;
+            color: var(--text-color);
+            margin-bottom: 15px;
+        }
+        
+        .job-description {
+            font-size: 1.1rem;
+            color: var(--text-color);
             margin-bottom: 15px;
         }
         
@@ -257,45 +281,45 @@
                 <section id="about">
                     <h2>About Me</h2>
                     <ul>
-                        <li>Sr. Vibe Coder (prev. Sr. Machine Learning Engineer)</li>
-                        <li>7+ years of industry experience.
+                        <li class="skill">Sr. Vibe Coder (prev. Sr. Machine Learning Engineer)</li>
+                        <li class="job-description">7+ years of industry experience.
                             <ul>
-                                <li>6 years of experience in Machine Learning Engineering</li>
-                                <li>2 years of experience vibe coding product PoCs</li>
+                                <li class="job-description">6 years of experience in Machine Learning Engineering</li>
+                                <li class="job-description">2 years of experience vibe coding product PoCs</li>
                             </ul>
                         </li>
-                        <li>My Skillset includes:
+                        <li class="job-description">My Skillset includes:
                             <ul>
-                                <li>Python</li>
-                                <li>Pytorch</li>
-                                <li>Docker</li>
-                                <li>FastAPI</li>
-                                <li>Google Cloud</li>
-                                <li>Prompt Engineering</li>
+                                <li class="skill">Python</li>
+                                <li class="skill">Pytorch</li>
+                                <li class="skill">Docker</li>
+                                <li class="skill">FastAPI</li>
+                                <li class="skill">Google Cloud</li>
+                                <li class="skill">Prompt Engineering</li>
                             </ul>
                         </li>
-                        <li>Technical solutions I built:
+                        <li class="job-description">Technical solutions I built:
                             <ul>
-                                <li>OCR</li>
-                                <li>Computer Vision</li>
-                                <li>Natural Language Processing</li>
-                                <li>Transformers (Deep Learning) Modelling</li>
-                                <li>Training and Fine-tuning</li>
-                                <li>Large Language Models</li>
+                                <li class="skill">OCR</li>
+                                <li class="skill">Computer Vision</li>
+                                <li class="skill">Natural Language Processing</li>
+                                <li class="skill">Transformers (Deep Learning) Modelling</li>
+                                <li class="skill">Training and Fine-tuning</li>
+                                <li class="skill">Large Language Models</li>
                             </ul>
                         </li>
-                        <li>Industry domains I have worked in:
+                        <li class="job-description">Industry domains I have worked in:
                             <ul>
-                                <li>Retail
+                                <li class="skill">Retail
                                     <ul>
-                                        <li>Receipt Scanning</li>
+                                        <li class="skill">Receipt Scanning</li>
                                     </ul>
                                 </li>
-                                <li>Software Testing
+                                <li class="skill">Software Testing
                                     <ul>
-                                        <li>Visual Testing</li>
-                                        <li>e2e Test Generation</li>
-                                        <li>Source code analysis</li>
+                                        <li class="skill">Visual Testing</li>
+                                        <li class="skill">e2e Test Generation</li>
+                                        <li class="skill">Source code analysis</li>
                                     </ul>
                                 </li>
                             </ul>
@@ -308,7 +332,9 @@
                 <section id="projects">
                     <h2>Personal Projects</h2>
                     <ul>
-                        <li><a href="https://naxalpha.substack.com/p/a-quest-for-very-long-context-part" target="_blank">Long Pythia (April 2024)</a> - Explored token length extension when it was common to have 2048 or 4096 context length.</li>
+                        <li><a href="https://naxalpha.substack.com/p/a-quest-for-very-long-context-part" target="_blank">Long Pythia (April 2024)</a> 
+                            <p class="project-description">Explored token length extension when it was common to have 2048 or 4096 context length.</p>
+                        </li>
                     </ul>
                 </section>
                 
@@ -322,59 +348,59 @@
                             <span><i class="fas fa-map-marker-alt"></i> Tokyo, Japan</span>
                         </div>
                         <ul>
-                            <li>(Jan 2025 - June 2025) Bootstrapped project Lexa:
+                            <li class="job-description">(Jan 2025 - June 2025) Bootstrapped project Lexa:
                                 <ul>
-                                    <li>Generate PRD from Source Code</li>
-                                    <li>Vibe-coded entire desktop app using cursor in Swift UI</li>
-                                    <li>Vibe-migrated the desktop app to Electron for multiple platforms</li>
+                                    <li class="job-description">Generate PRD from Source Code</li>
+                                    <li class="job-description">Vibe-coded entire desktop app using cursor in Swift UI</li>
+                                    <li class="job-description">Vibe-migrated the desktop app to Electron for multiple platforms</li>
                                 </ul>
                             </li>
-                            <li>(Jan 2024 - Dec 2024) Bootstrapped project Genesis:
+                            <li class="job-description">(Jan 2024 - Dec 2024) Bootstrapped project Genesis:
                                 <ul>
-                                    <li>Designed Prompts for the following:
+                                    <li class="job-description">Designed Prompts for the following:
                                         <ul>
-                                            <li>Generate Test Cases from PRD</li>
-                                            <li>Generate Test Scenarios from Test Cases</li>
-                                            <li>Generate Playwright code from Test Scenarios using Agentic AI</li>
+                                            <li class="job-description">Generate Test Cases from PRD</li>
+                                            <li class="job-description">Generate Test Scenarios from Test Cases</li>
+                                            <li class="job-description">Generate Playwright code from Test Scenarios using Agentic AI</li>
                                         </ul>
                                     </li>
-                                    <li>Build Backend/frontend using LLMs</li>
+                                    <li class="job-description">Build Backend/frontend using LLMs</li>
                                 </ul>
                             </li>
-                            <li>(July 2023 - Dec 2023) Developed Step Suggestion Chrome Extension:
+                            <li class="job-description">(July 2023 - Dec 2023) Developed Step Suggestion Chrome Extension:
                                 <ul>
-                                    <li>Wrote frontend code in PReact</li>
-                                    <li>Wrote Backend in Python/FastAPI</li>
-                                    <li>Developed the algorithm to slim down the HTML</li>
-                                    <li>Designed the prompt to provide next step suggestions based on current page</li>
+                                    <li class="job-description">Wrote frontend code in PReact</li>
+                                    <li class="job-description">Wrote Backend in Python/FastAPI</li>
+                                    <li class="job-description">Developed the algorithm to slim down the HTML</li>
+                                    <li class="job-description">Designed the prompt to provide next step suggestions based on current page</li>
                                 </ul>
                             </li>
-                            <li>(Jan 2022 - June 2023) Core Deep Learning Work
+                            <li class="job-description">(Jan 2022 - June 2023) Core Deep Learning Work
                                 <ul>
-                                    <li>Developed MLUI, an ensemble of ML models for parsing screenshot of mobile apps
+                                    <li class="job-description">Developed MLUI, an ensemble of ML models for parsing screenshot of mobile apps
                                         <ul>
-                                            <li>A custom OCR model based on encoder-decoder transformer architecture trained on synthetic data</li>
-                                            <li>Retina net fine-tuned on rico + internal dataset for detecting UI elements</li>
-                                            <li>A post processing model to merge the output of the above two models</li>
+                                            <li class="job-description">A custom OCR model based on encoder-decoder transformer architecture trained on synthetic data</li>
+                                            <li class="job-description">Retina net fine-tuned on rico + internal dataset for detecting UI elements</li>
+                                            <li class="job-description">A post processing model to merge the output of the above two models</li>
                                         </ul>
                                     </li>
-                                    <li>Deployment of MLUI at scale on GKE using cost-effective GPU & queue optimizations</li>
-                                    <li>Explored Reinforcement Learning for automated testing</li>
+                                    <li class="job-description">Deployment of MLUI at scale on GKE using cost-effective GPU & queue optimizations</li>
+                                    <li class="job-description">Explored Reinforcement Learning for automated testing</li>
                                 </ul>
                             </li>
-                            <li>(Jan 2021 - Dec 2021) Built the baseline ML Infrastructure at Autify
+                            <li class="job-description">(Jan 2021 - Dec 2021) Built the baseline ML Infrastructure at Autify
                                 <ul>
-                                    <li>Set up Google Cloud GKE for ML Deployment</li>
-                                    <li>Set up pipeline for VRT (Visual Regression Testing) algorithm deployment at scale on GKE</li>
-                                    <li>Fine-tuned Adobe Semantic Web Segmentation model</li>
-                                    <li>Explored Visual Self-Healing using Template Matching</li>
+                                    <li class="job-description">Set up Google Cloud GKE for ML Deployment</li>
+                                    <li class="job-description">Set up pipeline for VRT (Visual Regression Testing) algorithm deployment at scale on GKE</li>
+                                    <li class="job-description">Fine-tuned Adobe Semantic Web Segmentation model</li>
+                                    <li class="job-description">Explored Visual Self-Healing using Template Matching</li>
                                 </ul>
                             </li>
-                            <li>(May 2020 - Dec 2020) Early Exploration of Application of ML on Web Apps
+                            <li class="job-description">(May 2020 - Dec 2020) Early Exploration of Application of ML on Web Apps
                                 <ul>
-                                    <li>Implemented OpenCV-based web screenshot comparison</li>
-                                    <li>Fine-tuned BERT on HTML data</li>
-                                    <li>Optimized the weights of an internal feature extraction algorithm using evolutionary algorithms</li>
+                                    <li class="job-description">Implemented OpenCV-based web screenshot comparison</li>
+                                    <li class="job-description">Fine-tuned BERT on HTML data</li>
+                                    <li class="job-description">Optimized the weights of an internal feature extraction algorithm using evolutionary algorithms</li>
                                 </ul>
                             </li>
                         </ul>
