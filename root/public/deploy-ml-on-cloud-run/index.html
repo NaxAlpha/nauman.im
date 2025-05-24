@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deploy Machine Learning Model in Google Cloud using Cloud Run - Nauman Mustafa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Dark Mode</span>
+    </div>
+    
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <a href="https://medium.datadriveninvestor.com/" target="_blank" class="original-post-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Read Original on Medium</span>
+                </a>
+                
+                <h1 class="hero-title">Deploy Machine Learning Model</h1>
+                <h2 class="hero-subtitle">in Google Cloud using Cloud Run</h2>
+                
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>Nauman Mustafa</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-newspaper"></i>
+                        <span>DataDrivenInvestor</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>Apr 20, 2019</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>4 min read</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+            
+            <article class="article">
+                <p>You are a hobbyist Machine Learning developer. You come across tons of exciting news related to artificial intelligence. You followed online tutorials and built something cool. Next, you want to show your creation to the world.</p>
+
+                <p>If you have been in this situation, you know there are very less number of options available to you. But this might change in the future. Because Google recently announced changes to its cloud platform.</p>
+
+                <div class="intro-highlight">
+                    <h3>
+                        <i class="fas fa-rocket"></i>
+                        Cloud Run is the Game Changer
+                    </h3>
+                    <p>Cloud Run is one of the most exciting additions to its platform. In this article, we will deploy an open source pre-trained deep learning model on Cloud Run.</p>
+                </div>
+
+                <div class="setup-box">
+                    <h3>
+                        <i class="fab fa-google"></i>
+                        Getting Started with Google Cloud
+                    </h3>
+                    <p>If you do not have an active Google Cloud account, you can sign up <a href="https://cloud.google.com/" target="_blank">here</a>. If you are a new user, you will get 300$ free credits for one year. Once ready you can start Cloud Shell.</p>
+                </div>
+
+                <img src="./img1.webp" alt="Start Cloud Shell From Top Right Icon" class="tutorial-image">
+                <p class="image-caption">Start Cloud Shell From Top Right Icon</p>
+
+                <p>For the sake of this tutorial, we will use existing deep learning project from GitHub and deploy it to Cloud Run. I created a <a href="https://github.com/NaxAlpha/gpt-2xy" target="_blank">sample project</a> which uses <a href="https://github.com/huggingface/transformers" target="_blank">HuggingFace's Pytorch implementation</a> of GPT-2.</p>
+
+                <h2>Into The Code</h2>
+
+                <p>If you want to deploy to Cloud Run, you can skip this section. Otherwise, you can stick here and see the code in action. index.html contains user interface code.</p>
+
+                <img src="./img2.webp" alt="Minimal Web User Interface for GPT-2" class="tutorial-image">
+                <p class="image-caption">Minimal Web User Interface for GPT-2</p>
+
+                <p>In model.py, I have implemented the logic to extend text using GPT-2 model.</p>
+
+                <img src="./img3.webp" alt="Load and Test Model by Extending Simple Text Phrase" class="tutorial-image">
+                <p class="image-caption">Load and Test Model by Extending Simple Text Phrase</p>
+
+                <p>And finally, create a flask server to serve requests (in main.py):</p>
+
+                <img src="./img4.webp" alt="Web Server Code: For User Interface and API to Do the Fun Stuff" class="tutorial-image">
+                <p class="image-caption">Web Server Code: For User Interface and API to Do the Fun Stuff</p>
+
+                <div class="requirements-box">
+                    <h3>
+                        <i class="fas fa-list"></i>
+                        Requirements
+                    </h3>
+                    <p>You can test it by first installing the following requirements:</p>
+                    <ul>
+                        <li>Pytorch (CPU version will work just fine)</li>
+                        <li>transformers</li>
+                        <li>flask</li>
+                    </ul>
+                    <p>Once ready, you can start the server by: <code class="code-inline">python main.py</code></p>
+                </div>
+
+                <div class="docker-section">
+                    <h3>
+                        <i class="fab fa-docker"></i>
+                        Containerizing with Docker
+                    </h3>
+                    <p>Next, we need to build a Docker image for our project. So that we can deploy it to Cloud Run. I have created the following Dockerfile which uses python:3 as a base image, installs dependencies and runs our server.</p>
+                </div>
+
+                <img src="./img5.webp" alt="Dockerfile to Deploy to Cloud Run" class="tutorial-image">
+                <p class="image-caption">Dockerfile to Deploy to Cloud Run</p>
+
+                <div class="cloud-shell-section">
+                    <h3>
+                        <i class="fas fa-terminal"></i>
+                        Building in Cloud Shell
+                    </h3>
+                    <p>You can build docker image locally on your system and then push it to Google Cloud. But if you have slow internet, it can take quite some time. So for this step, we will use Cloud Shell.</p>
+                    
+                    <p>You will need your project ID for the following steps. To see your project ID in Cloud Shell, use the following command:</p>
+                    
+                    <div class="command-block">
+                        <code>gcloud config list --format 'value(core.project)' 2>/dev/null</code>
+                    </div>
+                </div>
+
+                <div class="steps-container">
+                    <h3>
+                        <i class="fas fa-cogs"></i>
+                        Docker Setup Steps
+                    </h3>
+                    <p>Follow these steps to setup docker image: (make sure to replace [PROJECT_ID] with your cloud project ID.)</p>
+                    
+                    <div class="step-grid">
+                        <div class="step-item">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Clone Repository</h4>
+                                <code>git clone https://github.com/NaxAlpha/gpt-2xy</code>
+                            </div>
+                        </div>
+                        
+                        <div class="step-item">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Go to Source Directory</h4>
+                                <code>cd gpt-2xy</code>
+                            </div>
+                        </div>
+                        
+                        <div class="step-item">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Build Docker Image</h4>
+                                <code>docker build -t gcr.io/[PROJECT_ID]/gpt-2xy .</code>
+                            </div>
+                        </div>
+                        
+                        <div class="step-item">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Configure Docker for Google Cloud</h4>
+                                <code>gcloud auth configure-docker</code>
+                            </div>
+                        </div>
+                        
+                        <div class="step-item">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Push Image</h4>
+                                <code>docker push gcr.io/[PROJECT_ID]/gpt-2xy</code>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="success-indicator">
+                        <i class="fas fa-check-circle"></i>
+                        <p><strong>And you are all set!</strong></p>
+                    </div>
+                </div>
+
+                <h2>Deploying to Cloud Run</h2>
+
+                <p>From the top left icon, go to Cloud Run page</p>
+
+                <img src="./img6.webp" alt="Navigate to Cloud Run" class="tutorial-image">
+                <p class="image-caption">Navigate to Cloud Run from the Google Cloud Console</p>
+
+                <p>Then click on create service:</p>
+
+                <img src="./img7.webp" alt="Create Service Button" class="tutorial-image">
+                <p class="image-caption">Click Create Service to start deployment</p>
+
+                <div class="warning-box">
+                    <h3>
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Important Configuration
+                    </h3>
+                    <p>Do not forget to enable <strong>Allow unauthenticated invocations</strong>. And then click on <strong>Show Optional Settings</strong>.</p>
+                </div>
+
+                <p>Next change Memory to 2GB and other settings as following (it is also recommended to set CPUs to 2 which will make it faster):</p>
+
+                <img src="./img8.webp" alt="Optional Settings Configuration" class="tutorial-image">
+                <p class="image-caption">Configure memory, CPU, and other optional settings</p>
+
+                <div class="deployment-process">
+                    <h3>
+                        <i class="fas fa-play"></i>
+                        Deployment Process
+                    </h3>
+                    <p>Click <strong>Create</strong> and it will take some time, once done you are ready to go.</p>
+                </div>
+
+                <div class="custom-domain-info">
+                    <h3>
+                        <i class="fas fa-globe"></i>
+                        Custom Domain (Optional)
+                    </h3>
+                    <p>You can also use domain/subdomain mapping. <s>I have deployed my own version here: https://gpt2.ai-demo.xyz/ and here is a sample</s> (<strong>Edit</strong> <em>May 2025</em>: Since it is a pretty old project, I have taken it down. You can still use the code to deploy your own version).</p>
+                </div>
+
+                <img src="./img9.webp" alt="Demo of the deployed application" class="tutorial-image">
+                <p class="image-caption">I just typed "Recently, tech giants" and rest is written by AI</p>
+
+                <div class="conclusion-box">
+                    <h3>
+                        <i class="fas fa-trophy"></i>
+                        Conclusion
+                    </h3>
+                    <p>I hope you enjoyed this tutorial. You can get the full source code <a href="https://github.com/NaxAlpha/gpt-2xy" target="_blank">here</a>. Let me know if I have any feedback related to my article. Also, stay tuned for future tutorials.</p>
+                </div>
+
+                <div class="update-section">
+                    <h3>
+                        <i class="fas fa-sync-alt"></i>
+                        Update (19-07-2020)
+                    </h3>
+                    <p>Many people reported issues with docker build so I updated the repo to latest version. If you want to skip building docker image, you can use pre built docker image from here. And use the following commands in Google Cloud shell to get your image ready:</p>
+                    
+                    <img src="./img10.webp" alt="Prebuilt Docker Image Commands" class="tutorial-image">
+                    <p class="image-caption">Commands to use the prebuilt docker image</p>
+                </div>
+
+                <div class="tags-section">
+                    <h3>
+                        <i class="fas fa-tags"></i>
+                        Topics
+                    </h3>
+                    <div class="tags">
+                        <span class="tag">Google Cloud Platform</span>
+                        <span class="tag">Deep Learning</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Cloud Computing</span>
+                        <span class="tag">Google Cloud Run</span>
+                    </div>
+                </div>
+            </article>
+            
+            <section class="comments-section">
+                <h2 class="comments-title">
+                    <i class="fas fa-comments"></i>
+                    Responses (1)
+                </h2>
+                
+                <div class="comment">
+                    <div class="comment-header">
+                        <div class="comment-avatar">CI</div>
+                        <div class="comment-meta">
+                            <div class="comment-author">Carlosiusalazar</div>
+                            <div class="comment-date">Jun 11, 2020</div>
+                        </div>
+                    </div>
+                    <div class="comment-content">
+                        Hi, I followed guide, used your docker and got this: Cloud Run error: Container failed to start. Failed to start and then listen on the port defined by the PORT environment variable. Logs for this revision might contain more information.
+                    </div>
+                    
+                    <div class="comment-reply">
+                        <div class="comment-header">
+                            <div class="comment-avatar">NM</div>
+                            <div class="comment-meta">
+                                <div class="comment-author">Nauman Mustafa <span style="color: var(--text-muted); font-weight: normal; font-size: 0.9em;">Author</span></div>
+                                <div class="comment-date">Jul 19, 2020</div>
+                            </div>
+                        </div>
+                        <div class="comment-content">
+                            Hi Carl, I have updated the repo to latest version. You can use the latest docker image from here. i.e.:<br>
+                            <code>docker pull docker.pkg.github.com/naxalpha/gpt-2xy/gpt-2xy:latest</code><br>
+                            <code>docker tag docker.pkg.github.com/naxalpha/gpt-2xy/gpt-2xy:latest gcr.io/[YOUR-PROJECT]/gpt-2xy</code><br>
+                            <code>docker push gcr.io/[YOUR-PROJECT]/gpt-2xy</code>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="/lib/theme-switch.js"></script>
+</body>
+</html>

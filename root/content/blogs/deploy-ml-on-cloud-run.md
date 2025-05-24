@@ -128,7 +128,7 @@ Written by Nauman Mustafa
 95 followers
 ·
 85 following
-MLE @ autify.com
+Sr. Vibe Coder
 
 Follow
 
