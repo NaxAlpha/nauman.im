@@ -46,6 +46,8 @@
 
 - [Long Pythia (April 2023)](/long-pythia) Explored token length extension when it was common to have 2048 or 4096 context length.
 
+- [Cloud Run (April 2019)](/google-cloud-run) Explored Google's revolutionary serverless container platform and its comparison with traditional serverless and container technologies.
+
 - [Deep Learning in Cloud (March 2019)](/deep-learning-in-cloud) Explored the cloud computing options for deep learning.
 
 ## Professional Experience
@@ -86,4 +88,3 @@
     - Implemented OpenCV-based web screenshot comparison
     - Fine-tuned BERT on HTML data
     - Optimized the weights of an internal feature extraction algorithm using evolutionary algorithms
-

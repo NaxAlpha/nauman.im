@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Run — Future Tech Brought to you by Google - Nauman Mustafa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Dark Mode</span>
+    </div>
+    
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <a href="https://medium.datadriveninvestor.com/" target="_blank" class="original-post-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Read Original on Medium</span>
+                </a>
+                
+                <h1 class="hero-title">Cloud Run</h1>
+                <h2 class="hero-subtitle">Future Tech Brought to you by Google</h2>
+                
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>Nauman Mustafa</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-newspaper"></i>
+                        <span>DataDrivenInvestor</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>Apr 14, 2019</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>4 min read</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+            
+            <article class="article">
+                <p>Google Cloud Platform is one of the leading cloud platforms. It is the fastest growing platform right now. One of the major feature GCP offers compared to other cloud platforms is simplicity. As a developer or a DevOps engineer, all you have, the least steep learning curve. All you have to do is perform a few clicks and you are ready to go, you can do complex configurations later on.</p>
+
+                <img src="./img1.webp" alt="Google Cloud Growth Chart" class="cloud-image">
+                <p class="image-caption">Google Cloud has highest Annual Growth: <a href="https://www.canalys.com/newsroom/cloud-market-share-q4-2018-and-full-year-2018" target="_blank">Article</a></p>
+
+                <p>Recently Google had its Google Next 2019, where they announced the latest changes to their cloud platform. There are many great services and products to try out. I will be focusing on one of the coolest product they announced: <strong>Cloud Run</strong>.</p>
+
+                <h2>The Evolution of Computing</h2>
+
+                <div class="tech-comparison">
+                    <div class="tech-card serverless">
+                        <i class="fas fa-bolt tech-icon"></i>
+                        <h3 class="tech-title">Serverless Computing</h3>
+                        <p class="tech-description">Ever since its inception in the form of AWS Lambda, Serverless computing has become a defacto for building microservices which cost you only when you use them.</p>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4><i class="fas fa-check"></i> Pros</h4>
+                                <ul>
+                                    <li>Pay only when used</li>
+                                    <li>Auto-scaling</li>
+                                    <li>No server management</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4><i class="fas fa-times"></i> Cons</h4>
+                                <ul>
+                                    <li>Vendor lock-in</li>
+                                    <li>Limited language support</li>
+                                    <li>Strict project structure</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-card containers">
+                        <i class="fab fa-docker tech-icon"></i>
+                        <h3 class="tech-title">Containers</h3>
+                        <p class="tech-description">Containers have been very popular among people who want to ship their entire application as a single package with all the required dependencies in itself.</p>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4><i class="fas fa-check"></i> Pros</h4>
+                                <ul>
+                                    <li>Flexible project structure</li>
+                                    <li>Any language/framework</li>
+                                    <li>Portable across platforms</li>
+                                </ul>
+                            </div>
+                            <div class="cons">
+                                <h4><i class="fas fa-times"></i> Cons</h4>
+                                <ul>
+                                    <li>Always running (24/7 costs)</li>
+                                    <li>Server management needed</li>
+                                    <li>No scale-to-zero</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Unlike traditional hosting, where you have to manage always running VMs which scale up and down but cost you 24/7 when running, serverless only costs you when a user visits your website or your API is called.</p>
+
+                <p>Serverless is very popular right now but it has some major caveats. You have to follow the vendor's rules to configure your project structure. e.g. AWS says you have to structure your project in ABC ways in order for it to be run on AWS Lambda. Same goes for Google and other platforms. And then there is this problem of vendor lock-in, i.e. if you built your application for AWS Lambda, and want to move to GCP, good luck with that. Another problem is Language and Framework support which is certainly limited by each vendor.</p>
+
+                <p>On the other hand, containers also have been very popular among people who want to ship their entire application as a single package with all the required dependencies in itself. This provides the flexibility of configuring your own project structure as well as frameworks and libraries. Developers love containers because if it is working on my computer it will certainly work on others' as well :D. But again, their major problem is that they do not scale down to zero i.e. you will always have something running 24/7.</p>
+
+                <div class="highlight-box">
+                    <h3>
+                        <i class="fas fa-lightbulb"></i>
+                        The Perfect Combination
+                    </h3>
+                    <p>What if the pros of both serverless and containers are combined? Cloud Run is exactly what I have been looking for a long time. Let me package my application like a container but I also want to pay only when the user uses my container. So basically <strong>Cloud Run is serverless container platform</strong>.</p>
+                </div>
+
+                <h2>Real-World Example: Flask to Cloud Run</h2>
+
+                <p>If you use Python and built a web server using Flask, you must be hosting it on a server which is running 24/7 whether user visits or not. I tried to shift my Flask app to AWS Lambda, it was quite a hassle to use Chalice instead of Flask.</p>
+
+                <img src="./img2.webp" alt="Google Cloud Run" class="cloud-image">
+                <p class="image-caption">GCP: <a href="https://cloud.google.com/run" target="_blank">Cloud Run</a></p>
+
+                <div class="flask-example">
+                    <h3>
+                        <i class="fab fa-python"></i>
+                        From Flask to Cloud Run
+                    </h3>
+                    <p>But with Cloud Run, all I have to do is package my Flask application as a docker container and duh! It's running serverless.</p>
+                    
+                    <div class="comparison-grid">
+                        <div class="comparison-item traditional">
+                            <h4><i class="fas fa-server"></i> Traditional Flask</h4>
+                            <p>Always running, always billing</p>
+                        </div>
+                        <div class="comparison-item lambda">
+                            <h4><i class="fab fa-aws"></i> AWS Lambda</h4>
+                            <p>Need to restructure with Chalice</p>
+                        </div>
+                        <div class="comparison-item cloud-run">
+                            <h4><i class="fab fa-google"></i> Cloud Run</h4>
+                            <p>Just containerize your Flask app!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="dockerfile-container">
+                        <div class="dockerfile-header">
+                            <i class="fab fa-docker"></i>
+                            <span>Dockerfile</span>
+                        </div>
+                        <div class="code"><span class="code-comment"># Simple Dockerfile for Flask app</span>
+<span class="code-keyword">FROM</span> python:3.8-slim
+
+<span class="code-keyword">COPY</span> . /app
+<span class="code-keyword">WORKDIR</span> /app
+
+<span class="code-keyword">RUN</span> pip install -r requirements.txt
+
+<span class="code-keyword">CMD</span> [<span class="code-string">"python"</span>, <span class="code-string">"app.py"</span>]</div>
+                    </div>
+                    
+                    <div class="success-message">
+                        <i class="fas fa-check-circle"></i>
+                        <p><strong>That's it!</strong> Your Flask app now runs serverless on Cloud Run with zero code changes.</p>
+                    </div>
+                </div>
+
+                <div class="tech-comparison">
+                    <div class="tech-card cloud-run">
+                        <i class="fab fa-google tech-icon"></i>
+                        <h3 class="tech-title">Google Cloud Run</h3>
+                        <p class="tech-description">Revolutionary serverless container platform that combines the best of both worlds.</p>
+                        <div class="pros-cons">
+                            <div class="pros">
+                                <h4><i class="fas fa-check"></i> Benefits</h4>
+                                <ul>
+                                    <li>Package as Docker container</li>
+                                    <li>Pay only when used</li>
+                                    <li>Any language/framework</li>
+                                    <li>Zero vendor lock-in</li>
+                                    <li>Scale to zero</li>
+                                    <li>Easy deployment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-benefits">
+                    <div class="benefit-item">
+                        <i class="fas fa-rocket benefit-icon"></i>
+                        <h4 class="benefit-title">Easy Migration</h4>
+                        <p class="benefit-description">Move your existing applications without code changes</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-dollar-sign benefit-icon"></i>
+                        <h4 class="benefit-title">Cost Effective</h4>
+                        <p class="benefit-description">Pay only for actual usage, not idle time</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-expand-arrows-alt benefit-icon"></i>
+                        <h4 class="benefit-title">Auto-scaling</h4>
+                        <p class="benefit-description">Automatically scales from zero to handle any load</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-code benefit-icon"></i>
+                        <h4 class="benefit-title">Language Agnostic</h4>
+                        <p class="benefit-description">Support for any programming language or framework</p>
+                    </div>
+                </div>
+
+                <h2>Current Limitations</h2>
+
+                <p>Even though Cloud Run is a revolutionary tech for developers, it still has some major problems. One of the major limitations I face is computed resources. Just like any other serverless platform, Cloud Run's computer resources are very limited.</p>
+
+                <div class="limitations">
+                    <h3>
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Known Limitations
+                    </h3>
+                    <ul>
+                        <li><strong>Compute Resources:</strong> Limited CPU and memory allocation compared to traditional VMs</li>
+                        <li><strong>Stateless Nature:</strong> Containers cannot have persistent volumes attached</li>
+                        <li><strong>Cold Starts:</strong> Initial request may experience latency when scaling from zero</li>
+                        <li><strong>Request Timeout:</strong> Maximum request timeout limitations for long-running tasks</li>
+                    </ul>
+                    <p style="margin-top: 20px;">
+                        <strong>Note:</strong> You can use Cloud Run on GKE for more control, but that would not be 100% serverless and you'd lose the scale-to-zero benefit.
+                    </p>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>
+                        <i class="fas fa-lightbulb"></i>
+                        Future of Cloud Computing
+                    </h3>
+                    <p>Cloud Run represents a significant step forward in cloud computing, bridging the gap between serverless functions and container orchestration. It offers developers the flexibility they need while maintaining the cost benefits of serverless architecture. As the technology matures, we can expect many of the current limitations to be addressed, making it an even more compelling choice for modern applications.</p>
+                </div>
+
+                <p>Thanks for reading. In this article, I just wanted to highlight the new technology and its comparison with old tech. You can read my article on how to actually use docker to package your existing application and deploy it to Cloud Run here:</p>
+
+                <div class="key-benefits">
+                    <div class="benefit-item">
+                        <i class="fas fa-book benefit-icon"></i>
+                        <h4 class="benefit-title">Learn More</h4>
+                        <p class="benefit-description">Check out the official <a href="https://cloud.google.com/run/docs" target="_blank">Cloud Run documentation</a> to get started</p>
+                    </div>
+                </div>
+            </article>
+            
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="/lib/theme-switch.js"></script>
+</body>
+</html>
