@@ -6,356 +6,9 @@
     <title>A quest for very long context: Part 1 - Nauman Mustafa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        :root {
-            --bg-primary: #fafafa;
-            --bg-secondary: #ffffff;
-            --text-primary: #1a1a1a;
-            --text-secondary: #4a4a4a;
-            --text-muted: #6b7280;
-            --accent-primary: #2563eb;
-            --accent-secondary: #1d4ed8;
-            --border-light: #e5e7eb;
-            --border-medium: #d1d5db;
-            --code-bg: #f8fafc;
-            --blockquote-bg: #f1f5f9;
-            --blockquote-border: #64748b;
-            --shadow-light: rgba(0, 0, 0, 0.05);
-            --shadow-medium: rgba(0, 0, 0, 0.1);
-        }
-        
-        [data-theme="dark"] {
-            --bg-primary: #0f172a;
-            --bg-secondary: #1e293b;
-            --text-primary: #f8fafc;
-            --text-secondary: #cbd5e1;
-            --text-muted: #94a3b8;
-            --accent-primary: #3b82f6;
-            --accent-secondary: #60a5fa;
-            --border-light: #334155;
-            --border-medium: #475569;
-            --code-bg: #1e293b;
-            --blockquote-bg: #334155;
-            --blockquote-border: #64748b;
-            --shadow-light: rgba(0, 0, 0, 0.2);
-            --shadow-medium: rgba(0, 0, 0, 0.3);
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Source Serif 4', serif;
-            line-height: 1.7;
-            color: var(--text-primary);
-            background-color: var(--bg-primary);
-            transition: all 0.3s ease;
-            font-size: 18px;
-        }
-        
-        .theme-toggle {
-            position: fixed;
-            top: 24px;
-            right: 24px;
-            z-index: 1000;
-            background: var(--bg-secondary);
-            border: 1px solid var(--border-light);
-            border-radius: 12px;
-            padding: 12px 18px;
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-            box-shadow: 0 4px 12px var(--shadow-light);
-            font-size: 14px;
-            font-family: 'Source Code Pro', monospace;
-            transition: all 0.3s ease;
-        }
-        
-        .theme-toggle:hover {
-            box-shadow: 0 6px 20px var(--shadow-medium);
-            transform: translateY(-2px);
-        }
-        
-        .theme-toggle i {
-            margin-right: 8px;
-            color: var(--accent-primary);
-        }
-        
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-        
-        .article-header {
-            padding: 80px 0 60px;
-            text-align: center;
-            background: var(--bg-secondary);
-            border-bottom: 1px solid var(--border-light);
-        }
-        
-        .article-title {
-            font-size: 3rem;
-            color: var(--text-primary);
-            margin-bottom: 16px;
-            font-weight: 700;
-            line-height: 1.2;
-        }
-        
-        .article-subtitle {
-            font-size: 1.5rem;
-            color: var(--text-secondary);
-            margin-bottom: 32px;
-            font-weight: 400;
-            font-style: italic;
-        }
-        
-        .article-meta {
-            display: flex;
-            justify-content: center;
-            gap: 32px;
-            flex-wrap: wrap;
-            font-family: 'Source Code Pro', monospace;
-            font-size: 14px;
-            color: var(--text-muted);
-        }
-        
-        .meta-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        
-        .meta-item i {
-            color: var(--accent-primary);
-        }
-        
-        .article-content {
-            background: var(--bg-secondary);
-            margin: 40px 0;
-            padding: 60px;
-            border-radius: 16px;
-            box-shadow: 0 8px 32px var(--shadow-light);
-            border: 1px solid var(--border-light);
-        }
-        
-        .article-content h2 {
-            font-size: 2.2rem;
-            color: var(--text-primary);
-            margin: 48px 0 24px;
-            font-weight: 600;
-            line-height: 1.3;
-        }
-        
-        .article-content h2:first-child {
-            margin-top: 0;
-        }
-        
-        .article-content h3 {
-            font-size: 1.6rem;
-            color: var(--text-primary);
-            margin: 36px 0 18px;
-            font-weight: 600;
-            line-height: 1.4;
-        }
-        
-        .article-content p {
-            margin-bottom: 24px;
-            color: var(--text-primary);
-            text-align: justify;
-        }
-        
-        .article-content blockquote {
-            background: var(--blockquote-bg);
-            border-left: 4px solid var(--blockquote-border);
-            padding: 24px;
-            margin: 32px 0;
-            border-radius: 0 12px 12px 0;
-            font-style: italic;
-            color: var(--text-secondary);
-        }
-        
-        .article-content blockquote p {
-            margin-bottom: 12px;
-            font-size: 1.1rem;
-        }
-        
-        .article-content blockquote p:last-child {
-            margin-bottom: 0;
-        }
-        
-        .article-content a {
-            color: var(--accent-primary);
-            text-decoration: underline;
-            text-decoration-thickness: 2px;
-            text-underline-offset: 3px;
-            transition: all 0.3s ease;
-        }
-        
-        .article-content a:hover {
-            color: var(--accent-secondary);
-            text-decoration-thickness: 3px;
-        }
-        
-        .code-snippet {
-            font-family: 'Source Code Pro', monospace;
-            background: var(--code-bg);
-            padding: 4px 8px;
-            border-radius: 6px;
-            font-size: 0.9em;
-            border: 1px solid var(--border-light);
-        }
-        
-        .image-container {
-            margin: 48px 0;
-            text-align: center;
-        }
-        
-        .article-image {
-            max-width: 100%;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 8px 24px var(--shadow-medium);
-            border: 1px solid var(--border-light);
-        }
-        
-        .image-caption {
-            margin-top: 16px;
-            font-family: 'Source Code Pro', monospace;
-            font-size: 14px;
-            color: var(--text-muted);
-            font-style: italic;
-        }
-        
-        .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 16px 24px;
-            background: var(--bg-secondary);
-            border: 1px solid var(--border-light);
-            border-radius: 12px;
-            color: var(--text-primary);
-            text-decoration: none;
-            font-family: 'Source Code Pro', monospace;
-            font-size: 14px;
-            margin: 40px 0;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 12px var(--shadow-light);
-        }
-        
-        .back-link:hover {
-            background: var(--accent-primary);
-            color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px var(--shadow-medium);
-        }
-        
-        .back-link i {
-            transition: transform 0.3s ease;
-        }
-        
-        .back-link:hover i {
-            transform: translateX(-4px);
-        }
-        
-        .footer {
-            text-align: center;
-            padding: 40px 0;
-            border-top: 1px solid var(--border-light);
-            color: var(--text-muted);
-            font-family: 'Source Code Pro', monospace;
-            font-size: 14px;
-            background: var(--bg-secondary);
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 16px;
-            }
-            
-            .article-header {
-                padding: 60px 0 40px;
-            }
-            
-            .article-title {
-                font-size: 2.2rem;
-            }
-            
-            .article-subtitle {
-                font-size: 1.2rem;
-            }
-            
-            .article-meta {
-                gap: 16px;
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .article-content {
-                padding: 32px 24px;
-                margin: 24px 0;
-            }
-            
-            .article-content h2 {
-                font-size: 1.8rem;
-                margin: 36px 0 18px;
-            }
-            
-            .article-content h3 {
-                font-size: 1.4rem;
-                margin: 28px 0 14px;
-            }
-            
-            .theme-toggle {
-                top: 16px;
-                right: 16px;
-                padding: 10px 14px;
-            }
-            
-            body {
-                font-size: 16px;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            .article-title {
-                font-size: 1.8rem;
-            }
-            
-            .article-subtitle {
-                font-size: 1.1rem;
-            }
-            
-            .article-content {
-                padding: 24px 16px;
-            }
-            
-            .article-content h2 {
-                font-size: 1.6rem;
-            }
-            
-            .article-content h3 {
-                font-size: 1.3rem;
-            }
-        }
-        
-        @media (min-width: 1024px) {
-            .container {
-                padding: 0 32px;
-            }
-            
-            .article-content {
-                padding: 80px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="theme-toggle" id="theme-toggle">
@@ -364,22 +17,29 @@
     </div>
     
     <div class="container">
-        <header class="article-header">
-            <h1 class="article-title">A quest for very long context: Part 1</h1>
-            <h2 class="article-subtitle">A million or a billion tokens - How far can we go?</h2>
-            
-            <div class="article-meta">
-                <div class="meta-item">
-                    <i class="fas fa-user"></i>
-                    <span>The AI Dude</span>
-                </div>
-                <div class="meta-item">
-                    <i class="fas fa-calendar"></i>
-                    <span>Apr 30, 2023</span>
-                </div>
-                <div class="meta-item">
+        <header class="hero">
+            <div class="hero-content">
+                <a href="https://naxalpha.substack.com/p/a-quest-for-very-long-context-part" target="_blank" class="original-post-link">
                     <i class="fas fa-external-link-alt"></i>
-                    <span>Originally on <a href="https://naxalpha.substack.com/p/a-quest-for-very-long-context-part" target="_blank">Substack</a></span>
+                    <span>Read Original on Substack</span>
+                </a>
+                
+                <h1 class="hero-title">A quest for very long context: Part 1</h1>
+                <h2 class="hero-subtitle">A million or a billion tokens - How far can we go?</h2>
+                
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>The AI Dude</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>Apr 30, 2023</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>5 min read</span>
+                    </div>
                 </div>
             </div>
         </header>
@@ -390,13 +50,23 @@
                 <span>Back to Home</span>
             </a>
             
-            <article class="article-content">
-                <p>Since the announcement of GPT4-32k, I have been obsessed with very long sequence length for transformer models. I had <a href="/social/linkedin-gpt-4-rumers/">predicted</a> before the release of GPT-4 that it may have very long context length like 50k or above. While I did not get the number right, I think this is a good direction of the field. A lot of intelligence tasks requiring nuance need huge context and 1024 or 2048 tokens are not sufficient for that.</p>
-                
-                <p>In this series of essays, I will be sharing some of the techniques I have tried to work towards this goal. My goal was not to 'try out' the tricks available in existing literature but rather come up with novel methods so when doing the research or writing this essay, I did not come across any papers related to those techniques. If you know any such works, feel free to drop that in the comments.</p>
-                
-                <p>Also, these essays are not a very comprehensive academic works with ablation studies etc. Given my limited access to GPUs, I only did a few experiments in each direction and followed the promising directions.</p>
-                
+            <article class="article">
+                <div class="intro-section">
+                    <p>Since the announcement of GPT4-32k, I have been obsessed with very long sequence length for transformer models. I had <a href="/social/linkedin-gpt-4-rumers/">predicted</a> before the release of GPT-4 that it may have very long context length like 50k or above. While I did not get the number right, I think this is a good direction of the field. A lot of intelligence tasks requiring nuance need huge context and 1024 or 2048 tokens are not sufficient for that.</p>
+                    
+                    <p>In this series of essays, I will be sharing some of the techniques I have tried to work towards this goal. My goal was not to 'try out' the tricks available in existing literature but rather come up with novel methods so when doing the research or writing this essay, I did not come across any papers related to those techniques. If you know any such works, feel free to drop that in the comments.</p>
+                    
+                    <p>Also, these essays are not a very comprehensive academic works with ablation studies etc. Given my limited access to GPUs, I only did a few experiments in each direction and followed the promising directions.</p>
+                </div>
+
+                <div class="context-challenge-box">
+                    <h3>
+                        <i class="fas fa-expand-alt"></i>
+                        The Context Length Challenge
+                    </h3>
+                    <p>Traditional transformers are limited by <strong>quadratic memory growth</strong> with sequence length. Scaling from 2k to 8k tokens requires 16x more memory for attention operations, making long-context training extremely expensive and often infeasible on consumer hardware.</p>
+                </div>
+
                 <h3>Discrete Attention</h3>
                 
                 <p>The idea about Discrete Attention came from DiscreteVAE (that openAI used for DALLE-1) where continuous image single in the form of high dimensional latent vectors are converted into discrete tokens. The idea was to convert the embeddings from previous layer into discrete tokens before sending them to attention and then after attention, convert them again into the tokens of same space. This might allow the model to work with symbols in the intermediate layers instead of a very high dimensional continuous space. This allowed me to reduce the embedding size to 256 or 128 as we want to increase the context length so we need to reduce the memory.</p>
@@ -405,12 +75,70 @@
                 
                 <p>Since this experiment was a complete failure, I did not incorporate anything from this experiment into future ones.</p>
                 
+                <div class="technique-analysis">
+                    <div class="technique-card failed-technique">
+                        <div class="technique-header">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <h4>Why Discrete Attention Failed</h4>
+                        </div>
+                        <div class="technique-content">
+                            <div class="challenge-list">
+                                <div class="challenge-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span><strong>NaN Losses:</strong> Initial training produced unstable gradients</span>
+                                </div>
+                                <div class="challenge-item">
+                                    <i class="fas fa-snail"></i>
+                                    <span><strong>Slow Convergence:</strong> Limited workspace hindered model learning</span>
+                                </div>
+                                <div class="challenge-item">
+                                    <i class="fas fa-cogs"></i>
+                                    <span><strong>Failed Optimizations:</strong> Increasing vocab size and post-QKV conversion didn't help</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <h3>Flash Attention</h3>
                 
                 <p><a href="https://github.com/HazyResearch/flash-attention" target="_blank">Flash Attention</a> was a major breakthrough for the field of transformers when it was released. It allows linear memory growth for the attention operator which usually requires quadratic memory in relation to the context length.</p>
                 
                 <p>I put together some simple transformer architectures to test it out and it worked magically. While training from scratch is not a good idea, I could start training for various architectures with a context length of 8k on a single 16GB GPU. Next step was to figure out a way to utilize Flash Attention for a pretrained model</p>
                 
+                <div class="flash-attention-showcase">
+                    <div class="attention-comparison">
+                        <div class="attention-card traditional">
+                            <h4>Traditional Attention</h4>
+                            <div class="complexity">O(n²) Memory</div>
+                            <div class="limitation">Prohibitive for long sequences</div>
+                        </div>
+                        <div class="vs-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="attention-card flash">
+                            <h4>Flash Attention</h4>
+                            <div class="complexity">O(n) Memory</div>
+                            <div class="benefit">Enables 8k+ contexts</div>
+                        </div>
+                    </div>
+                    
+                    <div class="flash-benefits">
+                        <div class="benefit-item">
+                            <i class="fas fa-memory"></i>
+                            <span>Linear memory scaling</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Hardware-optimized implementation</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Drop-in replacement for standard attention</span>
+                        </div>
+                    </div>
+                </div>
+
                 <h3>Long GPT2</h3>
                 
                 <p>You can access the full code for this one <a href="https://gist.github.com/NaxAlpha/1c36eaddd03ed102d24372493264694c" target="_blank">here</a>.</p>
@@ -418,12 +146,12 @@
                 <p>I started with GPT-2. I patched its attention function to use Pytorch 2.0's flash attention. I also had to increase the size of positional embeddings to allow it to use the large context window. I simply repeated the embeddings N times that fit with the max context length.</p>
                 
                 <div class="image-container">
-                    <img src="./loss1.webp" alt="Loss curve for Long GPT-2 training" class="article-image">
+                    <img src="./loss1.webp" alt="Loss curve for Long GPT-2 training" class="training-image">
                     <div class="image-caption">Loss curve showing convergence of Long GPT-2 with 8k context length</div>
                 </div>
                 
                 <p>I was able to train the smallest GPT-2 with a context length of 8k on 16GB GPU. And as you can see from the loss curve. The model was convergying after seeing 8 billion tokens. Loss is ~4 which may look high but remember it is the smallest GPT-2. For larger models it would be much smaller.</p>
-                
+
                 <h3>Long Pythia</h3>
                 
                 <p>Code for this experiment is available <a href="https://gist.github.com/NaxAlpha/24e1488db24624656cd6646c2e190f53" target="_blank">here</a>.</p>
@@ -433,15 +161,131 @@
                 <p>Along with Flash Attention, I also added <a href="https://github.com/TimDettmers/bitsandbytes" target="_blank">bitsandbytes</a> for 8-bit training. I was able to fit 1.4b parameter model (which is equivalent to the largest GPT-2 model) with 8k context length on a single A100 (40GB) GPU.</p>
                 
                 <div class="image-container">
-                    <img src="./loss2.webp" alt="Loss curve for Long Pythia training" class="article-image">
+                    <img src="./loss2.webp" alt="Loss curve for Long Pythia training" class="training-image">
                     <div class="image-caption">Loss curve demonstrating faster convergence with Pythia architecture</div>
                 </div>
                 
                 <p>I started the training for 2k context to see the final loss which was around 2.1 as seen from the loss curve. It took around 30 hours of training to reach the same loss. Which means it is much easier to scale these pythia models to longer sequence length.</p>
-                
+
+                <h2>Model Comparison & Results</h2>
+
+                <div class="model-results">
+                    <div class="model-card gpt2">
+                        <div class="model-header">
+                            <div class="model-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div>
+                                <h4>Long GPT-2</h4>
+                                <span class="model-size">Small (124M params)</span>
+                            </div>
+                        </div>
+                        <div class="model-stats">
+                            <div class="stat">
+                                <span class="label">Context Length</span>
+                                <span class="value">8k tokens</span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Hardware</span>
+                                <span class="value">16GB GPU</span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Final Loss</span>
+                                <span class="value">~4.0</span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Tokens Seen</span>
+                                <span class="value">8B tokens</span>
+                            </div>
+                        </div>
+                        <div class="model-challenge">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Required positional embedding hacks</span>
+                        </div>
+                    </div>
+
+                    <div class="model-card pythia">
+                        <div class="model-header">
+                            <div class="model-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <div>
+                                <h4>Long Pythia</h4>
+                                <span class="model-size">Medium (1.4B params)</span>
+                            </div>
+                        </div>
+                        <div class="model-stats">
+                            <div class="stat">
+                                <span class="label">Context Length</span>
+                                <span class="value">8k tokens</span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Hardware</span>
+                                <span class="value">A100 40GB</span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Final Loss</span>
+                                <span class="value">~2.1</span>
+                            </div>
+                            <div class="stat">
+                                <span class="label">Training Time</span>
+                                <span class="value">30 hours</span>
+                            </div>
+                        </div>
+                        <div class="model-advantage">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Rotary embeddings - no position limits</span>
+                        </div>
+                    </div>
+                </div>
+
                 <p>In summary, I did a variety of experiments to scale the context length of transformers. I think given their unique architecture, Pythia models are well suited for scaling the context length. This also provides as evidence that we can actually train a model on small context length and then later scale the context length to larger window. This has not been previously explored but gradually increasing the context window could be a promising direction to explore. While the max context length I was able to reach was 8k, I think it should be possible to go beyond for larger models with more GPUs like 16xA100s.</p>
-                
+
+                <div class="breakthrough-box">
+                    <h3>
+                        <i class="fas fa-lightbulb"></i>
+                        Key Insights & Breakthroughs
+                    </h3>
+                    <div class="insights-grid">
+                        <div class="insight-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h5>Gradual Context Scaling</h5>
+                            <p>Train on short context first, then gradually increase - unexplored but promising approach</p>
+                        </div>
+                        <div class="insight-item">
+                            <i class="fas fa-cog"></i>
+                            <h5>Architecture Matters</h5>
+                            <p>Pythia's rotary embeddings make it naturally suited for context length scaling</p>
+                        </div>
+                        <div class="insight-item">
+                            <i class="fas fa-memory"></i>
+                            <h5>Memory Optimization</h5>
+                            <p>Flash Attention + 8-bit training enables large models on modest hardware</p>
+                        </div>
+                        <div class="insight-item">
+                            <i class="fas fa-rocket"></i>
+                            <h5>Scaling Potential</h5>
+                            <p>8k achieved on single GPU - 16xA100 setup could reach much higher</p>
+                        </div>
+                    </div>
+                </div>
+
                 <p>Thanks for reading, I hope you enjoyed, stay tuned for future essays in this series.</p>
+
+                <div class="tags-section">
+                    <h3>
+                        <i class="fas fa-tags"></i>
+                        Topics
+                    </h3>
+                    <div class="tags">
+                        <span class="tag">Transformers</span>
+                        <span class="tag">Long Context</span>
+                        <span class="tag">Flash Attention</span>
+                        <span class="tag">GPT-2</span>
+                        <span class="tag">Pythia</span>
+                        <span class="tag">Memory Optimization</span>
+                    </div>
+                </div>
             </article>
             
             <a href="../" class="back-link">
