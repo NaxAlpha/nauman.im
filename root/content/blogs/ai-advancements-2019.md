@@ -1,3 +1,4 @@
+https://becominghuman.ai/some-of-the-recent-advances-in-the-field-of-artificial-intelligence-4057e4fa4afb
 Some of the Recent Advancements in the Field of Artificial Intelligence
 Nauman Mustafa
 Nauman Mustafa
