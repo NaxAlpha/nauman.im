@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting the Most Out of Pre-trained Models - Nauman Mustafa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Dark Mode</span>
+    </div>
+    
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <div class="toptal-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Featured on Toptal</span>
+                </div>
+                
+                <a href="https://www.toptal.com/deep-learning/exploring-pre-trained-models" target="_blank" class="original-post-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Read Original on Toptal</span>
+                </a>
+                
+                <h1 class="hero-title">Getting the Most Out of Pre-trained Models</h1>
+                <h2 class="hero-subtitle">Exploring NLP Models That Bring AI Within Reach</h2>
+                
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user-tie"></i>
+                        <span>Nauman Mustafa</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-building"></i>
+                        <span>Toptal Expert</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>2019</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>8 min read</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+            
+            <article class="article">
+                <div class="intro-section">
+                    <p>Pre-trained models are making waves in the deep learning world. Using massive pre-training datasets, these NLP models bring previously unheard-of feats of AI within the reach of app developers.</p>
+                </div>
+
+                <div class="expert-verification">
+                    <div class="expert-badge">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="expert-info">
+                            <h4>Verified Expert in Engineering</h4>
+                            <p>Authors are vetted experts in their fields and write on topics in which they have demonstrated experience. All content is peer reviewed and validated by Toptal experts.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Most of the new deep learning models being released, <a href="https://towardsdatascience.com/a-review-of-bert-based-models-4ffdc0f15d58" target="_blank">especially in NLP</a>, are very, very large: They have parameters ranging from hundreds of millions to <a href="https://github.com/microsoft/DeepSpeed" target="_blank">tens of billions</a>.</p>
+
+                <p>Given good enough architecture, <a href="https://arxiv.org/abs/2001.08361" target="_blank">the larger the model</a>, the more learning capacity it has. Thus, these new models have huge learning capacity and are trained on <a href="https://www.tensorflow.org/datasets/catalog/c4" target="_blank">very, very large datasets</a>.</p>
+
+                <p>Because of that, they learn the entire distribution of the datasets they are trained on. One can say that they encode compressed knowledge of these datasets. This allows these models to be used for very interesting applications—the most common one being <a href="https://www.toptal.com/natural-language-processing/accelerate-with-bert-nlp-optimization-models" target="_blank">transfer learning</a>. Transfer learning is fine-tuning pre-trained models on <a href="https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a" target="_blank">custom datasets/tasks</a>, which requires far less data, and models converge very quickly compared to training from scratch.</p>
+
+                <h2>How Pre-trained Models Are the Algorithms of the Future</h2>
+                
+                <p>Although pre-trained models are also used in computer vision, this article will focus on their cutting-edge use in the <a href="https://www.toptal.com/natural-language-processing" target="_blank">natural language processing</a> (NLP) domain. <a href="http://jalammar.github.io/illustrated-transformer/" target="_blank">Transformer architecture</a> is the most common and most powerful architecture that is being used in these models.</p>
+
+                <div class="transformer-showcase">
+                    <h3>
+                        <i class="fas fa-brain"></i>
+                        The Transformer Architecture
+                    </h3>
+                    <div class="transformer-content">
+                        <img src="./atten.png" alt="Transformer Architecture" class="transformer-image">
+                        <div class="transformer-description">
+                            <p>The Transformer architecture as presented in Google's 2017 paper, <strong>"Attention Is All You Need."</strong></p>
+                            <p>This revolutionary architecture became the foundation for models like BERT, GPT-2, and T5, enabling unprecedented capabilities in natural language understanding and generation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Although <a href="https://arxiv.org/abs/1810.04805" target="_blank">BERT</a> started the NLP transfer learning revolution, we will explore <a href="https://openai.com/blog/better-language-models/" target="_blank">GPT-2</a> and <a href="https://github.com/google-research/text-to-text-transfer-transformer" target="_blank">T5</a> models. These models are pre-trained—fine-tuning them on specific applications will result in much better evaluation metrics, but we will be using them out of the box, i.e., with no fine-tuning.</p>
+
+                <h2>Pre-trained NLP Models: OpenAI's GPT-2</h2>
+                
+                <div class="model-highlight gpt2">
+                    <div class="model-header">
+                        <div class="model-icon">
+                            <i class="fas fa-pen-fancy"></i>
+                        </div>
+                        <div class="model-info">
+                            <h3>OpenAI GPT-2</h3>
+                            <p class="model-stats">40 GB training data • Massive text generation capabilities</p>
+                        </div>
+                    </div>
+                    <div class="model-controversy">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p>GPT-2 created quite a controversy when it was released back in 2019. Since it was <a href="https://techcrunch.com/2019/02/17/openai-text-generator-dangerous/" target="_blank">very good at generating text</a>, it attracted quite the <a href="https://www.theguardian.com/technology/2019/feb/14/elon-musk-backed-ai-writes-convincing-news-fiction" target="_blank">media attention</a> and raised a lot of questions regarding the future of AI.</p>
+                    </div>
+                </div>
+
+                <p>Trained on 40 GB of textual data, GPT-2 is a <a href="https://openai.com/blog/gpt-2-1-5b-release/" target="_blank">very large model</a> containing a <strong>massive amount of compressed knowledge</strong> from a cross-section of the internet.</p>
+
+                <p>GPT-2 has a lot of <a href="https://github.com/openai/gpt-2/issues/155" target="_blank">potential use cases</a>. It can be used to predict the probability of a sentence. This, in turn, can be used for text autocorrection. Next, word prediction can be directly used <a href="https://www.tabnine.com/blog/autocomplete-productivity/" target="_blank">to build an autocomplete component</a> for an IDE (like Visual Studio Code or PyCharm) for writing code as well as <a href="https://transformer.huggingface.co/" target="_blank">general text writing</a>. We will use it for automatic text generation, and a large corpus of text can be used for natural language analysis.</p>
+
+                <div class="use-cases-grid">
+                    <h3>GPT-2 Use Cases</h3>
+                    <div class="use-case-cards">
+                        <div class="use-case-card">
+                            <i class="fas fa-magic"></i>
+                            <h4>Text Autocorrection</h4>
+                            <p>Predict probability of sentences for intelligent autocorrection systems</p>
+                        </div>
+                        <div class="use-case-card">
+                            <i class="fas fa-code"></i>
+                            <h4>IDE Autocomplete</h4>
+                            <p>Build autocomplete components for IDEs like VS Code or PyCharm</p>
+                        </div>
+                        <div class="use-case-card">
+                            <i class="fas fa-file-alt"></i>
+                            <h4>Text Generation</h4>
+                            <p>Generate coherent text for content creation and analysis</p>
+                        </div>
+                        <div class="use-case-card">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Natural Language Analysis</h4>
+                            <p>Analyze large corpus of text for insights and patterns</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Text Generation</h3>
+                
+                <p>The ability of a pre-trained model like GPT-2 to <a href="https://www.analyticsvidhya.com/blog/2019/07/openai-gpt2-text-generator-python/" target="_blank">generate coherent text</a> is very impressive. We can give it a prefix text and ask it to generate the next word, phrase, or sentence.</p>
+
+                <p>An example use case is generating a product reviews dataset to see which type of words are generally used in positive reviews versus negative reviews.</p>
+
+                <p>Let's look at some examples, starting with what we get if we start with the positive prefix, <strong>"Really liked this movie!"</strong></p>
+
+                <div class="text-examples">
+                    <div class="example-block">
+                        <h5>Sample 1</h5>
+                        <p class="generated-text">Loved the character's emotions at being in constant danger, and how his inner fears were slowly overcome by these events. Also loved that he is so focused on surviving; even for a while it felt like something out of Batman v Superman was showing up every now again because you always knew your enemy would show up eventually anyways :) The ending theme really stuck with me too… I mean yeah they did have to…</p>
+                    </div>
+                    <div class="example-block">
+                        <h5>Sample 2</h5>
+                        <p class="generated-text">It did exactly what I wanted it to do, just a lot of fun. The cast was awesome and the story makes sense so far after seeing everything else already on IMDB. There are hints about being in an underground city from time immemorial due their "power" (or lack thereof) but they don't really tell that much…I think its more like one big mystery then some other aspects coming together with me for now though….It's supposed…</p>
+                    </div>
+                </div>
+
+                <p>As you can see, the word review was not anywhere in the prefix, but as most reviews are titles followed by the body of the review, this forced the model to adapt to that distribution. Also notice the reference to Batman v Superman.</p>
+
+                <p>Let's see another example. Instead of a movie review, we'll try to generate a product review using the negative prefix, <strong>"A trash product! Do not buy."</strong></p>
+
+                <div class="text-examples">
+                    <div class="example-block">
+                        <h5>Sample 1</h5>
+                        <p class="generated-text">And please, do NOT try to use this as a fertilizer for your gardens or lawns – it will cause some serious water damage if ingested by fish and birds. Use with caution because of the possibility that pesticides may be present in pet foods available online at organic grocery stores such too "good" names like Petsmart, PetSmart & Safeway.How toxic is food waste? Waste products can contribute significant amounts - enough so that even very…</p>
+                    </div>
+                    <div class="example-block">
+                        <h5>Sample 2</h5>
+                        <p class="generated-text">No one will give you a piece of that garbage ever again. Just do yourself and your business a favor and clean up before buying it for nothing more than to save some money or convenience in the future.1/2 oz Bottle Plastic Food Storage Packaging + 1 pack #1636370105702615 (P, 3ml) $7 Buy Now You can purchase these bottles at any retail stores but here is how to get…</p>
+                    </div>
+                </div>
+
+                <p>Again, the prefix can be inferred as the title of a product review, so the model starts generating text following that pattern. GPT-2 can generate any type of text like this.</p>
+
+                <p><strike>A Google Colab notebook is ready to be used for experiments, as is the "Write With Transformer" live demo.</strike> <em>(Edit May 2025: These links are broken)</em></p>
+
+                <h3>Question Answering</h3>
+                
+                <p>Yes, since GPT-2 is trained on the web, it "knows" a lot of human knowledge that has been published online up till 2019. It can work for contextual questions as well, but we will have to follow the explicit format of "Question: X, Answer:" before letting it attempt to autocomplete. But if we force the model to answer our question, it may output a pretty vague answer. Here's what happens trying to force it to answer open-ended questions to test its knowledge:</p>
+
+                <div class="qa-examples">
+                    <div class="qa-block">
+                        <p><strong>Question:</strong> Who invented the theory of evolution?</p>
+                        <p><strong>Answer:</strong> The theory of evolution was first proposed by Charles Darwin in 1859.</p>
+                        <p class="qa-note">✓ Pretty detailed and accurate answer</p>
+                    </div>
+                    <div class="qa-block">
+                        <p><strong>Question:</strong> How many teeth do humans have?</p>
+                        <p><strong>Answer:</strong> Humans have 21 teeth.</p>
+                        <p class="qa-note">⚠ Incorrect - humans typically have 32 teeth</p>
+                    </div>
+                </div>
+
+                <p>As we can see, the pre-trained model gave a pretty detailed answer to the first question. For the second, it tried its best, but it does not compare with Google Search.</p>
+
+                <p>It's clear that GPT-2 has huge potential. Fine-tuning it, it can be used for the above-mentioned examples with much higher accuracy. But even the pre-trained GPT-2 we are evaluating is still not that bad.</p>
+
+                <h2>Pre-trained NLP Models: Google's T5</h2>
+                
+                <div class="model-highlight t5">
+                    <div class="model-header">
+                        <div class="model-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="model-info">
+                            <h3>Google T5</h3>
+                            <p class="model-stats">7 TB training data • Text-to-Text Transfer Transformer</p>
+                        </div>
+                    </div>
+                    <div class="model-advantage">
+                        <i class="fas fa-star"></i>
+                        <p><a href="https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b" target="_blank">Google's T5</a> is one of the most advanced natural language models to date. It builds on top of previous work on Transformer models in general. Unlike BERT, which had only encoder blocks, and GPT-2, which had only decoder blocks, <strong>T5 uses both</strong>.</p>
+                    </div>
+                </div>
+
+                <p>GPT-2 being trained on 40 GB of text data was already impressive, but T5 was trained on a 7 TB dataset. Even though it was trained for a very, very large number of iterations, it could not go through all the text. Although T5 can do <a href="https://threader.app/thread/1224912629967310848" target="_blank">text generation</a> like GPT-2, we will use it for more interesting business use cases.</p>
+
+                <div class="t5-tasks">
+                    <h3>T5: One Model for Everything</h3>
+                    <p>T5 treats every NLP task as a text-to-text problem. Here are some examples:</p>
+                    
+                    <div class="task-example">
+                        <p><span class="task-type">Translation:</span> <code>"translate English to German: That is good"</code> → <span class="output">"Das ist gut."</span></p>
+                    </div>
+                    <div class="task-example">
+                        <p><span class="task-type">Grammar:</span> <code>"cola sentence: The course is jumping well"</code> → <span class="output">"not acceptable"</span></p>
+                    </div>
+                    <div class="task-example">
+                        <p><span class="task-type">Similarity:</span> <code>"stsb sentence1: The rhino grazed on the grass. sentence2: A rhino is grazing in a field"</code> → <span class="output">"3.8"</span></p>
+                    </div>
+                    <div class="task-example">
+                        <p><span class="task-type">Summarization:</span> <code>"summarize: state authorities dispatched emergency crews tuesday to survey the damage after an onslaught of severe weather in mississippi…"</code> → <span class="output">"six people hospitalized after a storm in attala county."</span></p>
+                    </div>
+                </div>
+
+                <h3>Summarization</h3>
+                
+                <p>Let's start with a simple task: <a href="https://paperswithcode.com/task/text-summarization" target="_blank">text summarization</a>. For those <a href="https://www.toptal.com/services/technology-services/artificial-intelligence-development" target="_blank">AI development companies</a> wanting to build an app that summarizes a news article, T5 is perfectly suited for the task. For example, giving <a href="https://www.engadget.com/2020-02-08-destiny-2-sword-revamp.html" target="_blank">this article</a> to T5, here are three different summaries it produced:</p>
+
+                <div class="summaries-section">
+                    <div class="summary-example">
+                        <h5>Version 1</h5>
+                        <p>destiny 2's next season, starting march 10, will rework swords . they'll have recharging energy used to power both heavy attacks and guarding . the valentine's day event, crimson days, is also happening this month .</p>
+                    </div>
+                    <div class="summary-example">
+                        <h5>Version 2</h5>
+                        <p>bungie has revealed that the next season of destiny 2 will dramatically rework swords . the studio has mostly been coy about what the season will entail . the rethink will let swords partly bypass ai enemies' shields .</p>
+                    </div>
+                    <div class="summary-example">
+                        <h5>Version 3</h5>
+                        <p>destiny 2's next season will rework swords and let them bypass ai enemies' shields . the season starts march 10th . you can play destiny 2 during crimson days, a valentine's day event .</p>
+                    </div>
+                </div>
+
+                <p>As we can see, it has done a pretty nifty job of summarizing the article. Also, each summary is different from the others.</p>
+
+                <p>Summarizing using pre-trained models has huge potential applications. One interesting use case could be to generate a summary of every article automatically and put that at the start for readers who just want a synopsis. It could be taken further by personalizing the summary for each user. For example, if some users have smaller vocabularies, they could be served a summary with less complicated word choices. This is a very simple example, yet it demonstrates the power of this model.</p>
+
+                <p>Another interesting use case could be to use such summaries in the SEO of a website. Although T5 can be trained to generate very high-quality SEO automatically, using a summary might help out of the box, without retraining the model.</p>
+
+                <h3>Reading Comprehension</h3>
+                
+                <p>T5 can also be used for <a href="https://paperswithcode.com/task/reading-comprehension" target="_blank">reading comprehension</a>, e.g., answering questions from a given context. This application has very interesting use cases we will see later. But let's start with a few examples:</p>
+
+                <div class="comprehension-examples">
+                    <div class="comprehension-example">
+                        <h5>Example 1</h5>
+                        <p><strong>Question:</strong> Who invented the theory of evolution?</p>
+                        <p><strong>Context</strong> (<a href="https://www.britannica.com/science/evolution-scientific-theory/History-of-evolutionary-theory" target="_blank">Encyclopædia Britannica</a>): The discovery of fossil bones from large extinct mammals in Argentina and the observation of numerous species of finches in the Galapagos Islands were among the events credited with stimulating Darwin's interest in how species originate. In 1859 he published On the Origin of Species by Means of Natural Selection, a treatise establishing the theory of evolution and, most important, the role of natural selection in determining its course.</p>
+                        <p><strong>Answer:</strong> darwin</p>
+                    </div>
+
+                    <div class="comprehension-example">
+                        <p><strong>Question:</strong> Where did we go?</p>
+                        <p><strong>Context:</strong> On my birthday, we decided to visit the northern areas of Pakistan. It was really fun.</p>
+                        <p><strong>Answer:</strong> northern areas of pakistan</p>
+                    </div>
+
+                    <div class="comprehension-example">
+                        <p><strong>Question:</strong> What is the meaning of life?</p>
+                        <p><strong>Context</strong> (<a href="https://en.wikipedia.org/wiki/Meaning_of_life" target="_blank">Wikipedia</a>): The meaning of life as we perceive it is derived from philosophical and religious contemplation of, and scientific inquiries about existence, social ties, consciousness, and happiness. Many other issues are also involved, such as symbolic meaning, ontology, value, purpose, ethics, good and evil, free will, the existence of one or multiple gods, conceptions of God, the soul, and the afterlife. Scientific contributions focus primarily on describing related empirical facts about the universe, exploring the context and parameters concerning the "how" of life.</p>
+                        <p><strong>Answer:</strong> philosophical and religious contemplation of, and scientific inquiries about existence, social ties, consciousness, and happiness</p>
+                    </div>
+                </div>
+
+                <p>There is no explicit mention that Darwin invented the theory, but the model used its existing knowledge along with some context to reach the right conclusion.</p>
+
+                <p>Although we know the answer to this question is very complicated, T5 tried to come up with a very close, yet sensible answer. Kudos!</p>
+
+                <p>Let us take it further. Let's ask a few questions using the previously mentioned Engadget article as the context.</p>
+
+                <div class="qa-examples">
+                    <div class="qa-block">
+                        <p><strong>Question:</strong> What is this about?</p>
+                        <p><strong>Answer:</strong> destiny 2 will dramatically rework</p>
+                    </div>
+                    <div class="qa-block">
+                        <p><strong>Question:</strong> When can we expect this update?</p>
+                        <p><strong>Answer:</strong> march 10th</p>
+                    </div>
+                </div>
+
+                <p>As you can see, the contextual question answering of T5 is very good. One business use case could be to build a contextual chatbot for websites that answers queries relevant to the current page.</p>
+
+                <p>Another use case could be to search for some information from documents, e.g., ask questions like, "Is it a breach of contract to use a company laptop for a personal project?" using a legal document as context. Although T5 has its limits, it is pretty well-suited for this type of task.</p>
+
+                <div class="business-applications">
+                    <h3>
+                        <i class="fas fa-briefcase"></i>
+                        Business Applications
+                    </h3>
+                    <div class="application-grid">
+                        <div class="app-card">
+                            <i class="fas fa-comments"></i>
+                            <h4>Contextual Chatbots</h4>
+                            <p>Build chatbots for websites that answer queries relevant to the current page content</p>
+                        </div>
+                        <div class="app-card">
+                            <i class="fas fa-search"></i>
+                            <h4>Document Search</h4>
+                            <p>Search for information from legal documents: "Is it a breach of contract to use a company laptop for personal projects?"</p>
+                        </div>
+                        <div class="app-card">
+                            <i class="fas fa-newspaper"></i>
+                            <h4>Auto-Summarization</h4>
+                            <p>Generate summaries for articles, personalized for different reading levels and vocabularies</p>
+                        </div>
+                        <div class="app-card">
+                            <i class="fas fa-globe"></i>
+                            <h4>SEO Enhancement</h4>
+                            <p>Use summaries to automatically generate SEO-friendly content for websites</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Readers may wonder, <em>Why not use specialized models for each task?</em> It's a good point: The accuracy would be much higher and the deployment cost of specialized models would be much lower than T5's pre-trained NLP model. But the beauty of T5 is precisely that it is <strong>"one model to rule them all,"</strong> i.e., you can use one pre-trained model for <a href="https://paperswithcode.com/paper/exploring-the-limits-of-transfer-learning" target="_blank">almost any NLP task</a>. Plus, we want to use these models out of the box, without retraining or fine-tuning. So for developers creating an app that summarizes different articles, as well as an app that does contextual question answering, the same T5 model can do both of them.</p>
+
+                <h2>Pre-trained Models: The Deep Learning Models That Will Soon Be Ubiquitous</h2>
+                
+                <p>In this article, we explored pre-trained models and how to use them out of the box for different business use cases. Just like a classical sorting algorithm is used almost everywhere for sorting problems, these pre-trained models will be used as standard algorithms. It's pretty clear that what we explored was just scratching the surface of NLP applications, and there is a lot more that can be done by these models.</p>
+
+                <p>Pre-trained deep learning models like StyleGAN-2 and DeepLabv3 can power, in a similar fashion, applications of computer vision. I hope you enjoyed this article and look forward to hearing your comments below.</p>
+
+                <div class="faq-section">
+                    <h3>Understanding the basics</h3>
+                    
+                    <div class="faq-item">
+                        <h4>What is pre-training?</h4>
+                        <p>Pre-training is a technique where data scientists train a model architecture on a very large dataset. This induces prior knowledge to the model and helps in fine-tuning the model for newer tasks. An example would be training Resnet-50 on ImageNet.</p>
+                    </div>
+                </div>
+
+                <div class="author-section">
+                    <div class="author-card">
+                        <div class="author-info">
+                            <h3>Nauman Mustafa</h3>
+                            <div class="author-badges">
+                                <span class="badge expert">Verified Expert in Engineering</span>
+                                <span class="badge location">Islamabad, Pakistan</span>
+                                <span class="badge member">Member since October 10, 2019</span>
+                            </div>
+                            <p>Nauman is currently a senior deep learning engineer at VisionX, with expertise in building deep learning solutions for NLP and CV problems.</p>
+                            <div class="expertise-section">
+                                <h4>Expertise</h4>
+                                <div class="expertise-tags">
+                                    <span class="expertise-tag">Deep Learning</span>
+                                    <span class="expertise-tag">Machine Learning</span>
+                                    <span class="expertise-tag">Artificial Intelligence</span>
+                                </div>
+                                <h4>Previously At</h4>
+                                <p>VisionX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tags-section">
+                    <h3>
+                        <i class="fas fa-tags"></i>
+                        Topics
+                    </h3>
+                    <div class="tags">
+                        <span class="tag">Pre-trained Models</span>
+                        <span class="tag">GPT-2</span>
+                        <span class="tag">T5</span>
+                        <span class="tag">Transformers</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">Transfer Learning</span>
+                        <span class="tag">Text Generation</span>
+                        <span class="tag">Question Answering</span>
+                        <span class="tag">Summarization</span>
+                    </div>
+                </div>
+            </article>
+            
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="/lib/theme-switch.js"></script>
+</body>
+</html>

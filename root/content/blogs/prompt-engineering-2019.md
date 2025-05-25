@@ -1,3 +1,5 @@
+https://www.toptal.com/deep-learning/exploring-pre-trained-models
+
 Getting the Most Out of Pre-trained Models
 Getting the Most Out of Pre-trained Models
 
