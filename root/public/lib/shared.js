@@ -1,8 +1,3 @@
-/**
- * Theme Switch Library
- * Provides dark/light mode functionality with cookie persistence
- */
-
 class ThemeSwitch {
     constructor(options = {}) {
         this.toggleId = options.toggleId || 'theme-toggle';
