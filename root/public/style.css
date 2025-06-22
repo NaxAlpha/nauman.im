@@ -264,7 +264,7 @@ body {
     color: #6c757d;
 }
 
-/* Timeline Styles */
+/* Timeline Styles (Personal Work/Writings) */
 .timeline {
     position: relative;
 }
@@ -362,6 +362,256 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     font-size: 15px;
+}
+
+/* Professional Timeline Styles */
+.professional-experience-section {
+    margin-top: 32px;
+}
+
+.professional-timeline {
+    position: relative;
+}
+
+.company-timeline-item {
+    margin-bottom: 32px;
+    border: 2px solid var(--border-color);
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--card-bg);
+    transition: all 0.3s ease;
+}
+
+.company-timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.company-timeline-item.collapsed .experience-timeline {
+    display: none;
+}
+
+.company-timeline-item.collapsed .expand-toggle i {
+    transform: rotate(0deg);
+}
+
+.company-timeline-item:not(.collapsed) .expand-toggle i {
+    transform: rotate(180deg);
+}
+
+.company-info {
+    background: var(--secondary-bg);
+    padding: 24px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.company-info:hover {
+    background: var(--border-color);
+}
+
+.sticky-company-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--secondary-bg);
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.company-logo {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-placeholder {
+    width: 60px;
+    height: 60px;
+    background: var(--accent-color);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+.company-header {
+    flex: 1;
+}
+
+.company-name {
+    margin: 0 0 8px 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+.company-name a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.company-name a:hover {
+    text-decoration: underline;
+}
+
+.company-role {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+.company-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+}
+
+.company-duration {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+.company-location {
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.company-location i {
+    margin-right: 6px;
+    color: var(--accent-color);
+}
+
+.expand-toggle {
+    flex-shrink: 0;
+    padding: 8px;
+    border-radius: 50%;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.expand-toggle i {
+    color: var(--accent-color);
+    transition: transform 0.3s ease;
+}
+
+.experience-timeline {
+    position: relative;
+    padding: 0 24px 24px 24px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.experience-timeline::before {
+    content: '';
+    position: absolute;
+    left: 60px;
+    top: 0;
+    bottom: 24px;
+    width: 3px;
+    background: linear-gradient(to bottom, var(--accent-color), transparent);
+    opacity: 0.2;
+}
+
+.experience-item {
+    display: flex;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+}
+
+.experience-item::before {
+    content: '';
+    position: absolute;
+    left: -36px;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    border: 3px solid var(--card-bg);
+    z-index: 1;
+}
+
+.experience-period {
+    flex-shrink: 0;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+    position: sticky;
+    top: 120px;
+    height: fit-content;
+}
+
+.period-start {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-color);
+    line-height: 1.2;
+    background: var(--secondary-bg);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.experience-content {
+    flex: 1;
+    background: var(--secondary-bg);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    position: relative;
+}
+
+.experience-content::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid var(--secondary-bg);
+}
+
+.experience-title {
+    margin: 0 0 12px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 8px;
+}
+
+.experience-details {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.experience-details li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+.experience-details ul {
+    margin-top: 6px;
+    margin-left: 20px;
 }
 
 /* Projects Styles (keeping for backward compatibility) */
@@ -489,6 +739,56 @@ a:hover {
     }
     
     .timeline-content::before {
+        display: none;
+    }
+    
+    /* Professional timeline responsive styles */
+    .company-info {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+    
+    .company-duration {
+        min-width: auto;
+        flex-direction: row;
+        gap: 8px;
+    }
+    
+    .duration-separator {
+        margin: 0;
+    }
+    
+    .experience-timeline::before {
+        left: 20px;
+    }
+    
+    .experience-item {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    
+    .experience-item::before {
+        left: 14px;
+        top: 12px;
+    }
+    
+    .experience-period {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 12px;
+        position: static;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    .period-start, .period-end {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    
+    .experience-content::before {
         display: none;
     }
 }

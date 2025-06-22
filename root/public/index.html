@@ -133,7 +133,7 @@
                             </div>
                             <div class="timeline-content">
                                 <h3 class="timeline-title">
-                                    <a href="/prompt-engineering-2019/">Getting the Most Out of Pre-trained Models</a>
+                                    <a href="/prompt-engineering-2020/">Getting the Most Out of Pre-trained Models</a>
                                 </h3>
                                 <p class="timeline-description">
                                     Deep dive into pre-trained NLP models like GPT-2 and T5, exploring their capabilities for text generation, question answering, summarization, and transfer learning applications. Originally published on Toptal.
@@ -219,73 +219,132 @@
                 </section>
                 
                 <!-- Professional Experience -->
-                <section class="section">
+                <section class="section professional-experience-section">
                     <h2 class="section-title">Professional Experience</h2>
                     
-                    <div class="job">
-                        <div class="job-header">
-                            <h3 class="job-title">Sr. Machine Learning Engineer @ <a href="https://autify.com/" target="_blank">Autify</a></h3>
-                            <div class="job-meta">
-                                <i class="far fa-calendar-alt"></i> May 2020 - June 2025 | 
-                                <i class="fas fa-map-marker-alt"></i> Tokyo, Japan
+                    <div class="professional-timeline">
+                        <div class="company-timeline-item collapsed" data-company="autify">
+                            <div class="company-info sticky-company-header" onclick="toggleCompany('autify')">
+                                <div class="company-logo">
+                                    <div class="logo-placeholder">
+                                        <i class="fas fa-building"></i>
+                                    </div>
+                                </div>
+                                <div class="company-header">
+                                    <h3 class="company-name">
+                                        <a href="https://autify.com/" target="_blank">Autify</a>
+                                    </h3>
+                                    <div class="company-role">Sr. Machine Learning Engineer</div>
+                                    <div class="company-meta">
+                                        <span class="company-duration">May 2020 - June 2025</span>
+                                        <span class="company-location">
+                                            <i class="fas fa-map-marker-alt"></i> Tokyo, Japan
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="expand-toggle">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
                             </div>
-                        </div>
-                        
-                        <div class="job-content">
-                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>Jan 2025 - June 2025</span> <span class="project-highlight">Bootstrapped project Lexa</span>:</strong></p>
-                            <ul>
-                                <li>Generate PRD from Source Code</li>
-                                <li>Vibe-coded entire desktop app using cursor in Swift UI</li>
-                                <li>Vibe-migrated the desktop app to Electron for multiple platforms</li>
-                            </ul>
                             
-                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>Jan 2024 - Dec 2024</span> <span class="project-highlight">Bootstrapped project Genesis</span>:</strong></p>
-                            <ul>
-                                <li>Designed Prompts for the following:
-                                    <ul>
-                                        <li>Generate Test Cases from PRD</li>
-                                        <li>Generate Test Scenarios from Test Cases</li>
-                                        <li>Generate Playwright code from Test Scenarios using Agentic AI</li>
-                                    </ul>
-                                </li>
-                                <li>Build Backend/frontend using LLMs</li>
-                            </ul>
-                            
-                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>July 2023 - Dec 2023</span> <span class="project-highlight">Developed Step Suggestion Chrome Extension</span>:</strong></p>
-                            <ul>
-                                <li>Wrote frontend code in PReact</li>
-                                <li>Wrote Backend in Python/FastAPI</li>
-                                <li>Developed the algorithm to slim down the HTML</li>
-                                <li>Designed the prompt to provide next step suggestions based on current page</li>
-                            </ul>
-                            
-                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>Jan 2022 - June 2023</span> <span class="project-highlight">Core Deep Learning Work</span>:</strong></p>
-                            <ul>
-                                <li>Developed MLUI, an ensemble of ML models for parsing screenshot of mobile apps
-                                    <ul>
-                                        <li>A custom OCR model based on encoder-decoder transformer architecture trained on synthetic data</li>
-                                        <li>Retina net fine-tuned on rico + internal dataset for detecting UI elements</li>
-                                        <li>A post processing model to merge the output of the above two models</li>
-                                    </ul>
-                                </li>
-                                <li>Deployment of MLUI at scale on GKE using cost-effective GPU & queue optimizations</li>
-                                <li>Explored Reinforcement Learning for automated testing</li>
-                            </ul>
-                            
-                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>Jan 2021 - Dec 2021</span> <span class="project-highlight">Built the baseline ML Infrastructure at Autify</span>:</strong></p>
-                            <ul>
-                                <li>Set up Google Cloud GKE for ML Deployment</li>
-                                <li>Set up pipeline for VRT (Visual Regression Testing) algorithm deployment at scale on GKE</li>
-                                <li>Fine-tuned Adobe Semantic Web Segmentation model</li>
-                                <li>Explored Visual Self-Healing using Template Matching</li>
-                            </ul>
-                            
-                            <p><strong><span class="date-range"><i class="far fa-calendar-alt"></i>May 2020 - Dec 2020</span> <span class="project-highlight">Early Exploration of Application of ML on Web Apps</span>:</strong></p>
-                            <ul>
-                                <li>Implemented OpenCV-based web screenshot comparison</li>
-                                <li>Fine-tuned BERT on HTML data</li>
-                                <li>Optimized the weights of an internal feature extraction algorithm using evolutionary algorithms</li>
-                            </ul>
+                            <div class="experience-timeline" id="autify-timeline">
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">Jan 2025</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Bootstrapped project Lexa</h4>
+                                        <ul class="experience-details">
+                                            <li>Generate PRD from Source Code</li>
+                                            <li>Vibe-coded entire desktop app using cursor in Swift UI</li>
+                                            <li>Vibe-migrated the desktop app to Electron for multiple platforms</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">Jan 2024</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Bootstrapped project Genesis</h4>
+                                        <ul class="experience-details">
+                                            <li>Designed Prompts for the following:
+                                                <ul>
+                                                    <li>Generate Test Cases from PRD</li>
+                                                    <li>Generate Test Scenarios from Test Cases</li>
+                                                    <li>Generate Playwright code from Test Scenarios using Agentic AI</li>
+                                                </ul>
+                                            </li>
+                                            <li>Build Backend/frontend using LLMs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">July 2023</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Developed Step Suggestion Chrome Extension</h4>
+                                        <ul class="experience-details">
+                                            <li>Wrote frontend code in PReact</li>
+                                            <li>Wrote Backend in Python/FastAPI</li>
+                                            <li>Developed the algorithm to slim down the HTML</li>
+                                            <li>Designed the prompt to provide next step suggestions based on current page</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">Jan 2022</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Core Deep Learning Work</h4>
+                                        <ul class="experience-details">
+                                            <li>Developed MLUI, an ensemble of ML models for parsing screenshot of mobile apps
+                                                <ul>
+                                                    <li>A custom OCR model based on encoder-decoder transformer architecture trained on synthetic data</li>
+                                                    <li>Retina net fine-tuned on rico + internal dataset for detecting UI elements</li>
+                                                    <li>A post processing model to merge the output of the above two models</li>
+                                                </ul>
+                                            </li>
+                                            <li>Deployment of MLUI at scale on GKE using cost-effective GPU & queue optimizations</li>
+                                            <li>Explored Reinforcement Learning for automated testing</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">Jan 2021</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Built the baseline ML Infrastructure at Autify</h4>
+                                        <ul class="experience-details">
+                                            <li>Set up Google Cloud GKE for ML Deployment</li>
+                                            <li>Set up pipeline for VRT (Visual Regression Testing) algorithm deployment at scale on GKE</li>
+                                            <li>Fine-tuned Adobe Semantic Web Segmentation model</li>
+                                            <li>Explored Visual Self-Healing using Template Matching</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">May 2020</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Early Exploration of Application of ML on Web Apps</h4>
+                                        <ul class="experience-details">
+                                            <li>Implemented OpenCV-based web screenshot comparison</li>
+                                            <li>Fine-tuned BERT on HTML data</li>
+                                            <li>Optimized the weights of an internal feature extraction algorithm using evolutionary algorithms</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

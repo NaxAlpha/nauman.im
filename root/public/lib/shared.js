@@ -87,13 +87,51 @@ class ThemeSwitch {
     }
 }
 
+// Professional Timeline Toggle Functionality
+function toggleCompany(companyId) {
+    const companyItem = document.querySelector(`[data-company="${companyId}"]`);
+    if (companyItem) {
+        companyItem.classList.toggle('collapsed');
+        
+        // Save state in localStorage
+        const isCollapsed = companyItem.classList.contains('collapsed');
+        localStorage.setItem(`company-${companyId}-collapsed`, isCollapsed.toString());
+    }
+}
+
+// Initialize company timeline states
+function initializeCompanyTimelines() {
+    const companyItems = document.querySelectorAll('.company-timeline-item');
+    
+    companyItems.forEach(item => {
+        const companyId = item.getAttribute('data-company');
+        if (companyId) {
+            // Check saved state, default to collapsed
+            const savedState = localStorage.getItem(`company-${companyId}-collapsed`);
+            const shouldBeCollapsed = savedState !== null ? savedState === 'true' : true;
+            
+            if (shouldBeCollapsed) {
+                item.classList.add('collapsed');
+            } else {
+                item.classList.remove('collapsed');
+            }
+        }
+    });
+}
+
 // Auto-initialize with default settings when script loads
 // Can be overridden by calling new ThemeSwitch() with custom options
 window.addEventListener('DOMContentLoaded', function() {
     if (!window.themeSwitch) {
         window.themeSwitch = new ThemeSwitch();
     }
+    
+    // Initialize professional timeline
+    initializeCompanyTimelines();
 });
+
+// Make toggleCompany function globally available
+window.toggleCompany = toggleCompany;
 
 // Export for module usage
 if (typeof module !== 'undefined' && module.exports) {

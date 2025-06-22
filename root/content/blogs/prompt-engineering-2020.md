@@ -32,7 +32,7 @@ Because of that, they learn the entire distribution of the datasets they are tra
 How Pre-trained Models Are the Algorithms of the Future
 Although pre-trained models are also used in computer vision, this article will focus on their cutting-edge use in the [natural language processing](https://www.toptal.com/natural-language-processing) (NLP) domain. [Transformer architecture](http://jalammar.github.io/illustrated-transformer/) is the most common and most powerful architecture that is being used in these models.
 
-![Transformer Architecture](../../public/prompt-engineering-2019/atten.png)
+![Transformer Architecture](../../public/prompt-engineering-2020/atten.png)
 The Transformer architecture as presented in Google's 2017 paper, "Attention Is All You Need."
 
 Although [BERT](https://arxiv.org/abs/1810.04805) started the NLP transfer learning revolution, we will explore [GPT-2](https://openai.com/blog/better-language-models/) and [T5](https://github.com/google-research/text-to-text-transfer-transformer) models. These models are pre-trained—fine-tuning them on specific applications will result in much better evaluation metrics, but we will be using them out of the box, i.e., with no fine-tuning.
