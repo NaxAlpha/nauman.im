@@ -1,4 +1,5 @@
 <!-- https://nocode.autify.com/blog/applying-modern-deep-learning-in-autify -->
+<!-- January 29, 2021 -->
 
 # Applying modern deep learning in Autify
 

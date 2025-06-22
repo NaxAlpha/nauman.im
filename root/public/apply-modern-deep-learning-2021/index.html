@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applying Modern Deep Learning in Autify - Nauman Mustafa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Dark Mode</span>
+    </div>
+    
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <a href="https://nocode.autify.com/blog/applying-modern-deep-learning-in-autify" target="_blank" class="original-post-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Read Original on Autify Blog</span>
+                </a>
+                
+                <h1 class="hero-title">Applying Modern Deep Learning in Autify</h1>
+                <h2 class="hero-subtitle">Revolutionizing Software Testing with AI</h2>
+                
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>Nauman Mustafa</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-building"></i>
+                        <span>Autify</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>Jan 29, 2021</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>5 min read</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+            
+            <article class="article">
+                <div class="intro-section">
+                    <p>Deep Learning is at the forefront of modern AI. It is now powering applications that were considered impossible with previous techniques of software engineering. Almost every product is being empowered by techniques from the field. Autify is no exception. We have applied deep learning to multiple aspects of the product. So to share some of the progress, here are some of the upcoming use cases being powered by deep learning.</p>
+                </div>
+
+                <div class="autify-intro-box">
+                    <h3>
+                        <i class="fas fa-robot"></i>
+                        Deep Learning at Autify
+                    </h3>
+                    <p>From visual testing engines to intelligent test discovery, <strong>deep learning is transforming how we approach software testing</strong>. These aren't just theoretical applications—they're real implementations solving actual problems in test automation.</p>
+                </div>
+
+                <h2>Visual Testing Engine</h2>
+                
+                <p>Visual Testing engine is a testing module to visually compare screenshots of different versions of the same web page and find different types of differences. Inspired by Adobe's FRED, we implement a semantic segmentation model that classifies different regions based on their appearance on the screenshot. The goal is to have a meaningful representation of web screenshots which then can be used to parse out each component and compare them across different versions. This module will be integrated into our upcoming visual testing platform, which will allow users to test their web applications visually.</p>
+
+                <div class="visual-testing-showcase">
+                    <h3>
+                        <i class="fas fa-eye"></i>
+                        Visual Regression Detection
+                    </h3>
+                    <div class="showcase-content">
+                        <img src="./vis-reg.png" alt="Visual Regression Testing" class="tech-image">
+                        <div class="showcase-description">
+                            <p>Our semantic segmentation model intelligently identifies and compares different regions of web screenshots, enabling precise visual regression detection across application versions.</p>
+                            <div class="tech-highlights">
+                                <div class="highlight-item">
+                                    <i class="fas fa-brain"></i>
+                                    <span>Semantic Segmentation</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-camera"></i>
+                                    <span>Screenshot Analysis</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-balance-scale"></i>
+                                    <span>Component Comparison</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Improving Feature Locator</h2>
+                
+                <p>Feature locator generator is one of the core components of our product which performs self-healing of recorded tests across multiple versions of a web application. One of the methods using which it does self-healing is to assign different weights to different features. Early iterations of this engine used human-tuned feature weights, which worked very well but multiple cases are usually found which cause problems.</p>
+
+                <p>Since we are optimizing an entire node.js application, we cannot use gradient-based methods from machine learning. Thus we use genetic algorithms to dynamically tune these parameters such that it solves a wider number of problems than a human weight tuner. You should be able to see the results of this improved version in upcoming iterations.</p>
+
+                <div class="feature-locator-evolution">
+                    <h3>
+                        <i class="fas fa-dna"></i>
+                        From Human-Tuned to AI-Optimized
+                    </h3>
+                    <div class="evolution-comparison">
+                        <div class="evolution-stage before">
+                            <h4>Before: Human-Tuned</h4>
+                            <div class="stage-icon">
+                                <i class="fas fa-user-cog"></i>
+                            </div>
+                            <ul>
+                                <li>Manual feature weight tuning</li>
+                                <li>Good performance but limited scope</li>
+                                <li>Edge cases cause problems</li>
+                            </ul>
+                        </div>
+                        <div class="evolution-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="evolution-stage after">
+                            <h4>After: Genetic Algorithm</h4>
+                            <div class="stage-icon">
+                                <i class="fas fa-dna"></i>
+                            </div>
+                            <ul>
+                                <li>Dynamic parameter optimization</li>
+                                <li>Handles wider range of problems</li>
+                                <li>Self-healing across app versions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Deep HTML Representation</h2>
+                
+                <p>HTML is a very powerful and expressive language and the entire web infrastructure is built upon it. However, it is not very friendly to work with HTML in a deep learning context. Here graph neural networks come for the rescue!</p>
+
+                <p>In order to calculate useful embeddings of HTML nodes, we extract a lot of numeric and categorical features which include dynamic information computed from selenium (i.e. locations) as well as static information e.g. attributes.</p>
+
+                <p>With this information, we were able to successfully classify HTML tags from other features with a validation accuracy of ~45% on our internal dataset of popular websites. We compared its results with a traditional linear model which performed poorly because of a lack of structural information. (Bear in mind that, HTML has a very unequal distribution of classes e.g. a huge number of divs, so we did use classification weight for balanced results).</p>
+
+                <p>We also utilized modern tools like mlflow and optuna to perform experiment tracking as well as hyperparameter optimization like the selection of activation function, the number of layers and capacity of the network, etc. This helps us find better models with fewer compute requirements.</p>
+
+                <div class="html-representation-box">
+                    <h3>
+                        <i class="fas fa-project-diagram"></i>
+                        Graph Neural Networks for HTML
+                    </h3>
+                    <div class="gnn-architecture">
+                        <div class="gnn-pipeline">
+                            <div class="pipeline-step">
+                                <div class="step-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h4>HTML Input</h4>
+                                <p>Raw HTML structure with DOM elements</p>
+                            </div>
+                            <div class="pipeline-arrow">→</div>
+                            <div class="pipeline-step">
+                                <div class="step-icon">
+                                    <i class="fas fa-extract"></i>
+                                </div>
+                                <h4>Feature Extraction</h4>
+                                <p>Numeric & categorical features<br>Dynamic (Selenium) + Static (attributes)</p>
+                            </div>
+                            <div class="pipeline-arrow">→</div>
+                            <div class="pipeline-step">
+                                <div class="step-icon">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+                                <h4>Graph Neural Network</h4>
+                                <p>Structural understanding of HTML nodes</p>
+                            </div>
+                            <div class="pipeline-arrow">→</div>
+                            <div class="pipeline-step">
+                                <div class="step-icon">
+                                    <i class="fas fa-tags"></i>
+                                </div>
+                                <h4>Classification</h4>
+                                <p>~45% validation accuracy<br>Outperforms linear models</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tools-used">
+                        <h4>Modern ML Tools</h4>
+                        <div class="tool-tags">
+                            <span class="tool-tag">MLflow</span>
+                            <span class="tool-tag">Optuna</span>
+                            <span class="tool-tag">Hyperparameter Optimization</span>
+                            <span class="tool-tag">Experiment Tracking</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Intelligent Test Discovery</h2>
+                
+                <p>The primary function of Autify is to help users record and maintain tests for their web applications. But what if we could automate the process of recording test cases. Yes, with modern reinforcement learning, it is possible to automatically generate test scenarios of a web application. This is one of the very useful upcoming features of Autify.</p>
+
+                <div class="rl-showcase">
+                    <h3>
+                        <i class="fas fa-magic"></i>
+                        Reinforcement Learning in Action
+                    </h3>
+                    <div class="rl-content">
+                        <div class="rl-description">
+                            <p>Using reinforcement learning to automatically discover and generate test scenarios for web applications. The AI agent learns to navigate through different states of a web application, discovering potential test cases without human intervention.</p>
+                            <div class="rl-benefits">
+                                <div class="benefit-item">
+                                    <i class="fas fa-robot"></i>
+                                    <span>Automated Test Generation</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-route"></i>
+                                    <span>Intelligent Navigation</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-search"></i>
+                                    <span>Scenario Discovery</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rl-demo">
+                            <img src="./rl-on-web.gif" alt="Reinforcement Learning on Web" class="rl-gif">
+                            <div class="demo-caption">RL agent exploring web application states</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Final Thoughts</h2>
+                
+                <p>In the article, we have shown some of the very promising research projects in Autify. Hopefully, this gets you excited about our product. If you have any questions or queries, reach out to our social media @autifyHQ. Stay tuned for future updates!</p>
+
+                <div class="conclusion-box">
+                    <h3>
+                        <i class="fas fa-lightbulb"></i>
+                        The Future of AI-Powered Testing
+                    </h3>
+                    <div class="conclusion-content">
+                        <p>These deep learning applications represent just the beginning of what's possible in software testing. From visual regression detection to intelligent test discovery, <strong>AI is transforming how we approach quality assurance</strong>.</p>
+                        <div class="key-innovations">
+                            <div class="innovation-item">
+                                <i class="fas fa-eye"></i>
+                                <span>Visual Testing with Semantic Segmentation</span>
+                            </div>
+                            <div class="innovation-item">
+                                <i class="fas fa-dna"></i>
+                                <span>Genetic Algorithm Optimization</span>
+                            </div>
+                            <div class="innovation-item">
+                                <i class="fas fa-project-diagram"></i>
+                                <span>Graph Neural Networks for HTML</span>
+                            </div>
+                            <div class="innovation-item">
+                                <i class="fas fa-magic"></i>
+                                <span>Reinforcement Learning Test Discovery</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-section">
+                    <h3>
+                        <i class="fas fa-comment"></i>
+                        Get in Touch
+                    </h3>
+                    <p>Have questions about our AI-powered testing solutions? Reach out to us on social media <strong>@autifyHQ</strong>. Stay tuned for future updates!</p>
+                </div>
+
+                <div class="tags-section">
+                    <h3>
+                        <i class="fas fa-tags"></i>
+                        Topics
+                    </h3>
+                    <div class="tags">
+                        <span class="tag">Deep Learning</span>
+                        <span class="tag">Visual Testing</span>
+                        <span class="tag">Reinforcement Learning</span>
+                        <span class="tag">Graph Neural Networks</span>
+                        <span class="tag">Genetic Algorithms</span>
+                        <span class="tag">Test Automation</span>
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Semantic Segmentation</span>
+                        <span class="tag">Autify</span>
+                    </div>
+                </div>
+            </article>
+            
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="/lib/shared.js"></script>
+</body>
+</html>
