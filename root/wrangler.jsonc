@@ -7,11 +7,13 @@
 	"name": "home",
 	"compatibility_date": "2025-05-22",
 	"assets": {
-		"directory": "./public"
+		"directory": "./public",
+		"not_found_handling": "404-page"
 	},
 	"observability": {
 		"enabled": true
-	}
+	},
+	"compatibility_flags": ["nodejs_compat"]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement

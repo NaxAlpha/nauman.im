@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Maintenance | Nauman Mustafa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .error-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .error-content {
+            text-align: center;
+            max-width: 600px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 48px 32px;
+            box-shadow: 0 2px 8px var(--shadow-color);
+            border: 1px solid var(--border-color);
+        }
+        
+        .error-title {
+            font-size: 2rem;
+            color: var(--heading-color);
+            margin: 16px 0;
+            font-weight: 600;
+        }
+        
+        .error-message {
+            font-size: 1.1rem;
+            color: var(--text-color);
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+        
+        .error-actions {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: var(--accent-color);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #2980b9;
+            transform: translateY(-1px);
+        }
+        
+        .btn-secondary {
+            background: var(--secondary-bg);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--border-color);
+            transform: translateY(-1px);
+        }
+        
+        .maintenance-icon {
+            font-size: 4rem;
+            color: #f39c12;
+            margin-bottom: 24px;
+            animation: spin 3s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--secondary-bg);
+            border-radius: 3px;
+            margin: 24px 0;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-color), #2ecc71);
+            border-radius: 3px;
+            animation: loading 2s ease-in-out infinite;
+        }
+        
+        @keyframes loading {
+            0% { width: 0%; }
+            50% { width: 70%; }
+            100% { width: 100%; }
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 6px 16px;
+            background: #f39c12;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 640px) {
+            .error-title {
+                font-size: 1.5rem;
+            }
+            
+            .error-content {
+                padding: 32px 24px;
+            }
+            
+            .error-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 280px;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Dark Mode</span>
+    </div>
+    
+    <div class="error-container">
+        <div class="error-content">
+            <div class="maintenance-icon">
+                <i class="fas fa-cog"></i>
+            </div>
+            <div class="status-badge">Under Maintenance</div>
+            <h1 class="error-title">Site Maintenance in Progress</h1>
+            <p class="error-message">
+                We're currently upgrading our systems to serve you better. Think of it as training our 
+                models with fresh data! We'll be back online shortly with improved performance.
+            </p>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="error-actions">
+                <button onclick="location.reload()" class="btn btn-primary">
+                    <i class="fas fa-refresh"></i>
+                    Check Again
+                </button>
+                <a href="mailto:nauman.mustafa.x@gmail.com" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Contact Support
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/lib/shared.js"></script>
+    <script>
+        // Theme functionality will be auto-initialized by shared.js
+    </script>
+</body>
+</html> 
