@@ -11,7 +11,11 @@ The first very exciting feature in Autify for Mobile is Visual Regression Testin
 
 Let us look at the two versions of a sample app:
 
+![Two different versions of the same app](../../public/ai-in-autify-mobile-2021/ii1.png)
+
 If we use Autify VRT on these two versions, we can quickly see which things have been removed and which ones have been added. The following comparison shows which objects have been removed from the previous version (left, Red) and which things have been added/replaced in the new version (right, green).
+
+![Visual Regressions Applied](../../public/ai-in-autify-mobile-2021/ii2.png)
 
 ## Visual Self Healing
 
@@ -19,9 +23,13 @@ Visual self-healing is the state-of-the-art algorithm we developed that helps us
 
 The following scenario gives an insight into what it does. We have a version of the app on the left, and on the right is another version of the same app. During the recording, the user taps on the specific location on the “Get Started” button. However, in the newer version (right), there are significant changes in the app’s design & layout, and the button has also moved upwards. So our visual self-healing engine automatically heals the scenario by estimating the tap location on the new version.
 
+![Visual Self Healing in Action](../../public/ai-in-autify-mobile-2021/ii3.png)
+
 ## Visual App Explorer
 
 This feature is currently in development. Visual App explorer or Autify VAX is an AI-based module that explores the app and all possible corners. The primary goal of this feature is to create a navigation map. It achieves that by navigating the app based on the visual information presented on the screen. It can find and report bugs and crashes in the app. It may also be used to list reachable/unreachable locations in the app. Following is an example of how this feature builds a navigation map:
+
+![Visual App Explorer](../../public/ai-in-autify-mobile-2021/ii4.png)
 
 Thank you very much for reading. If you have any questions or want to get access to these features when available, feel free to reach out to us via demo request page below!
 
