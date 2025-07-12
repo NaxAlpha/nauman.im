@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Compression: Reducing Attention Waste? - Nauman Mustafa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Dark Mode</span>
+    </div>
+    
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <a href="https://naxalpha.substack.com/p/token-compression-reducing-attention" target="_blank" class="original-post-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Read Original on Substack</span>
+                </a>
+                
+                <h1 class="hero-title">Token Compression: Reducing Attention Waste?</h1>
+                <p class="hero-subtitle">Using an LLM to compress multiple tokens into one token</p>
+                
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>The AI Dude</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>Aug 11, 2023</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>8 min read</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+            
+            <article class="article">
+                <div class="research-context">
+                    <div class="context-highlight">
+                        <i class="fas fa-lightbulb"></i>
+                        <div>
+                            <h3>Research Question</h3>
+                            <p>Can we compress multiple tokens into one token and decode them back, creating more efficient transformers?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="intro-section">
+                    <p>LLAMA-7b has a hidden size of 4096. Its vocabulary size is 32k. It needs a vector of size 4096 to represent a token like "is" or even a half word. For LLAMA-2-70b, the hidden size is 8192.</p>
+                    
+                    <p>I always wondered if this is just too big to represent just one token. For example, if we look at something like sentence transformer, CLIP text encoder or OpenAI embedding APIs, etc. They seem to compress large amount of text into a single vector. Just to have a perspective, OpenAI embedding API can represent a text with up to 8k tokens with just an embedding size of 1536.</p>
+                    
+                    <p>Just to be sure, these text embedders have a different objective compared to let say a transformer. Embedding models are optimized for search-related objectives. And Language models are optimized for next token prediction.</p>
+                </div>
+
+                <div class="motivation-box">
+                    <div class="compression-comparison">
+                        <div class="model-comparison">
+                            <div class="model-card llama">
+                                <div class="model-header">
+                                    <i class="fas fa-brain"></i>
+                                    <h4>LLAMA-7b</h4>
+                                </div>
+                                <div class="model-stats">
+                                    <div class="stat">
+                                        <span class="label">Hidden Size</span>
+                                        <span class="value">4096</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="label">Vocab Size</span>
+                                        <span class="value">32k</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="label">Purpose</span>
+                                        <span class="value">Next Token Prediction</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vs-arrow">
+                                <i class="fas fa-compress-alt"></i>
+                            </div>
+                            <div class="model-card openai">
+                                <div class="model-header">
+                                    <i class="fas fa-vector-square"></i>
+                                    <h4>OpenAI Embeddings</h4>
+                                </div>
+                                <div class="model-stats">
+                                    <div class="stat">
+                                        <span class="label">Embedding Size</span>
+                                        <span class="value">1536</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="label">Context Length</span>
+                                        <span class="value">8k tokens</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="label">Purpose</span>
+                                        <span class="value">Search & Similarity</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>So, I wondered if I could combine this somehow. Can we compress multiple tokens into one token and decode those tokens from that one token? Then we can train a new transformer that operates on these 'group tokens' instead of individual ones.</p>
+                
+                <p>There can be many potential use-cases for such system. Like online knowledge injection, vocabulary extension, and next phrase prediction etc. I leave those exploration to the future work.</p>
+
+                <div class="architecture-section">
+                    <h2>Model Architecture</h2>
+                    
+                    <div class="image-container">
+                        <img src="./ima1.webp" alt="Token compression model architecture diagram" class="architecture-diagram">
+                        <div class="image-caption">
+                            <i class="fas fa-info-circle"></i>
+                            Model architecture with frozen LLM, LoRA, and special embedding tokens
+                        </div>
+                    </div>
+                    
+                    <div class="architecture-details">
+                        <div class="detail-card">
+                            <div class="detail-header">
+                                <i class="fas fa-lock"></i>
+                                <h4>Frozen LLM Base</h4>
+                            </div>
+                            <p>Pythia 1.4b with 2048 hidden dimension - weights frozen for parameter efficiency</p>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <div class="detail-header">
+                                <i class="fas fa-cogs"></i>
+                                <h4>LoRA Adaptation</h4>
+                            </div>
+                            <p>Low-rank adaptation layers that are trainable while keeping base model frozen</p>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <div class="detail-header">
+                                <i class="fas fa-tags"></i>
+                                <h4>Special Tokens</h4>
+                            </div>
+                            <p>&lt;Embed&gt; and &lt;Decode&gt; tokens for compression and reconstruction stages</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-flow">
+                    <h3>Two-Stage Process</h3>
+                    <div class="stages">
+                        <div class="stage encode">
+                            <div class="stage-number">1</div>
+                            <div class="stage-content">
+                                <h4>Encoding Stage</h4>
+                                <p>Text tokens + &lt;Embed&gt; token → Compressed embedding (context token)</p>
+                                <div class="stage-detail">
+                                    <i class="fas fa-compress"></i>
+                                    <span>Inspired by AutoCompress paper</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="stage-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        
+                        <div class="stage decode">
+                            <div class="stage-number">2</div>
+                            <div class="stage-content">
+                                <h4>Decoding Stage</h4>
+                                <p>Context token + &lt;Decode&gt; token → Perfect reconstruction</p>
+                                <div class="stage-detail">
+                                    <i class="fas fa-expand"></i>
+                                    <span>Next token prediction for reconstruction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Experiment 1: 1-16 Token Compression</h2>
+                
+                <div class="experiment-setup">
+                    <div class="setup-item">
+                        <i class="fas fa-database"></i>
+                        <div>
+                            <h4>Dataset</h4>
+                            <p>The Pile dataset, chunks of 1-16 tokens + EoS</p>
+                        </div>
+                    </div>
+                    <div class="setup-item">
+                        <i class="fas fa-layer-group"></i>
+                        <div>
+                            <h4>Batch Size</h4>
+                            <p>64, parameter efficiently fine-tuned</p>
+                        </div>
+                    </div>
+                    <div class="setup-item">
+                        <i class="fas fa-repeat"></i>
+                        <div>
+                            <h4>Iterations</h4>
+                            <p>~250k iterations until convergence</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-section">
+                    <div class="image-container">
+                        <img src="./ima2.webp" alt="Loss curve for 1-16 token compression showing convergence to ~0.05" class="loss-curve">
+                        <div class="image-caption">
+                            <i class="fas fa-chart-line"></i>
+                            Loss curve showing excellent convergence to ~0.05 (almost perfect reconstruction)
+                        </div>
+                    </div>
+                    
+                    <div class="result-highlight">
+                        <div class="metric">
+                            <span class="number">~0.05</span>
+                            <span class="label">Final Loss</span>
+                        </div>
+                        <div class="metric">
+                            <span class="number">~8</span>
+                            <span class="label">Avg Tokens Compressed</span>
+                        </div>
+                        <div class="metric">
+                            <span class="number">2048</span>
+                            <span class="label">Hidden Size</span>
+                        </div>
+                    </div>
+                    
+                    <div class="image-container">
+                        <img src="./ima3.webp" alt="Sample outputs from 1-16 token compression model" class="sample-outputs">
+                        <div class="image-caption">
+                            <i class="fas fa-eye"></i>
+                            Sample outputs at temperature 0.1 showing near-perfect reconstruction
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-finding">
+                    <i class="fas fa-star"></i>
+                    <div>
+                        <h3>Key Finding</h3>
+                        <p>A hidden size of ~2048 can easily compress an average of 8 tokens into a single vector with near-perfect reconstruction capability.</p>
+                    </div>
+                </div>
+
+                <h2>Experiment 2: Pushing the Limits (1-32 Tokens)</h2>
+                
+                <p>Next step was to investigate how far can I push this. I decided to further fine-tuned this model with token ranges from 1-32 while keeping everything else same.</p>
+                
+                <div class="experiment-setup">
+                    <div class="setup-item">
+                        <i class="fas fa-expand-alt"></i>
+                        <div>
+                            <h4>Extended Range</h4>
+                            <p>1-32 tokens (double the previous range)</p>
+                        </div>
+                    </div>
+                    <div class="setup-item">
+                        <i class="fas fa-layer-group"></i>
+                        <div>
+                            <h4>Batch Size</h4>
+                            <p>32 (reduced due to memory constraints)</p>
+                        </div>
+                    </div>
+                    <div class="setup-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Same Iterations</h4>
+                            <p>Same number of iterations as Experiment 1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-section">
+                    <div class="image-container">
+                        <img src="./ima4.webp" alt="Loss curve for 1-32 token compression showing higher final loss of ~0.2" class="loss-curve">
+                        <div class="image-caption">
+                            <i class="fas fa-chart-line"></i>
+                            Loss curve showing convergence to ~0.2 (4x higher than previous model)
+                        </div>
+                    </div>
+                    
+                    <div class="comparison-metrics">
+                        <div class="metric-comparison">
+                            <div class="metric-card exp1">
+                                <h4>Experiment 1</h4>
+                                <div class="metric-value">~0.05</div>
+                                <div class="metric-label">Final Loss</div>
+                                <div class="quality-indicator excellent">Excellent</div>
+                            </div>
+                            <div class="metric-card exp2">
+                                <h4>Experiment 2</h4>
+                                <div class="metric-value">~0.2</div>
+                                <div class="metric-label">Final Loss</div>
+                                <div class="quality-indicator moderate">Moderate</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="image-container">
+                        <img src="./ima5.webp" alt="Sample outputs from 1-32 token compression model" class="sample-outputs">
+                        <div class="image-caption">
+                            <i class="fas fa-eye"></i>
+                            Sample outputs showing the model struggling with longer contexts
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insight-box">
+                    <i class="fas fa-lightbulb"></i>
+                    <div>
+                        <h3>Insight</h3>
+                        <p>The model struggles to compress longer contexts. From the loss curve, it seems if training continued, it might converge, but compute limitations prevented further investigation.</p>
+                    </div>
+                </div>
+
+                <h2>Summary</h2>
+                
+                <div class="summary-section">
+                    <div class="summary-context">
+                        <p>This project is continuation of <a href="../long-pythia/">my previous post on a quest for long context</a>. I tried to work on many ideas like AutoCompress mentioned above but due to the speed of research, I realized it would be a matter of time before someone would train open source long context llms. For example, <a href="https://huggingface.co/togethercomputer/LLaMA-2-7B-32K" target="_blank">this effort</a> (LLAMA-2-32k) by Together Computers is a really good one. So I decide to explore in different directions.</p>
+                    </div>
+                    
+                    <div class="key-contributions">
+                        <h3>Key Contributions</h3>
+                        <div class="contribution-grid">
+                            <div class="contribution-item">
+                                <i class="fas fa-search"></i>
+                                <h4>Efficiency Investigation</h4>
+                                <p>Demonstrated that transformer hidden sizes may be overkill for single token representation</p>
+                            </div>
+                            <div class="contribution-item">
+                                <i class="fas fa-tools"></i>
+                                <h4>Simple Architecture</h4>
+                                <p>Presented a simple method to convert pre-trained LLMs into token compression models</p>
+                            </div>
+                            <div class="contribution-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <h4>Compression Results</h4>
+                                <p>Showed 2048 embedding size can compress ~8 tokens losslessly, ~16 tokens with acceptable loss</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="future-ideas-section">
+                    <h2>Future Ideas</h2>
+                    <p>Token compression model may not have immediate benefits out of the box. So, I want to share some ideas where and how it may be used. I will also be exploring some of these ideas myself as well.</p>
+                    
+                    <div class="ideas-grid">
+                        <div class="idea-card">
+                            <div class="idea-header">
+                                <i class="fas fa-microscope"></i>
+                                <h4>Transformer Insights</h4>
+                            </div>
+                            <p>Understanding how transformers compress and decompress concepts, leading to more efficient architectures like growing transformers with increasing embedding dimensions.</p>
+                        </div>
+                        
+                        <div class="idea-card">
+                            <div class="idea-header">
+                                <i class="fas fa-book"></i>
+                                <h4>Growing Vocabulary</h4>
+                            </div>
+                            <p>Training transformers with expanding vocabularies for better context length and output quality, enabling domain adaptation and multi-language/domain architectures.</p>
+                        </div>
+                        
+                        <div class="idea-card">
+                            <div class="idea-header">
+                                <i class="fas fa-rocket"></i>
+                                <h4>Decode Time Reduction</h4>
+                            </div>
+                            <p>Massive reduction in inference time: large transformer predicts groups of tokens, smaller transformer decodes the groups.</p>
+                        </div>
+                        
+                        <div class="idea-card">
+                            <div class="idea-header">
+                                <i class="fas fa-expand"></i>
+                                <h4>Context Length Extension</h4>
+                            </div>
+                            <p>Increasing context length by ~8x through token compression, enabling longer document processing capabilities.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="challenge-highlight">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div>
+                            <h4>Key Challenge</h4>
+                            <p>The main challenge is how to optimally group tokens. A naive approach of grouping adjacent tokens of size 8 may fail when complex information needs compression.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conclusion-section">
+                    <div class="conclusion-content">
+                        <p>I hope you have enjoyed this essay. <a href="https://gist.github.com/NaxAlpha/0b63348cd19395779cd4b021888c2fb4" target="_blank">Complete source code</a> with model weights is available on GitHub gist. While it is a bit messy, I plan to share a cleaner repo later.</p>
+                    </div>
+                    
+                    <div class="code-availability">
+                        <i class="fas fa-code"></i>
+                        <div>
+                            <h4>Code Available</h4>
+                            <p>Full implementation and model weights available on GitHub</p>
+                            <a href="https://gist.github.com/NaxAlpha/0b63348cd19395779cd4b021888c2fb4" target="_blank" class="code-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tags-section">
+                    <h3>
+                        <i class="fas fa-tags"></i>
+                        Topics
+                    </h3>
+                    <div class="tags">
+                        <span class="tag">Token Compression</span>
+                        <span class="tag">LLM Efficiency</span>
+                        <span class="tag">Transformers</span>
+                        <span class="tag">LoRA</span>
+                        <span class="tag">Pythia</span>
+                        <span class="tag">AutoCompress</span>
+                        <span class="tag">Context Length</span>
+                    </div>
+                </div>
+            </article>
+            
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="/lib/shared.js"></script>
+</body>
+</html> 
