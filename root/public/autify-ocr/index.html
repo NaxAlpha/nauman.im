@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLUI Mobile: Autify OCR vs. Google OCR - Nauman Mustafa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Dark Mode</span>
+    </div>
+    
+    <div class="container">
+        <header class="hero">
+            <div class="hero-background">
+                <div class="ocr-visual">
+                    <div class="scanning-line"></div>
+                    <div class="text-blocks">
+                        <div class="text-block">A</div>
+                        <div class="text-block">B</div>
+                        <div class="text-block">C</div>
+                        <div class="text-block">あ</div>
+                        <div class="text-block">¥</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <a href="https://nocode.autify.com/blog/autify-ocr-google-ocr" target="_blank" class="original-post-link">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Read Original on Autify Blog</span>
+                </a>
+                
+                <div class="company-tag">
+                    <i class="fas fa-building"></i>
+                    <span>Autify Research</span>
+                </div>
+                
+                <h1 class="hero-title">MLUI Mobile: Autify OCR vs. Google OCR</h1>
+                <p class="hero-subtitle">Comparative Analysis of OCR Performance in Mobile Screenshot Text Recognition</p>
+                
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>September 6, 2023</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-eye"></i>
+                        <span>Technical Analysis</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Performance Comparison</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+            
+            <article class="article">
+                <div class="title-image-container">
+                    <img src="./imx1.png" alt="Autify OCR vs Google OCR comparison visualization" class="title-image">
+                </div>
+
+                <div class="intro-section">
+                    <p>Autify for Mobile has multiple ML-based features that are built on top of our ML-based UI detection engine we call MLUI-Mobile. We have integrated an OCR system with this engine that we have developed in-house. While currently, it only powers Mobile features, we are actively working on integrating it with some of the Autify for Web Features. Since our use-case is relatively narrow (i.e. rendered text on screenshots), our in-house OCR system has been able to outperform alternatives available. In this blog post, we want to compare our OCR with open source alternatives like EasyOCR as well as closed source solutions like Google Cloud OCR.</p>
+                </div>
+
+                <div class="executive-summary">
+                    <h2>
+                        <i class="fas fa-trophy"></i>
+                        Executive Summary
+                    </h2>
+                    <div class="results-overview">
+                        <div class="accuracy-chart">
+                            <div class="accuracy-bar autify-bar">
+                                <span class="engine-name">Autify OCR</span>
+                                <div class="bar-container">
+                                    <div class="bar" style="width: 91%"></div>
+                                    <span class="percentage">91%</span>
+                                </div>
+                            </div>
+                            <div class="accuracy-bar google-bar">
+                                <span class="engine-name">Google OCR</span>
+                                <div class="bar-container">
+                                    <div class="bar" style="width: 79%"></div>
+                                    <span class="percentage">79%</span>
+                                </div>
+                            </div>
+                            <div class="accuracy-bar easy-bar">
+                                <span class="engine-name">EasyOCR</span>
+                                <div class="bar-container">
+                                    <div class="bar" style="width: 29%"></div>
+                                    <span class="percentage">29%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="methodology-section">
+                    <h2>
+                        <i class="fas fa-microscope"></i>
+                        Methodology
+                    </h2>
+                    <div class="methodology-content">
+                        <p>Given the specificity of our use-case, we only tested on a chunk of our internal dataset. So the results may differ on other datasets. Also, we gave cropped images of text to all the OCR engines and used our own production detector, so there is a possibility of results being skewed if we were to use each engine's own detector.</p>
+                        
+                        <div class="methodology-highlight">
+                            <div class="highlight-item">
+                                <i class="fas fa-database"></i>
+                                <h4>Dataset Scope</h4>
+                                <p>Internal dataset specific to mobile screenshots with rendered text</p>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-crop"></i>
+                                <h4>Testing Approach</h4>
+                                <p>Cropped images provided to all engines using production detector</p>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-balance-scale"></i>
+                                <h4>Evaluation Method</h4>
+                                <p>Agreement-based accuracy with manual annotation validation</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="dataset-section">
+                    <h2>
+                        <i class="fas fa-table"></i>
+                        Dataset
+                    </h2>
+                    <div class="dataset-pipeline">
+                        <div class="pipeline-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Initial Collection</h4>
+                                <p>Few thousand annotated screenshots with text bounding boxes</p>
+                                <div class="data-point">~100k text samples</div>
+                            </div>
+                        </div>
+                        <div class="pipeline-arrow">→</div>
+                        <div class="pipeline-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Preprocessing</h4>
+                                <p>Shuffled dataset with CLIP-based deduplication</p>
+                                <div class="data-point">~10k final samples</div>
+                            </div>
+                        </div>
+                        <div class="pipeline-arrow">→</div>
+                        <div class="pipeline-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Ground Truth</h4>
+                                <p>Agreement-based labeling with manual validation</p>
+                                <div class="data-point">70% agreement rate</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>We have a few thousand annotated screenshots that contain bounding boxes of texts but this dataset does not contain text annotation. We crop all the text boxes from these screenshots which is ~100k samples. We shuffle this dataset and use OpenAI CLIP to deduplicate samples and take only ~10k. Since, we do not have labels for these boxes, we compare the output of Autify OCR & Google OCR, if the output is similar, we consider it as correct. There is a small probability that both engines are incorrect; however; that is very insignificant.</p>
+                </section>
+
+                <section class="results-section">
+                    <h2>
+                        <i class="fas fa-chart-bar"></i>
+                        Results
+                    </h2>
+                    <div class="results-content">
+                        <div class="results-narrative">
+                            <p>Initially, we planned to use the agreement of all three OCR engines for ground truth generation which came out to be ~29% of the samples. However; after reviewing the results we realized Easy OCR is making a lot mistakes. As, for the rest of the samples, Easy OCR was agreeing with Autify OCR for ~3% of the samples and with Google OCR for 5% of the samples, but Google OCR and Autify OCR were agreeing for ~45% of the samples.</p>
+                            
+                            <p>Thus, we removed Easy OCR's agreement for ground truth estimation and only relied on Google OCR and Autify OCR. This time we got ~70% of the samples in total agreement for both engines. Next we took ~150 random samples from remaining 30% and annotated in house. And on those samples Autify OCR was 70% of the times correct whereas Google OCR was 30%.</p>
+                        </div>
+                        
+                        <div class="agreement-analysis">
+                            <h3>Agreement Analysis</h3>
+                            <div class="agreement-grid">
+                                <div class="agreement-item">
+                                    <div class="agreement-label">All Three Engines</div>
+                                    <div class="agreement-value">29%</div>
+                                    <div class="agreement-note">Initial baseline</div>
+                                </div>
+                                <div class="agreement-item">
+                                    <div class="agreement-label">Autify + Google</div>
+                                    <div class="agreement-value">70%</div>
+                                    <div class="agreement-note">Final ground truth</div>
+                                </div>
+                                <div class="agreement-item">
+                                    <div class="agreement-label">Manual Validation</div>
+                                    <div class="agreement-value">150</div>
+                                    <div class="agreement-note">Samples annotated</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="final-accuracy">
+                            <h3>Final Accuracy Estimates</h3>
+                            <div class="accuracy-comparison">
+                                <div class="accuracy-result autify-result">
+                                    <div class="result-icon">
+                                        <i class="fas fa-crown"></i>
+                                    </div>
+                                    <div class="result-content">
+                                        <h4>Autify OCR</h4>
+                                        <div class="accuracy-number">91%</div>
+                                        <div class="result-status">Winner</div>
+                                    </div>
+                                </div>
+                                <div class="accuracy-result google-result">
+                                    <div class="result-icon">
+                                        <i class="fas fa-medal"></i>
+                                    </div>
+                                    <div class="result-content">
+                                        <h4>Google OCR</h4>
+                                        <div class="accuracy-number">79%</div>
+                                        <div class="result-status">Runner-up</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="analysis-section">
+                    <h2>
+                        <i class="fas fa-search"></i>
+                        Analysis ✨
+                    </h2>
+                    <div class="analysis-content">
+                        <p>We did some analysis of these results to investigate and rationale some reasons behind these numbers. We found out that one of the core strengths of Autify OCR is handling mixed Japanese & English content. Google OCR was handling English-only and Japanese-only cases very well, some times better than Autify OCR. Another reason Autify OCR performs really well is data domain being limited to only screenshots & rendered texts. We used very strong augmentation scheme while training the model on synthetic dataset which generalizes very well to this use-case.</p>
+                        
+                        <div class="strength-analysis">
+                            <div class="strength-card autify-strengths">
+                                <div class="strength-header">
+                                    <i class="fas fa-star"></i>
+                                    <h4>Autify OCR Strengths</h4>
+                                </div>
+                                <ul class="strength-list">
+                                    <li>
+                                        <i class="fas fa-language"></i>
+                                        <span>Excellent mixed Japanese & English content handling</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-desktop"></i>
+                                        <span>Optimized for screenshot & rendered text domain</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-magic"></i>
+                                        <span>Strong augmentation scheme with synthetic data</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="strength-card google-strengths">
+                                <div class="strength-header">
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <h4>Google OCR Strengths</h4>
+                                </div>
+                                <ul class="strength-list">
+                                    <li>
+                                        <i class="fas fa-flag-usa"></i>
+                                        <span>Excellent English-only content recognition</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-flag"></i>
+                                        <span>Strong Japanese-only content performance</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-globe"></i>
+                                        <span>General-purpose OCR capabilities</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="limitation-analysis">
+                            <h3>Potential Limitations</h3>
+                            <p>One reason Google OCR & Easy OCR might not be performing well could be due to the crops of text boxes. We gave pre-annotated crops to each engine instead of using their own detectors. Another reason specifically for Easy OCR is that their pretrained model is optimized for real-world text and lack of rendered text in the training data or breadth of data domain could be the cause of low accuracy on a specific domain.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="samples-section">
+                    <h2>
+                        <i class="fas fa-images"></i>
+                        Samples
+                    </h2>
+                    <div class="samples-grid">
+                        <div class="sample-item">
+                            <div class="sample-image">
+                                <img src="./imx2.png" alt="OCR Sample 1 - Yen symbol recognition">
+                            </div>
+                            <div class="sample-analysis">
+                                <div class="sample-result">
+                                    <span class="result-label">Result:</span>
+                                    <div class="engine-results">
+                                        <div class="engine-result success">Autify OCR ✓</div>
+                                        <div class="engine-result success">Google OCR ✓</div>
+                                        <div class="engine-result failure">EasyOCR ✗</div>
+                                    </div>
+                                </div>
+                                <p class="sample-description">Autify OCR & Google OCR predicted this text correctly, however, Easy OCR did not recognize the 'Yen' symbol properly.</p>
+                            </div>
+                        </div>
+
+                        <div class="sample-item">
+                            <div class="sample-image">
+                                <img src="./imx3.png" alt="OCR Sample 2 - Tight crop challenge">
+                            </div>
+                            <div class="sample-analysis">
+                                <div class="sample-result">
+                                    <span class="result-label">Result:</span>
+                                    <div class="engine-results">
+                                        <div class="engine-result success">Autify OCR ✓</div>
+                                        <div class="engine-result success">Google OCR ✓</div>
+                                        <div class="engine-result failure">EasyOCR ✗</div>
+                                    </div>
+                                </div>
+                                <p class="sample-description">Easy OCR miss classifies 'of' into 'ot'. It could possibly be due to the very tight crop.</p>
+                            </div>
+                        </div>
+
+                        <div class="sample-item">
+                            <div class="sample-image">
+                                <img src="./imx4.png" alt="OCR Sample 3 - Version number punctuation">
+                            </div>
+                            <div class="sample-analysis">
+                                <div class="sample-result">
+                                    <span class="result-label">Result:</span>
+                                    <div class="engine-results">
+                                        <div class="engine-result success">Autify OCR ✓</div>
+                                        <div class="engine-result success">Google OCR ✓</div>
+                                        <div class="engine-result failure">EasyOCR ✗</div>
+                                    </div>
+                                </div>
+                                <p class="sample-description">In this example, Easy OCR missed a dot "." for the version number.</p>
+                            </div>
+                        </div>
+
+                        <div class="sample-item">
+                            <div class="sample-image">
+                                <img src="./imx5.png" alt="OCR Sample 4 - Digit recognition challenge">
+                            </div>
+                            <div class="sample-analysis">
+                                <div class="sample-result">
+                                    <span class="result-label">Result:</span>
+                                    <div class="engine-results">
+                                        <div class="engine-result success">Autify OCR ✓</div>
+                                        <div class="engine-result failure">Google OCR ✗</div>
+                                        <div class="engine-result failure">EasyOCR ✗</div>
+                                    </div>
+                                </div>
+                                <p class="sample-description">Here Google OCR also made a mistake. And Easy OCR did not recognize digits properly.</p>
+                            </div>
+                        </div>
+
+                        <div class="sample-item">
+                            <div class="sample-image">
+                                <img src="./imx6.png" alt="OCR Sample 5 - Autify OCR mistake">
+                            </div>
+                            <div class="sample-analysis">
+                                <div class="sample-result">
+                                    <span class="result-label">Result:</span>
+                                    <div class="engine-results">
+                                        <div class="engine-result failure">Autify OCR ✗</div>
+                                        <div class="engine-result success">Google OCR ✓</div>
+                                        <div class="engine-result success">EasyOCR ✓</div>
+                                    </div>
+                                </div>
+                                <p class="sample-description">A mistake made by Autify OCR, confusing . with :, This is a systematic error due to data generation that we have identified recently and working on fixing it.</p>
+                            </div>
+                        </div>
+
+                        <div class="sample-item">
+                            <div class="sample-image">
+                                <img src="./imx7.png" alt="OCR Sample 6 - Capitalization error">
+                            </div>
+                            <div class="sample-analysis">
+                                <div class="sample-result">
+                                    <span class="result-label">Result:</span>
+                                    <div class="engine-results">
+                                        <div class="engine-result success">Autify OCR ✓</div>
+                                        <div class="engine-result failure">Google OCR ✗</div>
+                                        <div class="engine-result success">EasyOCR ✓</div>
+                                    </div>
+                                </div>
+                                <p class="sample-description">Here Google OCR capitalized the last 's'.</p>
+                            </div>
+                        </div>
+
+                        <div class="sample-item">
+                            <div class="sample-image">
+                                <img src="./imx8.png" alt="OCR Sample 7 - Korean text challenge">
+                            </div>
+                            <div class="sample-analysis">
+                                <div class="sample-result">
+                                    <span class="result-label">Result:</span>
+                                    <div class="engine-results">
+                                        <div class="engine-result success">Autify OCR ✓</div>
+                                        <div class="engine-result success">Google OCR ✓</div>
+                                        <div class="engine-result failure">EasyOCR ✗</div>
+                                    </div>
+                                </div>
+                                <p class="sample-description">An example of Korean text, since we only provided 'en' and 'ja' as the languages to Easy OCR, it tried to match the text with Japanese characters.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="conclusion-section">
+                    <h2>
+                        <i class="fas fa-lightbulb"></i>
+                        Conclusion
+                    </h2>
+                    <div class="conclusion-content">
+                        <p>For our initial version of MLUI, we did use Easy OCR for a while. However, given the amount of errors, we decided to move to another solution. We also explored Google OCR but the challenge was, we could not improve it when it made mistakes. That is how, we decided to build an extremely optimized in-house solution which is an encoder-decoder transformer trained on massive synthetic dataset and architecture optimized for speed and accuracy trade-off.</p>
+                        
+                        <div class="key-takeaways">
+                            <h3>Key Takeaways</h3>
+                            <div class="takeaway-grid">
+                                <div class="takeaway-item">
+                                    <i class="fas fa-target"></i>
+                                    <h4>Domain-Specific Training</h4>
+                                    <p>Specialized training on screenshot and rendered text yields superior results for specific use cases</p>
+                                </div>
+                                <div class="takeaway-item">
+                                    <i class="fas fa-language"></i>
+                                    <h4>Multi-Language Support</h4>
+                                    <p>Mixed Japanese & English content handling is a critical differentiator in mobile applications</p>
+                                </div>
+                                <div class="takeaway-item">
+                                    <i class="fas fa-cogs"></i>
+                                    <h4>Customization Advantage</h4>
+                                    <p>In-house solutions allow for continuous improvement and error pattern correction</p>
+                                </div>
+                                <div class="takeaway-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h4>Performance Metrics</h4>
+                                    <p>91% accuracy achieved through synthetic data augmentation and transformer architecture</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="tags-section">
+                    <h3>
+                        <i class="fas fa-tags"></i>
+                        Topics
+                    </h3>
+                    <div class="tags">
+                        <span class="tag">OCR</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Mobile Testing</span>
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Autify</span>
+                        <span class="tag">Benchmarking</span>
+                        <span class="tag">Text Recognition</span>
+                    </div>
+                </div>
+            </article>
+            
+            <a href="../" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Home</span>
+            </a>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="/lib/shared.js"></script>
+</body>
+</html> 
