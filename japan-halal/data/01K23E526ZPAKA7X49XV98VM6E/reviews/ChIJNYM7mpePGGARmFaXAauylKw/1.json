@@ -1,0 +1,597 @@
+{
+    "search_metadata": {
+        "id": "6895381e41ffc8a3939785ad",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/53790fcb2ef82b45/6895381e41ffc8a3939785ad.json",
+        "created_at": "2025-08-07 23:34:54 UTC",
+        "processed_at": "2025-08-07 23:34:54 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/53790fcb2ef82b45/6895381e41ffc8a3939785ad.html",
+        "prettify_html_file": "https://serpapi.com/searches/53790fcb2ef82b45/6895381e41ffc8a3939785ad.prettify",
+        "total_time_taken": 0.35
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJNYM7mpePGGARmFaXAauylKw",
+        "hl": "en",
+        "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMlZsZFRKTGNGOWZSV2hEUlhSMVNYWmZjME5PUkhvMlh6QmtjMEZCUVVGQlIyZHVPVEpTVlVOYU5UWTNXWEZyV1VGRFNVRQ==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wT2IyWlpkekJxZURGdldITjROa015TW5KV1ZIYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOmpOb2ZZdzBqeDFvWHN4NkMyMnJWVHc%7C0cXbl8vP3D-%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-30T20:10:49Z",
+            "iso_date_of_last_edit": "2025-07-30T20:10:49Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wT2IyWlpkekJxZURGdldITjROa015TW5KV1ZIYxAB",
+            "user": {
+                "name": "erhan akilli",
+                "link": "https://www.google.com/maps/contrib/104809285349103133955?hl=en",
+                "contributor_id": "104809285349103133955",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocINeY_rCXoFxyftZLPWCZbYLrnx9L3WzID1J9Kz0OA9sozGokk=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 0
+            },
+            "snippet": "Yakup beye te\u015fekk\u00fcrler",
+            "extracted_snippet": {
+                "original": "Yakup beye te\u015fekk\u00fcrler",
+                "translated": "Thanks to Mr. Jacob"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pSYVNVZ3RSVmRzVkRGcWMwTndTblZqYnpSMlpuYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOjRaSUgtRVdsVDFqc0NwSnVjbzR2Znc%7C0cXC9dluXAE%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-29T13:54:49Z",
+            "iso_date_of_last_edit": "2025-07-29T13:54:49Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSYVNVZ3RSVmRzVkRGcWMwTndTblZqYnpSMlpuYxAB",
+            "user": {
+                "name": "Selin Dokuz",
+                "link": "https://www.google.com/maps/contrib/116041593796189996346?hl=en",
+                "contributor_id": "116041593796189996346",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL50XbPvvqxZ0EuPbnKBIacmcXk5bTZNt2DPKySMKq_XIIfoA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "her \u015fey \u00e7ok g\u00fczeldi hizmet s\u00fcperdi her \u015fey i\u00e7in te\u015fekk\u00fcrler.",
+            "extracted_snippet": {
+                "original": "her \u015fey \u00e7ok g\u00fczeldi hizmet s\u00fcperdi her \u015fey i\u00e7in te\u015fekk\u00fcrler.",
+                "translated": "Everything was great, the service was super, thank you for everything."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tSNmJUZDJOM0ZIV1dKNFNtOWZRVTV1YnpSeWNGRRAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOkR6bTd2N3FHWWJ4Sm9fQU5ubzRycFE%7C0cXC8-jq_Zi%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-29T13:53:04Z",
+            "iso_date_of_last_edit": "2025-07-29T13:53:04Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSNmJUZDJOM0ZIV1dKNFNtOWZRVTV1YnpSeWNGRRAB",
+            "user": {
+                "name": "bilel nagati",
+                "link": "https://www.google.com/maps/contrib/110780709849413689053?hl=en",
+                "contributor_id": "110780709849413689053",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJRWqO5KgdXH6ccsL8UxQAOXSEHfYPbyFphasc-dl0VYEdP9Qw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21oblMyMXNTamxuY1RBeFFtaGFRVGhJTTFGYVEyYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOmhnS21sSjlncTAxQmhaQThIM1FaQ2c%7C0cXC7ihTGUP%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-29T13:52:46Z",
+            "iso_date_of_last_edit": "2025-07-29T13:52:46Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oblMyMXNTamxuY1RBeFFtaGFRVGhJTTFGYVEyYxAB",
+            "user": {
+                "name": "Nesli",
+                "link": "https://www.google.com/maps/contrib/116235580560761906990?hl=en",
+                "contributor_id": "116235580560761906990",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKvd8zzboK2eO9rZMsNxAUibz-tl5ONO5fpjRU-vxWOmWFW4Q=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 1
+            },
+            "snippet": "Elinize saglik cok guzeldi\ud83d\ude4f\ud83c\udffb",
+            "extracted_snippet": {
+                "original": "Elinize saglik cok guzeldi\ud83d\ude4f\ud83c\udffb",
+                "translated": "Thank you very much \ud83d\ude4f\ud83c\udffb"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xwNWEwazBObTEwWTFOalMwWlhVM3BrV1VGWlgzYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOlp5a0k0Nm10Y1NjS0ZXU3pkWUFZX3c%7C0cWbci6uLlL%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-27T19:12:46Z",
+            "iso_date_of_last_edit": "2025-07-27T19:12:46Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwNWEwazBObTEwWTFOalMwWlhVM3BrV1VGWlgzYxAB",
+            "user": {
+                "name": "G\u00f6kay \u00c7\u0131nar",
+                "link": "https://www.google.com/maps/contrib/101844773499213298728?hl=en",
+                "contributor_id": "101844773499213298728",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWk8TTbWfUVqqYPbCt1FZX4l-24lmLzUaGdhIUFXn9h197SfVyv=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 9,
+                "photos": 5
+            },
+            "snippet": "Super good d\u00f6ner, lovely people!",
+            "extracted_snippet": {
+                "original": "Super good d\u00f6ner, lovely people!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2paUlRqa3daWEV5ZEc5elZuWkRWRVpLY1ZndFlYYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOjZRTjkwZXEydG9zVnZDVEZKcVgtYXc%7C0cWQEQ_Soz0%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-27T05:06:35Z",
+            "iso_date_of_last_edit": "2025-07-27T05:06:35Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CXV7CAVU4RWuuNMD3KlW4hTQEsbJHUhWGqE9-65F292EP9ezpZsWZaPVtVDgIKp1hywTKF8hfINlC8S--FPZk4b7HuTyYq6kmrc8REcQzOvua4SScwVm_RT2vcXnL6dM1YtswU2UO--0Bv",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BfmTWqry8kqiBvNDU_KEigFumckINiq0NYCHRNxwjdYWDTowKI6SWCxW1lTabA_X-KYB64Vc2wAU2boOCJ4uRPGwxHkNF9TFiOqu-sGe2NACkQkdfKF7Fq0yJPA_399UB98aHcik1W2aAC"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paUlRqa3daWEV5ZEc5elZuWkRWRVpLY1ZndFlYYxAB",
+            "user": {
+                "name": "Tayfun \u00c7ali\u015f",
+                "link": "https://www.google.com/maps/contrib/104028527252890499497?hl=en",
+                "contributor_id": "104028527252890499497",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKVYff1hdGlc_xslKhblpH8a8Jzhh1-RGFB0UAI_bKmrMKrMA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 2
+            },
+            "snippet": "Tokyo ya gelince yemeden olmaz,Aras kebab \u00e7ok iyi, \u00e7al\u0131\u015fanlar \u00e7ok iyi",
+            "extracted_snippet": {
+                "original": "Tokyo ya gelince yemeden olmaz,Aras kebab \u00e7ok iyi, \u00e7al\u0131\u015fanlar \u00e7ok iyi",
+                "translated": "When you come to Tokyo, you can't go without eating it. Aras kebab is very good, the staff is very nice."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2psYVZVTmtVa2R6U0RSUWJuRlJUSEZMVm01Zk9WRRAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOjlaVUNkUkdzSDRQbnFRTHFLVm5fOVE%7C0cW6NV6wAG4%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-26T06:30:56Z",
+            "iso_date_of_last_edit": "2025-07-26T06:30:56Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psYVZVTmtVa2R6U0RSUWJuRlJUSEZMVm01Zk9WRRAB",
+            "user": {
+                "name": "Zin Ko",
+                "link": "https://www.google.com/maps/contrib/104500722492811303297?hl=en",
+                "contributor_id": "104500722492811303297",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVHKV4Bp321E2EEOxBZLFKZlZ1ktoWU94rqf6LxWJBO1qJ5yr4=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "\u3068\u3066\u3082\u3044\u3044",
+            "extracted_snippet": {
+                "original": "\u3068\u3066\u3082\u3044\u3044",
+                "translated": "very good"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xCUVNEUm9NRXBVVkhsSldtRmZhbm93V1hOWFoyYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOlBQSDRoMEpUVHlJWmFfanowWXNXZ2c%7C0cW4mUTvLTP%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-26T04:42:07Z",
+            "iso_date_of_last_edit": "2025-07-26T04:42:07Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCUVNEUm9NRXBVVkhsSldtRmZhbm93V1hOWFoyYxAB",
+            "user": {
+                "name": "Emre Karag\u00fcl",
+                "link": "https://www.google.com/maps/contrib/103395429770892049504?hl=en",
+                "contributor_id": "103395429770892049504",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKpEGB1kGlk6-Jpr9Zgqv2s_mvKi6xwULRcxce_3R3KJmgD_g=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 14,
+                "photos": 1
+            },
+            "snippet": "Buras\u0131 D\u00f6ner yiyebilece\u011finiz en g\u00fczel yer.",
+            "extracted_snippet": {
+                "original": "Buras\u0131 D\u00f6ner yiyebilece\u011finiz en g\u00fczel yer.",
+                "translated": "This is the best place to eat D\u00f6ner."
+            },
+            "details": {
+                "price_per_person": "\u00a51\u20131,000",
+                "noise_level": "Moderate noise",
+                "group_size": "Suitable for all group sizes",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25OSmRuTjZPRkZ6YjJwalJYRnZWSGMyV2kxbmJGRRAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOnNJdnN6OFFzb2pjRXFvVHc2Wi1nbFE%7C0cVjRlIqKKj%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-25T03:17:05Z",
+            "iso_date_of_last_edit": "2025-07-25T03:17:05Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OSmRuTjZPRkZ6YjJwalJYRnZWSGMyV2kxbmJGRRAB",
+            "user": {
+                "name": "KubuKub\u2019s Kitchen Turkish Foods",
+                "link": "https://www.google.com/maps/contrib/117712563782199802309?hl=en",
+                "contributor_id": "117712563782199802309",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU45ukvI-C-Cu2CGvhN0CNfzcPXZhK6Cz7FeDoiMGG35wBjJkUd=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Everything was perfect ! Workers helped me about everything ! They were very polite. Food was delicious!",
+            "extracted_snippet": {
+                "original": "Everything was perfect ! Workers helped me about everything ! They were very polite. Food was delicious!"
+            },
+            "details": {
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25aa1RFSTRRMHBIZDFWQ1MwVXphV1pLWDJGaVNIYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOnZkTEI4Q0pHd1VCS0UzaWZKX2FiSHc%7C0cV5h_BOjfx%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 weeks ago",
+            "iso_date": "2025-07-23T04:56:05Z",
+            "iso_date_of_last_edit": "2025-07-23T04:56:05Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aa1RFSTRRMHBIZDFWQ1MwVXphV1pLWDJGaVNIYxAB",
+            "user": {
+                "name": "Sevim Bulgurlar",
+                "link": "https://www.google.com/maps/contrib/110752490423637100217?hl=en",
+                "contributor_id": "110752490423637100217",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWi1_FogGZWCo7m7Ke_IA56RbAF2FIpytbuCF0XVYGftz5itlc=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 0
+            },
+            "snippet": "Tavuk ve et d\u00f6neri rahatl\u0131kla yedik hem porsiyonu bol hemde \u00e7ok lezzetli \ud83c\udf38 Fiyat\u0131 da olduk\u00e7a uygun bir helal restoran. Ailecek 2 bebe\u011fimle birlikte gittik pilav d\u00f6ner salata s\u00fcperdi tekrar te\u015fekk\u00fcr ederiz . Yak\u0131n\u0131nda d\u00f6viz b\u00fcrosu da vard\u0131 sorduk  tarif ettiler ordanEuro bozduk en y\u00fcksek bozan yerdi te\u015fekk\u00fcr ederiz. M\u00fckemmel hizmet \ud83c\udf38",
+            "extracted_snippet": {
+                "original": "Tavuk ve et d\u00f6neri rahatl\u0131kla yedik hem porsiyonu bol hemde \u00e7ok lezzetli \ud83c\udf38 Fiyat\u0131 da olduk\u00e7a uygun bir helal restoran. Ailecek 2 bebe\u011fimle birlikte gittik pilav d\u00f6ner salata s\u00fcperdi tekrar te\u015fekk\u00fcr ederiz . Yak\u0131n\u0131nda d\u00f6viz b\u00fcrosu da vard\u0131 sorduk  tarif ettiler ordanEuro bozduk en y\u00fcksek bozan yerdi te\u015fekk\u00fcr ederiz. M\u00fckemmel hizmet \ud83c\udf38",
+                "translated": "We easily ate the chicken and meat d\u00f6ner kebabs, both generous portions and delicious. It's a halal restaurant with very reasonable prices. We went as a family with my two babies. The rice d\u00f6ner kebab and salad were superb. Thank you again. There was also a currency exchange office nearby, so we asked and they gave us directions. We exchanged euros there, and it was the best exchange rate. Thank you. Excellent service."
+            },
+            "details": {
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "group_size": "3-4 people, 5-8 people",
+                "wait_time": "No wait",
+                "kid_friendliness": "\u00c7ocuklara uygun \ud83c\udf38patatesi \u00e7ok g\u00fczel k\u0131zlar\u0131m severek yedi",
+                "wheelchair_accessibility": "Uygun"
+            },
+            "translated_details": {
+                "kid_friendliness": "Suitable for children \ud83c\udf38 The potatoes are very nice, my daughters ate them with pleasure",
+                "wheelchair_accessibility": "Suitable"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xVNFkySXRSalJXUWxvNE5tOW5NbU5mUWpoRldsRRAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOlU4Y2ItRjRWQlo4Nm9nMmNfQjhFWlE%7C0cV3-hgkBwI%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 weeks ago",
+            "iso_date": "2025-07-23T01:51:41Z",
+            "iso_date_of_last_edit": "2025-07-23T01:51:41Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVNFkySXRSalJXUWxvNE5tOW5NbU5mUWpoRldsRRAB",
+            "user": {
+                "name": "hazal g\u00fcrler",
+                "link": "https://www.google.com/maps/contrib/111718133133064160049?hl=en",
+                "contributor_id": "111718133133064160049",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLbuKTtLdbqojdO59M9OzlRfa-cbT861ZbagqAQbytS7yuggA=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 12,
+                "photos": 1
+            },
+            "snippet": "Harika lezzetli peynirli tavuk donerini denedik, muazzamdi tadi damagimizda kalarak Turkiye\u2019ye donecegiz simdi :) Cok guler yuzlu esnaflar, yolunuz duserse mutlaka ugrayin pisman olmazsiniz.",
+            "extracted_snippet": {
+                "original": "Harika lezzetli peynirli tavuk donerini denedik, muazzamdi tadi damagimizda kalarak Turkiye\u2019ye donecegiz simdi :) Cok guler yuzlu esnaflar, yolunuz duserse mutlaka ugrayin pisman olmazsiniz.",
+                "translated": "We tried the wonderfully delicious chicken doner with cheese, it was amazing, we will return to Turkey with the taste still on our palate :) Very friendly shopkeepers, if you happen to pass by, definitely stop by, you won't regret it."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkZmQzSTRNME5pUmpSb2JIQTRVRVF4WkhCS2RWRRAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOldfd3I4M0NiRjRobHA4UEQxZHBKdVE%7C0cV2zlU5xNt%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 weeks ago",
+            "iso_date": "2025-07-23T01:50:41Z",
+            "iso_date_of_last_edit": "2025-07-23T01:50:41Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkZmQzSTRNME5pUmpSb2JIQTRVRVF4WkhCS2RWRRAB",
+            "user": {
+                "name": "Hasan Can G\u00fcler",
+                "link": "https://www.google.com/maps/contrib/103724713662697606455?hl=en",
+                "contributor_id": "103724713662697606455",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVhhDbOiQvnlkIzavDVL02E0Yiq3mxkK6InEPZYa4OYLtDQVBxv=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 17,
+                "photos": 2
+            },
+            "snippet": "harika d\u00f6ner ve g\u00fczel esnaf. Japonya\u2019da b\u00f6ylesini bulmak zor :)",
+            "extracted_snippet": {
+                "original": "harika d\u00f6ner ve g\u00fczel esnaf. Japonya\u2019da b\u00f6ylesini bulmak zor :)",
+                "translated": "Great d\u00f6ner and nice shopkeepers. Hard to find something like this in Japan :)"
+            },
+            "details": {
+                "service": 5,
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "Suitable for all group sizes",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xad1JHSjFRM3BMTXpCc1lXNXVPRXRCY2pKQ1lYYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOlZwRGJ1Q3pLMzBsYW5uOEtBcjJCYXc%7C0cV2V84N7lH%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 weeks ago",
+            "iso_date": "2025-07-23T01:16:57Z",
+            "iso_date_of_last_edit": "2025-07-23T01:16:57Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xad1JHSjFRM3BMTXpCc1lXNXVPRXRCY2pKQ1lYYxAB",
+            "user": {
+                "name": "KHAN ARSHED",
+                "link": "https://www.google.com/maps/contrib/104104644971272867071?hl=en",
+                "contributor_id": "104104644971272867071",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIIColv6eDAut-bb2F4Z40dDGI3GjOUnTGxmiiDMX2TUKXR2A=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Best kebab in Ueno",
+            "extracted_snippet": {
+                "original": "Best kebab in Ueno"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkcWR6Tk1XbXRpVW1sdFZsVTRVMjVpWlc1bFExRRAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOldqdzNMWmtiUmltVlU4U25iZW5lQ1E%7C0cUQAgs2UwA%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 weeks ago",
+            "iso_date": "2025-07-21T03:24:28Z",
+            "iso_date_of_last_edit": "2025-07-21T03:24:28Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BTxJzUmYc60S0xcXPpJ3wjOIwqwtOxAQS1vWN16HQT8ZPA1JrHCXRI9kVgN-xAz6ge98RVgs4zAZJOkGTJfRB9O7nsTpvVoPHplMIn97KoS4qaAdl258kztURKyZvGCOPRcTjDOC-oR0Aq"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkcWR6Tk1XbXRpVW1sdFZsVTRVMjVpWlc1bFExRRAB",
+            "user": {
+                "name": "\u00d6mer Faruk \u00d6z\u00e7elik",
+                "link": "https://www.google.com/maps/contrib/106840674261881892756?hl=en",
+                "contributor_id": "106840674261881892756",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXI2OvunwoamJ-J0kYoZttMY8tL4dHOsJ2eTK2AFNO1Hk2REN5L=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 3
+            },
+            "snippet": "Uenoya gelip u\u011framadan gitmek olmaz. Rak\u0131 dahil her\u015fey var d\u00f6neri de g\u00fczel fiyatlar uygun",
+            "extracted_snippet": {
+                "original": "Uenoya gelip u\u011framadan gitmek olmaz. Rak\u0131 dahil her\u015fey var d\u00f6neri de g\u00fczel fiyatlar uygun",
+                "translated": "You can't leave Ueno without stopping by. Everything is available, including rak\u0131, and the d\u00f6ner is delicious, and the prices are reasonable."
+            },
+            "details": {
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VKS3ZxcFAwdGN6VFRBEAE!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CIHM0ogKEJKvqpP0tczTTA%7C0cTZwFtIkdg%7C?hl=en",
+            "rating": 5.0,
+            "date": "Edited 2 weeks ago",
+            "iso_date": "2025-05-12T02:15:54Z",
+            "iso_date_of_last_edit": "2025-07-18T13:41:36Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VKS3ZxcFAwdGN6VFRBEAE",
+            "user": {
+                "name": "Bagtygul Hudaygulyyewa",
+                "link": "https://www.google.com/maps/contrib/111106832270120902429?hl=en",
+                "contributor_id": "111106832270120902429",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLLtnjKVm92kNa8f0b-bbQIZm2AqVe-ApjhSnJb0zDpwYUOaA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 0
+            },
+            "snippet": "Salam mahriban syyahatcylar yaponyanyn in owadan yeri ueno bolup oran gowy donerem dine aras kebapdyr syyahat etmane gelen ildeslerimizz hokmany suratda bu kebabyy datmadan gitmann sef powurlaram doner ussalarm oran mahirli guler yuzlii hokman gelip iyinn isdaniz acyk bolsunn",
+            "extracted_snippet": {
+                "original": "Salam mahriban syyahatcylar yaponyanyn in owadan yeri ueno bolup oran gowy donerem dine aras kebapdyr syyahat etmane gelen ildeslerimizz hokmany suratda bu kebabyy datmadan gitmann sef powurlaram doner ussalarm oran mahirli guler yuzlii hokman gelip iyinn isdaniz acyk bolsunn",
+                "translated": "Hello dear travelers, the most beautiful place in Japan is Ueno, and it is a very good doner kebab. Our friends who come to visit, please don't miss this kebab in the picture. The chefs are also doner masters, they are very skillful and have a beautiful face. Please come and eat. May your appetite be happy."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWNFZGazFRamhPWW1oS1NsRm9NRk5IVEVkeGVuYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOjV4VFk1QjhOYmhKSlFoMFNHTEdxenc%7C0cS9Xk23-d2%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-14T06:50:24Z",
+            "iso_date_of_last_edit": "2025-07-14T06:50:24Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWNFZGazFRamhPWW1oS1NsRm9NRk5IVEVkeGVuYxAB",
+            "user": {
+                "name": "CMT",
+                "link": "https://www.google.com/maps/contrib/111376251299763445573?hl=en",
+                "contributor_id": "111376251299763445573",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL6Z8fZ5G1Cjx_4Zrd89sclCpM19UBa39_xhXS02pBT7xrUBg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "When I want Kebab, this is the only place I go to. Everything is great, especially their chicken. If it\u2019s your first time or a regular, the staff will always treat you like a friend. Great food and staff.",
+            "extracted_snippet": {
+                "original": "When I want Kebab, this is the only place I go to. Everything is great, especially their chicken. If it\u2019s your first time or a regular, the staff will always treat you like a friend. Great food and staff."
+            },
+            "details": {
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT20welpGQnZORXMzVjFFeFdWQjBUWFZxWlVjMGRtYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOm0zZFBvNEs3V1ExWVB0TXVqZUc0dmc%7C0cS7xyeo8m3%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-14T05:02:54Z",
+            "iso_date_of_last_edit": "2025-07-14T05:02:54Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20welpGQnZORXMzVjFFeFdWQjBUWFZxWlVjMGRtYxAB",
+            "user": {
+                "name": "Selim Bey",
+                "link": "https://www.google.com/maps/contrib/104741144602255191056?hl=en",
+                "contributor_id": "104741144602255191056",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKkvHiduI25NMvlhBuSVrXAVMc721K9YslwhVvVePCvzekltw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 10,
+                "photos": 0
+            },
+            "snippet": "Tokyo\u2019nun kalabal\u0131k sokaklar\u0131nda y\u00fcr\u00fcrken bir anda kar\u015f\u0131n\u0131za \u00e7\u0131kan **Aras Kebap**, adeta bir memleket molas\u0131 gibi. \u00c7ok k\u0131ymetli karde\u015fim Pablo \ud83d\ude00 ve Ad\u0131yamanl\u0131 Zeynel abinin s\u0131cak kar\u015f\u0131lamas\u0131, sadece kebap de\u011fil, \u00f6zlemle yo\u011frulmu\u015f bir samimiyet sunuyor. Japonya gibi k\u00fclt\u00fcrel olarak farkl\u0131 bir \u00fclkede, tan\u0131d\u0131k bir y\u00fcz g\u00f6rmek, hele ki o y\u00fcz size \u201cho\u015f geldiniz hem\u015ferim\u201d diyorsa, insan\u0131n i\u00e7i bir ba\u015fka \u0131s\u0131n\u0131yor.\n\n\ud83e\udd59 Men\u00fcdeki kebaplar, T\u00fcrkiye\u2019deki sokak lezzetlerini aratmayacak kadar tan\u0131d\u0131k: bol baharatl\u0131, doyurucu ve tam T\u00fcrk damak tad\u0131na g\u00f6re. \u00d6zellikle Tokyo gibi bir yerde, sushi ve ramen aras\u0131nda kaybolmu\u015fken, Aras Kebap\u2019ta bir d\u00fcr\u00fcmle memlekete \u0131\u015f\u0131nlanmak gibisi yok.\n\n\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 Ailece gitti\u011finizde \u00e7ocuklar bile \u201cbizim kebap\u00e7\u0131ya geldik\u201d hissine kap\u0131l\u0131yor. Zeynel abinin sohbeti, Japonya\u2019da bir T\u00fcrk olarak kendinizi yaln\u0131z hissetmemenizi sa\u011fl\u0131yor. Hem\u015fehrilik burada sadece bir kelime de\u011fil, bir g\u00fcven duygusu. Sanki bir tan\u0131d\u0131\u011f\u0131n d\u00fckk\u00e2n\u0131na u\u011fram\u0131\u015fs\u0131n\u0131z gibi.\n\nArigat\u014d gozaimasu Pablo \ud83d\udc4f",
+            "extracted_snippet": {
+                "original": "Tokyo\u2019nun kalabal\u0131k sokaklar\u0131nda y\u00fcr\u00fcrken bir anda kar\u015f\u0131n\u0131za \u00e7\u0131kan **Aras Kebap**, adeta bir memleket molas\u0131 gibi. \u00c7ok k\u0131ymetli karde\u015fim Pablo \ud83d\ude00 ve Ad\u0131yamanl\u0131 Zeynel abinin s\u0131cak kar\u015f\u0131lamas\u0131, sadece kebap de\u011fil, \u00f6zlemle yo\u011frulmu\u015f bir samimiyet sunuyor. Japonya gibi k\u00fclt\u00fcrel olarak farkl\u0131 bir \u00fclkede, tan\u0131d\u0131k bir y\u00fcz g\u00f6rmek, hele ki o y\u00fcz size \u201cho\u015f geldiniz hem\u015ferim\u201d diyorsa, insan\u0131n i\u00e7i bir ba\u015fka \u0131s\u0131n\u0131yor.\n\n\ud83e\udd59 Men\u00fcdeki kebaplar, T\u00fcrkiye\u2019deki sokak lezzetlerini aratmayacak kadar tan\u0131d\u0131k: bol baharatl\u0131, doyurucu ve tam T\u00fcrk damak tad\u0131na g\u00f6re. \u00d6zellikle Tokyo gibi bir yerde, sushi ve ramen aras\u0131nda kaybolmu\u015fken, Aras Kebap\u2019ta bir d\u00fcr\u00fcmle memlekete \u0131\u015f\u0131nlanmak gibisi yok.\n\n\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 Ailece gitti\u011finizde \u00e7ocuklar bile \u201cbizim kebap\u00e7\u0131ya geldik\u201d hissine kap\u0131l\u0131yor. Zeynel abinin sohbeti, Japonya\u2019da bir T\u00fcrk olarak kendinizi yaln\u0131z hissetmemenizi sa\u011fl\u0131yor. Hem\u015fehrilik burada sadece bir kelime de\u011fil, bir g\u00fcven duygusu. Sanki bir tan\u0131d\u0131\u011f\u0131n d\u00fckk\u00e2n\u0131na u\u011fram\u0131\u015fs\u0131n\u0131z gibi.\n\nArigat\u014d gozaimasu Pablo \ud83d\udc4f",
+                "translated": "Walking through the crowded streets of Tokyo, you suddenly come across **Aras Kebap**, like a hometown respite. The warm welcome from my dear brother Pablo \ud83d\ude00 and Zeynel from Ad\u0131yaman offers not only kebabs but also a sincerity steeped in longing. In a culturally diverse country like Japan, seeing a familiar face, especially when that face says \"Welcome, fellow countryman,\" is a truly heartwarming experience.\n\n\ud83e\udd59 The kebabs on the menu are so familiar they're reminiscent of Turkish street food: spicy, filling, and perfectly suited to the Turkish palate. Especially in a place like Tokyo, lost in the hustle and bustle of sushi and ramen, there's nothing quite like being transported back home with a wrap at Aras Kebap.\n\n\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 When you visit as a family, even the kids get the feeling that they've come to our kebab shop. Zeynel Abi's conversation makes you feel less alone as a Turk in Japan. Citizenship isn't just a word here; it's a sense of trust. It's like you've stopped by a friend's shop.\n\nArigato gozaimasu Pablo \ud83d\udc4f"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xnNVJtUkhUbGxaVGpkcFZYZFFVVGh3ZEhodVpHYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOlg5RmRHTllZTjdpVXdQUThwdHhuZGc%7C0cRsDLjbpP7%7C?hl=en",
+            "rating": 4.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-13T09:59:50Z",
+            "iso_date_of_last_edit": "2025-07-13T09:59:50Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnNVJtUkhUbGxaVGpkcFZYZFFVVGh3ZEhodVpHYxAB",
+            "user": {
+                "name": "F.G. B.",
+                "link": "https://www.google.com/maps/contrib/117045462121545752748?hl=en",
+                "contributor_id": "117045462121545752748",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWReP5PF8NtLk7YHdYMZkxYk7fDbuh_5x0lppBUi0py6MIq2n8f=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 7,
+                "photos": 4
+            },
+            "snippet": "H\u0131zl\u0131ca yeme\u011finizi yiyip kalkabilece\u011finiz bir ortam\u0131,doyurucu porsiyonlar\u0131 ve g\u00fcler y\u00fczl\u00fc \u00e7al\u0131\u015fanlar\u0131 var , bu b\u00f6lgedeki en y\u00fcksek puanl\u0131 yiyecek yeridir.",
+            "extracted_snippet": {
+                "original": "H\u0131zl\u0131ca yeme\u011finizi yiyip kalkabilece\u011finiz bir ortam\u0131,doyurucu porsiyonlar\u0131 ve g\u00fcler y\u00fczl\u00fc \u00e7al\u0131\u015fanlar\u0131 var , bu b\u00f6lgedeki en y\u00fcksek puanl\u0131 yiyecek yeridir.",
+                "translated": "It has a quick meal-and-go atmosphere, hearty portions, and friendly staff, making it the highest-rated food place in the area."
+            },
+            "details": {
+                "food": 4,
+                "service": 5,
+                "atmosphere": 2
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT20xMU5GRlNOWGMwTmxZNFRVTjVNemcyTFZRM1ZYYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOm11NFFSNXc0NlY4TUN5Mzg2LVQ3VXc%7C0cRrSdqaawd%7C?hl=en",
+            "rating": 1.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-13T09:07:53Z",
+            "iso_date_of_last_edit": "2025-07-13T09:07:53Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xMU5GRlNOWGMwTmxZNFRVTjVNemcyTFZRM1ZYYxAB",
+            "user": {
+                "name": "Rasoul Shir",
+                "link": "https://www.google.com/maps/contrib/113223805537967631854?hl=en",
+                "contributor_id": "113223805537967631854",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIZLpNJirwv9INEVjLxMsLBnozHGMG-ahabmyQYnhV4QkwQhKg=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 7,
+                "photos": 1
+            },
+            "details": {
+                "food": 1,
+                "service": 1,
+                "atmosphere": 1
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tOQk4xaHZRemhUWDBSWGJXaHplVVZJZG1adWMyYxAB!2m1!1s0x0:0xac94b2ab01975698!3m1!1s2@1:CAIQACodChtycF9oOkNBN1hvQzhTX0RXbWhzeUVIdmZuc2c%7C0cRZcy1m9DX%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-12T11:42:54Z",
+            "iso_date_of_last_edit": "2025-07-12T11:42:54Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOQk4xaHZRemhUWDBSWGJXaHplVVZJZG1adWMyYxAB",
+            "user": {
+                "name": "Haylaz Miran",
+                "link": "https://www.google.com/maps/contrib/112774413748972062416?hl=en",
+                "contributor_id": "112774413748972062416",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKwnhVBc9YLYvzHBhv2NX78SOmc6hPRnp73hjqECi_vDc_3xg=s120-c-rp-mo-br100",
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Best kebab in tokyo , and friandly",
+            "extracted_snippet": {
+                "original": "Best kebab in tokyo , and friandly"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMmRDYW1ZeWFGOWZSV2hDTjFwdVFWVjJWVGRZVW10R2N6WmlkMEZCUVVGQlIyZHVPVE5EV1VOaFFVZE9YMkZGV1VGRFNVRQ%3D%3D&num=20&place_id=ChIJNYM7mpePGGARmFaXAauylKw&sort_by=newestFirst",
+        "next_page_token": "CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMmRDYW1ZeWFGOWZSV2hDTjFwdVFWVjJWVGRZVW10R2N6WmlkMEZCUVVGQlIyZHVPVE5EV1VOaFFVZE9YMkZGV1VGRFNVRQ=="
+    }
+}

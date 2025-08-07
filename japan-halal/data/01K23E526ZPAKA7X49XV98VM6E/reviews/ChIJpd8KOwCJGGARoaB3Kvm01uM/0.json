@@ -1,0 +1,279 @@
+{
+    "search_metadata": {
+        "id": "6895383a5729487c3e851b6d",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/508910aa649fbc86/6895383a5729487c3e851b6d.json",
+        "created_at": "2025-08-07 23:35:22 UTC",
+        "processed_at": "2025-08-07 23:35:22 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s0x601889003b0adfa5:0xe3d6b4f92a77a0a1!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/508910aa649fbc86/6895383a5729487c3e851b6d.html",
+        "prettify_html_file": "https://serpapi.com/searches/508910aa649fbc86/6895383a5729487c3e851b6d.prettify",
+        "total_time_taken": 0.46
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJpd8KOwCJGGARoaB3Kvm01uM",
+        "hl": "en",
+        "sort_by": "newestFirst"
+    },
+    "place_info": {
+        "title": "Tokyo Halal Indian restaurant",
+        "address": "Japan, \u3012104-0041 Tokyo, Chuo City, Shintomi, 2 Chome\u22124\u22125 \u5ddd\u540d\u30d3\u30eb \uff13\u968e",
+        "rating": 4.7,
+        "reviews": 9,
+        "type": "Halal restaurant"
+    },
+    "topics": [
+        {
+            "keyword": "cleanliness",
+            "mentions": 2,
+            "id": "x25UVnKY1_U"
+        },
+        {
+            "keyword": "food",
+            "mentions": 2,
+            "id": "QNevLIzAQ6E"
+        },
+        {
+            "keyword": "menu",
+            "mentions": 2,
+            "id": "UhjKkdsmUik"
+        }
+    ],
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25KTk5WTTFTSHBVU1dGS2FIQjNlSGxTUnpRME1IYxAB!2m1!1s0x0:0xe3d6b4f92a77a0a1!3m1!1s2@1:CAIQACodChtycF9oOnJNNVM1SHpUSWFKaHB3eHlSRzQ0MHc%7C0cPAK--oit4%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-05T05:16:48Z",
+            "iso_date_of_last_edit": "2025-07-05T05:16:48Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KTk5WTTFTSHBVU1dGS2FIQjNlSGxTUnpRME1IYxAB",
+            "user": {
+                "name": "Akmal Zia",
+                "link": "https://www.google.com/maps/contrib/106116365047969860144?hl=en-US",
+                "contributor_id": "106116365047969860144",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUUMeNHVQGwPOqxwKVZZHmcr5cNarhrCKpitPxdWmRb9ZyAP-x8=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 15,
+                "photos": 0
+            },
+            "snippet": "It's quite good...",
+            "extracted_snippet": {
+                "original": "It's quite good..."
+            },
+            "details": {
+                "service": "Take out",
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VLX2ctZjM1eUpqeHVBRRAB!2m1!1s0x0:0xe3d6b4f92a77a0a1!3m1!1s2@1:CIHM0ogKEK_g-f35yJjxuAE%7CCgwIstmpwgYQiInY2gM%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-06-12T05:59:14Z",
+            "iso_date_of_last_edit": "2025-06-12T05:59:14Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VLX2ctZjM1eUpqeHVBRRAB",
+            "user": {
+                "name": "NAJRIN Tina",
+                "link": "https://www.google.com/maps/contrib/117534073193338800481?hl=en-US",
+                "contributor_id": "117534073193338800481",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJvXCttjT1ErWmHcVEGe1QoMZaJdv8PuaIXeyphfPWCOznAVw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 1
+            },
+            "snippet": "Curry meijin decorations is very good\nInside neat and clean, guick service\nWe were three visited round 2'o clock\nLunch menu has many sets  I prefer grand menu",
+            "extracted_snippet": {
+                "original": "Curry meijin decorations is very good\nInside neat and clean, guick service\nWe were three visited round 2'o clock\nLunch menu has many sets  I prefer grand menu"
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "wait_time": "10-30 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w5alV6bEVlR0ZJTjFkU1psTkNPVWxaT1ZkTU1WRRAB!2m1!1s0x0:0xe3d6b4f92a77a0a1!3m1!1s2@1:CAIQACodChtycF9oOl9jUzlEeGFIN1dSZlNCOUlZOVdMMVE%7C0cHN0AY_g-n%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-06-11T13:10:35Z",
+            "iso_date_of_last_edit": "2025-06-11T13:10:35Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5alV6bEVlR0ZJTjFkU1psTkNPVWxaT1ZkTU1WRRAB",
+            "user": {
+                "name": "Sk sek",
+                "link": "https://www.google.com/maps/contrib/101122897540943444393?hl=en-US",
+                "contributor_id": "101122897540943444393",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKoH4O9TuLaA9_3XHV-dpPzfOiLYC9U0E0iMScY75MYuLuqvQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Nice food",
+            "extracted_snippet": {
+                "original": "Nice food"
+            },
+            "details": {
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "Up to 10 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VPRDgxSWFKaWFlN0xREAE!2m1!1s0x0:0xe3d6b4f92a77a0a1!3m1!1s2@1:CIHM0ogKEOD81IaJiae7LQ%7CCgwIh8GbwgYQ2ITT1gE%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-06-09T13:24:23Z",
+            "iso_date_of_last_edit": "2025-06-09T13:24:23Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VPRDgxSWFKaWFlN0xREAE",
+            "user": {
+                "name": "jabed ali khan",
+                "link": "https://www.google.com/maps/contrib/115247385000292888128?hl=en-US",
+                "contributor_id": "115247385000292888128",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIgc_4077XozBLM7ESLiEf_Uf6WBXPTnlUU8iPBuMczStQLZA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 0
+            },
+            "snippet": "Excellent night 2peaple coming",
+            "extracted_snippet": {
+                "original": "Excellent night 2peaple coming"
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "group_size": "2 people"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VMT0MzSjZ5NGFlRFdREAE!2m1!1s0x0:0xe3d6b4f92a77a0a1!3m1!1s2@1:CIHM0ogKELOC3J6y4aeDWQ%7CCgsI8rL5wQYQkJCpFQ%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-03T02:09:54Z",
+            "iso_date_of_last_edit": "2025-06-03T02:09:54Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VMT0MzSjZ5NGFlRFdREAE",
+            "user": {
+                "name": "Samiul huq",
+                "link": "https://www.google.com/maps/contrib/114803852517756656097?hl=en-US",
+                "contributor_id": "114803852517756656097",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLNsvuWHnKHhuBQ0s89qhQcoxHqZU2zQvE-0AICvMO0D2yQhQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 0
+            },
+            "snippet": "Very clean and good atmosphere. Food also tasty",
+            "extracted_snippet": {
+                "original": "Very clean and good atmosphere. Food also tasty"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VOcjJxSkM4blpIS2x3RRAB!2m1!1s0x0:0xe3d6b4f92a77a0a1!3m1!1s2@1:CIHM0ogKENr2qJC8nZHKlwE%7CCgwIpq_ywQYQ4OSbjwE%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-01T18:10:46Z",
+            "iso_date_of_last_edit": "2025-06-01T18:10:46Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VOcjJxSkM4blpIS2x3RRAB",
+            "user": {
+                "name": "KHATUN MASEDA",
+                "link": "https://www.google.com/maps/contrib/101148507396061194508?hl=en-US",
+                "contributor_id": "101148507396061194508",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJsTgIpniaf4EH2J6bu7SwYoDyBBpu2sL1Yx2t6mxgI02OQNA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Nice food original indian food every thinks is a",
+            "extracted_snippet": {
+                "original": "Nice food original indian food every thinks is a"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VNV2EyTVdTcHBueTRBRRAB!2m1!1s0x0:0xe3d6b4f92a77a0a1!3m1!1s2@1:CIHM0ogKEMWa2MWSppny4AE%7CCgwIq6WzwQYQwKSxrwM%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-05-20T19:06:19Z",
+            "iso_date_of_last_edit": "2025-05-20T19:06:19Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VNV2EyTVdTcHBueTRBRRAB",
+            "user": {
+                "name": "sk akkash",
+                "link": "https://www.google.com/maps/contrib/114615456708774240250?hl=en-US",
+                "contributor_id": "114615456708774240250",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKkMK9KGsOelTWHralsr8pYMBCkGR5xwdV3OlasRkufHTXZMQ=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 20
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUN2eXFMSGNREAE!2m1!1s0x0:0xe3d6b4f92a77a0a1!3m1!1s2@1:CIHM0ogKEICAgICvyqLHcQ%7CCgsImfbdugYQuPuKNw%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "7 months ago",
+            "iso_date": "2024-12-09T23:19:53Z",
+            "iso_date_of_last_edit": "2024-12-09T23:19:53Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CdoJXakLNFvLJfWQQurSuPjnqwH6AC-eOvZr37tOGXeUUYMCDeZF1nJZTovI1oPFPsnd4ut_Qcy_6htPFlX7kmUChoP381ZKLbOlGoDwxb11UzSlT-pLM8kye73MdjuepcF204Hw",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cn92bgYDyeMXQ-W87Ip4XAE-Y0hLy_uuJOW2gTctn_0SHc62bo0rzRNnrjxNdcJCLjlA6PidADuqw_BfDZyq9uEVdj99LD1c8KgYYRZjdGg35GgiJaMpRkGAqA2YeMC1u7ZFwM",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DeGmBNOKU1eqXIi-NIWvKE_d_i2WAJloHWkXZucTR-bNIIA9OE1niblg43FCRNbNWBIM_z5KQZAXK8iX-2GLjJ15KBl8ztVLb6cMTWwiBEKkYycru50_v-Anpfx8PQLXWmca_NFQ"
+            ],
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUN2eXFMSGNREAE",
+            "user": {
+                "name": "hongen",
+                "link": "https://www.google.com/maps/contrib/102621943875455120976?hl=en-US",
+                "contributor_id": "102621943875455120976",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVtarotUVTEUs9Rq9kv3pPF76BEIwjkXaRNZGiuqrIxIE7HDOKe=s120-c-rp-mo-ba6-br100",
+                "local_guide": true,
+                "reviews": 756,
+                "photos": 1813
+            },
+            "snippet": "\u30d0\u30e9\u30a8\u30c6\u30a3\u306b\u30e1\u30cb\u30e5\u30fc\u3092\u63c3\u3048\u3066\u3044\u3066\u3001\u3044\u308d\u3044\u308d\u305f\u3079\u308c\u307e\u3059\u3002\u30c7\u30b6\u30fc\u30c8\u306f\u30af\u30eb\u30d5\u30a3\u304c\u304a\u3059\u3059\u3081\u3067\u3059\u3002",
+            "extracted_snippet": {
+                "original": "\u30d0\u30e9\u30a8\u30c6\u30a3\u306b\u30e1\u30cb\u30e5\u30fc\u3092\u63c3\u3048\u3066\u3044\u3066\u3001\u3044\u308d\u3044\u308d\u305f\u3079\u308c\u307e\u3059\u3002\u30c7\u30b6\u30fc\u30c8\u306f\u30af\u30eb\u30d5\u30a3\u304c\u304a\u3059\u3059\u3081\u3067\u3059\u3002",
+                "translated": "They have a variety of menus, so you can try a lot of things. Kulfi is recommended for dessert."
+            },
+            "details": {
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSM2hUVW5sWWExOWZSV2hFVjFvM1VGcEpaMFphWlVKWVRteFlNRUZCUVVGQlIyZHVPVEpXTUVOaVJrcElTbVZSV1VGRFNVRQ%3D%3D&place_id=ChIJpd8KOwCJGGARoaB3Kvm01uM&sort_by=newestFirst",
+        "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSM2hUVW5sWWExOWZSV2hFVjFvM1VGcEpaMFphWlVKWVRteFlNRUZCUVVGQlIyZHVPVEpXTUVOaVJrcElTbVZSV1VGRFNVRQ=="
+    }
+}

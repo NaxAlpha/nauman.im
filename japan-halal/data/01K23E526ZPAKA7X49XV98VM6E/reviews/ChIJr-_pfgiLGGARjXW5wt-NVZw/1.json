@@ -1,0 +1,786 @@
+{
+    "search_metadata": {
+        "id": "6895380706ca7f4ed691562d",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/7cea79071f2bca72/6895380706ca7f4ed691562d.json",
+        "created_at": "2025-08-07 23:34:31 UTC",
+        "processed_at": "2025-08-07 23:34:31 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/7cea79071f2bca72/6895380706ca7f4ed691562d.html",
+        "prettify_html_file": "https://serpapi.com/searches/7cea79071f2bca72/6895380706ca7f4ed691562d.prettify",
+        "total_time_taken": 0.86
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJr-_pfgiLGGARjXW5wt-NVZw",
+        "hl": "en",
+        "next_page_token": "CAESYENBRVFDQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlEzWkZsd1VsOWZSV2hFTTFVdFlVeDRTbUpOWWpaWE0yTnNXVUZCUVVGQlIyZG1YMEZ0WkRka1dYQlNSMEZCYVVGQg==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT205RWFUVkllRzlQU2xKWk1rOVJlV0ZaVVV0RGVuYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOm9EaTVIeG9PSlJZMk9ReWFZUUtDenc%7C0c_8N5swfAw%7C?hl=en",
+            "rating": 5.0,
+            "date": "11 hours ago",
+            "iso_date": "2025-08-07T12:03:18Z",
+            "iso_date_of_last_edit": "2025-08-07T12:03:18Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D0_UU1sVCfBkO_K-UnAl03AzFrQckFmJyRIsBsCKDK0lLfNC1se9dtta4r94NUhjV4bxb561igc9RFOwEYiYGExp0AYmci33uN0yIr6WDf2XU2hUDHAU0eMwJVW1SxhkiNpYsS8Ovrh17-"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205RWFUVkllRzlQU2xKWk1rOVJlV0ZaVVV0RGVuYxAB",
+            "user": {
+                "name": "King Azzam",
+                "link": "https://www.google.com/maps/contrib/109825504756668213392?hl=en",
+                "contributor_id": "109825504756668213392",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJxRUgt3htjdR-H5VO-qU8yCTEelfUwUs5BJcfVM7Xb2eLqaw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "snippet": "Good and nice food",
+            "extracted_snippet": {
+                "original": "Good and nice food"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25vNWVVMW1RVXBSVkRGbGJXeHpkRmN3VGtkbFoxRRAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOno5eU1mQUpRVDFlbWxzdFcwTkdlZ1E%7C0c_8LX8B4JU%7C?hl=en",
+            "rating": 5.0,
+            "date": "11 hours ago",
+            "iso_date": "2025-08-07T12:01:38Z",
+            "iso_date_of_last_edit": "2025-08-07T12:01:38Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vNWVVMW1RVXBSVkRGbGJXeHpkRmN3VGtkbFoxRRAB",
+            "user": {
+                "name": "Alaa Hazima",
+                "link": "https://www.google.com/maps/contrib/116094021717906699975?hl=en",
+                "contributor_id": "116094021717906699975",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKrSus1j-6xXsdnAidOxtokTfbvZNA3sxj0CBe-dUPUu-vkkA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "snippet": "Perfect place and perfect meat\nRiku was polite and very good\nThe staff are perfect",
+            "extracted_snippet": {
+                "original": "Perfect place and perfect meat\nRiku was polite and very good\nThe staff are perfect"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "7 hours ago",
+                "iso_date": "2025-08-07T15:41:37Z",
+                "iso_date_of_last_edit": "2025-08-07T15:41:37Z",
+                "snippet": "Alaa, thank you for the wonderful review!\nWe\u2019re so happy to hear that you enjoyed our perfect Wagyu meat and had a great time at 5W-Tokyo Ginza. We\u2019ll make sure to pass your kind words to Riku\u2014he\u2019ll be thrilled to hear it!\nOur entire staff is dedicated to making every guest feel special, and your feedback truly means a lot.\n\nHope to welcome you back again soon!",
+                "extracted_snippet": {
+                    "original": "Alaa, thank you for the wonderful review!\nWe\u2019re so happy to hear that you enjoyed our perfect Wagyu meat and had a great time at 5W-Tokyo Ginza. We\u2019ll make sure to pass your kind words to Riku\u2014he\u2019ll be thrilled to hear it!\nOur entire staff is dedicated to making every guest feel special, and your feedback truly means a lot.\n\nHope to welcome you back again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xCbFFWTkxPWGxUYjJOU1owMHlRMXAwVmxRemNIYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOlBlQVNLOXlTb2NSZ00yQ1p0VlQzcHc%7C0c_8LQcz_YE%7C?hl=en",
+            "rating": 5.0,
+            "date": "11 hours ago",
+            "iso_date": "2025-08-07T12:01:31Z",
+            "iso_date_of_last_edit": "2025-08-07T12:01:31Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ad0EYdmVDdVUTd5dQOkfs45_8QvFCRjS-qroJodg6Om829yoQVUqFPVJmXxSzeaXtWsH_WFFsiWMNUsyjJ9Qfr6t2vcf4Z-6GvjmQXnavijFk1R4sw1PyPOFX3wOJV3GI4nW-O7uQXBwU"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCbFFWTkxPWGxUYjJOU1owMHlRMXAwVmxRemNIYxAB",
+            "user": {
+                "name": "Danial Azzam",
+                "link": "https://www.google.com/maps/contrib/106744644591037735519?hl=en",
+                "contributor_id": "106744644591037735519",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLSvwxvU7rg1TkZ6QkH6sQt4xzZgvU_1Guh_2xRNMZu1jGpbw=s120-c-rp-mo-br100",
+                "reviews": 0,
+                "photos": 1
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pocVZrbG5ibXBQWjFVdE5XOXhSUzEyWlhCaVRIYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOjhqVklnbmpPZ1UtNW9xRS12ZXBiTHc%7C0c_8F05Wecf%7C?hl=en",
+            "rating": 5.0,
+            "date": "11 hours ago",
+            "iso_date": "2025-08-07T11:54:41Z",
+            "iso_date_of_last_edit": "2025-08-07T11:54:41Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AUjhIH_Smw54A5p5ukYMmy0OpaK1DTBlQ2XmXwsQX4mwDMujlpAsHPqkKsUJYxgst0Br-YamtP3SLDV70LsjsF6QuSH8aN-efZIetjZCV1SSOdpT2lniLL3Twld_h-UQ8qZ88kKJ4knP3P"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pocVZrbG5ibXBQWjFVdE5XOXhSUzEyWlhCaVRIYxAB",
+            "user": {
+                "name": "Mina",
+                "link": "https://www.google.com/maps/contrib/115627999054564130347?hl=en",
+                "contributor_id": "115627999054564130347",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU96GT6GhCpA3ETpN7hdzAPXgFsCHZNoGsRX0TtMgXryJydJjIp=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 116,
+                "photos": 186
+            },
+            "snippet": "I would recommend this place, we shared one burger.. delicious! There is also a praying place",
+            "extracted_snippet": {
+                "original": "I would recommend this place, we shared one burger.. delicious! There is also a praying place"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "7 hours ago",
+                "iso_date": "2025-08-07T15:40:55Z",
+                "iso_date_of_last_edit": "2025-08-07T15:40:55Z",
+                "snippet": "Mina, thank you so much for recommending us!\nWe\u2019re happy to hear you enjoyed sharing our delicious Wagyu burger\u2014it\u2019s one of our signature items here at 5W-Tokyo Ginza. And yes, we\u2019re glad the prayer space was helpful during your visit. We always aim to be a welcoming place for all guests.\n\nWe hope to see you again soon!\n",
+                "extracted_snippet": {
+                    "original": "Mina, thank you so much for recommending us!\nWe\u2019re happy to hear you enjoyed sharing our delicious Wagyu burger\u2014it\u2019s one of our signature items here at 5W-Tokyo Ginza. And yes, we\u2019re glad the prayer space was helpful during your visit. We always aim to be a welcoming place for all guests.\n\nWe hope to see you again soon!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tKNVdFc3dTRlJ6YlZZM2EySlVTRU5oTUVwT1VGRRAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOkJ5WEswSFRzbVY3a2JUSENhMEpOUFE%7C0c_8A33jMS1%7C?hl=en",
+            "rating": 5.0,
+            "date": "11 hours ago",
+            "iso_date": "2025-08-07T11:49:24Z",
+            "iso_date_of_last_edit": "2025-08-07T11:49:24Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B3tPbR-XyytpNy6lRzklguPuMdWcLT49yuRTkCAZUP7YlfwALQ8NgDdCt0q80-ocRobYXdRflVZOl3YDpsC1CSPY0jrqYSi-2ZURqQV5WMAmuFInL5VizqiTjRMZWK8RFitgcFmXTVA1bX"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKNVdFc3dTRlJ6YlZZM2EySlVTRU5oTUVwT1VGRRAB",
+            "user": {
+                "name": "Meri Gherrari",
+                "link": "https://www.google.com/maps/contrib/103294945937443557652?hl=en",
+                "contributor_id": "103294945937443557652",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJcyVMtkMaMnrypaS2rjmsCj_-prEFz0SNJ-Td-Frwpkcd9rw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "snippet": "Very good Wagyu burger and friendly staff!",
+            "extracted_snippet": {
+                "original": "Very good Wagyu burger and friendly staff!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required",
+                "group_size": "2 people"
+            },
+            "response": {
+                "date": "7 hours ago",
+                "iso_date": "2025-08-07T15:40:16Z",
+                "iso_date_of_last_edit": "2025-08-07T15:40:16Z",
+                "snippet": "Meri, thank you for your kind words!\nWe\u2019re so happy you enjoyed our Wagyu burger and felt welcomed by our friendly staff. At 5W-Tokyo Ginza, we\u2019re passionate about offering great flavors with warm hospitality\u2014it means a lot that it came through during your visit!\n\nHope to see you again soon!",
+                "extracted_snippet": {
+                    "original": "Meri, thank you for your kind words!\nWe\u2019re so happy you enjoyed our Wagyu burger and felt welcomed by our friendly staff. At 5W-Tokyo Ginza, we\u2019re passionate about offering great flavors with warm hospitality\u2014it means a lot that it came through during your visit!\n\nHope to see you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xJM0xXRk9RVWhUYTJKdldVRnpXbVU0UzBKdU5rRRAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOlI3LWFOQUhTa2JvWUFzWmU4S0JuNkE%7C0c_7bjovxWs%7C?hl=en",
+            "rating": 5.0,
+            "date": "12 hours ago",
+            "iso_date": "2025-08-07T11:11:43Z",
+            "iso_date_of_last_edit": "2025-08-07T11:11:43Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DT-M7meb47faENbIX8m2NHuPMBGKNQhr6bsNlxn3UZ51sEJ3mJ4zmboH6W2X0qGzBCFCDmKsjBDx4d-lWDUDeZ1H6U5-I3SkB6ZRlYBL7byu2eUmF2d9w3K9_8O1lvC8OKsZqBWfzBYzvR"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xJM0xXRk9RVWhUYTJKdldVRnpXbVU0UzBKdU5rRRAB",
+            "user": {
+                "name": "massage by miguel #TORTUREROOM",
+                "link": "https://www.google.com/maps/contrib/112274340459093815508?hl=en",
+                "contributor_id": "112274340459093815508",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJQImscr1jNuGkTSulIYsK88z4WfE-vt7fgcKNRHEKjQgqQ6g=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "snippet": "This place is amazing. Great staff. Great story and history. Wagyu beef burger, was one of the best I've ever had. A must if you come to tokyo.",
+            "extracted_snippet": {
+                "original": "This place is amazing. Great staff. Great story and history. Wagyu beef burger, was one of the best I've ever had. A must if you come to tokyo."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "7 hours ago",
+                "iso_date": "2025-08-07T15:39:35Z",
+                "iso_date_of_last_edit": "2025-08-07T15:39:35Z",
+                "snippet": "Miguel, thank you for the awesome review!\nWe\u2019re so glad to hear you loved our Wagyu beef burger\u2014it means a lot to be called one of the best you\u2019ve ever had! We\u2019re also proud that the history and story behind 5W-Tokyo Ginza added something special to your visit. And of course, our staff is always here to make your experience unforgettable.\n\nHope to welcome you back next time you\u2019re in Tokyo!\n",
+                "extracted_snippet": {
+                    "original": "Miguel, thank you for the awesome review!\nWe\u2019re so glad to hear you loved our Wagyu beef burger\u2014it means a lot to be called one of the best you\u2019ve ever had! We\u2019re also proud that the history and story behind 5W-Tokyo Ginza added something special to your visit. And of course, our staff is always here to make your experience unforgettable.\n\nHope to welcome you back next time you\u2019re in Tokyo!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201cGRsSmFTV1JQUkVvemFsUlZUVVZ6TWtoSWVIYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOm5pdlJaSWRPREozalRVTUVzMkhIeHc%7C0c_6sD3yxle%7C?hl=en",
+            "rating": 5.0,
+            "date": "13 hours ago",
+            "iso_date": "2025-08-07T10:21:02Z",
+            "iso_date_of_last_edit": "2025-08-07T10:21:02Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CaRKlngHXFj4dOsk2iz8bVH2e7m37uZIwQyevS1neO4gnwtABOA2Euo1V-A3JkJ0EW15AtcVirU_igk9vATV3qmIhjhtz267ODHyIIrGlbCmQIGzWi0ARHMf9Lugz-EhBHkFeErU3QEYLW",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CHhVF19C4oVwo0erF8NdnGnU0AmFYxpNJ6DQtH7qrx8zeH6gKusX6MFesRLU66FeJkmyKY54ph9OOVJjc-SmqscXRKa5EIha75V7GSc92cAkg3Y8TWpWl8T_0R2kkHIyc_DvVZl66JHIfp",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B3aKanr2WgFsm1DwLeGYMQaZcXAHadquJ1kyPmXJ1t-FkejlGQTKgSL1YSgt7kKqYf4xfWqqAdjW_s8kvlIVvCBobUw_6-cKsCN4hc9TVd6HsgDAHQC6LCgD8pbNe3JcfsmV2PIDDphqvI"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201cGRsSmFTV1JQUkVvemFsUlZUVVZ6TWtoSWVIYxAB",
+            "user": {
+                "name": "Dominika Pohorecka",
+                "link": "https://www.google.com/maps/contrib/111505642811867382807?hl=en",
+                "contributor_id": "111505642811867382807",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLt1__D5NAK1BAau8VHjPoqL_-nfFlwiZsiuK-IZYJsVUW6Ng=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 12,
+                "photos": 8
+            },
+            "snippet": "mazing wagyu and top-notch service!\nYou truly feel like a welcomed guest\u2014taken care of every step of the way. On top of the main dishes we ordered, they surprised us with extra treats like wagyu curry and mochi ice cream, all on the house\u2014and seriously delicious.\nHighly recommend this restaurant! \u263a\ufe0f",
+            "extracted_snippet": {
+                "original": "mazing wagyu and top-notch service!\nYou truly feel like a welcomed guest\u2014taken care of every step of the way. On top of the main dishes we ordered, they surprised us with extra treats like wagyu curry and mochi ice cream, all on the house\u2014and seriously delicious.\nHighly recommend this restaurant! \u263a\ufe0f"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "7 hours ago",
+                "iso_date": "2025-08-07T15:38:47Z",
+                "iso_date_of_last_edit": "2025-08-07T15:38:47Z",
+                "snippet": "Dominika, thank you so much for your amazing feedback!\nWe\u2019re delighted to hear that you enjoyed our Japanese Wagyu, appreciated the top-notch service, and felt truly welcomed throughout your visit. It means a lot to us that the surprise wagyu curry and mochi ice cream made your experience at 5W-Tokyo Ginza even more special.\n\nWe\u2019d be honored to welcome you back anytime!\n",
+                "extracted_snippet": {
+                    "original": "Dominika, thank you so much for your amazing feedback!\nWe\u2019re delighted to hear that you enjoyed our Japanese Wagyu, appreciated the top-notch service, and felt truly welcomed throughout your visit. It means a lot to us that the surprise wagyu curry and mochi ice cream made your experience at 5W-Tokyo Ginza even more special.\n\nWe\u2019d be honored to welcome you back anytime!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKRlgzTTBSbkZEWkROTU1rOWxVR2htUXpoVGFGRRAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOlJFX3M0RnFDZDNMMk9lUGhmQzhTaFE%7C0c_6nx1wZZN%7C?hl=en",
+            "rating": 5.0,
+            "date": "13 hours ago",
+            "iso_date": "2025-08-07T10:16:29Z",
+            "iso_date_of_last_edit": "2025-08-07T10:16:29Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AOcrC37SUylkbRuVHAk5JTsl_E_kkz-2N_dAL6x81nNHs3tW5GSKLy-1Oy81CDnjCoWPBND65vLnCkB1K2eb4gNiBm12sv2jSHSUmZixSNHMi2Vxc74HNcM-SfkY4H_SIpWnRicRvZZa11"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKRlgzTTBSbkZEWkROTU1rOWxVR2htUXpoVGFGRRAB",
+            "user": {
+                "name": "Ahmed Bulbulia",
+                "link": "https://www.google.com/maps/contrib/100873524835333712468?hl=en",
+                "contributor_id": "100873524835333712468",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIDJLsnnMuK4eqGeSmpCUdoG5DqEnFmyt8LzaBEErZHWTqykA=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 15,
+                "photos": 44
+            },
+            "snippet": "Amazing\n\nThe wagyu curry taster served on the house\nThe mochi ice cream served on the house\n\nAbsolutely \ud83d\udc4c \ud83d\ude0b \ud83d\ude0b \ud83d\ude0b\n\nHalal go to restaurant for sure",
+            "extracted_snippet": {
+                "original": "Amazing\n\nThe wagyu curry taster served on the house\nThe mochi ice cream served on the house\n\nAbsolutely \ud83d\udc4c \ud83d\ude0b \ud83d\ude0b \ud83d\ude0b\n\nHalal go to restaurant for sure"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required",
+                "group_size": "1 person",
+                "dietary_restrictions": "Halal"
+            },
+            "response": {
+                "date": "7 hours ago",
+                "iso_date": "2025-08-07T15:37:40Z",
+                "iso_date_of_last_edit": "2025-08-07T15:37:40Z",
+                "snippet": "Ahmed, thank you so much for your kind words!\nWe\u2019re thrilled to hear you enjoyed the Wagyu curry taster and mochi ice cream\u2014both on the house! It\u2019s also wonderful to know our halal-friendly menu made your visit to 5W-Tokyo Ginza a comfortable and delicious experience.\n\nHope to see you again soon!\n",
+                "extracted_snippet": {
+                    "original": "Ahmed, thank you so much for your kind words!\nWe\u2019re thrilled to hear you enjoyed the Wagyu curry taster and mochi ice cream\u2014both on the house! It\u2019s also wonderful to know our halal-friendly menu made your visit to 5W-Tokyo Ginza a comfortable and delicious experience.\n\nHope to see you again soon!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sSGNVcEpWVzF4TkdGaVpreGZORWcwUkV3eE5VRRAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOnlHcUpJVW1xNGFiZkxfNEg0REwxNUE%7C0c_17HgykoW%7C?hl=en",
+            "rating": 5.0,
+            "date": "19 hours ago",
+            "iso_date": "2025-08-07T03:48:34Z",
+            "iso_date_of_last_edit": "2025-08-07T03:48:34Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dg_6Sc3d6bbOYGN3qBouu3Wy5M26yW4QiV-7MxSfkpOlNyNSPz_28XMcfbYcgfAj5jj2MvGPrsNrDYvDEBfhlfkWTbO58DMK57zZsfjolsp3RtCMVvsP-k-lyo9VO6GoCl5LJIfBgPoUoT",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Di4b4LTfESZWFm7Y1JHERy8lchVrHQ3SaPauXnL8V_ABuZIyPgWNnqHmifBC_P1_Nqf2m7B3YlM7EGIxNgrJ2FmxFxWNQXAqetUqhFaKZjA-ilueqWHeVAMh5KGCIm0n91qwYxEaoWhoZT",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90ClMMF3v-ZXOS50d50LDtyFKdf1_yQRldT0ABJ2hhBgFsSZQm3yRYmpV7CbANEMZkn8VMlwFDoXro18LvJZW_l3snlqnrQpkqCEz4IGqhjrWuaMfMjY9zoL2tM7hrqahRsskANmBsRSu4s"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sSGNVcEpWVzF4TkdGaVpreGZORWcwUkV3eE5VRRAB",
+            "user": {
+                "name": "Zike Peng",
+                "link": "https://www.google.com/maps/contrib/107846239453409683464?hl=en",
+                "contributor_id": "107846239453409683464",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVjS7YdMS_BKLhJXrPoKcgXXRhNvkmEtcyjgXbjRm3BV7x95ss=s120-c-rp-mo-br100",
+                "reviews": 0,
+                "photos": 3
+            },
+            "snippet": "\u8fd8\u884c\uff0c\u670d\u52a1\u597d\uff01\u6960\u75f4\u9f2c\u8dea\uff0c\u618b\u5f95\u3002\u263a\ufe0f\ud83e\udd70\ud83e\udd29",
+            "extracted_snippet": {
+                "original": "\u8fd8\u884c\uff0c\u670d\u52a1\u597d\uff01\u6960\u75f4\u9f2c\u8dea\uff0c\u618b\u5f95\u3002\u263a\ufe0f\ud83e\udd70\ud83e\udd29",
+                "translated": "Okay, good service! I'm so embarrassed. \u263a\ufe0f\ud83e\udd70\ud83e\udd29"
+            },
+            "details": {
+                "price_per_person": "\u00a58,000\u20139,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "7 hours ago",
+                "iso_date": "2025-08-07T15:36:37Z",
+                "iso_date_of_last_edit": "2025-08-07T15:36:37Z",
+                "snippet": "Zike Peng\uff0c\u611f\u8b1d\u60a8\u7684\u7559\u8a00\uff01\n\u5f88\u9ad8\u8208\u60a8\u559c\u6b61\u6211\u5011\u7684\u670d\u52d9\uff0c\u4e5f\u611f\u53d7\u5230\u6574\u9ad4\u6c1b\u570d\u7684\u8f15\u9b06\u6109\u5feb\u3002\u80fd\u8b93\u60a8\u5728\u54c1\u5690Japanese Wagyu\u6642\u9732\u51fa\u9019\u6a23\u6eff\u8db3\u7684\u8868\u60c5\uff0c\u662f5W-Tokyo Ginza\u5168\u9ad4\u540c\u4ec1\u6700\u5927\u7684\u69ae\u5e78\u3002\n\n\u671f\u5f85\u60a8\u4e0b\u6b21\u518d\u4f86\u4eab\u53d7\u6211\u5011\u7684Wagyu burger\u8207\u53cb\u5584\u7684\u670d\u52d9\uff01",
+                "extracted_snippet": {
+                    "original": "Zike Peng\uff0c\u611f\u8b1d\u60a8\u7684\u7559\u8a00\uff01\n\u5f88\u9ad8\u8208\u60a8\u559c\u6b61\u6211\u5011\u7684\u670d\u52d9\uff0c\u4e5f\u611f\u53d7\u5230\u6574\u9ad4\u6c1b\u570d\u7684\u8f15\u9b06\u6109\u5feb\u3002\u80fd\u8b93\u60a8\u5728\u54c1\u5690Japanese Wagyu\u6642\u9732\u51fa\u9019\u6a23\u6eff\u8db3\u7684\u8868\u60c5\uff0c\u662f5W-Tokyo Ginza\u5168\u9ad4\u540c\u4ec1\u6700\u5927\u7684\u69ae\u5e78\u3002\n\n\u671f\u5f85\u60a8\u4e0b\u6b21\u518d\u4f86\u4eab\u53d7\u6211\u5011\u7684Wagyu burger\u8207\u53cb\u5584\u7684\u670d\u52d9\uff01",
+                    "translated": "Zike Peng, thank you for your message!\nWe're so glad you enjoyed our service and the relaxed and enjoyable atmosphere. It's a great honor for all of us at 5W-Tokyo Ginza to have you share such a satisfied expression while enjoying Japanese Wagyu.\n\nWe look forward to seeing you return to enjoy our Wagyu burgers and friendly service!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWV2VXOW1TM3BJVHpsaWJWQm9UVUpPWlVkRU9VRRAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOlVWeW9mS3pITzlibVBoTUJOZUdEOUE%7C0cZrGJ-cJZB%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T15:27:16Z",
+            "iso_date_of_last_edit": "2025-08-06T15:27:16Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DCg7m6fmyMg38REVRYCHo5z021tIqp4vL7zNHb0MLWwfyZ6JhMpvgSp_UazwkRQi8cKMsoWjtdwUErjrc9kEh534pQTA8tqgL8sEcrGEmqvuS8_keGpsWp-bcHB7L5nmjpq-C_ztvFzj4",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90ABFIac4r5IoRjeKSjVUuY7XpNcXvdD9EIx5oONDYyNR3u4HK38lH7Jmgo8e-L0i9XIybHTTMu8Fz1quCphaJ6HXMT-9moItTfT-mRlmrp72jHTgVW6PTYrb7tXOtEzrOfT5J0YnsvtrFI"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWV2VXOW1TM3BJVHpsaWJWQm9UVUpPWlVkRU9VRRAB",
+            "user": {
+                "name": "Leon Bian",
+                "link": "https://www.google.com/maps/contrib/110857049668535024944?hl=en",
+                "contributor_id": "110857049668535024944",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIWdA-q6DH-ZnSq0Kin7Kdi3g-chszq91UnybQr-YtB52qVqA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 2
+            },
+            "snippet": "Nice food! The staffs are super friendly!",
+            "extracted_snippet": {
+                "original": "Nice food! The staffs are super friendly!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:30:42Z",
+                "iso_date_of_last_edit": "2025-08-07T15:30:42Z",
+                "snippet": "Leon, thank you for the great review!\nWe\u2019re thrilled you enjoyed the nice food, especially our Japanese Wagyu steak. It also makes us happy to hear that our friendly staff made your visit even better. That\u2019s what we aim for every day at 5W-Tokyo Ginza!\n\nLooking forward to welcoming you again soon!",
+                "extracted_snippet": {
+                    "original": "Leon, thank you for the great review!\nWe\u2019re thrilled you enjoyed the nice food, especially our Japanese Wagyu steak. It also makes us happy to hear that our friendly staff made your visit even better. That\u2019s what we aim for every day at 5W-Tokyo Ginza!\n\nLooking forward to welcoming you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWbVZVMUtVVnB3WXpWeGJXdDJMVnBqZVVGWGVHYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOjVmVU1KUVpwYzVxbWt2LVpjeUFXeGc%7C0cZqPujPdJ0%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T14:29:14Z",
+            "iso_date_of_last_edit": "2025-08-06T14:29:14Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dk0cd27HA_qjTV-vcKewmo_t_Ep8Scl36psnC83Vg0eebMv4Xaqv5EtQuLpp-_qNQtB4bKrRHqu1g9wU7bMFaW4vDxDBXPip68UbZHfI6Oy6Z-dM27ohJhQYcpEXaE8iXqHV3hG-YQPXo"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWbVZVMUtVVnB3WXpWeGJXdDJMVnBqZVVGWGVHYxAB",
+            "user": {
+                "name": "Ivett",
+                "link": "https://www.google.com/maps/contrib/103515460176929014221?hl=en",
+                "contributor_id": "103515460176929014221",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI6mbkeWZ-bWcpsDOBD9iWqB92qlqAtnNiIiuWxqAcA_rWi0A=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 3
+            },
+            "snippet": "The food and the atmosphere was amazing we came in late at night and the service was great the food was melt in your mouth amazing",
+            "extracted_snippet": {
+                "original": "The food and the atmosphere was amazing we came in late at night and the service was great the food was melt in your mouth amazing"
+            },
+            "details": {
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "group_size": "2 people"
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:29:58Z",
+                "iso_date_of_last_edit": "2025-08-07T15:29:58Z",
+                "snippet": "Ivett, thank you so much for your wonderful review!\nWe\u2019re so happy to hear that you enjoyed both the atmosphere and the melt-in-your-mouth Japanese Wagyu steak, even during a late-night visit. Your kind words about our service mean the world to us here at 5W-Tokyo Ginza.\n\nWe look forward to welcoming you back anytime!",
+                "extracted_snippet": {
+                    "original": "Ivett, thank you so much for your wonderful review!\nWe\u2019re so happy to hear that you enjoyed both the atmosphere and the melt-in-your-mouth Japanese Wagyu steak, even during a late-night visit. Your kind words about our service mean the world to us here at 5W-Tokyo Ginza.\n\nWe look forward to welcoming you back anytime!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWNlFuSlpUbVJuT0haSlVtSm1lVVJRWkhRd2QxRRAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOjV6QnJZTmRnOHZJUmJmeURQZHQwd1E%7C0cZqPP7UEol%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T14:28:42Z",
+            "iso_date_of_last_edit": "2025-08-06T14:28:42Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWNlFuSlpUbVJuT0haSlVtSm1lVVJRWkhRd2QxRRAB",
+            "user": {
+                "name": "Joshua White",
+                "link": "https://www.google.com/maps/contrib/109259668699837350365?hl=en",
+                "contributor_id": "109259668699837350365",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWnASo_cy0NIEvy09TRCxw1wWfYhvaKs_ByL9VdSMC6JIOIxZQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "snippet": "Wagyu burger\u2026 life changing. Omg. What an ignorant American I was for thinking I\u2019ve eaten good burgers before. Drop everything and come here now!",
+            "extracted_snippet": {
+                "original": "Wagyu burger\u2026 life changing. Omg. What an ignorant American I was for thinking I\u2019ve eaten good burgers before. Drop everything and come here now!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:29:15Z",
+                "iso_date_of_last_edit": "2025-08-07T15:29:15Z",
+                "snippet": "Joshua, thank you for the incredible review!\nWe\u2019re blown away by your reaction to our Wagyu burger\u2014\u201clife-changing\u201d is the highest compliment we could ask for. At 5W-Tokyo Ginza, we pour our heart into crafting each Japanese Wagyu dish to leave a lasting impression.\n\nCan\u2019t wait to welcome you back for another unforgettable bite!",
+                "extracted_snippet": {
+                    "original": "Joshua, thank you for the incredible review!\nWe\u2019re blown away by your reaction to our Wagyu burger\u2014\u201clife-changing\u201d is the highest compliment we could ask for. At 5W-Tokyo Ginza, we pour our heart into crafting each Japanese Wagyu dish to leave a lasting impression.\n\nCan\u2019t wait to welcome you back for another unforgettable bite!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKNU5URnRhMXBHTFhKbFZEUmhXbFJHYW1nMlQyYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOlJ5NTFta1pGLXJlVDRhWlRGamg2T2c%7C0cZq5PDPA0I%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T14:07:22Z",
+            "iso_date_of_last_edit": "2025-08-06T14:07:22Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKNU5URnRhMXBHTFhKbFZEUmhXbFJHYW1nMlQyYxAB",
+            "user": {
+                "name": "Kenny Lam",
+                "link": "https://www.google.com/maps/contrib/112185473676736885733?hl=en",
+                "contributor_id": "112185473676736885733",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJX2NQnWEngtni_euuvESo3sObQi4w2BDaakm2zFqXNv5bONw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 8
+            },
+            "snippet": "Good food and delicious wagyu beef\nFriendly service",
+            "extracted_snippet": {
+                "original": "Good food and delicious wagyu beef\nFriendly service"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:28:27Z",
+                "iso_date_of_last_edit": "2025-08-07T15:28:27Z",
+                "snippet": "Kenny, thank you for your kind words!\nWe\u2019re so glad you enjoyed our good food, especially the delicious Japanese Wagyu beef. Our team at 5W-Tokyo Ginza always strives to offer warm and friendly service to make every visit special.\n\nLooking forward to seeing you again soon!",
+                "extracted_snippet": {
+                    "original": "Kenny, thank you for your kind words!\nWe\u2019re so glad you enjoyed our good food, especially the delicious Japanese Wagyu beef. Our team at 5W-Tokyo Ginza always strives to offer warm and friendly service to make every visit special.\n\nLooking forward to seeing you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkWWNuaEdUbFV4UkVKU1UwRmlUVlZsT0hBd1VuYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOldYcnhGTlUxREJSU0FiTVVlOHAwUnc%7C0cZpnvMRVxG%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T13:39:25Z",
+            "iso_date_of_last_edit": "2025-08-06T13:47:39Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkWWNuaEdUbFV4UkVKU1UwRmlUVlZsT0hBd1VuYxAB",
+            "user": {
+                "name": "Jheewin Arudselvan",
+                "link": "https://www.google.com/maps/contrib/114999065011934414153?hl=en",
+                "contributor_id": "114999065011934414153",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKbzQ0DmfcXdjT9zDoP71RW4YJtj_MvLSMLZsGdVGnBBg4-Jg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "snippet": "Excellent burger also ice cream",
+            "extracted_snippet": {
+                "original": "Excellent burger also ice cream"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "group_size": "Suitable for all group sizes"
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:27:39Z",
+                "iso_date_of_last_edit": "2025-08-07T15:27:39Z",
+                "snippet": "Jheewin, thank you for your kind review!\nWe\u2019re glad you enjoyed both our excellent burger made with premium Japanese Wagyu, and the ice cream dessert. Your satisfaction is what keeps us going here at 5W-Tokyo Ginza!\n\nWe\u2019d love to welcome you again soon!\n",
+                "extracted_snippet": {
+                    "original": "Jheewin, thank you for your kind review!\nWe\u2019re glad you enjoyed both our excellent burger made with premium Japanese Wagyu, and the ice cream dessert. Your satisfaction is what keeps us going here at 5W-Tokyo Ginza!\n\nWe\u2019d love to welcome you again soon!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tSQmVFYzFhWGRFVGtOallYQkRZbWhtVUVoNFgzYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOkRBeEc1aXdETkNjYXBDYmhmUEh4X3c%7C0cZpmBuXs62%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T13:45:48Z",
+            "iso_date_of_last_edit": "2025-08-06T13:45:48Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSQmVFYzFhWGRFVGtOallYQkRZbWhtVUVoNFgzYxAB",
+            "user": {
+                "name": "Tou Bou",
+                "link": "https://www.google.com/maps/contrib/118357915263748775052?hl=en",
+                "contributor_id": "118357915263748775052",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJDSLsfjs9kSu4Sw9ls7yevlPMLPlobuiafNgAN4W7-IXXEZA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "snippet": "Best burger, and motchi ever.",
+            "extracted_snippet": {
+                "original": "Best burger, and motchi ever."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:26:55Z",
+                "iso_date_of_last_edit": "2025-08-07T15:26:55Z",
+                "snippet": "Tou Bou, thank you for the awesome review!\nWe\u2019re thrilled to hear that you loved our burger\u2014made with juicy Japanese Wagyu\u2014and enjoyed the mochi dessert too!\nYour kind words mean a lot to the team at 5W-Tokyo Ginza.\n\nWe hope to welcome you back again soon!\n",
+                "extracted_snippet": {
+                    "original": "Tou Bou, thank you for the awesome review!\nWe\u2019re thrilled to hear that you loved our burger\u2014made with juicy Japanese Wagyu\u2014and enjoyed the mochi dessert too!\nYour kind words mean a lot to the team at 5W-Tokyo Ginza.\n\nWe hope to welcome you back again soon!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT210S1pHbDNObGxNYTJKdGNWYzRWRkoxVkhVdFUzYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOmtKZGl3NllMa2JtcVc4VFJ1VHUtU3c%7C0cZpT58077V%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T13:24:22Z",
+            "iso_date_of_last_edit": "2025-08-06T13:24:22Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210S1pHbDNObGxNYTJKdGNWYzRWRkoxVkhVdFUzYxAB",
+            "user": {
+                "name": "Mubashir Shethwala",
+                "link": "https://www.google.com/maps/contrib/106661426892598297624?hl=en",
+                "contributor_id": "106661426892598297624",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWochSk8GJFYq1eOVbokUL-tGaW43YK9WtCMaxun1Ursf_2DOlj=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 0
+            },
+            "snippet": "Excellent food and service! Had a great time",
+            "extracted_snippet": {
+                "original": "Excellent food and service! Had a great time"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:25:48Z",
+                "iso_date_of_last_edit": "2025-08-07T15:25:48Z",
+                "snippet": "Mubashir, thank you for the great review!\nWe\u2019re so happy you had a great time and enjoyed both our excellent food and warm service. At 5W-Tokyo Ginza, we take pride in offering high-quality Japanese Wagyu in a cozy and welcoming space.\n\nHope to see you and your group again soon!",
+                "extracted_snippet": {
+                    "original": "Mubashir, thank you for the great review!\nWe\u2019re so happy you had a great time and enjoyed both our excellent food and warm service. At 5W-Tokyo Ginza, we take pride in offering high-quality Japanese Wagyu in a cozy and welcoming space.\n\nHope to see you and your group again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wcFRFMXhkR0pWVEZScU1GTlBTbE53VVMwNVZWRRAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOmppTE1xdGJVTFRqMFNPSlNwUS05VVE%7C0cZoAxHwmCp%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T11:56:45Z",
+            "iso_date_of_last_edit": "2025-08-06T11:56:45Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wcFRFMXhkR0pWVEZScU1GTlBTbE53VVMwNVZWRRAB",
+            "user": {
+                "name": "nawaf badawood",
+                "link": "https://www.google.com/maps/contrib/115264480973719039356?hl=en",
+                "contributor_id": "115264480973719039356",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIKvce-lh4DasQ_pcABhZ907xaROM_Sx_d1hP_mlCWrn4iGJg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 8,
+                "photos": 0
+            },
+            "snippet": "Very good food and place i would definitely come back here!",
+            "extracted_snippet": {
+                "original": "Very good food and place i would definitely come back here!"
+            },
+            "details": {
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "Suitable for all group sizes"
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:25:03Z",
+                "iso_date_of_last_edit": "2025-08-07T15:25:03Z",
+                "snippet": "nawaf badawood, thank you so much for your kind words!\nWe\u2019re delighted to hear you enjoyed the very good food and the atmosphere at our restaurant. Your comment that you\u2019d \u201cdefinitely come back\u201d truly means a lot to our team here at 5W-Tokyo Ginza. We\u2019ll keep doing our best to serve high-quality Japanese Wagyu with warm hospitality.\n\nLooking forward to seeing you again soon!",
+                "extracted_snippet": {
+                    "original": "nawaf badawood, thank you so much for your kind words!\nWe\u2019re delighted to hear you enjoyed the very good food and the atmosphere at our restaurant. Your comment that you\u2019d \u201cdefinitely come back\u201d truly means a lot to our team here at 5W-Tokyo Ginza. We\u2019ll keep doing our best to serve high-quality Japanese Wagyu with warm hospitality.\n\nLooking forward to seeing you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WSE4zVkRXWEUzVGpKeFUyb3hhRmhKU0RKb01uYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOnVHN3VDWXE3TjJxU2oxaFhJSDJoMnc%7C0cZo65vKvs_%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T11:51:34Z",
+            "iso_date_of_last_edit": "2025-08-06T11:51:34Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WSE4zVkRXWEUzVGpKeFUyb3hhRmhKU0RKb01uYxAB",
+            "user": {
+                "name": "Shoaib B",
+                "link": "https://www.google.com/maps/contrib/113277367327495506247?hl=en",
+                "contributor_id": "113277367327495506247",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIKkKVucXfjWniex-zF8jMv3M2AaJ8Tzt2mIr0gudok_uxBtw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "100% recommend this restaurant, the service was impeccable, nice cosy environment.",
+            "extracted_snippet": {
+                "original": "100% recommend this restaurant, the service was impeccable, nice cosy environment."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "group_size": "1 person",
+                "dietary_restrictions": "Halal"
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:24:21Z",
+                "iso_date_of_last_edit": "2025-08-07T15:24:21Z",
+                "snippet": "Shoaib, thank you so much for your wonderful review!\nWe\u2019re thrilled to hear that you found our service impeccable and enjoyed the cozy environment at our restaurant. Your 100% recommendation means a lot to the team at 5W-Tokyo Ginza, and we\u2019re especially glad that our halal offerings met your expectations.\n\nLooking forward to welcoming you again soon!\n",
+                "extracted_snippet": {
+                    "original": "Shoaib, thank you so much for your wonderful review!\nWe\u2019re thrilled to hear that you found our service impeccable and enjoyed the cozy environment at our restaurant. Your 100% recommendation means a lot to the team at 5W-Tokyo Ginza, and we\u2019re especially glad that our halal offerings met your expectations.\n\nLooking forward to welcoming you again soon!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKbFZqRTNkRFJ1VFU1U2RGQlRla2N4V20xS00xRRAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOlJlVjE3dDRuTU5SdFBTekcxWm1KM1E%7C0cZnZuLgOYR%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T11:15:06Z",
+            "iso_date_of_last_edit": "2025-08-06T11:15:06Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKbFZqRTNkRFJ1VFU1U2RGQlRla2N4V20xS00xRRAB",
+            "user": {
+                "name": "Yuko Jordan",
+                "link": "https://www.google.com/maps/contrib/113790163558130898520?hl=en",
+                "contributor_id": "113790163558130898520",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJfIJs_1cTE8D7cXa6wXGWZIyHuWiWJkSTjNCjsNWpRbwFHHQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "wagyu stake was out of our budget but burger was within our budget.  Super nice service made all well worth it.\nWill return for sure.",
+            "extracted_snippet": {
+                "original": "wagyu stake was out of our budget but burger was within our budget.  Super nice service made all well worth it.\nWill return for sure."
+            },
+            "details": {
+                "food": 4,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:23:39Z",
+                "iso_date_of_last_edit": "2025-08-07T15:23:39Z",
+                "snippet": "Yuko, thank you so much for your honest and kind review!\nWe\u2019re happy to hear you enjoyed our Japanese Wagyu burger and that our service made the visit worthwhile, even if the steak was outside your budget this time. At 5W-Tokyo Ginza, we always strive to offer options for everyone without compromising on quality.\n\nWe look forward to welcoming you back again soon!",
+                "extracted_snippet": {
+                    "original": "Yuko, thank you so much for your honest and kind review!\nWe\u2019re happy to hear you enjoyed our Japanese Wagyu burger and that our service made the visit worthwhile, even if the steak was outside your budget this time. At 5W-Tokyo Ginza, we always strive to offer options for everyone without compromising on quality.\n\nWe look forward to welcoming you back again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOSlZ6ZzRVbE5yUkVnek1GZGZRMVJEVURsbmFXYxAB!2m1!1s0x0:0x9c558ddfc2b9758d!3m1!1s2@1:CAIQACodChtycF9oOjNJVzg4UlNrREgzMFdfQ1RDUDlnaWc%7C0cZnJH3nrbs%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T10:57:22Z",
+            "iso_date_of_last_edit": "2025-08-06T10:57:22Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOSlZ6ZzRVbE5yUkVnek1GZGZRMVJEVURsbmFXYxAB",
+            "user": {
+                "name": "Mt3b 1234",
+                "link": "https://www.google.com/maps/contrib/112851341414042148185?hl=en",
+                "contributor_id": "112851341414042148185",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKxRPbjP3QUORTo2PgOFlD-lvsDHyg5cGGE9_6Y9ThmRboHtw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "It was an amazong experience, the food was super delicious thank you Yuki for the service",
+            "extracted_snippet": {
+                "original": "It was an amazong experience, the food was super delicious thank you Yuki for the service"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "8 hours ago",
+                "iso_date": "2025-08-07T15:22:54Z",
+                "iso_date_of_last_edit": "2025-08-07T15:22:54Z",
+                "snippet": "Mt3b 1234, thank you so much for your kind words!\nWe\u2019re thrilled to hear that you had an \u201camazing experience\u201d and found the food to be \u201csuper delicious.\u201d Yuki was very happy to serve you, and we\u2019ll be sure to pass along your thanks. At 5W-Tokyo Ginza, we take pride in serving the best Japanese Wagyu with heartfelt hospitality in our cozy restaurant.\n\nWe hope to welcome you back again soon!",
+                "extracted_snippet": {
+                    "original": "Mt3b 1234, thank you so much for your kind words!\nWe\u2019re thrilled to hear that you had an \u201camazing experience\u201d and found the food to be \u201csuper delicious.\u201d Yuki was very happy to serve you, and we\u2019ll be sure to pass along your thanks. At 5W-Tokyo Ginza, we take pride in serving the best Japanese Wagyu with heartfelt hospitality in our cozy restaurant.\n\nWe hope to welcome you back again soon!"
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlZCTFV4R1psOWZSV2hCUWpCclNGRnZZbkJKT0VKbmNrd3lXVUZCUVVGQlIyZG1YMEZ0WlVFdFRFWm1SMEZCYVVGQg%3D%3D&num=20&place_id=ChIJr-_pfgiLGGARjXW5wt-NVZw&sort_by=newestFirst",
+        "next_page_token": "CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlZCTFV4R1psOWZSV2hCUWpCclNGRnZZbkJKT0VKbmNrd3lXVUZCUVVGQlIyZG1YMEZ0WlVFdFRFWm1SMEZCYVVGQg=="
+    }
+}

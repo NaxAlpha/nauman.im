@@ -1,0 +1,41 @@
+{
+    "search_metadata": {
+        "id": "6895383b529e4b5e14019671",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/b0e20bd20212f3f8/6895383b529e4b5e14019671.json",
+        "created_at": "2025-08-07 23:35:23 UTC",
+        "processed_at": "2025-08-07 23:35:23 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/b0e20bd20212f3f8/6895383b529e4b5e14019671.html",
+        "prettify_html_file": "https://serpapi.com/searches/b0e20bd20212f3f8/6895383b529e4b5e14019671.prettify",
+        "total_time_taken": 0.26
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJpd8KOwCJGGARoaB3Kvm01uM",
+        "hl": "en",
+        "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSM2hUVW5sWWExOWZSV2hFVjFvM1VGcEpaMFphWlVKWVRteFlNRUZCUVVGQlIyZHVPVEpXTUVOaVJrcElTbVZSV1VGRFNVRQ==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNQdGF5Zm53RRAB!2m1!1s0x0:0xe3d6b4f92a77a0a1!3m1!1s2@1:CIHM0ogKEICAgICPtayfnwE%7CCgwIhMnTugYQqN31iAI%7C?hl=en",
+            "rating": 2.0,
+            "date": "Edited 8 months ago",
+            "iso_date": "2024-11-26T16:45:51Z",
+            "iso_date_of_last_edit": "2024-12-08T00:12:52Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNQdGF5Zm53RRAB",
+            "user": {
+                "name": "Khan Mainul ali",
+                "link": "https://www.google.com/maps/contrib/105761559666059068433?hl=en",
+                "contributor_id": "105761559666059068433",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKMzBX-VS1lFzKVz1wi9LflL74S4Vz380Z9TIqqknlHHHcGJA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 24
+            }
+        }
+    ]
+}

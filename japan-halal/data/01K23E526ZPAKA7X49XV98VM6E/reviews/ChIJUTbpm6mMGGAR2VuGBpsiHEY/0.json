@@ -1,0 +1,337 @@
+{
+    "search_metadata": {
+        "id": "6895380ab8b4a5a9d00a03b5",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/508910aa649fbc86/6895380ab8b4a5a9d00a03b5.json",
+        "created_at": "2025-08-07 23:34:34 UTC",
+        "processed_at": "2025-08-07 23:34:34 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s0x60188ca99be93651:0x461c229b06865bd9!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/508910aa649fbc86/6895380ab8b4a5a9d00a03b5.html",
+        "prettify_html_file": "https://serpapi.com/searches/508910aa649fbc86/6895380ab8b4a5a9d00a03b5.prettify",
+        "total_time_taken": 0.54
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJUTbpm6mMGGAR2VuGBpsiHEY",
+        "hl": "en",
+        "sort_by": "newestFirst"
+    },
+    "place_info": {
+        "title": "KEBAB CAFE (Turkish Halal Restaurant of Shibuya)",
+        "address": "2 Chome-25-10 Dogenzaka, Shibuya, Tokyo 150-0043, Japan",
+        "rating": 4.4,
+        "reviews": 858,
+        "type": "Turkish restaurant"
+    },
+    "topics": [
+        {
+            "keyword": "lunch",
+            "mentions": 30,
+            "id": "/m/0jfd5"
+        },
+        {
+            "keyword": "kofte",
+            "mentions": 22,
+            "id": "/m/08myc3"
+        },
+        {
+            "keyword": "soup",
+            "mentions": 21,
+            "id": "/m/01z1m1x"
+        },
+        {
+            "keyword": "seasoned",
+            "mentions": 15,
+            "id": "/m/0dwpk"
+        },
+        {
+            "keyword": "adana kebab",
+            "mentions": 12,
+            "id": "/m/08qpk3"
+        },
+        {
+            "keyword": "black tea",
+            "mentions": 11,
+            "id": "/m/02859d"
+        },
+        {
+            "keyword": "hummus",
+            "mentions": 10,
+            "id": "/m/0jzps"
+        },
+        {
+            "keyword": "iskender kebab",
+            "mentions": 10,
+            "id": "/m/03znc"
+        },
+        {
+            "keyword": "wall",
+            "mentions": 5,
+            "id": "/m/09qqq"
+        },
+        {
+            "keyword": "bell pepper",
+            "mentions": 5,
+            "id": "/m/0jg57"
+        }
+    ],
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xscFJVMTNTWE16WXpaWlNTMXROR3gzYkZreWRIYxAB!2m1!1s0x0:0x461c229b06865bd9!3m1!1s2@1:CAIQACodChtycF9oOllpRU13SXMzYzZZSS1tNGx3bFkydHc%7C0c_6hyQXLYT%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "13 hours ago",
+            "iso_date": "2025-08-07T10:10:06Z",
+            "iso_date_of_last_edit": "2025-08-07T10:10:06Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xscFJVMTNTWE16WXpaWlNTMXROR3gzYkZreWRIYxAB",
+            "user": {
+                "name": "Mohammed Anees",
+                "link": "https://www.google.com/maps/contrib/109490931458493490733?hl=en-US",
+                "contributor_id": "109490931458493490733",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIBJSmoGyd5n4dHLuVRcaUKcqmEVcS8c5g0Pxo0vZS8m0YLIA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 4
+            },
+            "snippet": "Owner is a very hospitable man, keeps refilling your glass of water. Food is good.",
+            "extracted_snippet": {
+                "original": "Owner is a very hospitable man, keeps refilling your glass of water. Food is good."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT210VWVtNDVTa3RSUmtwNVdEWktTbTUyZDFWWE1HYxAB!2m1!1s0x0:0x461c229b06865bd9!3m1!1s2@1:CAIQACodChtycF9oOmtUem45SktRRkp5WDZKSm52d1VXMGc%7C0cZmAw2lU8l%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T09:40:12Z",
+            "iso_date_of_last_edit": "2025-08-06T09:40:12Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210VWVtNDVTa3RSUmtwNVdEWktTbTUyZDFWWE1HYxAB",
+            "user": {
+                "name": "Seyyid Yavuz",
+                "link": "https://www.google.com/maps/contrib/106844871285138129404?hl=en-US",
+                "contributor_id": "106844871285138129404",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXHJKaNQqsVnFf4CuiclAhFs7bPMhuZe1rS7_ZWZNJ-MRCdMy8wcg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 14,
+                "photos": 2
+            },
+            "snippet": "Yedi\u011fim en lezzetli tavuk \u015fi\u015f olabilir. Ellerinize sa\u011fl\u0131k. Japonyada T\u00fcrk yeme\u011fi arayan\u0131n ilk ismi buras\u0131d\u0131r. Ma\u015fallah",
+            "extracted_snippet": {
+                "original": "Yedi\u011fim en lezzetli tavuk \u015fi\u015f olabilir. Ellerinize sa\u011fl\u0131k. Japonyada T\u00fcrk yeme\u011fi arayan\u0131n ilk ismi buras\u0131d\u0131r. Ma\u015fallah",
+                "translated": "This might be the most delicious chicken shish kebab I've ever eaten. Well done! This is the first place anyone looking for Turkish food in Japan should go. Ma\u015fallah"
+            },
+            "details": {
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnTURBdWJlVVlnEAE!2m1!1s0x0:0x461c229b06865bd9!3m1!1s2@1:CIHM0ogKEICAgMDAubeUYg%7C0cZRcxrgBhD%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "Edited 2 days ago",
+            "iso_date": "2025-02-10T09:30:50Z",
+            "iso_date_of_last_edit": "2025-08-05T09:09:17Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DdGV0Ts-YkckN-dUrp1IviFp0IvkLhKardow1FKX0VcM5nfhXc4Zo43Prb-TaV6bc9HVKFpRVRGWYnjppI2eDVVQNCt0skIOV_3razP16NzSV0YktB1sTOh3K-aua82ZWmpEhBXA",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C1DQI_fbpxz5OVOGjdOH8_XtUqPdjQtFWt6HFoOaKDr0GwLX7NE5in4Cxuf6dWwNt_ShKQgHXvZcfbNMQSzcaxf_jdu5769K53m3-l6-JDgxrNY-hiuRzs9CwB4HKOJDDc5JF3LcLF1veb",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CN7dF0S35L9LW6QKwZRJLw0HDstmgzcGJyqbFCjr-mYmyo2CHWWMzhhHVdK0g0XXtgJ0suTErlEbnBomSftwD1Aa9w4X1IK-rFtKlGt53fv4Q5QEzwl3sBDisJuyaT80MG-BIoYupUZGg",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Df8Ke--VFkY2MwfDdWfgItY3mvVTeYp6-owS9GHI_MFlema1cSoWzETEgNYh44eHt16RBN6unOx0-b20KtVUFI8UuzOFBF6LaUnwiZDxw3uVQvvV51Urs3IBqAH37dUrL8-7ODj_wHZBFp"
+            ],
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnTURBdWJlVVlnEAE",
+            "user": {
+                "name": "laziz aliyev",
+                "link": "https://www.google.com/maps/contrib/112000024341791209968?hl=en-US",
+                "contributor_id": "112000024341791209968",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocITepML_99ACr-4Rbh-Se4o-zVnj7lOF1rAOj0tE-kuG8v_cw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 4
+            },
+            "snippet": "Great\ndelicious  and cheap lunch menu is amazing. The tastiest kebab cafe in Tokyo and HALAL\u2705\u2668\ufe0f \ud83e\udd24\ud83d\udd25",
+            "extracted_snippet": {
+                "original": "Great\ndelicious  and cheap lunch menu is amazing. The tastiest kebab cafe in Tokyo and HALAL\u2705\u2668\ufe0f \ud83e\udd24\ud83d\udd25"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "2 people, 3-4 people, 5-8 people",
+                "wait_time": "Up to 10 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21GVGNIaFlka0kxVm14eWNXcDFRVzVvYjFaNFUwRRAB!2m1!1s0x0:0x461c229b06865bd9!3m1!1s2@1:CAIQACodChtycF9oOmFTcHhYdkI1VmxycWp1QW5ob1Z4U0E%7C0cZR4brzw5U%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-08-05T08:31:35Z",
+            "iso_date_of_last_edit": "2025-08-05T08:31:35Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AeKuUlMwVDmW3pbCAoJByrph7YnXUFjeNh99HZCD3qPjuPZLssPZ0qE2FVRvOsZzzDKC9Wk2f7Ux-OHCeOOYdcoI2CGt0OEb718l1CutGivsZfQ3VS3rFh8cfN-YeIa9IPJTYrlUVp45fg"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GVGNIaFlka0kxVm14eWNXcDFRVzVvYjFaNFUwRRAB",
+            "user": {
+                "name": "maru kang",
+                "link": "https://www.google.com/maps/contrib/112434449001238595951?hl=en-US",
+                "contributor_id": "112434449001238595951",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWtilDd-zFDycapSNWZjko-EGJKJMtyGrFJYJ0UabebSRZYiQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "snippet": "\u0414\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u044b\u0439 \u0432\u043b\u0430\u0434\u0435\u043b\u0435\u0446, \u0443\u0433\u043e\u0441\u0442\u0438\u043b \u0447\u0430\u0435\u043c \u0438 \u0430\u0439\u0440\u0430\u043d\u043e\u043c. \u0415\u0434\u0430 \u043e\u0447\u0435\u043d\u044c \u0432\u043a\u0443\u0441\u043d\u0430\u044f",
+            "extracted_snippet": {
+                "original": "\u0414\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u044b\u0439 \u0432\u043b\u0430\u0434\u0435\u043b\u0435\u0446, \u0443\u0433\u043e\u0441\u0442\u0438\u043b \u0447\u0430\u0435\u043c \u0438 \u0430\u0439\u0440\u0430\u043d\u043e\u043c. \u0415\u0434\u0430 \u043e\u0447\u0435\u043d\u044c \u0432\u043a\u0443\u0441\u043d\u0430\u044f",
+                "translated": "Friendly owner, treated us to tea and ayran. The food is very tasty"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kQlp5MDFPVWxHWTJsYWVXUkxOMEpCVEZOWE0xRRAB!2m1!1s0x0:0x461c229b06865bd9!3m1!1s2@1:CAIQACodChtycF9oOmdBZy01OUlGY2laeWRLN0JBTFNXM1E%7C0cZQvjJHgl2%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-08-05T08:21:03Z",
+            "iso_date_of_last_edit": "2025-08-05T08:21:03Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A3b5fYoIMB01XBn2dsTNv-l7REeg2x3UHc931CmddL1cqDJoSWYZIp5FAJ4sUeF7DuPVS6o0-ziyNcl5nLSbdxnEZ4gMlXEV5R1nIIYpWWPjTBm-tXc4J9-SpqiLiu3lSLxrSVJCR032gU"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kQlp5MDFPVWxHWTJsYWVXUkxOMEpCVEZOWE0xRRAB",
+            "user": {
+                "name": "Alikhan Arshabekov",
+                "link": "https://www.google.com/maps/contrib/109600835108670192490?hl=en-US",
+                "contributor_id": "109600835108670192490",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXDFvFQicYav_tvTBWRhlnnQV9MfRSAgayxIoikqExs69lj2GhN=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 2
+            },
+            "snippet": "\u0422\u04af\u0440\u0456\u043a\u0442\u0435\u0440 \u0436\u04b1\u043c\u044b\u0441 \u0456\u0441\u0442\u0435\u0439\u0434\u0456. \u0410\u0439\u0440\u0430\u043d \u04af\u0448\u0456\u043d \u0493\u0430\u043d\u0430 5 \u0431\u0430\u043b, \u0431\u0456\u0440\u0430\u049b \u0435\u0442\u0456 \u0434\u0435 \u04e9\u0442\u0435 \u0436\u04b1\u043c\u0441\u0430\u049b. \u0410\u0440\u0437\u0430\u043d, \u0434\u04d9\u043c\u0434\u0456 \u0442\u0430\u043c\u0430\u049b\u049b\u0430 \u0442\u043e\u043b\u044b",
+            "extracted_snippet": {
+                "original": "\u0422\u04af\u0440\u0456\u043a\u0442\u0435\u0440 \u0436\u04b1\u043c\u044b\u0441 \u0456\u0441\u0442\u0435\u0439\u0434\u0456. \u0410\u0439\u0440\u0430\u043d \u04af\u0448\u0456\u043d \u0493\u0430\u043d\u0430 5 \u0431\u0430\u043b, \u0431\u0456\u0440\u0430\u049b \u0435\u0442\u0456 \u0434\u0435 \u04e9\u0442\u0435 \u0436\u04b1\u043c\u0441\u0430\u049b. \u0410\u0440\u0437\u0430\u043d, \u0434\u04d9\u043c\u0434\u0456 \u0442\u0430\u043c\u0430\u049b\u049b\u0430 \u0442\u043e\u043b\u044b",
+                "translated": "The Turks work. 5 stars just for the ayran, but the meat is also very tender. Cheap, full of delicious food"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Mix Kebab, Dinner Kebab Sand",
+                "reservation": "Reservations not required"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25JNGFraHdNbFEwYmxoV2VuaElhMHcxVHpSR1ZFRRAB!2m1!1s0x0:0x461c229b06865bd9!3m1!1s2@1:CAIQACodChtycF9oOnI4akhwMlQ0blhWenhIa0w1TzRGVEE%7C0cY1rkDEazz%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-08-01T03:01:04Z",
+            "iso_date_of_last_edit": "2025-08-01T03:01:04Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25JNGFraHdNbFEwYmxoV2VuaElhMHcxVHpSR1ZFRRAB",
+            "user": {
+                "name": "Seiko Ozawa",
+                "link": "https://www.google.com/maps/contrib/100173768738641923456?hl=en-US",
+                "contributor_id": "100173768738641923456",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJCm6O7ZL8m6AU7UYlOtSa05TGpSfuWhkOnc4kYaRxqjNcG8g=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "\u3068\u3063\u3066\u3082\u7f8e\u5473\u3057\u3044\u304f\u3066\n\n\u305a\u3063\u3068\u7d9a\u3044\u3066\u3044\u3066\u307b\u3057\u3044\n\n\u30d1\u30f3\u3082\u6599\u7406\u3082\u30c1\u30e3\u30a4\u3082\u6700\u9ad8\n\n\u3053\u3058\u3093\u307e\u308a\u306a\u611f\u3058\u3082\u3044\u3044\n\n\u5e97\u54e1\u3055\u3093\u305f\u3061\u3082\u512a\u3057\u3044",
+            "extracted_snippet": {
+                "original": "\u3068\u3063\u3066\u3082\u7f8e\u5473\u3057\u3044\u304f\u3066\n\n\u305a\u3063\u3068\u7d9a\u3044\u3066\u3044\u3066\u307b\u3057\u3044\n\n\u30d1\u30f3\u3082\u6599\u7406\u3082\u30c1\u30e3\u30a4\u3082\u6700\u9ad8\n\n\u3053\u3058\u3093\u307e\u308a\u306a\u611f\u3058\u3082\u3044\u3044\n\n\u5e97\u54e1\u3055\u3093\u305f\u3061\u3082\u512a\u3057\u3044",
+                "translated": "It's so delicious!\n\nI hope it stays open forever!\n\nThe bread, food, and chai are all excellent!\n\nI also love the small, cozy atmosphere.\n\nThe staff are so kind!"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "\u30df\u30c3\u30af\u30b9\u30b1\u30d0\u30d6, \u30c9\u30cd\u30eb \u30b1\u30d0\u30d6, \u30e8\u30fc\u30b0\u30eb\u30c8 \u30bd\u30fc\u30b9 \u304c \u7f8e\u5473\u3057\u3044, \u30cf\u30f3\u30d0\u30fc\u30b0, \u30ec\u30f3\u30ba\u8c46\u306e\u30b9\u30fc\u30d7 \u7b11\u30e9\u30f3\u30c1, \u7c73\u306e\u30b9\u30fc\u30d7, rice pudding \u30e9\u30a4\u30b9\u30d7\u30ea\u30f3",
+                "seating_type": "Indoor dining area"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKc2JHMVZWSE4xY21KaU5tbzFjbWxWTmtWdVVsRRAB!2m1!1s0x0:0x461c229b06865bd9!3m1!1s2@1:CAIQACodChtycF9oOlJsbG1VVHN1cmJiNmo1cmlVNkVuUlE%7C0cWpxD0N2WO%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-28T11:25:33Z",
+            "iso_date_of_last_edit": "2025-07-28T11:30:22Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKc2JHMVZWSE4xY21KaU5tbzFjbWxWTmtWdVVsRRAB",
+            "user": {
+                "name": "Emre Varol",
+                "link": "https://www.google.com/maps/contrib/112211872238461687622?hl=en-US",
+                "contributor_id": "112211872238461687622",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocK3mbr6JYgLflNOJjyp6qfDZV-01x14myUnSDC6PkJhtSnBIA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "D\u00f6ner \u00e7ok lezzetli. Mekan temiz ve ferah. Japonyada helal ve lezzetli d\u00f6ner ar\u0131yorsan\u0131z kesinlikle u\u011fray\u0131n.",
+            "extracted_snippet": {
+                "original": "D\u00f6ner \u00e7ok lezzetli. Mekan temiz ve ferah. Japonyada helal ve lezzetli d\u00f6ner ar\u0131yorsan\u0131z kesinlikle u\u011fray\u0131n.",
+                "translated": "The d\u00f6ner kebab is delicious. The place is clean and spacious. If you're looking for halal and delicious d\u00f6ner kebab in Japan, definitely stop by."
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5,
+                "wait_time": "Up to 10 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2psSk5tRmZjV0kzYWsxWllXVnlWMjFEYW10a1QzYxAB!2m1!1s0x0:0x461c229b06865bd9!3m1!1s2@1:CAIQACodChtycF9oOjlJNmFfcWI3ak1ZYWVyV21DamtkT3c%7C0cWptzR0QgZ%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-28T11:26:55Z",
+            "iso_date_of_last_edit": "2025-07-28T11:26:55Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psSk5tRmZjV0kzYWsxWllXVnlWMjFEYW10a1QzYxAB",
+            "user": {
+                "name": "Harun Varol",
+                "link": "https://www.google.com/maps/contrib/105580224431306233147?hl=en-US",
+                "contributor_id": "105580224431306233147",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKNhmjlBqqOiHCgzp45DNQcDjfn69hYFOn-SMnikmETLxZC1w=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 0
+            },
+            "snippet": "Kebaplar\u0131, tavuklar\u0131 \u00e7ok lezzetti.",
+            "extracted_snippet": {
+                "original": "Kebaplar\u0131, tavuklar\u0131 \u00e7ok lezzetti.",
+                "translated": "The kebabs and chicken were delicious."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMlYyVG5RMFVsOWZSV2hEWTFGT2FERlpUMGMwWTBkbE4xTjZjMEZCUVVGQlIyZHVPVFIzV1VOYU5qZ3lNMmhGV1VGRFNVRQ%3D%3D&place_id=ChIJUTbpm6mMGGAR2VuGBpsiHEY&sort_by=newestFirst",
+        "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMlYyVG5RMFVsOWZSV2hEWTFGT2FERlpUMGMwWTBkbE4xTjZjMEZCUVVGQlIyZHVPVFIzV1VOYU5qZ3lNMmhGV1VGRFNVRQ=="
+    }
+}

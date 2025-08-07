@@ -1,0 +1,721 @@
+{
+    "search_metadata": {
+        "id": "68953801054e5f77abf3d0fa",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/e074af85831b7b12/68953801054e5f77abf3d0fa.json",
+        "created_at": "2025-08-07 23:34:25 UTC",
+        "processed_at": "2025-08-07 23:34:25 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/e074af85831b7b12/68953801054e5f77abf3d0fa.html",
+        "prettify_html_file": "https://serpapi.com/searches/e074af85831b7b12/68953801054e5f77abf3d0fa.prettify",
+        "total_time_taken": 0.4
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJp3wfG4qLGGARv2oAKLob2Ag",
+        "hl": "en",
+        "next_page_token": "CAESYENBRVFDQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlEzY1dsNVkxOWZSV2hETFdGUFdHOTFUSEJ2TVVGRk5HdGtWVUZCUVVGQlIyZG1YMEZ0WkRkeGFYbGpSMEZCYVVGQg==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21ReE1HNDFVRGRhVGtoSUxYUjNUMDlEUzJ3MGFtYxAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOmQxMG41UDdaTkhILXR3T09DS2w0amc%7C0c_70tcEwC2%7C?hl=en",
+            "rating": 5.0,
+            "date": "13 hours ago",
+            "iso_date": "2025-08-07T10:31:21Z",
+            "iso_date_of_last_edit": "2025-08-07T10:31:21Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DKhwyiRNWejnsqQQKTs4O4_4gQM0ArEt4ZRdDthbZbodNAooYGDtkJKoPjT_XMpPHoC-u_WR_5T9avfFVJjxKp93i4SjE0gvV0TXGenndQuFdmZ7P9MiNy-5JjPLyg7ndrjHqdb1cRHWE"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ReE1HNDFVRGRhVGtoSUxYUjNUMDlEUzJ3MGFtYxAB",
+            "user": {
+                "name": "Taylor Hurt",
+                "link": "https://www.google.com/maps/contrib/118032865283838948931?hl=en",
+                "contributor_id": "118032865283838948931",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW2YkINNnFu35HpQ6NEucvU3OFSuXJ8J_xQCopZ0yg3ZW0ldFjhcw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 1
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t4NGVtczBaWHBoTm5aVE9IaExSMDFxVWxFMmJXYxAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOkx4ems0ZXphNnZTOHhLR01qUlE2bWc%7C0c_6zs_RqRc%7C?hl=en",
+            "rating": 5.0,
+            "date": "13 hours ago",
+            "iso_date": "2025-08-07T10:29:12Z",
+            "iso_date_of_last_edit": "2025-08-07T10:29:12Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AmG3MLHJ-kreB_tYWJSm0Io-8fvHiX3cc8G-7cDlk0ZesIQHC2SU95DiQEsoBZqI4t4YJ1tGuwn70aILu6zMRpZp-f9m-XedQld0b5wuW7gu2gBVXR1P88h5Pb3qNeNJbMjb1GgkRiPLk1"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4NGVtczBaWHBoTm5aVE9IaExSMDFxVWxFMmJXYxAB",
+            "user": {
+                "name": "Aiden Hurt",
+                "link": "https://www.google.com/maps/contrib/110833013030845581610?hl=en",
+                "contributor_id": "110833013030845581610",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXuwKRfYxhyx8DphRtLpLfJNALUW9qPRb1pPP6xLtjhc74_qN0=s120-c-rp-mo-br100",
+                "reviews": 0,
+                "photos": 1
+            },
+            "snippet": "Very good quality food and worth the stop! Highly recommend!",
+            "extracted_snippet": {
+                "original": "Very good quality food and worth the stop! Highly recommend!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWTU5XZG1hRmMwU0VrNFQzbGZXWFZwWkZaNVVsRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOlVMNWdmaFc0SEk4T3lfWXVpZFZ5UlE%7C0c_6h5ltWc4%7C?hl=en",
+            "rating": 5.0,
+            "date": "13 hours ago",
+            "iso_date": "2025-08-07T10:09:10Z",
+            "iso_date_of_last_edit": "2025-08-07T10:09:10Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cv7R25rxh9HRVbufF3fypGudDtI4sFFKsgQvpKomtEga6xSTL9FSgF9Q0YoG9efuF6nyqkZcQT-Y_q5EIiLoW7c4m314bmNZa5sZeH2CbLDtwUZmlWwWcrj5uI4P17h0cbgj3-2t0Pjp0_"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWTU5XZG1hRmMwU0VrNFQzbGZXWFZwWkZaNVVsRRAB",
+            "user": {
+                "name": "mohdnoor rudin",
+                "link": "https://www.google.com/maps/contrib/105091588187434182106?hl=en",
+                "contributor_id": "105091588187434182106",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUneZGtlWtctFWA40VUfMiTlEpxKjNZ_xhnLY66E_8hVBIlKHQ=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 12,
+                "photos": 1
+            },
+            "snippet": "Nice atmosphere with excellent food. Halal wagyu available.",
+            "extracted_snippet": {
+                "original": "Nice atmosphere with excellent food. Halal wagyu available."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21KSVVVeENUa28yUVZGR1lVTmxlbTkwYVRWVFpIYxAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOmJIUUxCTko2QVFGYUNlem90aTVTZHc%7C0c_6gyQaPGY%7C?hl=en",
+            "rating": 5.0,
+            "date": "13 hours ago",
+            "iso_date": "2025-08-07T10:09:02Z",
+            "iso_date_of_last_edit": "2025-08-07T10:09:02Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BcGZwbre8urdcR0agYRFM5DCUwFP9ASai7aEN_Mqe_43IDRk_AtYkNgBafL9R1vL8xRG63U_9gCINDiQ0r0DfF_dt8nXNwLyzh2cag9JfyqRFoaI4H3u8LQZFQa0xZ_VDA5Ufgnt9vBkuM",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B150Uv32DoNgTnbQrU0Cd-xHSvox7-_3ATo3VOWLybxgD7mDka1y3sgOo_lcSpZ2dHCsrzuNQnX6cBj9x91JNYHIi5gfbe7_Uvq-vM7hcnQJrGAr65oL-oN2lT2DOiG2afVYauy-tRTDs"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KSVVVeENUa28yUVZGR1lVTmxlbTkwYVRWVFpIYxAB",
+            "user": {
+                "name": "Mohd Afiq Abdul Ghafar",
+                "link": "https://www.google.com/maps/contrib/109254811352492889184?hl=en",
+                "contributor_id": "109254811352492889184",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ1bN8LxEKxQtLJy8MPEWJ04oUjfIx1sm82V_LzhNAQPe-koQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 3
+            },
+            "snippet": "Excellent food! The waiters very friendly.",
+            "extracted_snippet": {
+                "original": "Excellent food! The waiters very friendly."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "Up to 10 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25oYWRGbHVjelJMWXpnMldqTm9SbXRtYUU5MWRXYxAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOnhadFluczRLYzg2WjNoRmtmaE91dWc%7C0c_6dO4sFQ7%7C?hl=en",
+            "rating": 5.0,
+            "date": "13 hours ago",
+            "iso_date": "2025-08-07T10:05:13Z",
+            "iso_date_of_last_edit": "2025-08-07T10:05:13Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BBkKU6EyYi1oGBA3k3Nq-I-SZldCcd5AHFgOAvbXSeC9dN6IkAOpo1rOodYr4VHEVDkj9HZbRJxjlMN2UdXa7nG6oD0bqAlzw51yvsCBMX_r61iCmKMCB1VPsrbiKWuoGAfjXu7fbocOrM",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BjJ-fgAE0spjJCt-sZRzZjH5jiKdAuTTRiDCvmcTjqpg2u6VCMAhQWLLS7Ss5_twGlDkaT7bhFbzPe_rZo1Vo6FlSqJdCCpx9u2XZNfi1wCBm5N63JOvZA6JSoTVwAZa9gJaCGggG1-gI",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BFh-OF7hy6UrkJKmapvGe7f8s4eizm1HX2iKljqZUWy1k7q9M1dMw_olMD6Q36aSdkZ2ryGg2DDop0YBhy9ZfSkN0aCVDm28E1RtWikAJnI_uDVnvuDXdCwRA7_NpU-F3M31STL_JarpVn",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AsDwq4IlDztPfRYAx7y947DH01A22oANtLV5gw2Gn5wVGDccPlHmE54rb8AeS0B3yNQVp7t6zZgAS-Yb0hE4xSompKJSB4TTJr9XItUd6a8YOIeV6inszEzabRwzyUM6DSQv6N1mfj6uMR",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B3b7Ffgyt4KJaHEX-EGAinIt2q5v_XTbFd12ImMeUaKB_AXDPzQpO3QlakYxJVpXQ3XqvQhIOuW7INhMhSxOwFTh_7Znf0LkJpTin2TmoxaokNliULPLjwtVLiM_F4kDWq2_UGEDV-pp7g"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oYWRGbHVjelJMWXpnMldqTm9SbXRtYUU5MWRXYxAB",
+            "user": {
+                "name": "Drippy Shrek",
+                "link": "https://www.google.com/maps/contrib/118191414908726185280?hl=en",
+                "contributor_id": "118191414908726185280",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKt6zSsLz4KOlj7_ag7HQMvBBOvTWT-NxZKRWFh8A2z-qS_Ew=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 4
+            },
+            "snippet": "Incredible food and service with great wagyu, sukiyaki and ramen! Definitely work a visit!",
+            "extracted_snippet": {
+                "original": "Incredible food and service with great wagyu, sukiyaki and ramen! Definitely work a visit!"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "Up to 10 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25GQlFWbFRkVlpzTmsxQ1ExWTRaVEo2ZFVaNVZrRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOnFBQVlTdVZsNk1CQ1Y4ZTJ6dUZ5VkE%7C0c_6bbj_KJP%7C?hl=en",
+            "rating": 5.0,
+            "date": "13 hours ago",
+            "iso_date": "2025-08-07T10:03:19Z",
+            "iso_date_of_last_edit": "2025-08-07T10:03:19Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BTP9XWdr7djbHrnUgW2sQvh2cgvsDM2es0Z6l12hYC1uJEEYBzr_KYTzTy7wSykaP935uab0x2iOCa_TCRpk1FVEGjT5FBv91QmlPn518WWw8WMgPSEpzC_-iTHpS8WtUcqhP-hk24k9dm"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GQlFWbFRkVlpzTmsxQ1ExWTRaVEo2ZFVaNVZrRRAB",
+            "user": {
+                "name": "Chris G",
+                "link": "https://www.google.com/maps/contrib/117601000895354908961?hl=en",
+                "contributor_id": "117601000895354908961",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVplhuA43KbsXDc577YDUzNbsv3SBF8aN1HUa_6QELgOOPmq-4A=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 35,
+                "photos": 25
+            },
+            "snippet": "Great spot for wagyu ramen that we learned just recently opened!  Service was interactive and very friendly and the quality of the beef was top notch.  You\u2019ll have fun with the meal experience here \ud83d\udc4d",
+            "extracted_snippet": {
+                "original": "Great spot for wagyu ramen that we learned just recently opened!  Service was interactive and very friendly and the quality of the beef was top notch.  You\u2019ll have fun with the meal experience here \ud83d\udc4d"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xGNFZFaHVSa0pVWlV0d1kxOWxOMGx6Y1dWRmNWRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOlF4VEhuRkJUZUtwY19lN0lzcWVFcVE%7C0c_6anS3ZoL%7C?hl=en",
+            "rating": 5.0,
+            "date": "13 hours ago",
+            "iso_date": "2025-08-07T10:02:27Z",
+            "iso_date_of_last_edit": "2025-08-07T10:02:27Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90ACZZfQTkHo2V0PaLQqQiDhKhA8dtMZa9eBoObOZqVcl08G3-wUs0eVLlSIoQgBjqsAC3e5r-gad-tOtFMhP9-mw-eX2iLFO54Yy5hAkg1prraBYYIxSd1tn_Xxgk-2h6xwOLZgXFf6O4be"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGNFZFaHVSa0pVWlV0d1kxOWxOMGx6Y1dWRmNWRRAB",
+            "user": {
+                "name": "Rhea Banerjee",
+                "link": "https://www.google.com/maps/contrib/114614362314170012780?hl=en",
+                "contributor_id": "114614362314170012780",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLV9p3awG1Jy1vWiGgdwHS2Z5QaZrqML2dsXWP802Qv0lDBmA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait",
+                "vegetarian_options": "Not really, but the miso soup was great."
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT205TldHRnNTMUZ6TjNaeE5VRXlZVmhsZERVMk9HYxAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOm9NWGFsS1FzN3ZxNUEyYVhldDU2OGc%7C0c_5EKgyiNA%7C?hl=en",
+            "rating": 5.0,
+            "date": "15 hours ago",
+            "iso_date": "2025-08-07T08:18:54Z",
+            "iso_date_of_last_edit": "2025-08-07T08:29:09Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CxXUYzS-uqwDA404XhmHO7b-H7ALBxAYzCjotQGJIJTBF0-2L8dC_3O6n5F7KVDs16gBtMabJh65unyCIqi7ZMyBOs7M1tv6SLsAkXcVzFITx-C3f2ShRrdTCl4Eq-knrMGFTY8cQ1dM3G"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205TldHRnNTMUZ6TjNaeE5VRXlZVmhsZERVMk9HYxAB",
+            "user": {
+                "name": "K Nawabi",
+                "link": "https://www.google.com/maps/contrib/115312603213001408839?hl=en",
+                "contributor_id": "115312603213001408839",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWT9xepNUSYpJg26ixw81qk_2crePTXOZBYtkDyyw0bAxQGufNL=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 9,
+                "photos": 1
+            },
+            "snippet": "Delicious Wagyu burgers and absolutely amazing service! Huge thanks to the lovely staff for making our visit so enjoyable, you made it extra special! \ud83d\ude0a\ud83c\udf54",
+            "extracted_snippet": {
+                "original": "Delicious Wagyu burgers and absolutely amazing service! Huge thanks to the lovely staff for making our visit so enjoyable, you made it extra special! \ud83d\ude0a\ud83c\udf54"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25GWVYwbERUM1pKYUVGR1oybGlkVVJoTFZKNVIxRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOnFYV0lDT3ZJaEFGZ2lidURhLVJ5R1E%7C0c_55YaR4Uc%7C?hl=en",
+            "rating": 5.0,
+            "date": "15 hours ago",
+            "iso_date": "2025-08-07T08:19:47Z",
+            "iso_date_of_last_edit": "2025-08-07T08:19:47Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AthiE7KGaZSxDpdEyuO0Zf2_Blt931LpR2VWImujECXmCNUmV4tU1jnbmjRk6m9057z4N9p02I6pl8T0KsZAoNR8Ub0sqBeBxyCieFMHUw_ddtWWSuZKCyGbN7q3FViD26x2a6CHHElFN0"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GWVYwbERUM1pKYUVGR1oybGlkVVJoTFZKNVIxRRAB",
+            "user": {
+                "name": "Luc\u00eda Patricia Cano P\u00e9rez",
+                "link": "https://www.google.com/maps/contrib/110990717185214309670?hl=en",
+                "contributor_id": "110990717185214309670",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX8zcm32XM0M9A_CKhoqxy1dcfpmy0BQpB_lerDb7jh49qPU9MV=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 1
+            },
+            "snippet": "It was amazing!! S\u00faper Delicious!!",
+            "extracted_snippet": {
+                "original": "It was amazing!! S\u00faper Delicious!!"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkSGVHbEdhREJDTjJocWFHRnRUVzgyVVZOVlFWRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOldHeGlGaDBCN2hqaGFtTW82UVNVQVE%7C0c_3xxJVJIs%7C?hl=en",
+            "rating": 5.0,
+            "date": "16 hours ago",
+            "iso_date": "2025-08-07T07:02:21Z",
+            "iso_date_of_last_edit": "2025-08-07T07:02:21Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkSGVHbEdhREJDTjJocWFHRnRUVzgyVVZOVlFWRRAB",
+            "user": {
+                "name": "Andreas Kasouxas",
+                "link": "https://www.google.com/maps/contrib/110900813740016817646?hl=en",
+                "contributor_id": "110900813740016817646",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ6TM1_3wQ3Wib2mWELXLqeaV6DmxzrZwfhDLGsFa4hTzzqrA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 0
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21sNmFtVlJNVFJaWnpWbVZXSmpkRTFpV2poWU9WRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOml6amVRMTRZZzVmVWJjdE1iWjhYOVE%7C0c_3xV7ZIye%7C?hl=en",
+            "rating": 5.0,
+            "date": "16 hours ago",
+            "iso_date": "2025-08-07T07:01:52Z",
+            "iso_date_of_last_edit": "2025-08-07T07:01:52Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sNmFtVlJNVFJaWnpWbVZXSmpkRTFpV2poWU9WRRAB",
+            "user": {
+                "name": "Iliana Tzumani",
+                "link": "https://www.google.com/maps/contrib/109295385003497350015?hl=en",
+                "contributor_id": "109295385003497350015",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWzuHZBjXYa57MOodh_IvmNx-2GZpSzg4-VqmJrzYYKAKsT0x1t=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21rMmVISTRZbFpHTUZOeVRGaFBWM1pqY1d0cWFGRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOmk2eHI4YlZGMFNyTFhPV3ZjcWtqaFE%7C0cZtnSYGpkx%7C?hl=en",
+            "rating": 3.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T18:00:10Z",
+            "iso_date_of_last_edit": "2025-08-06T18:20:13Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DrgjLB5prExa6kJEf3Gc-lY7sjvqgu9-CVj917Dmg64YCvmY4tJq9ClYScDskgg4VOC6v6bR7Ij3dKsq7_BGf9cz3k39p2aAEBXjF5BldHfz1HVSe0AqA7fmKJTCoc86-ELPlJaSNbBoMF",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BidNpg9ilxiXLN9-zDu8QGeXYBoT3UvzUW6rQ2M0YXHnquVnmUfjUqW3T72twEJ2blnFJz36j3q_4eonnzEoY_Tyja2DoXwZlbu3rG_kgmXspRw91Chbs0H2aW1LpEPAea6A14JdDNETk"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21rMmVISTRZbFpHTUZOeVRGaFBWM1pqY1d0cWFGRRAB",
+            "user": {
+                "name": "Benjamin DE FRANCE",
+                "link": "https://www.google.com/maps/contrib/102609776665098745544?hl=en",
+                "contributor_id": "102609776665098745544",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX4AzX3kTc7QZj-ZiQMzel0NzqPPSzSYNwEQo_rxU5C0Sa1mj0-gw=s120-c-rp-mo-ba5-br100",
+                "local_guide": true,
+                "reviews": 497,
+                "photos": 677
+            },
+            "snippet": "La viande \u00e9tait tendre, savoureuse et de belle qualit\u00e9. En d\u00e9but de repas, une pr\u00e9sentation du propri\u00e9taire et de son histoire nous est faite, ce qui renforce la confiance dans le produit et ajoute une dimension int\u00e9ressante \u00e0 l\u2019exp\u00e9rience. Ayant voulu profiter pleinement de ma derni\u00e8re soir\u00e9e \u00e0 Tokyo, j\u2019ai command\u00e9 deux plats \u00e0 moi seul pour d\u00e9guster davantage de wagyu.\n\nCependant, malgr\u00e9 la qualit\u00e9 de la viande, le rapport qualit\u00e9-prix m\u2019a sembl\u00e9 d\u00e9s\u00e9quilibr\u00e9 : j\u2019ai r\u00e9gl\u00e9 19 700 yens (environ 114 \u20ac), un montant \u00e9lev\u00e9 pour des portions certes correctes, mais pas aussi g\u00e9n\u00e9reuses qu\u2019on pourrait l\u2019esp\u00e9rer \u00e0 ce prix. Le cadre ne justifie pas non plus pleinement le tarif : le restaurant est exigu, peu d\u00e9cor\u00e9, et l\u2019ambiance manque de raffinement. D\u00e9tail surprenant : le sol, au rez-de-chauss\u00e9e comme \u00e0 l\u2019\u00e9tage, \u00e9tait tr\u00e8s glissant et gras, ce qui laisse planer un doute sur l\u2019entretien des lieux.\n\nLe personnel, en revanche, a \u00e9t\u00e9 tr\u00e8s aimable et attentif tout au long du repas.",
+            "extracted_snippet": {
+                "original": "La viande \u00e9tait tendre, savoureuse et de belle qualit\u00e9. En d\u00e9but de repas, une pr\u00e9sentation du propri\u00e9taire et de son histoire nous est faite, ce qui renforce la confiance dans le produit et ajoute une dimension int\u00e9ressante \u00e0 l\u2019exp\u00e9rience. Ayant voulu profiter pleinement de ma derni\u00e8re soir\u00e9e \u00e0 Tokyo, j\u2019ai command\u00e9 deux plats \u00e0 moi seul pour d\u00e9guster davantage de wagyu.\n\nCependant, malgr\u00e9 la qualit\u00e9 de la viande, le rapport qualit\u00e9-prix m\u2019a sembl\u00e9 d\u00e9s\u00e9quilibr\u00e9 : j\u2019ai r\u00e9gl\u00e9 19 700 yens (environ 114 \u20ac), un montant \u00e9lev\u00e9 pour des portions certes correctes, mais pas aussi g\u00e9n\u00e9reuses qu\u2019on pourrait l\u2019esp\u00e9rer \u00e0 ce prix. Le cadre ne justifie pas non plus pleinement le tarif : le restaurant est exigu, peu d\u00e9cor\u00e9, et l\u2019ambiance manque de raffinement. D\u00e9tail surprenant : le sol, au rez-de-chauss\u00e9e comme \u00e0 l\u2019\u00e9tage, \u00e9tait tr\u00e8s glissant et gras, ce qui laisse planer un doute sur l\u2019entretien des lieux.\n\nLe personnel, en revanche, a \u00e9t\u00e9 tr\u00e8s aimable et attentif tout au long du repas.",
+                "translated": "The meat was tender, flavorful, and of high quality. At the beginning of the meal, we were introduced to the owner and his story, which reinforced our trust in the product and added an interesting dimension to the experience. Wanting to fully enjoy my last evening in Tokyo, I ordered two dishes to myself to sample more of the Wagyu.\n\nHowever, despite the quality of the meat, the price-quality ratio seemed unbalanced: I paid 19,700 yen (about \u20ac114), a high amount for portions that were certainly decent, but not as generous as one might hope for at this price. The setting also didn't fully justify the price: the restaurant was cramped, sparsely decorated, and the ambiance lacked refinement. A surprising detail: the floor, both on the ground floor and upstairs, was very slippery and greasy, which cast doubt on the upkeep of the place.\n\nThe staff, on the other hand, was very friendly and attentive throughout the meal."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 4,
+                "service": 3,
+                "atmosphere": 3,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kQk1tMTJOVUU1YVhWNGNGbFNXR1U0VTNCd2JWRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOmdBMm12NUE5aXV4cFlSWGU4U3BwbVE%7C0cZpwiR3PxT%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T13:57:02Z",
+            "iso_date_of_last_edit": "2025-08-06T13:57:02Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DzirDOyLK6LsgaiTpkNYcoc_FszEMMVI7KZqoMOv5VcOg7NYZ09iamGuBzdYXVvISksjggWVPJHQkDsLs9RJUtF7mB7XKB3mxEf8T2XztANwaXz_jBesDClOBaz98cuDtopZV2XL3vVplL",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AVS4asVUD-Qz6MK8zFQVjrBlgHC9pydIdxbtT8GqagxMm-4AN76EzoGLdNVZIk0uQP_Dvmw5mLXvkKucJMG5w69Q3g72uE8WuySKDIIdYdqW0RVaQ6DtJR4As1-innyHcdgbY1OOUf-7Gk"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kQk1tMTJOVUU1YVhWNGNGbFNXR1U0VTNCd2JWRRAB",
+            "user": {
+                "name": "Olzhas Zhali",
+                "link": "https://www.google.com/maps/contrib/110830849515649169313?hl=en",
+                "contributor_id": "110830849515649169313",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJjYLsNMiTf_Dl_uDijikHRNyHaE_oqSbJfSMpWB6Z53OZ1Nw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "snippet": "Very nice place. IT was lucky that we met Mao, he is very good waiter. New halal restaurant. Very recommended",
+            "extracted_snippet": {
+                "original": "Very nice place. IT was lucky that we met Mao, he is very good waiter. New halal restaurant. Very recommended"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:13:45Z",
+                "iso_date_of_last_edit": "2025-08-07T04:13:45Z",
+                "snippet": "Hi Olzhas,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!",
+                "extracted_snippet": {
+                    "original": "Hi Olzhas,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kwNWFUbFdNbTluVjNOcWFEWmtjV3R0YkZoVFMzYxAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOi05aTlWMm9nV3NqaDZkcWttbFhTS3c%7C0cZpv-OcYNm%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T13:55:12Z",
+            "iso_date_of_last_edit": "2025-08-06T13:55:12Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kwNWFUbFdNbTluVjNOcWFEWmtjV3R0YkZoVFMzYxAB",
+            "user": {
+                "name": "Almas Zhali",
+                "link": "https://www.google.com/maps/contrib/103527080482502553970?hl=en",
+                "contributor_id": "103527080482502553970",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXrQgRGHUWMf9R8LjUXMcWU-X9solv-MOfwxGmfe0eIbmwgfXJO=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Very good halal place! Amazing cheeseburger!",
+            "extracted_snippet": {
+                "original": "Very good halal place! Amazing cheeseburger!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:14:01Z",
+                "iso_date_of_last_edit": "2025-08-07T04:14:01Z",
+                "snippet": "Hi Almas,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!",
+                "extracted_snippet": {
+                    "original": "Hi Almas,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tGaWNXZExORjkxYlVOSmNVVjZjWFpYYVZWV1pYYxAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOkFicWdLNF91bUNJcUV6cXZXaVVWZXc%7C0cZp1xlWTUo%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T12:55:25Z",
+            "iso_date_of_last_edit": "2025-08-06T12:55:25Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DGuOC5E6_oAvlnv3SgVH-FtIO6GHhg2rW1XZcchmY3HlnpFGMxLZT5qYR2ZxltYrLsdoXu9Z6X6YbkwCyAxzT2LtK5sy2qMy4NB0-IOa2y1i_RgqbEwvYc_lzfoQWCMMGRwMpRpOL6tywE"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGaWNXZExORjkxYlVOSmNVVjZjWFpYYVZWV1pYYxAB",
+            "user": {
+                "name": "Tomas Cajigal",
+                "link": "https://www.google.com/maps/contrib/114030754808945256393?hl=en",
+                "contributor_id": "114030754808945256393",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUik-_5sX1lxB1JZAIwfuRKWzdhCemf7ML14iSgF0PrJbLPMxEc=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 1
+            },
+            "snippet": "Muy buena la hamburguesa de wagyu! Com\u00ed la triple Patty y fue una experiencia incre\u00edble",
+            "extracted_snippet": {
+                "original": "Muy buena la hamburguesa de wagyu! Com\u00ed la triple Patty y fue una experiencia incre\u00edble",
+                "translated": "The wagyu burger was so good! I had the triple patty and it was an amazing experience."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:13:53Z",
+                "iso_date_of_last_edit": "2025-08-07T04:13:53Z",
+                "snippet": "Hi Tomas,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!",
+                "extracted_snippet": {
+                    "original": "Hi Tomas,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WSFJVeFBVMmhRUlc5MVVHMTRNa2N4YnpGVFJsRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOnVHRUxPU2hQRW91UG14MkcxbzFTRlE%7C0cZoux69hb3%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T12:46:53Z",
+            "iso_date_of_last_edit": "2025-08-06T12:46:53Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CdMZY022nxazuPZgD6DXNNk_mdeCP8Vd0ZveRq8atuDQOhvOhWFsiwN5KhIdxfjQc5wZ8vcEkFRCYnNfn_0FEb2qjP7cSPGz8h_uhv4ZPtENMkchFC_pSTOMW_R-_kp-IbgG-N16Yryz4i",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DX78y94ZPt3yCYOAg6hlWsfbS1Q4JoutI5CEE7VpCFpDCkZxc9hPndye-u3I6F4bSWeXpL3_cTJ_kJkQ5JPRd-e48YbcdxD-Ddx3X96oF3t103E6FeC_SVr-oX4RjFTtLcLbX0z1fswFU",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BcVc_QXevtdr0E6ivK4MwLt-SCD6n1kMW9Du6ihsazMdGYtHFU8EliduvwyTyTevhT6ce2b4uTrr2YFvQAqIH9V5EkMr6ueNUppMxmcc7CMvQh-UvEmYDWUxTnUQx_IgF1eZG6P8S9MELv"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WSFJVeFBVMmhRUlc5MVVHMTRNa2N4YnpGVFJsRRAB",
+            "user": {
+                "name": "\uae40\ud638\uc2b9",
+                "link": "https://www.google.com/maps/contrib/100144029783181438503?hl=en",
+                "contributor_id": "100144029783181438503",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIZqk5eGuLRYH7XZIKs5yFJIqak5hYWYGN1kKMlIyGY_4s_HQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 2
+            },
+            "snippet": "Very good",
+            "extracted_snippet": {
+                "original": "Very good"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:30:44Z",
+                "iso_date_of_last_edit": "2025-08-07T04:30:44Z",
+                "snippet": "Hi \uae40\ud638\uc2b9,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi \uae40\ud638\uc2b9,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t4UFQwcHVMWFZaZW5oNWJWSlRlR1Y1VmpkeFlYYxAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOkxPT0puLXVZenh5bVJTeGV5VjdxYXc%7C0cZouZoEh-4%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T12:46:28Z",
+            "iso_date_of_last_edit": "2025-08-06T12:46:28Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C9TdEnoD6EsupGrzTrzeQg3bG7_EYMFg245wcBH9F4vv5apRp8FX9yI_zoaDDNLwscpBKROk6RF-fJADF60FZ7XRupiwzzNStJ0r9q96xLAXzFXkYf4d_k0e3c3jWI8Mw71lVsBhjE92VJ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DT2m9OJx0171OH7Bq8zBbk5MiDdNn2KmiEF76i1m_DNuqV3teZRcqAkGUT4RZxdhypuHYAqS86kgfHDM0hXAqjyy2Ak_D2WMoTbwgdGaBkDrMOcelW0Z57soXLOQG_hTnsZI6_hL9b5V-M",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DdE-yik12M0ydDT6KhLZ9m9k6Bx5bNpN0b6eY2Xc5aQWjeu_SksQbegL1igHTx6aWwKIKlunXAFY85TSGJAavSqFM6ulqZI-5Fj9rOarHzxXaBbWHZqsys0S1N0veHH24AIcBy5Sx6KZUw",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DB4L8fVryRjsZT8Sm_aNdgrpkZR3o8x_eeGyb8fakNTPGAi-foVtiOxcth0VeCLdZWPKfrDQbK0UBRUeLuXQUalxgaMzBV01sqh7baCzOcqhEz6skCaqlZQ8KhNXXuYececeP9fo7nd7_2",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BQnAcBmjASQdvkyxim4l4qMCd9tEnVULyh31gjuGnUNuAqq4JdcaZktbM9sGQIrayCGFz1onoK7Kcs0wisDUqw09ytYeTTbnE_44T4kVUqznxflg7Hw6JWuB0e-bKP61ajmBP1igWd6mlh"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4UFQwcHVMWFZaZW5oNWJWSlRlR1Y1VmpkeFlYYxAB",
+            "user": {
+                "name": "\uadc0\uc5ec\uc6b4\ud638\uc2b9TV",
+                "link": "https://www.google.com/maps/contrib/105180826529281300847?hl=en",
+                "contributor_id": "105180826529281300847",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXdOQjkTKCYh7heQqPNiAO8GVOv-7fQiEzRRoZ7I89MIZHgq4Zn=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 4
+            },
+            "snippet": "\ub9db\uc788\uc5c8\uc5b4\uc694",
+            "extracted_snippet": {
+                "original": "\ub9db\uc788\uc5c8\uc5b4\uc694",
+                "translated": "It was delicious"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:31:03Z",
+                "iso_date_of_last_edit": "2025-08-07T04:31:03Z",
+                "snippet": "Hi \uadc0\uc5ec\uc6b4\ud638\uc2b9TV,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!",
+                "extracted_snippet": {
+                    "original": "Hi \uadc0\uc5ec\uc6b4\ud638\uc2b9TV,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKM2NIbExjRTVhVEdaUWJEUllYMjFtV0ZSVFQyYxAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOlJ3cHlLcE5aTGZQbDRYX21mWFRTT2c%7C0cZo1HEiTzQ%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T11:46:26Z",
+            "iso_date_of_last_edit": "2025-08-06T11:46:26Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKM2NIbExjRTVhVEdaUWJEUllYMjFtV0ZSVFQyYxAB",
+            "user": {
+                "name": "Shayer R",
+                "link": "https://www.google.com/maps/contrib/102743098604094889263?hl=en",
+                "contributor_id": "102743098604094889263",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXwvPZ4CgUVHmTuIA7lovlekcB1s57VyfmDMhGT9f47Tp957xLO=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:14:15Z",
+                "iso_date_of_last_edit": "2025-08-07T04:14:15Z",
+                "snippet": "Hi Shayer,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!",
+                "extracted_snippet": {
+                    "original": "Hi Shayer,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xacGVEQjZSQzF3VW1WTlJETlZUMjh6UTBZNFFrRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOlZpeDB6RC1wUmVNRDNVT28zQ0Y4QkE%7C0cZnh9TE-Lg%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T11:23:54Z",
+            "iso_date_of_last_edit": "2025-08-06T11:23:54Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DvHPsHi2uuLaJq2eBUFaT4aB3kZlKRmpl0vJ7KSHZZNLpTZ5w_bBFBZsD8SDPB6EVZ087t65ByQ_zRS3_ke1TZ6U2BUbwXXHYmBgiBcq41CvhLU2svIs0qsUkoUWKaauVRjGrhn0FZAtQ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CnPYM7R4PbnO8ODxfoW0-7CXEEWIrVi_qEQX41_mDzlFvtcMNZAcd4B47AaQDC3cJNzMnphXkw5TbXMF16ncDRKeWmCfz8-Cg8-4d8LuBvo9Kbj_LMG1cZRdAgi69DI0N_I8vUTCNA_GzI"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xacGVEQjZSQzF3VW1WTlJETlZUMjh6UTBZNFFrRRAB",
+            "user": {
+                "name": "Ilham Mukriz Zainal Abidin",
+                "link": "https://www.google.com/maps/contrib/109079665901086279557?hl=en",
+                "contributor_id": "109079665901086279557",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL1bziCDtrwk_Advk1fpufCqInuTBbuXBYXyC_5VvpOf1hSpA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 2
+            },
+            "snippet": "Great food and people! Mao was really friendly and helpful",
+            "extracted_snippet": {
+                "original": "Great food and people! Mao was really friendly and helpful"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:14:34Z",
+                "iso_date_of_last_edit": "2025-08-07T04:14:34Z",
+                "snippet": "Hi llham,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!",
+                "extracted_snippet": {
+                    "original": "Hi llham,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21ocFJHeHVNMkZHVkdwbGFXb3plVFkxYlhOeU0wRRAB!2m1!1s0x0:0x8d81bba28006abf!3m1!1s2@1:CAIQACodChtycF9oOmhpRGxuM2FGVGplaWozeTY1bXNyM0E%7C0cZjdyhNWhm%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T06:47:26Z",
+            "iso_date_of_last_edit": "2025-08-06T06:47:26Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D39m-qdkFUL4cYGu-4mDO8-xrHrCZF80ZhP_6qV4ZBfm9bbslAIh4EgVktw4XT9VoHGd7E40TGja27SIKvIYnzkI_yx8U-RjIJPsYuBmVQdjqb9KmFn4hLfpnM7ZdUbKdwynat7foCJwaa",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BKlP_jXz93u4tRhUPiCp4iStgSh0KYBjXO1ve0F8mAj6CDaaTbinXibmJ5PUTZn2XoE6JaAoZrP_Pv_eTPMZZek3ScgZJI9IZyQyTWJNA_HwLoq4QLqGAkso08dmMWRNTI1Zg0rq_hnE5l"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ocFJHeHVNMkZHVkdwbGFXb3plVFkxYlhOeU0wRRAB",
+            "user": {
+                "name": "Kristi Pavlik",
+                "link": "https://www.google.com/maps/contrib/104577595863062047069?hl=en",
+                "contributor_id": "104577595863062047069",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVc6VvSDCKhaRtNhSXVNxPTsgZah7LP8G8zkkjohzr-391QupE=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 2
+            },
+            "snippet": "This place was small, intimate and absolutely the best burger we have ever had. Our server was wonderful and gave us the history of their restaurant. We highly recommend coming here.",
+            "extracted_snippet": {
+                "original": "This place was small, intimate and absolutely the best burger we have ever had. Our server was wonderful and gave us the history of their restaurant. We highly recommend coming here."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:14:52Z",
+                "iso_date_of_last_edit": "2025-08-07T04:14:52Z",
+                "snippet": "Hi Kristi,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!",
+                "extracted_snippet": {
+                    "original": "Hi Kristi,\nThank you so much for visiting \u00ab Japanese Food(Halal Wagyu) Ramen&Sukiyaki&Sushi Ginza Restaurant 5W-Tokyo-1962 \u00bb!\nWe are very glad to hear that you enjoyed our Halal Wagyu Ramen, Burger, Steak, Sukiyaki and Sushi!\nWhen you are stopping by HigashiGinza/Ginza/Nihonbashi and looking for 100% Halal Japanese lunch and dinner, be sure to come over!\nWe are also happy to welcome you in one of our branch restaurants in GinzaTsukiji, Shinjuku, Harajuku, Asakusa, Oshiage Skytree and AkihabaraUeno, all with top quality Halal Wagyu!"
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlZDTTFsRVYxOWZSV2hFZGxwbWEzbGtSbE5FVXpoM2JUaHZNRUZCUVVGQlIyZG1YMEZ0WlVJeldVUlhSMEZCYVVGQg%3D%3D&num=20&place_id=ChIJp3wfG4qLGGARv2oAKLob2Ag&sort_by=newestFirst",
+        "next_page_token": "CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlZDTTFsRVYxOWZSV2hFZGxwbWEzbGtSbE5FVXpoM2JUaHZNRUZCUVVGQlIyZG1YMEZ0WlVJeldVUlhSMEZCYVVGQg=="
+    }
+}

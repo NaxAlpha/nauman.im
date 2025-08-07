@@ -1,0 +1,786 @@
+{
+    "search_metadata": {
+        "id": "689537fab8b4a5aace4682ae",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/156f323d875d2bd7/689537fab8b4a5aace4682ae.json",
+        "created_at": "2025-08-07 23:34:18 UTC",
+        "processed_at": "2025-08-07 23:34:18 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/156f323d875d2bd7/689537fab8b4a5aace4682ae.html",
+        "prettify_html_file": "https://serpapi.com/searches/156f323d875d2bd7/689537fab8b4a5aace4682ae.prettify",
+        "total_time_taken": 0.48
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJXbmU8UGNGGARXX5B4fnBvZg",
+        "hl": "en",
+        "next_page_token": "CAESYENBRVFDQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlZuTFRJM1VGOWZSV2hCTUd0dE5FMXllVU5NYmxjNFZtbHdVVUZCUVVGQlIyZG1YMEZ0WldjdE1qZFFSMEZCYVVGQg==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25OeWMwUk5kVkZYVWpOa1lXOTJXbk5xWVRSc1YwRRAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOnNyc0RNdVFXUjNkYW92WnNqYTRsV0E%7C0cXhUJA4jOD%7C?hl=en",
+            "rating": 4.0,
+            "date": "Edited a week ago",
+            "iso_date": "2025-07-15T07:39:44Z",
+            "iso_date_of_last_edit": "2025-07-31T02:41:24Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OeWMwUk5kVkZYVWpOa1lXOTJXbk5xWVRSc1YwRRAB",
+            "user": {
+                "name": "Husain Mohamad",
+                "link": "https://www.google.com/maps/contrib/118279584329981773210?hl=en",
+                "contributor_id": "118279584329981773210",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX-Z4d5vkv05Y2XyHciWUy8aKziCxnRXv7rR5ftzVHZkdVEVbw0vg=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 19,
+                "photos": 0
+            },
+            "snippet": "\u0627\u0644\u0637\u0639\u0627\u0645 \u0644\u0630\u064a\u0630 \u0644\u0643\u0646 \u0627\u0644\u0643\u0645\u064a\u0629 \u0642\u0644\u064a\u0644\u0629 \u0645\u0642\u0627\u0628\u0644 \u0627\u0644\u0633\u0639\u0631 \u0627\u0644\u0645\u0631\u062a\u0641\u0639 \u062c\u062f\u0627 \u0628\u0627\u0644\u0646\u0633\u0628\u0629 \u0644\u064a \u062d\u064a\u062b \u0643\u0627\u0646 \u0628\u0631\u063a\u0631 \u0627\u0644\u0648\u0627\u0642\u064a\u0648 \u0628\u0633\u0639\u0631 \u064a\u0641\u0648\u0642 \u0627\u0644 \u0662\u0668\u0660 \u0631\u064a\u0627\u0644 \u0648\u0647\u0630\u0627 \u0627\u0644\u0645\u0628\u0644\u063a \u062c\u062f\u0627 \u0645\u0631\u062a\u0641\u0639 \u0645\u0642\u0627\u0631\u0646\u0629 \u0628\u062d\u062c\u0645 \u0627\u0644\u0628\u0631\u063a\u0631 \u063a\u064a\u0631 \u0627\u0644\u0645\u0634\u0628\u0639 \u0648\u0627\u0644\u0628\u0637\u0627\u0637\u0633 \u0642\u0644\u064a\u0644 \u060c \u0648\u0647\u064a \u062a\u062c\u0631\u0628\u0629 \u0644\u0646 \u062a\u062a\u0643\u0631\u0631 \u0645\u0631\u0629 \u0623\u062e\u0631\u0649.",
+            "extracted_snippet": {
+                "original": "\u0627\u0644\u0637\u0639\u0627\u0645 \u0644\u0630\u064a\u0630 \u0644\u0643\u0646 \u0627\u0644\u0643\u0645\u064a\u0629 \u0642\u0644\u064a\u0644\u0629 \u0645\u0642\u0627\u0628\u0644 \u0627\u0644\u0633\u0639\u0631 \u0627\u0644\u0645\u0631\u062a\u0641\u0639 \u062c\u062f\u0627 \u0628\u0627\u0644\u0646\u0633\u0628\u0629 \u0644\u064a \u062d\u064a\u062b \u0643\u0627\u0646 \u0628\u0631\u063a\u0631 \u0627\u0644\u0648\u0627\u0642\u064a\u0648 \u0628\u0633\u0639\u0631 \u064a\u0641\u0648\u0642 \u0627\u0644 \u0662\u0668\u0660 \u0631\u064a\u0627\u0644 \u0648\u0647\u0630\u0627 \u0627\u0644\u0645\u0628\u0644\u063a \u062c\u062f\u0627 \u0645\u0631\u062a\u0641\u0639 \u0645\u0642\u0627\u0631\u0646\u0629 \u0628\u062d\u062c\u0645 \u0627\u0644\u0628\u0631\u063a\u0631 \u063a\u064a\u0631 \u0627\u0644\u0645\u0634\u0628\u0639 \u0648\u0627\u0644\u0628\u0637\u0627\u0637\u0633 \u0642\u0644\u064a\u0644 \u060c \u0648\u0647\u064a \u062a\u062c\u0631\u0628\u0629 \u0644\u0646 \u062a\u062a\u0643\u0631\u0631 \u0645\u0631\u0629 \u0623\u062e\u0631\u0649.",
+                "translated": "The food is delicious but the quantity is small compared to the very high price for me, as the Wagyu burger was priced at more than 280 riyals, and this amount is very high compared to the size of the unsatisfying burger and the small fries, and it is an experience that I will not repeat again."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 4,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "\u062a\u062c\u0631\u0628\u0629 \u0648\u0627\u063a\u064a\u0648 \u064a\u0645\u0643\u0646 \u0644\u0644\u062c\u0645\u064a\u0639 \u0627\u0644\u0627\u0633\u062a\u0645\u062a\u0627\u0639 \u0628\u0647\u0627",
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "5-8 people"
+            },
+            "response": {
+                "date": "2 weeks ago",
+                "iso_date": "2025-07-18T11:53:29Z",
+                "iso_date_of_last_edit": "2025-07-18T11:53:29Z",
+                "snippet": "Hi Husain,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Husain,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21OYVltVkVWaTFSVkhaclFUQjBSRlZHTUdVMVNrRRAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOmNaYmVEVi1RVHZrQTB0RFVGMGU1SkE%7C0cXRDAFTfXk%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-30T07:02:35Z",
+            "iso_date_of_last_edit": "2025-07-30T07:02:35Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CdoxQ2SxOdDmfVIehAXgs66APV3vQf-THMkGYPeMYpr8TnMLLeVFzqOWX-b194ukEEv99h7RTCcP3ge9DXXJbFRGssA27eX6i1TX4FlptiV7iS_OzN42mo-VCKFroXJHHHS2D6sDu1AynI",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C00uHykXpDZbVTKve_GA1PGZsJDE6CAPc1Xl0u6r-AGaEK4C6flhHTI2O9bqx4Z4b4Etoin3AuVetsn1BvC3qEe3Ly4qTHuN5_ivw5_V1r8qwh1BQfe1QOuiFj7F0EeC1NvaBW7-TEBEUw",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bh1XvFzp0fUGlGpAP_Z-Gkv-eEfz8ZHEqMoKu8cPX02vEHzJhfQth7iQKVpmMYqYUke4hJmAIlMlcdRGmkIAYot-K_NPo6fHyYcXu2VpRn21FThKPW7e2_XDom5KCQ60iopHmpTsceJ-I"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OYVltVkVWaTFSVkhaclFUQjBSRlZHTUdVMVNrRRAB",
+            "user": {
+                "name": "A Ndekwe",
+                "link": "https://www.google.com/maps/contrib/117624377117621743671?hl=en",
+                "contributor_id": "117624377117621743671",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVa5U92kNIbynBokgd9_Oq3hxMpeqEfV0JZOBXm1VWMrqCjojk=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 3
+            },
+            "snippet": "Excellent service. Great food and atmosphere. Come and check out this place. NO cash. Credit card accepted",
+            "extracted_snippet": {
+                "original": "Excellent service. Great food and atmosphere. Come and check out this place. NO cash. Credit card accepted"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required",
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:49:53Z",
+                "iso_date_of_last_edit": "2025-08-07T03:49:53Z",
+                "snippet": "Hi A,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi A,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201NFRHNTZTalJHTkVWYVYyNTRSVjkyYjBwVVIxRRAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOm54TG56SjRGNEVaV254RV92b0pUR1E%7C0cXQbnrJKvA%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-30T06:21:39Z",
+            "iso_date_of_last_edit": "2025-07-30T06:21:39Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201NFRHNTZTalJHTkVWYVYyNTRSVjkyYjBwVVIxRRAB",
+            "user": {
+                "name": "Zeynep G\u00f6k\u00e7en",
+                "link": "https://www.google.com/maps/contrib/116625795808885678938?hl=en",
+                "contributor_id": "116625795808885678938",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUJwhiz1o-kTFiLznfzosTKZq1CSRCCnW5gjDBNDic1hcWJDu-w=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 3
+            },
+            "snippet": "We really enjoyed the meal. It was so delicious! Especially the burgers \ud83d\udc95",
+            "extracted_snippet": {
+                "original": "We really enjoyed the meal. It was so delicious! Especially the burgers \ud83d\udc95"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:50:08Z",
+                "iso_date_of_last_edit": "2025-08-07T03:50:08Z",
+                "snippet": "Hi Zeynep,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Zeynep,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wek4xTmhSV3c1VjE4eGVYWlRkVGM0VG5acE1HYxAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOmpzN1NhRWw5V18xeXZTdTc4TnZpMGc%7C0cXP9xEh3xH%7C?hl=en",
+            "rating": 4.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-30T04:42:37Z",
+            "iso_date_of_last_edit": "2025-07-30T04:42:37Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AnzE0r79VInQo0f8QIvRtQmLGp3YfYSRoc3byM5A8oYsjRuNL_5rMs_pPBFGLYGVGzImdjLyZYe7v43cZcb6ypxJlOpTGU0vAanwipt7zUrpnxz0JXcxCkV944gViK6QLhEVRxHezvkSU"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wek4xTmhSV3c1VjE4eGVYWlRkVGM0VG5acE1HYxAB",
+            "user": {
+                "name": "marco montanelli",
+                "link": "https://www.google.com/maps/contrib/112687024630998443336?hl=en",
+                "contributor_id": "112687024630998443336",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJDuTbsSjknZjYkbs_E2NlZAmOEICcva0JKfpidhr08nmwuaQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "snippet": "Hamburger di wagyu molto buono, servizio ottimo, personale molto gentile e disponibile",
+            "extracted_snippet": {
+                "original": "Hamburger di wagyu molto buono, servizio ottimo, personale molto gentile e disponibile",
+                "translated": "Very good wagyu burger, excellent service, very friendly and helpful staff"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:50:16Z",
+                "iso_date_of_last_edit": "2025-08-07T03:50:16Z",
+                "snippet": "Hi marco,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi marco,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xaTFExZzJXVk5FU1hCYVZucHFVemxMU0hoeE9YYxAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOlZLQ1g2WVNESXBaVnpqUzlLSHhxOXc%7C0cXP9C921wj%7C?hl=en",
+            "rating": 4.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-30T04:41:49Z",
+            "iso_date_of_last_edit": "2025-07-30T04:41:49Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90ClYYqTDga2uGuYr7VaLirruqA5ZYhKvFOgZ7o-K0K9zYvtju0NK5wEb6IcEUeyTogpvSlNm1tHLcCfgyexspAGQWZy3s8UDIdgO5jZikMiCzCBip69vtDAcK7vX8Z36wJRoYUh_hZpZF0"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaTFExZzJXVk5FU1hCYVZucHFVemxMU0hoeE9YYxAB",
+            "user": {
+                "name": "Michele Pullara",
+                "link": "https://www.google.com/maps/contrib/117615216507771181077?hl=en",
+                "contributor_id": "117615216507771181077",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWvz2qvs80pu4Mhb6RKSAKFOJbRmi8YxIqZIcpfzI-krnsbVb2x=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 1
+            },
+            "snippet": "Panino molto buono! Personale super cortese, consigliato \u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f",
+            "extracted_snippet": {
+                "original": "Panino molto buono! Personale super cortese, consigliato \u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f",
+                "translated": "Very good sandwich! Super friendly staff, highly recommended \u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "food": 4,
+                "service": 4,
+                "atmosphere": 4,
+                "reservation": "Not sure",
+                "group_size": "5-8 people"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:50:35Z",
+                "iso_date_of_last_edit": "2025-08-07T03:50:35Z",
+                "snippet": "Hi Michele,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Michele,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKbFJreE1kWFY2TFc1R1dFTXpkRGRwVmpocGJWRRAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOjJlRkxMdXV6LW5GWEMzdDdpVjhpbVE%7C0cXP8gmAr8K%7C?hl=en",
+            "rating": 4.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-30T04:41:16Z",
+            "iso_date_of_last_edit": "2025-07-30T04:41:16Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BWVV3TjSEy5iOG8v56dle481-uEeoJsnraRp3EXV6g6F9APMNexfVynlvHgIjZDShWlcAhmjiCOx4UPtwzI4ibf3d_MC9_hiKhmUBMr5au_9jWoMW4TJCbY8VcQeJA8iuAvaitoN7pGat9"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKbFJreE1kWFY2TFc1R1dFTXpkRGRwVmpocGJWRRAB",
+            "user": {
+                "name": "Nicol\u00f2 Manfredi",
+                "link": "https://www.google.com/maps/contrib/100783646025755439671?hl=en",
+                "contributor_id": "100783646025755439671",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJlCVLLb-16-CWK2RoQmpS9KeIEwtshEBL_vC5WAEfqUVIHig=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "snippet": "Panino ottimo, personale molto accogliente e gentile. Molto raccomandato",
+            "extracted_snippet": {
+                "original": "Panino ottimo, personale molto accogliente e gentile. Molto raccomandato",
+                "translated": "Excellent sandwich, very welcoming and friendly staff. Highly recommended."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:50:55Z",
+                "iso_date_of_last_edit": "2025-08-07T03:50:55Z",
+                "snippet": "Hi Nicolo,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Nicolo,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xsSlEyTjFSRWhRT0hWWFFqWkVWRGxYWmxNM2JtYxAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOllJQ2N1REhQOHVXQjZEVDlXZlM3bmc%7C0cXP7zC1Rjp%7C?hl=en",
+            "rating": 4.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-30T04:40:31Z",
+            "iso_date_of_last_edit": "2025-07-30T04:40:31Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AMDu7YtidfPtPR2PbsD6E7oO0e7WFn_ILm7bFjonSsPuQpsgG0FY6SjJbOAShtaIXIzruNRgILxVM49awNn9A9Bgfb6x7VujB7Pae47CXdIZAw6pnySPlFiJkmwGTCLaI-1zC3d_2DWxNR"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsSlEyTjFSRWhRT0hWWFFqWkVWRGxYWmxNM2JtYxAB",
+            "user": {
+                "name": "Federico Ajdini",
+                "link": "https://www.google.com/maps/contrib/104716531454519481629?hl=en",
+                "contributor_id": "104716531454519481629",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJUZ6ba4AE5pgM6e1r_Q1rqg18SZemkkJcV46Y-ti3TKnu65g=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "snippet": "Really good highly recommended!!",
+            "extracted_snippet": {
+                "original": "Really good highly recommended!!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:51:11Z",
+                "iso_date_of_last_edit": "2025-08-07T03:51:11Z",
+                "snippet": "Hi Federico,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Federico,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xSeVRsUmhXWE5rYVd4SWRrNUJNWFprVVZKdmRIYxAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOlRyTlRhWXNkaWxIdk5BMXZkUVJvdHc%7C0cXAS5jq4Uh%7C?hl=en",
+            "rating": 5.0,
+            "date": "Edited a week ago",
+            "iso_date": "2025-07-24T03:11:21Z",
+            "iso_date_of_last_edit": "2025-07-29T11:57:58Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ay-TRBZJy_Z03hS5Y97uXFCRS4wfybwRZ7Uh50l9U7tre_P4Nhyito_gUHSQ5sTXVllQAD-Ow1EMkgde0xN745ec_Klgvr0AiojKuY2LfQCchdzS2cvPnB89teZsirTuK6Sna8sQfc5ZQ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cnt7DAlmWWk-OFIZul26BzHoykffcqY3fboPOil_lpvdoLkRTe_PszzUfDJU_mliD4BV3WV-8Eaevenlj2e3U3SRwc1m5rC3gUiVdSQrBd9A9yBFEhM5OyrxHh9jesfhI2q4zkfycaKbVe",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DlOpFUarsH13TxbrTgASAGStkkSkhyFA1La86jBh4ju9N1nKUexRQcKmw4WqiOi9kK1kMLWOTTWuwzXmUqV6vfu00WP-j8-UGlRLZRi2FWrekBd4EpCjzI5qmdmSpKl3ezAZqpf44cnMhs"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSeVRsUmhXWE5rYVd4SWRrNUJNWFprVVZKdmRIYxAB",
+            "user": {
+                "name": "Hillary Htwe",
+                "link": "https://www.google.com/maps/contrib/101854033301265910248?hl=en",
+                "contributor_id": "101854033301265910248",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWVsGZISGvhPqwzPjkKLQUo1hNnb8H1BcaFMTuTq-pnxDOiOdc=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 3
+            },
+            "snippet": "great experience, and awesome staff! would recommend!!",
+            "extracted_snippet": {
+                "original": "great experience, and awesome staff! would recommend!!"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:51:23Z",
+                "iso_date_of_last_edit": "2025-08-07T03:51:23Z",
+                "snippet": "Hi Hillary,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Hillary,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOU1FUUTRNbkV3WlZORWJGaG1OWEYzZEVkVVptYxAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOjNSQTQ4MnEwZVNEbFhmNXF3dEdUZmc%7C0cX9aISVBRe%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-29T10:53:02Z",
+            "iso_date_of_last_edit": "2025-07-29T10:59:31Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AiaKTg6IevK1_qSLRsfvf8tGv4ZnFMt5Fz5UgrH2lWP_fLL2d1xTp6iklH2oI5-oPr-4TKn2SgKi1Hs4ozt1jaJEPI6Y4T2ugdy8GcCD9hv_hyL5qrTdFKp-xY-TcMs3tHjmTuMZz_x2WV"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOU1FUUTRNbkV3WlZORWJGaG1OWEYzZEVkVVptYxAB",
+            "user": {
+                "name": "\ud5c8\uae08\uc790",
+                "link": "https://www.google.com/maps/contrib/114124368325079609285?hl=en",
+                "contributor_id": "114124368325079609285",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKOMaOODSLXyH0aTttYQv93I3G_OeqthReQN8VaI4R8-JjcpQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "snippet": "\ub9db\uc788\uc5b4\uc694",
+            "extracted_snippet": {
+                "original": "\ub9db\uc788\uc5b4\uc694",
+                "translated": "it is delicious"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required",
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:51:36Z",
+                "iso_date_of_last_edit": "2025-08-07T03:51:36Z",
+                "snippet": "Hi \ud5c8\uae08\uc790,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi \ud5c8\uae08\uc790,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w5YVgyaE1aRXBYYW1Gb1Z6TktlV05xY0dvNWIzYxAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOl9aX2hMZEpXamFoVzNKeWNqcGo5b3c%7C0cX9JB3HGXM%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-29T10:40:12Z",
+            "iso_date_of_last_edit": "2025-07-29T10:40:12Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5YVgyaE1aRXBYYW1Gb1Z6TktlV05xY0dvNWIzYxAB",
+            "user": {
+                "name": "mustafa",
+                "link": "https://www.google.com/maps/contrib/116018460776541251187?hl=en",
+                "contributor_id": "116018460776541251187",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKamHqQPjYDALD4Xu8_FDE8V1E1DT3OhD1DqGVTaPgaT-X1Vw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 8,
+                "photos": 0
+            },
+            "snippet": "Well prepared hamburger, great to share this environment and have a chance to meet amazing people",
+            "extracted_snippet": {
+                "original": "Well prepared hamburger, great to share this environment and have a chance to meet amazing people"
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:04:28Z",
+                "iso_date_of_last_edit": "2025-08-07T04:04:28Z",
+                "snippet": "Hi mustafa,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi mustafa,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pFMk9HWnFTVlpTVnpsd1lXdEpkREEwUVVkb2FYYxAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOjE2OGZqSVZSVzlwYWtJdDA0QUdoaXc%7C0cX726RDAa0%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-29T08:05:27Z",
+            "iso_date_of_last_edit": "2025-07-29T08:05:27Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pFMk9HWnFTVlpTVnpsd1lXdEpkREEwUVVkb2FYYxAB",
+            "user": {
+                "name": "priscilla",
+                "link": "https://www.google.com/maps/contrib/116837363886351731159?hl=en",
+                "contributor_id": "116837363886351731159",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWEyCIM8TWKv3TdbNHRr0Z8AO1ozokAllW0cq_66t85xvG5wvlP=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "response": {
+                "date": "6 days ago",
+                "iso_date": "2025-08-01T08:04:12Z",
+                "iso_date_of_last_edit": "2025-08-01T08:04:12Z",
+                "snippet": "Hi priscilla,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi priscilla,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21Fd1ZuVjRXRXhGYjJwd1pHaG5URkpFV1MxeGVuYxAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOmEwVnV4WExFb2pwZGhnTFJEWS1xenc%7C0cX5dma7AEn%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-29T06:30:10Z",
+            "iso_date_of_last_edit": "2025-07-29T06:30:10Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Fd1ZuVjRXRXhGYjJwd1pHaG5URkpFV1MxeGVuYxAB",
+            "user": {
+                "name": "Ensar Memeti",
+                "link": "https://www.google.com/maps/contrib/111750267946826544184?hl=en",
+                "contributor_id": "111750267946826544184",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLY_fH57fL7KLzWLAcXMZpbtQc_w1nopTO8rtLULuss0HdV6g=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 0
+            },
+            "snippet": "Very good burger and great service. It was very spacious so it was comfortable to eat there.",
+            "extracted_snippet": {
+                "original": "Very good burger and great service. It was very spacious so it was comfortable to eat there."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required",
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:51:52Z",
+                "iso_date_of_last_edit": "2025-08-07T03:51:52Z",
+                "snippet": "Hi Ensar,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Ensar,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25vNE9UaFBRMWsyYjJoSFRVeE1jVloyVkVKMlFVRRAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOno4OThPQ1k2b2hHTUxMcVZ2VEJ2QUE%7C0cX4xNsq3Gk%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-29T05:42:48Z",
+            "iso_date_of_last_edit": "2025-07-29T05:42:48Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BqPaEcR4wu7ahgL3FJIJT6LkHm8xCCJKFvf--_GdXf1mO5pYxeJ1BJy2W5smYZZZhMMTv2yK2VZf9wo4KM_VkmQRL8WovBiW5GLFUINpyIhycbrUmgHKW2pcubtLMFAWTQ-xvS1wJA9Y2v",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BrIT2_um_fKSrRfHau-deQHoSr1iVxAqqkDvEd4wAXlDD_8whsBRU9XlFV8BSS2PPTvWtrmR2q5QSV61Bd9duD2A6xdKoujSAgVQO-YXH-XDhzYX-JUnzzUwi5d27V9xByb-WJ3UEmnw8",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cxd1YfE1P0XfPWZjqYJWqr_T5AI5CBEsJraVrR9UBuSkZvY1nAIZXiRroohF1bDbxYCBSczSryEOsUvv5QxuHDAk8267KMXfV-NxedwPxb7fpWB9p0eW8mxwxSJyfDQndmCzareEypy1ro"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vNE9UaFBRMWsyYjJoSFRVeE1jVloyVkVKMlFVRRAB",
+            "user": {
+                "name": "farez nk",
+                "link": "https://www.google.com/maps/contrib/103930561792037742611?hl=en",
+                "contributor_id": "103930561792037742611",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJvskqdJ0KCje-PcSi8Pn0vwc18bEalek9tEqHavrXbuqX2_w=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 10,
+                "photos": 16
+            },
+            "snippet": "really good wagyu beef. good service by sakura",
+            "extracted_snippet": {
+                "original": "really good wagyu beef. good service by sakura"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Walk-ins only",
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:03:59Z",
+                "iso_date_of_last_edit": "2025-08-07T04:03:59Z",
+                "snippet": "Hi farez,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi farez,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pSR2MwcHNPRGt3YjFkcWEzUjRURVJ5TVZZMmNHYxAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOjRGc0psODkwb1dqa3R4TERyMVY2cGc%7C0cX39E9iLTc%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-29T03:39:59Z",
+            "iso_date_of_last_edit": "2025-07-29T03:39:59Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSR2MwcHNPRGt3YjFkcWEzUjRURVJ5TVZZMmNHYxAB",
+            "user": {
+                "name": "Suresh Palani",
+                "link": "https://www.google.com/maps/contrib/105423277178908547411?hl=en",
+                "contributor_id": "105423277178908547411",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLjhdZM6bHwon-y_d17mDcjptZ2q-tfRVz7xZ8ExwidZGFELQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T04:04:15Z",
+                "iso_date_of_last_edit": "2025-08-07T04:04:15Z",
+                "snippet": "Hi Suresh,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Suresh,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s5TE16UnZZMm80TTNoa1VtbHVNRTlzVERGMFNsRRAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOk9LMzRvY2o4M3hkUmluME9sTDF0SlE%7C0cX38LFITOM%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-29T03:39:02Z",
+            "iso_date_of_last_edit": "2025-07-29T03:39:02Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DbLJyQbFzvRbjhphFh4i0pJ1QRfvGBYOlw4nzJgbmTHr8IHGEzSqEQmTkUDoYQp-7ze5_woTOIXM2dc9kEYIlhCpJUJu2XhDOiAfZKpmwtlsazFtTSPljjhxhRgXaiLcDhYaT0z3eA6sZw",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D2SEb669UoLL7FLU7hx62pDG4_bUmcvQL98f778yiiQRARhuJIYWScWqROJbcEKv9llLoR4MBtonzXNi-m4CfE435eYd9ar-tLxutqS8xE21QQ5JiHmtR1nH5_N1zBrK7_M2ZjcoE6yUR3"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5TE16UnZZMm80TTNoa1VtbHVNRTlzVERGMFNsRRAB",
+            "user": {
+                "name": "sarvesh war",
+                "link": "https://www.google.com/maps/contrib/102010765596543818270?hl=en",
+                "contributor_id": "102010765596543818270",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLMzVRz16OQm0-UvDRwAf-x5TbnK2Qg_XhD8yCJJSIdkHeruw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 5
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:49:38Z",
+                "iso_date_of_last_edit": "2025-08-07T03:49:38Z",
+                "snippet": "Hi sarvesh,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi sarvesh,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25GVUxVeENTVlZDZWxwalkxOVRRemRSTkc5elpGRRAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOnFULUxCSVVCelpjY19TQzdRNG9zZFE%7C0cWp3SreDBo%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-28T10:29:49Z",
+            "iso_date_of_last_edit": "2025-07-28T10:29:49Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GVUxVeENTVlZDZWxwalkxOVRRemRSTkc5elpGRRAB",
+            "user": {
+                "name": "\u3089\u3093\u307e\u308b",
+                "link": "https://www.google.com/maps/contrib/114938323394531572334?hl=en",
+                "contributor_id": "114938323394531572334",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXzqV-G64RzmXPVSkK9PpnGPi1e8GJEb8GnPirt2XF1KsGyI2hL=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:48:51Z",
+                "iso_date_of_last_edit": "2025-08-07T03:48:51Z",
+                "snippet": "\u3089\u3093\u307e\u308b\u3055\u3093\u3078\n\u300cJapanese Wagyu\uff08\u30cf\u30e9\u30fc\u30eb\u30d5\u30fc\u30c9\uff09Steak & Burger Harajuku Beef Restaurant 5W-Tokyo since1962\u300d\u3078\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3001\u8aa0\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\n\u5f53\u5e97\u306e\u548c\u725b\u30d0\u30fc\u30ac\u30fc\u3084\u30b9\u30c6\u30fc\u30ad\u3092\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u3001\u5927\u5909\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\n\n\u305c\u3072\u3001\u9280\u5ea7\u306b\u3042\u308b\u300c5th Wagyu Tokyo\u300d\u306e\u5e97\u8217\u306b\u3082\u304a\u7acb\u3061\u5bc4\u308a\u304f\u3060\u3055\u3044\uff08\u26054.8\u3001850\u4ef6\u4ee5\u4e0a\u306e\u30ec\u30d3\u30e5\u30fc\u3092\u3044\u305f\u3060\u3044\u3066\u304a\u308a\u307e\u3059\uff09\uff01\n\n\u6e0b\u8c37\u30fb\u539f\u5bbf\u30a8\u30ea\u30a2\u306b\u304a\u8d8a\u3057\u306e\u969b\u3001100%\u30cf\u30e9\u30fc\u30eb\u306e\u548c\u98df\u30e9\u30f3\u30c1\u30fb\u30c7\u30a3\u30ca\u30fc\u3092\u304a\u63a2\u3057\u3067\u3042\u308c\u3070\u3001\u305c\u3072\u307e\u305f\u304a\u7acb\u3061\u5bc4\u308a\u304f\u3060\u3055\u3044\u307e\u305b\u3002",
+                "extracted_snippet": {
+                    "original": "\u3089\u3093\u307e\u308b\u3055\u3093\u3078\n\u300cJapanese Wagyu\uff08\u30cf\u30e9\u30fc\u30eb\u30d5\u30fc\u30c9\uff09Steak & Burger Harajuku Beef Restaurant 5W-Tokyo since1962\u300d\u3078\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3001\u8aa0\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\n\u5f53\u5e97\u306e\u548c\u725b\u30d0\u30fc\u30ac\u30fc\u3084\u30b9\u30c6\u30fc\u30ad\u3092\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u3001\u5927\u5909\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\n\n\u305c\u3072\u3001\u9280\u5ea7\u306b\u3042\u308b\u300c5th Wagyu Tokyo\u300d\u306e\u5e97\u8217\u306b\u3082\u304a\u7acb\u3061\u5bc4\u308a\u304f\u3060\u3055\u3044\uff08\u26054.8\u3001850\u4ef6\u4ee5\u4e0a\u306e\u30ec\u30d3\u30e5\u30fc\u3092\u3044\u305f\u3060\u3044\u3066\u304a\u308a\u307e\u3059\uff09\uff01\n\n\u6e0b\u8c37\u30fb\u539f\u5bbf\u30a8\u30ea\u30a2\u306b\u304a\u8d8a\u3057\u306e\u969b\u3001100%\u30cf\u30e9\u30fc\u30eb\u306e\u548c\u98df\u30e9\u30f3\u30c1\u30fb\u30c7\u30a3\u30ca\u30fc\u3092\u304a\u63a2\u3057\u3067\u3042\u308c\u3070\u3001\u305c\u3072\u307e\u305f\u304a\u7acb\u3061\u5bc4\u308a\u304f\u3060\u3055\u3044\u307e\u305b\u3002",
+                    "translated": "To Ranmaru:\nThank you very much for visiting \"Japanese Wagyu (Halal Food) Steak & Burger Harajuku Beef Restaurant 5W-Tokyo since 1962\"!\n\nWe are very happy that you enjoyed our wagyu burgers and steaks.\n\nPlease be sure to stop by our \"5th Wagyu Tokyo\" store in Ginza (4.8 stars, over 850 reviews)!\n\nIf you're in the Shibuya/Harajuku area and looking for a 100% Halal Japanese lunch or dinner, please be sure to stop by again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25oc2QxbHZWMUpDU0RGMFJGSTNjMDV2ZW00MmJWRRAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOnhsd1lvV1JCSDF0RFI3c05vem42bVE%7C0cWp3GnTPHQ%7C?hl=en",
+            "rating": 4.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-28T10:29:37Z",
+            "iso_date_of_last_edit": "2025-07-28T10:29:37Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oc2QxbHZWMUpDU0RGMFJGSTNjMDV2ZW00MmJWRRAB",
+            "user": {
+                "name": "\u5c0f\u6797\u6850\u5b50",
+                "link": "https://www.google.com/maps/contrib/105934351122550369628?hl=en",
+                "contributor_id": "105934351122550369628",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI5hKdGO14yibKHKLwpISzl7jvLNx3w4cim_NnYqp3JmoKCwQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:48:25Z",
+                "iso_date_of_last_edit": "2025-08-07T03:48:25Z",
+                "snippet": "\u5c0f\u6797\u3055\u3093\u3078\n\n\u300cJapanese Wagyu\uff08\u30cf\u30e9\u30fc\u30eb\u30d5\u30fc\u30c9\uff09Steak & Burger Harajuku Beef Restaurant 5W-Tokyo since1962\u300d\u3078\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3001\u8aa0\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\n\u5f53\u5e97\u306e\u548c\u725b\u30d0\u30fc\u30ac\u30fc\u3084\u30b9\u30c6\u30fc\u30ad\u3092\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u3001\u5927\u5909\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\n\n\u305c\u3072\u3001\u9280\u5ea7\u306b\u3042\u308b\u300c5th Wagyu Tokyo\u300d\u306e\u5e97\u8217\u306b\u3082\u304a\u7acb\u3061\u5bc4\u308a\u304f\u3060\u3055\u3044\uff08\u26054.8\u3001850\u4ef6\u4ee5\u4e0a\u306e\u30ec\u30d3\u30e5\u30fc\u3092\u3044\u305f\u3060\u3044\u3066\u304a\u308a\u307e\u3059\uff09\uff01\n\n\u6e0b\u8c37\u30fb\u539f\u5bbf\u30a8\u30ea\u30a2\u306b\u304a\u8d8a\u3057\u306e\u969b\u3001100%\u30cf\u30e9\u30fc\u30eb\u306e\u548c\u98df\u30e9\u30f3\u30c1\u30fb\u30c7\u30a3\u30ca\u30fc\u3092\u304a\u63a2\u3057\u3067\u3042\u308c\u3070\u3001\u305c\u3072\u307e\u305f\u304a\u7acb\u3061\u5bc4\u308a\u304f\u3060\u3055\u3044\u307e\u305b\u3002",
+                "extracted_snippet": {
+                    "original": "\u5c0f\u6797\u3055\u3093\u3078\n\n\u300cJapanese Wagyu\uff08\u30cf\u30e9\u30fc\u30eb\u30d5\u30fc\u30c9\uff09Steak & Burger Harajuku Beef Restaurant 5W-Tokyo since1962\u300d\u3078\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3001\u8aa0\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\n\u5f53\u5e97\u306e\u548c\u725b\u30d0\u30fc\u30ac\u30fc\u3084\u30b9\u30c6\u30fc\u30ad\u3092\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u3001\u5927\u5909\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\n\n\u305c\u3072\u3001\u9280\u5ea7\u306b\u3042\u308b\u300c5th Wagyu Tokyo\u300d\u306e\u5e97\u8217\u306b\u3082\u304a\u7acb\u3061\u5bc4\u308a\u304f\u3060\u3055\u3044\uff08\u26054.8\u3001850\u4ef6\u4ee5\u4e0a\u306e\u30ec\u30d3\u30e5\u30fc\u3092\u3044\u305f\u3060\u3044\u3066\u304a\u308a\u307e\u3059\uff09\uff01\n\n\u6e0b\u8c37\u30fb\u539f\u5bbf\u30a8\u30ea\u30a2\u306b\u304a\u8d8a\u3057\u306e\u969b\u3001100%\u30cf\u30e9\u30fc\u30eb\u306e\u548c\u98df\u30e9\u30f3\u30c1\u30fb\u30c7\u30a3\u30ca\u30fc\u3092\u304a\u63a2\u3057\u3067\u3042\u308c\u3070\u3001\u305c\u3072\u307e\u305f\u304a\u7acb\u3061\u5bc4\u308a\u304f\u3060\u3055\u3044\u307e\u305b\u3002",
+                    "translated": "Dear Kobayashi-san\n\nThank you very much for visiting \"Japanese Wagyu (Halal Food) Steak & Burger Harajuku Beef Restaurant 5W-Tokyo since 1962\"!\n\nWe are very happy that you enjoyed our wagyu burgers and steaks.\n\nPlease be sure to stop by our \"5th Wagyu Tokyo\" location in Ginza (4.8 stars, over 850 reviews)!\n\nIf you're in the Shibuya/Harajuku area and looking for a 100% Halal Japanese lunch or dinner, please stop by again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOVWFsTnVRVUZuWm14bU5WSkhlRWxKVUdobldWRRAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOjNUalNuQUFnZmxmNVJHeElJUGhnWVE%7C0cWndgOyZWh%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-28T08:53:00Z",
+            "iso_date_of_last_edit": "2025-07-28T08:53:00Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOVWFsTnVRVUZuWm14bU5WSkhlRWxKVUdobldWRRAB",
+            "user": {
+                "name": "Brian Walsh",
+                "link": "https://www.google.com/maps/contrib/109759330713741023896?hl=en",
+                "contributor_id": "109759330713741023896",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVcgOW3o8umn46WNSOE28U_V_JIbHr63_c50SSJDgMcHx0XIT4=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required",
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:47:44Z",
+                "iso_date_of_last_edit": "2025-08-07T03:47:44Z",
+                "snippet": "Hi Brian,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Brian,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxM2NWSllWbVpvYVVKaVRFcHRaRXRZUzAxd1owRRAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOi13cVJYVmZoaUJiTEptZEtYS01wZ0E%7C0cWnd1NDV3R%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-28T08:52:18Z",
+            "iso_date_of_last_edit": "2025-07-28T08:52:18Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxM2NWSllWbVpvYVVKaVRFcHRaRXRZUzAxd1owRRAB",
+            "user": {
+                "name": "Blaire Callueng",
+                "link": "https://www.google.com/maps/contrib/107796933107790202854?hl=en",
+                "contributor_id": "107796933107790202854",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJXwWgStIbk_EGG4FQgPx_kp47hHHjv7nNiok4VbMkkigZl6w=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:47:34Z",
+                "iso_date_of_last_edit": "2025-08-07T03:47:34Z",
+                "snippet": "Hi Blaire,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Blaire,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT205ellsUmlhbXBxVUVwS1ZYQmZUMmxqZEZwdGIzYxAB!2m1!1s0x0:0x98bdc1f9e1417e5d!3m1!1s2@1:CAIQACodChtycF9oOm9zYlRiampqUEpKVXBfT2ljdFptb3c%7C0cWmyOUeYKq%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-28T08:06:49Z",
+            "iso_date_of_last_edit": "2025-07-28T08:06:49Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D1v6MQRPHZ5uXWOZ5aZjqcWRj_j0oAGZ4f13dKF6KvVvwnGAh5cxFxAW7UfkBbD3a6S1q557tF0ODuaGTnptEOydlcTqN9tNp-SqET_Q_etNSy0sN2oAuNA5PU-1Lq_RmN4r1v_6vr2C2R"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205ellsUmlhbXBxVUVwS1ZYQmZUMmxqZEZwdGIzYxAB",
+            "user": {
+                "name": "Syed Shah",
+                "link": "https://www.google.com/maps/contrib/110455609320262514536?hl=en",
+                "contributor_id": "110455609320262514536",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU8SZBfSACUA7o1aCCXPdcAQrcHA8OwilEtoxczuwIPZAtw3tBn=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 7,
+                "photos": 1
+            },
+            "snippet": "Absolutely amazing food, extremely high quality. Halal aswell!",
+            "extracted_snippet": {
+                "original": "Absolutely amazing food, extremely high quality. Halal aswell!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "19 hours ago",
+                "iso_date": "2025-08-07T03:47:21Z",
+                "iso_date_of_last_edit": "2025-08-07T03:47:21Z",
+                "snippet": "Hi Syed,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!",
+                "extracted_snippet": {
+                    "original": "Hi Syed,\nThank you so much for visiting \u00ab Japanese Wagyu(Halal food) Steak&Burger Harajuku Beef Restaurant 5W-Tokyo since1962 \u00bb!\nWe are very glad to hear that you enjoyed our Wagyu Burger and Steak!\nBe sure to check out our \u00ab 5th Wagyu Tokyo \u00bb shops especially in Ginza(\u26054.8\u3001850+ reviews)!\nWhen you are stopping by Shibuya/Harajuku and looking for 100% Halal Japanese lunch and dinner, be sure to come over!"
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlYyTjJoQ1JWOWZSV2hFY2pJeU4zcGhVa2h2Tm5SNlJHUmlSVUZCUVVGQlIyZG1YMEZ0WlhZM2FFSkZSMEZCYVVGQg%3D%3D&num=20&place_id=ChIJXbmU8UGNGGARXX5B4fnBvZg&sort_by=newestFirst",
+        "next_page_token": "CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlYyTjJoQ1JWOWZSV2hFY2pJeU4zcGhVa2h2Tm5SNlJHUmlSVUZCUVVGQlIyZG1YMEZ0WlhZM2FFSkZSMEZCYVVGQg=="
+    }
+}

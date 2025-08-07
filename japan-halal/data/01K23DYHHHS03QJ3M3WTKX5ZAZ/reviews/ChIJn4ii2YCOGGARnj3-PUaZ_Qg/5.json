@@ -1,0 +1,784 @@
+{
+    "search_metadata": {
+        "id": "6895378689ec19f050e152fb",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/704ea1674e3515fe/6895378689ec19f050e152fb.json",
+        "created_at": "2025-08-07 23:32:22 UTC",
+        "processed_at": "2025-08-07 23:32:22 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/704ea1674e3515fe/6895378689ec19f050e152fb.html",
+        "prettify_html_file": "https://serpapi.com/searches/704ea1674e3515fe/6895378689ec19f050e152fb.prettify",
+        "total_time_taken": 0.64
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJn4ii2YCOGGARnj3-PUaZ_Qg",
+        "hl": "en",
+        "next_page_token": "CAESY0NBRVFXQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSekJqZVVoUVZGOWZSV2hFWkVFdFYxRjNSV1Y1VTIxeWMzRkNNRUZCUVVGQlIyZHVPVjlqVlVOaVVucEpZemxOV1VGRFNVRQ==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURYeDRyQmRnEAE!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgIDXx4rBdg%7CCgwIuceOuQYQwKekuQE%7C?hl=en",
+            "rating": 5.0,
+            "date": "9 months ago",
+            "iso_date": "2024-10-31T15:35:21Z",
+            "iso_date_of_last_edit": "2024-10-31T15:35:21Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSURYeDRyQmRnEAE",
+            "user": {
+                "name": "SAITA Kazuki",
+                "link": "https://www.google.com/maps/contrib/117758187740712268452?hl=en",
+                "contributor_id": "117758187740712268452",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVMwIz_90lFs5IJ0CpQO1dEnElkqEz1i6Qod38nZBVEP8zNGyEpzA=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 5
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "8 months ago",
+                "iso_date": "2024-11-25T06:24:51Z",
+                "iso_date_of_last_edit": "2024-11-25T06:24:51Z",
+                "snippet": "Thank you very much!",
+                "extracted_snippet": {
+                    "original": "Thank you very much!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURYdmRXZ2dRRRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgIDXvdWggQE%7CCgwI1LGIuQYQiODh-gI%7C?hl=en",
+            "rating": 5.0,
+            "date": "9 months ago",
+            "iso_date": "2024-10-30T11:30:28Z",
+            "iso_date_of_last_edit": "2024-10-30T11:30:28Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSURYdmRXZ2dRRRAB",
+            "user": {
+                "name": "peti eli",
+                "link": "https://www.google.com/maps/contrib/109050980760262591555?hl=en",
+                "contributor_id": "109050980760262591555",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVimUgIG9ucqIi0KtX67-fZ8pXS6FSYRxwrUMzFRj1wVSy3kXZD=s120-c-rp-mo-br100",
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "We unfortunately discovered this restaurant too late during our trip to Japan. The atmosphere and food were very good. We were served very kindly. We came back the next day. Everything was very delicious; it\u2019s a shame we didn\u2019t find this restaurant earlier. Thank you very much!",
+            "extracted_snippet": {
+                "original": "We unfortunately discovered this restaurant too late during our trip to Japan. The atmosphere and food were very good. We were served very kindly. We came back the next day. Everything was very delicious; it\u2019s a shame we didn\u2019t find this restaurant earlier. Thank you very much!"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "food": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Samosa, Laghman"
+            },
+            "response": {
+                "date": "8 months ago",
+                "iso_date": "2024-11-25T06:26:56Z",
+                "iso_date_of_last_edit": "2024-11-25T06:26:56Z",
+                "snippet": "Thank you so much for your kind words! We're thrilled to hear that you enjoyed both the atmosphere and the food during your visit. We're sorry that you discovered us late in your trip, but we're glad you were able to come back the next day! We hope to welcome you again on your next visit to Japan. Thank you once again, and safe travels!",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your kind words! We're thrilled to hear that you enjoyed both the atmosphere and the food during your visit. We're sorry that you discovered us late in your trip, but we're glad you were able to come back the next day! We hope to welcome you again on your next visit to Japan. Thank you once again, and safe travels!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURYdmFiT2NBEAE!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgIDXvabOcA%7CCgsImaeIuQYQ2LLbbQ%7C?hl=en",
+            "rating": 4.0,
+            "date": "9 months ago",
+            "iso_date": "2024-10-30T11:05:08Z",
+            "iso_date_of_last_edit": "2024-10-30T11:08:09Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dltoxz4K6a49_Y3zECjmDoz7f4GM6TypDXD_SkTtgPDy9FNeOCe820ve9kAxcQS5A2VTbyFKDwAIIqOumz1yHSlN34-1bI8usStU2K71_ju0sT1rJD1unvSy5IRoib2Q5xQpNs",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DcmqgnQ-jq_fBlO2QSK7yBw_U6uSKb1W4zLoBFx4eNOWkpt-rZOKZyd6HjkwTdLuE7G3jN41gIWVpH9aNd1JMwIzShZslU2Y_-tSMuz8HUGVz2JCml_yS6Sa5H1hF-_6YG2GKh"
+            ],
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSURYdmFiT2NBEAE",
+            "user": {
+                "name": "Nunny Larsen",
+                "link": "https://www.google.com/maps/contrib/117945674723751125016?hl=en",
+                "contributor_id": "117945674723751125016",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUILjnIhPgOmwSxRBhw_2NtorhfCF5gPvLyO_dw2fWZoyXFY8V7=s120-c-rp-mo-ba5-br100",
+                "local_guide": true,
+                "reviews": 97,
+                "photos": 489
+            },
+            "snippet": "A halal Uzbezkistan restaurant serving Japanese food.  It was my first time eating chicken katsu in Japan with rice (I use to eat it alone with sauce) and enjoy my dining experience in the restaurant.  The pomegranate and red cherry juices are fresh.  The restaurant was also very generous for adding fresh grilled beef kebab in our orders.",
+            "extracted_snippet": {
+                "original": "A halal Uzbezkistan restaurant serving Japanese food.  It was my first time eating chicken katsu in Japan with rice (I use to eat it alone with sauce) and enjoy my dining experience in the restaurant.  The pomegranate and red cherry juices are fresh.  The restaurant was also very generous for adding fresh grilled beef kebab in our orders."
+            },
+            "details": {
+                "service": 4,
+                "meal_type": "Dinner",
+                "food": 4,
+                "atmosphere": 4,
+                "recommended_dishes": "Chicken and Beef Kebab, Original Salad"
+            },
+            "response": {
+                "date": "8 months ago",
+                "iso_date": "2024-11-25T06:29:15Z",
+                "iso_date_of_last_edit": "2024-11-25T06:29:15Z",
+                "snippet": "Thank you so much for your wonderful review! We're thrilled to hear that you enjoyed your first experience with chicken katsu in Japan, as well as the fresh juices and grilled beef kebab. It\u2019s great to know that you appreciated our generous touch. We look forward to welcoming you again for more delicious meals in the future!",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your wonderful review! We're thrilled to hear that you enjoyed your first experience with chicken katsu in Japan, as well as the fresh juices and grilled beef kebab. It\u2019s great to know that you appreciated our generous touch. We look forward to welcoming you again for more delicious meals in the future!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURYb2EyZUxnEAE!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgIDXoa2eLg%7CCgwIz738uAYQiNODggI%7C?hl=en",
+            "rating": 1.0,
+            "date": "9 months ago",
+            "iso_date": "2024-10-28T05:19:11Z",
+            "iso_date_of_last_edit": "2024-10-28T05:19:11Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSURYb2EyZUxnEAE",
+            "user": {
+                "name": "Badr A",
+                "link": "https://www.google.com/maps/contrib/112471559412663215172?hl=en",
+                "contributor_id": "112471559412663215172",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIMt-g0E3XM9KMCorHcT4cgTh31qDKLQRWZFUu1NavWY22vvHU=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 73,
+                "photos": 34
+            },
+            "snippet": "We arrived to restaurant and they kicked us out while they're open because they have a company meeting after 2 hrs",
+            "extracted_snippet": {
+                "original": "We arrived to restaurant and they kicked us out while they're open because they have a company meeting after 2 hrs"
+            },
+            "response": {
+                "date": "9 months ago",
+                "iso_date": "2024-10-29T02:20:34Z",
+                "iso_date_of_last_edit": "2024-10-29T02:20:34Z",
+                "snippet": "Dear Guest,\n\nThank you for visiting us. As we mentioned, the restaurant was reserved for a private event that day. We anticipated having tables available at 7 PM, and we sincerely apologize for any inconvenience this may have caused.\n\nWe hope you\u2019ll consider joining us again for a relaxing dining experience. We look forward to welcoming you back soon.",
+                "extracted_snippet": {
+                    "original": "Dear Guest,\n\nThank you for visiting us. As we mentioned, the restaurant was reserved for a private event that day. We anticipated having tables available at 7 PM, and we sincerely apologize for any inconvenience this may have caused.\n\nWe hope you\u2019ll consider joining us again for a relaxing dining experience. We look forward to welcoming you back soon."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURubExqWnN3RRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgIDnlLjZswE%7CCgsIgeL0uAYQ4LO5RQ%7C?hl=en",
+            "rating": 5.0,
+            "date": "Edited 9 months ago",
+            "iso_date": "2024-10-03T11:30:22Z",
+            "iso_date_of_last_edit": "2024-10-26T18:12:17Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bgo7x4mOV8gdmDymFPdeMrwbqL3fvmPRt5vlssMM1ji7FZMFdmPRHNodz9abZdpmF55F1liJPOTiaMt_xquolpFz66W1M_NRbP1W50pstMQYMq5qoSLfz5X9l9TsI3LEfwnek-EQ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BvZjBmrXniqmXYiA_iHa6-4RpmfP-OBvMcfDJQtcTZkmcAwLtc52CewYSUraAg9K4kuQQQ9M2AJc1zwRcV7hCnE9ydD45hEHhLIahOwWan7oQF6djTu3NhSvRkNuvn4OA2AYsE",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AR67Xb-f-m0UxnRSZGmMkpyQvHna1vl-RfOrJsBlSpzGPOXdm_wgeY7FXoYnMBoOoMTw2RcKsnZHUUWgOPxAz5a3NQAc3iQKZlNa_Knzw-hSu_K-OY8rAfOOoS_eeWrPxEbqeiZg",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DL49UBSJ52RrQtFGEJ9P9OJJDU-K58Pb-LxdLIAFQSTCXZXrVDho0zujZ4XQWJSPFJ1i3Lc3Hy70ncL8w6CB5ZrSyYWtMWJQHKMA8ULC2AQc2lZfAm2DMmqAKrf7WlwRVCQxi2"
+            ],
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSURubExqWnN3RRAB",
+            "user": {
+                "name": "Dr. Mosaab Abdalla",
+                "link": "https://www.google.com/maps/contrib/115600911288870790710?hl=en",
+                "contributor_id": "115600911288870790710",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUmx-kPLaTzSI_4H6uK_VMOljQOBTs2CwGoN1hkFpPxYoA6c5w4=s120-c-rp-mo-ba6-br100",
+                "local_guide": true,
+                "reviews": 200,
+                "photos": 1172
+            },
+            "snippet": "I recently had the pleasure of visiting Halal Sakura restaurant in Tokyo, Japan, and it was a fantastic experience from start to finish. Upon entering, I was immediately struck by the warm and inviting atmosphere, complemented by the friendly and welcoming staff who made me feel right at home. What stood out right away was the modern and convenient ordering system\u2014everything was done through an online menu, which I found both impressive and efficient. It allowed for a seamless ordering process, giving me plenty of time to browse the various options without feeling rushed.\n\nI was particularly excited to try the local cuisine from Tajikistan, and it did not disappoint. The flavors were incredible, with the meat perfectly cooked\u2014tender, juicy, and full of rich, authentic taste. The rice, too, was a highlight, seasoned just right with a delightful balance of spices that complemented the meal beautifully. Every bite was a treat, and it was clear that a lot of care had gone into preparing each dish.\n\nThe fast service added to the overall great experience. My meal arrived promptly, and the attention to detail from the staff, combined with their warm hospitality, really elevated the dining experience. It\u2019s rare to find a place that not only serves unique and delicious food but also makes you feel genuinely welcome and valued as a guest.\n\nFor anyone in Tokyo looking to enjoy a unique blend of flavors and a comfortable dining environment, Halal Sakura is a must-visit. The combination of delicious, authentic Tajik cuisine, speedy service, and friendly staff makes it an excellent choice for anyone seeking something a little different. I highly recommend it!\n\n\u6700\u8fd1\u3001\u6771\u4eac\u306b\u3042\u308b\u30cf\u30e9\u30fc\u30eb \u30b5\u30af\u30e9 \u30ec\u30b9\u30c8\u30e9\u30f3\u3092\u8a2a\u308c\u308b\u6a5f\u4f1a\u306b\u6075\u307e\u308c\u3001\u6700\u521d\u304b\u3089\u6700\u5f8c\u307e\u3067\u7d20\u6674\u3089\u3057\u3044\u4f53\u9a13\u304c\u3067\u304d\u307e\u3057\u305f\u3002\u5e97\u5185\u306b\u5165\u308b\u3068\u3001\u3059\u3050\u306b\u6e29\u304b\u304f\u5c45\u5fc3\u5730\u306e\u826f\u3044\u96f0\u56f2\u6c17\u306b\u5727\u5012\u3055\u308c\u3001\u30d5\u30ec\u30f3\u30c9\u30ea\u30fc\u3067\u6b53\u8fce\u3057\u3066\u304f\u308c\u308b\u30b9\u30bf\u30c3\u30d5\u306e\u304a\u304b\u3052\u3067\u3001\u307e\u308b\u3067\u81ea\u5b85\u306b\u3044\u308b\u304b\u306e\u3088\u3046\u306b\u304f\u3064\u308d\u3052\u307e\u3057\u305f\u3002\u3059\u3050\u306b\u76ee\u7acb\u3063\u305f\u306e\u306f\u3001\u30e2\u30c0\u30f3\u3067\u4fbf\u5229\u306a\u6ce8\u6587\u30b7\u30b9\u30c6\u30e0\u3067\u3059\u3002\u3059\u3079\u3066\u30aa\u30f3\u30e9\u30a4\u30f3 \u30e1\u30cb\u30e5\u30fc\u3067\u884c\u308f\u308c\u3001\u5370\u8c61\u7684\u3067\u52b9\u7387\u7684\u3060\u3068\u611f\u3058\u307e\u3057\u305f\u3002\u6ce8\u6587\u30d7\u30ed\u30bb\u30b9\u304c\u30b7\u30fc\u30e0\u30ec\u30b9\u306b\u306a\u308a\u3001\u6025\u304c\u3055\u308c\u308b\u3053\u3068\u306a\u304f\u3055\u307e\u3056\u307e\u306a\u30aa\u30d7\u30b7\u30e7\u30f3\u3092\u95b2\u89a7\u3059\u308b\u5341\u5206\u306a\u6642\u9593\u304c\u3042\u308a\u307e\u3057\u305f\u3002\n\n\u7279\u306b\u30bf\u30b8\u30ad\u30b9\u30bf\u30f3\u306e\u90f7\u571f\u6599\u7406\u3092\u8a66\u3059\u306e\u304c\u697d\u3057\u307f\u3067\u3057\u305f\u304c\u3001\u671f\u5f85\u3092\u88cf\u5207\u308a\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u5473\u306f\u7d20\u6674\u3089\u3057\u304f\u3001\u8089\u306f\u5b8c\u74a7\u306b\u8abf\u7406\u3055\u308c\u3001\u67d4\u3089\u304b\u304f\u3001\u30b8\u30e5\u30fc\u30b7\u30fc\u3067\u3001\u6fc3\u539a\u3067\u672c\u683c\u7684\u306a\u5473\u304c\u3044\u3063\u3071\u3044\u3067\u3059\u3002\u3054\u98ef\u3082\u30cf\u30a4\u30e9\u30a4\u30c8\u3067\u3001\u30b9\u30d1\u30a4\u30b9\u306e\u7d76\u5999\u306a\u30d0\u30e9\u30f3\u30b9\u3067\u5473\u4ed8\u3051\u3055\u308c\u3066\u304a\u308a\u3001\u98df\u4e8b\u306b\u3088\u304f\u5408\u3044\u307e\u3057\u305f\u3002\u4e00\u53e3\u3054\u3068\u306b\u3054\u3061\u305d\u3046\u306b\u306a\u308a\u3001\u5404\u6599\u7406\u306e\u6e96\u5099\u306b\u591a\u5927\u306a\u6ce8\u610f\u304c\u6255\u308f\u308c\u3066\u3044\u308b\u3053\u3068\u304c\u308f\u304b\u308a\u307e\u3057\u305f\u3002\n\n\u8fc5\u901f\u306a\u30b5\u30fc\u30d3\u30b9\u3082\u3001\u5168\u4f53\u7684\u306b\u7d20\u6674\u3089\u3057\u3044\u4f53\u9a13\u3092\u3055\u3089\u306b\u5f15\u304d\u7acb\u3066\u307e\u3057\u305f\u3002 \u98df\u4e8b\u306f\u3059\u3050\u306b\u5c4a\u304d\u3001\u30b9\u30bf\u30c3\u30d5\u306e\u7d30\u3084\u304b\u306a\u914d\u616e\u3068\u6e29\u304b\u3044\u304a\u3082\u3066\u306a\u3057\u306e\u304a\u304b\u3052\u3067\u3001\u98df\u4e8b\u306e\u4f53\u9a13\u304c\u672c\u5f53\u306b\u5145\u5b9f\u3057\u305f\u3082\u306e\u306b\u306a\u308a\u307e\u3057\u305f\u3002\u30e6\u30cb\u30fc\u30af\u3067\u304a\u3044\u3057\u3044\u6599\u7406\u3092\u63d0\u4f9b\u3059\u308b\u3060\u3051\u3067\u306a\u304f\u3001\u30b2\u30b9\u30c8\u3068\u3057\u3066\u5fc3\u304b\u3089\u6b53\u8fce\u3055\u308c\u3001\u5927\u5207\u306b\u3055\u308c\u3066\u3044\u308b\u3068\u611f\u3058\u3089\u308c\u308b\u5834\u6240\u3092\u898b\u3064\u3051\u308b\u306e\u306f\u307e\u308c\u3067\u3059\u3002\n\n\u6771\u4eac\u3067\u30e6\u30cb\u30fc\u30af\u306a\u5473\u306e\u7d44\u307f\u5408\u308f\u305b\u3068\u5feb\u9069\u306a\u98df\u4e8b\u74b0\u5883\u3092\u697d\u3057\u307f\u305f\u3044\u306a\u3089\u3001Halal Sakura \u306f\u5fc5\u898b\u3067\u3059\u3002\u304a\u3044\u3057\u3044\u672c\u683c\u7684\u306a\u30bf\u30b8\u30af\u6599\u7406\u3001\u8fc5\u901f\u306a\u30b5\u30fc\u30d3\u30b9\u3001\u30d5\u30ec\u30f3\u30c9\u30ea\u30fc\u306a\u30b9\u30bf\u30c3\u30d5\u306e\u7d44\u307f\u5408\u308f\u305b\u306f\u3001\u5c11\u3057\u5909\u308f\u3063\u305f\u3082\u306e\u3092\u6c42\u3081\u308b\u4eba\u306b\u3068\u3063\u3066\u7d20\u6674\u3089\u3057\u3044\u9078\u629e\u3067\u3059\u3002\u5f37\u304f\u304a\u52e7\u3081\u3057\u307e\u3059\uff01",
+            "extracted_snippet": {
+                "original": "I recently had the pleasure of visiting Halal Sakura restaurant in Tokyo, Japan, and it was a fantastic experience from start to finish. Upon entering, I was immediately struck by the warm and inviting atmosphere, complemented by the friendly and welcoming staff who made me feel right at home. What stood out right away was the modern and convenient ordering system\u2014everything was done through an online menu, which I found both impressive and efficient. It allowed for a seamless ordering process, giving me plenty of time to browse the various options without feeling rushed.\n\nI was particularly excited to try the local cuisine from Tajikistan, and it did not disappoint. The flavors were incredible, with the meat perfectly cooked\u2014tender, juicy, and full of rich, authentic taste. The rice, too, was a highlight, seasoned just right with a delightful balance of spices that complemented the meal beautifully. Every bite was a treat, and it was clear that a lot of care had gone into preparing each dish.\n\nThe fast service added to the overall great experience. My meal arrived promptly, and the attention to detail from the staff, combined with their warm hospitality, really elevated the dining experience. It\u2019s rare to find a place that not only serves unique and delicious food but also makes you feel genuinely welcome and valued as a guest.\n\nFor anyone in Tokyo looking to enjoy a unique blend of flavors and a comfortable dining environment, Halal Sakura is a must-visit. The combination of delicious, authentic Tajik cuisine, speedy service, and friendly staff makes it an excellent choice for anyone seeking something a little different. I highly recommend it!\n\n\u6700\u8fd1\u3001\u6771\u4eac\u306b\u3042\u308b\u30cf\u30e9\u30fc\u30eb \u30b5\u30af\u30e9 \u30ec\u30b9\u30c8\u30e9\u30f3\u3092\u8a2a\u308c\u308b\u6a5f\u4f1a\u306b\u6075\u307e\u308c\u3001\u6700\u521d\u304b\u3089\u6700\u5f8c\u307e\u3067\u7d20\u6674\u3089\u3057\u3044\u4f53\u9a13\u304c\u3067\u304d\u307e\u3057\u305f\u3002\u5e97\u5185\u306b\u5165\u308b\u3068\u3001\u3059\u3050\u306b\u6e29\u304b\u304f\u5c45\u5fc3\u5730\u306e\u826f\u3044\u96f0\u56f2\u6c17\u306b\u5727\u5012\u3055\u308c\u3001\u30d5\u30ec\u30f3\u30c9\u30ea\u30fc\u3067\u6b53\u8fce\u3057\u3066\u304f\u308c\u308b\u30b9\u30bf\u30c3\u30d5\u306e\u304a\u304b\u3052\u3067\u3001\u307e\u308b\u3067\u81ea\u5b85\u306b\u3044\u308b\u304b\u306e\u3088\u3046\u306b\u304f\u3064\u308d\u3052\u307e\u3057\u305f\u3002\u3059\u3050\u306b\u76ee\u7acb\u3063\u305f\u306e\u306f\u3001\u30e2\u30c0\u30f3\u3067\u4fbf\u5229\u306a\u6ce8\u6587\u30b7\u30b9\u30c6\u30e0\u3067\u3059\u3002\u3059\u3079\u3066\u30aa\u30f3\u30e9\u30a4\u30f3 \u30e1\u30cb\u30e5\u30fc\u3067\u884c\u308f\u308c\u3001\u5370\u8c61\u7684\u3067\u52b9\u7387\u7684\u3060\u3068\u611f\u3058\u307e\u3057\u305f\u3002\u6ce8\u6587\u30d7\u30ed\u30bb\u30b9\u304c\u30b7\u30fc\u30e0\u30ec\u30b9\u306b\u306a\u308a\u3001\u6025\u304c\u3055\u308c\u308b\u3053\u3068\u306a\u304f\u3055\u307e\u3056\u307e\u306a\u30aa\u30d7\u30b7\u30e7\u30f3\u3092\u95b2\u89a7\u3059\u308b\u5341\u5206\u306a\u6642\u9593\u304c\u3042\u308a\u307e\u3057\u305f\u3002\n\n\u7279\u306b\u30bf\u30b8\u30ad\u30b9\u30bf\u30f3\u306e\u90f7\u571f\u6599\u7406\u3092\u8a66\u3059\u306e\u304c\u697d\u3057\u307f\u3067\u3057\u305f\u304c\u3001\u671f\u5f85\u3092\u88cf\u5207\u308a\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u5473\u306f\u7d20\u6674\u3089\u3057\u304f\u3001\u8089\u306f\u5b8c\u74a7\u306b\u8abf\u7406\u3055\u308c\u3001\u67d4\u3089\u304b\u304f\u3001\u30b8\u30e5\u30fc\u30b7\u30fc\u3067\u3001\u6fc3\u539a\u3067\u672c\u683c\u7684\u306a\u5473\u304c\u3044\u3063\u3071\u3044\u3067\u3059\u3002\u3054\u98ef\u3082\u30cf\u30a4\u30e9\u30a4\u30c8\u3067\u3001\u30b9\u30d1\u30a4\u30b9\u306e\u7d76\u5999\u306a\u30d0\u30e9\u30f3\u30b9\u3067\u5473\u4ed8\u3051\u3055\u308c\u3066\u304a\u308a\u3001\u98df\u4e8b\u306b\u3088\u304f\u5408\u3044\u307e\u3057\u305f\u3002\u4e00\u53e3\u3054\u3068\u306b\u3054\u3061\u305d\u3046\u306b\u306a\u308a\u3001\u5404\u6599\u7406\u306e\u6e96\u5099\u306b\u591a\u5927\u306a\u6ce8\u610f\u304c\u6255\u308f\u308c\u3066\u3044\u308b\u3053\u3068\u304c\u308f\u304b\u308a\u307e\u3057\u305f\u3002\n\n\u8fc5\u901f\u306a\u30b5\u30fc\u30d3\u30b9\u3082\u3001\u5168\u4f53\u7684\u306b\u7d20\u6674\u3089\u3057\u3044\u4f53\u9a13\u3092\u3055\u3089\u306b\u5f15\u304d\u7acb\u3066\u307e\u3057\u305f\u3002 \u98df\u4e8b\u306f\u3059\u3050\u306b\u5c4a\u304d\u3001\u30b9\u30bf\u30c3\u30d5\u306e\u7d30\u3084\u304b\u306a\u914d\u616e\u3068\u6e29\u304b\u3044\u304a\u3082\u3066\u306a\u3057\u306e\u304a\u304b\u3052\u3067\u3001\u98df\u4e8b\u306e\u4f53\u9a13\u304c\u672c\u5f53\u306b\u5145\u5b9f\u3057\u305f\u3082\u306e\u306b\u306a\u308a\u307e\u3057\u305f\u3002\u30e6\u30cb\u30fc\u30af\u3067\u304a\u3044\u3057\u3044\u6599\u7406\u3092\u63d0\u4f9b\u3059\u308b\u3060\u3051\u3067\u306a\u304f\u3001\u30b2\u30b9\u30c8\u3068\u3057\u3066\u5fc3\u304b\u3089\u6b53\u8fce\u3055\u308c\u3001\u5927\u5207\u306b\u3055\u308c\u3066\u3044\u308b\u3068\u611f\u3058\u3089\u308c\u308b\u5834\u6240\u3092\u898b\u3064\u3051\u308b\u306e\u306f\u307e\u308c\u3067\u3059\u3002\n\n\u6771\u4eac\u3067\u30e6\u30cb\u30fc\u30af\u306a\u5473\u306e\u7d44\u307f\u5408\u308f\u305b\u3068\u5feb\u9069\u306a\u98df\u4e8b\u74b0\u5883\u3092\u697d\u3057\u307f\u305f\u3044\u306a\u3089\u3001Halal Sakura \u306f\u5fc5\u898b\u3067\u3059\u3002\u304a\u3044\u3057\u3044\u672c\u683c\u7684\u306a\u30bf\u30b8\u30af\u6599\u7406\u3001\u8fc5\u901f\u306a\u30b5\u30fc\u30d3\u30b9\u3001\u30d5\u30ec\u30f3\u30c9\u30ea\u30fc\u306a\u30b9\u30bf\u30c3\u30d5\u306e\u7d44\u307f\u5408\u308f\u305b\u306f\u3001\u5c11\u3057\u5909\u308f\u3063\u305f\u3082\u306e\u3092\u6c42\u3081\u308b\u4eba\u306b\u3068\u3063\u3066\u7d20\u6674\u3089\u3057\u3044\u9078\u629e\u3067\u3059\u3002\u5f37\u304f\u304a\u52e7\u3081\u3057\u307e\u3059\uff01",
+                "translated": "I recently had the pleasure of visiting Halal Sakura restaurant in Tokyo, Japan, and it was a fantastic experience from start to finish. Upon entering, I was immediately struck by the warm and inviting atmosphere, complemented by the friendly and welcoming staff who made me feel right at home. What stood right away was the modern and convenient ordering system\u2014everything was done through an online menu, which I found both impressive and efficient. It allowed for a seamless ordering process, giving me plenty of time to browse the various options without feeling refreshed.\n\nI was particularly excited to try the local cuisine from Tajikistan, and it did not disappoint. The flavors were incredible, with the meat perfectly cooked\u2014tender, juicy, and full of rich, authentic taste. The rice, too, was a highlight, seasoned just right with a delightful balance of spices that complemented the meal beautifully. Every bite was a treat, and it was clear that a lot of care had gone into preparing each dish.\n\nThe fast service added to the overall great experience. My meal arrived promptly, and the attention to detail from the staff, combined with their warm hospitality, really elevated the dining experience. It\u2019s rare to find a place that not only serves unique and delicious food but also makes you feel genuinely welcome and valued as a guest.\n\nFor anyone in Tokyo looking to enjoy a unique blend of flavors and a comfortable dining environment, Halal Sakura is a must-visit. The combination of delicious, authentic Tajik cuisine, speedy service, and friendly staff makes it an excellent choice for anyone seeking something a little different. I highly recommend it!\n\nI recently had the opportunity to visit Halal Sakura Restaurant in Tokyo and it was an amazing experience from start to finish. Upon entering the store, I was immediately struck by the warm and inviting atmosphere, and the friendly and welcoming staff made me feel right at home. What immediately stood out was the modern and convenient ordering system. Everything was done through an online menu, which we found impressive and efficient. The ordering process was seamless and we had plenty of time to browse different options without feeling rushed.\n\nI was especially looking forward to trying Tajikistan's local cuisine and it did not disappoint. The taste was amazing, the meat perfectly cooked, tender, juicy, rich and full of authentic flavour. The rice was also a highlight, seasoned with the perfect balance of spices and went well with the meal. Every bite was a feast and you could tell that a great deal of care was put into the preparation of each dish.\n\nThe quick service also added to an overall great experience. The food arrived quickly and the staff's attentiveness and warm hospitality made the dining experience truly fulfilling. It's rare to find a place that not only serves unique and delicious food, but also makes you feel truly welcomed and valued as a guest.\n\nIf you want to enjoy unique flavor combinations and a comfortable dining environment in Tokyo, Halal Sakura is a must-visit. The combination of delicious authentic Tajik food, quick service and friendly staff makes it a great choice for those seeking something a little different. Highly recommended!"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Beef Rice Set, Samosa, Beef Ramen, Lamb Soup, Beef Noodles, Fried Rice with Mutton, Chicken and Beef Kebab, Uyghur Style Soup"
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-10-07T02:53:53Z",
+                "iso_date_of_last_edit": "2024-10-07T02:53:53Z",
+                "snippet": "Thank you so much for your wonderful review of Halal Sakura! We're thrilled to hear that you enjoyed the warm atmosphere and our modern ordering system. It\u2019s great to know that our cuisine met your expectations, especially the flavors and attention to detail in our dishes. Our staff takes pride in providing exceptional service, and we\u2019re glad you felt welcomed and valued. Your recommendation means a lot to us, and we can\u2019t wait to welcome you back for another memorable dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your wonderful review of Halal Sakura! We're thrilled to hear that you enjoyed the warm atmosphere and our modern ordering system. It\u2019s great to know that our cuisine met your expectations, especially the flavors and attention to detail in our dishes. Our staff takes pride in providing exceptional service, and we\u2019re glad you felt welcomed and valued. Your recommendation means a lot to us, and we can\u2019t wait to welcome you back for another memorable dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNYLU9MTmlnRRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgICX-OLNigE%7CCgsIxLKtuAYQuJ2Eew%7C?hl=en",
+            "rating": 5.0,
+            "date": "9 months ago",
+            "iso_date": "2024-10-13T05:23:16Z",
+            "iso_date_of_last_edit": "2024-10-13T05:23:16Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNYLU9MTmlnRRAB",
+            "user": {
+                "name": "Ramiz Shodiev",
+                "link": "https://www.google.com/maps/contrib/115629079006819403563?hl=en",
+                "contributor_id": "115629079006819403563",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVeD2ANSiqzSLK8Ip5xRhLuC7a1DppptaykUAIhePZrbwgDpLYNEA=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 19,
+                "photos": 25
+            },
+            "snippet": "\u0412\u043a\u0443\u0441\u043d\u0430\u044f \u0435\u0434\u0430\n\u0421\u0430\u043c\u0430\u0440\u043a\u0430\u043d\u0434\u043a\u0438\u0439 \u043f\u043b\u043e\u0432, \u043c\u0430\u043d\u0442\u0438,  \u0441\u0430\u043c\u0441\u0430, \u0430\u0439\u0440\u0430\u043d \u0441\u0432\u0435\u0436\u0438\u0439\n\u0412\u043a\u0443\u0441\u043d\u044f\u0442\u0438\u043d\u0430 \u0432\u0441\u0451\n3 \u0434\u043d\u044f \u043f\u043e \u043e\u0431\u0435\u0434\u0438\u0432\u0430\u043b\u0438\n\u041e\u0446\u0435\u043d\u043a\u0430 5 \u043c\u043d\u0435 \u043e\u0447\u0435\u043d\u044c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0430\u0441\u044c",
+            "extracted_snippet": {
+                "original": "\u0412\u043a\u0443\u0441\u043d\u0430\u044f \u0435\u0434\u0430\n\u0421\u0430\u043c\u0430\u0440\u043a\u0430\u043d\u0434\u043a\u0438\u0439 \u043f\u043b\u043e\u0432, \u043c\u0430\u043d\u0442\u0438,  \u0441\u0430\u043c\u0441\u0430, \u0430\u0439\u0440\u0430\u043d \u0441\u0432\u0435\u0436\u0438\u0439\n\u0412\u043a\u0443\u0441\u043d\u044f\u0442\u0438\u043d\u0430 \u0432\u0441\u0451\n3 \u0434\u043d\u044f \u043f\u043e \u043e\u0431\u0435\u0434\u0438\u0432\u0430\u043b\u0438\n\u041e\u0446\u0435\u043d\u043a\u0430 5 \u043c\u043d\u0435 \u043e\u0447\u0435\u043d\u044c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0430\u0441\u044c",
+                "translated": "Delicious food\nSamarkand pilaf, manti, samsa, fresh ayran\nYummy everything\n3 days for lunch\nRating 5 I really liked it"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "\u0423\u0437\u0431\u0435\u043a\u0441\u043a\u0430\u044f \u041b\u0435\u043f\u0435\u0448\u043a\u0430"
+            },
+            "response": {
+                "date": "9 months ago",
+                "iso_date": "2024-10-13T11:35:36Z",
+                "iso_date_of_last_edit": "2024-10-13T11:35:36Z",
+                "snippet": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0437\u0430 \u0432\u0430\u0448 \u043e\u0442\u0437\u044b\u0432! \u041c\u044b \u0440\u0430\u0434\u044b, \u0447\u0442\u043e \u0432\u0430\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f \u043d\u0430\u0448 \u0441\u0430\u043c\u0430\u0440\u043a\u0430\u043d\u0434\u0441\u043a\u0438\u0439 \u043f\u043b\u043e\u0432, \u043c\u0430\u043d\u0442\u044b, \u0441\u0430\u043c\u0441\u0430 \u0438 \u0441\u0432\u0435\u0436\u0438\u0439 \u0430\u0439\u0440\u0430\u043d. \u0411\u0443\u0434\u0435\u043c \u0436\u0434\u0430\u0442\u044c \u0432\u0430\u0441 \u0441\u043d\u043e\u0432\u0430!",
+                "extracted_snippet": {
+                    "original": "\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0437\u0430 \u0432\u0430\u0448 \u043e\u0442\u0437\u044b\u0432! \u041c\u044b \u0440\u0430\u0434\u044b, \u0447\u0442\u043e \u0432\u0430\u043c \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u043b\u0441\u044f \u043d\u0430\u0448 \u0441\u0430\u043c\u0430\u0440\u043a\u0430\u043d\u0434\u0441\u043a\u0438\u0439 \u043f\u043b\u043e\u0432, \u043c\u0430\u043d\u0442\u044b, \u0441\u0430\u043c\u0441\u0430 \u0438 \u0441\u0432\u0435\u0436\u0438\u0439 \u0430\u0439\u0440\u0430\u043d. \u0411\u0443\u0434\u0435\u043c \u0436\u0434\u0430\u0442\u044c \u0432\u0430\u0441 \u0441\u043d\u043e\u0432\u0430!",
+                    "translated": "Thank you for your feedback! We are glad that you liked our Samarkand pilaf, manti, samsa and fresh ayran. We will be waiting for you again!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNYbUxmSnFnRRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgICXmLfJqgE%7CCgsItKSsuAYQkL_rWw%7C?hl=en",
+            "rating": 5.0,
+            "date": "9 months ago",
+            "iso_date": "2024-10-13T00:19:28Z",
+            "iso_date_of_last_edit": "2024-10-13T00:20:04Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNYbUxmSnFnRRAB",
+            "user": {
+                "name": "Jama Farah",
+                "link": "https://www.google.com/maps/contrib/114107658224727648811?hl=en",
+                "contributor_id": "114107658224727648811",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKbbEUJ6GeKcaWwKgFkBNOTBgBJMTpsNry_8FogEDFIRQV0Iw=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 20,
+                "photos": 2
+            },
+            "snippet": "Amazing food. And amazing service. Beautiful inside.",
+            "extracted_snippet": {
+                "original": "Amazing food. And amazing service. Beautiful inside."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "9 months ago",
+                "iso_date": "2024-10-13T00:32:37Z",
+                "iso_date_of_last_edit": "2024-10-13T00:32:37Z",
+                "snippet": "Thank you so much for your kind words! We're thrilled to hear you enjoyed the food and service. We hope to welcome you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your kind words! We're thrilled to hear you enjoyed the food and service. We hope to welcome you back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNYd0p2MzBRRRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgICXwJv30QE%7CCgwIn6eouAYQsLLk-AI%7C?hl=en",
+            "rating": 5.0,
+            "date": "9 months ago",
+            "iso_date": "2024-10-12T06:13:51Z",
+            "iso_date_of_last_edit": "2024-10-12T06:13:51Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNYd0p2MzBRRRAB",
+            "user": {
+                "name": "MOA 4ever",
+                "link": "https://www.google.com/maps/contrib/113360355182066008595?hl=en",
+                "contributor_id": "113360355182066008595",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjULNy3OZfG0ppmgMAMatg4umehaUxmRWT-D_gQFBsGCPSYQYck=s120-c-rp-mo-br100",
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "The food here is amazing, it comes with big portions that made me really full and satisfied. I especially loved the original salad. Would recommend this place alot, thank you.",
+            "extracted_snippet": {
+                "original": "The food here is amazing, it comes with big portions that made me really full and satisfied. I especially loved the original salad. Would recommend this place alot, thank you."
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "9 months ago",
+                "iso_date": "2024-10-12T08:24:21Z",
+                "iso_date_of_last_edit": "2024-10-12T08:24:21Z",
+                "snippet": "Thank you for your wonderful review! We're thrilled to hear you enjoyed the big portions and especially loved the original salad. Your recommendation means a lot to us. We look forward to welcoming you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your wonderful review! We're thrilled to hear you enjoyed the big portions and especially loved the original salad. Your recommendation means a lot to us. We look forward to welcoming you back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURMODk3QzV3RRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgIDL897C5wE%7CCgsIvsmfuAYQsPmmbw%7C?hl=en",
+            "rating": 5.0,
+            "date": "Edited 9 months ago",
+            "iso_date": "2024-06-30T18:55:06Z",
+            "iso_date_of_last_edit": "2024-10-10T14:29:18Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSURMODk3QzV3RRAB",
+            "user": {
+                "name": "Abduvali Mamajon",
+                "link": "https://www.google.com/maps/contrib/104309340559839086140?hl=en",
+                "contributor_id": "104309340559839086140",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU0clJ2j996Xz0AiEZvpZvJQQ20x3XOivVWK_eA8c4_sg98tSZfDw=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 17,
+                "photos": 5
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Soup, Beef Ramen, Lamb Soup, Fried Rice with Mutton"
+            },
+            "response": {
+                "date": "a year ago",
+                "iso_date": "2024-07-22T15:11:06Z",
+                "iso_date_of_last_edit": "2024-07-22T15:11:06Z",
+                "snippet": "Katta rahmat!",
+                "extracted_snippet": {
+                    "original": "Katta rahmat!",
+                    "translated": "Thank you very much!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURueV82TEZnEAE!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgIDny_6LFg%7CCgsIkqWduAYQ8MjxDw%7C?hl=en",
+            "rating": 5.0,
+            "date": "9 months ago",
+            "iso_date": "2024-10-10T04:05:38Z",
+            "iso_date_of_last_edit": "2024-10-10T04:05:38Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSURueV82TEZnEAE",
+            "user": {
+                "name": "Mekhroj Ergashov",
+                "link": "https://www.google.com/maps/contrib/115664995572055977874?hl=en",
+                "contributor_id": "115664995572055977874",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocII3NDbx_ND2aeozMT5YHercmOAvgryJhXunItfrgtVFnlRBA=s120-c-rp-mo-br100",
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "9 months ago",
+                "iso_date": "2024-10-10T05:38:50Z",
+                "iso_date_of_last_edit": "2024-10-10T05:38:50Z",
+                "snippet": "Katta rahmat!",
+                "extracted_snippet": {
+                    "original": "Katta rahmat!",
+                    "translated": "Thank you very much!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURuNHZfdGlnRRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgIDn4v_tigE%7CCgwIoKmAuAYQiIzzpwM%7C?hl=en",
+            "rating": 5.0,
+            "date": "10 months ago",
+            "iso_date": "2024-10-04T16:11:23Z",
+            "iso_date_of_last_edit": "2024-10-04T16:15:28Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSURuNHZfdGlnRRAB",
+            "user": {
+                "name": "Earth Mapping",
+                "link": "https://www.google.com/maps/contrib/113951533927035312600?hl=en",
+                "contributor_id": "113951533927035312600",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUYqi7qVhLQ_VLMASQbHRDjF9nv4H_Ylte1gnsS0UC3FqB3flBA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Great halal restaurant that serves mostly Uzbek and Japanese food ! Plov and manty (Central Asian dishes) were delicious and the decoration is awesome too ! They also don\u2019t serve alcohol which is great because a lot of central Asian restaurants don\u2019t do that. People that work in the restaurant are really friendly \ud83e\udd70. Hoping to go back there soon ! One of my favorite restaurants in Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nThere is also a praying room in the restaurant which is really neat ! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nTr\u00e8s bon restaurant halal qui sert majoritairement de la cuisine ouzb\u00e8ke et japonaise ! Le plov et le manty (plats d\u2019Asie centrale) \u00e9taient d\u00e9licieux et la d\u00e9coration \u00e9tait tr\u00e8s belle \u00e9galement ! Ils ne servent pas d\u2019alcool, ce qui est une bonne chose car les restaurants servant des plats d\u2019Asie centrale servent souvent de l\u2019alcool. Les gens qui travaillent dans le restaurant sont tr\u00e8s amicaux. \ud83e\udd70 J\u2019esp\u00e8re y retourner bient\u00f4t ! L\u2019un de mes restaurants pr\u00e9f\u00e9r\u00e9s de Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nIl y a aussi une salle de pri\u00e8re dans le restaurant, ce qui est vraiment pratique ! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\n\u4e3b\u306b\u30a6\u30ba\u30d9\u30ad\u30b9\u30bf\u30f3\u6599\u7406\u3068\u65e5\u672c\u6599\u7406\u3092\u63d0\u4f9b\u3059\u308b\u7d20\u6674\u3089\u3057\u3044\u30cf\u30e9\u30fc\u30eb\u30ec\u30b9\u30c8\u30e9\u30f3\u3067\u3059\u3002\u30d7\u30ed\u30d5\u3068\u30de\u30f3\u30c6\u30a3\uff08\u4e2d\u592e\u30a2\u30b8\u30a2\u6599\u7406\uff09\u306f\u7f8e\u5473\u3057\u304b\u3063\u305f\u3057\u3001\u88c5\u98fe\u3082\u7d20\u6674\u3089\u3057\u3044\u3067\u3059\uff01\u307e\u305f\u3001\u4e2d\u592e\u30a2\u30b8\u30a2\u306e\u30ec\u30b9\u30c8\u30e9\u30f3\u306e\u591a\u304f\u306f\u30a2\u30eb\u30b3\u30fc\u30eb\u3092\u63d0\u4f9b\u3057\u3066\u3044\u306a\u3044\u306e\u3067\u3001\u3053\u308c\u306f\u7d20\u6674\u3089\u3057\u3044\u3053\u3068\u3067\u3059\u3002\u30ec\u30b9\u30c8\u30e9\u30f3\u3067\u50cd\u304f\u4eba\u3005\u306f\u672c\u5f53\u306b\u30d5\u30ec\u30f3\u30c9\u30ea\u30fc\u3067\u3059\ud83e\udd70\u3002\u3059\u3050\u306b\u305d\u3053\u306b\u623b\u308a\u305f\u3044\u3068\u601d\u3063\u3066\u3044\u307e\u3059!\u6771\u4eac\u3067\u79c1\u306e\u304a\u6c17\u306b\u5165\u308a\u306e\u30ec\u30b9\u30c8\u30e9\u30f3\u306e 1 \u3064 \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\n\u79c1\u306f\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u30ec\u30b9\u30c8\u30e9\u30f3\u3067\u6700\u9ad8\u306e\u304a\u3082\u3066\u306a\u3057\u3092\u3057\u307e\u3059! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\n\uc6b0\uc988\ubca0\ud0a4\uc2a4\ud0c4\uacfc \uc77c\ubcf8 \uc74c\uc2dd\uc744 \uc8fc\ub85c \uc81c\uacf5\ud558\ub294 \ud6cc\ub96d\ud55c \ud560\ub784 \ub808\uc2a4\ud1a0\ub791! \ud50c\ub85c\ube0c\uc640 \ub9cc\ud2f0(\uc911\uc559\uc544\uc2dc\uc544 \uc694\ub9ac)\uac00 \ub9db\uc788\uc5c8\uace0 \uc7a5\uc2dd\ub3c4 \uad49\uc7a5\ud588\uc2b5\ub2c8\ub2e4! \ub610\ud55c \ub9ce\uc740 \uc911\uc559\uc544\uc2dc\uc544 \ub808\uc2a4\ud1a0\ub791\uc5d0\uc11c \uc81c\uacf5\ud558\uc9c0 \uc54a\ub294 \uc54c\ucf54\uc62c\uc744 \uc81c\uacf5\ud558\uc9c0 \uc54a\uc544\uc11c \uc88b\uc558\uc2b5\ub2c8\ub2e4. \ub808\uc2a4\ud1a0\ub791\uc5d0\uc11c \uc77c\ud558\ub294 \uc0ac\ub78c\ub4e4\uc740 \uc815\ub9d0 \uce5c\uc808\ud569\ub2c8\ub2e4 \ud83e\udd70. \uace7 \ub2e4\uc2dc \uac00\uace0 \uc2f6\uc2b5\ub2c8\ub2e4! \ub3c4\ucfc4\uc5d0\uc11c \uac00\uc7a5 \uc88b\uc544\ud558\ub294 \ub808\uc2a4\ud1a0\ub791 \uc911 \ud558\ub098\uc785\ub2c8\ub2e4 \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\n\ub808\uc2a4\ud1a0\ub791\uc5d0\ub294 \uae30\ub3c4\uc2e4\ub3c4 \uc788\uc5b4\uc11c \uc815\ub9d0 \ud3b8\ub9ac\ud574\uc694! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\n\u5f88\u68d2\u7684\u6e05\u771f\u9910\u5ef3\uff0c\u4e3b\u8981\u4f9b\u61c9\u70cf\u8332\u5225\u514b\u548c\u65e5\u672c\u6599\u7406\uff01 Plov \u548c manty\uff08\u4e2d\u4e9e\u83dc\u991a\uff09\u975e\u5e38\u7f8e\u5473\uff0c\u800c\u4e14\u88dd\u98fe\u4e5f\u5f88\u68d2\uff01\u4ed6\u5011\u4e5f\u4e0d\u63d0\u4f9b\u9152\u7cbe\u98f2\u6599\uff0c\u9019\u5f88\u597d\uff0c\u56e0\u70ba\u8a31\u591a\u4e2d\u4e9e\u9910\u5ef3\u4e0d\u63d0\u4f9b\u9152\u7cbe\u98f2\u6599\u3002\u5728\u9910\u5ef3\u5de5\u4f5c\u7684\u4eba\u90fd\u975e\u5e38\u53cb\u5584\ud83e\udd70\u3002\u5e0c\u671b\u5f88\u5feb\u80fd\u56de\u5230\u90a3\u88e1\uff01\u6211\u5728\u6771\u4eac\u6700\u559c\u6b61\u7684\u9910\u5ef3\u4e4b\u4e00\ud83d\ude0b\u2764\ufe0f\ud83c\uddfa\ud83c\uddff\n\n\u9910\u5ef3\u88e1\u9084\u6709\u7948\u79b1\u5ba4\uff0c\u771f\u7684\u5f88\u65b9\u4fbf! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\n\u00c7o\u011funlukla \u00d6zbek ve Japon yemekleri servis eden harika bir helal restoran! Plov ve manty (Orta Asya yemekleri) lezzetliydi ve dekorasyon da harika! Ayr\u0131ca alkol servisi yapm\u0131yorlar ki bu harika \u00e7\u00fcnk\u00fc bir\u00e7ok Orta Asya restoran\u0131 bunu yapm\u0131yor. Restoranda \u00e7al\u0131\u015fan insanlar ger\u00e7ekten cana yak\u0131n \ud83e\udd70. Yak\u0131nda tekrar gitmeyi umuyorum! Tokyo'daki en sevdi\u011fim restoranlardan biri \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nRestoranda ger\u00e7ekten kullan\u0131\u015fl\u0131 bir mescit de var! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nAsosan o'zbek va yapon taomlarini taklif qiluvchi ajoyib halol restoran! Palov va manti (Markaziy Osiyo taomlari) juda mazali va bezaklari ham ajoyib! Ular, shuningdek, spirtli ichimliklarni taqdim etmaydilar, bu juda yaxshi, chunki ko'plab Markaziy Osiyo restoranlari buni qilmaydi. Restoranda ishlaydigan odamlar juda samimiy \ud83e\udd70. Tez orada u erga qaytish umidida! Tokiodagi eng sevimli restoranlarimdan biri \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nRestoranda namozxona ham bor, bu juda qulay! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\n\u041e\u0442\u043b\u0438\u0447\u043d\u044b\u0439 \u0445\u0430\u043b\u044f\u043b\u044c\u043d\u044b\u0439 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d, \u0432 \u043a\u043e\u0442\u043e\u0440\u043e\u043c \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c \u043f\u043e\u0434\u0430\u044e\u0442 \u0431\u043b\u044e\u0434\u0430 \u0443\u0437\u0431\u0435\u043a\u0441\u043a\u043e\u0439 \u0438 \u044f\u043f\u043e\u043d\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438! \u041f\u043b\u043e\u0432 \u0438 \u043c\u0430\u043d\u0442\u044b (\u0431\u043b\u044e\u0434\u0430 \u0441\u0440\u0435\u0434\u043d\u0435\u0430\u0437\u0438\u0430\u0442\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438) \u0431\u044b\u043b\u0438 \u0432\u043e\u0441\u0445\u0438\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b, \u0430 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435 \u0442\u043e\u0436\u0435 \u043f\u043e\u0442\u0440\u044f\u0441\u0430\u044e\u0449\u0435\u0435! \u041e\u043d\u0438 \u0442\u0430\u043a\u0436\u0435 \u043d\u0435 \u043f\u043e\u0434\u0430\u044e\u0442 \u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044c, \u0447\u0442\u043e \u0437\u0434\u043e\u0440\u043e\u0432\u043e, \u043f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u0432\u043e \u043c\u043d\u043e\u0433\u0438\u0445 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430\u0445 \u0441\u0440\u0435\u0434\u043d\u0435\u0430\u0437\u0438\u0430\u0442\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438 \u044d\u0442\u043e\u0433\u043e \u043d\u0435 \u0434\u0435\u043b\u0430\u044e\u0442. \u041b\u044e\u0434\u0438, \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0449\u0438\u0435 \u0432 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435, \u043e\u0447\u0435\u043d\u044c \u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u044b \ud83e\udd70. \u041d\u0430\u0434\u0435\u044e\u0441\u044c \u0432\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f \u0442\u0443\u0434\u0430 \u0441\u043d\u043e\u0432\u0430! \u041e\u0434\u0438\u043d \u0438\u0437 \u043c\u043e\u0438\u0445 \u043b\u044e\u0431\u0438\u043c\u044b\u0445 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u043e\u0432 \u0432 \u0422\u043e\u043a\u0438\u043e \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\n\u0415\u0449\u0435 \u0432 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435 \u0435\u0441\u0442\u044c \u043c\u043e\u043b\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043d\u0430\u0442\u0430, \u0447\u0442\u043e \u043e\u0447\u0435\u043d\u044c \u0443\u0434\u043e\u0431\u043d\u043e! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f",
+            "extracted_snippet": {
+                "original": "Great halal restaurant that serves mostly Uzbek and Japanese food ! Plov and manty (Central Asian dishes) were delicious and the decoration is awesome too ! They also don\u2019t serve alcohol which is great because a lot of central Asian restaurants don\u2019t do that. People that work in the restaurant are really friendly \ud83e\udd70. Hoping to go back there soon ! One of my favorite restaurants in Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nThere is also a praying room in the restaurant which is really neat ! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nTr\u00e8s bon restaurant halal qui sert majoritairement de la cuisine ouzb\u00e8ke et japonaise ! Le plov et le manty (plats d\u2019Asie centrale) \u00e9taient d\u00e9licieux et la d\u00e9coration \u00e9tait tr\u00e8s belle \u00e9galement ! Ils ne servent pas d\u2019alcool, ce qui est une bonne chose car les restaurants servant des plats d\u2019Asie centrale servent souvent de l\u2019alcool. Les gens qui travaillent dans le restaurant sont tr\u00e8s amicaux. \ud83e\udd70 J\u2019esp\u00e8re y retourner bient\u00f4t ! L\u2019un de mes restaurants pr\u00e9f\u00e9r\u00e9s de Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nIl y a aussi une salle de pri\u00e8re dans le restaurant, ce qui est vraiment pratique ! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\n\u4e3b\u306b\u30a6\u30ba\u30d9\u30ad\u30b9\u30bf\u30f3\u6599\u7406\u3068\u65e5\u672c\u6599\u7406\u3092\u63d0\u4f9b\u3059\u308b\u7d20\u6674\u3089\u3057\u3044\u30cf\u30e9\u30fc\u30eb\u30ec\u30b9\u30c8\u30e9\u30f3\u3067\u3059\u3002\u30d7\u30ed\u30d5\u3068\u30de\u30f3\u30c6\u30a3\uff08\u4e2d\u592e\u30a2\u30b8\u30a2\u6599\u7406\uff09\u306f\u7f8e\u5473\u3057\u304b\u3063\u305f\u3057\u3001\u88c5\u98fe\u3082\u7d20\u6674\u3089\u3057\u3044\u3067\u3059\uff01\u307e\u305f\u3001\u4e2d\u592e\u30a2\u30b8\u30a2\u306e\u30ec\u30b9\u30c8\u30e9\u30f3\u306e\u591a\u304f\u306f\u30a2\u30eb\u30b3\u30fc\u30eb\u3092\u63d0\u4f9b\u3057\u3066\u3044\u306a\u3044\u306e\u3067\u3001\u3053\u308c\u306f\u7d20\u6674\u3089\u3057\u3044\u3053\u3068\u3067\u3059\u3002\u30ec\u30b9\u30c8\u30e9\u30f3\u3067\u50cd\u304f\u4eba\u3005\u306f\u672c\u5f53\u306b\u30d5\u30ec\u30f3\u30c9\u30ea\u30fc\u3067\u3059\ud83e\udd70\u3002\u3059\u3050\u306b\u305d\u3053\u306b\u623b\u308a\u305f\u3044\u3068\u601d\u3063\u3066\u3044\u307e\u3059!\u6771\u4eac\u3067\u79c1\u306e\u304a\u6c17\u306b\u5165\u308a\u306e\u30ec\u30b9\u30c8\u30e9\u30f3\u306e 1 \u3064 \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\n\u79c1\u306f\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u30ec\u30b9\u30c8\u30e9\u30f3\u3067\u6700\u9ad8\u306e\u304a\u3082\u3066\u306a\u3057\u3092\u3057\u307e\u3059! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\n\uc6b0\uc988\ubca0\ud0a4\uc2a4\ud0c4\uacfc \uc77c\ubcf8 \uc74c\uc2dd\uc744 \uc8fc\ub85c \uc81c\uacf5\ud558\ub294 \ud6cc\ub96d\ud55c \ud560\ub784 \ub808\uc2a4\ud1a0\ub791! \ud50c\ub85c\ube0c\uc640 \ub9cc\ud2f0(\uc911\uc559\uc544\uc2dc\uc544 \uc694\ub9ac)\uac00 \ub9db\uc788\uc5c8\uace0 \uc7a5\uc2dd\ub3c4 \uad49\uc7a5\ud588\uc2b5\ub2c8\ub2e4! \ub610\ud55c \ub9ce\uc740 \uc911\uc559\uc544\uc2dc\uc544 \ub808\uc2a4\ud1a0\ub791\uc5d0\uc11c \uc81c\uacf5\ud558\uc9c0 \uc54a\ub294 \uc54c\ucf54\uc62c\uc744 \uc81c\uacf5\ud558\uc9c0 \uc54a\uc544\uc11c \uc88b\uc558\uc2b5\ub2c8\ub2e4. \ub808\uc2a4\ud1a0\ub791\uc5d0\uc11c \uc77c\ud558\ub294 \uc0ac\ub78c\ub4e4\uc740 \uc815\ub9d0 \uce5c\uc808\ud569\ub2c8\ub2e4 \ud83e\udd70. \uace7 \ub2e4\uc2dc \uac00\uace0 \uc2f6\uc2b5\ub2c8\ub2e4! \ub3c4\ucfc4\uc5d0\uc11c \uac00\uc7a5 \uc88b\uc544\ud558\ub294 \ub808\uc2a4\ud1a0\ub791 \uc911 \ud558\ub098\uc785\ub2c8\ub2e4 \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\n\ub808\uc2a4\ud1a0\ub791\uc5d0\ub294 \uae30\ub3c4\uc2e4\ub3c4 \uc788\uc5b4\uc11c \uc815\ub9d0 \ud3b8\ub9ac\ud574\uc694! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\n\u5f88\u68d2\u7684\u6e05\u771f\u9910\u5ef3\uff0c\u4e3b\u8981\u4f9b\u61c9\u70cf\u8332\u5225\u514b\u548c\u65e5\u672c\u6599\u7406\uff01 Plov \u548c manty\uff08\u4e2d\u4e9e\u83dc\u991a\uff09\u975e\u5e38\u7f8e\u5473\uff0c\u800c\u4e14\u88dd\u98fe\u4e5f\u5f88\u68d2\uff01\u4ed6\u5011\u4e5f\u4e0d\u63d0\u4f9b\u9152\u7cbe\u98f2\u6599\uff0c\u9019\u5f88\u597d\uff0c\u56e0\u70ba\u8a31\u591a\u4e2d\u4e9e\u9910\u5ef3\u4e0d\u63d0\u4f9b\u9152\u7cbe\u98f2\u6599\u3002\u5728\u9910\u5ef3\u5de5\u4f5c\u7684\u4eba\u90fd\u975e\u5e38\u53cb\u5584\ud83e\udd70\u3002\u5e0c\u671b\u5f88\u5feb\u80fd\u56de\u5230\u90a3\u88e1\uff01\u6211\u5728\u6771\u4eac\u6700\u559c\u6b61\u7684\u9910\u5ef3\u4e4b\u4e00\ud83d\ude0b\u2764\ufe0f\ud83c\uddfa\ud83c\uddff\n\n\u9910\u5ef3\u88e1\u9084\u6709\u7948\u79b1\u5ba4\uff0c\u771f\u7684\u5f88\u65b9\u4fbf! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\n\u00c7o\u011funlukla \u00d6zbek ve Japon yemekleri servis eden harika bir helal restoran! Plov ve manty (Orta Asya yemekleri) lezzetliydi ve dekorasyon da harika! Ayr\u0131ca alkol servisi yapm\u0131yorlar ki bu harika \u00e7\u00fcnk\u00fc bir\u00e7ok Orta Asya restoran\u0131 bunu yapm\u0131yor. Restoranda \u00e7al\u0131\u015fan insanlar ger\u00e7ekten cana yak\u0131n \ud83e\udd70. Yak\u0131nda tekrar gitmeyi umuyorum! Tokyo'daki en sevdi\u011fim restoranlardan biri \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nRestoranda ger\u00e7ekten kullan\u0131\u015fl\u0131 bir mescit de var! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nAsosan o'zbek va yapon taomlarini taklif qiluvchi ajoyib halol restoran! Palov va manti (Markaziy Osiyo taomlari) juda mazali va bezaklari ham ajoyib! Ular, shuningdek, spirtli ichimliklarni taqdim etmaydilar, bu juda yaxshi, chunki ko'plab Markaziy Osiyo restoranlari buni qilmaydi. Restoranda ishlaydigan odamlar juda samimiy \ud83e\udd70. Tez orada u erga qaytish umidida! Tokiodagi eng sevimli restoranlarimdan biri \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nRestoranda namozxona ham bor, bu juda qulay! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\n\u041e\u0442\u043b\u0438\u0447\u043d\u044b\u0439 \u0445\u0430\u043b\u044f\u043b\u044c\u043d\u044b\u0439 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d, \u0432 \u043a\u043e\u0442\u043e\u0440\u043e\u043c \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c \u043f\u043e\u0434\u0430\u044e\u0442 \u0431\u043b\u044e\u0434\u0430 \u0443\u0437\u0431\u0435\u043a\u0441\u043a\u043e\u0439 \u0438 \u044f\u043f\u043e\u043d\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438! \u041f\u043b\u043e\u0432 \u0438 \u043c\u0430\u043d\u0442\u044b (\u0431\u043b\u044e\u0434\u0430 \u0441\u0440\u0435\u0434\u043d\u0435\u0430\u0437\u0438\u0430\u0442\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438) \u0431\u044b\u043b\u0438 \u0432\u043e\u0441\u0445\u0438\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b, \u0430 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435 \u0442\u043e\u0436\u0435 \u043f\u043e\u0442\u0440\u044f\u0441\u0430\u044e\u0449\u0435\u0435! \u041e\u043d\u0438 \u0442\u0430\u043a\u0436\u0435 \u043d\u0435 \u043f\u043e\u0434\u0430\u044e\u0442 \u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044c, \u0447\u0442\u043e \u0437\u0434\u043e\u0440\u043e\u0432\u043e, \u043f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u0432\u043e \u043c\u043d\u043e\u0433\u0438\u0445 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430\u0445 \u0441\u0440\u0435\u0434\u043d\u0435\u0430\u0437\u0438\u0430\u0442\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438 \u044d\u0442\u043e\u0433\u043e \u043d\u0435 \u0434\u0435\u043b\u0430\u044e\u0442. \u041b\u044e\u0434\u0438, \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0449\u0438\u0435 \u0432 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435, \u043e\u0447\u0435\u043d\u044c \u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u044b \ud83e\udd70. \u041d\u0430\u0434\u0435\u044e\u0441\u044c \u0432\u0435\u0440\u043d\u0443\u0442\u044c\u0441\u044f \u0442\u0443\u0434\u0430 \u0441\u043d\u043e\u0432\u0430! \u041e\u0434\u0438\u043d \u0438\u0437 \u043c\u043e\u0438\u0445 \u043b\u044e\u0431\u0438\u043c\u044b\u0445 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u043e\u0432 \u0432 \u0422\u043e\u043a\u0438\u043e \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\n\u0415\u0449\u0435 \u0432 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435 \u0435\u0441\u0442\u044c \u043c\u043e\u043b\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043d\u0430\u0442\u0430, \u0447\u0442\u043e \u043e\u0447\u0435\u043d\u044c \u0443\u0434\u043e\u0431\u043d\u043e! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f",
+                "translated": "Great halal restaurant that serves mostly Uzbek and Japanese food! Plov and manty (Central Asian dishes) were delicious and the decoration is awesome too! They also don't serve alcohol which is great because a lot of central Asian restaurants don't do that. People that work in the restaurant are really friendly. Hoping to go back there soon! One of my favorite restaurants in Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nThere is also a praying room in the restaurant which is really neat! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nTr\u00e8s bon restaurant halal qui sert majoritairement de la cuisine ouzb\u00e8ke et japonaise ! Le plov et le manty (plats d\u2019Asie centrale) \u00e9tait d\u00e9licieux et la decoration \u00e9tait tr\u00e8s belle \u00e9galement ! Ils ne servent pas d'alcool, ce qui est une bonne thinge car les restaurants servant des plats d'Asie centrale servent souvent de l'alcool. Les gens qui travailente dans le restaurant sont tr\u00e8s amicaux. \ud83e\udd70 J'esp\u00e8re y retourner bient\u00f4t ! L'un de mes restaurants pr\u00e9f\u00e9r\u00e9s de Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nIl y a aussi une salle de pri\u00e8re dans le restaurant, ce qui est vraiment pratique ! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nIt's a great halal restaurant that mainly serves Uzbek food and Japanese food. The prof and manti (Central Asian cuisine) were delicious and the decor is great! Also, most Central Asian restaurants don't serve alcohol, which is great. The people working in the restaurant are really friendly. I want to go back there soon! 1 of my favorite restaurants in Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nI have the best hospitality in an Australian restaurant! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nA great halal restaurant serving mostly Uzbek and Japanese food! The flounder and \ub9d0\ud2b8(Central Asian cuisine) were delicious and the decoration was amazing! It was also nice that they didn't serve alcohol, which many Central Asian restaurants don't. The people working in the restaurant are really friendly. I would love to go again soon! One of my favorite restaurants in Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nThe restaurant also has a prayer room, which is really convenient! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nExcellent \u6e05\u771f\u9910\u5ef3, mainly for Japanese cuisine! The pilaf and manti (Chinese cuisine) are very delicious, and the decoration is also great! They also don't serve alcohol, which is good, because many Chinese restaurants do not serve alcohol. The people who work at the restaurant are very friendly. I hope to be able to go back there soon! One of my favorite restaurants in Tokyo\ud83d\ude0b\u2764\ufe0f\ud83c\uddfa\ud83c\uddff\n\nThe restaurant is really convenient! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nA great halal restaurant serving mostly Uzbek and Japanese food! The pilaf and manti (Central Asian food) were delicious and the decor was amazing! They also don't serve alcohol, which is great because most Central Asian restaurants don't. The people working in the restaurant are really friendly. Hope to go again soon! One of my favorite restaurants in Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nThe restaurant also has a really handy mosque! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nA great halal restaurant serving mostly Uzbek and Japanese food! Pilov and manti (Central Asian dishes) are very tasty and the decorations are amazing! They also don't serve alcohol, which is great because most Central Asian restaurants don't. The people working in the restaurant are very friendly. Hope to get back there soon! One of my favorite restaurants in Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nThe restaurant also has a prayer room, which is very convenient! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f\n\nAn excellent halal restaurant that mainly serves Uzbek and Japanese cuisine! Pilaf and manty (a dish from Central Asian cuisine) were amazing, and the layout was also amazing! They also don't serve alcohol, which is great, because that's not what many restaurants do in Central Asian cuisine. The people working in the restaurant are very friendly. Hope to go back there again! One of my favorite restaurants in Tokyo \ud83d\ude0b \u2764\ufe0f \ud83c\uddfa\ud83c\uddff\n\nThere is also a prayer room in the restaurant, which is very convenient! \ud83d\udd4c \ud83e\uddce\u200d\u2642\ufe0f"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5,
+                "vegetarian_options": "Vegetarian Ramen",
+                "dietary_restrictions": "Halal restaurant, so of course no pork and alcohol",
+                "kid_friendliness": "Yes"
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-10-07T02:46:03Z",
+                "iso_date_of_last_edit": "2024-10-07T02:46:03Z",
+                "snippet": "Thank you so much for your wonderful review! We're thrilled to hear you enjoyed the plov and manty, as well as our decor. We pride ourselves on providing a friendly atmosphere and catering to our guests' needs. We're glad you appreciated the praying room too! We can't wait to welcome you back to your favorite restaurant in Tokyo!",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your wonderful review! We're thrilled to hear you enjoyed the plov and manty, as well as our decor. We pride ourselves on providing a friendly atmosphere and catering to our guests' needs. We're glad you appreciated the praying room too! We can't wait to welcome you back to your favorite restaurant in Tokyo!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNual9QSnN3RRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgICnj_PJswE%7CCgsI7tbutwYQ2Muacg%7C?hl=en",
+            "rating": 5.0,
+            "date": "10 months ago",
+            "iso_date": "2024-10-01T07:57:34Z",
+            "iso_date_of_last_edit": "2024-10-01T07:57:34Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNual9QSnN3RRAB",
+            "user": {
+                "name": "Kiji",
+                "link": "https://www.google.com/maps/contrib/111082317924825534626?hl=en",
+                "contributor_id": "111082317924825534626",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVOYhR25043tQD63yxRIdu2jKZD2Jjx6iF9RdKmNvBgKAK6J5ii=s120-c-rp-mo-br100",
+                "reviews": 4,
+                "photos": 0
+            },
+            "snippet": "\u0412\u0441\u0435 \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u043d\u043e! \u0412\u043a\u0443\u0441 \u0435\u0434\u044b \u0432 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438!",
+            "extracted_snippet": {
+                "original": "\u0412\u0441\u0435 \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u043d\u043e! \u0412\u043a\u0443\u0441 \u0435\u0434\u044b \u0432 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438!",
+                "translated": "Everything is great! Especially the taste of food!"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "\u0423\u0437\u0431\u0435\u043a\u0441\u043a\u0430\u044f \u041b\u0435\u043f\u0435\u0448\u043a\u0430"
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-10-01T11:00:17Z",
+                "iso_date_of_last_edit": "2024-10-01T11:00:17Z",
+                "snippet": "\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u0441\u043f\u0430\u0441\u0438\u0431\u043e \u0437\u0430 \u0432\u0430\u0448 \u0434\u043e\u0431\u0440\u044b\u0439 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439! \u041c\u044b \u0441 \u043d\u0435\u0442\u0435\u0440\u043f\u0435\u043d\u0438\u0435\u043c \u0436\u0434\u0435\u043c \u0432\u0430\u0448\u0435\u0433\u043e \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0433\u043e \u0432\u0438\u0437\u0438\u0442\u0430!",
+                "extracted_snippet": {
+                    "original": "\u0411\u043e\u043b\u044c\u0448\u043e\u0435 \u0441\u043f\u0430\u0441\u0438\u0431\u043e \u0437\u0430 \u0432\u0430\u0448 \u0434\u043e\u0431\u0440\u044b\u0439 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439! \u041c\u044b \u0441 \u043d\u0435\u0442\u0435\u0440\u043f\u0435\u043d\u0438\u0435\u043c \u0436\u0434\u0435\u043c \u0432\u0430\u0448\u0435\u0433\u043e \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0433\u043e \u0432\u0438\u0437\u0438\u0442\u0430!",
+                    "translated": "Thank you very much for your kind comment! We look forward to your next visit!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNuOV9UX1dREAE!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgICn9_T_WQ%7CCgwI_4futwYQ-N654wI%7C?hl=en",
+            "rating": 5.0,
+            "date": "10 months ago",
+            "iso_date": "2024-10-01T05:09:19Z",
+            "iso_date_of_last_edit": "2024-10-01T05:09:19Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNuOV9UX1dREAE",
+            "user": {
+                "name": "K Tamako",
+                "link": "https://www.google.com/maps/contrib/117138357704544797031?hl=en",
+                "contributor_id": "117138357704544797031",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUEG3oPvC8OD3b8CLSsts6KpNGCzwXVII5urqOGZVZ7eE0J77A=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 17,
+                "photos": 5
+            },
+            "snippet": "\u98df\u3079\u305f\u3053\u3068\u306e\u306a\u3044\u304a\u6599\u7406\u3070\u304b\u308a\u3067\u3057\u305f\u304c\u3001\u5909\u306a\u30af\u30bb\u304c\u5168\u304f\u306a\u304f\u65e5\u672c\u4eba\u306e\u820c\u306b\u5408\u3046\u3068\u3066\u3082\u7f8e\u5473\u3057\u3044\u6599\u7406\u3070\u304b\u308a\u3067\u3057\u305f\uff01\u30e9\u30f3\u30c1\u3082\u7d50\u69cb\u6df7\u3093\u3067\u3044\u307e\u3057\u305f\u306e\u3067\u91d1\u571f\u65e5\u306f\u4e88\u7d04\u3092\u3057\u305f\u65b9\u304c\u78ba\u5b9f\u304b\u3082\u3057\u308c\u307e\u305b\u3093\u3002",
+            "extracted_snippet": {
+                "original": "\u98df\u3079\u305f\u3053\u3068\u306e\u306a\u3044\u304a\u6599\u7406\u3070\u304b\u308a\u3067\u3057\u305f\u304c\u3001\u5909\u306a\u30af\u30bb\u304c\u5168\u304f\u306a\u304f\u65e5\u672c\u4eba\u306e\u820c\u306b\u5408\u3046\u3068\u3066\u3082\u7f8e\u5473\u3057\u3044\u6599\u7406\u3070\u304b\u308a\u3067\u3057\u305f\uff01\u30e9\u30f3\u30c1\u3082\u7d50\u69cb\u6df7\u3093\u3067\u3044\u307e\u3057\u305f\u306e\u3067\u91d1\u571f\u65e5\u306f\u4e88\u7d04\u3092\u3057\u305f\u65b9\u304c\u78ba\u5b9f\u304b\u3082\u3057\u308c\u307e\u305b\u3093\u3002",
+                "translated": "Although there were many dishes that I had never tried before, they were all very delicious and didn't have any strange tastes and were well-suited to the Japanese palate! It was quite busy for lunch, so it might be best to make a reservation on Fridays and Saturdays."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "\u7f8a\u30b1\u30d0\u30d6\u3068\u9ce5\u30b1\u30d0\u30d6, \u30b5\u30e2\u30b5, \u30a6\u30a3\u30b0\u30eb\u98a8\u30e8\u30fc\u30b0\u30eb\u30c8"
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-10-01T11:04:30Z",
+                "iso_date_of_last_edit": "2024-10-01T11:04:30Z",
+                "snippet": "\u304a\u6599\u7406\u3092\u697d\u3057\u3093\u3067\u3044\u305f\u3060\u3051\u3066\u3001\u3068\u3066\u3082\u5b09\u3057\u3044\u3067\u3059\u3002\u65e5\u672c\u4eba\u306e\u820c\u306b\u5408\u3046\u3068\u306e\u304a\u8a00\u8449\u3001\u52b1\u307f\u306b\u306a\u308a\u307e\u3059\uff01\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\uff01",
+                "extracted_snippet": {
+                    "original": "\u304a\u6599\u7406\u3092\u697d\u3057\u3093\u3067\u3044\u305f\u3060\u3051\u3066\u3001\u3068\u3066\u3082\u5b09\u3057\u3044\u3067\u3059\u3002\u65e5\u672c\u4eba\u306e\u820c\u306b\u5408\u3046\u3068\u306e\u304a\u8a00\u8449\u3001\u52b1\u307f\u306b\u306a\u308a\u307e\u3059\uff01\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\uff01",
+                    "translated": "I'm very happy that you enjoyed our food. It's encouraging to hear that it suits the Japanese palate! We look forward to seeing you again!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNubTUtX1lREAE!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgICnm5-_YQ%7CCgwIx7nptwYQsKiroAE%7C?hl=en",
+            "rating": 5.0,
+            "date": "10 months ago",
+            "iso_date": "2024-09-30T08:09:43Z",
+            "iso_date_of_last_edit": "2024-09-30T08:09:43Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNubTUtX1lREAE",
+            "user": {
+                "name": "Kirill Shulga",
+                "link": "https://www.google.com/maps/contrib/115179931823021653764?hl=en",
+                "contributor_id": "115179931823021653764",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWodJRqW0KGz-FmoB4PwYyGEd2fZZjuaWSRZ9BbiAmKdWdG0ng=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 65,
+                "photos": 28
+            },
+            "snippet": "Amazing!",
+            "extracted_snippet": {
+                "original": "Amazing!"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-09-30T08:51:09Z",
+                "iso_date_of_last_edit": "2024-09-30T08:51:09Z",
+                "snippet": "Thank you for your wonderful feedback! We\u2019re so glad to hear you had an amazing experience with us. Your support means the world to our team, and we can\u2019t wait to have you back for another incredible meal!\n",
+                "extracted_snippet": {
+                    "original": "Thank you for your wonderful feedback! We\u2019re so glad to hear you had an amazing experience with us. Your support means the world to our team, and we can\u2019t wait to have you back for another incredible meal!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNudzhfWjZBRRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgICnw8_Z6AE%7CCgwItJTktwYQ0PykzgM%7C?hl=en",
+            "rating": 5.0,
+            "date": "10 months ago",
+            "iso_date": "2024-09-29T08:05:08Z",
+            "iso_date_of_last_edit": "2024-09-29T08:05:08Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B2BbJNejzDizpP2R-NVV1lJRug_S3jeaKylAewY8onf82M1k25OtwU8PEwzGLv1YVnCi84Jm9gzp7YXS-AoJ8WkmTnmDIYNFkObYpP1sAtm_2Y9EK8SLj9xrEgW7NoCVdHt18Q",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B1niiQEInFUrZaKF82rqF2bbVdblpKn5IsEt7oyencpX1xO3qQsdrBv8_oKkM_XigLZrycHt1kQd0kd3PhUQtEsj4tJHE7v7l5yONsiFzmcqtlDA9CDnX_WPPLkTudL_UeSJSdcA",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DHVZAt_2OPjJWqwWrMNMTTJFR77oJoTaDlPLLWyi_nTSBgwxA3E5DL21MK4FFQCx5bGK2qC_JD0FO5xLd3t-cEkzjrA296g8okIgSB37-jx1PY7Hd-RGD8W2BMllyLhnFyy67G",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DMdeTAdnUy1cae5P4f-4wU62Z7v8z3GrP-2WDZyRPyQjUoaCAfRVujimlk-6kv8Q-lyynmnIs34i1ULyD6qwhH_OjdAq160rv6Q2GCxJ8TUy8bhJqdoqK1VVarduYjqjws-tlSbw",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CJbsc0eG75tYNI3oLffudcuu_aYZS5BZN8gOafrLq7sMxInqQAQHRJNWvGjQSW-p9rQEXDUpfCFQwnApHFrSsinvjw1camdP-BilBPh4P1rcW0PPcqqoeSrX1s7IFJbWNn56o",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BlLsZxYZ9-_pDflyh7oLZMDByc8jfr5hHjBvg0YE7gjCGeYNn_guwYpittPOAY1U7cHo6pgQf9nSsGKPn1lWg4PCmcF_gZactIW-S3nim36CJ3UkNw7qhhsYGIA8pjyQ27wjHnEw"
+            ],
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNudzhfWjZBRRAB",
+            "user": {
+                "name": "Alaa benam",
+                "link": "https://www.google.com/maps/contrib/106653232253757983784?hl=en",
+                "contributor_id": "106653232253757983784",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocK-ZjBhT89kAdbqtkwvimheCZdX7R5bmRSAfW19da7WpAAcUw=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 15,
+                "photos": 23
+            },
+            "snippet": "Thank you for the delicious food \ud83d\udc4d\ud83d\ude0a",
+            "extracted_snippet": {
+                "original": "Thank you for the delicious food \ud83d\udc4d\ud83d\ude0a"
+            },
+            "details": {
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-09-30T08:49:28Z",
+                "iso_date_of_last_edit": "2024-09-30T08:49:28Z",
+                "snippet": "Thank you so much for your fantastic review! We\u2019re thrilled to hear you enjoyed your experience with us. Your kind words mean a lot to our team, and we can\u2019t wait to welcome you back soon for another memorable meal!\n",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your fantastic review! We\u2019re thrilled to hear you enjoyed your experience with us. Your kind words mean a lot to our team, and we can\u2019t wait to welcome you back soon for another memorable meal!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNud28tc1ZBEAE!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgICnwo-sVA%7CCgwI7srJtwYQuJfO3QI%7C?hl=en",
+            "rating": 1.0,
+            "date": "10 months ago",
+            "iso_date": "2024-09-24T07:08:30Z",
+            "iso_date_of_last_edit": "2024-09-24T07:08:30Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DWDacEfeDphSOGg1EoHZNBP0bmzOgtXPUQLodk9Jhjr4Lm3-Sr3gSYEKjlfeLCYQsDAgW75A-SEDZrRK2DY7sFpZQKmVaON9WKml6HrFGENOCe8eKmNr4ENmRMUrvbdiWAsSPBXg",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AoHu9YPDDK_ykALLtEymqYfo1nkVyLd9u02qumSlS5WPxTLf6BzaDaWIuGfocGb8kFcmzsEXvL-8b68MOOI03JFdA5tVJmbTTcaPAczZc0oc_1_UwUfnUItJnL196QNez6gSVY"
+            ],
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNud28tc1ZBEAE",
+            "user": {
+                "name": "Ahmed Ali Kazmi",
+                "link": "https://www.google.com/maps/contrib/107530876500037894140?hl=en",
+                "contributor_id": "107530876500037894140",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKNUwI8hLrJRLAI36ZVCeHGa0d4RJVV5Om0jcVZ6uW1TYS_SQ=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 25,
+                "photos": 4
+            },
+            "snippet": "Overall, it is a below average experience. Food is overhyped, especially the ramen has not taste.\nNeed to make a lot of improvements.",
+            "extracted_snippet": {
+                "original": "Overall, it is a below average experience. Food is overhyped, especially the ramen has not taste.\nNeed to make a lot of improvements."
+            },
+            "details": {
+                "food": 1,
+                "service": 1,
+                "atmosphere": 3
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-09-30T08:55:33Z",
+                "iso_date_of_last_edit": "2024-09-30T08:55:33Z",
+                "snippet": "Thank you for taking the time to share your thoughts. We're sorry to hear that your experience didn\u2019t meet your expectations, especially regarding the ramen. Your feedback is invaluable, and we\u2019re committed to making improvements. We hope you'll give us another chance in the future to provide you with a better dining experience.",
+                "extracted_snippet": {
+                    "original": "Thank you for taking the time to share your thoughts. We're sorry to hear that your experience didn\u2019t meet your expectations, especially regarding the ramen. Your feedback is invaluable, and we\u2019re committed to making improvements. We hope you'll give us another chance in the future to provide you with a better dining experience."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNkaWV1OWVnEAE!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgICdieu9eg%7CCgwI1cnftgYQ-PKcpQI%7C?hl=en",
+            "rating": 5.0,
+            "date": "Edited 11 months ago",
+            "iso_date": "2024-02-16T06:22:47Z",
+            "iso_date_of_last_edit": "2024-09-04T04:40:53Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DUPLnhQrdLYLO8dWbTaY9YJA0vHdPP2aApoR3HDTyC3-3fFKpmyi8g5rREqVLO-ShC8y1CnFKPOtVIysu7Edq_UQee_orgr0Sbtg1cfdl5wIvX959jvdxe3rXbd-Saf4KTVCfi"
+            ],
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNkaWV1OWVnEAE",
+            "user": {
+                "name": "Lark \u201cLark\u201d Davidson",
+                "link": "https://www.google.com/maps/contrib/108732964582361910125?hl=en",
+                "contributor_id": "108732964582361910125",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKxuPKxpU6_n1bCr8g8z4gV9EsGIIieJmgrWGRDevMoZHeA5Q=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 60,
+                "photos": 11
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-09-13T14:37:39Z",
+                "iso_date_of_last_edit": "2024-09-13T14:37:39Z",
+                "snippet": "Thank you!",
+                "extracted_snippet": {
+                    "original": "Thank you!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNIMG96M2NnEAE!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgICH0oz3cg%7CCgsI0uXatgYQwLaxNg%7C?hl=en",
+            "rating": 5.0,
+            "date": "11 months ago",
+            "iso_date": "2024-09-03T06:55:14Z",
+            "iso_date_of_last_edit": "2024-09-03T06:55:14Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNIMG96M2NnEAE",
+            "user": {
+                "name": "Bakhtiyor Akhmad",
+                "link": "https://www.google.com/maps/contrib/110758432416640522438?hl=en",
+                "contributor_id": "110758432416640522438",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV6FBRYOQOXMaSKcpE7aPrkpl19wDCBua7gcgaVCjxC6Ofnza0=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 7,
+                "photos": 23
+            },
+            "snippet": "\u0428\u0430\u0448\u043b\u044b\u043a \u0438 \u0441\u0430\u043c\u0441\u0430 \u043e\u0447\u0435\u043d\u044c \u0432\u043a\u0443\u0441\u043d\u044b\u0439 \u0438 \u0423\u0437\u0431\u0435\u043a\u0441\u043a\u0438\u0439 \u043b\u0435\u043f\u0451\u0448\u043a\u0430.",
+            "extracted_snippet": {
+                "original": "\u0428\u0430\u0448\u043b\u044b\u043a \u0438 \u0441\u0430\u043c\u0441\u0430 \u043e\u0447\u0435\u043d\u044c \u0432\u043a\u0443\u0441\u043d\u044b\u0439 \u0438 \u0423\u0437\u0431\u0435\u043a\u0441\u043a\u0438\u0439 \u043b\u0435\u043f\u0451\u0448\u043a\u0430.",
+                "translated": "Shashlik and samsa are very tasty and Uzbek flatbread."
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "\u0423\u0437\u0431\u0435\u043a\u0441\u043a\u0430\u044f \u041b\u0435\u043f\u0435\u0448\u043a\u0430"
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-09-13T14:37:17Z",
+                "iso_date_of_last_edit": "2024-09-13T14:37:17Z",
+                "snippet": "Thank you very much!",
+                "extracted_snippet": {
+                    "original": "Thank you very much!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUQ3N1kzVHp3RRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgID77Y3TzwE%7CCgwIir-2tgYQiOX_qgI%7C?hl=en",
+            "rating": 4.0,
+            "date": "11 months ago",
+            "iso_date": "2024-08-27T09:42:34Z",
+            "iso_date_of_last_edit": "2024-08-27T09:42:34Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUQ3N1kzVHp3RRAB",
+            "user": {
+                "name": "Oybek Xasanov",
+                "link": "https://www.google.com/maps/contrib/116279697660106522758?hl=en",
+                "contributor_id": "116279697660106522758",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWZeYcm2Lc-DUZ4qjOC9wDz3N3lsLul6A-dZyUq9fm_RgIJAWyU=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 1
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-09-13T14:37:59Z",
+                "iso_date_of_last_edit": "2024-09-13T14:37:59Z",
+                "snippet": "Rahmat!",
+                "extracted_snippet": {
+                    "original": "Rahmat!",
+                    "translated": "Grace!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUM3ekw3Q0VnEAE!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CIHM0ogKEICAgIC7zL7CEg%7CCgwI1rbstQYQoLaSpgM%7C?hl=en",
+            "rating": 5.0,
+            "date": "11 months ago",
+            "iso_date": "2024-08-13T08:37:42Z",
+            "iso_date_of_last_edit": "2024-08-13T08:37:42Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUM3ekw3Q0VnEAE",
+            "user": {
+                "name": "Reguia",
+                "link": "https://www.google.com/maps/contrib/106333861049308765206?hl=en",
+                "contributor_id": "106333861049308765206",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLVlWl9rDvfdaYwXm9isl6bnU-4QYV1u6-YQM9Clxq80UqPaDg=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 188,
+                "photos": 153
+            },
+            "snippet": "Excellent repas pris dans ce beau restaurant.",
+            "extracted_snippet": {
+                "original": "Excellent repas pris dans ce beau restaurant.",
+                "translated": "Excellent meal at this beautiful restaurant."
+            },
+            "details": {
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "10 months ago",
+                "iso_date": "2024-09-13T14:38:46Z",
+                "iso_date_of_last_edit": "2024-09-13T14:38:46Z",
+                "snippet": "Thank you so much!\ud83e\udef6\ud83c\udffb",
+                "extracted_snippet": {
+                    "original": "Thank you so much!\ud83e\udef6\ud83c\udffb"
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFiQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSell4U0ZSVFlWOWZSV2hEWkdKTFJURjROemxmV0VOWVpIcHJkMEZCUVVGQlIyZHVPVFoyZDBOaWNsVmtUa3B2V1VGRFNVRQ%3D%3D&num=20&place_id=ChIJn4ii2YCOGGARnj3-PUaZ_Qg&sort_by=newestFirst",
+        "next_page_token": "CAESY0NBRVFiQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSell4U0ZSVFlWOWZSV2hEWkdKTFJURjROemxmV0VOWVpIcHJkMEZCUVVGQlIyZHVPVFoyZDBOaWNsVmtUa3B2V1VGRFNVRQ=="
+    }
+}

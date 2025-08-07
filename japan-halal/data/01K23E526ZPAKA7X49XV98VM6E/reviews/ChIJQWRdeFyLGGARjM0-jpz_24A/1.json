@@ -1,0 +1,836 @@
+{
+    "search_metadata": {
+        "id": "689537f75c018f46039e47f3",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/900543b36ee661fe/689537f75c018f46039e47f3.json",
+        "created_at": "2025-08-07 23:34:15 UTC",
+        "processed_at": "2025-08-07 23:34:15 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/900543b36ee661fe/689537f75c018f46039e47f3.html",
+        "prettify_html_file": "https://serpapi.com/searches/900543b36ee661fe/689537f75c018f46039e47f3.prettify",
+        "total_time_taken": 0.65
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJQWRdeFyLGGARjM0-jpz_24A",
+        "hl": "en",
+        "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMlZYUzFwT1IxOWZSV2hDWkVoak4wVkNRVmN6WW0weVFXdDFRVUZCUVVGQlIyZHVPVEp2UVVOYU5WbHdhekJaV1VGRFNVRQ==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21SS04xSjFVblZKUjI1ek1YUmFUMHhUTkZaT2VVRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOmRKN1J1UnVJR25zMXRaT0xTNFZOeUE%7C0cYRTXA8TL7%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-08-02T08:09:06Z",
+            "iso_date_of_last_edit": "2025-08-02T08:09:06Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SS04xSjFVblZKUjI1ek1YUmFUMHhUTkZaT2VVRRAB",
+            "user": {
+                "name": "Faadhil As-sayfullooh",
+                "link": "https://www.google.com/maps/contrib/106775310738129515580?hl=en",
+                "contributor_id": "106775310738129515580",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW8GDxK1T1fzTGBhuwkByr-cvbQ-y_ZsK94cdwrRXN3DcOwCDvE5Q=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 27,
+                "photos": 16
+            },
+            "snippet": "The beef steak is juicy and when it is mixed with the tartar sauce, really yummy.",
+            "extracted_snippet": {
+                "original": "The beef steak is juicy and when it is mixed with the tartar sauce, really yummy."
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Moderate noise",
+                "group_size": "3-4 people",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:41:10Z",
+                "iso_date_of_last_edit": "2025-08-05T05:41:10Z",
+                "snippet": "Thank you for your wonderful feedback! We're thrilled to hear that you enjoyed the beef steak with tartar sauce. We look forward to serving you again soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your wonderful feedback! We're thrilled to hear that you enjoyed the beef steak with tartar sauce. We look forward to serving you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WcFpWWkhSamhFVEV0UWVFNUNla3h3VEdaWVRVRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOnVpZVZHRjhETEtQeE5CekxwTGZYTUE%7C0cYPJjgTJWW%7C?hl=en",
+            "rating": 4.0,
+            "date": "5 days ago",
+            "iso_date": "2025-08-02T05:42:07Z",
+            "iso_date_of_last_edit": "2025-08-02T05:42:07Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WcFpWWkhSamhFVEV0UWVFNUNla3h3VEdaWVRVRRAB",
+            "user": {
+                "name": "jakfar idrus",
+                "link": "https://www.google.com/maps/contrib/112777491717739469219?hl=en",
+                "contributor_id": "112777491717739469219",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWh7zTlQWk4LPB3iGsWuKcOOzIj6wd4MabUoN1xJ_Zxuleccj0B=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Recently opened restaurant near JR Shinbashi station that offers delicious halal beef, making it a great option for Muslims seeking authentic Halal cuisine. The ambience is warm and inviting, perfectly located in the bustling district of Shinbashi. I highly recommend this spot for anyone looking to enjoy quality food in a pleasant setting.\nThey have our favourite Teh Botol Sosro also!",
+            "extracted_snippet": {
+                "original": "Recently opened restaurant near JR Shinbashi station that offers delicious halal beef, making it a great option for Muslims seeking authentic Halal cuisine. The ambience is warm and inviting, perfectly located in the bustling district of Shinbashi. I highly recommend this spot for anyone looking to enjoy quality food in a pleasant setting.\nThey have our favourite Teh Botol Sosro also!"
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 4,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "3-4 people",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:41:08Z",
+                "iso_date_of_last_edit": "2025-08-05T05:41:08Z",
+                "snippet": "Your kind words about our restaurant bring us joy! It's fantastic to know that you enjoyed the halal beef and found the location convenient. We're also pleased you like the Teh Botol Sosro. Looking forward to your next visit!",
+                "extracted_snippet": {
+                    "original": "Your kind words about our restaurant bring us joy! It's fantastic to know that you enjoyed the halal beef and found the location convenient. We're also pleased you like the Teh Botol Sosro. Looking forward to your next visit!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25oUVdYcENVbUU1Y3preFpHMUxjM05XZFVwbU4xRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOnhQWXpCUmE5czkxZG1Lc3NWdUpmN1E%7C0cYPIYolYbX%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-08-02T05:40:51Z",
+            "iso_date_of_last_edit": "2025-08-02T05:40:51Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oUVdYcENVbUU1Y3preFpHMUxjM05XZFVwbU4xRRAB",
+            "user": {
+                "name": "\u30ed\u30b9\u30c6\u30a3\u30ab\u30df\u30e4",
+                "link": "https://www.google.com/maps/contrib/104395170237545828017?hl=en",
+                "contributor_id": "104395170237545828017",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIA7eN1PY8fuXKjzkRmFTcGeN2FLms2Rh1hsSbqe3mFPwYVLw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "\u30b5\u30e0\u30e9\u30a4\u713c\u8089\u30b9\u30c6\u30fc\u30ad\u3092\u6ce8\u6587\u3057\u307e\u3057\u305f\u3002\u7f8e\u5473\u3057\u304b\u3063\u305f\u3067\u3059\u3002\u8089\u306f\u67d4\u3089\u304b\u304f\u3066\u3001\u30bb\u30c3\u30c8\u306b\u51fa\u3066\u304d\u305f\u8089\u5bff\u53f8\u3082\u7f8e\u5473\u3057\u304b\u3063\u305f\u3067\u3059\u3002\u30b9\u30bf\u30c3\u30d5\u306f\u512a\u3057\u3044\u5916\u56fd\u4eba\u3067\u3001\u3068\u3066\u3082\u611f\u3058\u306e\u826f\u3044\u65b9\u3067\u3057\u305f\u3002\u6771\u4eac\u306b\u30cf\u30e9\u30fc\u30eb\u306e\u8089\u304c\u98df\u3079\u305f\u3044\u65b9\u306b\u5f37\u304f\u304a\u3059\u3059\u3081\u3057\u307e\u3059\u3002\u307e\u305f\u6765\u305f\u3044\u3068\u601d\u3044\u307e\u3059\u3002",
+            "extracted_snippet": {
+                "original": "\u30b5\u30e0\u30e9\u30a4\u713c\u8089\u30b9\u30c6\u30fc\u30ad\u3092\u6ce8\u6587\u3057\u307e\u3057\u305f\u3002\u7f8e\u5473\u3057\u304b\u3063\u305f\u3067\u3059\u3002\u8089\u306f\u67d4\u3089\u304b\u304f\u3066\u3001\u30bb\u30c3\u30c8\u306b\u51fa\u3066\u304d\u305f\u8089\u5bff\u53f8\u3082\u7f8e\u5473\u3057\u304b\u3063\u305f\u3067\u3059\u3002\u30b9\u30bf\u30c3\u30d5\u306f\u512a\u3057\u3044\u5916\u56fd\u4eba\u3067\u3001\u3068\u3066\u3082\u611f\u3058\u306e\u826f\u3044\u65b9\u3067\u3057\u305f\u3002\u6771\u4eac\u306b\u30cf\u30e9\u30fc\u30eb\u306e\u8089\u304c\u98df\u3079\u305f\u3044\u65b9\u306b\u5f37\u304f\u304a\u3059\u3059\u3081\u3057\u307e\u3059\u3002\u307e\u305f\u6765\u305f\u3044\u3068\u601d\u3044\u307e\u3059\u3002",
+                "translated": "I ordered the Samurai Yakiniku Steak. It was delicious. The meat was tender, and the meat sushi that came with the set was also delicious. The staff were kind and very friendly. I highly recommend this place to anyone wanting to eat halal meat in Tokyo. I would love to come again."
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "3-4 people",
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:41:07Z",
+                "iso_date_of_last_edit": "2025-08-05T05:41:07Z",
+                "snippet": "\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3001\u8aa0\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u30b5\u30e0\u30e9\u30a4\u713c\u8089\u30b9\u30c6\u30fc\u30ad\u3068\u8089\u5bff\u53f8\u3092\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u5b09\u3057\u3044\u3067\u3059\u3002\u30b9\u30bf\u30c3\u30d5\u306b\u3082\u304a\u8912\u3081\u306e\u8a00\u8449\u3092\u3044\u305f\u3060\u304d\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u6771\u4eac\u3067\u30cf\u30e9\u30fc\u30eb\u306e\u304a\u8089\u3092\u304a\u63a2\u3057\u306e\u65b9\u306b\u3082\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u308b\u3088\u3046\u3001\u3053\u308c\u304b\u3089\u3082\u52aa\u3081\u3066\u307e\u3044\u308a\u307e\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3001\u8aa0\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u30b5\u30e0\u30e9\u30a4\u713c\u8089\u30b9\u30c6\u30fc\u30ad\u3068\u8089\u5bff\u53f8\u3092\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u5b09\u3057\u3044\u3067\u3059\u3002\u30b9\u30bf\u30c3\u30d5\u306b\u3082\u304a\u8912\u3081\u306e\u8a00\u8449\u3092\u3044\u305f\u3060\u304d\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u6771\u4eac\u3067\u30cf\u30e9\u30fc\u30eb\u306e\u304a\u8089\u3092\u304a\u63a2\u3057\u306e\u65b9\u306b\u3082\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u308b\u3088\u3046\u3001\u3053\u308c\u304b\u3089\u3082\u52aa\u3081\u3066\u307e\u3044\u308a\u307e\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you very much for visiting us. We are glad that you enjoyed our Samurai Yakiniku Steak and meat sushi. We also appreciate your kind words about our staff. We will continue to strive to satisfy those looking for Halal meat in Tokyo. We look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25OZmNsSnNZWGROYUVGSVZXTkVNWGRsUjJsWmNGRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOnNfclJsYXdNaEFIVWNEMXdlR2lZcFE%7C0cYPHE45ekU%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-08-02T05:39:27Z",
+            "iso_date_of_last_edit": "2025-08-02T05:39:27Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AQLq_Kj1q1htezzwtC2vin4HEFPrF2k4tCJaTDBazPDMNa2xs06dDD35JXhaRnjeYwRPMDb_ugviU9Nl5LLCwfrMZpO9GhvzwdxaVPbJHHBIM9OBcypIF7_hSaBNYGERPLc98ZZQHFg4o",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D7qlOdpQpKWeVCtAEbx1srtERe6S1oEB1quZ_Eg-E7y5zgJ_zTfhNdcVRWdxdnYinGciqOb8RW5u3UK2G2n0vLFgw8K6FiGZ_bzaEya8lqMiYeQgbD9XN0SxfTmxMm8wFmtKyavU4REhpq"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OZmNsSnNZWGROYUVGSVZXTkVNWGRsUjJsWmNGRRAB",
+            "user": {
+                "name": "Syanne Tarina",
+                "link": "https://www.google.com/maps/contrib/114581226838093120396?hl=en",
+                "contributor_id": "114581226838093120396",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKRb_YB2qaqFTMIJ4YDxOOq7woDPBak_CdwBQf-TAc6D-kQZw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 4
+            },
+            "snippet": "I ordered Premium Gyu-Katsu Beef Cutlet Set Meal.\nI really enjoyed the food here! The 1-seat meal is perfectly portioned for one person, and the price is very reasonable for the quality of the dishes. The ingredients taste fresh, and everything was served nicely and on time.\nThe staff (Syadza from Indonesia) were also friendly and helpful, which made the whole dining experience even better. I highly recommend this restaurant! \ud83d\ude0d",
+            "extracted_snippet": {
+                "original": "I ordered Premium Gyu-Katsu Beef Cutlet Set Meal.\nI really enjoyed the food here! The 1-seat meal is perfectly portioned for one person, and the price is very reasonable for the quality of the dishes. The ingredients taste fresh, and everything was served nicely and on time.\nThe staff (Syadza from Indonesia) were also friendly and helpful, which made the whole dining experience even better. I highly recommend this restaurant! \ud83d\ude0d"
+            },
+            "details": {
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "3-4 people",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:41:05Z",
+                "iso_date_of_last_edit": "2025-08-05T05:41:05Z",
+                "snippet": "We appreciate your positive feedback! It\u2019s great to know that the portion and quality of our meals met your expectations. Our staff is dedicated to providing excellent service, and we\u2019re happy that you felt welcomed. Thank you for recommending our restaurant!",
+                "extracted_snippet": {
+                    "original": "We appreciate your positive feedback! It\u2019s great to know that the portion and quality of our meals met your expectations. Our staff is dedicated to providing excellent service, and we\u2019re happy that you felt welcomed. Thank you for recommending our restaurant!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kV2NIWTJkbUZJV1RsbVYwSk5ZVXhNTTNKWU1VRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOmdWcHY2dmFIWTlmV0JNYUxMM3JYMUE%7C0cYPGACEWEC%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-08-02T05:38:19Z",
+            "iso_date_of_last_edit": "2025-08-02T05:38:19Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DK-fFJgrVWDjfC1GejQbZebJfzFkg94nRsHXEvzGYNnlpCqwFx1_oEfGO24Xvzh_OQhnT7SLbQHyUEqThKOALarsbcNEEZQm2wk1gkpnCgJt_XexWWrBmkMit1IYJ3lqeOQJh7UDL5GmFv"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kV2NIWTJkbUZJV1RsbVYwSk5ZVXhNTTNKWU1VRRAB",
+            "user": {
+                "name": "Adrianto Kusumo",
+                "link": "https://www.google.com/maps/contrib/106869409696969092574?hl=en",
+                "contributor_id": "106869409696969092574",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUAVItWCWqg75H4z6yyZsF_fG3UEiVEhx_lC6XIheR3tvVKJTY=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 1
+            },
+            "snippet": "We ordered yakiniku steak and gyukatsu, and both taste very good.\nRecommended!",
+            "extracted_snippet": {
+                "original": "We ordered yakiniku steak and gyukatsu, and both taste very good.\nRecommended!"
+            },
+            "details": {
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "5-8 people",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:41:04Z",
+                "iso_date_of_last_edit": "2025-08-05T05:41:04Z",
+                "snippet": "Thank you for your positive feedback! We're thrilled to hear that you enjoyed the yakiniku steak and gyukatsu. We hope to serve you again soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your positive feedback! We're thrilled to hear that you enjoyed the yakiniku steak and gyukatsu. We hope to serve you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wbVpuVmxWVzFCYWpJNWFVVlNUSFl0UVZkWFFWRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOmpmZnVlVW1BajI5aUVSTHYtQVdXQVE%7C0cYAESGHEo-%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-08-01T12:32:29Z",
+            "iso_date_of_last_edit": "2025-08-01T12:32:29Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ab0kLO6tKlfOg2GyFwM5PuQnpKE8Yk1TPn4s8oA_szK75tkjBA8SVsLf0tV7FPa7I058ar4dIgd-NoWEFejVi7fBoQqmKQMv4TpMlYkOoc5m8JybZRmFBjha8npwgTCGXDEzYR8mYMdwU",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A7WmjjZ5zloqGhmypc5LQ5OhMyEytCrq228qohOIdnlOrC-WSSvyDV-epmRfC0hrSDVyyUmrZX0uAF4tnDu0CinT9rznsEX8QMLt_xdsHCFtJxiZYpeNcOzSssGa_QqxmvhR2m-uzJAu6y",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A0nxT7cPsC9Ltmc-KnWmZLE--HY-3aAeYFYvWhgLj1QqG2RyEUkfJdqtHIcPZDyCZuQE6whEhWctu_iHJZu_lzTcSp5MJa39Qzl9QpB6V5U83ikhPbp6YnmXQdY26Zhs8JiYZO6sqlGhqK"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wbVpuVmxWVzFCYWpJNWFVVlNUSFl0UVZkWFFWRRAB",
+            "user": {
+                "name": "Muslimah Bekasi di Jepang",
+                "link": "https://www.google.com/maps/contrib/102797259944335891520?hl=en",
+                "contributor_id": "102797259944335891520",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWQx_QJbFlWvSxjxAVqK0xggIO1kvR_mJ5qiSQCxgY7-gMMopBj=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 32,
+                "photos": 382
+            },
+            "snippet": "Terima kasih sudah menghadirkan menu Gyuukatsu ini,, daging gyuukatsu dan yakiniku nya sangat empuk dan saus tare nya enak sekali,, lokasi nya juga sangat dekat dengan stasiun Shinbashi,, Gochisousama deshita ^^,,",
+            "extracted_snippet": {
+                "original": "Terima kasih sudah menghadirkan menu Gyuukatsu ini,, daging gyuukatsu dan yakiniku nya sangat empuk dan saus tare nya enak sekali,, lokasi nya juga sangat dekat dengan stasiun Shinbashi,, Gochisousama deshita ^^,,",
+                "translated": "Thank you for presenting this Gyuukatsu menu, the gyuukatsu and yakiniku meat is very tender and the tare sauce is very delicious, the location is also very close to Shinbashi station, Gochisousama deshita ^^,,"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:31:20Z",
+                "iso_date_of_last_edit": "2025-08-05T05:31:20Z",
+                "snippet": "Terima kasih telah mengunjungi restoran kami dan memberikan umpan balik yang positif. Selalu menyenangkan mendengar bahwa para tamu menikmati masakan kami. Kami berharap anda datang kembali untuk pengalaman yang lebih memuaskan!",
+                "extracted_snippet": {
+                    "original": "Terima kasih telah mengunjungi restoran kami dan memberikan umpan balik yang positif. Selalu menyenangkan mendengar bahwa para tamu menikmati masakan kami. Kami berharap anda datang kembali untuk pengalaman yang lebih memuaskan!",
+                    "translated": "Thank you for visiting our restaurant and leaving positive feedback. It's always a pleasure to hear that guests enjoy our food. We hope you'll come back for another satisfying experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21WSFUwRjJaVWRvT0U1a2IxRXRkVFk0ZFZKV2MwRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOmVHU0F2ZUdoOE5kb1EtdTY4dVJWc0E%7C0cY7XqNhceg%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-08-01T09:28:22Z",
+            "iso_date_of_last_edit": "2025-08-01T09:28:22Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WSFUwRjJaVWRvT0U1a2IxRXRkVFk0ZFZKV2MwRRAB",
+            "user": {
+                "name": "nan nan",
+                "link": "https://www.google.com/maps/contrib/102110351822219832822?hl=en",
+                "contributor_id": "102110351822219832822",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ1Jr9qXlgqV2gB5_kVf4bNi-YVwFOTk61TZqZPsAd7v1xArg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 0
+            },
+            "snippet": "We always come here for the gyu-katsu. The portion is big. Even my child who is not a beef eater chooses the gyu-katsu here. Highly recommended.",
+            "extracted_snippet": {
+                "original": "We always come here for the gyu-katsu. The portion is big. Even my child who is not a beef eater chooses the gyu-katsu here. Highly recommended."
+            },
+            "details": {
+                "service": 5,
+                "food": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:31:17Z",
+                "iso_date_of_last_edit": "2025-08-05T05:31:17Z",
+                "snippet": "Thank you for your glowing recommendation! We're thrilled to hear that our gyu-katsu is enjoyed by both you and your child. We look forward to welcoming you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your glowing recommendation! We're thrilled to hear that our gyu-katsu is enjoyed by both you and your child. We look forward to welcoming you back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21zelIySkpRelJRUlhoWVVFTk9SbVZhYW1sT2IyYxAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOmszR2JJQzRQRXhYUENORmVaamlOb2c%7C0cY7ByTJAWl%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-08-01T09:05:02Z",
+            "iso_date_of_last_edit": "2025-08-01T09:05:02Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21zelIySkpRelJRUlhoWVVFTk9SbVZhYW1sT2IyYxAB",
+            "user": {
+                "name": "Iqrar Ahmad",
+                "link": "https://www.google.com/maps/contrib/102084882932376152224?hl=en",
+                "contributor_id": "102084882932376152224",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJo1TX42TqgFg8NFQhSsoxDytN3Zz3ptDzSZHY2Yp7tCES4iw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:31:15Z",
+                "iso_date_of_last_edit": "2025-08-05T05:31:15Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u5f53\u5e97\u3092\u304a\u9078\u3073\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\n\u3088\u308a\u826f\u3044\u30b5\u30fc\u30d3\u30b9\u306e\u63d0\u4f9b\u3092\u76ee\u6307\u3057\u3001\u7cbe\u9032\u3057\u3066\u307e\u3044\u308a\u307e\u3059\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u5f53\u5e97\u3092\u304a\u9078\u3073\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\n\u3088\u308a\u826f\u3044\u30b5\u30fc\u30d3\u30b9\u306e\u63d0\u4f9b\u3092\u76ee\u6307\u3057\u3001\u7cbe\u9032\u3057\u3066\u307e\u3044\u308a\u307e\u3059\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for choosing our store.\nWe will continue to strive to provide better service.\nWe look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xrMVp6aGtWalpXVEVaTlZraDJOemxWTFU5NmFVRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOlk1ZzhkVjZWTEZNVkh2NzlVLU96aUE%7C0cY3K25i26S%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-08-01T04:40:35Z",
+            "iso_date_of_last_edit": "2025-08-01T04:40:35Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrMVp6aGtWalpXVEVaTlZraDJOemxWTFU5NmFVRRAB",
+            "user": {
+                "name": "Ayu Dianita Sari",
+                "link": "https://www.google.com/maps/contrib/106614314253641110497?hl=en",
+                "contributor_id": "106614314253641110497",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUX0A5DNzBASyraheIu3FL1VA5sdD3gbhwZEGeWr5orzMPuMXeiUQ=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 8,
+                "photos": 26
+            },
+            "snippet": "very delicious \ud83d\ude0a",
+            "extracted_snippet": {
+                "original": "very delicious \ud83d\ude0a"
+            },
+            "details": {
+                "service": 5,
+                "price_per_person": "\u00a57,000\u20138,000",
+                "food": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "2 people"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:31:14Z",
+                "iso_date_of_last_edit": "2025-08-05T05:31:14Z",
+                "snippet": "Thank you for your feedback! We're thrilled to hear that you found our food delicious. We look forward to welcoming you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your feedback! We're thrilled to hear that you found our food delicious. We look forward to welcoming you back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKVk0xSllkbTV6V2tGaFIzSkhZV1pJVDBoaVQwRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOlJVM1JYdm5zWkFhR3JHYWZIT0hiT0E%7C0cY3GwEj7pq%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-08-01T04:37:16Z",
+            "iso_date_of_last_edit": "2025-08-01T04:37:16Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BTvVm2kcKlHytQpstJbXK4CjRwqKowu31bJskJJxAes9GuXiIe0MSlQ8K2hq_gMURSg3waSPIJxpvX6fTXmnq0gpoaKn_7HhfW72LWN01XkIBJ7PKy7EAeZZ2lT7CjZf0xv7gxxSWLF5Jd",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AjWKgy1Pcy461tnf1KduhpyCkKqyTaEsMhUM4KVBTaDOddNEAbeErK4ESBhlVs6FRZM06ejsAYCOdNZOaAhm9Mxn3imy12kVDrsqyzrE3Glt-JJKNBXUBTxjS5-58NNMkq7s8dDZr7Q2dC",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D-kWYCoeJUjJMQDxbox4SSwDF25Zd1Qy4BIh6ltDJzzI7CBSVwEWh1eBxL5t0fTLvHSsR0j7lMca2V59UYgYeT7Ww1eL8U3FBJN1MBnBtvO46ibsX9riXQfRvXCghLdUZixog76D6O8CV1",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BJqoLfop_uBQMeGzHHJxuqJ4AA2cKUZPkJWF3xX-pHawb3K4Yh7QAQpBxrPEJKyzuvMgTEhewuum99g7Oj7K4HNyYkZylAh4LjeFtMFhvWwobtOGlMw3Hq2F0T_-1dMGjmpjr2TNNW2GqP"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKVk0xSllkbTV6V2tGaFIzSkhZV1pJVDBoaVQwRRAB",
+            "user": {
+                "name": "Feby Parmita Riani",
+                "link": "https://www.google.com/maps/contrib/110879924997932261257?hl=en",
+                "contributor_id": "110879924997932261257",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVgGDe7BqNeO-DSA44bM2A6bb4ZBGwigpkAkoc_RT5VjFDpr2v2eA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 12
+            },
+            "snippet": "First time eat Gyukatsu in Japan. I recommend to try Premium Gyukatsu Cutlet is the best, so tender and juicy into my mouth!",
+            "extracted_snippet": {
+                "original": "First time eat Gyukatsu in Japan. I recommend to try Premium Gyukatsu Cutlet is the best, so tender and juicy into my mouth!"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:31:13Z",
+                "iso_date_of_last_edit": "2025-08-05T05:31:13Z",
+                "snippet": "Thank you for trying our Gyukatsu and for your recommendation! It\u2019s wonderful to know that you enjoyed it so much. We hope to see you again on your next trip to Japan.",
+                "extracted_snippet": {
+                    "original": "Thank you for trying our Gyukatsu and for your recommendation! It\u2019s wonderful to know that you enjoyed it so much. We hope to see you again on your next trip to Japan."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tacFoxTkdSVEpVWlVRMVVXUmhlRkp2VDI1dkxXYxAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOkZpZ1NGRTJUZUQ1UWRheFJvT25vLWc%7C0cY2vM1nfAH%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-08-01T04:13:11Z",
+            "iso_date_of_last_edit": "2025-08-01T04:13:11Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tacFoxTkdSVEpVWlVRMVVXUmhlRkp2VDI1dkxXYxAB",
+            "user": {
+                "name": "Muhammadxon Ergashev",
+                "link": "https://www.google.com/maps/contrib/111185280438329576313?hl=en",
+                "contributor_id": "111185280438329576313",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXKlCELzi3m2erk30TPLOTA49ufMSbu6QTVP3xYUcrS_xeEXsQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Food is very delicious. Quiet and cozy please. Very friendly staff.",
+            "extracted_snippet": {
+                "original": "Food is very delicious. Quiet and cozy please. Very friendly staff."
+            },
+            "details": {
+                "price_per_person": "\u00a59,000\u201310,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "Suitable for all group sizes"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:31:12Z",
+                "iso_date_of_last_edit": "2025-08-05T05:31:12Z",
+                "snippet": "Thank you for your kind words! We're thrilled to hear you enjoyed the delicious food and our cozy atmosphere. Our staff always strives to provide friendly service, and we're glad you felt welcomed. We look forward to your next visit.",
+                "extracted_snippet": {
+                    "original": "Thank you for your kind words! We're thrilled to hear you enjoyed the delicious food and our cozy atmosphere. Our staff always strives to provide friendly service, and we're glad you felt welcomed. We look forward to your next visit."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT210WmIxbElabEJ5VkZocVVuTkxNVzlhZDFOU1gzYxAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOmtZb1lIZlByVFhqUnNLMW9ad1NSX3c%7C0cY2sRMZhMW%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-08-01T04:10:04Z",
+            "iso_date_of_last_edit": "2025-08-01T04:10:04Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210WmIxbElabEJ5VkZocVVuTkxNVzlhZDFOU1gzYxAB",
+            "user": {
+                "name": "Bunyodxon KARIMOV",
+                "link": "https://www.google.com/maps/contrib/100507088525686056405?hl=en",
+                "contributor_id": "100507088525686056405",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIaM122MiWTp4ArPIPF7j5t4VmKNxj2wDCEI7l-G5M9o-1LUw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "We have ordered 2 special sets with my friend, Meat is very delicious and staffs are very polite and prayer room also available.",
+            "extracted_snippet": {
+                "original": "We have ordered 2 special sets with my friend, Meat is very delicious and staffs are very polite and prayer room also available."
+            },
+            "details": {
+                "service": 5,
+                "price_per_person": "\u00a59,000\u201310,000",
+                "food": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "2 people, Suitable for all group sizes"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:31:10Z",
+                "iso_date_of_last_edit": "2025-08-05T05:31:10Z",
+                "snippet": "We greatly appreciate your kind words. It's wonderful to hear that you had a positive experience with both our food and staff. We are always eager to make every visit enjoyable for our guests, and we hope to see you again soon!",
+                "extracted_snippet": {
+                    "original": "We greatly appreciate your kind words. It's wonderful to hear that you had a positive experience with both our food and staff. We are always eager to make every visit enjoyable for our guests, and we hope to see you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxdU1XWndkM2xXZERSTmIwRjJkMFExYlc4M1oyYxAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOi1uMWZwd3lWdDRNb0F2d0Q1bW83Z2c%7C0cXywBPPBcF%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-31T22:32:44Z",
+            "iso_date_of_last_edit": "2025-07-31T22:32:44Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxdU1XWndkM2xXZERSTmIwRjJkMFExYlc4M1oyYxAB",
+            "user": {
+                "name": "Tahmid Bin Pasha Sajid",
+                "link": "https://www.google.com/maps/contrib/111162953290875042099?hl=en",
+                "contributor_id": "111162953290875042099",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVSRy-dvAteHaEnMd6NYyTkcTtNq4Njy7XsieKx5I5oxUZrvdWs=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 43,
+                "photos": 120
+            },
+            "snippet": "Had Halal Wagyu Beef Cutlet for the first time and Im surely visiting again!\nGreat service and great food!\nDefinitely recommended 10/10",
+            "extracted_snippet": {
+                "original": "Had Halal Wagyu Beef Cutlet for the first time and Im surely visiting again!\nGreat service and great food!\nDefinitely recommended 10/10"
+            },
+            "details": {
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "group_size": "Suitable for all group sizes",
+                "wait_time": "No wait",
+                "dietary_restrictions": "Halal Muslim Friendly"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:31:08Z",
+                "iso_date_of_last_edit": "2025-08-05T05:31:08Z",
+                "snippet": "Thank you for your wonderful review! We're thrilled to hear that you enjoyed the Halal Wagyu Beef Cutlet and found our service great. We look forward to welcoming you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your wonderful review! We're thrilled to hear that you enjoyed the Halal Wagyu Beef Cutlet and found our service great. We look forward to welcoming you back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pBNGFFVTFlVkZIUkRCQmNWSlRVbk10UWt3MmFGRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOjA4aEU1eVFHRDBBcVJTUnMtQkw2aFE%7C0cXomAAA9gG%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-31T10:59:23Z",
+            "iso_date_of_last_edit": "2025-07-31T10:59:23Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bz-wKDjNGEQhz0IXimNuH-IhSCvswKoCsg_-tL8DnGOybNf8dmXxO7T4QEXQDkElr4T2p5pAadAEQk5iJPTM4UQl-hnKTAR90-jG2BueYkXs6QYe1grndk2Y4T7-mxvE1ck0RVvfFePA20"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pBNGFFVTFlVkZIUkRCQmNWSlRVbk10UWt3MmFGRRAB",
+            "user": {
+                "name": "Ahsan Alam",
+                "link": "https://www.google.com/maps/contrib/112577208000571953821?hl=en",
+                "contributor_id": "112577208000571953821",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW0DXjvsIh5emqHMDk2VnOnoiBkcUQ3scbNwoyiy_bWQxb6nqPE=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 1
+            },
+            "snippet": "Highly recommend. The steak was 10/10. Would like to try again. Thanks for the hospitality.",
+            "extracted_snippet": {
+                "original": "Highly recommend. The steak was 10/10. Would like to try again. Thanks for the hospitality."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:21:15Z",
+                "iso_date_of_last_edit": "2025-08-05T05:21:15Z",
+                "snippet": "Thank you for the wonderful review! We\u2019re thrilled to hear you enjoyed the steak and our hospitality. We hope to welcome you again soon for another great experience.",
+                "extracted_snippet": {
+                    "original": "Thank you for the wonderful review! We\u2019re thrilled to hear you enjoyed the steak and our hospitality. We hope to welcome you again soon for another great experience."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xwUmVURllNRlYwT0U5dFdVcDBOSEYyUjJseVdsRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOlpReTFYMFV0OE9tWUp0NHF2R2lyWlE%7C0cXkhL7L__g%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-31T06:21:10Z",
+            "iso_date_of_last_edit": "2025-07-31T06:21:10Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Az46ITjFPIf7HWocBpv2xQZBTPi2lfwh-6Pe_Y6vajmz3oIeBB7TjQ43Y5P73WjXU5wsmjPXen-22yLNhAv3iO2XZl8L7XdMIGRO4OyrrJjbUbcfBHrtf6L_dYV0eFGwRPrUwTPqXBL_o",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BOoklogVqXoeOUMSBeX1sd2hhqyRl6dMhrKi8Zome67sVSx2ZUid7mDr68RcPfjeP1MeB64JKIJnsZvMaGOMEZbSu7aSo33qFeAB8XEUbP7G7Mgr0Qgbjm45bIymkIPYboi1mnUBYpB3zG",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CkVy1J3St16JI0sqM_Up3BcCM5DfPsvLrRcnTXu0LttF9yCuQY75250IpWl1PCmJ0LjD-HaG5dzJ8BM9RgfJE2yUCh1U63JQXBpJTmYw9VEFcOBBnTnROf28jDyG4SihPYfBrsCZEUZsA",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AlwwNzGfW2Fy832F9LFarxwT-w335t1l6lpbUmUAtcA_AHlZpfBCidYcO6eGMsIuXT_iWjCgt6DE6kPkfYnYzSi_3VhLzcSgtIKOGjQBw_ey9uhbhI25nLR_u8H50toZLS30E8geAxbEJm"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwUmVURllNRlYwT0U5dFdVcDBOSEYyUjJseVdsRRAB",
+            "user": {
+                "name": "Love Crossaint",
+                "link": "https://www.google.com/maps/contrib/113967058356469288368?hl=en",
+                "contributor_id": "113967058356469288368",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWjYk1bpZVh_1YAXHC7j7yt1kBUmxJ4aWXKSm9cltxBJ39Adz88=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 20,
+                "photos": 12
+            },
+            "snippet": "\u4e94\u611f\u3067\u5473\u308f\u3046\u8d05\u6ca2\u306a\u548c\u725b\u4f53\u9a13\u2b50\ufe0e\n\n\u4e0a\u8cea\u306a\u548c\u725b\u3092\u76ee\u306e\u524d\u306e\u9244\u677f\u3067\u9999\u3070\u3057\u304f\u713c\u304d\u4e0a\u3052\u308b\u8d05\u6ca2\u306a\u3072\u3068\u3068\u304d\u2b50\ufe0e\n\u304a\u8089\u306f\u9a5a\u304f\u307b\u3069\u67d4\u3089\u304b\u304f\u3001\u65e8\u307f\u304c\u53e3\u3044\u3063\u3071\u3044\u306b\u5e83\u304c\u308a\u307e\u3059\uff01\n\u725b\u5bff\u53f8\u3084\u5c0f\u9262\u3082\u4e00\u54c1\u4e00\u54c1\u304c\u4e01\u5be7\u3067\u3001\u5fc3\u5c3d\u304f\u3057\u306e\u5185\u5bb9\u306b\u5927\u6e80\u8db3\u3002\u843d\u3061\u7740\u3044\u305f\u7a7a\u9593\u3067\u3001\u7279\u5225\u306a\u6642\u9593\u3092\u904e\u3054\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u3057\u305f\u2661",
+            "extracted_snippet": {
+                "original": "\u4e94\u611f\u3067\u5473\u308f\u3046\u8d05\u6ca2\u306a\u548c\u725b\u4f53\u9a13\u2b50\ufe0e\n\n\u4e0a\u8cea\u306a\u548c\u725b\u3092\u76ee\u306e\u524d\u306e\u9244\u677f\u3067\u9999\u3070\u3057\u304f\u713c\u304d\u4e0a\u3052\u308b\u8d05\u6ca2\u306a\u3072\u3068\u3068\u304d\u2b50\ufe0e\n\u304a\u8089\u306f\u9a5a\u304f\u307b\u3069\u67d4\u3089\u304b\u304f\u3001\u65e8\u307f\u304c\u53e3\u3044\u3063\u3071\u3044\u306b\u5e83\u304c\u308a\u307e\u3059\uff01\n\u725b\u5bff\u53f8\u3084\u5c0f\u9262\u3082\u4e00\u54c1\u4e00\u54c1\u304c\u4e01\u5be7\u3067\u3001\u5fc3\u5c3d\u304f\u3057\u306e\u5185\u5bb9\u306b\u5927\u6e80\u8db3\u3002\u843d\u3061\u7740\u3044\u305f\u7a7a\u9593\u3067\u3001\u7279\u5225\u306a\u6642\u9593\u3092\u904e\u3054\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u3057\u305f\u2661",
+                "translated": "A luxurious wagyu beef experience that savors all five senses\u2b50\ufe0e\n\nEnjoy a luxurious moment as high-quality wagyu beef is grilled to perfection on a hot plate right in front of you\u2b50\ufe0e\nThe meat is incredibly tender, and the flavor fills your mouth!\nThe beef sushi and side dishes are all carefully prepared, leaving you feeling completely satisfied. We had a truly special time in a relaxing atmosphere\u2661"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Moderate noise",
+                "group_size": "2 people",
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:21:13Z",
+                "iso_date_of_last_edit": "2025-08-05T05:21:13Z",
+                "snippet": "\u7d20\u6674\u3089\u3057\u3044\u30ec\u30d3\u30e5\u30fc\u3092\u3044\u305f\u3060\u304d\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u548c\u725b\u306e\u67d4\u3089\u304b\u3055\u3084\u304a\u6599\u7406\u306b\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u305f\u3068\u306e\u3053\u3068\u3001\u4f55\u3088\u308a\u3067\u3059\u3002\u7279\u5225\u306a\u6642\u9593\u3092\u63d0\u4f9b\u3067\u304d\u305f\u3053\u3068\u3092\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u7d20\u6674\u3089\u3057\u3044\u30ec\u30d3\u30e5\u30fc\u3092\u3044\u305f\u3060\u304d\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u548c\u725b\u306e\u67d4\u3089\u304b\u3055\u3084\u304a\u6599\u7406\u306b\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u305f\u3068\u306e\u3053\u3068\u3001\u4f55\u3088\u308a\u3067\u3059\u3002\u7279\u5225\u306a\u6642\u9593\u3092\u63d0\u4f9b\u3067\u304d\u305f\u3053\u3068\u3092\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for your wonderful review! We are very happy to hear that you were satisfied with the tenderness of our Wagyu beef and the food. We are delighted that we were able to provide you with a special experience. We look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWMFJVTlJOVjh5ZUVoMFRsSk1WbXhqTVUxaGVGRRAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOjV0RUNRNV8yeEh0TlJMVmxjMU1heFE%7C0cXkee9GhdR%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-31T06:18:18Z",
+            "iso_date_of_last_edit": "2025-07-31T06:18:18Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWMFJVTlJOVjh5ZUVoMFRsSk1WbXhqTVUxaGVGRRAB",
+            "user": {
+                "name": "Misha Abbasi",
+                "link": "https://www.google.com/maps/contrib/117850028452135379818?hl=en",
+                "contributor_id": "117850028452135379818",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLLcIB2fz8cwgCslRCHaO5B9whN1sgs7rpZ0bTQT4SfoESMTw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "That was really good we love the food and we recommend all to try \ud83d\ude0b",
+            "extracted_snippet": {
+                "original": "That was really good we love the food and we recommend all to try \ud83d\ude0b"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:21:12Z",
+                "iso_date_of_last_edit": "2025-08-05T05:21:12Z",
+                "snippet": "Thank you for your wonderful recommendation! It's great to hear you loved everything. Looking forward to welcoming you back!",
+                "extracted_snippet": {
+                    "original": "Thank you for your wonderful recommendation! It's great to hear you loved everything. Looking forward to welcoming you back!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT205WFNYcHZXbFJDVFdReldHbFZaRzVGUVRNMGNuYxAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOm9XSXpvWlRCTWQzWGlVZG5FQTM0cnc%7C0cXk_e5bvgc%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-31T06:12:58Z",
+            "iso_date_of_last_edit": "2025-07-31T06:12:58Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AACO9pWaUzBslqmut6VQCt_1gtZmA-NiXkFMTwkb0b9QkLdUJOHnLf3HH-O1mphTPj-7lVgW0wPGkVHUsbaWablwTt1Czg7zWFeCX-LygBHNSAvZ5ANfAiB-XD1ipBRqwv62hITo40wSQg"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205WFNYcHZXbFJDVFdReldHbFZaRzVGUVRNMGNuYxAB",
+            "user": {
+                "name": "Sayem Sadikun",
+                "link": "https://www.google.com/maps/contrib/106796587442313288413?hl=en",
+                "contributor_id": "106796587442313288413",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUraubrZu3dge9C9au1bSMoCuXgoJ3I5Jp7vNzLXYY24Ghkgy7N=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "snippet": "Alhumdulillah the food quality so good and the food is so delicious \ud83d\ude0b.  Everyone should try that",
+            "extracted_snippet": {
+                "original": "Alhumdulillah the food quality so good and the food is so delicious \ud83d\ude0b.  Everyone should try that"
+            },
+            "details": {
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "5-8 people",
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:21:11Z",
+                "iso_date_of_last_edit": "2025-08-05T05:21:11Z",
+                "snippet": "Thank you for your wonderful feedback! We're thrilled to hear that you enjoyed our food and found it delicious. We look forward to welcoming you and your friends back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your wonderful feedback! We're thrilled to hear that you enjoyed our food and found it delicious. We look forward to welcoming you and your friends back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sTlZITmhjMTlsTVVGaFVsRjVaSEZHWDJKbGEzYxAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOnlNVHNhc19lMUFhUlF5ZHFGX2Jla3c%7C0cXkWuKNM0n%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-31T06:08:58Z",
+            "iso_date_of_last_edit": "2025-07-31T06:08:58Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sTlZITmhjMTlsTVVGaFVsRjVaSEZHWDJKbGEzYxAB",
+            "user": {
+                "name": "\u01e4\u043d\u03c3st Amet",
+                "link": "https://www.google.com/maps/contrib/113875403663626811110?hl=en",
+                "contributor_id": "113875403663626811110",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUisOtdzeOYxS_BlYgGULs-famxPB9HLazmqxkfXKz9HT2Wa9og=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Meat is very juice and Muslim friendly restaurant",
+            "extracted_snippet": {
+                "original": "Meat is very juice and Muslim friendly restaurant"
+            },
+            "details": {
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "group_size": "5-8 people",
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:21:10Z",
+                "iso_date_of_last_edit": "2025-08-05T05:21:10Z",
+                "snippet": "Thank you for your kind words! We're glad you found our meat juicy and that our restaurant met your needs as a Muslim-friendly venue. Please visit us again soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your kind words! We're glad you found our meat juicy and that our restaurant met your needs as a Muslim-friendly venue. Please visit us again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21OSWEzaGFjREp4UlRRMGVEbHVlbkJsUVRoYU0yYxAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOmNIa3hacDJxRTQ0eDluenBlQThaM2c%7C0cXkWZF6Da2%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-31T06:08:36Z",
+            "iso_date_of_last_edit": "2025-07-31T06:08:36Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OSWEzaGFjREp4UlRRMGVEbHVlbkJsUVRoYU0yYxAB",
+            "user": {
+                "name": "Md Maruf Khan",
+                "link": "https://www.google.com/maps/contrib/100774018893736259875?hl=en",
+                "contributor_id": "100774018893736259875",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUXd93-2BsIDA0dSqQYLpw1cEbrLZC6c9LsEh4tvAoHW4zDBQj_=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "It's a nice Muslim friendly + English usable place. The food was great. Specially the sauce they use on top of the wagyu steak.",
+            "extracted_snippet": {
+                "original": "It's a nice Muslim friendly + English usable place. The food was great. Specially the sauce they use on top of the wagyu steak."
+            },
+            "details": {
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "Suitable for all group sizes",
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:21:10Z",
+                "iso_date_of_last_edit": "2025-08-05T05:21:10Z",
+                "snippet": "Thank you for your positive feedback! We're thrilled to hear that you found our establishment Muslim-friendly and appreciated the English service. We're glad you enjoyed the food, especially the sauce on the wagyu steak. We look forward to welcoming you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your positive feedback! We're thrilled to hear that you found our establishment Muslim-friendly and appreciated the English service. We're glad you enjoyed the food, especially the sauce on the wagyu steak. We look forward to welcoming you back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pVeFRVeHRUazEyVTJKeE1tcHNkVWQzTFRGVldHYxAB!2m1!1s0x0:0x80dbff9c8e3ecd8c!3m1!1s2@1:CAIQACodChtycF9oOjUxTUxtTk12U2JxMmpsdUd3LTFVWGc%7C0cXjwfFLqG9%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-07-31T05:29:15Z",
+            "iso_date_of_last_edit": "2025-07-31T05:29:15Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CGdY3NdvDu1tfvyO2N2B7FezNcRMl_4LC9OYcgrpYMAfNbJ9E3mtkwVlqriWTwLbZdI5exDDZM4VByqhdvzsIyKGfD9LqmlWy-s7GSFRbpzFAY8K9_vvBeTTb2CWME2irclMhPAJx8IAU",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bl8TeSfJljtMPSiruneO91eGO7u4IDyJnmwTRONOdLLLwxleEaGTUQL-DZfoHqsZP1sDVhPzDY0UZp98fwFmjmBnX73o-_he5DUUPlHpRWEWDHA64qCmFZm8mdGGRpEFYpLBYzluMu6ESR",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AO3obMSRpn5DFrEQVw28NMEYkcOi1a4q-j42pV3zW0t0zO0FJpLU0lT_UMxsjUpTg_jTscmm8LOAMngWgo5lAdiWYRTMxAms4-LCzSTBrUjpBULNnyiwCmbnpcsGyKBLO38IO3JR7I22tk",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cprmk9VqzAjmFc5utrqB9fsnsoWiJ0bzP_7VxFCH1zdNsKban6mb-sPI956YnpsQs_yxS6DS2lgug6L7ffVpWabFJexQlJ5OgC3BIPBigj4jhL0clAS_i6rw7OECVELjlWU3GS9iS-XbcG",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Az4IxUb4WvLOEPvXpWJVn10_7QILSxEoNOyoS1pvxdBcE1AtTbMEG7PDsra_dXdmX0Dn7F7vBAtgx-CqdFrYpFGJthYzI6skhBQW7a6rnuSTtApd_gWzNLDTdPrAmBBxSRCTnKlkgS8ZE",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B60NEdt8aqLjxRwXIgh17ufDn9Wv3ZOrLLUdP8cplrPYPPcEn8cknZ_1xUMm7z56F0yHiNcuSKzziYv6N4nIB3rMDpw_wsIfN8N-jFxfIkcqZOg7pq3-gPBvwSzO0bfLg3LfBK7nnMMgE"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pVeFRVeHRUazEyVTJKeE1tcHNkVWQzTFRGVldHYxAB",
+            "user": {
+                "name": "Ami Sak",
+                "link": "https://www.google.com/maps/contrib/104239086271599138713?hl=en",
+                "contributor_id": "104239086271599138713",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWsOgsNM1cM3pNiYo3hsXSoccnfpKgiG62dn_O0tIjtWUBBD5A=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 13,
+                "photos": 18
+            },
+            "snippet": "I knew the Gyukatsu is chewier so when I see the gigantic gyukatsu, I was surprised and wasn\u2019t sure if I can finish.\n\nBut 200g? I swallowed! That\u2019s that good!\nMust try with the oyster sauce and chilly sauce. It\u2019s really tasty \ud83d\udc97\n\nThe miso soup and tartar sauce are also detailed!",
+            "extracted_snippet": {
+                "original": "I knew the Gyukatsu is chewier so when I see the gigantic gyukatsu, I was surprised and wasn\u2019t sure if I can finish.\n\nBut 200g? I swallowed! That\u2019s that good!\nMust try with the oyster sauce and chilly sauce. It\u2019s really tasty \ud83d\udc97\n\nThe miso soup and tartar sauce are also detailed!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Moderate noise",
+                "group_size": "1 person, 2 people, 3-4 people, 5-8 people, 9+ people, Suitable for all group sizes",
+                "wait_time": "No wait",
+                "dietary_restrictions": "Halal available"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T05:21:09Z",
+                "iso_date_of_last_edit": "2025-08-05T05:21:09Z",
+                "snippet": "Thank you for your feedback! We're delighted that you found the gyukatsu and sauces to your liking. Your satisfaction with the miso soup and tartar sauce is appreciated too. We hope to see you soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your feedback! We're delighted that you found the gyukatsu and sauces to your liking. Your satisfaction with the miso soup and tartar sauce is appreciated too. We hope to see you soon!"
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMlZvUTNvM01WOWZSV2hFV0cxUVUzRnRibkZFYUhCWVVHSkxPRUZCUVVGQlIyZHVPVEpRYzBOYU5rVk1VSFpWV1VGRFNVRQ%3D%3D&num=20&place_id=ChIJQWRdeFyLGGARjM0-jpz_24A&sort_by=newestFirst",
+        "next_page_token": "CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMlZvUTNvM01WOWZSV2hFV0cxUVUzRnRibkZFYUhCWVVHSkxPRUZCUVVGQlIyZHVPVEpRYzBOYU5rVk1VSFpWV1VGRFNVRQ=="
+    }
+}

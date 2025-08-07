@@ -1,0 +1,789 @@
+{
+    "search_metadata": {
+        "id": "689537342f47f8c9dafcebb6",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/f2a9945554298d5b/689537342f47f8c9dafcebb6.json",
+        "created_at": "2025-08-07 23:31:00 UTC",
+        "processed_at": "2025-08-07 23:31:00 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/f2a9945554298d5b/689537342f47f8c9dafcebb6.html",
+        "prettify_html_file": "https://serpapi.com/searches/f2a9945554298d5b/689537342f47f8c9dafcebb6.prettify",
+        "total_time_taken": 0.5
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJF6THDR-PGGAR98Co847dv-E",
+        "hl": "en",
+        "next_page_token": "CAESZENBRVFnQUVhUkVOcVJVbEJVa2x3UTJkdlFWQTNNa2RtT0dGSFoxZGZYMFZvUW1OQk5uaHdOVkJwVGxCSFdrMW9XRFJCUVVGQlFVZG5iamswZGpCRFdsOTRiMkZDV1ZsQlEwbEI=",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sbWFubEhhSFp0VERkTVdEQklZbkZSYjFkeFZrRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOnlmanlHaHZtTDdMWDBIYnFRb1dxVkE%7C0cRoHQmF49h%7C?hl=en",
+            "rating": 4.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-13T05:31:07Z",
+            "iso_date_of_last_edit": "2025-07-13T05:31:07Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sbWFubEhhSFp0VERkTVdEQklZbkZSYjFkeFZrRRAB",
+            "user": {
+                "name": "JD aispuro",
+                "link": "https://www.google.com/maps/contrib/109899461453392381036?hl=en",
+                "contributor_id": "109899461453392381036",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX9c9HZ7jSgvIJmfxQCTBNfZeZl5tAUSlP6ca5WOal4HkL77gk=s120-c-rp-mo-br100",
+                "reviews": 2,
+                "photos": 3
+            },
+            "snippet": "Well it has not so good decorations the food was very good but i find a metal thing like a string or someting like that but after that i recomend this place the food is delicius and the employees are good",
+            "extracted_snippet": {
+                "original": "Well it has not so good decorations the food was very good but i find a metal thing like a string or someting like that but after that i recomend this place the food is delicius and the employees are good"
+            },
+            "details": {
+                "food": 4,
+                "service": 5,
+                "atmosphere": 2
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-13T21:49:14Z",
+                "iso_date_of_last_edit": "2025-07-13T21:49:14Z",
+                "snippet": "Your satisfaction with our dishes and staff is important to us. We sincerely apologize for the metal string incident and will take immediate steps to ensure a safer dining environment.",
+                "extracted_snippet": {
+                    "original": "Your satisfaction with our dishes and staff is important to us. We sincerely apologize for the metal string incident and will take immediate steps to ensure a safer dining environment."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w5NmFITjVNamxTTUZKRE0waDVhRFZQTlRWNWJWRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOl96aHN5MjlSMFJDM0h5aDVPNTV5bVE%7C0cRo0q-WF_e%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-13T05:13:26Z",
+            "iso_date_of_last_edit": "2025-07-13T05:13:26Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5NmFITjVNamxTTUZKRE0waDVhRFZQTlRWNWJWRRAB",
+            "user": {
+                "name": "James Guilmartin",
+                "link": "https://www.google.com/maps/contrib/110021140234113907557?hl=en",
+                "contributor_id": "110021140234113907557",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIKMTOxLdL-9QPg-nHFKeTxplvwRPU8a9ayRm72GtIkexkBdg=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 11,
+                "photos": 4
+            },
+            "snippet": "Very nice beef ragyu ramen",
+            "extracted_snippet": {
+                "original": "Very nice beef ragyu ramen"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "group_size": "Suitable for all group sizes",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-13T21:49:15Z",
+                "iso_date_of_last_edit": "2025-07-13T21:49:15Z",
+                "snippet": "Thank you so much for trying our beef ragyu ramen! We appreciate your kind words and hope to welcome you back to enjoy more of our offerings.",
+                "extracted_snippet": {
+                    "original": "Thank you so much for trying our beef ragyu ramen! We appreciate your kind words and hope to welcome you back to enjoy more of our offerings."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21jd1pFbHFXa0ZrUjFSbFIzcGhla2t4Y1ZSc2VGRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOmcwZElqWkFkR1RlR3phekkxcVRseFE%7C0cRnQrnIDXh%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-13T04:32:55Z",
+            "iso_date_of_last_edit": "2025-07-13T04:32:55Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jd1pFbHFXa0ZrUjFSbFIzcGhla2t4Y1ZSc2VGRRAB",
+            "user": {
+                "name": "hilmy nafie",
+                "link": "https://www.google.com/maps/contrib/114748936552546029777?hl=en",
+                "contributor_id": "114748936552546029777",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJSNp3x0EaKewsDzJFx7VlssQ2h5_XfKogIf2mnIf1h9DZN0Xg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-13T21:49:19Z",
+                "iso_date_of_last_edit": "2025-07-13T21:49:19Z",
+                "snippet": "Dear hilmy nafie,\nThank you for the amazing rating!\nWe're thrilled to know that you enjoyed our halal ramen. Please come back anytime\u2014we\u2019d love to serve you again!",
+                "extracted_snippet": {
+                    "original": "Dear hilmy nafie,\nThank you for the amazing rating!\nWe're thrilled to know that you enjoyed our halal ramen. Please come back anytime\u2014we\u2019d love to serve you again!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0YVpVUkdja1U0ZDBOMmFERXlOMGsxVm1aNWFGRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOktaZURGckU4d0N2aDEyN0k1VmZ5aFE%7C0cRnFgl1USx%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-13T04:21:00Z",
+            "iso_date_of_last_edit": "2025-07-13T04:21:00Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0YVpVUkdja1U0ZDBOMmFERXlOMGsxVm1aNWFGRRAB",
+            "user": {
+                "name": "Oni Khonsa",
+                "link": "https://www.google.com/maps/contrib/110496966307073507433?hl=en",
+                "contributor_id": "110496966307073507433",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW4df0D6KC7VOoGYA6HNSU2Hfd6OdpvvtV6aplf3ES8dlHGVuaX=s120-c-rp-mo-br100",
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Nice food, excellent taste, there's also praying room.",
+            "extracted_snippet": {
+                "original": "Nice food, excellent taste, there's also praying room."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "group_size": "5-8 people",
+                "wait_time": "No wait",
+                "kid_friendliness": "Yes",
+                "wheelchair_accessibility": "No access"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-13T21:49:16Z",
+                "iso_date_of_last_edit": "2025-07-13T21:49:16Z",
+                "snippet": "Dear Oni Khonsa,\nWe appreciate your review and are happy to know you liked the taste and amenities such as the prayer room. Please visit us again!",
+                "extracted_snippet": {
+                    "original": "Dear Oni Khonsa,\nWe appreciate your review and are happy to know you liked the taste and amenities such as the prayer room. Please visit us again!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21jMldVUklXazluVkZWMVQzaHRUMG90WW0xUVFVRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOmc2WURIWk9nVFV1T3htT0otYm1QQUE%7C0cRnDxOS5Un%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-13T04:19:09Z",
+            "iso_date_of_last_edit": "2025-07-13T04:19:09Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMldVUklXazluVkZWMVQzaHRUMG90WW0xUVFVRRAB",
+            "user": {
+                "name": "Muhammad Daffa Ihsan",
+                "link": "https://www.google.com/maps/contrib/101343205235966273425?hl=en",
+                "contributor_id": "101343205235966273425",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUOl1B6H5drPsox-HvPdHQ2viX4ia06t8YLMsFrY5p5pc8zqkF4=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 10,
+                "photos": 0
+            },
+            "snippet": "Good food and clean prayer room",
+            "extracted_snippet": {
+                "original": "Good food and clean prayer room"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "group_size": "3-4 people",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-13T21:49:17Z",
+                "iso_date_of_last_edit": "2025-07-13T21:49:17Z",
+                "snippet": "Dear Muhammad Daffa Ihsan,\nThank you for taking the time to share your experience! We're glad to know that you found our food good and prayer room clean. Looking forward to welcoming you back!",
+                "extracted_snippet": {
+                    "original": "Dear Muhammad Daffa Ihsan,\nThank you for taking the time to share your experience! We're glad to know that you found our food good and prayer room clean. Looking forward to welcoming you back!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0aU0xcHFaa2RxYm5jMmF6TlNXVGxsWldwdmRWRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOktiM1pqZkdqbnc2azNSWTllZWpvdVE%7C0cRTPhIlo4I%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-12T04:38:05Z",
+            "iso_date_of_last_edit": "2025-07-12T04:38:05Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0aU0xcHFaa2RxYm5jMmF6TlNXVGxsWldwdmRWRRAB",
+            "user": {
+                "name": "E",
+                "link": "https://www.google.com/maps/contrib/117764139079986355190?hl=en",
+                "contributor_id": "117764139079986355190",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUIoSXlWRSKu6Ts0sKAMpeFJAf69nR-e_D2XsyIG0T8G3Qe4Frl=s120-c-rp-mo-br100",
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 4,
+                "service": 5,
+                "atmosphere": 5,
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-13T21:49:27Z",
+                "iso_date_of_last_edit": "2025-07-13T21:49:27Z",
+                "snippet": "Dear E,\nWe're so happy you enjoyed your visit!\nYour 5-star review makes us very proud. We'll keep working hard to offer the best halal ramen. We hope to see you again soon!",
+                "extracted_snippet": {
+                    "original": "Dear E,\nWe're so happy you enjoyed your visit!\nYour 5-star review makes us very proud. We'll keep working hard to offer the best halal ramen. We hope to see you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xsMWVtaDZUVkIyVEhkb1VFeHFjalpZVFcxVlpVRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOll1emh6TVB2THdoUExqcjZYTW1VZUE%7C0cRSmFgzEa8%7C?hl=en",
+            "rating": 4.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-12T03:54:56Z",
+            "iso_date_of_last_edit": "2025-07-12T03:54:56Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsMWVtaDZUVkIyVEhkb1VFeHFjalpZVFcxVlpVRRAB",
+            "user": {
+                "name": "Scot Wilcox",
+                "link": "https://www.google.com/maps/contrib/101120839896846806192?hl=en",
+                "contributor_id": "101120839896846806192",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIj446NNnmHqDaOSvCBYerSY4tmrJ8CTx8WlWOP_iikRlP04A=s120-c-rp-mo-br100",
+                "reviews": 15,
+                "photos": 1
+            },
+            "snippet": "Very good food, great service, spoke English. Environment is very casual/minimal.",
+            "extracted_snippet": {
+                "original": "Very good food, great service, spoke English. Environment is very casual/minimal."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 3,
+                "group_size": "3-4 people",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-13T21:49:29Z",
+                "iso_date_of_last_edit": "2025-07-13T21:49:29Z",
+                "snippet": "Dear Scot Wilcox,\nGlad you appreciated our English-speaking service and the food! We aim to provide a pleasant and casual dining experience. Thank you for your kind words!",
+                "extracted_snippet": {
+                    "original": "Dear Scot Wilcox,\nGlad you appreciated our English-speaking service and the food! We aim to provide a pleasant and casual dining experience. Thank you for your kind words!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tscVUwTXdSM0Z4Wm1sdGFIaEtjVXR3VVdodFpsRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOklqU0MwR3FxZmltaHhKcUtwUWhtZlE%7C0cRSbLFjbA5%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-12T03:43:18Z",
+            "iso_date_of_last_edit": "2025-07-12T03:43:18Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tscVUwTXdSM0Z4Wm1sdGFIaEtjVXR3VVdodFpsRRAB",
+            "user": {
+                "name": "Zulmarya Ahda",
+                "link": "https://www.google.com/maps/contrib/104522449164591728695?hl=en",
+                "contributor_id": "104522449164591728695",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWriqNnaLNdZOoKnQ1nnve57tecElhyUUXpbGBCC1BXP7wLaYsE=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 26,
+                "photos": 29
+            },
+            "snippet": "Makanannya enak.. ada teh botol juga dan mushola..",
+            "extracted_snippet": {
+                "original": "Makanannya enak.. ada teh botol juga dan mushola..",
+                "translated": "The food is delicious.. there is also bottled tea and a prayer room.."
+            },
+            "details": {
+                "meal_type": "Brunch",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-13T21:49:31Z",
+                "iso_date_of_last_edit": "2025-07-13T21:49:31Z",
+                "snippet": "Senang mengetahui bahwa makanan dan fasilitas kami memenuhi harapan Anda. Terima kasih telah memilih kami dan kami menantikan kunjungan Anda selanjutnya!",
+                "extracted_snippet": {
+                    "original": "Senang mengetahui bahwa makanan dan fasilitas kami memenuhi harapan Anda. Terima kasih telah memilih kami dan kami menantikan kunjungan Anda selanjutnya!",
+                    "translated": "We're delighted to hear that our food and facilities met your expectations. Thank you for choosing us, and we look forward to your next visit!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkYVdtMHlXWEpQTVhCa1pHUmlhbk5qUkdGc2RWRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOldaWm0yWXJPMXBkZGRianNjRGFsdVE%7C0cRFgEesm53%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-11T13:01:03Z",
+            "iso_date_of_last_edit": "2025-07-11T13:01:03Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkYVdtMHlXWEpQTVhCa1pHUmlhbk5qUkdGc2RWRRAB",
+            "user": {
+                "name": "Bakri Ayat",
+                "link": "https://www.google.com/maps/contrib/114010051605988557268?hl=en",
+                "contributor_id": "114010051605988557268",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVHIxtV3_hXXz5rIVYs0_ODlZ4VDoPa5pFWtachh-ezFJWypyI=s120-c-rp-mo-br100",
+                "reviews": 0,
+                "photos": 0
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-11T23:59:06Z",
+                "iso_date_of_last_edit": "2025-07-11T23:59:06Z",
+                "snippet": "Dear Bakri Ayat,\nWe're grateful for your 5-star review!\nIt\u2019s fantastic to hear you had a great time with us. Please come back soon\u2014we\u2019d love to have you again!",
+                "extracted_snippet": {
+                    "original": "Dear Bakri Ayat,\nWe're grateful for your 5-star review!\nIt\u2019s fantastic to hear you had a great time with us. Please come back soon\u2014we\u2019d love to have you again!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s1MlV6bHJNWGx4WDNnNVVHeG5MVWRyUmxaeVUzYxAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOk52UzlrMXlxX3g5UGxnLUdrRlZyU3c%7C0cREFxXSw7P%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-11T11:23:41Z",
+            "iso_date_of_last_edit": "2025-07-11T11:23:41Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1MlV6bHJNWGx4WDNnNVVHeG5MVWRyUmxaeVUzYxAB",
+            "user": {
+                "name": "Fahmi Syafri",
+                "link": "https://www.google.com/maps/contrib/101026286028768112732?hl=en",
+                "contributor_id": "101026286028768112732",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI84FyOKL7whIejANqQprXXOfSPBxZhsq53FN8CLpUXrZ4Uqg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 8,
+                "photos": 0
+            },
+            "snippet": "Enaakk..Waitress nya dari indonesia dan super ramah dan cekatan..Mantaps..",
+            "extracted_snippet": {
+                "original": "Enaakk..Waitress nya dari indonesia dan super ramah dan cekatan..Mantaps..",
+                "translated": "Delicious.. The waitress is from Indonesia and is super friendly and efficient.. Awesome.."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-11T23:59:07Z",
+                "iso_date_of_last_edit": "2025-07-11T23:59:07Z",
+                "snippet": "Terima kasih atas penilaiannya! Kami berkomitmen untuk selalu memberikan pelayanan yang ramah dan cepat. Sampai jumpa lain kali!",
+                "extracted_snippet": {
+                    "original": "Terima kasih atas penilaiannya! Kami berkomitmen untuk selalu memberikan pelayanan yang ramah dan cepat. Sampai jumpa lain kali!",
+                    "translated": "Thank you for your review! We're committed to providing friendly and prompt service. See you next time!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WRWRHWk5jR2h2Y1MxVlpYbGhlWGRUTFRGcldIYxAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOnVEdGZNcGhvcS1VZXlheXdTLTFrWHc%7C0cRDtFgCp4g%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-11T10:58:24Z",
+            "iso_date_of_last_edit": "2025-07-11T10:58:24Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WRWRHWk5jR2h2Y1MxVlpYbGhlWGRUTFRGcldIYxAB",
+            "user": {
+                "name": "Reysita Rahmawati",
+                "link": "https://www.google.com/maps/contrib/107693356890068453381?hl=en",
+                "contributor_id": "107693356890068453381",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIY_LDA1yW3c3g3foElqw8teVD8n1RtxhYCu9VVWfAqGZea=s120-c-rp-mo-br100",
+                "reviews": 5,
+                "photos": 0
+            },
+            "snippet": "Good food and friendly staff (even indonesia and english speaking). Has a prayer room in 3rd fl. Very convenient for Muslim families",
+            "extracted_snippet": {
+                "original": "Good food and friendly staff (even indonesia and english speaking). Has a prayer room in 3rd fl. Very convenient for Muslim families"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait",
+                "dietary_restrictions": "Halal foods and muslim friendly"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-11T23:59:10Z",
+                "iso_date_of_last_edit": "2025-07-11T23:59:10Z",
+                "snippet": "Dear Reysita Rahmawati,\nWe're delighted to hear you enjoyed your experience with us. Our team is committed to providing excellent service and a comfortable setting for all our guests, including facilities like a prayer room. Thank you for highlighting these aspects.",
+                "extracted_snippet": {
+                    "original": "Dear Reysita Rahmawati,\nWe're delighted to hear you enjoyed your experience with us. Our team is committed to providing excellent service and a comfortable setting for all our guests, including facilities like a prayer room. Thank you for highlighting these aspects."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWd1Fqa3pWbVJuUlVNeWIycHpYM2gwYW1zelpYYxAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOlVwQjkzVmRnRUMyb2pzX3h0amszZXc%7C0cRADQoepnp%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-11T06:47:55Z",
+            "iso_date_of_last_edit": "2025-07-11T06:47:55Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWd1Fqa3pWbVJuUlVNeWIycHpYM2gwYW1zelpYYxAB",
+            "user": {
+                "name": "Miftakhuddin Nur Saleh",
+                "link": "https://www.google.com/maps/contrib/118376705134340920681?hl=en",
+                "contributor_id": "118376705134340920681",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXZMbh0eFKcy-ll2UmeAjeohQg_Hl3P4RlF6OxKvhVCSGjMX_8=s120-c-rp-mo-br100",
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "good service and delicious food",
+            "extracted_snippet": {
+                "original": "good service and delicious food"
+            },
+            "details": {
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-11T23:59:16Z",
+                "iso_date_of_last_edit": "2025-07-11T23:59:16Z",
+                "snippet": "Dear Miftakhuddin Nur Saleh,\nWe're delighted to hear that you were pleased with our service and food. Your feedback is greatly appreciated and encourages us to maintain our high standards.",
+                "extracted_snippet": {
+                    "original": "Dear Miftakhuddin Nur Saleh,\nWe're delighted to hear that you were pleased with our service and food. Your feedback is greatly appreciated and encourages us to maintain our high standards."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21OS2NYZFhRWHBpTnpCbmVtMWFUazVTY2xGNWRYYxAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOmNKcXdXQXpiNzBnem1aTk5SclF5dXc%7C0cR8FmPwzB3%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-11T04:33:54Z",
+            "iso_date_of_last_edit": "2025-07-11T04:33:54Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OS2NYZFhRWHBpTnpCbmVtMWFUazVTY2xGNWRYYxAB",
+            "user": {
+                "name": "Nur Farahin",
+                "link": "https://www.google.com/maps/contrib/116499058787949022448?hl=en",
+                "contributor_id": "116499058787949022448",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL_6_361mRwtl9M40v1uhR3cCxpkgSMHH7YGNCRR_jyWwwkOA=s120-c-rp-mo-br100",
+                "reviews": 4,
+                "photos": 2
+            },
+            "snippet": "The yakiniku ramen is delicious and the meat is so tender and soft. The chicken fried is crunchy. The ginger ale is delicious",
+            "extracted_snippet": {
+                "original": "The yakiniku ramen is delicious and the meat is so tender and soft. The chicken fried is crunchy. The ginger ale is delicious"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 4,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-12T00:09:04Z",
+                "iso_date_of_last_edit": "2025-07-12T00:09:04Z",
+                "snippet": "Dear Nur Farahin,\nWe\u2019re so pleased to hear that you loved our yakiniku ramen and found the chicken fried to your liking. Thank you for also mentioning the ginger ale. We look forward to serving you again soon!",
+                "extracted_snippet": {
+                    "original": "Dear Nur Farahin,\nWe\u2019re so pleased to hear that you loved our yakiniku ramen and found the chicken fried to your liking. Thank you for also mentioning the ginger ale. We look forward to serving you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWamEweHZVSFI0TFhwUVQwUmhORFV5VHpocFZtYxAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOlVja0xvUHR4LXpQT0RhNDUyTzhpVmc%7C0cR85fRwKWZ%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-11T04:23:07Z",
+            "iso_date_of_last_edit": "2025-07-11T04:23:07Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWamEweHZVSFI0TFhwUVQwUmhORFV5VHpocFZtYxAB",
+            "user": {
+                "name": "Mohammad Shahzad",
+                "link": "https://www.google.com/maps/contrib/112057003315248162434?hl=en",
+                "contributor_id": "112057003315248162434",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJDhltZ_J2SuS8gT_Is8Th1GHACeH9Jcf2rAIyfF2JVhyOLbQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 9,
+                "photos": 0
+            },
+            "snippet": "First meal in Japan and did not disappoint minimum spend if 25 CAD but well worth the price tag",
+            "extracted_snippet": {
+                "original": "First meal in Japan and did not disappoint minimum spend if 25 CAD but well worth the price tag"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Moderate noise",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-12T00:09:05Z",
+                "iso_date_of_last_edit": "2025-07-12T00:09:05Z",
+                "snippet": "Dear Mohammad Shahzad,\nHappy to hear you found your meal worthwhile! We're committed to maintaining high standards of taste and service for our guests. Thank you for dining with us.",
+                "extracted_snippet": {
+                    "original": "Dear Mohammad Shahzad,\nHappy to hear you found your meal worthwhile! We're committed to maintaining high standards of taste and service for our guests. Thank you for dining with us."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21aYU4xZEdSMGxqVjBwV01UaDJUUzAzZDE5T1FWRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOmZaN1dGR0ljV0pWMTh2TS03d19OQVE%7C0cR7c2WySwx%7C?hl=en",
+            "rating": 3.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-11T03:50:27Z",
+            "iso_date_of_last_edit": "2025-07-11T03:50:27Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aYU4xZEdSMGxqVjBwV01UaDJUUzAzZDE5T1FWRRAB",
+            "user": {
+                "name": "Willy Jones (Willy)",
+                "link": "https://www.google.com/maps/contrib/116981963427615526114?hl=en",
+                "contributor_id": "116981963427615526114",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLYtPxEMH4bCNggM-Z5BmhZSt0SsC-JPmTWJzSJUJzOLrzQDA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 0
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 3,
+                "service": 5,
+                "atmosphere": 3,
+                "noise_level": "Moderate noise",
+                "wait_time": "30-60 min"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-12T00:09:10Z",
+                "iso_date_of_last_edit": "2025-07-12T00:09:10Z",
+                "snippet": "Dear Willy Jones (Willy),\nWe're grateful for your 5-star review!\nIt\u2019s fantastic to hear you had a great time with us. Please come back soon\u2014we\u2019d love to have you again!",
+                "extracted_snippet": {
+                    "original": "Dear Willy Jones (Willy),\nWe're grateful for your 5-star review!\nIt\u2019s fantastic to hear you had a great time with us. Please come back soon\u2014we\u2019d love to have you again!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25VNFRDMW5PVFkzYzJ0R01qWkdZMGg0YlZSMWJsRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOnU4TC1nOTY3c2tGMjZGY0h4bVR1blE%7C0cR7A0oOrRp%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-11T03:19:29Z",
+            "iso_date_of_last_edit": "2025-07-11T03:19:29Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25VNFRDMW5PVFkzYzJ0R01qWkdZMGg0YlZSMWJsRRAB",
+            "user": {
+                "name": "Mona T",
+                "link": "https://www.google.com/maps/contrib/109282687052013919205?hl=en",
+                "contributor_id": "109282687052013919205",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUdqzdGrI0J5aL3NaFNk_Lfj6qO4tVZMdo5BrdEA6HBG89kI__9rg=s120-c-rp-mo-br100",
+                "reviews": 4,
+                "photos": 1
+            },
+            "snippet": "Oishiiiii.... !  Great to eat halal ramen",
+            "extracted_snippet": {
+                "original": "Oishiiiii.... !  Great to eat halal ramen"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-12T00:09:07Z",
+                "iso_date_of_last_edit": "2025-07-12T00:09:07Z",
+                "snippet": "Dear Mona T,\nThank you for your kind review!\nWe are grateful for your 5-star rating and are pleased to know you had a great experience. Looking forward to serving you again!",
+                "extracted_snippet": {
+                    "original": "Dear Mona T,\nThank you for your kind review!\nWe are grateful for your 5-star rating and are pleased to know you had a great experience. Looking forward to serving you again!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21ReFlrcEJkVFJuVkhGV09YSnhTRTkyWjBjelZWRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOmQxYkpBdTRnVHFWOXJxSE92Z0czVVE%7C0cQvS90IrVX%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 weeks ago",
+            "iso_date": "2025-07-10T12:51:22Z",
+            "iso_date_of_last_edit": "2025-07-10T12:51:22Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BLSYFoefJ2Yl_9O3Mfcpq018IdNfSTtOV3w5ctvsBmxlarobacVK3xAYY4WScuQrZqF5hoJSdCpvaEq4irv1Nzzl4ANcc5KI2b9wStKkrh7VTWEFnfy6b0G6BXdfdJg2RUBnfR2zoDYoQ"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ReFlrcEJkVFJuVkhGV09YSnhTRTkyWjBjelZWRRAB",
+            "user": {
+                "name": "Syed Danial Ahmad",
+                "link": "https://www.google.com/maps/contrib/112017359955731551922?hl=en",
+                "contributor_id": "112017359955731551922",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXtI2JxOMwfxovnPaUh6kUP_1Kms-b6Eb2eePSpSFU0efiYoBvJ=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 9,
+                "photos": 59
+            },
+            "snippet": "Everything we've ordered was super yummy!",
+            "extracted_snippet": {
+                "original": "Everything we've ordered was super yummy!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-07-10T22:49:01Z",
+                "iso_date_of_last_edit": "2025-07-10T22:49:01Z",
+                "snippet": "Dear Syed Danial Ahmad,\nWe're delighted to know you found all your meals delicious! We hope to welcome you back for another tasty experience soon.",
+                "extracted_snippet": {
+                    "original": "Dear Syed Danial Ahmad,\nWe're delighted to know you found all your meals delicious! We hope to welcome you back for another tasty experience soon."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WRWNUQm1VMlZqYXpseWJsbEpOSGx5TW5SRVJYYxAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOnVEcTBmU2VjazlybllJNHlyMnRERXc%7C0cQt9NnQLCq%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 weeks ago",
+            "iso_date": "2025-07-10T10:14:48Z",
+            "iso_date_of_last_edit": "2025-07-10T10:14:48Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DN3lxbEhLfbiUPe9gk6nJihJ1Hdk-uhWPO6vh-cjP9NHifjZitpl6vZEBFqWWb0v4MP95IteiRrgJ5-NIWZLm7T94v3Z2xK4i3KDLTfR45iznLRarUw6Ay9aReflD_IHjl2C0TX08nA8QK",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DtfZj7mhcwuky8GxMUlUfU4avmOsTGltcjtjiWsEi0nU2xj9PJRNy9U3DHz_0jGbVDbMj-38lkNw7aOx1XUy-AW-UqK6UIuEKvDONA_km3ujxJgm271yJxZpJ0lVo-Q6Yp3NkSI5zd51AN"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WRWNUQm1VMlZqYXpseWJsbEpOSGx5TW5SRVJYYxAB",
+            "user": {
+                "name": "Nur Chi",
+                "link": "https://www.google.com/maps/contrib/117159811822316254700?hl=en",
+                "contributor_id": "117159811822316254700",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWK8CnsYsgCYnLgfo9rfbl3J8qsiArgP1TZzzKVKbGNO0guhPXe=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 9,
+                "photos": 10
+            },
+            "snippet": "This was a solid favorite! The broth was rich and flavourful, and the chicken  ramen was especially good. The atmosphere was cozy and welcoming. The fact that they have a dedicated prayer room upstairs, complete with wudu (ablution) facilities, made it super convenient for Muslim travelers. Highly recommended after visiting Sensoji Temple nearby.",
+            "extracted_snippet": {
+                "original": "This was a solid favorite! The broth was rich and flavourful, and the chicken  ramen was especially good. The atmosphere was cozy and welcoming. The fact that they have a dedicated prayer room upstairs, complete with wudu (ablution) facilities, made it super convenient for Muslim travelers. Highly recommended after visiting Sensoji Temple nearby."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-07-10T22:59:08Z",
+                "iso_date_of_last_edit": "2025-07-10T22:59:08Z",
+                "snippet": "Dear Nur Chi,\nThank you for your high recommendation! We're thrilled to know you had such a satisfying experience, especially with our chicken ramen and facilities for Muslim travelers. Your encouragement means a lot to us, and we look forward to your next visit!",
+                "extracted_snippet": {
+                    "original": "Dear Nur Chi,\nThank you for your high recommendation! We're thrilled to know you had such a satisfying experience, especially with our chicken ramen and facilities for Muslim travelers. Your encouragement means a lot to us, and we look forward to your next visit!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xCYVRWSmxlbE15V1d0c05HRllSVlZsUVdsbGFXYxAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOlBaTVJlelMyWWtsNGFYRVVlQWllaWc%7C0cQt8jtWkKd%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 weeks ago",
+            "iso_date": "2025-07-10T10:14:07Z",
+            "iso_date_of_last_edit": "2025-07-10T10:14:07Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCYVRWSmxlbE15V1d0c05HRllSVlZsUVdsbGFXYxAB",
+            "user": {
+                "name": "Afiq Aqua",
+                "link": "https://www.google.com/maps/contrib/103021330429183380554?hl=en",
+                "contributor_id": "103021330429183380554",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUOqSfAOV02h6CHbhqQVTeSQ_nWV2CPsc6fl2dm2V7tLpG1Z5LT=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 69,
+                "photos": 4
+            },
+            "snippet": "Good food. All food is halal\nHave prayer room / mosque inside for muslim to pray",
+            "extracted_snippet": {
+                "original": "Good food. All food is halal\nHave prayer room / mosque inside for muslim to pray"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-07-10T22:59:09Z",
+                "iso_date_of_last_edit": "2025-07-10T22:59:09Z",
+                "snippet": "Dear Afiq Aqua,\nWe appreciate your feedback and are pleased to know you enjoyed your meal. Providing a comfortable dining experience for our Muslim guests is important, and we\u2019re glad you found value in our prayer facilities. Hope to see you again soon!",
+                "extracted_snippet": {
+                    "original": "Dear Afiq Aqua,\nWe appreciate your feedback and are pleased to know you enjoyed your meal. Providing a comfortable dining experience for our Muslim guests is important, and we\u2019re glad you found value in our prayer facilities. Hope to see you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2poM1ZqaGFZelZqY1cxUVdqVlBZbmR6YmxKS1ZIYxAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOjh3VjhaYzVjcW1QWjVPYndzblJKVHc%7C0cQrcnK9P7W%7C?hl=en",
+            "rating": 4.0,
+            "date": "4 weeks ago",
+            "iso_date": "2025-07-10T08:30:43Z",
+            "iso_date_of_last_edit": "2025-07-10T08:30:43Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AOpynbhl2nlLat2m8YI6wwzmz3X4Dnbpvjm9nJV8rYOzP2XMb_Yk7vOK4AQbA_Veg8JPybdKY_DM-kMbsqAmRwdZApd2_m9SgE5aXCJ7Cdl5e-vZsOh4wbHda3v2wviFS7AFFcypXDlazh"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poM1ZqaGFZelZqY1cxUVdqVlBZbmR6YmxKS1ZIYxAB",
+            "user": {
+                "name": "Ahmed Galaby",
+                "link": "https://www.google.com/maps/contrib/114008835745307408457?hl=en",
+                "contributor_id": "114008835745307408457",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLThpzhG_digbhHT2zIVDuLH41OV4d37zqiUaaXPH5d4I4sRA=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 103,
+                "photos": 24
+            },
+            "snippet": "Nice food, Halal and prayer room available, clean bathroom and few minutes walk from Senso temple, overall good value for money.",
+            "extracted_snippet": {
+                "original": "Nice food, Halal and prayer room available, clean bathroom and few minutes walk from Senso temple, overall good value for money."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 4,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait",
+                "vegetarian_options": "No vegetarian available",
+                "dietary_restrictions": "Halal food",
+                "parking_space": "Somewhat difficult to find parking",
+                "kid_friendliness": "Staff are Friendly with kids, the place itself not so big",
+                "wheelchair_accessibility": "Hard to\nAccess as its first floor with stairs"
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-07-10T22:59:13Z",
+                "iso_date_of_last_edit": "2025-07-10T22:59:13Z",
+                "snippet": "Dear Ahmed Galaby,\nGlad to hear you found good value in your experience with us! Your satisfaction with our amenities and location is our priority. Thank you for your support!",
+                "extracted_snippet": {
+                    "original": "Dear Ahmed Galaby,\nGlad to hear you found good value in your experience with us! Your satisfaction with our amenities and location is our priority. Thank you for your support!"
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESZENBRVFsQUVhUkVOcVJVbEJVa2x3UTJkdlFWQTNNa2RuVFdseFpHdGZYMFZvUkZWU2FIbFBlbFJKVm1WNVNqZ3daMFZCUVVGQlFVZG5iamt5VTFGRFlVRjVTM0F5VVZsQlEwbEI%3D&num=20&place_id=ChIJF6THDR-PGGAR98Co847dv-E&sort_by=newestFirst",
+        "next_page_token": "CAESZENBRVFsQUVhUkVOcVJVbEJVa2x3UTJkdlFWQTNNa2RuVFdseFpHdGZYMFZvUkZWU2FIbFBlbFJKVm1WNVNqZ3daMFZCUVVGQlFVZG5iamt5VTFGRFlVRjVTM0F5VVZsQlEwbEI="
+    }
+}

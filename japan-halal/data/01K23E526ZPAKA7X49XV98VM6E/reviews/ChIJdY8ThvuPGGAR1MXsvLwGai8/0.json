@@ -1,0 +1,396 @@
+{
+    "search_metadata": {
+        "id": "68953817eb55a3781dba8226",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/508910aa649fbc86/68953817eb55a3781dba8226.json",
+        "created_at": "2025-08-07 23:34:47 UTC",
+        "processed_at": "2025-08-07 23:34:47 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s0x60188ffb86138f75:0x2f6a06bcbcecc5d4!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/508910aa649fbc86/68953817eb55a3781dba8226.html",
+        "prettify_html_file": "https://serpapi.com/searches/508910aa649fbc86/68953817eb55a3781dba8226.prettify",
+        "total_time_taken": 0.55
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJdY8ThvuPGGAR1MXsvLwGai8",
+        "hl": "en",
+        "sort_by": "newestFirst"
+    },
+    "place_info": {
+        "title": "Ayam-ya Halal Ramen Tokyo",
+        "address": "Japan, \u3012111-0041 Tokyo, Taito City, Motoasakusa, 3 Chome\u221210\u22123 \u30b7\u30e3\u30c8\u30fc\u5143\u6d45\u8349",
+        "rating": 4.4,
+        "reviews": 1594,
+        "type": "Ramen restaurant"
+    },
+    "topics": [
+        {
+            "keyword": "spicy",
+            "mentions": 109,
+            "id": "/m/06p35"
+        },
+        {
+            "keyword": "muslim",
+            "mentions": 48,
+            "id": "/m/0flw86"
+        },
+        {
+            "keyword": "prayer",
+            "mentions": 47,
+            "id": "/m/0687y"
+        },
+        {
+            "keyword": "vending machine",
+            "mentions": 33,
+            "id": "/m/01nfrr"
+        },
+        {
+            "keyword": "room",
+            "mentions": 23,
+            "id": "/m/06ht1"
+        },
+        {
+            "keyword": "chicken karaage",
+            "mentions": 14,
+            "id": "/g/11j3v0h4xr"
+        },
+        {
+            "keyword": "spring rolls",
+            "mentions": 12,
+            "id": "/m/049qbg"
+        },
+        {
+            "keyword": "chicken ramen",
+            "mentions": 12,
+            "id": "/g/11qrhqjjdj"
+        },
+        {
+            "keyword": "samosa",
+            "mentions": 6,
+            "id": "/m/02mn0l"
+        },
+        {
+            "keyword": "ueno station",
+            "mentions": 5,
+            "id": "/m/022kqc"
+        }
+    ],
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xjMk9EQm9TMmgzV0VOdVlXbHlOblZDTFdOb1JWRRAB!2m1!1s0x0:0x2f6a06bcbcecc5d4!3m1!1s2@1:CAIQACodChtycF9oOlc2ODBoS2h3WENuYWlyNnVCLWNoRVE%7C0cZgtmm7C23%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T03:39:30Z",
+            "iso_date_of_last_edit": "2025-08-06T03:39:30Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DdQsc-uSFscIbqIb7aHhruKAuIrnK0ZObuhisyyvRL1gv_aGdXhz_7HV_w62t9sIxTuZNMEvbnsuo_583L49xKZs0WlHRQak-aiU_HMJpU2Si2tfyMdNTJO5ZaX6JenD05f2IGE46iOT0y"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xjMk9EQm9TMmgzV0VOdVlXbHlOblZDTFdOb1JWRRAB",
+            "user": {
+                "name": "moh mulla",
+                "link": "https://www.google.com/maps/contrib/102549097804067446950?hl=en-US",
+                "contributor_id": "102549097804067446950",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKp3OF1WpQJQZegEx45ZZ2KNK1yUnRlu050KJuVDEdYuvlIhw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 1
+            },
+            "snippet": "Authentic Japanese Ramen that you can taste it in every bit! The atomosphere is cool and has classic Ramen restraurant vibe. The service is supurb.",
+            "extracted_snippet": {
+                "original": "Authentic Japanese Ramen that you can taste it in every bit! The atomosphere is cool and has classic Ramen restraurant vibe. The service is supurb."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "wait_time": "No wait",
+                "seating_type": "Indoor dining area, Counter seating"
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-08-06T04:07:59Z",
+                "iso_date_of_last_edit": "2025-08-06T04:07:59Z",
+                "snippet": "Thank you so much for your kind review and support.we\u2019re looking forward to see you soon.",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your kind review and support.we\u2019re looking forward to see you soon."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxWU9FSkVTVFJVTWxOUFJsVjBVV3BCVEZGTmFVRRAB!2m1!1s0x0:0x2f6a06bcbcecc5d4!3m1!1s2@1:CAIQACodChtycF9oOi1YOEJESTRUMlNPRlV0UWpBTFFNaUE%7C0cZBvC57X3z%7C?hl=en-US",
+            "rating": 1.0,
+            "date": "3 days ago",
+            "iso_date": "2025-08-04T15:16:29Z",
+            "iso_date_of_last_edit": "2025-08-04T15:16:29Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BqMLxS-mvxnTkdXc_K-wUZCLEgOkae9oU8wR94HVPwLem4iltGUUZfsKeVEOGQQZa59cQhRfn-PZ4wOMzJqfyy3Rs_7Oc9W6Zt-MzahlVScrZsoKXjCdp13bPmXmM6FRTRVXXMVKARb3s"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxWU9FSkVTVFJVTWxOUFJsVjBVV3BCVEZGTmFVRRAB",
+            "user": {
+                "name": "Shabilla IF",
+                "link": "https://www.google.com/maps/contrib/110505759891859471332?hl=en-US",
+                "contributor_id": "110505759891859471332",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXkN6nOT9nwvy2Rjwt_Cgqy4L4cFXGWtHD0Cxb9tk-12UbP_wmk=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 4
+            },
+            "snippet": "I was really excited after seeing the google stars but it\u2019s really far from my expectations (I\u2019m so sorry for giving 1 star, but I need to be honest).\n\nFood:\nI order the spicy shoyu ramen and it was too spicy and oily.\nSo, my suggestion is should be adjusted to local spice level. The water is also lukewarm and has a bad taste, not so refreshing (can you imagine how I survived with the spiciness without having water because it tastes not so good?).\n\nService:\nI have no concern with the service.\n\nAtmosphere:\nWhen I entered the store, it smells strange and cramped. I saw some clothes hung up in hanger stand so I decided to move the other seat. There were 3 kids (I guess it\u2019s the cook\u2019s children) playing timer and I felt a bit disturbed with the alarm sound. Also, a woman washing dishes at sink that close to the customers seats was so uncomfortable.\n\nThank you! \ud83d\ude4f\ud83c\udffb",
+            "extracted_snippet": {
+                "original": "I was really excited after seeing the google stars but it\u2019s really far from my expectations (I\u2019m so sorry for giving 1 star, but I need to be honest).\n\nFood:\nI order the spicy shoyu ramen and it was too spicy and oily.\nSo, my suggestion is should be adjusted to local spice level. The water is also lukewarm and has a bad taste, not so refreshing (can you imagine how I survived with the spiciness without having water because it tastes not so good?).\n\nService:\nI have no concern with the service.\n\nAtmosphere:\nWhen I entered the store, it smells strange and cramped. I saw some clothes hung up in hanger stand so I decided to move the other seat. There were 3 kids (I guess it\u2019s the cook\u2019s children) playing timer and I felt a bit disturbed with the alarm sound. Also, a woman washing dishes at sink that close to the customers seats was so uncomfortable.\n\nThank you! \ud83d\ude4f\ud83c\udffb"
+            },
+            "details": {
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 1,
+                "service": 3,
+                "atmosphere": 1,
+                "noise_level": "Loud, but you can still talk",
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "3 days ago",
+                "iso_date": "2025-08-04T16:27:58Z",
+                "iso_date_of_last_edit": "2025-08-04T16:27:58Z",
+                "snippet": "Thank you so much for choosing Ayam-ya \nHalal Ramen.sorry for the inconvenience.",
+                "extracted_snippet": {
+                    "original": "Thank you so much for choosing Ayam-ya \nHalal Ramen.sorry for the inconvenience."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tGV2JHZDBUMHRTVVRNMlFYRXhRbXRWZFVFdGNsRRAB!2m1!1s0x0:0x2f6a06bcbcecc5d4!3m1!1s2@1:CAIQACodChtycF9oOkFWbGd0T0tSUTM2QXExQmtVdUEtclE%7C0cY7pQrcmj6%7C?hl=en-US",
+            "rating": 1.0,
+            "date": "6 days ago",
+            "iso_date": "2025-08-01T09:48:11Z",
+            "iso_date_of_last_edit": "2025-08-01T09:48:11Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGV2JHZDBUMHRTVVRNMlFYRXhRbXRWZFVFdGNsRRAB",
+            "user": {
+                "name": "\u5fb3\u7530\u9806\u54c9",
+                "link": "https://www.google.com/maps/contrib/115471234835145438609?hl=en-US",
+                "contributor_id": "115471234835145438609",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJRGXB2RY9RuT5c5SJB0ktd1RhbMKaz37zJy2kdPKjL9Gk_Hg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 0
+            },
+            "snippet": "4.5\u306b\u9a19\u3055\u308c\u305f\u304b\u306a\u3002\u3002\u4e0d\u5473\u304f\u306f\u306a\u3044\u3051\u3069\u7f8e\u5473\u3057\u304f\u3082\u306a\u3044\u30024.5\u306f\u304a\u304b\u3057\u3044\u3063\u3066\u611f\u3058\u3002\u4fa1\u683c\u307b\u3069\u306e\u304a\u3044\u3057\u3055\u3067\u3082\u306a\u3044\u3002\u5177\u306f\u5c11\u306a\u3044\u3057\u3001\u9eba\u306f\u3075\u306b\u3083\u3075\u306b\u3083\u3060\u3057\u3002\u3002\u304a\u7c73\u3082\u7f8e\u5473\u3057\u304f\u306a\u304b\u3063\u305f\u3002\u4eac\u90fd\u3068\u66f8\u3044\u3066\u3042\u308b\u306e\u3067\u65e5\u672c\u4eba\u304b\u3068\u601d\u3063\u305f\u3089\u5916\u56fd\u306e\u65b9\u3067\u3057\u305f\u3002\u3002\u3042\u3068\u6c34\u3082\u306c\u308b\u304b\u3063\u305f\u3002\u4ed6\u306e\u3068\u3053\u308d\u884c\u3051\u3070\u3088\u304b\u3063\u305f\u3002",
+            "extracted_snippet": {
+                "original": "4.5\u306b\u9a19\u3055\u308c\u305f\u304b\u306a\u3002\u3002\u4e0d\u5473\u304f\u306f\u306a\u3044\u3051\u3069\u7f8e\u5473\u3057\u304f\u3082\u306a\u3044\u30024.5\u306f\u304a\u304b\u3057\u3044\u3063\u3066\u611f\u3058\u3002\u4fa1\u683c\u307b\u3069\u306e\u304a\u3044\u3057\u3055\u3067\u3082\u306a\u3044\u3002\u5177\u306f\u5c11\u306a\u3044\u3057\u3001\u9eba\u306f\u3075\u306b\u3083\u3075\u306b\u3083\u3060\u3057\u3002\u3002\u304a\u7c73\u3082\u7f8e\u5473\u3057\u304f\u306a\u304b\u3063\u305f\u3002\u4eac\u90fd\u3068\u66f8\u3044\u3066\u3042\u308b\u306e\u3067\u65e5\u672c\u4eba\u304b\u3068\u601d\u3063\u305f\u3089\u5916\u56fd\u306e\u65b9\u3067\u3057\u305f\u3002\u3002\u3042\u3068\u6c34\u3082\u306c\u308b\u304b\u3063\u305f\u3002\u4ed6\u306e\u3068\u3053\u308d\u884c\u3051\u3070\u3088\u304b\u3063\u305f\u3002",
+                "translated": "I think I was fooled by the 4.5 rating. It wasn't bad, but it wasn't great either. 4.5 seems a bit odd. It wasn't as tasty as the price would suggest. There weren't many toppings, and the noodles were soggy. The rice wasn't great either. It said Kyoto, so I thought the person serving it was Japanese, but it turned out to be a foreigner. The water was also lukewarm. I should have gone somewhere else."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 1,
+                "service": 1,
+                "atmosphere": 1,
+                "group_size": "Not sure",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "6 days ago",
+                "iso_date": "2025-08-01T10:00:26Z",
+                "iso_date_of_last_edit": "2025-08-01T10:00:26Z",
+                "snippet": "\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002",
+                    "translated": "Thank you for visiting our store."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xVeWFuWm1RbHBKZVZka00wTTRlazB0UlRGbFptYxAB!2m1!1s0x0:0x2f6a06bcbcecc5d4!3m1!1s2@1:CAIQACodChtycF9oOlUyanZmQlpJeVdkM0M4ek0tRTFlZmc%7C0cTSQnfUBvN%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "2 weeks ago",
+            "iso_date": "2025-07-18T05:09:07Z",
+            "iso_date_of_last_edit": "2025-07-18T05:09:07Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DOee34GUaNhhv7u0UsLspC3y3c6vMg6xRDD4ZgsioI_hp8wa4rN-Eyy7q-OsGEeBN-YDnbo3NDxL0msQRDist81P7WYc6aulF4ah-DUsHw9X6_r7VPkVMw6wZv3It116hohizm1pvXe6kh"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVeWFuWm1RbHBKZVZka00wTTRlazB0UlRGbFptYxAB",
+            "user": {
+                "name": "Awwadh Alrabai",
+                "link": "https://www.google.com/maps/contrib/114425594684850910239?hl=en-US",
+                "contributor_id": "114425594684850910239",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUk4IXqlq9-LxLpHW9xbqEh91hQ0D1rB7OR1OnhfgR1idPjgg3H3Q=s120-c-rp-mo-ba5-br100",
+                "local_guide": true,
+                "reviews": 260,
+                "photos": 332
+            },
+            "snippet": "I ordered a spicy chicken and it was more than perfect. It\u2019s going to be one of the top halal restaurants in Tokyo. I really recommend it",
+            "extracted_snippet": {
+                "original": "I ordered a spicy chicken and it was more than perfect. It\u2019s going to be one of the top halal restaurants in Tokyo. I really recommend it"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "2 weeks ago",
+                "iso_date": "2025-07-18T12:10:24Z",
+                "iso_date_of_last_edit": "2025-07-18T12:10:24Z",
+                "snippet": "Thank you so much for your kind review and support.we\u2019re looking forward to see you soon.",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your kind review and support.we\u2019re looking forward to see you soon."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tKU1IwWXlhbU14VXpKVmFrOUlOVEJ4T0dJMmExRRAB!2m1!1s0x0:0x2f6a06bcbcecc5d4!3m1!1s2@1:CAIQACodChtycF9oOkJSR0YyamMxUzJVak9INTBxOGI2a1E%7C0cTDwZKGe1P%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-17T12:40:04Z",
+            "iso_date_of_last_edit": "2025-07-17T12:40:04Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKU1IwWXlhbU14VXpKVmFrOUlOVEJ4T0dJMmExRRAB",
+            "user": {
+                "name": "Hussain S",
+                "link": "https://www.google.com/maps/contrib/106430050509154508178?hl=en-US",
+                "contributor_id": "106430050509154508178",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLHBgCvyzsunB2DV-DMl14YNuieb6OG5Qb9ubT9HCJKVbLedVU=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Varies by time / day",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-17T14:37:38Z",
+                "iso_date_of_last_edit": "2025-07-17T14:37:38Z",
+                "snippet": "Thank you so much for your kind review and support.we are looking forward to see you soon.",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your kind review and support.we are looking forward to see you soon."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25CSFlUWnRZbk5UVFhwU05VeFJkVU5IZEdoNFVIYxAB!2m1!1s0x0:0x2f6a06bcbcecc5d4!3m1!1s2@1:CAIQACodChtycF9oOnBHYTZtYnNTTXpSNUxRdUNHdGh4UHc%7C0cRs4008QD1%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-13T09:49:53Z",
+            "iso_date_of_last_edit": "2025-07-13T09:49:53Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A1Qq-4PJ2oAGb_KlH0BguQxau9R_2vrxtWEXV2mX5eFYFrEhCQQwNqxf5gk6FQp39015bkA_BtMjaQoJuvWFvNd8CRdrJw-XnyWiKQD3EZRFj13RLIwmUY4qSANWOdfHlKvdl92olB3C--"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CSFlUWnRZbk5UVFhwU05VeFJkVU5IZEdoNFVIYxAB",
+            "user": {
+                "name": "Emilie Naphaug",
+                "link": "https://www.google.com/maps/contrib/104819664945219598224?hl=en-US",
+                "contributor_id": "104819664945219598224",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJo173Ikxl4JJRKwcVqJ9FpUkkZGASnZZjDQZq2dib3GK_F6A=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 2
+            },
+            "snippet": "Good thing noodles and big portions. Good amount of spice.",
+            "extracted_snippet": {
+                "original": "Good thing noodles and big portions. Good amount of spice."
+            },
+            "details": {
+                "price_per_person": "\u00a51,000\u20132,000"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-13T10:08:31Z",
+                "iso_date_of_last_edit": "2025-07-13T10:08:31Z",
+                "snippet": "Thank you so much for your kind review and support.we\u2019re looking forward to see you again ",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your kind review and support.we\u2019re looking forward to see you again "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWRE1WWXRNWGR4Wm5OeVowTm5lVVUyWkVwb1ZtYxAB!2m1!1s0x0:0x2f6a06bcbcecc5d4!3m1!1s2@1:CAIQACodChtycF9oOlVDMVYtMXdxZnNyZ0NneUU2ZEpoVmc%7C0cRpn52CzW-%7C?hl=en-US",
+            "rating": 1.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-13T07:14:14Z",
+            "iso_date_of_last_edit": "2025-07-13T07:14:14Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWRE1WWXRNWGR4Wm5OeVowTm5lVVUyWkVwb1ZtYxAB",
+            "user": {
+                "name": "ali baysal",
+                "link": "https://www.google.com/maps/contrib/103634313044432099548?hl=en-US",
+                "contributor_id": "103634313044432099548",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIqSxEnjz5r8cPlaul029TEx0u65f2j3KKLyoYcbIyRIhbzzw=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-13T10:09:33Z",
+                "iso_date_of_last_edit": "2025-07-13T10:09:33Z",
+                "snippet": "Thank you so much for choosing Ayam-ya halal Ramen.sorry for the inconvenience.",
+                "extracted_snippet": {
+                    "original": "Thank you so much for choosing Ayam-ya halal Ramen.sorry for the inconvenience."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tocmRFVm1XbFZ4TFRsM1ZsRXdUbVJSZWtSb1EyYxAB!2m1!1s0x0:0x2f6a06bcbcecc5d4!3m1!1s2@1:CAIQACodChtycF9oOkhrdEVmWlVxLTl3VlEwTmRRekRoQ2c%7C0cRDx0HAOLl%7C?hl=en-US",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-07-11T11:01:45Z",
+            "iso_date_of_last_edit": "2025-07-11T11:02:25Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A3_D7QArn5VCPSmOi2cHwa9OqnqE4FNqC0RV8CZpBzZ-P86bq5T-wbxyOKdWa9BganYrGrnFVSsuHSuU4xTP9Am5Zdz1JPbUFlpjrmHn_eNPC--Xe-wZTUNQDxZX_dyi-CNRgGMEaJ2GQ"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tocmRFVm1XbFZ4TFRsM1ZsRXdUbVJSZWtSb1EyYxAB",
+            "user": {
+                "name": "Fakriza Ahmad",
+                "link": "https://www.google.com/maps/contrib/115203015586859859954?hl=en-US",
+                "contributor_id": "115203015586859859954",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX-0Zc70M2I6LMHzFRVuImXW4SZj_ePhk8DQvoe00Fwys_l2XIh=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 39,
+                "photos": 32
+            },
+            "snippet": "most recommend halal ramen in Japan",
+            "extracted_snippet": {
+                "original": "most recommend halal ramen in Japan"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "group_size": "3-4 people",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-11T13:49:50Z",
+                "iso_date_of_last_edit": "2025-07-11T13:49:50Z",
+                "snippet": "Thank you so much for your kind review and support.we\u2019re looking forward to see you soon ",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your kind review and support.we\u2019re looking forward to see you soon "
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMmRITWxkcWJsOWZSV2hEZVdVd01rUjZZVmxTVm5FM1dYSnZkMEZCUVVGQlIyZHVPVEpYWTBOaFFXSmFZVTlqV1VGRFNVRQ%3D%3D&place_id=ChIJdY8ThvuPGGAR1MXsvLwGai8&sort_by=newestFirst",
+        "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMmRITWxkcWJsOWZSV2hEZVdVd01rUjZZVmxTVm5FM1dYSnZkMEZCUVVGQlIyZHVPVEpYWTBOaFFXSmFZVTlqV1VGRFNVRQ=="
+    }
+}

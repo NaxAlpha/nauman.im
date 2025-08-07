@@ -1,0 +1,772 @@
+{
+    "search_metadata": {
+        "id": "68953753f0527508826d9e7c",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/46d5cf20366bc584/68953753f0527508826d9e7c.json",
+        "created_at": "2025-08-07 23:31:31 UTC",
+        "processed_at": "2025-08-07 23:31:31 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/46d5cf20366bc584/68953753f0527508826d9e7c.html",
+        "prettify_html_file": "https://serpapi.com/searches/46d5cf20366bc584/68953753f0527508826d9e7c.prettify",
+        "total_time_taken": 0.61
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJ9bFAjKSOGGARqsl1Ru2ZQs0",
+        "hl": "en",
+        "next_page_token": "CAESY0NBRVFSQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMmRTU2tkdmMxOWZSV2hCTlc4eWVtdFlNVTlmWjNsMGVFc3hNRUZCUVVGQlIyZHVPUzExZDBOaFFrVnJZV2wzV1VGRFNVRQ==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWVE4yWkpVV3R1V1VGTVJHdFJlVEJyTFUxVFIxRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOlVTN2ZJUWtuWUFMRGtReTBrLU1TR1E%7C0cQYyjuJPrs%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 weeks ago",
+            "iso_date": "2025-07-09T10:08:47Z",
+            "iso_date_of_last_edit": "2025-07-09T10:08:47Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWVE4yWkpVV3R1V1VGTVJHdFJlVEJyTFUxVFIxRRAB",
+            "user": {
+                "name": "Johanna Zetterlund",
+                "link": "https://www.google.com/maps/contrib/102243379441300291630?hl=en",
+                "contributor_id": "102243379441300291630",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKrHLVVO5Nukf3lbWLo5LsxQ8WXJJX0BLWCgnFL8TDLF82aeA=s120-c-rp-mo-br100",
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:33Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:33Z",
+                "snippet": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again.",
+                "extracted_snippet": {
+                    "original": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWS1dVRkJOWGc0U205dVltcElURzlxTUc1WlpVRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOjVKWUFBNXg4Sm9uYmpITG9qMG5ZZUE%7C0cQYEn7qeB7%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 weeks ago",
+            "iso_date": "2025-07-09T09:18:43Z",
+            "iso_date_of_last_edit": "2025-07-09T09:18:43Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWS1dVRkJOWGc0U205dVltcElURzlxTUc1WlpVRRAB",
+            "user": {
+                "name": "Raghad Sama",
+                "link": "https://www.google.com/maps/contrib/115409138412323295466?hl=en",
+                "contributor_id": "115409138412323295466",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLCAsduTfOEX28h5uj5LDHqRQZQvqTSuVqTb1OpGc4iINXwgQ=s120-c-rp-mo-br100",
+                "reviews": 3,
+                "photos": 0
+            },
+            "snippet": "It was our first time, and we really enjoyed the food. The staff there were very friendly and extremely helpful.",
+            "extracted_snippet": {
+                "original": "It was our first time, and we really enjoyed the food. The staff there were very friendly and extremely helpful."
+            },
+            "details": {
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:05Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:05Z",
+                "snippet": "Thank you so much for your wonderful feedback! We are delighted to hear that you enjoyed the food and found our staff friendly and helpful. We hope to have the pleasure of serving you again soon!",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your wonderful feedback! We are delighted to hear that you enjoyed the food and found our staff friendly and helpful. We hope to have the pleasure of serving you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pCRGQwaERXREYzTmtSQlgyNUpXbUZoZDFSa1NYYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOjBDd0hDWDF3NkRBX25JWmFhd1RkSXc%7C0cQJ0G_-Z3l%7C?hl=en",
+            "rating": 3.0,
+            "date": "4 weeks ago",
+            "iso_date": "2025-07-08T15:59:13Z",
+            "iso_date_of_last_edit": "2025-07-08T15:59:13Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCRGQwaERXREYzTmtSQlgyNUpXbUZoZDFSa1NYYxAB",
+            "user": {
+                "name": "\u308a\u3087\u30fc\u3053",
+                "link": "https://www.google.com/maps/contrib/104490441619909632374?hl=en",
+                "contributor_id": "104490441619909632374",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVlxvr6hJNnleRn30z4y5XiY0HwkAGU0zuNIa6GjG3CNEClno1s=s120-c-rp-mo-ba7-br100",
+                "local_guide": true,
+                "reviews": 262,
+                "photos": 8081
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 4,
+                "service": 2,
+                "atmosphere": 2,
+                "recommended_dishes": "\u5b9a\u98df",
+                "group_size": "3-4 people, 5-8 people"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:32Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:32Z",
+                "snippet": "\u713c\u8089\u3071\u3093\u304c\u3092\u3054\u5229\u7528\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u307e\u305f\u306e\u3054\u5229\u7528\u3092\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u713c\u8089\u3071\u3093\u304c\u3092\u3054\u5229\u7528\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u307e\u305f\u306e\u3054\u5229\u7528\u3092\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for using Yakiniku Panga! We look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pGa2MwVlVWMTlwZUdab1pXd3RRekpIVUd0RlZIYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOjFkc0VUV19peGZoZWwtQzJHUGtFVHc%7C0cQF759_vsA%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 weeks ago",
+            "iso_date": "2025-07-08T11:33:26Z",
+            "iso_date_of_last_edit": "2025-07-08T11:33:26Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGa2MwVlVWMTlwZUdab1pXd3RRekpIVUd0RlZIYxAB",
+            "user": {
+                "name": "Mohamed",
+                "link": "https://www.google.com/maps/contrib/117217401938132335587?hl=en",
+                "contributor_id": "117217401938132335587",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKyG3AEPwGvs1eo3ztatFEKMCFsE-st2OciwXjAUQ9cc-sTRQ=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 22,
+                "photos": 204
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:31Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:31Z",
+                "snippet": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again.",
+                "extracted_snippet": {
+                    "original": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xocFdFUkdXRzFPYmtnNWVWVjFMWEJhTjNOellWRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOlhpWERGWG1Obkg5eVV1LXBaN3NzYVE%7C0cPIMPRUmM2%7C?hl=en",
+            "rating": 1.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-05T14:25:30Z",
+            "iso_date_of_last_edit": "2025-07-05T14:25:30Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xocFdFUkdXRzFPYmtnNWVWVjFMWEJhTjNOellWRRAB",
+            "user": {
+                "name": "Ibrahim Albadr",
+                "link": "https://www.google.com/maps/contrib/105454367502012831348?hl=en",
+                "contributor_id": "105454367502012831348",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLaBr_zTJ1_MHgCP2LKMVAAQl9bBIaYyTwd8Yl_oppwELIufw=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 28,
+                "photos": 24
+            },
+            "snippet": "I arrived at 2136 they refused to let me in saying we are closed even though Google Maps says they close at 2230 I told the staff about this and she said last order is at 2130 and the kitchen is closed I don\u2019t think 6 minutes would make a big difference",
+            "extracted_snippet": {
+                "original": "I arrived at 2136 they refused to let me in saying we are closed even though Google Maps says they close at 2230 I told the staff about this and she said last order is at 2130 and the kitchen is closed I don\u2019t think 6 minutes would make a big difference"
+            },
+            "details": {
+                "food": 1,
+                "service": 1,
+                "atmosphere": 1
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-07-08T04:42:08Z",
+                "iso_date_of_last_edit": "2025-07-08T04:42:08Z",
+                "snippet": "We\u2019re sorry to hear about your experience.\nPlease allow us to clarify that while our closing time is listed as 22:30 on Google, it is also clearly stated on both Google and on our restaurant signage that the last order is at 21:30. We kindly ask for understanding, as our kitchen and staff have set working hours to follow, and we must begin closing preparations after the final order time.\nWe truly regret any inconvenience this caused and hope to have the opportunity to welcome you earlier next time for a full and enjoyable experience.",
+                "extracted_snippet": {
+                    "original": "We\u2019re sorry to hear about your experience.\nPlease allow us to clarify that while our closing time is listed as 22:30 on Google, it is also clearly stated on both Google and on our restaurant signage that the last order is at 21:30. We kindly ask for understanding, as our kitchen and staff have set working hours to follow, and we must begin closing preparations after the final order time.\nWe truly regret any inconvenience this caused and hope to have the opportunity to welcome you earlier next time for a full and enjoyable experience."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pRdFpVOUdiblZ3YVVOVlVETnpkVWRKTTBwWVFuYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOjQtZU9GbnVwaUNVUDNzdUdJM0pYQnc%7C0cPH4FlYUNH%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-05T12:57:52Z",
+            "iso_date_of_last_edit": "2025-07-05T12:57:52Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRdFpVOUdiblZ3YVVOVlVETnpkVWRKTTBwWVFuYxAB",
+            "user": {
+                "name": "\u0633\u0644\u0645\u0627\u0646 \u0633\u0639\u062f",
+                "link": "https://www.google.com/maps/contrib/102599290019161044919?hl=en",
+                "contributor_id": "102599290019161044919",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJi6ZG254VYT8yneI_BZBSv5uXlObXWaB_0JeaSukH2Pkqatg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "All the staff is friendly and helpful and the food is amazing",
+            "extracted_snippet": {
+                "original": "All the staff is friendly and helpful and the food is amazing"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservation required"
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-07-08T04:42:10Z",
+                "iso_date_of_last_edit": "2025-07-08T04:42:10Z",
+                "snippet": "Thank you for the kind words! We are thrilled to hear you enjoyed our food and found our staff friendly and helpful. We look forward to welcoming you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for the kind words! We are thrilled to hear you enjoyed our food and found our staff friendly and helpful. We look forward to welcoming you back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tKcWNqRjVaalJIUVVOcFdGaG5iRzEzUzJSVWFVRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOkJqcjF5ZjRHQUNpWFhnbG13S2RUaUE%7C0cPAobFgX1W%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-05T05:50:31Z",
+            "iso_date_of_last_edit": "2025-07-05T05:50:31Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKcWNqRjVaalJIUVVOcFdGaG5iRzEzUzJSVWFVRRAB",
+            "user": {
+                "name": "Taufik Widayat",
+                "link": "https://www.google.com/maps/contrib/113798606369155081249?hl=en",
+                "contributor_id": "113798606369155081249",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLXQGSGqgXy2gsKqK294g9J1GYtGNTZgJbjp7G1-zb-ADo_fA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 2
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations recommended",
+                "kid_friendliness": "Bisa untuk anak-anak",
+                "wheelchair_accessibility": "Kurang yakin, mungkin bisa karena ada tempat makan di lantai 1 dan lt. 2"
+            },
+            "translated_details": {
+                "kid_friendliness": "Suitable for children",
+                "wheelchair_accessibility": "Not sure, maybe it's possible because there are places to eat on the 1st and 2nd floors."
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:30Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:30Z",
+                "snippet": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again.",
+                "extracted_snippet": {
+                    "original": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s1U2JqUldNbVJ1YjI4eFZqQmZTVWRST1hCSVJtYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOk5SbjRWMmRub28xVjBfSUdROXBIRmc%7C0cOwF7Upah0%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-04T12:07:36Z",
+            "iso_date_of_last_edit": "2025-07-04T12:07:36Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1U2JqUldNbVJ1YjI4eFZqQmZTVWRST1hCSVJtYxAB",
+            "user": {
+                "name": "Lukas Gruber",
+                "link": "https://www.google.com/maps/contrib/111016348672542429086?hl=en",
+                "contributor_id": "111016348672542429086",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKbk31M2zFTX5fvlZ8O_MvS8Dy2T-qeh7W-wYsQ-A0Pl97RNQ=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 27,
+                "photos": 0
+            },
+            "snippet": "Very good wagyu steak!",
+            "extracted_snippet": {
+                "original": "Very good wagyu steak!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a57,000\u20138,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "reservation": "Reservations recommended"
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-07-08T04:42:11Z",
+                "iso_date_of_last_edit": "2025-07-08T04:42:11Z",
+                "snippet": "Thank you for your review! We're delighted to hear that you enjoyed the wagyu steak. We strive to provide the best dining experience, and your feedback is much appreciated.",
+                "extracted_snippet": {
+                    "original": "Thank you for your review! We're delighted to hear that you enjoyed the wagyu steak. We strive to provide the best dining experience, and your feedback is much appreciated."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25kUmJITlZNVVZsV0daUWFUa3pkbFZWTFVOelYwRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOndRbHNVMUVlWGZQaTkzdlVVLUNzV0E%7C0cOwDSpLNFZ%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-04T12:05:49Z",
+            "iso_date_of_last_edit": "2025-07-04T12:05:49Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kUmJITlZNVVZsV0daUWFUa3pkbFZWTFVOelYwRRAB",
+            "user": {
+                "name": "Humaid",
+                "link": "https://www.google.com/maps/contrib/115027877833408257929?hl=en",
+                "contributor_id": "115027877833408257929",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKPRUudyavcmljIpD69hjpL40G1np-SSlvQ5YMCP3LWS46A7Q=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Thanks for Chan and Han",
+            "extracted_snippet": {
+                "original": "Thanks for Chan and Han"
+            },
+            "details": {
+                "food": 5,
+                "service": 5
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-07-08T04:42:12Z",
+                "iso_date_of_last_edit": "2025-07-08T04:42:12Z",
+                "snippet": "Thank you for mentioning our team members! We're glad they could enhance your experience. Hope to see you again soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for mentioning our team members! We're glad they could enhance your experience. Hope to see you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkclIxaFZibE5LUlVKUWNFeHdlRlpRVm10alRrRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOldrR1hVblNKRUJQcExweFZQVmtjTkE%7C0cOvMgLSOYO%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-04T11:07:24Z",
+            "iso_date_of_last_edit": "2025-07-04T11:07:24Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkclIxaFZibE5LUlVKUWNFeHdlRlpRVm10alRrRRAB",
+            "user": {
+                "name": "\u674e\u4f9d\u606c",
+                "link": "https://www.google.com/maps/contrib/101382434616265889464?hl=en",
+                "contributor_id": "101382434616265889464",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKxi3-8zw37GqBoBt1osMAzd18nFZnU6D8wim40-PdXG5KBFw=s120-c-rp-mo-br100",
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Very good \ud83d\ude04",
+            "extracted_snippet": {
+                "original": "Very good \ud83d\ude04"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a59,000\u201310,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:34Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:34Z",
+                "snippet": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again.",
+                "extracted_snippet": {
+                    "original": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wbVYydEZlbmRKYjFSMGVYWk1SekJqY0UxWU4yYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOmpmV2tFendJb1R0eXZMRzBjcE1YN2c%7C0cOvLbuKvme%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-04T11:06:15Z",
+            "iso_date_of_last_edit": "2025-07-04T11:06:15Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wbVYydEZlbmRKYjFSMGVYWk1SekJqY0UxWU4yYxAB",
+            "user": {
+                "name": "seulmimi han",
+                "link": "https://www.google.com/maps/contrib/104716923913613806272?hl=en",
+                "contributor_id": "104716923913613806272",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJQ7OXMKWPut06TEBJJMcVho5cw0XVgjLwpQZk7B-ttVb-QAG8=s120-c-rp-mo-br100",
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "free drinks \ud83d\udc4d\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d",
+            "extracted_snippet": {
+                "original": "free drinks \ud83d\udc4d\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:56Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:56Z",
+                "snippet": "Thank you so much for visiting us even though the air conditioning was not working \u2014 we truly appreciate your understanding and patience. We're glad you enjoyed the free drinks, and we hope to welcome you back under more comfortable conditions next time!",
+                "extracted_snippet": {
+                    "original": "Thank you so much for visiting us even though the air conditioning was not working \u2014 we truly appreciate your understanding and patience. We're glad you enjoyed the free drinks, and we hope to welcome you back under more comfortable conditions next time!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25wT2JWSnNia2RvY0dkNlJXRktOMUJYVFY5RFZVRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOnpObVJsbkdocGd6RWFKN1BXTV9DVUE%7C0cOvLSRGv25%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-04T11:06:05Z",
+            "iso_date_of_last_edit": "2025-07-04T11:06:05Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wT2JWSnNia2RvY0dkNlJXRktOMUJYVFY5RFZVRRAB",
+            "user": {
+                "name": "21431\u5ed6\u5b50\u6674",
+                "link": "https://www.google.com/maps/contrib/115145424399552497520?hl=en",
+                "contributor_id": "115145424399552497520",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXqUVJGYHmU7R_nuW2FcgR9SRmjMJoVT5iUSxSBLlNO-WyRgl4=s120-c-rp-mo-br100",
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "The best food and services",
+            "extracted_snippet": {
+                "original": "The best food and services"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:04Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:04Z",
+                "snippet": "Thank you for your kind words! We're thrilled to hear you enjoyed our food and services. We look forward to welcoming you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your kind words! We're thrilled to hear you enjoyed our food and services. We look forward to welcoming you back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25Jd1ZUWlVVSGhSUXpRME1sazNUVGQ1Um1oMGVHYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOnIwVTZUUHhRQzQ0Mlk3TTd5Rmh0eGc%7C0cOvK72KRQE%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-04T11:04:40Z",
+            "iso_date_of_last_edit": "2025-07-04T11:04:40Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Jd1ZUWlVVSGhSUXpRME1sazNUVGQ1Um1oMGVHYxAB",
+            "user": {
+                "name": "\u674e\u4f73\u6b23",
+                "link": "https://www.google.com/maps/contrib/114888986044208090739?hl=en",
+                "contributor_id": "114888986044208090739",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUG3ZZszBYFTgj2E2hYwoQn_tjWYCvDc8o5cfWvKHOYLOpirLiZ=s120-c-rp-mo-br100",
+                "reviews": 2,
+                "photos": 1
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:29Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:29Z",
+                "snippet": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again.",
+                "extracted_snippet": {
+                    "original": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT210VVZGWnJaakl4VURCcGVYQmZPVWhUV25KU2EyYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOmtUVFZrZjIxUDBpeXBfOUhTWnJSa2c%7C0cOtzw0eY8I%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-04T09:33:48Z",
+            "iso_date_of_last_edit": "2025-07-04T09:33:48Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210VVZGWnJaakl4VURCcGVYQmZPVWhUV25KU2EyYxAB",
+            "user": {
+                "name": "alfi639",
+                "link": "https://www.google.com/maps/contrib/102863295685392050080?hl=en",
+                "contributor_id": "102863295685392050080",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJMKcJq1nru4clebFJ6P2qYsPWDAk8PSxipSMHRnVNBslCEmg=s120-c-rp-mo-br100",
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "This restaurant comes in highly recommended.. and it truly did not disappoint.. the best halal yakiniku restaurant in tokyo. Must try. We were attended by Ms Maria who made our experience a lovely one. Thank you!",
+            "extracted_snippet": {
+                "original": "This restaurant comes in highly recommended.. and it truly did not disappoint.. the best halal yakiniku restaurant in tokyo. Must try. We were attended by Ms Maria who made our experience a lovely one. Thank you!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Premium Wagyu",
+                "reservation": "Reservation required",
+                "dietary_restrictions": "Halal"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:55Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:55Z",
+                "snippet": "Thank you for sharing your experience with us! We are delighted to be recommended as the best halal yakiniku restaurant in Tokyo. Your praise means a lot to us, and we hope to see you again soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for sharing your experience with us! We are delighted to be recommended as the best halal yakiniku restaurant in Tokyo. Your praise means a lot to us, and we hope to see you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25oNmRtSjVXREpCTjFwa2Rrd3lWa1pXWmt4UmJVRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOnh6dmJ5WDJBN1pkdkwyVkZWZkxRbUE%7C0cOt63maMKm%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-04T08:33:08Z",
+            "iso_date_of_last_edit": "2025-07-04T08:33:08Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oNmRtSjVXREpCTjFwa2Rrd3lWa1pXWmt4UmJVRRAB",
+            "user": {
+                "name": "Trung Minh",
+                "link": "https://www.google.com/maps/contrib/110834392794435020693?hl=en",
+                "contributor_id": "110834392794435020693",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU65smZJfCiOqpQutv6UwRFNJRINazsce4N9xcVnWd9yw-kyvw1=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 1
+            },
+            "snippet": "Nice place to enjoy A5 wagyu beefsteak.\n\nStaff is nice, cheerfull and they speak English well. Ms Chan-san help me alot cause i am a foreigner with little Japanese.\n\nWill be back.",
+            "extracted_snippet": {
+                "original": "Nice place to enjoy A5 wagyu beefsteak.\n\nStaff is nice, cheerfull and they speak English well. Ms Chan-san help me alot cause i am a foreigner with little Japanese.\n\nWill be back."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "service": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T05:31:25Z",
+                "iso_date_of_last_edit": "2025-07-15T05:31:25Z",
+                "snippet": "Thank you for your wonderful review! We're delighted to hear that you enjoyed the A5 wagyu beefsteak and that our staff were able to assist you effectively. We look forward to welcoming you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your wonderful review! We're delighted to hear that you enjoyed the A5 wagyu beefsteak and that our staff were able to assist you effectively. We look forward to welcoming you back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25wa2MybFVjbFZJVFZrMVlWQkVWa0ZMWHpaRFozYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOnpkc2lUclVITVk1YVBEVkFLXzZDZ3c%7C0cObgcAx35e%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-03T12:44:24Z",
+            "iso_date_of_last_edit": "2025-07-03T12:44:24Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wa2MybFVjbFZJVFZrMVlWQkVWa0ZMWHpaRFozYxAB",
+            "user": {
+                "name": "\u9ec3Jason",
+                "link": "https://www.google.com/maps/contrib/104285823734840462169?hl=en",
+                "contributor_id": "104285823734840462169",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXDxPT5A5CtzhRPTUHR1MOVOWCnr6rdMj-iCPaY_6TA0lnWx8pM=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 8,
+                "photos": 3
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 4,
+                "service": 4,
+                "atmosphere": 4,
+                "reservation": "Reservations recommended"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:29Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:29Z",
+                "snippet": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again.",
+                "extracted_snippet": {
+                    "original": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pJMGVrRkpXWEV4WjBkRk0wcE1aMEp2V0RadGNuYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOjI0ekFJWXExZ0dFM0pMZ0JvWDZtcnc%7C0cOapt3cuAH%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-03T11:46:01Z",
+            "iso_date_of_last_edit": "2025-07-03T11:46:01Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AJeawnVHkk79IRs5FKKCGIO-F2UZY685bzUox0bXsSVlNjmTR4OYW5Y1Az2h6cBMLbvMXIuLwTdWzwIONUXxEMJn4-fKAkfJh3y3PyUcr_3dOf6Mbgz0jluFQ4HcrGH9MUh3k1dWMVWgWc",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cy6y1b4vBvtpFT9A-u88m6dms_pkWmZFT9BoKm3hvLE2YzQw3JkHupeQ_U-AWPbMfabPmAZ75dd6nslsFWxXrpLdBzo6vcwv4Wovoh1eKFdbp6dn7LUu7uLYjdWogqrSiT75chXvDR5Tk",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DYzdaLTiGgMO4tugyPgH0DqMsSM1iIhtMQpWj3SURqJ57rSGrc0YCHe2Gvpve9uaIzWdTJHbrBC7Te6iozGBjGcfADtqfLRxJg8cYfq_2YQTd9ulZvdDZTKyhJDPfRi2O7pvVnEdI2hVZ5",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CZo-93ct3M_TZm4ZNPT19-Rlrajaf-vgTNmPEgEINIxJO8btYUs2N8USqcIaFamJYEEUZEfbtCrsl1z0nCDfHYbdKMO2MkqhgohnojwsOX5ASAwq_LyJfg_9PWh6jy9Ud29_cFg75RDQv9",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A4D9BKvZWLTJpOPjcgVAS1Oo806P_PrGVYg4cjZaEEVVa8x972UXZrRvs_hROFYsBEWmGZZsYqFoy-lPRQwtLzc4Fwy7CV_LsDCOcCk66aDeBKNZBQNOMLNOIC0oioxzuAJ5xJHPYkm5BU"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pJMGVrRkpXWEV4WjBkRk0wcE1aMEp2V0RadGNuYxAB",
+            "user": {
+                "name": "Afnan Nasaruddin",
+                "link": "https://www.google.com/maps/contrib/117392125654945415038?hl=en",
+                "contributor_id": "117392125654945415038",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUpO04JpfCliGuDXk_DIriLkHAdTXsQfQcmadn-uaU2iVcjhNOc=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 29,
+                "photos": 59
+            },
+            "snippet": "This is the place to go to for a high quality, halal wagyu in Taito City!\n\nThe price is affordable, the service is excellent, and the food was exceptionally delicious!! You know the wagyu meat is of high quality just by looking at the marbling of the intramuscular fats. The meat melted in my mouth. It is worth every single penny spent here!\n\nShout out to Cham and two white ladies (sorry I forgot to ask their names!) who attended our table tonight! They provided an excellent customer service!",
+            "extracted_snippet": {
+                "original": "This is the place to go to for a high quality, halal wagyu in Taito City!\n\nThe price is affordable, the service is excellent, and the food was exceptionally delicious!! You know the wagyu meat is of high quality just by looking at the marbling of the intramuscular fats. The meat melted in my mouth. It is worth every single penny spent here!\n\nShout out to Cham and two white ladies (sorry I forgot to ask their names!) who attended our table tonight! They provided an excellent customer service!"
+            },
+            "details": {
+                "price_per_person": "\u00a58,000\u20139,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T05:31:06Z",
+                "iso_date_of_last_edit": "2025-07-15T05:31:06Z",
+                "snippet": "Thank you so much for your kind words! We are thrilled to hear that you enjoyed our halal wagyu and found the service to be excellent. We appreciate your detailed feedback on the quality of the meat, and we will be sure to pass your compliments to the staff who served you. We look forward to welcoming you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your kind words! We are thrilled to hear that you enjoyed our halal wagyu and found the service to be excellent. We appreciate your detailed feedback on the quality of the meat, and we will be sure to pass your compliments to the staff who served you. We look forward to welcoming you back soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xweVVrd3dOMjlVYWt4Q1NsZEhlWGx1WVZBMlJuYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOlpyUkwwN29UakxCSldHeXluYVA2Rnc%7C0cOQHWKSPmq%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-02T22:37:21Z",
+            "iso_date_of_last_edit": "2025-07-02T22:37:21Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CgOxfYRVTcn_InAhIMScM4k6X_d8rfHAAm_v5mxsZN-LkESnwAcqqONzx8FTa0bfUzwyfWRkj_vBxSjcJSRsqu3fDrJ0_-e9S8U7S0jtRXueRGrTizt4cefw6LT3xp2jbhoPambIjko1fI",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CmqOgOseWvQZ0yo_yA2p4iVW0D71m1QkbLhR-R-OyQLCkVq_T0ZslmqTLD8Ff8jBOiT-xSHJzBPtvkS7FQo7fvhMC-4jBtTNmZYcczc9qfgFxZ7Dhn-Cb0-2vfudgpwbs67uLxGQEiHfJE",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C4PC4ZBEZ_K1H217hrCqKDTzqEaId5U6W7cxdImAUVc69DPBXbAzctVgJj5yWye8dJZDfUaFFy64E7Fp-EwK4xxqtVL9IxBssSck0AC0pvu_CXe4zjHNkweADXxclTwvU_aGYKU6iC57lJ"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xweVVrd3dOMjlVYWt4Q1NsZEhlWGx1WVZBMlJuYxAB",
+            "user": {
+                "name": "nspn",
+                "link": "https://www.google.com/maps/contrib/102294084516667114465?hl=en",
+                "contributor_id": "102294084516667114465",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVtGoTz44YalFnCXFz72WT2RwfAwIQksdYAG56YGwpMoEzBdv77Vg=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 17,
+                "photos": 17
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a59,000\u201310,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Wagyu Steak, Wagyu, Premium Wagyu, Wagyu Set, Wagyu Platter, Tongue, Wagyu Premium Beef Platter, Wagyu Beef Steak",
+                "group_size": "5-8 people",
+                "dietary_restrictions": "Halal"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:28Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:28Z",
+                "snippet": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again.",
+                "extracted_snippet": {
+                    "original": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t3d05rRlpZVWhrTmpNeFZEUjRZVVo2ZDI5M01uYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOkwwNkFZYUhkNjMxVDR4YUZ6d293Mnc%7C0cOItI2wOmH%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-02T14:12:35Z",
+            "iso_date_of_last_edit": "2025-07-02T14:12:35Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DtQqt5IwFsVxMJ2-YnXdlSDObr_sApkBF9NGBiFGAzdhViS9tpRi9bH8vw5s68jVS4rANN_A9tuo0J-DeKLjWEmUfahaPuJD1DA7fRbymw2ZCyYV5z8aM54vPCD9FD0-nkTUnGQ4Sy9dOg"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3d05rRlpZVWhrTmpNeFZEUjRZVVo2ZDI5M01uYxAB",
+            "user": {
+                "name": "Heba Qrtome",
+                "link": "https://www.google.com/maps/contrib/105165907136899686256?hl=en",
+                "contributor_id": "105165907136899686256",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKTT0oDldSXw9KYznIxiu7XbUOMDVIxSAwIU5INfKSRTJkf=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 11,
+                "photos": 31
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "A5 Wagyu Special Lunch Set",
+                "group_size": "2 people"
+            },
+            "response": {
+                "date": "3 weeks ago",
+                "iso_date": "2025-07-15T08:51:27Z",
+                "iso_date_of_last_edit": "2025-07-15T08:51:27Z",
+                "snippet": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again.",
+                "extracted_snippet": {
+                    "original": "Thank you for visiting Wagyu Yakiniku Panga! We look forward to welcoming you back again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tob2JscDBNM2w2VGxvdGVrbDRXSFI0Y0VGZlZrRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOkhoblp0M3l6Tlotekl4WHR4cEFfVkE%7C0cOHpngz-XD%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-02T13:00:35Z",
+            "iso_date_of_last_edit": "2025-07-02T13:00:35Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B4fzJNZXnNIEsLTgmut6wT5jI-5tOyTdKqeRsrELs7g5i_J3uHhoXGavC-sKUIhNL9ixKlCgRtRM9iIp0f07uDgsVu0sae7yDCvLckq6G6Qbw5b2_jj10Wx9hDHKSxOAwvLJ7ZHx3Rj8lC"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tob2JscDBNM2w2VGxvdGVrbDRXSFI0Y0VGZlZrRRAB",
+            "user": {
+                "name": "Muhammed YILDIZ",
+                "link": "https://www.google.com/maps/contrib/108725645175363839734?hl=en",
+                "contributor_id": "108725645175363839734",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIyew5T2agAUDUbvIkwQic3kX8wh0xrKVwu1I9QaN8TXCNclA=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 21,
+                "photos": 5
+            },
+            "snippet": "Meat was incredible , so tender and tasty !",
+            "extracted_snippet": {
+                "original": "Meat was incredible , so tender and tasty !"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Chateaubriand",
+                "group_size": "2 people, 3-4 people"
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-07-08T04:41:03Z",
+                "iso_date_of_last_edit": "2025-07-08T04:41:03Z",
+                "snippet": "Thank you for your feedback! We're thrilled to hear that you enjoyed the tenderness and taste of our meat. We strive to provide the best dining experience possible and your compliment reassures us that we are on the right track. We hope to welcome you back soon!",
+                "extracted_snippet": {
+                    "original": "Thank you for your feedback! We're thrilled to hear that you enjoyed the tenderness and taste of our meat. We strive to provide the best dining experience possible and your compliment reassures us that we are on the right track. We hope to welcome you back soon!"
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFXQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMmN3ZUc1UVZsOWZSV2hDZEc1VlJHOXZNMWxpVjA1UFpteEZRVUZCUVVGQlIyZHVPVEpvYTBOaFJGUkhZemxWV1VGRFNVRQ%3D%3D&num=20&place_id=ChIJ9bFAjKSOGGARqsl1Ru2ZQs0&sort_by=newestFirst",
+        "next_page_token": "CAESY0NBRVFXQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMmN3ZUc1UVZsOWZSV2hDZEc1VlJHOXZNMWxpVjA1UFpteEZRVUZCUVVGQlIyZHVPVEpvYTBOaFJGUkhZemxWV1VGRFNVRQ=="
+    }
+}

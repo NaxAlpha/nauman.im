@@ -1,0 +1,739 @@
+{
+    "search_metadata": {
+        "id": "689537ffa204abce1a7d8ea9",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/c0d14106c9ce69f9/689537ffa204abce1a7d8ea9.json",
+        "created_at": "2025-08-07 23:34:23 UTC",
+        "processed_at": "2025-08-07 23:34:23 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/c0d14106c9ce69f9/689537ffa204abce1a7d8ea9.html",
+        "prettify_html_file": "https://serpapi.com/searches/c0d14106c9ce69f9/689537ffa204abce1a7d8ea9.prettify",
+        "total_time_taken": 0.63
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJFeku-gCNGGARmWN4AkLFnT0",
+        "hl": "en",
+        "next_page_token": "CAESYENBRVFDQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlE0TVdkNFRGOWZSV2hEY0d3NGEzVXdSMFJqYnpKdmNYUklhMEZCUVVGQlIyZG1YMEZ0WkRneFozaE1SMEZCYVVGQg==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2sxVGNtOXZlSEZoV2xrM1dEYzFOMFIwY0dNNVUxRRAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOk1Tcm9veHFhWlk3WDc1N0R0cGM5U1E%7C0c_2EcWL4_v%7C?hl=en",
+            "rating": 5.0,
+            "date": "18 hours ago",
+            "iso_date": "2025-08-07T05:04:40Z",
+            "iso_date_of_last_edit": "2025-08-07T05:04:40Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AjIpDNbkn7pq1kN4z-jKcA54By4RTZ0rfCPHgdT9nuOq9HbXcpmd6fPWtGAoLFrNw7dl9ZxvcoZACbFS8DHr0NY-yhgcmP8vq0kpImYueidUp1DmEtACQwV--da_0MCWrhkUoTcBXK3ne7"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxVGNtOXZlSEZoV2xrM1dEYzFOMFIwY0dNNVUxRRAB",
+            "user": {
+                "name": "Daniel",
+                "link": "https://www.google.com/maps/contrib/101654388885307391678?hl=en",
+                "contributor_id": "101654388885307391678",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVRzD4Qz9vlPP5uukma_s-JyfXZffAyzjorPBn6QoHpx1KU7ChI=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "seating_type": "Indoor dining area"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tkNVlWZ3dPRE50VjJWMVNVSTJSMUZ2V0dSeExYYxAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOkd5YVgwODNtV2V1SUI2R1FvWGRxLXc%7C0c_2BzHFAEO%7C?hl=en",
+            "rating": 5.0,
+            "date": "18 hours ago",
+            "iso_date": "2025-08-07T05:01:51Z",
+            "iso_date_of_last_edit": "2025-08-07T05:01:51Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CkVpJs_fhCb_ZWD1L-k3D1bORpGktMNCZnaXinsI1PZTEuKQX6RAHihJ7HFNQtOHy7zX48ALoZrcp1BjDcL3Y5KhtTaYskN20Sj3qkMidUR_UO-9cllTVqeludBvAK_XUe3RDO6zdRtGc3"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkNVlWZ3dPRE50VjJWMVNVSTJSMUZ2V0dSeExYYxAB",
+            "user": {
+                "name": "sebastian pozarek",
+                "link": "https://www.google.com/maps/contrib/105347426281266032829?hl=en",
+                "contributor_id": "105347426281266032829",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJkk8ThEK603CU9dV8kEmHAmt8995NYnehCZi_WSJnxUj400jw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 2
+            },
+            "snippet": "sehr gutes essen und der kellner war wirklich sehr sehr freundlich kann man nur weiterempfehlen top restaurant",
+            "extracted_snippet": {
+                "original": "sehr gutes essen und der kellner war wirklich sehr sehr freundlich kann man nur weiterempfehlen top restaurant",
+                "translated": "Very good food and the waiter was really very friendly, can only recommend top restaurant"
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWdFpVUjFiMFozVVUxU1VHdHdkbGh6YjFaS1VHYxAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOlVtZUR1b0Z3UU1SUGtwdlhzb1ZKUGc%7C0cZqWUP77Qg%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T14:36:15Z",
+            "iso_date_of_last_edit": "2025-08-06T14:36:15Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ba88VjTPaiPH_GMZmrZt5IAS62ZWSd_cLaAQu_HP4PvF0QTe5E9eFWyHV9WtnRi9evtn5ztmH8jWou4rhaSJnExKygTWI93GcVxsbGG2IKT27b1KNs9EvOKnFDMr0sCT455jYIqjDnQ_7B"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWdFpVUjFiMFozVVUxU1VHdHdkbGh6YjFaS1VHYxAB",
+            "user": {
+                "name": "Arslan Qureshi",
+                "link": "https://www.google.com/maps/contrib/103184816468015119349?hl=en",
+                "contributor_id": "103184816468015119349",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKkL255fPEZTa-Qaox4uqVlaGWndoAgE5af2NvaOt8e--u8=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 2
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tNMFIyOW1VMmhuVDFZM1VrSmxPVkIxVGpabVZIYxAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOkM0R29mU2hnT1Y3UkJlOVB1TjZmVHc%7C0cZooZQ-OKM%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T12:39:38Z",
+            "iso_date_of_last_edit": "2025-08-06T12:40:04Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90ANrJU7Q5KS1_3pBksI2EO04_uC5yk4Qc98cQ4cEHgzygYpisQp8s4FxIcihutHnl8QUUBka12MLBSh89KSbsXdJwPwVg8yu-5gjtFnXAe9_5w5nyq_iPxSzloNWwpx7fl_Q8oJU9MHn1g",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BRbmbAexRIbe09yy7W-PUexdhD6jI6Zm4GT7XNPGWZ-5ixA24DuYXjDbSUwA5wXw_UIJxVUfOMbUZHLknGq6kaDQYi01pPHNbkhOY4CmVYG7mTvWLnhbPIRMVGi5mfxP68l8l44N42cDif"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tNMFIyOW1VMmhuVDFZM1VrSmxPVkIxVGpabVZIYxAB",
+            "user": {
+                "name": "Erika Leonetti",
+                "link": "https://www.google.com/maps/contrib/105837236031277557825?hl=en",
+                "contributor_id": "105837236031277557825",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJwPCOGBSKofnLoLZArR_56ci7bYo9dEdhkb1AsC0YWKZ-5PQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 2
+            },
+            "snippet": "Locale tipico e accogliente!\nPersonale gentile!\nIl vero Giappone nel cuore di Tokyo!",
+            "extracted_snippet": {
+                "original": "Locale tipico e accogliente!\nPersonale gentile!\nIl vero Giappone nel cuore di Tokyo!",
+                "translated": "Typical and welcoming place!\nFriendly staff!\nAuthentic Japan in the heart of Tokyo!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21SNWJtbFVRbUZVTkZob1dVNXJSV2hNTm1NeU1tYxAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOmR5bmlUQmFUNFhoWU5rRWhMNmMyMmc%7C0cZnsbhIBgX%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T11:36:07Z",
+            "iso_date_of_last_edit": "2025-08-06T11:36:07Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SNWJtbFVRbUZVTkZob1dVNXJSV2hNTm1NeU1tYxAB",
+            "user": {
+                "name": "Saad Khan",
+                "link": "https://www.google.com/maps/contrib/117908885851493241293?hl=en",
+                "contributor_id": "117908885851493241293",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIukXtCL2kmsURzKFEw8KbLMTnVCF6Vuo2l94HFEz3Hjz09LQ=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 25,
+                "photos": 0
+            },
+            "snippet": "While the restaurant dates back to 1962, the 100% halal conversion has been just over a year. Burgers are a perfect take on the smash burger style with wagyu as a bonus. Servers are youngsters who are attentive, caring and fun to chat with as they practice English making it one of my favorite local places to meet new people!",
+            "extracted_snippet": {
+                "original": "While the restaurant dates back to 1962, the 100% halal conversion has been just over a year. Burgers are a perfect take on the smash burger style with wagyu as a bonus. Servers are youngsters who are attentive, caring and fun to chat with as they practice English making it one of my favorite local places to meet new people!"
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "1 person, 2 people, 3-4 people",
+                "seating_type": "Indoor dining area, Counter seating"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21adFdFTnVNbkpSYVROdFNHdHlYMFJ2TW5oUlRrRRAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOmZtWENuMnJRaTNtSGtyX0RvMnhRTkE%7C0cZnfZPQnYA%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T11:22:12Z",
+            "iso_date_of_last_edit": "2025-08-06T11:22:12Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21adFdFTnVNbkpSYVROdFNHdHlYMFJ2TW5oUlRrRRAB",
+            "user": {
+                "name": "Vincenzo Mirto",
+                "link": "https://www.google.com/maps/contrib/116752420295501157904?hl=en",
+                "contributor_id": "116752420295501157904",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIbbJXq5NJAc9I-hmaLQ0XrW_ZghTu7HLOB9ZoJf8ibHGef7g=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Cibo eccezionale, carne succosa e morbida.",
+            "extracted_snippet": {
+                "original": "Cibo eccezionale, carne succosa e morbida.",
+                "translated": "Exceptional food, juicy and tender meat."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21Zd1pEZ3hOazk1Wm1aa1oxTjNjV2hoVHpVdFUxRRAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOmYwZDgxNk95ZmZkZ1N3cWhhTzUtU1E%7C0cZnX0ur-OI%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-08-06T11:12:01Z",
+            "iso_date_of_last_edit": "2025-08-06T11:12:01Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Zd1pEZ3hOazk1Wm1aa1oxTjNjV2hoVHpVdFUxRRAB",
+            "user": {
+                "name": "037_Harshath_Ramana .V",
+                "link": "https://www.google.com/maps/contrib/100569986757136261681?hl=en",
+                "contributor_id": "100569986757136261681",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ9XRZcHUqcMxgxlOSjDRu0V-1GFKDXHyvDJ2WovyXHSpEl2Q=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 10,
+                "photos": 0
+            },
+            "snippet": "Moa san kei san were so friendly staff are topnotch and the food is so good fresh and the burger was very completely on point\nU should definitely give a try an amazing place on the whole",
+            "extracted_snippet": {
+                "original": "Moa san kei san were so friendly staff are topnotch and the food is so good fresh and the burger was very completely on point\nU should definitely give a try an amazing place on the whole"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25OS2RsUkVRblYxYldkWlkyY3labWhIT0hGZmJGRRAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOnNKdlREQnV1bWdZY2cyZmhHOHFfbFE%7C0cZlJbMOih5%7C?hl=en",
+            "rating": 5.0,
+            "date": "Edited a day ago",
+            "iso_date": "2025-08-03T10:17:05Z",
+            "iso_date_of_last_edit": "2025-08-06T08:41:11Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DhqdYqhBGE5DZvcuviDESnlCIdTe07Hd2JDV2JJxukD-qmpeqWj_bm6vkhiB1ywFzXVx39wq2T4n_XbJDRAsoihyf_Cv5bYgCk4XKhx3M53vF4y1HBVhPvuz6ceyT42Jd0vqFn2nWl0O_Y"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OS2RsUkVRblYxYldkWlkyY3labWhIT0hGZmJGRRAB",
+            "user": {
+                "name": "Mohammad Farid Bin Salihoddin",
+                "link": "https://www.google.com/maps/contrib/109149659547665401765?hl=en",
+                "contributor_id": "109149659547665401765",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLFsREofTH9XHbNh1EOHIc7syqtuygfXRzicyP2Q6A0dV2_kQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 1
+            },
+            "snippet": "Kyosuke was very welcoming and explained the whole process. Food was delicious",
+            "extracted_snippet": {
+                "original": "Kyosuke was very welcoming and explained the whole process. Food was delicious"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t4cGJrdDVNWEJDV1hCWWQzWTNkR1pXYWxoNGRHYxAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOkxpbkt5MXBCWXBYd3Y3dGZWalh4dGc%7C0cZWYL2hjJV%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-08-05T14:44:38Z",
+            "iso_date_of_last_edit": "2025-08-05T14:44:38Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4cGJrdDVNWEJDV1hCWWQzWTNkR1pXYWxoNGRHYxAB",
+            "user": {
+                "name": "Muqeet Ashfaq",
+                "link": "https://www.google.com/maps/contrib/107506022476567145897?hl=en",
+                "contributor_id": "107506022476567145897",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKyuVHcXbhqkszwhPNugluxJT2QuHAXgMyL75aEDel4omoN1w=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "This place is a hidden gem, the best burger I\u2019ve had by far! Highly recommend checking it out. Great service and incredible people that run this place.",
+            "extracted_snippet": {
+                "original": "This place is a hidden gem, the best burger I\u2019ve had by far! Highly recommend checking it out. Great service and incredible people that run this place."
+            },
+            "details": {
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Moderate noise",
+                "group_size": "1 person, 2 people, 3-4 people, 5-8 people, 9+ people",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-08-06T07:28:52Z",
+                "iso_date_of_last_edit": "2025-08-06T07:28:52Z",
+                "snippet": "Muqeet,\nThank you so much for your amazing review!\n\nWe\u2019re honored to be called a hidden gem, and we\u2019re thrilled that you found our burger to be the best you\u2019ve had\u2014we use only top-quality Japanese Wagyu to make every bite memorable. It also means a lot that you appreciated our great service and the incredible team behind it all.\n\nWe can\u2019t wait to welcome you back to Godaime Wagyu Tokyo, your new favorite Shinjuku restaurant!",
+                "extracted_snippet": {
+                    "original": "Muqeet,\nThank you so much for your amazing review!\n\nWe\u2019re honored to be called a hidden gem, and we\u2019re thrilled that you found our burger to be the best you\u2019ve had\u2014we use only top-quality Japanese Wagyu to make every bite memorable. It also means a lot that you appreciated our great service and the incredible team behind it all.\n\nWe can\u2019t wait to welcome you back to Godaime Wagyu Tokyo, your new favorite Shinjuku restaurant!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xvMFQyVkpUMHA1TjJVd0xVTlRZblJoVldRelkxRRAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOlo0T2VJT0p5N2UwLUNTYnRhVWQzY1E%7C0cZWYBkh0jx%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-08-05T14:44:28Z",
+            "iso_date_of_last_edit": "2025-08-05T14:44:28Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BWcOGN6Dms9ofx76Jmt-Pb6jIdTHy_dcT1WSsOh7E0EmRgLYR4XUeZxBSmCGT5WBUfdd9IVzoPsJAJwYpROu9KLHq-2mVn5DUMCsY77jW24GjwSqFbzrKeQaY4W_IYi_MZM-2RugAVyI_7"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xvMFQyVkpUMHA1TjJVd0xVTlRZblJoVldRelkxRRAB",
+            "user": {
+                "name": "Areej Ahmed",
+                "link": "https://www.google.com/maps/contrib/112447019176317913579?hl=en",
+                "contributor_id": "112447019176317913579",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKPS0mLr7gVxE4TBTW-AVkBcYx-cuZkkMVRrzs2nlHz3coX5Q=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "snippet": "the best burger I\u2019ve had anywhere",
+            "extracted_snippet": {
+                "original": "the best burger I\u2019ve had anywhere"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "Suitable for all group sizes",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-08-06T07:44:17Z",
+                "iso_date_of_last_edit": "2025-08-06T07:44:17Z",
+                "snippet": "Areej,\nThank you so much for your amazing comment!\n\nWe\u2019re beyond thrilled to hear that it was the best burger you\u2019ve had anywhere\u2014we craft each one with premium Japanese Wagyu to make it truly unforgettable. Your kind words mean the world to our team.\n\nWe hope to see you again soon at Godaime Wagyu Tokyo, your must-visit Shinjuku restaurant for unbeatable burgers!",
+                "extracted_snippet": {
+                    "original": "Areej,\nThank you so much for your amazing comment!\n\nWe\u2019re beyond thrilled to hear that it was the best burger you\u2019ve had anywhere\u2014we craft each one with premium Japanese Wagyu to make it truly unforgettable. Your kind words mean the world to our team.\n\nWe hope to see you again soon at Godaime Wagyu Tokyo, your must-visit Shinjuku restaurant for unbeatable burgers!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25KM056RnJhemxyVGtOWlgzWnBWRE15UkZSVFVYYxAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOnJ3NzFrazlrTkNZX3ZpVDMyRFRTUXc%7C0cZWLgJZNE_%7C?hl=en",
+            "rating": 4.0,
+            "date": "2 days ago",
+            "iso_date": "2025-08-05T14:31:08Z",
+            "iso_date_of_last_edit": "2025-08-05T14:31:08Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KM056RnJhemxyVGtOWlgzWnBWRE15UkZSVFVYYxAB",
+            "user": {
+                "name": "Hazem Al-Mandeel",
+                "link": "https://www.google.com/maps/contrib/114267251005827246967?hl=en",
+                "contributor_id": "114267251005827246967",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWw2dfJQXxqKbpH_vqLNVlmzx_yp5QZGu9K3_pZy_zg_ipKOM-qrw=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 14,
+                "photos": 5
+            },
+            "snippet": "The service is excellent & very friendly. The burgers are so delicious. The steak was good but I think overpriced. The place is in a hidden alley. I recommend their burgers.",
+            "extracted_snippet": {
+                "original": "The service is excellent & very friendly. The burgers are so delicious. The steak was good but I think overpriced. The place is in a hidden alley. I recommend their burgers."
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 4,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Moderate noise",
+                "group_size": "Suitable for all group sizes",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-08-06T07:57:12Z",
+                "iso_date_of_last_edit": "2025-08-06T07:57:12Z",
+                "snippet": "Hazem,\nThank you so much for your honest and thoughtful review!\n\nWe\u2019re happy to hear you enjoyed our delicious burgers and that you found the service excellent and very friendly\u2014that\u2019s exactly the experience we aim to provide. We appreciate your feedback on the steak pricing and will definitely keep it in mind. And yes, we like to think of our little spot in the hidden alley as part of the charm!\n\nWe hope to welcome you again soon at Godaime Wagyu Tokyo, your cozy Shinjuku restaurant for top-quality Japanese Wagyu burgers!",
+                "extracted_snippet": {
+                    "original": "Hazem,\nThank you so much for your honest and thoughtful review!\n\nWe\u2019re happy to hear you enjoyed our delicious burgers and that you found the service excellent and very friendly\u2014that\u2019s exactly the experience we aim to provide. We appreciate your feedback on the steak pricing and will definitely keep it in mind. And yes, we like to think of our little spot in the hidden alley as part of the charm!\n\nWe hope to welcome you again soon at Godaime Wagyu Tokyo, your cozy Shinjuku restaurant for top-quality Japanese Wagyu burgers!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pObU9HbDBWM296Y1d4a1IzVkdaVjlIT1ZCV1RtYxAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOjNmOGl0V3ozcWxkR3VGZV9HOVBWTmc%7C0cZWDAPKM4F%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-08-05T14:22:03Z",
+            "iso_date_of_last_edit": "2025-08-05T14:22:03Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CSYGmJLJ4iRuegpo9U6Iso8Bl4NtqOvO-o16hXtWu7cZ866EH9K3VCaZgfo2Paw3fbgvYc3suqWZOQLWBAkop-EIu47eU5kU1YuzCOSIgWbf-1yrzEmbQzA_Bhs1t3RJTJyqICnxMFyEzq"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pObU9HbDBWM296Y1d4a1IzVkdaVjlIT1ZCV1RtYxAB",
+            "user": {
+                "name": "Jpmc Style",
+                "link": "https://www.google.com/maps/contrib/110844572592842942758?hl=en",
+                "contributor_id": "110844572592842942758",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJXA3gc95RnsVIEt6YYOGslisdHXizMskKX4lgXcHAiT8-a9A=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 3
+            },
+            "snippet": "L\u2019un des meilleurs cheeseburgers que j\u2019aie mang\u00e9, le service \u00e9tait vraiment 6 \u00e9toiles",
+            "extracted_snippet": {
+                "original": "L\u2019un des meilleurs cheeseburgers que j\u2019aie mang\u00e9, le service \u00e9tait vraiment 6 \u00e9toiles",
+                "translated": "One of the best cheeseburgers I've ever had, the service was truly 6 star"
+            },
+            "details": {
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Moderate noise",
+                "group_size": "2 people",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-08-06T07:59:24Z",
+                "iso_date_of_last_edit": "2025-08-06T07:59:24Z",
+                "snippet": "Jpmc Style,\nUn grand merci pour votre superbe retour !\n\nNous sommes ravis d\u2019apprendre que notre cheeseburger figure parmi les meilleurs que vous ayez mang\u00e9s\u2014notre Japanese Wagyu fait toute la diff\u00e9rence. Et savoir que vous avez trouv\u00e9 notre service digne de 6 \u00e9toiles nous touche profond\u00e9ment.\n\nAu plaisir de vous accueillir de nouveau chez Godaime Wagyu Tokyo, votre restaurant incontournable au c\u0153ur de Shinjuku !\n\n\n\n\n\n\n\n",
+                "extracted_snippet": {
+                    "original": "Jpmc Style,\nUn grand merci pour votre superbe retour !\n\nNous sommes ravis d\u2019apprendre que notre cheeseburger figure parmi les meilleurs que vous ayez mang\u00e9s\u2014notre Japanese Wagyu fait toute la diff\u00e9rence. Et savoir que vous avez trouv\u00e9 notre service digne de 6 \u00e9toiles nous touche profond\u00e9ment.\n\nAu plaisir de vous accueillir de nouveau chez Godaime Wagyu Tokyo, votre restaurant incontournable au c\u0153ur de Shinjuku !\n\n\n\n\n\n\n\n",
+                    "translated": "Jpmc Style,\nThank you so much for your wonderful feedback!\n\nWe're delighted to hear that our cheeseburger was among the best you've ever eaten\u2014our Japanese Wagyu makes all the difference. And knowing that you found our service worthy of 6 stars means a lot to us.\n\nWe look forward to welcoming you back to Godaime Wagyu Tokyo, your go-to restaurant in the heart of Shinjuku!\n\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxWmQwMDRWV3g2VVVoTWNXSjNOMEY2T1ZBeU1tYxAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOi1Zd004VWx6UUhMcWJ3N0F6OVAyMmc%7C0cZWAw6JkwU%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-08-05T14:19:40Z",
+            "iso_date_of_last_edit": "2025-08-05T14:19:40Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxWmQwMDRWV3g2VVVoTWNXSjNOMEY2T1ZBeU1tYxAB",
+            "user": {
+                "name": "Francisco Do vale neto",
+                "link": "https://www.google.com/maps/contrib/109116488997008466097?hl=en",
+                "contributor_id": "109116488997008466097",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJG5TupuOGNB6-aJORhAAh9W_cgfryJPBJ0CWoJHqvUrzItpA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "details": {
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "group_size": "3-4 people",
+                "seating_type": "Indoor dining area"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25wa1NqaGtYMWg2YkRCdlpGVm5RamhKYUhwRmRsRRAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOnpkSjhkX1h6bDBvZFVnQjhJaHpFdlE%7C0cZTIL86Bjt%7C?hl=en",
+            "rating": 5.0,
+            "date": "Edited 2 days ago",
+            "iso_date": "2025-07-29T10:21:16Z",
+            "iso_date_of_last_edit": "2025-08-05T11:02:46Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wa1NqaGtYMWg2YkRCdlpGVm5RamhKYUhwRmRsRRAB",
+            "user": {
+                "name": "Derek Lee",
+                "link": "https://www.google.com/maps/contrib/111830317825102697296?hl=en",
+                "contributor_id": "111830317825102697296",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKri20foPTCM7hsBwQ4RjczpO31S0upEpYPv0POoB1LilhcVqRI=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Awesome food and friendly staff! Highly recommend!",
+            "extracted_snippet": {
+                "original": "Awesome food and friendly staff! Highly recommend!"
+            },
+            "details": {
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "special_events": "No special event",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-08-06T08:38:03Z",
+                "iso_date_of_last_edit": "2025-08-06T08:38:03Z",
+                "snippet": "Derek,\nThank you so much for the great review!\n\nWe\u2019re thrilled you enjoyed the awesome food\u2014we take pride in serving top-quality Japanese Wagyu that leaves a lasting impression. It\u2019s also wonderful to hear that our friendly staff helped make your visit even better.\n\nWe truly appreciate your recommendation and look forward to welcoming you back to Godaime Wagyu Tokyo, your must-visit Shinjuku restaurant!",
+                "extracted_snippet": {
+                    "original": "Derek,\nThank you so much for the great review!\n\nWe\u2019re thrilled you enjoyed the awesome food\u2014we take pride in serving top-quality Japanese Wagyu that leaves a lasting impression. It\u2019s also wonderful to hear that our friendly staff helped make your visit even better.\n\nWe truly appreciate your recommendation and look forward to welcoming you back to Godaime Wagyu Tokyo, your must-visit Shinjuku restaurant!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25SRWNHOHdaR2d4VVZodVpEUlhORlJSVlVKMlZsRRAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOnREcG8wZGgxUVhuZDRXNFRRVUJ2VlE%7C0cZSsUb-FsQ%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-08-05T10:34:07Z",
+            "iso_date_of_last_edit": "2025-08-05T10:34:07Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CJE-6UZ03twIXrs7_3Ndg4FW4NOznqj086tpeZkWEFoBQKjvN73nxsISGPik6-gW2gaa6yTw1xDjPv-oGSFoC5xsVUCWk34Wj6CCiVPlb-77LUEDuwuZQbAWa1Hw4zKZReEZ45GlWJuR7N"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SRWNHOHdaR2d4VVZodVpEUlhORlJSVlVKMlZsRRAB",
+            "user": {
+                "name": "Samuel Cox-Norris",
+                "link": "https://www.google.com/maps/contrib/111736719585678819438?hl=en",
+                "contributor_id": "111736719585678819438",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUjbbKO0qzGQdHbNDEuQroQW0jq34WicHpe3r9xzT4RfOVTZDau=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 10,
+                "photos": 14
+            },
+            "snippet": "Burger was amazing so much that I had to tell my friend that lives in Japan about it! Very juicy and perfectly charred edges!",
+            "extracted_snippet": {
+                "original": "Burger was amazing so much that I had to tell my friend that lives in Japan about it! Very juicy and perfectly charred edges!"
+            },
+            "details": {
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Moderate noise",
+                "group_size": "Suitable for all group sizes",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-08-06T08:39:11Z",
+                "iso_date_of_last_edit": "2025-08-06T08:39:11Z",
+                "snippet": "Samuel,\nThank you so much for the fantastic review!\n\nWe\u2019re thrilled to hear you loved the burger so much you had to recommend it to your friend\u2014that means the world to us! Our Japanese Wagyu patties are crafted for that perfect juiciness and charred edge, so we\u2019re glad it hit the mark.\n\nWe look forward to welcoming you (and maybe your friend too!) back to Godaime Wagyu Tokyo, your new favorite Shinjuku restaurant!",
+                "extracted_snippet": {
+                    "original": "Samuel,\nThank you so much for the fantastic review!\n\nWe\u2019re thrilled to hear you loved the burger so much you had to recommend it to your friend\u2014that means the world to us! Our Japanese Wagyu patties are crafted for that perfect juiciness and charred edge, so we\u2019re glad it hit the mark.\n\nWe look forward to welcoming you (and maybe your friend too!) back to Godaime Wagyu Tokyo, your new favorite Shinjuku restaurant!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tOUllVSkxWek5LVjJneFQzRlNWalp2UWxOUmEwRRAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOkNRYUJLVzNKV2gxT3FSVjZvQlNRa0E%7C0cZ9wFOE5nJ%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-08-04T13:01:04Z",
+            "iso_date_of_last_edit": "2025-08-04T13:01:04Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DM4xSIvKrwOEUQ9YazjWrZd_xJjjY2BR4aCOpY7hO9HJPXHFojmephCUAZXzMdebK8oTAId69nXHZJqTjkqCtQGzDfpAnoRJ136c9Mt6tm9_igc3m2j4dAkx0r3UcM03S_16yc5SCo-Wc"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOUllVSkxWek5LVjJneFQzRlNWalp2UWxOUmEwRRAB",
+            "user": {
+                "name": "Alexis",
+                "link": "https://www.google.com/maps/contrib/112671984240922261365?hl=en",
+                "contributor_id": "112671984240922261365",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWVuENk717veMKmow72XgUuCRwT_YTvRgSCPKKy20fVgyafSnj4=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "snippet": "The burger was so good, really nice waiter",
+            "extracted_snippet": {
+                "original": "The burger was so good, really nice waiter"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T03:45:48Z",
+                "iso_date_of_last_edit": "2025-08-05T03:45:48Z",
+                "snippet": "Alexis,\nThank you so much for your kind words!\n\nWe\u2019re thrilled to hear you enjoyed the burger\u2014our signature Japanese Wagyu patties are made to impress, and we\u2019re so glad it hit the spot. I\u2019ll be sure to pass on your compliment to our staff; it means a lot to us that you had a great experience with a nice waiter.\n\nWe hope to welcome you back soon at Godaime Wagyu Tokyo, right here in the heart of Shinjuku!",
+                "extracted_snippet": {
+                    "original": "Alexis,\nThank you so much for your kind words!\n\nWe\u2019re thrilled to hear you enjoyed the burger\u2014our signature Japanese Wagyu patties are made to impress, and we\u2019re so glad it hit the spot. I\u2019ll be sure to pass on your compliment to our staff; it means a lot to us that you had a great experience with a nice waiter.\n\nWe hope to welcome you back soon at Godaime Wagyu Tokyo, right here in the heart of Shinjuku!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2taNWFGVlNYek0xTlVKSFZtRXlRbUZMVkdWT1prRRAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOkZ5aFVSXzM1NUJHVmEyQmFLVGVOZkE%7C0cZ9FS5Qxzy%7C?hl=en",
+            "rating": 4.0,
+            "date": "3 days ago",
+            "iso_date": "2025-08-04T12:14:21Z",
+            "iso_date_of_last_edit": "2025-08-04T12:14:21Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CFp7juJ1nQvbmRSXD2FlDllmq2dxhD3piT2UZUwb8JNle9T9FkHL557ajapmP25dGftoPaV-p12SkWHh7Lm2qnr2iDclPu6eIYhPgS0azs0EfRqRpPD-4GtmZVZxSLpgoATr9CZlbr2Cfv"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taNWFGVlNYek0xTlVKSFZtRXlRbUZMVkdWT1prRRAB",
+            "user": {
+                "name": "Rocco",
+                "link": "https://www.google.com/maps/contrib/104636034223751220910?hl=en",
+                "contributor_id": "104636034223751220910",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWIE2McoTOBbA0qPsct_y8_hPJ9O6-9gQKAMF_vuXDeQwTKZBw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "snippet": "Great spot I had a wagyu cheese burger and really enjoyed it, the service was amazing and the workers are very kind and even gave me a free treat",
+            "extracted_snippet": {
+                "original": "Great spot I had a wagyu cheese burger and really enjoyed it, the service was amazing and the workers are very kind and even gave me a free treat"
+            },
+            "details": {
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 4,
+                "service": 5,
+                "atmosphere": 4,
+                "recommended_dishes": "Cheese Burger",
+                "noise_level": "Quiet, easy to talk",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T04:07:09Z",
+                "iso_date_of_last_edit": "2025-08-05T04:07:09Z",
+                "snippet": "Rocco,\nThank you so much for your fantastic review!\n\nWe\u2019re so happy to hear you loved the wagyu cheese burger\u2014our Japanese Wagyu is all about delivering rich, unforgettable flavor. It\u2019s also wonderful to know our team\u2019s kindness and amazing service stood out to you.\nWe look forward to welcoming you back soon at Godaime Wagyu Tokyo, your favorite Shinjuku restaurant!",
+                "extracted_snippet": {
+                    "original": "Rocco,\nThank you so much for your fantastic review!\n\nWe\u2019re so happy to hear you loved the wagyu cheese burger\u2014our Japanese Wagyu is all about delivering rich, unforgettable flavor. It\u2019s also wonderful to know our team\u2019s kindness and amazing service stood out to you.\nWe look forward to welcoming you back soon at Godaime Wagyu Tokyo, your favorite Shinjuku restaurant!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wc1FWTkdhSEpWVTJoQmVUQnROMUZpTTBkWlJWRRAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOmpsQVNGaHJVU2hBeTBtN1FiM0dZRVE%7C0cZ9BTpCZc6%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-08-04T12:10:06Z",
+            "iso_date_of_last_edit": "2025-08-04T12:10:06Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BrX5iRD2x-J0PEM1NQUpnRzD3Ax3FshJ6RibupvGfhM_29RzGh9ospOnk8kHWKb6vuZbRHRmLJ_WC4tDyegxVjb1Nu2PKPPBNbLdoYO5GD0OVUUhGhR8TcoJkby1vo1KM5I5jm18ahU60A"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wc1FWTkdhSEpWVTJoQmVUQnROMUZpTTBkWlJWRRAB",
+            "user": {
+                "name": "Jericho Luces",
+                "link": "https://www.google.com/maps/contrib/109766428083184465965?hl=en",
+                "contributor_id": "109766428083184465965",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXDFyOKQHAwf9BSs9lJI81mokIT-q8Ys-XAiHGysXmdJciQVwbv=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "snippet": "Food was amazing, servers came over to have conversation and overall just had a wonderful time",
+            "extracted_snippet": {
+                "original": "Food was amazing, servers came over to have conversation and overall just had a wonderful time"
+            },
+            "details": {
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Wagyu Burger",
+                "noise_level": "Quiet, easy to talk",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T04:08:25Z",
+                "iso_date_of_last_edit": "2025-08-05T04:08:25Z",
+                "snippet": "Jericho,\nThank you so much for your kind words!\n\nWe\u2019re thrilled you had a wonderful time with us and that you enjoyed the amazing food\u2014our chefs put their heart into every dish, especially our Japanese Wagyu specialties. We're also happy to hear our friendly servers made your visit even more enjoyable with their warm conversations.\n\nWe look forward to seeing you again soon at Godaime Wagyu Tokyo, your cozy Shinjuku restaurant getaway!",
+                "extracted_snippet": {
+                    "original": "Jericho,\nThank you so much for your kind words!\n\nWe\u2019re thrilled you had a wonderful time with us and that you enjoyed the amazing food\u2014our chefs put their heart into every dish, especially our Japanese Wagyu specialties. We're also happy to hear our friendly servers made your visit even more enjoyable with their warm conversations.\n\nWe look forward to seeing you again soon at Godaime Wagyu Tokyo, your cozy Shinjuku restaurant getaway!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWSVN6SjNaWGd4TmsxNVZGOUNkV1JrTjIxWFkzYxAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOjVISzJ3ZXgxNk15VF9CdWRkN21XY3c%7C0cZ8eU2FFsW%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-08-04T11:33:51Z",
+            "iso_date_of_last_edit": "2025-08-04T11:33:51Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWSVN6SjNaWGd4TmsxNVZGOUNkV1JrTjIxWFkzYxAB",
+            "user": {
+                "name": "S\u00fcmeyye Bozca",
+                "link": "https://www.google.com/maps/contrib/110748179485091367972?hl=en",
+                "contributor_id": "110748179485091367972",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ6DfaB8g4nXsu6KEp38P9jHa_bu5OdvbffzDTAcdj6_awQyw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Das Essen war sehr lecker. Der Burger hat sehr gut geschmeckt. Definitv einen Besuch wert .",
+            "extracted_snippet": {
+                "original": "Das Essen war sehr lecker. Der Burger hat sehr gut geschmeckt. Definitv einen Besuch wert .",
+                "translated": "The food was delicious. The burger was very good. Definitely worth a visit."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Very quiet",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T04:09:31Z",
+                "iso_date_of_last_edit": "2025-08-05T04:09:31Z",
+                "snippet": "S\u00fcmeyye,\nVielen lieben Dank f\u00fcr Ihre tolle Bewertung!\n\nEs freut uns sehr, dass Ihnen unser Burger so gut geschmeckt hat und Sie das leckere Essen genossen haben. Wir legen gro\u00dfen Wert auf Qualit\u00e4t und servieren nur feinstes Japanese Wagyu, damit jeder Bissen ein Genuss ist.\n\nWir w\u00fcrden uns freuen, Sie bald wieder bei Godaime Wagyu Tokyo in Shinjuku willkommen zu hei\u00dfen \u2013 Ihrem neuen Lieblings-Restaurant!",
+                "extracted_snippet": {
+                    "original": "S\u00fcmeyye,\nVielen lieben Dank f\u00fcr Ihre tolle Bewertung!\n\nEs freut uns sehr, dass Ihnen unser Burger so gut geschmeckt hat und Sie das leckere Essen genossen haben. Wir legen gro\u00dfen Wert auf Qualit\u00e4t und servieren nur feinstes Japanese Wagyu, damit jeder Bissen ein Genuss ist.\n\nWir w\u00fcrden uns freuen, Sie bald wieder bei Godaime Wagyu Tokyo in Shinjuku willkommen zu hei\u00dfen \u2013 Ihrem neuen Lieblings-Restaurant!",
+                    "translated": "S\u00fcmeyye,\nThank you so much for your great review!\n\nWe're delighted that you enjoyed our burger and the delicious food. We place great importance on quality and serve only the finest Japanese Wagyu, ensuring every bite is a delight.\n\nWe look forward to welcoming you back soon to Godaime Wagyu Tokyo in Shinjuku\u2014your new favorite restaurant!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWb1UwMHpOWEZ2TW1OMWVHRlNWRzgzVW0xMGNIYxAB!2m1!1s0x0:0x3d9dc54202786399!3m1!1s2@1:CAIQACodChtycF9oOkVoU00zNXFvMmN1eGFSVG83Um10cHc%7C0cZ8P82ny0G%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-08-04T11:16:25Z",
+            "iso_date_of_last_edit": "2025-08-04T11:16:25Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D6tsvyuN4-jPGEux28bqsjsZcSqKTFPUjSbrh49txL3_dbw2e3RFwrGbG4g-2WvM9IFMLB7asWxCD-auAXfQHq6kDS3lrA093Xt3CdxNEdZ7SizH_7iMQGt0WGP1G5GEHy3GRXvXf-WEo"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWb1UwMHpOWEZ2TW1OMWVHRlNWRzgzVW0xMGNIYxAB",
+            "user": {
+                "name": "Arian Sanati",
+                "link": "https://www.google.com/maps/contrib/108334520993047859312?hl=en",
+                "contributor_id": "108334520993047859312",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLaXBa7uazBJUWmnaXppPxjCZSbiN_PvZ4iPEkVInnyqJb-kw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "snippet": "Ate the wagyu Cheeseburger. Very juicy burger. Good and delicious beef.\nAlso very nice service!",
+            "extracted_snippet": {
+                "original": "Ate the wagyu Cheeseburger. Very juicy burger. Good and delicious beef.\nAlso very nice service!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Quiet, easy to talk"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-08-05T04:14:37Z",
+                "iso_date_of_last_edit": "2025-08-05T04:14:37Z",
+                "snippet": "Arian,\nThank you so much for your great review!\n\nWe\u2019re glad you enjoyed the wagyu cheeseburger\u2014our juicy Japanese Wagyu beef is what makes it truly special. It's also wonderful to hear that our team\u2019s nice service helped make your visit a great one.\n\nWe hope to welcome you back soon at Godaime Wagyu Tokyo, your go-to Shinjuku restaurant for unforgettable Wagyu flavors!",
+                "extracted_snippet": {
+                    "original": "Arian,\nThank you so much for your great review!\n\nWe\u2019re glad you enjoyed the wagyu cheeseburger\u2014our juicy Japanese Wagyu beef is what makes it truly special. It's also wonderful to hear that our team\u2019s nice service helped make your visit a great one.\n\nWe hope to welcome you back soon at Godaime Wagyu Tokyo, your go-to Shinjuku restaurant for unforgettable Wagyu flavors!"
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlZNVFY5cFdWOWZSV2hFVUZoeE1uTjNhVFZmWTAxQlNUWm9XVUZCUVVGQlIyZG1YMEZ0WlV4TlgybFpSMEZCYVVGQg%3D%3D&num=20&place_id=ChIJFeku-gCNGGARmWN4AkLFnT0&sort_by=newestFirst",
+        "next_page_token": "CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMlZNVFY5cFdWOWZSV2hFVUZoeE1uTjNhVFZmWTAxQlNUWm9XVUZCUVVGQlIyZG1YMEZ0WlV4TlgybFpSMEZCYVVGQg=="
+    }
+}
