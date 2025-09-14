@@ -28,16 +28,20 @@ for city, location in cities.items():
         search_file = search_path / f"{idx}.json"
         start = idx * 20
         rich.print(f"\t\tSearching results `{start}`...")
-        response = httpx.get(
-            url="https://serpapi.com/search",
-            params=dict(
-                engine="google_maps",
-                q=f"halal restaurants {city}",
-                api_key=os.getenv("SERPAPI_KEY"),
-                ll=location,
-                start=start,
-            ),
-        )
+        try:
+            response = httpx.get(
+                url="https://serpapi.com/search",
+                params=dict(
+                    engine="google_maps",
+                    q=f"halal restaurants {city}",
+                    api_key=os.getenv("SERPAPI_KEY"),
+                    ll=location,
+                    start=start,
+                ),
+            )
+        except Exception as e:
+            rich.print(f"\t\t\tError: {e}")
+            continue
         results = response.json()
         for result in results["local_results"]:
             place_ids[result["place_id"]] = result["title"]
@@ -66,11 +70,15 @@ for place_id, place_name in place_ids.items():
                 next_page_token=next_page_token,
                 num=20,
             )
-        response = httpx.get(
-            url="https://serpapi.com/search",
-            params=params,
-        )
-        reviews = response.json()
+        try:
+            response = httpx.get(
+                url="https://serpapi.com/search",
+                params=params,
+            )
+            reviews = response.json()
+        except Exception as e:
+            rich.print(f"\t\t\tError: {e}")
+            continue
         for review in reviews["reviews"]:
             user = review["user"]
             user_ids[user["contributor_id"]] = user["name"]
@@ -104,11 +112,15 @@ for user_id, user_name in user_ids.items():
                 next_page_token=next_page_token,
                 num=200,
             )
-        response = httpx.get(
-            url="https://serpapi.com/search",
-            params=params,
-        )
-        reviews = response.json()
+        try:
+            response = httpx.get(
+                url="https://serpapi.com/search",
+                params=params,
+            )
+            reviews = response.json()
+        except Exception as e:
+            rich.print(f"\t\t\tError: {e}")
+            continue
         with open(user_path / f"{idx}.json", "w") as f:
             json.dump(reviews, f, indent=4)
         idx += 1
