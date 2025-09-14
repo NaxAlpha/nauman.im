@@ -1,0 +1,760 @@
+{
+    "search_metadata": {
+        "id": "68c639e43f79e89a3e7bc1e2",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/2e8817aa193b52bc/68c639e43f79e89a3e7bc1e2.json",
+        "created_at": "2025-09-14 03:43:32 UTC",
+        "processed_at": "2025-09-14 03:43:32 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/2e8817aa193b52bc/68c639e43f79e89a3e7bc1e2.html",
+        "prettify_html_file": "https://serpapi.com/searches/2e8817aa193b52bc/68c639e43f79e89a3e7bc1e2.prettify",
+        "total_time_taken": 0.69
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJ3c8QKJKPGGARLncbWf3NpVc",
+        "hl": "en",
+        "next_page_token": "CAESYENBRVFDQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkpJTUU5c2VsOWZSV2hEWTFad1kxQk9hbVExZDJwclJIaEZaMEZCUVVGQlIyZG1YMEZ0WWtnd1QyeDZSMEZCYVVGQg==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xJeVUxUlFRMEZFTlhNdE5YSlRVRmx2TUdZd1IyYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOlIyU1RQQ0FENXMtNXJTUFlvMGYwR2c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T09:22:17Z",
+            "iso_date_of_last_edit": "2025-09-11T09:22:17Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xJeVUxUlFRMEZFTlhNdE5YSlRVRmx2TUdZd1IyYxAB",
+            "user": {
+                "name": "HuddenSin Yuan",
+                "link": "https://www.google.com/maps/contrib/107328931104862176280?hl=en",
+                "contributor_id": "107328931104862176280",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXe24WJ5Qhsoj93mdiCy1TDKueoY9-0EwOGhTS58E7kFeVqU7M=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "great food and first-class view",
+            "extracted_snippet": {
+                "original": "great food and first-class view"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-11T17:00:25Z",
+                "iso_date_of_last_edit": "2025-09-11T17:00:25Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25CcGVYRkZTSE5YUVRBM09WOVVPRWxuWmxSU2QwRRAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOnBpeXFFSHNXQTA3OV9UOElnZlRSd0E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T08:18:46Z",
+            "iso_date_of_last_edit": "2025-09-11T08:18:46Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CcGVYRkZTSE5YUVRBM09WOVVPRWxuWmxSU2QwRRAB",
+            "user": {
+                "name": "Min yuan Liu",
+                "link": "https://www.google.com/maps/contrib/100769633640140683008?hl=en",
+                "contributor_id": "100769633640140683008",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIMdmgpM5PkJgQXL78MR8AUNcLFrmc9az6orMO3Jime6aHbHA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 1
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a57,000\u20138,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Not sure",
+                "noise_level": "Very quiet"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-11T17:00:14Z",
+                "iso_date_of_last_edit": "2025-09-11T17:00:14Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2poNlkyd3laak0wUVU5blF5MVhkbTQ0ZVhSaFEyYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOjh6Y2wyZjM0QU9nQy1Xdm44eXRhQ2c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T11:45:48Z",
+            "iso_date_of_last_edit": "2025-09-10T11:45:48Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BKodH4-hxYpkiBl4wMWj74WMFMwHJhwm-7yAv4yJsycmQPS6xtnxr_OikXCGZnRER82IqBHVt4x8HFjWgm2xrX1zsqY-48vtEfHwJCdgKqAlBYAeFtSEIFJgv7Kew_Z1Na11Ty2S5d5J_u"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poNlkyd3laak0wUVU5blF5MVhkbTQ0ZVhSaFEyYxAB",
+            "user": {
+                "name": "Henry Chen",
+                "link": "https://www.google.com/maps/contrib/110667873496283718403?hl=en",
+                "contributor_id": "110667873496283718403",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWVIiam3ymRrJXKExHTpV7wK-mvgG9yb8ChRgNjklGfDZRNuji_=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 13,
+                "photos": 8
+            },
+            "snippet": "Amazing!",
+            "extracted_snippet": {
+                "original": "Amazing!"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWeGRGUXROQzFFTkZKWE5YRktTRk5HWjBoVWQxRRAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOkVxdFQtNC1ENFJXNXFKSFNGZ0hUd1E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 days ago",
+            "iso_date": "2025-09-09T11:41:43Z",
+            "iso_date_of_last_edit": "2025-09-09T11:41:43Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWeGRGUXROQzFFTkZKWE5YRktTRk5HWjBoVWQxRRAB",
+            "user": {
+                "name": "\u8521\u660e\u7487",
+                "link": "https://www.google.com/maps/contrib/116040253824729751836?hl=en",
+                "contributor_id": "116040253824729751836",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI8TyeNqp79y5Jg7RtfbGTBSyUNo9F8N4v170YWg3UgcG-6-w=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 11,
+                "photos": 3
+            },
+            "snippet": "\u98df\u7269\u771f\u7684\u597d\u5403\ud83d\udcaf\u800c\u4e14\u5750\u7a97\u908a\u4f4d\u5b50\u53ef\u4ee5\u770b\u5230\u6674\u7a7a\u5854\u548c\u7f8e\u9e97\u7684\u666f\u8272\uff0c\u771f\u7684\u63a8\ud83d\udc4d\n\u9084\u9047\u5230\u4e86\u53f0\u7063\u4eba\u5e97\u54e1\ud83e\udd79",
+            "extracted_snippet": {
+                "original": "\u98df\u7269\u771f\u7684\u597d\u5403\ud83d\udcaf\u800c\u4e14\u5750\u7a97\u908a\u4f4d\u5b50\u53ef\u4ee5\u770b\u5230\u6674\u7a7a\u5854\u548c\u7f8e\u9e97\u7684\u666f\u8272\uff0c\u771f\u7684\u63a8\ud83d\udc4d\n\u9084\u9047\u5230\u4e86\u53f0\u7063\u4eba\u5e97\u54e1\ud83e\udd79",
+                "translated": "The food was absolutely delicious! \ud83d\udcaf And the window seats offer a beautiful view of the Tokyo Skytree. Highly recommended! \ud83d\udc4d\nWe even met a Taiwanese staff member!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "Suitable for all group sizes"
+            },
+            "response": {
+                "date": "4 days ago",
+                "iso_date": "2025-09-09T16:13:53Z",
+                "iso_date_of_last_edit": "2025-09-09T16:13:53Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25ONGVXeG9ZMDVuVG1oR1ZuUjVVRWhoWTNOWWVsRRAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOnN4eWxoY05nTmhGVnR5UEhhY3NYelE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 days ago",
+            "iso_date": "2025-09-09T11:33:50Z",
+            "iso_date_of_last_edit": "2025-09-09T11:33:50Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ONGVXeG9ZMDVuVG1oR1ZuUjVVRWhoWTNOWWVsRRAB",
+            "user": {
+                "name": "4003\u6797\u6668\u52db",
+                "link": "https://www.google.com/maps/contrib/114764085933500778598?hl=en",
+                "contributor_id": "114764085933500778598",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXAN5g6GKV1NX4xa6rqvtHHykSoiMSMMs68iDlErPJMUuGKUJE4=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 9,
+                "photos": 0
+            },
+            "snippet": "Very very very Readen good \u8ddfgoa",
+            "extracted_snippet": {
+                "original": "Very very very Readen good \u8ddfgoa"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "group_size": "Suitable for all group sizes"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21jemQyWnNMVGxTUzNCTFZWTndWREkxYUhCTmIwRRAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOmczd2ZsLTlSS3BLVVNwVDI1aHBNb0E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 days ago",
+            "iso_date": "2025-09-09T09:42:58Z",
+            "iso_date_of_last_edit": "2025-09-09T09:42:58Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jemQyWnNMVGxTUzNCTFZWTndWREkxYUhCTmIwRRAB",
+            "user": {
+                "name": "ismayil geyik",
+                "link": "https://www.google.com/maps/contrib/107950347907422639314?hl=en",
+                "contributor_id": "107950347907422639314",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJgXkmz_4gICSu3wqLyBeF0ctC8ep9BmAnI-puhm-ICzdTsbA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 3
+            },
+            "snippet": "The Food was amazing\nFull of flavour\nThe staff is incredible sweet and helpfull\nI mean there's literally nothing bad about it.\nThey welcome you with open arms and everything",
+            "extracted_snippet": {
+                "original": "The Food was amazing\nFull of flavour\nThe staff is incredible sweet and helpfull\nI mean there's literally nothing bad about it.\nThey welcome you with open arms and everything"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "1 person"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2twVmQxWmhXVEJpYms5a1VVYzRlVUZGYkZKSGIyYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOkpVd1ZhWTBibk9kUUc4eUFFbFJHb2c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T11:48:38Z",
+            "iso_date_of_last_edit": "2025-09-07T11:48:38Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twVmQxWmhXVEJpYms5a1VVYzRlVUZGYkZKSGIyYxAB",
+            "user": {
+                "name": "rachel chui",
+                "link": "https://www.google.com/maps/contrib/111124912940255330622?hl=en",
+                "contributor_id": "111124912940255330622",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJGiRHqyejTwkLsIdd4E1__meOoaoPDAWf6j_v_2fVHJFWN=s120-c-rp-mo-br100",
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "\u5e97\u597d\u8212\u670d\uff0c\u98df\u7269\u5f88\u597d\u5403\uff0c\u725b\u8089\u5f97\u51fa\u8272\uff0c\u670d\u52d9\u54e1\u5011\u5f97\u6bb7\u52e4\uff0c\u5c24\u5176To\uff0c\u7d66\u6211\u5011\u89e3\u91cb\u5403\u6cd5\uff0c\u53c8\u5e6b\u6211\u5011\u71d2\uff0c\u5f88\u597d\uff0c\u5927\u63a8",
+            "extracted_snippet": {
+                "original": "\u5e97\u597d\u8212\u670d\uff0c\u98df\u7269\u5f88\u597d\u5403\uff0c\u725b\u8089\u5f97\u51fa\u8272\uff0c\u670d\u52d9\u54e1\u5011\u5f97\u6bb7\u52e4\uff0c\u5c24\u5176To\uff0c\u7d66\u6211\u5011\u89e3\u91cb\u5403\u6cd5\uff0c\u53c8\u5e6b\u6211\u5011\u71d2\uff0c\u5f88\u597d\uff0c\u5927\u63a8",
+                "translated": "The restaurant is very comfortable, the food is delicious, the beef is excellent, the waiters are very attentive, especially To, who explained to us how to eat it and helped us cook it. Very good, highly recommended"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk"
+            },
+            "response": {
+                "date": "5 days ago",
+                "iso_date": "2025-09-08T09:29:22Z",
+                "iso_date_of_last_edit": "2025-09-08T09:29:22Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!\n",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tsd1RIY3lOR05OVTNwWWVGUkdRV05FU20wNFZWRRAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOklwTHcyNGNNU3pYeFRGQWNESm04VVE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T10:24:29Z",
+            "iso_date_of_last_edit": "2025-09-07T10:24:29Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CUrCxoPsAN5uoRLsQtHW01EOZbPnKhdgDsHmdgET0_AML5stwTGQA6_wyC7uS4eSNMGx_nZoAMJ9CZVOlgaxN3KDWyTRhSL2T3PvQwzmt2zGqvvA6MXV3lCM62dMEKcX7PfWzvI6myi6g2"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsd1RIY3lOR05OVTNwWWVGUkdRV05FU20wNFZWRRAB",
+            "user": {
+                "name": "Julia",
+                "link": "https://www.google.com/maps/contrib/117192451681375198054?hl=en",
+                "contributor_id": "117192451681375198054",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW7MeNeGOvLBU7YOfaNYo94GywnoeSmJy6jP4A60ahGYdiqaLETEA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 5
+            },
+            "snippet": "\u7121\u610f\u9593\u627e\u5230\u9019\u5bb6\u58fd\u559c\u71d2\u5e97\uff0c\u9ede\u4e86premium A5\u548c\u725b120g\u53ca150g\uff0c\u8089\u8cea\u9bae\u5ae9\uff0c\u58fd\u559c\u71d2\u7684\u5473\u9053\u5f88\u597d\u3002\u9910\u5ef3\u7684\u74b0\u5883\u5bec\u655e\uff0c\u6c23\u6c1b\u4f73\uff0c\u53ef\u4ee5\u770b\u5230\u671d\u65e5\u5564\u9152\u7e3d\u90e8\u3002\u9047\u5230\u975e\u5e38\u71b1\u60c5\u53c8\u8cbc\u5fc3\u7684\u53f0\u7063\u5e97\u54e1\uff0c\u670d\u52d9\u5f88\u597d\uff0c\u6709\u500b\u975e\u5e38\u6109\u5feb\u7684\u7528\u9910\u9ad4\u9a57\uff01",
+            "extracted_snippet": {
+                "original": "\u7121\u610f\u9593\u627e\u5230\u9019\u5bb6\u58fd\u559c\u71d2\u5e97\uff0c\u9ede\u4e86premium A5\u548c\u725b120g\u53ca150g\uff0c\u8089\u8cea\u9bae\u5ae9\uff0c\u58fd\u559c\u71d2\u7684\u5473\u9053\u5f88\u597d\u3002\u9910\u5ef3\u7684\u74b0\u5883\u5bec\u655e\uff0c\u6c23\u6c1b\u4f73\uff0c\u53ef\u4ee5\u770b\u5230\u671d\u65e5\u5564\u9152\u7e3d\u90e8\u3002\u9047\u5230\u975e\u5e38\u71b1\u60c5\u53c8\u8cbc\u5fc3\u7684\u53f0\u7063\u5e97\u54e1\uff0c\u670d\u52d9\u5f88\u597d\uff0c\u6709\u500b\u975e\u5e38\u6109\u5feb\u7684\u7528\u9910\u9ad4\u9a57\uff01",
+                "translated": "I stumbled upon this sukiyaki restaurant and ordered 120g and 150g of premium A5 wagyu beef. The meat was tender and the sukiyaki flavor was excellent. The restaurant is spacious and has a great atmosphere, with a view of the Asahi Beer headquarters. The Taiwanese staff were very friendly and attentive, and the service was excellent. It was a very pleasant dining experience!"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk"
+            },
+            "response": {
+                "date": "5 days ago",
+                "iso_date": "2025-09-08T09:29:15Z",
+                "iso_date_of_last_edit": "2025-09-08T09:29:15Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!\n",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT214V1ZERmtjMlY2WTNkRU0zSTNWV1IyTVRsZmFrRRAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOmxWVDFkc2V6Y3dEM3I3VWR2MTlfakE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T08:58:27Z",
+            "iso_date_of_last_edit": "2025-09-07T08:58:27Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214V1ZERmtjMlY2WTNkRU0zSTNWV1IyTVRsZmFrRRAB",
+            "user": {
+                "name": "\u0420\u0430\u043c\u0438\u043b\u044f\u043c \u0420\u0430\u0445\u043c\u0430\u0442\u0443\u043b\u0438\u043d\u0430",
+                "link": "https://www.google.com/maps/contrib/111938288939331208588?hl=en",
+                "contributor_id": "111938288939331208588",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL4C-twHIXhfx2pKqqdBjpXpo6lcv3LoHliaIBP7PpBVTeD4Q=s120-c-rp-mo-br100",
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Very nice place, waiter To is very nice and cares about each client.",
+            "extracted_snippet": {
+                "original": "Very nice place, waiter To is very nice and cares about each client."
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk"
+            },
+            "response": {
+                "date": "5 days ago",
+                "iso_date": "2025-09-08T09:29:02Z",
+                "iso_date_of_last_edit": "2025-09-08T09:29:02Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!\n",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWSlNsZFdTa2N6ZDIxMGRFeGxNV3AzZDNwVGRGRRAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOjVJSldWSkczd210dExlMWp3d3pTdFE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T04:00:19Z",
+            "iso_date_of_last_edit": "2025-09-07T04:01:37Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DcDTAvq3Z_w0Gq_GCpudYObPL4VO94D4IIEMBC16fzgulkjoOd3D7RZB58OqytdMOA8H39SeN3nOvv7bXawURRwjEjqW1FOKXoYiuXCKkGVHIlEXRJVG2a_pIJlYVPlMkkVyvB9-6sekgR"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWSlNsZFdTa2N6ZDIxMGRFeGxNV3AzZDNwVGRGRRAB",
+            "user": {
+                "name": "Sherry Hsia",
+                "link": "https://www.google.com/maps/contrib/118243457005572212246?hl=en",
+                "contributor_id": "118243457005572212246",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVGUjosTUAUeaPVDN4DoF-HjhmJuv6KDZdaYgY3CexokZ8ggHP1=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 71,
+                "photos": 91
+            },
+            "snippet": "\u7a97\u908a\u6cb3\u666f\u5f88\u7f8e\u3001\u58fd\u559c\u71d2\u5f88\u597d\u5403\uff01\n\u4e00\u958b\u59cb\u6703\u5354\u52a9\u670d\u52d9\u5f88\u8b9a\uff5e\u9ad8\u8cb4\u4e0d\u8cb4\ud83d\udc4d\ud83c\udffb\n\u4e3b\u8981\u662f\u5c45\u7136\u6709\u53f0\u7063\u5e25\u5e97\u54e1\u670d\u52d9\u8d85\u597d\ud83e\udd23",
+            "extracted_snippet": {
+                "original": "\u7a97\u908a\u6cb3\u666f\u5f88\u7f8e\u3001\u58fd\u559c\u71d2\u5f88\u597d\u5403\uff01\n\u4e00\u958b\u59cb\u6703\u5354\u52a9\u670d\u52d9\u5f88\u8b9a\uff5e\u9ad8\u8cb4\u4e0d\u8cb4\ud83d\udc4d\ud83c\udffb\n\u4e3b\u8981\u662f\u5c45\u7136\u6709\u53f0\u7063\u5e25\u5e97\u54e1\u670d\u52d9\u8d85\u597d\ud83e\udd23",
+                "translated": "The river view from the window is beautiful, and the sukiyaki is delicious!\n\nThe initial assistance was excellent\u2014it's affordable and elegant \ud83d\udc4d\ud83c\udffb\n\nAnd the service was fantastic, especially with the handsome Taiwanese staff. \ud83e\udd23"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk"
+            },
+            "response": {
+                "date": "6 days ago",
+                "iso_date": "2025-09-07T04:57:15Z",
+                "iso_date_of_last_edit": "2025-09-07T04:57:15Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25ReFVVRTNXbVJJYWt0UlJEZGlkakJCYWsweGFuYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOnQxUUE3WmRIaktRRDdidjBBak0xanc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-06T11:55:19Z",
+            "iso_date_of_last_edit": "2025-09-06T11:55:19Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ReFVVRTNXbVJJYWt0UlJEZGlkakJCYWsweGFuYxAB",
+            "user": {
+                "name": "Daniel Malinker",
+                "link": "https://www.google.com/maps/contrib/107711785999285878611?hl=en",
+                "contributor_id": "107711785999285878611",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJf4jgzDs0hKZxjI1pdmCNPRpQEbfomjVdSujMuoE4MMOBcEg=s120-c-rp-mo-br100",
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk"
+            },
+            "response": {
+                "date": "a week ago",
+                "iso_date": "2025-09-06T17:39:21Z",
+                "iso_date_of_last_edit": "2025-09-06T17:39:21Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25FeWRsTTJjVE53TURaNGNWaEJWUzEzVkRSalVWRRAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOnEydlM2cTNwMDZ4cVhBVS13VDRjUVE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-06T10:08:24Z",
+            "iso_date_of_last_edit": "2025-09-06T10:08:24Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dhvv7ctv8q48_H_f7Q1wxKvEx8JhQ-ObAam38dM3KPSDGyXzKzwQWtObbxigsPJn1HDWmHqW7lrh-NTvTXCUYpwzuLGzPJ-Zs-TvL3x4TKleW7fbJbzS85T0O3Z7fzN6v29ZDay56X6l8",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B5-CpOAtVhYrHJgzMu3-cnC1KOtD_adVxqMgrBZU8TtkH_6YOcmaTm6CPxsFp0WAEbJb5zzv3r5vV58dr6SMCLW3qFjKVwcIOVfXPe30fFJ6dH1KFHwbDEboUxsfFoJx3IKlthjU-uO_g"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25FeWRsTTJjVE53TURaNGNWaEJWUzEzVkRSalVWRRAB",
+            "user": {
+                "name": "geurim chae",
+                "link": "https://www.google.com/maps/contrib/100565471376189402047?hl=en",
+                "contributor_id": "100565471376189402047",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKS7kiLajk2aKG5NmTv7KB_7dKH_4TQyuKFxN0955dkr6SNLw=s120-c-rp-mo-br100",
+                "reviews": 3,
+                "photos": 2
+            },
+            "snippet": "\uc544\uc774\ub791 \ud568\uaed8 \ucd5c\uace0\uc758 \uc2dd\uc0ac\uc600\uc2b5\ub2c8\ub2e4!!!\n\uace0\uae30 \uc815\ub9d0 \ubd80\ub4dc\ub7fd\uace0 \ub9db\uc788\uc5c8\uc5b4\uc694!\n\uce5c\uc808\ud558\uc2dc\uace0 \uc9c1\uc811 \uc694\ub9ac\ud574\uc8fc\uc154\uc11c \ud3b8\ud588\uc2b5\ub2c8\ub2e4!\n\ucc3d\uac00 \uba4b\uc9c4 \ubdf0\ub97c \ubcf4\uba74\uc11c \uba39\uc73c\ub2c8 \uc544\uc774\ub3c4 \uc88b\uc544\ud588\uc5b4\uc694~",
+            "extracted_snippet": {
+                "original": "\uc544\uc774\ub791 \ud568\uaed8 \ucd5c\uace0\uc758 \uc2dd\uc0ac\uc600\uc2b5\ub2c8\ub2e4!!!\n\uace0\uae30 \uc815\ub9d0 \ubd80\ub4dc\ub7fd\uace0 \ub9db\uc788\uc5c8\uc5b4\uc694!\n\uce5c\uc808\ud558\uc2dc\uace0 \uc9c1\uc811 \uc694\ub9ac\ud574\uc8fc\uc154\uc11c \ud3b8\ud588\uc2b5\ub2c8\ub2e4!\n\ucc3d\uac00 \uba4b\uc9c4 \ubdf0\ub97c \ubcf4\uba74\uc11c \uba39\uc73c\ub2c8 \uc544\uc774\ub3c4 \uc88b\uc544\ud588\uc5b4\uc694~",
+                "translated": "This was the best meal I've ever had with my kid!!!\nThe meat was so tender and delicious!\nThe staff was friendly and prepared the food for me, which was convenient!\nMy kid loved eating while looking out the window at the beautiful view!"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "food": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pSUFRscFNlbTVwV0ZkT2JsRTRTbnAwT0VWbFdtYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOjRPTlpSem5pWFdOblE4Snp0OEVlWmc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-06T06:29:36Z",
+            "iso_date_of_last_edit": "2025-09-06T06:29:36Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSUFRscFNlbTVwV0ZkT2JsRTRTbnAwT0VWbFdtYxAB",
+            "user": {
+                "name": "Rakhmad hidayat",
+                "link": "https://www.google.com/maps/contrib/118102107742765701781?hl=en",
+                "contributor_id": "118102107742765701781",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ-C2fa2ugQxUwbkJr67wjHFQykPNZ3Lurpk7ijrzHiHo83=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Sukiyakinya mantap luar biasa, harga masih ok, kuah enak sekali. Pelayanan mantapppp",
+            "extracted_snippet": {
+                "original": "Sukiyakinya mantap luar biasa, harga masih ok, kuah enak sekali. Pelayanan mantapppp",
+                "translated": "The sukiyaki is incredibly delicious, the price is still okay, and the soup is delicious. The service is great."
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a week ago",
+                "iso_date": "2025-09-06T07:16:45Z",
+                "iso_date_of_last_edit": "2025-09-06T07:16:45Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21WM1QxcEpiMlZ0V0ZNNFpWQk1MVFkwT1UxSVVHYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOmV3T1pJb2VtWFM4ZVBMLTY0OU1IUGc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-05T13:28:26Z",
+            "iso_date_of_last_edit": "2025-09-05T13:28:26Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WM1QxcEpiMlZ0V0ZNNFpWQk1MVFkwT1UxSVVHYxAB",
+            "user": {
+                "name": "Armando Calvillo",
+                "link": "https://www.google.com/maps/contrib/114480405530210161425?hl=en",
+                "contributor_id": "114480405530210161425",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX6vmuis1WcQrMvW9m-4r8Rwjj46KbYRoIxG5MspT-YiAINeTdx=s120-c-rp-mo-br100",
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Fue la primera vez que probamos estos platillos tradicionales de Jap\u00f3n y quedamos enamorados, nos gust\u00f3 mucho la preparaci\u00f3n y el sabor, una gran experiencia la forma en la que lo preparan. La vista que tiene hacia el r\u00edo es espectacular, seguro lo recomendaremos y volveremos.",
+            "extracted_snippet": {
+                "original": "Fue la primera vez que probamos estos platillos tradicionales de Jap\u00f3n y quedamos enamorados, nos gust\u00f3 mucho la preparaci\u00f3n y el sabor, una gran experiencia la forma en la que lo preparan. La vista que tiene hacia el r\u00edo es espectacular, seguro lo recomendaremos y volveremos.",
+                "translated": "It was the first time we tried these traditional Japanese dishes, and we fell in love. We loved the preparation and the flavor. The way they prepare it was a great experience. The view of the river is spectacular. We will definitely recommend it and return."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a week ago",
+                "iso_date": "2025-09-06T06:13:55Z",
+                "iso_date_of_last_edit": "2025-09-06T06:13:55Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25aSFZHdHNXRmN0VTJKZlZscFNhRXcwUVc5bVFtYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOnZHVGtsWFctU2JfVlpSaEw0QW9mQmc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-05T12:14:52Z",
+            "iso_date_of_last_edit": "2025-09-05T12:14:52Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aSFZHdHNXRmN0VTJKZlZscFNhRXcwUVc5bVFtYxAB",
+            "user": {
+                "name": "Dr. Majid Alsalamah",
+                "link": "https://www.google.com/maps/contrib/110625988242006035318?hl=en",
+                "contributor_id": "110625988242006035318",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX1ubNdfp2eUyLoRlirq-pPbvcuHcpjJ05lzRISqluzyrFc5Jqp=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 101,
+                "photos": 1
+            },
+            "snippet": "Very attentive staff, good food and wonderfull atmosphere.",
+            "extracted_snippet": {
+                "original": "Very attentive staff, good food and wonderfull atmosphere."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a week ago",
+                "iso_date": "2025-09-06T06:13:45Z",
+                "iso_date_of_last_edit": "2025-09-06T06:13:45Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WWldWcEpNeTFwUlU5bFV5MDFaWFoxTWpWMWEyYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOnVZWVpJMy1pRU9lUy01ZXZ1MjV1a2c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-05T11:58:08Z",
+            "iso_date_of_last_edit": "2025-09-05T11:58:08Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CLm-s-0bdMH-8Yj-Wgq-xBiQ86zqCsewutiBKVbXpDJ-IpOVG7-xH5NLYVQI06r86-DYHz5P72SrPVmulIMmHqOikAHK3S2Bgs0acw6Wz8LmHy9LX8OVDcodEUA8TCZm6oW-SQSJNHDmn2",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CuTKy1UVJ2qjCNdgO1Q-KNqlxo4lrIySL4SXqtA8vTn8-QgQIJs_HWTNeMw8oh_-iQTAU-itf4ZRf-nWJoFOOnItt2-BrDj_AJqJnUhxOApY4AiFGyoVj7HiWR0VgU_NMzuyoE6Q2GzDQ"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WWldWcEpNeTFwUlU5bFV5MDFaWFoxTWpWMWEyYxAB",
+            "user": {
+                "name": "Alex",
+                "link": "https://www.google.com/maps/contrib/104281838177576216427?hl=en",
+                "contributor_id": "104281838177576216427",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUZaVvKwO99W-2Vwn29s7erCHD0iHpgnVoNc8Kwub_xU5U9ucU=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 58,
+                "photos": 133
+            },
+            "snippet": "Food was delicious, that wagyu was melty soft. Yum.\nRaeden was a delight, very personable and cared about his job. Explained every style and step.\nAwesome.",
+            "extracted_snippet": {
+                "original": "Food was delicious, that wagyu was melty soft. Yum.\nRaeden was a delight, very personable and cared about his job. Explained every style and step.\nAwesome."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations recommended",
+                "noise_level": "Quiet, easy to talk"
+            },
+            "response": {
+                "date": "a week ago",
+                "iso_date": "2025-09-06T06:13:35Z",
+                "iso_date_of_last_edit": "2025-09-06T06:13:35Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xSVmEyOTZSMnRTYkROT1NXWldiRWxqYTBwYVdFRRAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOlRVa296R2tSbDNOSWZWbElja0paWEE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-05T10:41:48Z",
+            "iso_date_of_last_edit": "2025-09-05T10:41:48Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSVmEyOTZSMnRTYkROT1NXWldiRWxqYTBwYVdFRRAB",
+            "user": {
+                "name": "Safira Permatasari",
+                "link": "https://www.google.com/maps/contrib/112277858400297855284?hl=en",
+                "contributor_id": "112277858400297855284",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXocy0oOWDiEIkGOd8j1rWu59RW265LSXM9ZWzqxYtCeH2P8lNx=s120-c-rp-mo-br100",
+                "reviews": 7,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a week ago",
+                "iso_date": "2025-09-06T06:13:23Z",
+                "iso_date_of_last_edit": "2025-09-06T06:13:23Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT204dFYzZFpUalZhUzB4TVIyZHJUR2h1TTBOMFJuYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOm8tV3dZTjVaS0xMR2drTGhuM0N0Rnc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-05T10:32:24Z",
+            "iso_date_of_last_edit": "2025-09-05T10:32:24Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT204dFYzZFpUalZhUzB4TVIyZHJUR2h1TTBOMFJuYxAB",
+            "user": {
+                "name": "Rini Rini",
+                "link": "https://www.google.com/maps/contrib/104386338682717019387?hl=en",
+                "contributor_id": "104386338682717019387",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXHa8Lys6wiXj9X9khy09pUeqMTXKFJpQ3mxwWUWHYP8SvOn-ZeBQ=s120-c-rp-mo-ba5-br100",
+                "local_guide": true,
+                "reviews": 177,
+                "photos": 1382
+            },
+            "snippet": "The restaurant is on the 3rd floor of the building. From the first step until last tea sip, the service were super nice. The english of the waiters & cooks are very good.\nThey recommended us the menu, cook for us and talked while cooking.\nWe're happy and will recommend others to come",
+            "extracted_snippet": {
+                "original": "The restaurant is on the 3rd floor of the building. From the first step until last tea sip, the service were super nice. The english of the waiters & cooks are very good.\nThey recommended us the menu, cook for us and talked while cooking.\nWe're happy and will recommend others to come"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk"
+            },
+            "response": {
+                "date": "a week ago",
+                "iso_date": "2025-09-06T06:13:15Z",
+                "iso_date_of_last_edit": "2025-09-06T06:13:15Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxc2JrbE9SRFV4WjFKdVNuTmhiREJqYlZKUmJXYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOi1sbklORDUxZ1JuSnNhbDBjbVJRbWc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-05T10:14:32Z",
+            "iso_date_of_last_edit": "2025-09-05T10:14:32Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cwt9uagCXRwxErO_Ettcb3CUkIHt8lYZYmr71jItWrzShLm7H12Zv0LWKmWXMpIty8ofPqM83K1ZQxvfCrVOubTdnIqCb1hQHWMgcItfSOLe8ommjvmW6i9qruoHqz_-6GOFXq8yzwzFtR",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AySQ3PQV4hxr-ppjjJjhi5G50lK0CRXjEgj_0jfnxhlQMA9-ZBZeJ8KU6z40vgGkZ9raPR3eldr2jZ-kuzNyzNIhlh7OSWnBV9NVVhB4zT2tJyQXB9989Txl8qJHhRWos89D4948HdgoZR",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AwgGeivSNVP7Y1M4d-TZ87TYUg0vt76LnKD-8XMOPxTnprDhXzXArMH6693BtnH7IZStIOXuRZ27Asp1MRGwamTJKTdBNkXzvcJ3g7reajDBVOvCt4KW8BmMkRMAMxQKtG-cT0Cv7Q-I2G",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DpynSNGdrio1lmLzk_FqPuUrDiYrIRQW_TQyLLhZKg4u4e2zFdRdhw2tTWqaM59JgQTwKGp9PYHsFHxmH2D2X-Ga-Tzh2t9iLpb0D70Fl5ruDKds0bMp9Soqi2HOLCzHAh-yca7m_Xfzc"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxc2JrbE9SRFV4WjFKdVNuTmhiREJqYlZKUmJXYxAB",
+            "user": {
+                "name": "Ajib",
+                "link": "https://www.google.com/maps/contrib/107662399008395647828?hl=en",
+                "contributor_id": "107662399008395647828",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW6Q-tQNtXd4yHgJuMqelL_SWzEG1LVpe59cwZAWVxXyhlc_Z9C=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 7
+            },
+            "snippet": "It's our first time and it was soooo great!",
+            "extracted_snippet": {
+                "original": "It's our first time and it was soooo great!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a week ago",
+                "iso_date": "2025-09-06T06:12:59Z",
+                "iso_date_of_last_edit": "2025-09-06T06:12:59Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xaYVpFaE1iV0l0TlV4NVJGSmxMWFkxVDFGNlQzYxAB!2m1!1s0x0:0x57a5cdfd591b772e!3m1!1s2@1:CAIQACodChtycF9oOlZaZEhMbWItNUx5RFJlLXY1T1F6T3c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-04T13:28:31Z",
+            "iso_date_of_last_edit": "2025-09-04T13:28:31Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaYVpFaE1iV0l0TlV4NVJGSmxMWFkxVDFGNlQzYxAB",
+            "user": {
+                "name": "Solaiman E",
+                "link": "https://www.google.com/maps/contrib/101665384049351265316?hl=en",
+                "contributor_id": "101665384049351265316",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXBQXdhplhGDvYrSJCioOGCSAHC1nIcC2KytP9P8kPtQnvkAkU=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 0
+            },
+            "snippet": "Amazing experience! The staff was very nice! Dank je wel, To and Guo!",
+            "extracted_snippet": {
+                "original": "Amazing experience! The staff was very nice! Dank je wel, To and Guo!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a week ago",
+                "iso_date": "2025-09-05T07:22:25Z",
+                "iso_date_of_last_edit": "2025-09-05T07:22:25Z",
+                "snippet": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!",
+                "extracted_snippet": {
+                    "original": "Thank you very much for visiting us!\nWe\u2019re delighted to hear that you enjoyed our sukiyaki made with premium A5 halal wagyu beef.\nWe truly appreciate you taking the time to leave us such a kind review.\nWe look forward to welcoming you again for another special dining experience!"
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkp5Um1WTVZWOWZSV2hEVm1OT1owTndiVnBsUjE4MGR5MXdORUZCUVVGQlIyZG1YMEZ0WW5KR1pVeFZSMEZCYVVGQg%3D%3D&num=20&place_id=ChIJ3c8QKJKPGGARLncbWf3NpVc&sort_by=newestFirst",
+        "next_page_token": "CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkp5Um1WTVZWOWZSV2hEVm1OT1owTndiVnBsUjE4MGR5MXdORUZCUVVGQlIyZG1YMEZ0WW5KR1pVeFZSMEZCYVVGQg=="
+    }
+}

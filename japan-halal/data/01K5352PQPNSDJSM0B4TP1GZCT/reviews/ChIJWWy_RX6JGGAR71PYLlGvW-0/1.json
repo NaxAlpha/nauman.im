@@ -1,0 +1,556 @@
+{
+    "search_metadata": {
+        "id": "68c63a1d1dcfe255ad414541",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/9522657746f661b5/68c63a1d1dcfe255ad414541.json",
+        "created_at": "2025-09-14 03:44:29 UTC",
+        "processed_at": "2025-09-14 03:44:29 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/9522657746f661b5/68c63a1d1dcfe255ad414541.html",
+        "prettify_html_file": "https://serpapi.com/searches/9522657746f661b5/68c63a1d1dcfe255ad414541.prettify",
+        "total_time_taken": 0.67
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJWWy_RX6JGGAR71PYLlGvW-0",
+        "hl": "en",
+        "next_page_token": "CAESYENBRVFDQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkpTWTFGZmExOWZSV2hCV2xGWk1rNUdiekp1VFRGeU1YRkNhMEZCUVVGQlIyZG1YMEZ0WWxKalVWOXJSMEZCYVVGQg==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxT2NVUTVjWGcyVTI5dGF6bFNTMk5HTWpOMmIyYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOi1OcUQ5cXg2U29tazlSS2NGMjN2b2c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 days ago",
+            "iso_date": "2025-09-09T11:56:43Z",
+            "iso_date_of_last_edit": "2025-09-09T11:56:43Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxT2NVUTVjWGcyVTI5dGF6bFNTMk5HTWpOMmIyYxAB",
+            "user": {
+                "name": "muna faisal",
+                "link": "https://www.google.com/maps/contrib/114601127355247792406?hl=en",
+                "contributor_id": "114601127355247792406",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKMiujzsG5TUyEyuyUxOSIRwM1MhiVBpJXwaHFw4WOhHySajg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 0
+            },
+            "snippet": "Lovely place, good vibes and nice food! I\u2019m glad it was halal! We enjoyed it !",
+            "extracted_snippet": {
+                "original": "Lovely place, good vibes and nice food! I\u2019m glad it was halal! We enjoyed it !"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xaUldIUmlPR0pDVFVadGJYTlNNblp6VldoWmIwRRAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOlZRWHRiOGJCTUZtbXNSMnZzVWhZb0E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 days ago",
+            "iso_date": "2025-09-09T11:33:33Z",
+            "iso_date_of_last_edit": "2025-09-09T11:33:33Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaUldIUmlPR0pDVFVadGJYTlNNblp6VldoWmIwRRAB",
+            "user": {
+                "name": "Louis Garcia",
+                "link": "https://www.google.com/maps/contrib/111599682847529825115?hl=en",
+                "contributor_id": "111599682847529825115",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ-zL-mj6b2uFz067fLAKyNV1EC9WjvpUOq6iimJLf0EBXs1g=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 9,
+                "photos": 0
+            },
+            "snippet": "Hamburger was really good and the double cheeseburger was huge. Next time I would just order without the dark sauce. The chocolate shake was also delicious!",
+            "extracted_snippet": {
+                "original": "Hamburger was really good and the double cheeseburger was huge. Next time I would just order without the dark sauce. The chocolate shake was also delicious!"
+            },
+            "details": {
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sdVdEbDJVSEp6UTJKMGEyRllSMWxUZUdSd1dtYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOnluWDl2UHJzQ2J0a2FYR1lTeGRwWmc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T12:08:16Z",
+            "iso_date_of_last_edit": "2025-09-08T12:08:16Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CQeiloDO9fKqO16DD4fCxNpulfaPakX_i9T7qnN-Cje_dQWWbaHmInxyVYUoTtOjTgI6pKVXZJz8j70DG5JfQk_sMJK9VY2ALpjEHV0HxHIPKunulbBDkGMdK-ea5B85FiRzKOS5a425UI"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sdVdEbDJVSEp6UTJKMGEyRllSMWxUZUdSd1dtYxAB",
+            "user": {
+                "name": "Kathy Delargy",
+                "link": "https://www.google.com/maps/contrib/102881870018267624805?hl=en",
+                "contributor_id": "102881870018267624805",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVmAqGoBglcLal3xj7n-pN6KPWDRB7QmRpnz7yUDfY2bsocRi2U=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 2
+            },
+            "snippet": "Such a lovely place and staff so helpful. My husband is a wheelchair user and they kindly stored it for us. The food was excellent and well priced.  The extra special treat if beautiful orange cake was a lovely finishing touch.  It was well worth walking for 29mins in the heat and humidity.",
+            "extracted_snippet": {
+                "original": "Such a lovely place and staff so helpful. My husband is a wheelchair user and they kindly stored it for us. The food was excellent and well priced.  The extra special treat if beautiful orange cake was a lovely finishing touch.  It was well worth walking for 29mins in the heat and humidity."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait",
+                "wheelchair_accessibility": "Yes very helpful."
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2taTVpWRnBXbFF0VDFVM2JtSk5WblpMTFRkV1UzYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOkZMZVFpWlQtT1U3bmJNVnZLLTdWU3c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T12:00:44Z",
+            "iso_date_of_last_edit": "2025-09-08T12:00:44Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taTVpWRnBXbFF0VDFVM2JtSk5WblpMTFRkV1UzYxAB",
+            "user": {
+                "name": "Hakeem Butt",
+                "link": "https://www.google.com/maps/contrib/108878299774670948333?hl=en",
+                "contributor_id": "108878299774670948333",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI9GAOxW6nhZKVad09H__VSw-DquY_n886j7xQ1hLkiTPflUw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Amazing food and Amazing staff also had a great dessert. If you want a burger I recommend you come here",
+            "extracted_snippet": {
+                "original": "Amazing food and Amazing staff also had a great dessert. If you want a burger I recommend you come here"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25aMWFXZGFVSFIyWWs0NGEwdGpSbGRNTFdwUFRGRRAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOnZ1aWdaUHR2Yk44a0tjRldMLWpPTFE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T11:59:44Z",
+            "iso_date_of_last_edit": "2025-09-08T11:59:44Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aMWFXZGFVSFIyWWs0NGEwdGpSbGRNTFdwUFRGRRAB",
+            "user": {
+                "name": "Omar Hayat",
+                "link": "https://www.google.com/maps/contrib/114925807752887940792?hl=en",
+                "contributor_id": "114925807752887940792",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVop0Yamo_j3cqCfvKLCYvKqa7hrQS1Y7_o4i-__5wDnu9o8QFEBA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Really good food and top notch service with a complimentary cake given! Definitley worth visiting if here.",
+            "extracted_snippet": {
+                "original": "Really good food and top notch service with a complimentary cake given! Definitley worth visiting if here."
+            },
+            "details": {
+                "food": 4,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2poNlUzVnFZbkJsWTBSc1FuWklUMXBvVkZKVE5rRRAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOjh6U3VqYnBlY0RsQnZIT1poVFJTNkE%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T10:01:28Z",
+            "iso_date_of_last_edit": "2025-09-08T10:01:28Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poNlUzVnFZbkJsWTBSc1FuWklUMXBvVkZKVE5rRRAB",
+            "user": {
+                "name": "Solveig Elle Schmidt",
+                "link": "https://www.google.com/maps/contrib/116242353650438178185?hl=en",
+                "contributor_id": "116242353650438178185",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI_FUieYSLOxeODfUwmpoPAppreSQFviSeFB_HOaJsSy8xz4g=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25OeFpGUktXVUZhTkdGSVZGUnpZazUyWjNJM09FRRAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOnNxZFRKWUFaNGFIVFRzYk52Z3I3OEE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T09:45:25Z",
+            "iso_date_of_last_edit": "2025-09-08T09:45:25Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OeFpGUktXVUZhTkdGSVZGUnpZazUyWjNJM09FRRAB",
+            "user": {
+                "name": "K5",
+                "link": "https://www.google.com/maps/contrib/106337745884297028130?hl=en",
+                "contributor_id": "106337745884297028130",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVg5CcwgupbTML7eSQ1a-K4gYS14frr_H3di8TiWN7VGSjnRU4f=s120-c-rp-mo-br100",
+                "reviews": 1,
+                "photos": 0
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKc1lWWXRaVms1WVVwbVpEVmZNRXhtYjJsTU9GRRAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOlJsYVYtZVk5YUpmZDVfMExmb2lMOFE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T08:46:50Z",
+            "iso_date_of_last_edit": "2025-09-08T08:46:50Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKc1lWWXRaVms1WVVwbVpEVmZNRXhtYjJsTU9GRRAB",
+            "user": {
+                "name": "Hayrullah \u00c7i\u00e7ekci",
+                "link": "https://www.google.com/maps/contrib/108491203192745651883?hl=en",
+                "contributor_id": "108491203192745651883",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW0O-dLq1vaBiElKgygbkV2aDJKb3WmscqhNvj8hmkt4ai1AXBBVQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 2
+            },
+            "snippet": "Wagyunun tadi guzeldi. Calisanlar kibar.  Normal etin biraz daha baharata ihtiyaci var.",
+            "extracted_snippet": {
+                "original": "Wagyunun tadi guzeldi. Calisanlar kibar.  Normal etin biraz daha baharata ihtiyaci var.",
+                "translated": "The wagyu tasted good. The staff was polite. The regular meat needs a little more seasoning."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xFNGFqZ3pNM2hRVURCT01EUTNWRFZJYlRSRlNHYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOlE4ajgzM3hQUDBOMDQ3VDVIbTRFSGc%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T04:30:51Z",
+            "iso_date_of_last_edit": "2025-09-08T04:30:51Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFNGFqZ3pNM2hRVURCT01EUTNWRFZJYlRSRlNHYxAB",
+            "user": {
+                "name": "\u0418\u0440\u0438\u043d\u0430 \u0424\u0440\u043e\u043b\u043e\u0432\u0430",
+                "link": "https://www.google.com/maps/contrib/102650551023610231789?hl=en",
+                "contributor_id": "102650551023610231789",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocK_39LtyuZJz77ryb42KSH7iiCmRWVVF9ahLuUNBLqJSpNZrg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 1
+            },
+            "details": {
+                "food": 4,
+                "service": 4,
+                "atmosphere": 4
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21KMWRWaG1RVGt5Y1ZaWk1qWjVja2hhWmpVeVpIYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOmJ1dVhmQTkycVZZMjZ5ckhaZjUyZHc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T12:14:25Z",
+            "iso_date_of_last_edit": "2025-09-07T12:14:25Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KMWRWaG1RVGt5Y1ZaWk1qWjVja2hhWmpVeVpIYxAB",
+            "user": {
+                "name": "Alex Bagumyan",
+                "link": "https://www.google.com/maps/contrib/110443838092406441204?hl=en",
+                "contributor_id": "110443838092406441204",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIXWcwjqo6T1H2ZuJc6CyoOP6_Qnft_k088Mc5dnUzP6a3Caw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 5
+            },
+            "snippet": "Very delicious burgers and amazing staff. Highly recommend",
+            "extracted_snippet": {
+                "original": "Very delicious burgers and amazing staff. Highly recommend"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "3-4 people"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sTU0yZE5ZekF6ZFdKaGNWRjNNWGMyTFhZNWFXYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOnlMM2dNYzAzdWJhcVF3MXc2LXY5aWc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T12:14:17Z",
+            "iso_date_of_last_edit": "2025-09-07T12:14:17Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A2gmPWbn8V4V8GsZDpbOFUixNlgJDi3DzhjhO-5Jlyd3CR2_k0Jb_ZEMIBU_uliRdk4Q03MPqYSjmw8GkwsqRPzu5NkEqHse2FyGT3H3KUbiQhpXNBR-sC7oQ0nFAu6KbUkAuHSkgUru7E"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sTU0yZE5ZekF6ZFdKaGNWRjNNWGMyTFhZNWFXYxAB",
+            "user": {
+                "name": "Arman Rostomyan",
+                "link": "https://www.google.com/maps/contrib/116852758934441580969?hl=en",
+                "contributor_id": "116852758934441580969",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUOfAO-X6a1bAi1yLyoQfgXn7IFp3w_SDcSJKvAaDiysPYL67f3HA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 2
+            },
+            "snippet": "Customer service is amazing, they are very welcoming and so polite. The food is delicious and fresh. I would recommend coming here if you are staying in Tokyo",
+            "extracted_snippet": {
+                "original": "Customer service is amazing, they are very welcoming and so polite. The food is delicious and fresh. I would recommend coming here if you are staying in Tokyo"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25kd04wOHljVmh4ZUVOTmMyMUJlSE5PT0VoUmFWRRAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOndwN08ycVhxeENNc21BeHNOOEhRaVE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T12:13:20Z",
+            "iso_date_of_last_edit": "2025-09-07T12:13:20Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kd04wOHljVmh4ZUVOTmMyMUJlSE5PT0VoUmFWRRAB",
+            "user": {
+                "name": "William Akopian",
+                "link": "https://www.google.com/maps/contrib/105195189142911768995?hl=en",
+                "contributor_id": "105195189142911768995",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocItAL5hEs-OP4-0tuQi4GyAxi7D0R0A2aig6Z23yjEOJ_vfZg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Very good service, friendly staff!!",
+            "extracted_snippet": {
+                "original": "Very good service, friendly staff!!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "group_size": "Suitable for all group sizes"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21RMmREaGxOVGRDYUhwRVdYZ3pjVGxxV1c1eWJVRRAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOmQ2dDhlNTdCaHpEWXgzcTlqWW5ybUE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T12:01:57Z",
+            "iso_date_of_last_edit": "2025-09-07T12:01:57Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21RMmREaGxOVGRDYUhwRVdYZ3pjVGxxV1c1eWJVRRAB",
+            "user": {
+                "name": "abdullah bamasuod",
+                "link": "https://www.google.com/maps/contrib/113749709058552477846?hl=en",
+                "contributor_id": "113749709058552477846",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJxnECsxTqHdtorngnAws9RxBn89OR8lqiGISYixg6TJGA2_A=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25kTldWbFBNRVZYUm1KaVNGbHFNRFJaV2xkblNYYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOndNWVlPMEVXRmJiSFlqMDRZWldnSXc%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T11:43:41Z",
+            "iso_date_of_last_edit": "2025-09-07T11:43:41Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kTldWbFBNRVZYUm1KaVNGbHFNRFJaV2xkblNYYxAB",
+            "user": {
+                "name": "MUHAMMAD IKRAM MUQRI BIN ABDUL HALIM TOKYO AGRI",
+                "link": "https://www.google.com/maps/contrib/113116727577818564163?hl=en",
+                "contributor_id": "113116727577818564163",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVZDaojAX_1MBYR3_zp-5jT2A2bMkoyZIITQq9KS47UjAluUup4=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pjd2RrVTBkR1JYWlZjeVZsTlZlR05QUkV0T1UyYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOjcwdkU0dGRXZVcyVlNVeGNPREtOU2c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T10:30:56Z",
+            "iso_date_of_last_edit": "2025-09-07T10:30:56Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pjd2RrVTBkR1JYWlZjeVZsTlZlR05QUkV0T1UyYxAB",
+            "user": {
+                "name": "Nathan Wallace",
+                "link": "https://www.google.com/maps/contrib/114232780131458617273?hl=en",
+                "contributor_id": "114232780131458617273",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWpPYh-V19MvBBiKisiH2iz04pL4YxXyCv5bJyHOROk8iBAUx_x=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Amazing burgers. Loved that they included paper to help keep your hands clean while you eat.",
+            "extracted_snippet": {
+                "original": "Amazing burgers. Loved that they included paper to help keep your hands clean while you eat."
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "food": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xCdlQxWjRWV1JOVUZWMVZGTk9ORXRaVUZwV1QyYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOlBvT1Z4VWRNUFV1VFNONEtZUFpWT2c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T10:30:29Z",
+            "iso_date_of_last_edit": "2025-09-07T10:30:29Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCdlQxWjRWV1JOVUZWMVZGTk9ORXRaVUZwV1QyYxAB",
+            "user": {
+                "name": "Jen Wallace",
+                "link": "https://www.google.com/maps/contrib/110989824887861537196?hl=en",
+                "contributor_id": "110989824887861537196",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJvWmR-yeb0sPUr7KUWLBB_YIcHCSm7E2lu49CFLpoxuuCtuek=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 0
+            },
+            "snippet": "Fantastic burgers! We tried to book a table online & decided to risk a cab ride after reading the reviews. We got seated right away @ about 7pm on a Sunday. Great food & great service!",
+            "extracted_snippet": {
+                "original": "Fantastic burgers! We tried to book a table online & decided to risk a cab ride after reading the reviews. We got seated right away @ about 7pm on a Sunday. Great food & great service!"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "food": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w5UVVYRnJiM0ZEY25OeVYycFJhRkZ3Y21KalVFRRAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOl9QUXFrb3FDcnNyV2pRaFFwcmJjUEE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T06:56:47Z",
+            "iso_date_of_last_edit": "2025-09-07T06:56:47Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CoVq5GdNhrQsDGBJQZegjSOGX20QmbkK5jEIKzYo5ztnvJLE1Jn7FsA23VNlBRnzqiKXdv_rlx2uUJK53JHq2qF8dOdRg6R-of5ctO3kfCx3tH51QknlanPlMfHS42TWBq5ZkaCPmSVkg"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5UVVYRnJiM0ZEY25OeVYycFJhRkZ3Y21KalVFRRAB",
+            "user": {
+                "name": "Hanny Ariesanty",
+                "link": "https://www.google.com/maps/contrib/110828321696724931005?hl=en",
+                "contributor_id": "110828321696724931005",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJKmzQ_i4IDMMkV8YlhAzYZdSBKPhmgDPNiD4GUSgCEgjbfwA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 2
+            },
+            "snippet": "The best halal burger in town :), easy to find, tastes delicious, excellent service, they even give us a piece of lemon cake as a complementary dessert, love it. We recommend this place to those who seek a wonderful experience with halal food in Tokyo",
+            "extracted_snippet": {
+                "original": "The best halal burger in town :), easy to find, tastes delicious, excellent service, they even give us a piece of lemon cake as a complementary dessert, love it. We recommend this place to those who seek a wonderful experience with halal food in Tokyo"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "3-4 people"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tKdGJsVmFTSEJxZG1kMlNEVkNaekl6TUVsWmJtYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOkJtblVaSHBqdmd2SDVCZzIzMElZbmc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T05:53:08Z",
+            "iso_date_of_last_edit": "2025-09-07T05:53:08Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKdGJsVmFTSEJxZG1kMlNEVkNaekl6TUVsWmJtYxAB",
+            "user": {
+                "name": "RiseUp 2.4GHz",
+                "link": "https://www.google.com/maps/contrib/107685920373986079673?hl=en",
+                "contributor_id": "107685920373986079673",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXJ9lGMf81zWGW8_ukp_j-X0wJATxUZnXIS-b7iKgBg3cbEkBI=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25kaFp6QldNSGRqVlV4TU1tRjFUR2hFVUdock1YYxAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOndhZzBWMHdjVUxMMmF1TGhEUGhrMXc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T05:12:29Z",
+            "iso_date_of_last_edit": "2025-09-07T05:12:29Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kaFp6QldNSGRqVlV4TU1tRjFUR2hFVUdock1YYxAB",
+            "user": {
+                "name": "Francesco",
+                "link": "https://www.google.com/maps/contrib/100874279095712327541?hl=en",
+                "contributor_id": "100874279095712327541",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL-vE80Br4eNMSPFUrM0nmtI7XesSMlarvPsAR33zJidzIAt9A=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 42,
+                "photos": 3
+            },
+            "snippet": "Best burger eaten in Japan. I could not eat garling and pepper and they supported my request removing from the burger preparation.",
+            "extracted_snippet": {
+                "original": "Best burger eaten in Japan. I could not eat garling and pepper and they supported my request removing from the burger preparation."
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "2 people"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25CTVlXOHRXbHBXZFdGTVdYcHhZVzAxZEZaNVVVRRAB!2m1!1s0x0:0xed5baf512ed853ef!3m1!1s2@1:CAIQACodChtycF9oOnBMYW8tWlpWdWFMWXpxYW01dFZ5UUE%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T05:11:47Z",
+            "iso_date_of_last_edit": "2025-09-07T05:11:47Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CTVlXOHRXbHBXZFdGTVdYcHhZVzAxZEZaNVVVRRAB",
+            "user": {
+                "name": "Ludovica Pisano",
+                "link": "https://www.google.com/maps/contrib/112753282331790137704?hl=en",
+                "contributor_id": "112753282331790137704",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJRUtN3f6CwSDFaNrLjRu0fA_dzV0vv0czhaYx3nGnEXB_6Nw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "details": {
+                "food": 4,
+                "service": 4,
+                "atmosphere": 3
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkprWVZwVlpWOWZSV2hDWDFWMExXTjBaazl5WWt0UWFHNTNSVUZCUVVGQlIyZG1YMEZ0WW1SaFdsVmxSMEZCYVVGQg%3D%3D&num=20&place_id=ChIJWWy_RX6JGGAR71PYLlGvW-0&sort_by=newestFirst",
+        "next_page_token": "CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkprWVZwVlpWOWZSV2hDWDFWMExXTjBaazl5WWt0UWFHNTNSVUZCUVVGQlIyZG1YMEZ0WW1SaFdsVmxSMEZCYVVGQg=="
+    }
+}

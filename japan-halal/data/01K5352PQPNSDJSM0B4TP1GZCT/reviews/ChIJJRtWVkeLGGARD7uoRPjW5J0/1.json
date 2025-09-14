@@ -1,0 +1,805 @@
+{
+    "search_metadata": {
+        "id": "68c63a3fd45a38474b119e72",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/8837b60b507b72c8/68c63a3fd45a38474b119e72.json",
+        "created_at": "2025-09-14 03:45:03 UTC",
+        "processed_at": "2025-09-14 03:45:03 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/8837b60b507b72c8/68c63a3fd45a38474b119e72.html",
+        "prettify_html_file": "https://serpapi.com/searches/8837b60b507b72c8/68c63a3fd45a38474b119e72.prettify",
+        "total_time_taken": 2.11
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJJRtWVkeLGGARD7uoRPjW5J0",
+        "hl": "en",
+        "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMk5MWDNGSFZWOWZSV2hDT1V0MVZGY3phRFZ3WTFWdWFHUldRVUZCUVVGQlIyZHVPVE5CUVVOYWQzSXRiMXBSV1VGRFNVRQ==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xSUGRuVjJZbTlvY0VwWGJERk9ZVlV5VlZWVVluYxAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOlRPdnV2Ym9ocEpXbDFOYVUyVVVUYnc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 weeks ago",
+            "iso_date": "2025-08-26T14:54:40Z",
+            "iso_date_of_last_edit": "2025-08-26T14:54:40Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSUGRuVjJZbTlvY0VwWGJERk9ZVlV5VlZWVVluYxAB",
+            "user": {
+                "name": "\u3081\u308d",
+                "link": "https://www.google.com/maps/contrib/113860984390945624792?hl=en",
+                "contributor_id": "113860984390945624792",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWOmTy8o5nYSsnuWtU2MEzEbrJ-kzykWUC6uDvh0sT_B-PGwdU=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 21,
+                "photos": 19
+            },
+            "snippet": "\u521d\u3081\u3066\u30b1\u30d0\u30d6\u3092\u98df\u3079\u307e\u3057\u305f\u304c\u3001\u51c4\u304f\u7f8e\u5473\u3057\u304b\u3063\u305f\u3067\u3059\uff01\u5e97\u54e1\u3055\u3093\u3082\u512a\u3057\u304b\u3063\u305f\u3067\u3059\uff01",
+            "extracted_snippet": {
+                "original": "\u521d\u3081\u3066\u30b1\u30d0\u30d6\u3092\u98df\u3079\u307e\u3057\u305f\u304c\u3001\u51c4\u304f\u7f8e\u5473\u3057\u304b\u3063\u305f\u3067\u3059\uff01\u5e97\u54e1\u3055\u3093\u3082\u512a\u3057\u304b\u3063\u305f\u3067\u3059\uff01",
+                "translated": "It was my first time to eat kebab, but it was delicious! The staff were also very kind!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 weeks ago",
+                "iso_date": "2025-08-30T20:35:02Z",
+                "iso_date_of_last_edit": "2025-08-30T20:35:02Z",
+                "snippet": "\u3081\u308d\u3055\u3093\u3001\n\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u672c\u5f53\u306b\u5b09\u3057\u3044\u3067\u3059\u3002(^-^)/\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u307e\u3059\u3002\n\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u81f4\u3057\u307e\u3059\u3002\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "\u3081\u308d\u3055\u3093\u3001\n\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u672c\u5f53\u306b\u5b09\u3057\u3044\u3067\u3059\u3002(^-^)/\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u307e\u3059\u3002\n\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u81f4\u3057\u307e\u3059\u3002\nKebab Chef\u2019s ",
+                    "translated": "Thank you, Mero-san.\nI'm so happy. (^-^)/\nWe look forward to seeing you again.\nThank you very much.\nKebab Chef's"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xwdFkweHhiMDVoYkhReU1qVnlWVFZqTW5wdGJtYxAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOlptY0xxb05hbHQyMjVyVTVjMnptbmc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 weeks ago",
+            "iso_date": "2025-08-19T23:46:37Z",
+            "iso_date_of_last_edit": "2025-08-19T23:53:52Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C3IjHVIMgCmh76xjGacwWB7PV-Tlv9vjM_Gmolj1xVJcL4CLkMISKNw4lmQU4wYgnfj99vRn_re_UI113K7XidXcHrsGnRfPDS5XaVusmuRykxC0s3Ij7D-3yLbmmgXwvKLpmrNuSc81U",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ba4E-VTo_1uccA3EhYSK5UbZ8gnKMbe9sh8soEv30e6bxwTuqU_iL2FcMmwm5T-n274do2LiAnfVSiqmmyRcA4tXkpRqEhU8F-NF5gKiatCCJyo-yr4OjqEGLygt3QUvSJCKiNaZcZvLka"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwdFkweHhiMDVoYkhReU1qVnlWVFZqTW5wdGJtYxAB",
+            "user": {
+                "name": "y h",
+                "link": "https://www.google.com/maps/contrib/109101478375307977812?hl=en",
+                "contributor_id": "109101478375307977812",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV9Ejv5f2Mq8Ks6mG3HBNIxSpVTWGWa-bMSBGOspjW65vn_4z1i=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 31,
+                "photos": 33
+            },
+            "snippet": "\u30df\u30c3\u30af\u30b9\u30b1\u30d0\u30d6\u30e9\u30c3\u30d7\u3068\u30b5\u30e9\u30c0\u3092\u98df\u3079\u307e\u3057\u305f\u3002\u3068\u3066\u3082\u7f8e\u5473\u3057\u304b\u3063\u305f\u3067\u3059\u3002\n\u5e97\u9577\u3089\u3057\u304d\u30c8\u30eb\u30b3\u4eba\u306e\u65b9\u306f\u65e5\u672c\u8a9e\u304c\u4e0a\u624b\u3067\u3001\u9762\u767d\u3044\u65b9\u3067\u3057\u305f\u3002",
+            "extracted_snippet": {
+                "original": "\u30df\u30c3\u30af\u30b9\u30b1\u30d0\u30d6\u30e9\u30c3\u30d7\u3068\u30b5\u30e9\u30c0\u3092\u98df\u3079\u307e\u3057\u305f\u3002\u3068\u3066\u3082\u7f8e\u5473\u3057\u304b\u3063\u305f\u3067\u3059\u3002\n\u5e97\u9577\u3089\u3057\u304d\u30c8\u30eb\u30b3\u4eba\u306e\u65b9\u306f\u65e5\u672c\u8a9e\u304c\u4e0a\u624b\u3067\u3001\u9762\u767d\u3044\u65b9\u3067\u3057\u305f\u3002",
+                "translated": "I had the mixed kebab wrap and salad. It was delicious.\nThe Turkish man who seemed to be the manager spoke good Japanese and was very funny."
+            },
+            "details": {
+                "food": 5,
+                "service": 4,
+                "atmosphere": 4
+            },
+            "response": {
+                "date": "2 weeks ago",
+                "iso_date": "2025-08-30T20:38:16Z",
+                "iso_date_of_last_edit": "2025-08-30T20:38:16Z",
+                "snippet": "y h \u3055\u3093\n\u30b3\u30e1\u30f3\u30c8\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\n\u611f\u8b1d\u3067\u3059\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u307e\u3059\u3002\n\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u81f4\u3057\u307e\u3059\u3002\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "y h \u3055\u3093\n\u30b3\u30e1\u30f3\u30c8\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\n\u611f\u8b1d\u3067\u3059\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u307e\u3059\u3002\n\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u81f4\u3057\u307e\u3059\u3002\nKebab Chef\u2019s ",
+                    "translated": "Thank you for your comment, y h.\nWe appreciate it.\nWe look forward to seeing you again.\nThank you very much.\nKebab Chef\u2019s"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xONU1EbEpXVEJDZVUxRmFVSmFSVlJpVkRVeWNFRRAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOlN5MDlJWTBCeU1FaUJaRVRiVDUycEE%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "a month ago",
+            "iso_date": "2025-08-11T09:56:10Z",
+            "iso_date_of_last_edit": "2025-08-11T10:00:10Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xONU1EbEpXVEJDZVUxRmFVSmFSVlJpVkRVeWNFRRAB",
+            "user": {
+                "name": "D. N. K.",
+                "link": "https://www.google.com/maps/contrib/114965380597101792977?hl=en",
+                "contributor_id": "114965380597101792977",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX6BmPi16BG-XGw8q9jSeuf9mQiu1qIPx7WuUxkWbx6ymfaf7w=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 0
+            },
+            "snippet": "The d\u00f6ner was okay and the owner was very friendly. In germany we\u2018d say klein aber fein\ud83e\ude76",
+            "extracted_snippet": {
+                "original": "The d\u00f6ner was okay and the owner was very friendly. In germany we\u2018d say klein aber fein\ud83e\ude76"
+            },
+            "details": {
+                "food": 3,
+                "service": 5,
+                "atmosphere": 3
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-08-14T11:22:32Z",
+                "iso_date_of_last_edit": "2025-08-14T11:22:32Z",
+                "snippet": "Dear D.N.K.,\nThanks for your feedback. \nWe appreciate it. \nPlease visit us again soon. \nVielen Dank! \n\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear D.N.K.,\nThanks for your feedback. \nWe appreciate it. \nPlease visit us again soon. \nVielen Dank! \n\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0SkxUWlNkRVZCZWpSS1QwaEdTM2hMZFRWd1FWRRAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOktJLTZSdEVBejRKT0hGS3hLdTVwQVE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-08-10T11:21:18Z",
+            "iso_date_of_last_edit": "2025-08-10T11:21:18Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bhq2iNBExrV2W9rdzj2nm06ZFvmRqBbZw73jG9w_jv4AZ4zb6Q0swy57kQ9XCwuzbumJtdTUM-oVkn3aDGxHHNY9U0ufLP5Aa0QIYp5DjZANtfwcu1hV-iA9coz4TZERIF04aCgJLPQow"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0SkxUWlNkRVZCZWpSS1QwaEdTM2hMZFRWd1FWRRAB",
+            "user": {
+                "name": "Tina",
+                "link": "https://www.google.com/maps/contrib/106191016643985147844?hl=en",
+                "contributor_id": "106191016643985147844",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXzi03AHHpmh_MHHEOf4ujeUrrN3K2BDsOXPyEIvTHQKOX-eDbXbQ=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 42,
+                "photos": 11
+            },
+            "snippet": "Really yummy food and excellent service!",
+            "extracted_snippet": {
+                "original": "Really yummy food and excellent service!"
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-08-14T11:24:39Z",
+                "iso_date_of_last_edit": "2025-08-14T11:24:39Z",
+                "snippet": "Thanks so much, Tina. \nWe are so grateful. \nWhenever you\u2019re in the area, please feel free to stop by. \nBest regards,\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Thanks so much, Tina. \nWe are so grateful. \nWhenever you\u2019re in the area, please feel free to stop by. \nBest regards,\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xoVlR6bEhkSFZJWms0NU5YVmxXbEJVYjNwQlRuYxAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOlhVTzlHdHVIZk45NXVlWlBUb3pBTnc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "Edited a month ago",
+            "iso_date": "2025-08-09T05:08:29Z",
+            "iso_date_of_last_edit": "2025-08-10T05:21:28Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DeiKtOFGSUY5IBat0k9t4ZHVAZzFgx1LUtSuZGyU40BJC3BtPrT7BL_j8_uECC848eCZDnq_4GxlEtviiRkCc11PjScPVEjVW5NS2oXiiAOtiWqQlg4kDmPEmgnF3qOWEo0ub2_V8izudR"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoVlR6bEhkSFZJWms0NU5YVmxXbEJVYjNwQlRuYxAB",
+            "user": {
+                "name": "Hazim bin isfendi",
+                "link": "https://www.google.com/maps/contrib/101172589847222380867?hl=en",
+                "contributor_id": "101172589847222380867",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVx2V_prcQcpIWUPX5pBZNy2FtUrRaKEfSdJFoZiGKmmXZAyF1H=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 14,
+                "photos": 12
+            },
+            "snippet": "Cheap and delicious. The shop is quite small, fitting about 5 individuals max. I had the mixed potato kebab and it was amazing. Very near shibuya station and is visible from the street. Make sure to bring cash, though.",
+            "extracted_snippet": {
+                "original": "Cheap and delicious. The shop is quite small, fitting about 5 individuals max. I had the mixed potato kebab and it was amazing. Very near shibuya station and is visible from the street. Make sure to bring cash, though."
+            },
+            "details": {
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "4 weeks ago",
+                "iso_date": "2025-08-14T11:26:16Z",
+                "iso_date_of_last_edit": "2025-08-14T11:26:16Z",
+                "snippet": "Dear Hazim, \nThanks for your positive feedback. \nWe really appreciate it. \nHope to serve you again soon. \nBest regards,\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear Hazim, \nThanks for your positive feedback. \nWe really appreciate it. \nHope to serve you again soon. \nBest regards,\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxUVNISTBNWFo2UVRRMVJFOTVaRmN5Y20xcVVYYxAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOi1QSHI0MXZ6QTQ1RE95ZFcycm1qUXc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-08-07T13:55:45Z",
+            "iso_date_of_last_edit": "2025-08-07T13:55:45Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxUVNISTBNWFo2UVRRMVJFOTVaRmN5Y20xcVVYYxAB",
+            "user": {
+                "name": "Anastasia Crisante",
+                "link": "https://www.google.com/maps/contrib/115502342967032913508?hl=en",
+                "contributor_id": "115502342967032913508",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJRVhZc1EaJAdnNr9NcGusa4oesTWS-I1wXPAvTrHM6EKHDlg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "I've been interning in Shibuya for the past two months, and this has quickly become one of my absolute favorite places to eat. The food is consistently amazing and the prices are incredibly reasonable, especially considering the generous portion sizes.\n\nWhile customer service is already excellent throughout Japan, the staff here truly go above and beyond. Everyone is so friendly and welcoming. Tonight, I had the chance to chat with the owner, and you can really tell how genuine and authentic he is. It made the experience even more special.\n\nIf you can, I highly recommend sitting inside. Whether you're living in Tokyo or just visiting, this place is absolutely worth a stop. You won\u2019t regret it!",
+            "extracted_snippet": {
+                "original": "I've been interning in Shibuya for the past two months, and this has quickly become one of my absolute favorite places to eat. The food is consistently amazing and the prices are incredibly reasonable, especially considering the generous portion sizes.\n\nWhile customer service is already excellent throughout Japan, the staff here truly go above and beyond. Everyone is so friendly and welcoming. Tonight, I had the chance to chat with the owner, and you can really tell how genuine and authentic he is. It made the experience even more special.\n\nIf you can, I highly recommend sitting inside. Whether you're living in Tokyo or just visiting, this place is absolutely worth a stop. You won\u2019t regret it!"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5,
+                "wait_time": "No wait",
+                "vegetarian_options": "Great falafel options, salads, and tons of appetizers!"
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-08-08T14:08:52Z",
+                "iso_date_of_last_edit": "2025-08-08T14:10:29Z",
+                "snippet": "Dear Anastasia, \n\nThank you so much for your kind words!\nWe\u2019re so happy to hear that \u201cKebab Chefs\u201d has become one of your favorite places, it really means a lot to us. \n\nIt was such a pleasure chatting with you, and it\u2019s always wonderful to connect with our guests. \n\nGuests like you make what we do so rewarding and meaningful.\nThanks again for your visit.\n\nWe wish you all the best and we hope to see you again soon. \nYou\u2019re always welcome. \n\n\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01(^_^) /\n",
+                "extracted_snippet": {
+                    "original": "Dear Anastasia, \n\nThank you so much for your kind words!\nWe\u2019re so happy to hear that \u201cKebab Chefs\u201d has become one of your favorite places, it really means a lot to us. \n\nIt was such a pleasure chatting with you, and it\u2019s always wonderful to connect with our guests. \n\nGuests like you make what we do so rewarding and meaningful.\nThanks again for your visit.\n\nWe wish you all the best and we hope to see you again soon. \nYou\u2019re always welcome. \n\n\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01(^_^) /\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tkSFNsVlhibnBzTFVsWWRXWnBNbUZ5UlRaWldIYxAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOkdHSlVXbnpsLUlYdWZpMmFyRTZZWHc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-08-06T16:19:55Z",
+            "iso_date_of_last_edit": "2025-08-06T16:19:55Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkSFNsVlhibnBzTFVsWWRXWnBNbUZ5UlRaWldIYxAB",
+            "user": {
+                "name": "Alis Japan",
+                "link": "https://www.google.com/maps/contrib/112357339649984654114?hl=en",
+                "contributor_id": "112357339649984654114",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWbUoSY_re4GIE4F8Csml8Or-Fwh40dHBo55XEQjm8ZzZaeX6c=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 10,
+                "photos": 25
+            },
+            "snippet": "Easy location I came from Osaka and his taste is best Turkish kebab highly recommend very reasonable price",
+            "extracted_snippet": {
+                "original": "Easy location I came from Osaka and his taste is best Turkish kebab highly recommend very reasonable price"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-08-07T04:55:10Z",
+                "iso_date_of_last_edit": "2025-08-07T04:55:10Z",
+                "snippet": "Dear Alis, \nThanks very much for your positive comments. Really appreciate it.\n\nHave a safe trip and we hope to see you again soon. \n\nWishing you all the best, \n\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear Alis, \nThanks very much for your positive comments. Really appreciate it.\n\nHave a safe trip and we hope to see you again soon. \n\nWishing you all the best, \n\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2twc1QxQnRORTk2Y1dWRWRFTkNTamRCTTA0eWNFRRAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOkpsT1BtNE96cWVEdENCSjdBM04ycEE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-28T01:40:08Z",
+            "iso_date_of_last_edit": "2025-07-28T01:40:08Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twc1QxQnRORTk2Y1dWRWRFTkNTamRCTTA0eWNFRRAB",
+            "user": {
+                "name": "Mustafa Al-Abboodi",
+                "link": "https://www.google.com/maps/contrib/103345662853515397874?hl=en",
+                "contributor_id": "103345662853515397874",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLUvjpOFu6tSnNftxoAyJC_lMUstxCfhiJ20Y1rCZXMLLnhvg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 0
+            },
+            "snippet": "The food served by this restaurant was delicious. The kebabs were so good that we returned multiple times to buy more sandwiches during our trip.\nThe workers were very kind and helpful.\nI would recommend giving this shop a go if ever in Shibuya.",
+            "extracted_snippet": {
+                "original": "The food served by this restaurant was delicious. The kebabs were so good that we returned multiple times to buy more sandwiches during our trip.\nThe workers were very kind and helpful.\nI would recommend giving this shop a go if ever in Shibuya."
+            },
+            "details": {
+                "service": "Take out"
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-08-07T04:58:56Z",
+                "iso_date_of_last_edit": "2025-08-07T04:58:56Z",
+                "snippet": "Dear Mustafa, \n\nThanks for your visits, really happy to see you.\n\nPlease enjoy your trip and we hope to see you again in the future. \n\nKind regards, \n\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear Mustafa, \n\nThanks for your visits, really happy to see you.\n\nPlease enjoy your trip and we hope to see you again in the future. \n\nKind regards, \n\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xrM2NISkpTV2cxUjNWa1FtMWFTMkZDUldZMVdIYxAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOlk3cHJJSWg1R3VkQm1aS2FCRWY1WHc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-24T07:26:00Z",
+            "iso_date_of_last_edit": "2025-07-24T07:27:01Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B_hOHs7gOXu4KMIRDtDx2nPH70XIX9bujgkF-nuNcO1LQoZUBztD1vjIqHuBorS384YolRm8gkYLBd2wHb5KAW4vnJlGWX95i76MWqiylnw6dxAQCXDntl0I2-KRrr-2vxslDMCGLfkQLU",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DQ1M0Xdd1q1_SvusQk8Iq_y_apN3QEMAK5QtMuToxkmH6-513HybgVTMugS1B4aUaDkdR-Z2hHeBlAfSzE-Lv9KNxwxVg5XrW2fy7cTmwYXMQBGMdkAZLs7NkqO6P6R8xPoEngwbbDWhs",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ciw9JkSGICWJzaqRBg8JhtmH8RA3w35Jp2C-P0kVLryqC875thkWWBCtajBNWh3VsG5OhAv_a0XHgUvmQcN0w8UY4brhEDhA_e3YVf2YWVeg53ssZMDnsqO9chV8Y0OkdgYIaHsONzLN0",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CqO2y82yGNX3xnt4iVhhvVPq6rf31fLi9Sp52toqZa8RV5dW73iTj9eC1odNNsS9hF58tNrKUYitiHT3Gqndz5slp2H0wW2XjOPYAbAiYtcnbpAP3U9gQwWQyJjeOpvwh2KPJDHZC7GBcL",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CLveXwIBeOs2D71FxWiRBkcIb8zYCPCIZdJialjJgykpVxQ8ZQ3fpKBbiC7VsUx4lB5wyIRorjjWy6d7hSPt-b0ZWsZqOWWg3TEtkKtRlYlC7eSq7CZZa3jbzzl_xYW20KacGGVY9TLNBn",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DzvlTCXPPDIKsM86gWdUmYNiUQgnhRATMxVDxX7J-dY10a3JQxzsSC6ajWDPpmN476daAu8bhPE1ExON6LDmSxWEDAA_Y45mopdZVfE81E_4w04tef96lLdMSaoRqXE_BYMCHVJNtrmxc",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CjYvd3v17CV0MLIxJNVOZvvQvWGqUtfRSWME7Fn6ROI0cHoC8eT89-__iVXxecEIeuhMHNByo3dcy5ETso21fNVXIkBI6127oyJ4K6oGfZ_UqdJjRuGIrT68Z0jaSXaNS6TrXxjXk-E5Uc",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BrVCxQ7Sd6DTet76AIwqQLOj7MshXLr-H7TB63DLAtWXspiGQRpi8TI2bxSqexH4rcSItv8Yl17ahIJ8oZCULaQ_IurxrWiD2-h_ZN7UJpxgm_ypUBIVmYggynpg_feONvyxTU53VvsZ8",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DPFQ2cfga1eRDe6F5Zahy6Jj2Rmo1O8GsfaNOCneLPPnNjNS90y_ZUEAmNtUmbxTeEhHfGeKKTgzxNyNHl1jGjyJbOh4oTvj0kFCFxd5Wwdqh_0hANlzydlXFvE-X8db2u4VS0BNFryV88",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AK923rbfoKxRBxmWMIMy1JmZBWygR3YD-nurUmr3Kk3yhlCpUpGRfrOmdRd-mZaAmxI93n_1MDSmUd0UqSdMXd6aiuNa5Iysbnnd1_0-sk3tDPob15z_dihxC879pBm3Q49ksmzy9Yr7I",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dt7JulLyAgSRsZeldB46a8OoHn8PNy1bg06S9wSVkACkmcAKcSJp1o9LLSWMzsvs2uk0xkZoIWaxnwi6G9vA335QH8XMlAscBjMaZqtvhMj-gE_fBmWOhwAZCrt01g4n7ArA-NkArdNIrX",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AQL6Qoex_g_AxTX-SpFlztyGm4SIuwut1DyGdHRnlyLLTq3qoU7CltUENJY4afUdyOKqKpMfTR1-Gq4DQ0-Eampn3WJh08lVkQtkYQ8GsSbqRHNp6f0z7MfyojZpgAVyoOAI2-9aWbqKUZ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D2zylupsdIAdCKa3ApE69FIB49WxVj_TXJzXNf2rneZYYmHZb_0qoHqO_onO6EGHeA0_xFwrRoFtMM07zXjn2KTpEtoxQaCyMClKr9BtCWjrmBj-GW97PBJ49mJjoub0WBmHI1-0B184bP",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CVesw0wGkQO6_ivS1Jze9gSxnYuFYMfl6_0EhI68kKcZLf90hW-edfA4GTGHijWTjq6ADXCRaVYxtY3kKsDK8eOr10feEA7WkHwryPIuePxsaUAERbbXe1WfFVuMDetEbm5LufMb8C-fk"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrM2NISkpTV2cxUjNWa1FtMWFTMkZDUldZMVdIYxAB",
+            "user": {
+                "name": "Antepli",
+                "link": "https://www.google.com/maps/contrib/109906010247421569790?hl=en",
+                "contributor_id": "109906010247421569790",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVSwdtd9cfqAVJf9XM2CMwAMQ0SXGunL4tc7u_yZ8pOLigSj7c=s120-c-rp-mo-ba5-br100",
+                "local_guide": true,
+                "reviews": 66,
+                "photos": 635
+            },
+            "snippet": "\u00c7ok guzel di Yemek ler Tessekurler Adem bey ve is. arkadasina lezzetlet turkiye yi arattir madi bize Ailece. Thank you for your hospitality very tasty foods and drinks Ayran houmus Falafel beef doner very delicious \ud83e\udd24",
+            "extracted_snippet": {
+                "original": "\u00c7ok guzel di Yemek ler Tessekurler Adem bey ve is. arkadasina lezzetlet turkiye yi arattir madi bize Ailece. Thank you for your hospitality very tasty foods and drinks Ayran houmus Falafel beef doner very delicious \ud83e\udd24"
+            },
+            "details": {
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Wrap, Soup, Hummus, Kebab Plate",
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "3-4 people",
+                "dietary_restrictions": "My son had gluten allergy gluten intolerance and they were very good trying to help him out with doner meat and rice options thank you \ud83d\ude4f"
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-08-07T05:01:16Z",
+                "iso_date_of_last_edit": "2025-08-07T05:01:16Z",
+                "snippet": "Dear Antepli, \n\nThanks very much for your kind comments. \nWe are so glad to hear from you. \n\nPlease enjoy the summer and hope to see you again soon. \n\nAll the best, \n\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear Antepli, \n\nThanks very much for your kind comments. \nWe are so glad to hear from you. \n\nPlease enjoy the summer and hope to see you again soon. \n\nAll the best, \n\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xObVMyUnlWbXhZTWt4RWJucDFSelo2Y0hWUWEyYxAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOlNmS2RyVmxYMkxEbnp1RzZ6cHVQa2c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-20T07:26:40Z",
+            "iso_date_of_last_edit": "2025-07-20T07:26:40Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xObVMyUnlWbXhZTWt4RWJucDFSelo2Y0hWUWEyYxAB",
+            "user": {
+                "name": "\u674e\u5c0f\u9f8d",
+                "link": "https://www.google.com/maps/contrib/116220757310826747875?hl=en",
+                "contributor_id": "116220757310826747875",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKpw4oS2aDUj_pVpsLu27MTe8Zdk-2OKNajxSYTC_8XzwAKvA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Yemekler harika T\u00fcrkiyeyi aratm\u0131yor . Usta \u00e7ok profesyonel ve nazik .",
+            "extracted_snippet": {
+                "original": "Yemekler harika T\u00fcrkiyeyi aratm\u0131yor . Usta \u00e7ok profesyonel ve nazik .",
+                "translated": "The food is wonderful, just like T\u00fcrkiye. The chef is very professional and kind."
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-08-07T04:53:05Z",
+                "iso_date_of_last_edit": "2025-08-07T04:53:05Z",
+                "snippet": "Dear customer, \nThanks very much for your kind comments. We are happy to hear from you. \n\nPlease enjoy the summer and we hope to see you again soon. \n\nAll the best, \nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear customer, \nThanks very much for your kind comments. We are happy to hear from you. \n\nPlease enjoy the summer and we hope to see you again soon. \n\nAll the best, \nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25Rd1NWUlJZM2hpU0hsVFJUSTNOamd5UldzMWNrRRAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOnQwSVRRY3hiSHlTRTI3NjgyRWs1ckE%7C%7C?hl=en",
+            "rating": 3.0,
+            "date": "2 months ago",
+            "iso_date": "2025-07-06T05:33:35Z",
+            "iso_date_of_last_edit": "2025-07-06T05:33:35Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Rd1NWUlJZM2hpU0hsVFJUSTNOamd5UldzMWNrRRAB",
+            "user": {
+                "name": "boar insanerush",
+                "link": "https://www.google.com/maps/contrib/113231313742766622925?hl=en",
+                "contributor_id": "113231313742766622925",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW0VZix7AQXbrFeCzoUHL4p_uvMCbPu9ObMWIdmlTyIXCB6JFpR=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 15,
+                "photos": 0
+            },
+            "snippet": "\u30c1\u30ad\u30f3\u30b1\u30d0\u30d6\u304c\u7f8e\u5473\u3057\u3044\u3002\u5b50\u4f9b\u3082\u5927\u597d\u304d\u3002\n\u30d5\u30a1\u30e9\u30d5\u30a7\u30eb\u30b5\u30e9\u30c0\u306e\u30c9\u30ec\u30c3\u30b7\u30f3\u30b0\u306f\u5e02\u8ca9\u4e38\u51fa\u3057\u306e\u5473\u3067\u3067\u305b\u3063\u304b\u304f\u306e\u30d5\u30a1\u30e9\u30d5\u30a7\u30eb\u306b\u52ff\u4f53\u306a\u3044\u3002",
+            "extracted_snippet": {
+                "original": "\u30c1\u30ad\u30f3\u30b1\u30d0\u30d6\u304c\u7f8e\u5473\u3057\u3044\u3002\u5b50\u4f9b\u3082\u5927\u597d\u304d\u3002\n\u30d5\u30a1\u30e9\u30d5\u30a7\u30eb\u30b5\u30e9\u30c0\u306e\u30c9\u30ec\u30c3\u30b7\u30f3\u30b0\u306f\u5e02\u8ca9\u4e38\u51fa\u3057\u306e\u5473\u3067\u3067\u305b\u3063\u304b\u304f\u306e\u30d5\u30a1\u30e9\u30d5\u30a7\u30eb\u306b\u52ff\u4f53\u306a\u3044\u3002",
+                "translated": "The chicken kebab is delicious. Kids love it too.\nThe dressing on the falafel salad tastes like something you'd get at a store-bought restaurant, so it's a waste of the falafel."
+            },
+            "details": {
+                "food": 4,
+                "service": 3,
+                "atmosphere": 3
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-07-19T03:00:45Z",
+                "iso_date_of_last_edit": "2025-07-19T03:00:45Z",
+                "snippet": "Dear Boar, \n\nThanks for your valuable comment. \n\nPlease don\u2019t hesitate to ask our staff if you have any special requests. \n\nWe\u2019ll make your next order just the way you want it. \n\nWe hope to see you again soon. \nKebab Chef\u2019s \n",
+                "extracted_snippet": {
+                    "original": "Dear Boar, \n\nThanks for your valuable comment. \n\nPlease don\u2019t hesitate to ask our staff if you have any special requests. \n\nWe\u2019ll make your next order just the way you want it. \n\nWe hope to see you again soon. \nKebab Chef\u2019s \n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWcFZ6bE1kMjA1VVZwWWFrZHVWemd0VVRWbVlWRRAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOlVpVzlMd205UVpYakduVzgtUTVmYVE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-07-02T11:18:02Z",
+            "iso_date_of_last_edit": "2025-07-02T11:18:02Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWcFZ6bE1kMjA1VVZwWWFrZHVWemd0VVRWbVlWRRAB",
+            "user": {
+                "name": "Halit Y.",
+                "link": "https://www.google.com/maps/contrib/101577660797538121863?hl=en",
+                "contributor_id": "101577660797538121863",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJV_YcjfBp8WKUxwO1adVif_tK1V4DEIw7Y1VFswUuUanpFGA=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 48,
+                "photos": 0
+            },
+            "snippet": "Great Food. Great People. :)",
+            "extracted_snippet": {
+                "original": "Great Food. Great People. :)"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-07-02T14:54:48Z",
+                "iso_date_of_last_edit": "2025-07-02T14:54:48Z",
+                "snippet": "Dear Halit, \nThanks for the positive comments. \nReally appreciate it. \n\nWe just can\u2019t wait to see you again. \nBest regards,\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear Halit, \nThanks for the positive comments. \nReally appreciate it. \n\nWe just can\u2019t wait to see you again. \nBest regards,\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tzemFEVmpiVlJGY0RnME1uVjFZV2d5TmpOSFdsRRAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOkszaDVjbVRFcDg0MnV1YWgyNjNHWlE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-07-01T23:47:12Z",
+            "iso_date_of_last_edit": "2025-07-01T23:47:12Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DLzdd-9jqojaZbfM2RfTb0iv0YeV1CyYIcLTmeaIq58dqZnf23cZ6d4DuVg6y5dn7npCsiBh0iad1JGZ7q0pKnZbszTUpWTHD86svqP81paQ5ccan1C3M-WKdsTTRlJAnZZaBsyaoLA0ap"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tzemFEVmpiVlJGY0RnME1uVjFZV2d5TmpOSFdsRRAB",
+            "user": {
+                "name": "C",
+                "link": "https://www.google.com/maps/contrib/104759118949970743843?hl=en",
+                "contributor_id": "104759118949970743843",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJpNLZb8BdQfB-yqgMgACFZ2J7NArf3ue2gbQRs70uPcciPAQ=s120-c-rp-mo-ba5-br100",
+                "local_guide": true,
+                "reviews": 236,
+                "photos": 397
+            },
+            "snippet": "Nice staff",
+            "extracted_snippet": {
+                "original": "Nice staff"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "1 person"
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-07-02T14:52:09Z",
+                "iso_date_of_last_edit": "2025-07-02T14:52:09Z",
+                "snippet": "Dear C,\nThanks so much! \nWe are happy to see you again. \nAll the best,\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear C,\nThanks so much! \nWe are happy to see you again. \nAll the best,\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w5bWNYWlRZVGx5YzJwWVdrTlNSazlyVHpGa1RVRRAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOl9mcXZTYTlyc2pYWkNSRk9rTzFkTUE%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-28T13:26:06Z",
+            "iso_date_of_last_edit": "2025-06-28T13:26:06Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BN9psBytTxhSovQi5eIpcwnWMA920j2WgnNNGBcIPuZc_PFcnqHfNWPl7Ars9862f-FgsZFeXaxMw9qlKwbemkzP19KTmmcmb2XmjmDXztzX9acF0K7CNAKzMzneLC8PYy5pUBYwQ7MXKY",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AEpgDy-Kw7ojTrFKwJIwiAwxWz3nJ5pebeWzjAqyXQuIcLXKB6yhF-rt0wsFsOPVVrXb2P6cfyACDkCJjQrKchgblgAw4Wubieg06ViYvMl1cBT19S2vrQ4Cjkry39TA4s-rVHk6XtIzxL",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B2P6-7ruWk5EiOR3wagx2Mzbkc7j1PPaJpwy_R8YMM0A1DP65KeKNfm-66Cwx7X0KMU5EvnKZC957Ep_0RrtNJE6-Rt49OuMCx8O-3NGh8M03_n6y27HWPRF4JsYQQs7kdMrleLtS1XDzW",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dv-FTYoUGejyXb2Xx_xoWAbibFDlM_7pJJ5cYpcvjvxziyvSlWZGqgBOgTC0RrANYkOf5GOpyQg6vbGxvVdYkgHF_UeahORbKMKf54P22pXOHvk4EUjiiA6k-rXxrrioTJovussNKRF7y2",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CjKVDvMuE-_WaFnFl3PvyuWAI8mJqkNsUUl7mo4o5qhu2pkGSW3XFDJ0a-RLsE9J7NCJcMZdYGoNVs4hyc0qzdEwZCSvf_p27-HtKFQISYLjqKTLSzX5oWQD8s31hCsGo4RHP6xNfYdFCr",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AIh5j6r8Cx-E4Nf4V276WBz4OWzT3YScN5b6yY0CTN7csVM_9BjTwcKyhsXkhBBjorHomb3Z91MlMwnavYLfl2d0cFLeRwk3xeQOQGIu6Q-z8bt-B4N726Xq5_1dPwnVNDBiTVTPa6Ow0"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5bWNYWlRZVGx5YzJwWVdrTlNSazlyVHpGa1RVRRAB",
+            "user": {
+                "name": "imwatching",
+                "link": "https://www.google.com/maps/contrib/104428767868312637153?hl=en",
+                "contributor_id": "104428767868312637153",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUqy_icYWB8xgtO66KexQDFmW9FSDKkczzIaiqp7t8gMydOZDS1=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 7,
+                "photos": 31
+            },
+            "snippet": "\u521d\u3081\u3066\u30b1\u30d0\u30d6\u3092\u98df\u3079\u307e\u3057\u305f\u3002\n\u591c\uff18\u6642\u306b\u30b9\u30da\u30b7\u30e3\u30eb \u30b1\u30d0\u30d6 \u30e9\u30c3\u30d7\u306e\u30c1\u30ad\u30f3(700\u5186)\u3092\uff11\u3064\u8cfc\u5165\u3002\n\u8f9b\u3055\u306f\u30df\u30c7\u30a3\u30a2\u30e0\u3002\n\u672c\u5f53\u306f\u30d3\u30fc\u30d5\u3092\u98df\u3079\u305f\u304b\u3063\u305f\u3082\u306e\u306e\u30c1\u30ad\u30f3\u306b\u3002\n\u5e97\u54e1\u3055\u3093\u306f\u65e5\u672c\u8a9e\u304c\u82e6\u624b\u306a\u3088\u3046\u3067\u3059\u304c\u3001\u6599\u7406\u756a\u53f7\u3068\u30c1\u30ad\u30f3\u3068\u304b\u30df\u30c7\u30a3\u30a2\u30e0\u3068\u304b\u8a00\u3063\u3066\u6ce8\u6587\u5b8c\u4e86\u3002\n\u4f1a\u8a08\u306fPayPay\u3082\u4f7f\u7528\u3067\u304d\u307e\u3059\u304c\u73fe\u91d1\u3067\u884c\u304d\u307e\u3057\u305f\u3002\n\u30a4\u30fc\u30c8\u30a4\u30f3\u3082\u3067\u304d\u308b\u3088\u3046\u3067\u3059\u304c\u3001\u6301\u3061\u5e30\u3063\u3066\u81ea\u5b85\u3067\u98df\u3079\u307e\u3057\u305f\u3002\n\n\u534a\u5206\u306b\u5207\u3063\u3066\u30ac\u30d6\u30ea\u3001\u30bd\u30fc\u30b9\u304c\u30b8\u30e5\u30ef\u30c3\u3068\u3048\u3082\u3044\u308f\u308c\u306c\u65e8\u3055\u3067\u3059\u3002\u30c1\u30ad\u30f3\u3082\u7f8e\u5473\u3057\u3044\u3002\u30aa\u30fc\u30ed\u30e9\u30bd\u30fc\u30b9\u306e\u3088\u3046\u306a\u8272\u5408\u3044\u3067\u8907\u96d1\u306a\u5473\u3067\u307b\u3093\u306e\u308a\u8f9b\u3044\u3002\u3053\u308c\u306f\u65e8\u3044\u3067\u3059\u306d\u3002\n\u8584\u713c\u304d\u30d1\u30f3\uff08\u30e6\u30d5\u30ab\uff1f\u30e9\u30d0\u30c3\u30b7\u30e5\uff1f\uff09\u304c\u4e0d\u601d\u8b70\u306a\u98df\u611f\u3002\n\n\uff11\u3064\u3067\u304b\u306a\u308a\u306e\u30dc\u30ea\u30e5\u30fc\u30e0\u3002\u30d3\u30fc\u30eb\uff11\u672c\u3067\u98df\u3079\u3066\u304a\u306a\u304b\u3044\u3063\u3071\u3044\u306a\u611f\u3058\u3067\u3057\u305f\u3002\u3053\u306e\u3054\u6642\u4e16\u306b\uff17\uff10\uff10\u5186\u3068\u306f\u30ea\u30fc\u30ba\u30ca\u30d6\u30eb\uff57\n\u306a\u305c\u4eca\u307e\u3067\u98df\u3079\u306a\u304b\u3063\u305f\u3093\u3060\u308d\u3046\uff1f\u3068\u5f8c\u6094\uff0e\uff0e\uff0e\n\n\u6b21\u56de\u306f\u30d3\u30fc\u30d5\u306e\u51fa\u6765\u305f\u3066\u3092\u98df\u3079\u307e\u3059\u3002\n\u3054\u3061\u305d\u3046\u3055\u307e\u3067\u3057\u305f\u3002",
+            "extracted_snippet": {
+                "original": "\u521d\u3081\u3066\u30b1\u30d0\u30d6\u3092\u98df\u3079\u307e\u3057\u305f\u3002\n\u591c\uff18\u6642\u306b\u30b9\u30da\u30b7\u30e3\u30eb \u30b1\u30d0\u30d6 \u30e9\u30c3\u30d7\u306e\u30c1\u30ad\u30f3(700\u5186)\u3092\uff11\u3064\u8cfc\u5165\u3002\n\u8f9b\u3055\u306f\u30df\u30c7\u30a3\u30a2\u30e0\u3002\n\u672c\u5f53\u306f\u30d3\u30fc\u30d5\u3092\u98df\u3079\u305f\u304b\u3063\u305f\u3082\u306e\u306e\u30c1\u30ad\u30f3\u306b\u3002\n\u5e97\u54e1\u3055\u3093\u306f\u65e5\u672c\u8a9e\u304c\u82e6\u624b\u306a\u3088\u3046\u3067\u3059\u304c\u3001\u6599\u7406\u756a\u53f7\u3068\u30c1\u30ad\u30f3\u3068\u304b\u30df\u30c7\u30a3\u30a2\u30e0\u3068\u304b\u8a00\u3063\u3066\u6ce8\u6587\u5b8c\u4e86\u3002\n\u4f1a\u8a08\u306fPayPay\u3082\u4f7f\u7528\u3067\u304d\u307e\u3059\u304c\u73fe\u91d1\u3067\u884c\u304d\u307e\u3057\u305f\u3002\n\u30a4\u30fc\u30c8\u30a4\u30f3\u3082\u3067\u304d\u308b\u3088\u3046\u3067\u3059\u304c\u3001\u6301\u3061\u5e30\u3063\u3066\u81ea\u5b85\u3067\u98df\u3079\u307e\u3057\u305f\u3002\n\n\u534a\u5206\u306b\u5207\u3063\u3066\u30ac\u30d6\u30ea\u3001\u30bd\u30fc\u30b9\u304c\u30b8\u30e5\u30ef\u30c3\u3068\u3048\u3082\u3044\u308f\u308c\u306c\u65e8\u3055\u3067\u3059\u3002\u30c1\u30ad\u30f3\u3082\u7f8e\u5473\u3057\u3044\u3002\u30aa\u30fc\u30ed\u30e9\u30bd\u30fc\u30b9\u306e\u3088\u3046\u306a\u8272\u5408\u3044\u3067\u8907\u96d1\u306a\u5473\u3067\u307b\u3093\u306e\u308a\u8f9b\u3044\u3002\u3053\u308c\u306f\u65e8\u3044\u3067\u3059\u306d\u3002\n\u8584\u713c\u304d\u30d1\u30f3\uff08\u30e6\u30d5\u30ab\uff1f\u30e9\u30d0\u30c3\u30b7\u30e5\uff1f\uff09\u304c\u4e0d\u601d\u8b70\u306a\u98df\u611f\u3002\n\n\uff11\u3064\u3067\u304b\u306a\u308a\u306e\u30dc\u30ea\u30e5\u30fc\u30e0\u3002\u30d3\u30fc\u30eb\uff11\u672c\u3067\u98df\u3079\u3066\u304a\u306a\u304b\u3044\u3063\u3071\u3044\u306a\u611f\u3058\u3067\u3057\u305f\u3002\u3053\u306e\u3054\u6642\u4e16\u306b\uff17\uff10\uff10\u5186\u3068\u306f\u30ea\u30fc\u30ba\u30ca\u30d6\u30eb\uff57\n\u306a\u305c\u4eca\u307e\u3067\u98df\u3079\u306a\u304b\u3063\u305f\u3093\u3060\u308d\u3046\uff1f\u3068\u5f8c\u6094\uff0e\uff0e\uff0e\n\n\u6b21\u56de\u306f\u30d3\u30fc\u30d5\u306e\u51fa\u6765\u305f\u3066\u3092\u98df\u3079\u307e\u3059\u3002\n\u3054\u3061\u305d\u3046\u3055\u307e\u3067\u3057\u305f\u3002",
+                "translated": "I ate kebab for the first time.\n\nI bought one special kebab wrap chicken (700 yen) at 8pm.\n\nI chose medium spiciness.\n\nI actually wanted beef, but I went for chicken.\n\nThe waiter didn't seem to be good at Japanese, but I completed my order by saying the dish number and chicken or medium.\n\nI could pay with PayPay, but I paid with cash.\n\nYou can eat in, but I took it home and ate it.\n\nI cut it in half and took a bite. The sauce was juicy and indescribably delicious. The chicken was also delicious. It had a complex flavor and a slight spiciness, similar to aurora sauce. It was delicious.\n\nThe thin bread (yufka? lavash?) had a strange texture.\n\nOne was quite filling. I ate it with one beer and felt full. 700 yen is reasonable in this day and age lol.\n\nI regret why I hadn't tried it before.\n\nNext time I'll try the freshly cooked beef.\nThank you for the meal."
+            },
+            "details": {
+                "service": 3,
+                "meal_type": "Other",
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 4,
+                "atmosphere": 3
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-28T15:16:50Z",
+                "iso_date_of_last_edit": "2025-06-28T15:16:50Z",
+                "snippet": "Dear customer (imwatching),\nThanks so much for your visit and we appreciate your valuable feedback.\n\nPlease come back for the beef kebab special. And, please tell our chef how you\u2019d like to customize the sauce. \nWe\u2019ll do our best to meet your request. \nThanks again and we wish you all the best. \nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear customer (imwatching),\nThanks so much for your visit and we appreciate your valuable feedback.\n\nPlease come back for the beef kebab special. And, please tell our chef how you\u2019d like to customize the sauce. \nWe\u2019ll do our best to meet your request. \nThanks again and we wish you all the best. \nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2trd1dESkNXR0pYT0dwUU1HTktTbTFaY0hKemVIYxAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOkkwWDJCWGJXOGpQMGNKSm1ZcHJzeHc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-27T12:53:15Z",
+            "iso_date_of_last_edit": "2025-06-27T12:53:15Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2trd1dESkNXR0pYT0dwUU1HTktTbTFaY0hKemVIYxAB",
+            "user": {
+                "name": "Mariyana Castleberry",
+                "link": "https://www.google.com/maps/contrib/112992183498659518520?hl=en",
+                "contributor_id": "112992183498659518520",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL6Vw6l2yB9OvD4V5EjHfOpkDznm5gD6HBEXcdv4MaY3mjuhg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 9,
+                "photos": 4
+            },
+            "snippet": "Such a great gem in the middle of busy Shibuya! Amazing people, fun environment and delicious food. The airyan, a special in-house secret recipe (like coca cola) was delicious. Highly recommend!",
+            "extracted_snippet": {
+                "original": "Such a great gem in the middle of busy Shibuya! Amazing people, fun environment and delicious food. The airyan, a special in-house secret recipe (like coca cola) was delicious. Highly recommend!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-28T15:21:26Z",
+                "iso_date_of_last_edit": "2025-06-28T15:21:26Z",
+                "snippet": "Dear Mariyana, \n\nThanks so much for your visit and we appreciate your positive feedback.\nIt was pleasure talking with you about many different topics. \nWe really enjoyed our conversation. :)\n\n\nPlease enjoy the rest of your trip and please come back whenever you have a chance. \n\nThanks again!\n\nSafe travels.\n\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear Mariyana, \n\nThanks so much for your visit and we appreciate your positive feedback.\nIt was pleasure talking with you about many different topics. \nWe really enjoyed our conversation. :)\n\n\nPlease enjoy the rest of your trip and please come back whenever you have a chance. \n\nThanks again!\n\nSafe travels.\n\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21KSVEzQmlSRUk1VkZWT1JVUndjblZwWlVGRlVtYxAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOmJIQ3BiREI5VFVORURwcnVpZUFFUmc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-21T09:05:57Z",
+            "iso_date_of_last_edit": "2025-06-21T09:05:57Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cq-DXp_nEvKKSLAaHJH5WiijrFMX4XYpN4KWjgaSBxx2xq0607eMmxnwQbmNCvlDS3PjbLRY2-d5qmOfRnnhq7AJ23oU2Et0tKXZ1ny3KZSXSDToOw9Oh2HJx94QoBXJ0oZDTFauPF79vX"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KSVEzQmlSRUk1VkZWT1JVUndjblZwWlVGRlVtYxAB",
+            "user": {
+                "name": "Resul Kele\u015fo\u011flu",
+                "link": "https://www.google.com/maps/contrib/105545586038068091547?hl=en",
+                "contributor_id": "105545586038068091547",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVTPs05Q9lRhysH09_wzYbqGqBvk9vtEMMoYSW7B3yrkrvWPHVD=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 14,
+                "photos": 13
+            },
+            "snippet": "Bence gayet g\u00fczel , ve T\u00fcrk\u2019e hitap ediyor. Tavsiye ederim .",
+            "extracted_snippet": {
+                "original": "Bence gayet g\u00fczel , ve T\u00fcrk\u2019e hitap ediyor. Tavsiye ederim .",
+                "translated": "I think it's very nice, and appeals to Turks. I recommend it."
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51\u20131,000",
+                "food": 5,
+                "atmosphere": 4,
+                "noise_level": "Quiet, easy to talk"
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-28T15:23:36Z",
+                "iso_date_of_last_edit": "2025-06-28T15:23:36Z",
+                "snippet": "Dear Resul,\n\nThanks you so much! \nWe appreciate your positive feedback.\n\nPlease enjoy your summer and we hope to see you again. \n\nWishing you all the best. \nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear Resul,\n\nThanks you so much! \nWe appreciate your positive feedback.\n\nPlease enjoy your summer and we hope to see you again. \n\nWishing you all the best. \nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0ME9HOUVPRTFWZVdGR1gzZFVaVkZ6YkZKWUxVRRAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOkt0OG9EOE1VeWFGX3dUZVFzbFJYLUE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-16T03:57:55Z",
+            "iso_date_of_last_edit": "2025-06-16T03:57:55Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0ME9HOUVPRTFWZVdGR1gzZFVaVkZ6YkZKWUxVRRAB",
+            "user": {
+                "name": "Imrul Rahat",
+                "link": "https://www.google.com/maps/contrib/103958796604770656723?hl=en",
+                "contributor_id": "103958796604770656723",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWGtvf-Lt2CySPeylEF2rHdhn9hr0P5l-rYkwRldRntaDqdwcbcxw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 1
+            },
+            "details": {
+                "food": 5,
+                "service": 3,
+                "atmosphere": 4
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-28T15:25:17Z",
+                "iso_date_of_last_edit": "2025-06-28T15:25:17Z",
+                "snippet": "Dear Imrul,\n\nThanks so much for your feedback.\n\nPlease visit us again in the near future. \nAll the best. \n\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear Imrul,\n\nThanks so much for your feedback.\n\nPlease visit us again in the near future. \nAll the best. \n\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25JeE9EWldhRk5RY1daWGMzcG1lVmxEZFV4TVZtYxAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CAIQACodChtycF9oOnIxODZWaFNQcWZXc3pmeVlDdUxMVmc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-14T22:53:03Z",
+            "iso_date_of_last_edit": "2025-06-14T22:53:03Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25JeE9EWldhRk5RY1daWGMzcG1lVmxEZFV4TVZtYxAB",
+            "user": {
+                "name": "Daniel Brooks",
+                "link": "https://www.google.com/maps/contrib/107211263443603895349?hl=en",
+                "contributor_id": "107211263443603895349",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUFUSJlHfOs_kLrG-A2M9a1lAXGnc4YDSYd6wcVmlTzoaVTfX_VQw=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 41,
+                "photos": 94
+            },
+            "snippet": "Both the beef and chicken were very well seasoned and packed with flavor. You can tell the meat was marinated just right. The spices really brought everything together, making every bite delicious. Highly recommend if you\u2019re craving tasty, well-prepared kebabs!",
+            "extracted_snippet": {
+                "original": "Both the beef and chicken were very well seasoned and packed with flavor. You can tell the meat was marinated just right. The spices really brought everything together, making every bite delicious. Highly recommend if you\u2019re craving tasty, well-prepared kebabs!"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-28T15:28:52Z",
+                "iso_date_of_last_edit": "2025-06-28T15:28:52Z",
+                "snippet": "Dear Daniel,\n\nThanks so much! \nWe really appreciate your valuable feedback.\n\nPlease come and visit us whenever you\u2019re in Tokyo. \n\nWe\u2019d love to see you again. \n\nWishing you all the best. \nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear Daniel,\n\nThanks so much! \nWe really appreciate your valuable feedback.\n\nPlease come and visit us whenever you\u2019re in Tokyo. \n\nWe\u2019d love to see you again. \n\nWishing you all the best. \nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VNakY4NzZaaDRxMWRBEAE!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CIHM0ogKEMjF876Zh4q1dA%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 months ago",
+            "iso_date": "2025-06-10T07:04:04Z",
+            "iso_date_of_last_edit": "2025-06-10T07:04:04Z",
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VNakY4NzZaaDRxMWRBEAE",
+            "user": {
+                "name": "Deniz Ardana",
+                "link": "https://www.google.com/maps/contrib/111634136554297474687?hl=en",
+                "contributor_id": "111634136554297474687",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVtzHSJUIZjj-ON7xo9Xip-PxSe--ONaKwEtq45-nGFigCCm2f3lw=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 29,
+                "photos": 6
+            },
+            "snippet": "Tokyoda T\u00fcrk yeme\u011fi yemek istiyorsan\u0131z kesinlikle en iyi mekan bu kaliteyi T\u00fcrkiye'nin bir\u00e7ok yerinde bile bulamazs\u0131n\u0131z",
+            "extracted_snippet": {
+                "original": "Tokyoda T\u00fcrk yeme\u011fi yemek istiyorsan\u0131z kesinlikle en iyi mekan bu kaliteyi T\u00fcrkiye'nin bir\u00e7ok yerinde bile bulamazs\u0131n\u0131z",
+                "translated": "If you want to eat Turkish food in Tokyo, this is definitely the best place. You cannot find this quality even in many places in T\u00fcrkiye."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "3 months ago",
+                "iso_date": "2025-06-12T00:44:55Z",
+                "iso_date_of_last_edit": "2025-06-12T00:44:55Z",
+                "snippet": "Thanks so much, Deniz. \nWe really appreciate your kind comments. \nPlease visit us again when you\u2019re in Shibuya.\n\u00c7ok te\u015fekk\u0171r ederiz. Sa\u011flicakla kalin. :)\nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Thanks so much, Deniz. \nWe really appreciate your kind comments. \nPlease visit us again when you\u2019re in Shibuya.\n\u00c7ok te\u015fekk\u0171r ederiz. Sa\u011flicakla kalin. :)\nKebab Chef\u2019s "
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VNSFZnTVRPdGJUMzVRRRAB!2m1!1s0x0:0x9de4d6f844a8bb0f!3m1!1s2@1:CIHM0ogKEMHVgMTOtbT35QE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 months ago",
+            "iso_date": "2025-06-08T13:58:55Z",
+            "iso_date_of_last_edit": "2025-06-08T13:58:55Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VNSFZnTVRPdGJUMzVRRRAB",
+            "user": {
+                "name": "Kalbo Pineda",
+                "link": "https://www.google.com/maps/contrib/117846569504744093665?hl=en",
+                "contributor_id": "117846569504744093665",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXAK6Gi7qqGK7JXsT1-Y0_Zt3juh9VD1fd1zjrjuUbDCRFZ25ok=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Best of all kebab!",
+            "extracted_snippet": {
+                "original": "Best of all kebab!"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "atmosphere": 5,
+                "reservation": "Walk-ins only"
+            },
+            "response": {
+                "date": "3 months ago",
+                "iso_date": "2025-06-12T00:46:35Z",
+                "iso_date_of_last_edit": "2025-06-12T00:46:35Z",
+                "snippet": "Dear Kalbo, \nThanks a lot for your positive review. \nWe hope to see you again soon.\nAll the best, \nKebab Chef\u2019s ",
+                "extracted_snippet": {
+                    "original": "Dear Kalbo, \nThanks a lot for your positive review. \nWe hope to see you again soon.\nAll the best, \nKebab Chef\u2019s "
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMmwzUzJFM1pWOWZSV2hEUzNoWlltcE1jM00zZG01b2JVcHhNRUZCUVVGQlIyZHVPVFY2WjBOaFRFRndjblEwV1VGRFNVRQ%3D%3D&num=20&place_id=ChIJJRtWVkeLGGARD7uoRPjW5J0&sort_by=newestFirst",
+        "next_page_token": "CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMmwzUzJFM1pWOWZSV2hEUzNoWlltcE1jM00zZG01b2JVcHhNRUZCUVVGQlIyZHVPVFY2WjBOaFRFRndjblEwV1VGRFNVRQ=="
+    }
+}

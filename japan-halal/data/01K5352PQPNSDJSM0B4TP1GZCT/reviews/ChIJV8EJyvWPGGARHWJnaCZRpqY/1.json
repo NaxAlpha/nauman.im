@@ -1,0 +1,733 @@
+{
+    "search_metadata": {
+        "id": "68c639ed822c5fa75a084dc6",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/e72a73061f440beb/68c639ed822c5fa75a084dc6.json",
+        "created_at": "2025-09-14 03:43:41 UTC",
+        "processed_at": "2025-09-14 03:43:41 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/e72a73061f440beb/68c639ed822c5fa75a084dc6.html",
+        "prettify_html_file": "https://serpapi.com/searches/e72a73061f440beb/68c639ed822c5fa75a084dc6.prettify",
+        "total_time_taken": 1.09
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJV8EJyvWPGGARHWJnaCZRpqY",
+        "hl": "en",
+        "next_page_token": "CAESYENBRVFDQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkV0TmtSMVoxOWZSV2hDUjFWYVJIUndWbGd3Y3pjMU5GWnBkMEZCUVVGQlIyZG1YMEZ0WVMwMlJIVm5SMEZCYVVGQg==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pkVk5rVklOSGhxUkZoR00yUlFiR1U0V1RRMFFuYxAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOjdVNkVINHhqRFhGM2RQbGU4WTQ0Qnc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-13T03:20:46Z",
+            "iso_date_of_last_edit": "2025-09-13T03:20:46Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkVk5rVklOSGhxUkZoR00yUlFiR1U0V1RRMFFuYxAB",
+            "user": {
+                "name": "Joe Petrella",
+                "link": "https://www.google.com/maps/contrib/104530325877949737019?hl=en",
+                "contributor_id": "104530325877949737019",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWcUmxG4jkj6RC-yJKanblVqGhQY86U3xVIFcGclDUnPEHsPfpm=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 2
+            },
+            "snippet": "Food was excellent!  We really enjoyed the atmosphere and staff!!",
+            "extracted_snippet": {
+                "original": "Food was excellent!  We really enjoyed the atmosphere and staff!!"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tjeWVHTjNjSE5JYm5FdE0wSmtUVmhVV25CUlVXYxAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOkcyeGN3cHNIbnEtM0JkTVhUWnBRUWc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T13:47:48Z",
+            "iso_date_of_last_edit": "2025-09-12T13:47:48Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dwl-Tj8j4RFMsfTFhIY7A4sslsdIMHF_JSi3aH4zC7nfcxyhjWXcoCcDy2X-tZjBnFc5sL2S1ybp75-K1YYlbkEtgzzVFtFOX6U1vrL4zHOHwenr79s3V3zNYpa-WMyZx7_xrCThKvCyY5",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DZyme0mxJ8LYQ8KovlAw-y4QzHTe_cYYcB2B6h71kVisBgOX2_Sivts3In-WUQcq2xPAkEwYmKwcg2XG5Ct1rdXDJbbifJbmHTN3otwnq3bzQYRI9VVl1UtsiaNnMXBq18fdJYrJNWw3qN"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjeWVHTjNjSE5JYm5FdE0wSmtUVmhVV25CUlVXYxAB",
+            "user": {
+                "name": "Hugo BELNER",
+                "link": "https://www.google.com/maps/contrib/104614712461125057396?hl=en",
+                "contributor_id": "104614712461125057396",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVIWGVtK7XCpIISzXbq5nbLFxODwuQtPBEQRE-7r-y-5bBoZo3V=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 5
+            },
+            "snippet": "One of the best Wagyu restaurant in Tokyo ! Hi with no h\u00e9sitation !",
+            "extracted_snippet": {
+                "original": "One of the best Wagyu restaurant in Tokyo ! Hi with no h\u00e9sitation !"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:58:58Z",
+                "iso_date_of_last_edit": "2025-09-13T06:58:58Z",
+                "snippet": "Dear Hugo BELNER,\n\nThank you so much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are honored that you consider us one of the best Wagyu restaurants in Tokyo and that you recommend us without hesitation. Your kind words inspire us to continue delivering the best experience. We look forward to welcoming you again soon!\n\nWarm regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear Hugo BELNER,\n\nThank you so much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are honored that you consider us one of the best Wagyu restaurants in Tokyo and that you recommend us without hesitation. Your kind words inspire us to continue delivering the best experience. We look forward to welcoming you again soon!\n\nWarm regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21nelZIWk5lbXQwUm5KSWEwVk9TazFXWkV0dFdFRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOmgzVHZNemt0RnJIa0VOSk1WZEttWEE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T13:34:32Z",
+            "iso_date_of_last_edit": "2025-09-12T13:34:32Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21nelZIWk5lbXQwUm5KSWEwVk9TazFXWkV0dFdFRRAB",
+            "user": {
+                "name": "Malek Imad MAACHE",
+                "link": "https://www.google.com/maps/contrib/113994102553806500973?hl=en",
+                "contributor_id": "113994102553806500973",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWAjdMLsq3zAeKrjbT2TtaY3GC3VI1w3-nUZzTG3MIKgV4vHPU=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 2
+            },
+            "snippet": "Meilleur endroit pour manger du Wagyu Halal a Tokyo, il est d\u00e9licieux n'ayez pas peur du prix vous ne le regretterez pas ! C\u2019est PAR-FAIT !",
+            "extracted_snippet": {
+                "original": "Meilleur endroit pour manger du Wagyu Halal a Tokyo, il est d\u00e9licieux n'ayez pas peur du prix vous ne le regretterez pas ! C\u2019est PAR-FAIT !",
+                "translated": "Best place to eat Halal Wagyu in Tokyo, it's delicious, don't be afraid of the price, you won't regret it! It's PER-FECT!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:57:53Z",
+                "iso_date_of_last_edit": "2025-09-13T06:57:53Z",
+                "snippet": "Dear Malek Imad MAACHE,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are delighted to hear that you found our halal wagyu to be delicious and perfect, and that you consider our restaurant the best place in Tokyo to enjoy it. Your kind words encourage us greatly. We look forward to welcoming you again soon!\n\nWarm regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear Malek Imad MAACHE,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are delighted to hear that you found our halal wagyu to be delicious and perfect, and that you consider our restaurant the best place in Tokyo to enjoy it. Your kind words encourage us greatly. We look forward to welcoming you again soon!\n\nWarm regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25OT0xYWk1NWFpXTkdGbVFVeFVlVlpOVUdoQ1RWRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOnNOLXZMMXZWNGFmQUxUeVZNUGhCTVE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T11:59:59Z",
+            "iso_date_of_last_edit": "2025-09-12T11:59:59Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CwLaCLhVRt-eCVm8Wx1MLIXvyV5rrKyTipyByLt4mDOBSE00DT29qn2E8OEx4SATklf2Ah8pZEV4XRqwZpKNUPbqoa9VDLUPwMheNTdjxN6u4bXVfZpUCU-FI26JQeZQ3jgS9sN4AbPzb9",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C6AhdQEEu1y9Nx0SJMobTLT-Kthl7znW_17CIRkiaeB3o1XJOXwf1aN55V6t3hYvp7UG5up7bzAneaW21ERzg55nrCnQCPo1o22DxE8yvIAbYqb5pw3TY2tsFVScquLRCQ9DHskjIg0lgb"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OT0xYWk1NWFpXTkdGbVFVeFVlVlpOVUdoQ1RWRRAB",
+            "user": {
+                "name": "Sharon Crofts",
+                "link": "https://www.google.com/maps/contrib/105465988787404117782?hl=en",
+                "contributor_id": "105465988787404117782",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJGYocddDWVPkH_eWZx_hjHDxNpqlwo--URx-OgczsSwXCasg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 2
+            },
+            "snippet": "This was our first time eating authentic wagyu beef. The restaurant has a really interesting approach and ethos. Thoroughly recommend.",
+            "extracted_snippet": {
+                "original": "This was our first time eating authentic wagyu beef. The restaurant has a really interesting approach and ethos. Thoroughly recommend."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:56:55Z",
+                "iso_date_of_last_edit": "2025-09-13T06:56:55Z",
+                "snippet": "Dear Sharon Crofts,\n\nThank you so much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are delighted that your first experience with authentic wagyu beef was with us, and that you appreciated our restaurant\u2019s unique approach and atmosphere. Your warm recommendation means a lot to us. We look forward to welcoming you again soon!\n\nWarm regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear Sharon Crofts,\n\nThank you so much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are delighted that your first experience with authentic wagyu beef was with us, and that you appreciated our restaurant\u2019s unique approach and atmosphere. Your warm recommendation means a lot to us. We look forward to welcoming you again soon!\n\nWarm regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT20xaFMydGxjelpaU3pOUVZEZHRlVjkyVG1SQ1VrRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOm1hS2tlczZZSzNQVDdteV92TmRCUkE%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T10:10:37Z",
+            "iso_date_of_last_edit": "2025-09-12T10:10:37Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xaFMydGxjelpaU3pOUVZEZHRlVjkyVG1SQ1VrRRAB",
+            "user": {
+                "name": "Emad Adridar",
+                "link": "https://www.google.com/maps/contrib/113484281219560673951?hl=en",
+                "contributor_id": "113484281219560673951",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXTtXvOJB-99bigIEPEWMPAhKlcz9XWsrGeB9030DkzkpLuN9uX=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 2
+            },
+            "snippet": "Nice wagyu meat. Waiter Mao was friendly with us.",
+            "extracted_snippet": {
+                "original": "Nice wagyu meat. Waiter Mao was friendly with us."
+            },
+            "details": {
+                "food": 5,
+                "service": 4,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pCTFJtVjFTR0pHZDFkUFZuQjFOWGxxTFU5NmMwRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOjBLRmV1SGJGd1dPVnB1NXlqLU96c0E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T09:52:36Z",
+            "iso_date_of_last_edit": "2025-09-12T09:52:36Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCTFJtVjFTR0pHZDFkUFZuQjFOWGxxTFU5NmMwRRAB",
+            "user": {
+                "name": "Safaa Ghailan B",
+                "link": "https://www.google.com/maps/contrib/102968503464226635567?hl=en",
+                "contributor_id": "102968503464226635567",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW4VSBkGjK3saS3a97lz7uV2zmTgEjPB_aPWMfc93kC8X1p7nju=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "snippet": "The meat was very juicy and the staff was very open and patient to our requests. Very lovely experience and halal!",
+            "extracted_snippet": {
+                "original": "The meat was very juicy and the staff was very open and patient to our requests. Very lovely experience and halal!"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:56:03Z",
+                "iso_date_of_last_edit": "2025-09-13T06:56:03Z",
+                "snippet": "Dear Safaa Ghailan B,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are so happy to hear that you enjoyed our juicy meat and that our staff could meet your requests with patience and care. It is wonderful to know that you had a lovely halal dining experience with us. We look forward to welcoming you again soon!\n\nWarm regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear Safaa Ghailan B,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are so happy to hear that you enjoyed our juicy meat and that our staff could meet your requests with patience and care. It is wonderful to know that you had a lovely halal dining experience with us. We look forward to welcoming you again soon!\n\nWarm regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21JMWNIRXpaMjlFTVhoS1lUQjZkREIyT0RCNGRYYxAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOmI1cHEzZ29EMXhKYTB6dDB2ODB4dXc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T09:51:32Z",
+            "iso_date_of_last_edit": "2025-09-12T09:51:32Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21JMWNIRXpaMjlFTVhoS1lUQjZkREIyT0RCNGRYYxAB",
+            "user": {
+                "name": "Hunada Lk",
+                "link": "https://www.google.com/maps/contrib/109243145426781098188?hl=en",
+                "contributor_id": "109243145426781098188",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJMf5dPoCwfuoE7gdAuVBYmqj8WpJsOUGMpKnDDW5CWQzeb7CqO=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 49,
+                "photos": 297
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 3,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "30-60 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tkQk5VNHpaMXB5UTJNMFZIZElibEZuWjFaU2NXYxAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOkdBNU4zZ1pyQ2M0VHdIblFnZ1ZScWc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T09:51:08Z",
+            "iso_date_of_last_edit": "2025-09-12T09:51:08Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkQk5VNHpaMXB5UTJNMFZIZElibEZuWjFaU2NXYxAB",
+            "user": {
+                "name": "laila hbr",
+                "link": "https://www.google.com/maps/contrib/114479317303598653263?hl=en",
+                "contributor_id": "114479317303598653263",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUoYVD9nF0KPrUjRHWjEaaz24HgNlh42XwKau8Aqfi-uqLtsQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 3
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s5NmNHMXhhRnBPTFc5d1dEVjFaa1ZEZERNelEzYxAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOk96cG1xaFpOLW9wWDV1ZkVDdDMzQ3c%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T09:50:39Z",
+            "iso_date_of_last_edit": "2025-09-12T09:50:39Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5NmNHMXhhRnBPTFc5d1dEVjFaa1ZEZERNelEzYxAB",
+            "user": {
+                "name": "Oussama El Ghacham",
+                "link": "https://www.google.com/maps/contrib/108466965570602868744?hl=en",
+                "contributor_id": "108466965570602868744",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV4_XTXeXK2kA_WanJHSOHvbdZ0yjuQvJ7VVhJ0qLTF6_2oYD0=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "snippet": "We enjoyed an outrageous tasteful meat burger in this glamorous humble restaurant. I reckon you all to try it!!",
+            "extracted_snippet": {
+                "original": "We enjoyed an outrageous tasteful meat burger in this glamorous humble restaurant. I reckon you all to try it!!"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xoVFZ5MUhNalpYTmxWUE4wTlpZbkZOYkZseU0wRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOlhTVy1HMjZXNlVPN0NZYnFNbFlyM0E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T09:49:38Z",
+            "iso_date_of_last_edit": "2025-09-12T09:49:38Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoVFZ5MUhNalpYTmxWUE4wTlpZbkZOYkZseU0wRRAB",
+            "user": {
+                "name": "Malika De Prado Ahmed",
+                "link": "https://www.google.com/maps/contrib/112278213893785439385?hl=en",
+                "contributor_id": "112278213893785439385",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJJCacCA_jbFenuEXV4Bb_wWW1SyhlTRltA9XexzATginPrtdI=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "snippet": "Me a encantado el mejor trato y restaurante en jap\u00f3n",
+            "extracted_snippet": {
+                "original": "Me a encantado el mejor trato y restaurante en jap\u00f3n",
+                "translated": "I loved the best service and restaurant in Japan."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT214S2FsTTVaMGxEVEVGVmNreFdZV0UyZG1ZeU9XYxAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOmxKalM5Z0lDTEFVckxWYWE2dmYyOWc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T08:39:06Z",
+            "iso_date_of_last_edit": "2025-09-12T08:39:06Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214S2FsTTVaMGxEVEVGVmNreFdZV0UyZG1ZeU9XYxAB",
+            "user": {
+                "name": "HANAE EL ARTAB BELFASSI",
+                "link": "https://www.google.com/maps/contrib/116445524085484582198?hl=en",
+                "contributor_id": "116445524085484582198",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLs00zZC5oOaCBnmigftV_Vo7NuYxrjpJrTp85Rw4x71OciKK8=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Es un sitio muy especial! El trato excepcional y la comida buen\u00edsima!! \ud83e\udd70 sin duda, lo recomiendo \ud83e\udd8b",
+            "extracted_snippet": {
+                "original": "Es un sitio muy especial! El trato excepcional y la comida buen\u00edsima!! \ud83e\udd70 sin duda, lo recomiendo \ud83e\udd8b",
+                "translated": "It's a very special place! The service is exceptional and the food is delicious!! \ud83e\udd70 I definitely recommend it \ud83e\udd8b"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:54:53Z",
+                "iso_date_of_last_edit": "2025-09-13T06:54:53Z",
+                "snippet": "Dear Hanae El Artab Belfassi,\n\nThank you so much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are delighted to hear that you felt our place was very special, and that you enjoyed both our exceptional service and delicious food. Your kind words and recommendation mean a lot to us. We look forward to welcoming you back again soon! \ud83e\udd8b\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear Hanae El Artab Belfassi,\n\nThank you so much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are delighted to hear that you felt our place was very special, and that you enjoyed both our exceptional service and delicious food. Your kind words and recommendation mean a lot to us. We look forward to welcoming you back again soon! \ud83e\udd8b\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21OSE9ERTRhbGw0YWxoZmVYTjFVMU5xYm5Gbk5rRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOmNHODE4all4alhfeXN1U1NqbnFnNkE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T13:55:46Z",
+            "iso_date_of_last_edit": "2025-09-11T13:55:46Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OSE9ERTRhbGw0YWxoZmVYTjFVMU5xYm5Gbk5rRRAB",
+            "user": {
+                "name": "Jun",
+                "link": "https://www.google.com/maps/contrib/100458330609159282036?hl=en",
+                "contributor_id": "100458330609159282036",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL1gs2J9utJbtO0WaC5YTEOtO38hInOTHtFZXUqfNwSVj2cXw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 0
+            },
+            "snippet": "The food was excellent and the service was very good.  We had  a very wonderful experience!",
+            "extracted_snippet": {
+                "original": "The food was excellent and the service was very good.  We had  a very wonderful experience!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait",
+                "vegetarian_options": "Available"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWTlNYZFlTbXMwVjNSRk9HNXJXakJLVG5welowRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOlVNSXdYSms0V3RFOG5rWjBKTnpzZ0E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T13:54:25Z",
+            "iso_date_of_last_edit": "2025-09-11T13:54:25Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A02QnO2Gyszk0nCAguc43mRQIJddEHOibcRXxVFeOU6gjTClom6N75yugHBCLJkyG_veNhIvaTGqb6M7TFEV4wCnca20pjLI8R2QxaW4F08Sr0LNhHZsesoTNCqwXT_F4OH-1timUlL6k",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C-vKjO7wZypxKMQKGnNjLgSeVI58HG_rGPgfhoq4RrpC6iFidI9YpYeTysdE8tUUT9rcAyQ3eVNJVEOteCkkMhUOgQXyG8ZbGifrv8k6xAC1KRGAAeeEPADYPMdpy_AeC5qdBjBzBkCNA",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DwDG3eIHtaI36sn9wiDfWLDIQXoVGwFKHurcdtDYITa4acdpPfin-Z9PS-n7hmPUE4Rkg2fKLVvqUr8ppLGY4q0EiT7S7Xv8eXWEvu-Ilfg7JLCDCTR2NpItDBAEt-9qOWmJDyOC1NBtw",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AXIoLjwqIvgPV-MR_O0m6djxCu1LHEIeJJiFNdEc6j8gPViZcGliShQW729w6xZ9l__ijjrjqGCYfv1-9o7jvlQQMHLYYigPeHeNxjenDN-Zc6EjBcgwzZa94bHwieSBHisS0mPQ8GkmBU"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWTlNYZFlTbXMwVjNSRk9HNXJXakJLVG5welowRRAB",
+            "user": {
+                "name": "Rey Vitug",
+                "link": "https://www.google.com/maps/contrib/109012105360475127352?hl=en",
+                "contributor_id": "109012105360475127352",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVmFgP8dvlcoROfi9CEwzDI6rzmDqTHfzGeKOOsC3HWs6gQ6JFIcQ=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 22,
+                "photos": 373
+            },
+            "snippet": "Awesome wagyu burger patty, same for the soy based ramen, hand touched wagyu is a plus. Yum!",
+            "extracted_snippet": {
+                "original": "Awesome wagyu burger patty, same for the soy based ramen, hand touched wagyu is a plus. Yum!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:53:45Z",
+                "iso_date_of_last_edit": "2025-09-13T06:53:45Z",
+                "snippet": "Dear Rey Vitug,\n\nThank you for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe\u2019re so happy to hear you enjoyed our Wagyu burger patty and soy-based ramen. It\u2019s wonderful to know that you appreciated the hand-prepared Wagyu as well. Your \u201cYum!\u201d made us smile \u2014 we look forward to serving you again soon!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962\n",
+                "extracted_snippet": {
+                    "original": "Dear Rey Vitug,\n\nThank you for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe\u2019re so happy to hear you enjoyed our Wagyu burger patty and soy-based ramen. It\u2019s wonderful to know that you appreciated the hand-prepared Wagyu as well. Your \u201cYum!\u201d made us smile \u2014 we look forward to serving you again soon!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pKbFN6QklSSGcyT1dseWVXbGtaR3R3Y2tFMlpFRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOjJlSzBIRHg2OWlyeWlkZGtwckE2ZEE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T13:54:05Z",
+            "iso_date_of_last_edit": "2025-09-11T13:54:05Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B-sbiaoXK294-GjKPVY_C37XSq0fUWf04y1JeN7H_Yroj86BFuclgUOfcIwlIZFMrgq2N0gt3o82ho6-dVG_xN13_A9wISQ-BWYG9CdTu16J1OLB_sihDm7ijrDrYVF26QBwtTtB-edOQs",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CWMMhz-D18pa8ypHVE0M6NDj_NYl6IOiegauLIEYgLe37aDsnJ_7A5eXkMS3lFT5DDT1Vdg1k7nv76CfF-2CEpmbj9uPblDTPrFkPG5EDhSQ_nUNCsMk3PgDrDLwaa28VmEb7RDuTqy-A"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKbFN6QklSSGcyT1dseWVXbGtaR3R3Y2tFMlpFRRAB",
+            "user": {
+                "name": "RORI CRUZ",
+                "link": "https://www.google.com/maps/contrib/110013419688837677556?hl=en",
+                "contributor_id": "110013419688837677556",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV2HBR_K1PJfuw3-lFmxjUpNBLoZyc6AeMSzihhpzWgd32GxOP9=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 6,
+                "photos": 2
+            },
+            "snippet": "Had the most amazing wagyu burger and wagyu ramen at this place.\nDefinitely worth a visit.",
+            "extracted_snippet": {
+                "original": "Had the most amazing wagyu burger and wagyu ramen at this place.\nDefinitely worth a visit."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:52:44Z",
+                "iso_date_of_last_edit": "2025-09-13T06:52:44Z",
+                "snippet": "Dear RORI CRUZ,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe\u2019re delighted to hear that you enjoyed both our Wagyu burger and Wagyu ramen, and that you found them amazing. Your kind words that we are \u201cdefinitely worth a visit\u201d mean a lot to us. We look forward to welcoming you again for more delicious experiences!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear RORI CRUZ,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe\u2019re delighted to hear that you enjoyed both our Wagyu burger and Wagyu ramen, and that you found them amazing. Your kind words that we are \u201cdefinitely worth a visit\u201d mean a lot to us. We look forward to welcoming you again for more delicious experiences!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tKTU1XdGZWVGxuVTFSNVJHWnRkWG96YkhCRlRFRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOkJMMWtfVTlnU1R5RGZtdXozbHBFTEE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T13:22:10Z",
+            "iso_date_of_last_edit": "2025-09-11T13:22:10Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKTU1XdGZWVGxuVTFSNVJHWnRkWG96YkhCRlRFRRAB",
+            "user": {
+                "name": "Marvin",
+                "link": "https://www.google.com/maps/contrib/116045215592999957010?hl=en",
+                "contributor_id": "116045215592999957010",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXFWVIqf8HzZ6JZV-Z_IdwBb0fOC9BQMcEH06rNZEVHEs8NyJE=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 1
+            },
+            "snippet": "A very cute and small restaurant close to the Akihabara Station. Our waiter was very friendly, explained the restaurant and its history. I had the Cheeseburger, it was a delicious and very juicy burger with great sauce on it. The wedges on the site were crispy and potatoy in the insinde and perfectly salted.\n\nOverall a great experience.",
+            "extracted_snippet": {
+                "original": "A very cute and small restaurant close to the Akihabara Station. Our waiter was very friendly, explained the restaurant and its history. I had the Cheeseburger, it was a delicious and very juicy burger with great sauce on it. The wedges on the site were crispy and potatoy in the insinde and perfectly salted.\n\nOverall a great experience."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:51:30Z",
+                "iso_date_of_last_edit": "2025-09-13T06:51:30Z",
+                "snippet": "Dear Marvin,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe\u2019re so glad you enjoyed the cheeseburger and wedges, as well as the explanation of our restaurant\u2019s story from our staff. Your kind words about the food and service truly encourage us. We hope to welcome you again for another great experience!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear Marvin,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe\u2019re so glad you enjoyed the cheeseburger and wedges, as well as the explanation of our restaurant\u2019s story from our staff. Your kind words about the food and service truly encourage us. We hope to welcome you again for another great experience!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kM1pIa3plbU5uVDFkc1lXY3RhRWxMTjJkemQxRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOmd3ZHkzemNnT1dsYWctaElLN2dzd1E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T13:20:48Z",
+            "iso_date_of_last_edit": "2025-09-11T13:20:48Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CYcniLGdu4XpY7HCURsc-F5BA5UU7O7Ur96EylJKBKw76JLi1-iL9GCOYUp8_wlBtsY7uXaTSAE5vjufWJOKbY1zfx9kFbkMxJS5s4mGkL3jKI8CaJJTKtsTsHtXQCEryUTqNS9-iTE40"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kM1pIa3plbU5uVDFkc1lXY3RhRWxMTjJkemQxRRAB",
+            "user": {
+                "name": "Michael Arelakis",
+                "link": "https://www.google.com/maps/contrib/107584591708379974078?hl=en",
+                "contributor_id": "107584591708379974078",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKpvkmL4sFT9dC9I9BQuxA1CiY6U2KTJyLCkNPsTQ10l3WyBA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Das essen war sehr lecker und der Service war einfach toll. Unser Kellner war ziemlich nett und sehr zuvorkommend. Das Essen hat super geschmeckt und das Wagyu ist einfach traumhaft. Diesen Laden kann man nur jedem empfehlen!",
+            "extracted_snippet": {
+                "original": "Das essen war sehr lecker und der Service war einfach toll. Unser Kellner war ziemlich nett und sehr zuvorkommend. Das Essen hat super geschmeckt und das Wagyu ist einfach traumhaft. Diesen Laden kann man nur jedem empfehlen!",
+                "translated": "The food was delicious, and the service was simply fantastic. Our server was very nice and accommodating. The food was amazing, and the Wagyu was simply fantastic. I highly recommend this place to everyone!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:50:45Z",
+                "iso_date_of_last_edit": "2025-09-13T06:50:45Z",
+                "snippet": "Dear Michael Arelakis,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe\u2019re delighted to hear that you enjoyed the taste of our Wagyu and that our staff\u2019s friendliness and attentive service made your experience wonderful. Your kind words mean a lot to us, and we truly appreciate your recommendation. We look forward to welcoming you again soon!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear Michael Arelakis,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe\u2019re delighted to hear that you enjoyed the taste of our Wagyu and that our staff\u2019s friendliness and attentive service made your experience wonderful. Your kind words mean a lot to us, and we truly appreciate your recommendation. We look forward to welcoming you again soon!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21scU1FMDFkR0pVUmpBNE5WQTFSSGRZWmt4Sk1GRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOmlqME01dGJURjA4NVA1RHdYZkxJMFE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T12:40:55Z",
+            "iso_date_of_last_edit": "2025-09-11T12:40:55Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CQgPiOqALSTszqtNBYq9v0d-2BXioyegBEeWKCrCf8wWlPvH5ZxgJFTU0DxXS2G35wefmf9ky3ZQLsDUx_6RBQFlXqTiuPSiE9k3zerb7XAxP495orAwJD_Oa7XYdy1w6p-FneX4ANS1wX",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D12IK5ggaPkxQAV5FvrxM46HS7Xd0lSKCgzrMPwaECXgdKMhQRp5CIJVjD01OTgV9CEQplQWWXjhGor2hzTQxbvhggKX9AgylZ4djdmch29Bk1vsNp66WKpTgBiYCaJNWcKbFydHJiYavd"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21scU1FMDFkR0pVUmpBNE5WQTFSSGRZWmt4Sk1GRRAB",
+            "user": {
+                "name": "Karim Kanaan",
+                "link": "https://www.google.com/maps/contrib/101229005849925727204?hl=en",
+                "contributor_id": "101229005849925727204",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVJvYswMudiJSxE-g9uupUe9UnadjQ-gg3GjKGkNH4_ijOd6j_K=s120-c-rp-mo-br100",
+                "reviews": 5,
+                "photos": 3
+            },
+            "snippet": "Food was excellent. And the service was very very nice",
+            "extracted_snippet": {
+                "original": "Food was excellent. And the service was very very nice"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21OMFNWVjVjUzF4ZFhObGEwbHJZbTFEVGprd1UyYxAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOmN0SVV5cS1xdXNla0lrYm1DTjkwU2c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T12:15:18Z",
+            "iso_date_of_last_edit": "2025-09-11T12:15:18Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ce6pMDnNpDBnHV6ND60kQHZ13yzsutMR1_Z9p4PyPkBECrWSk0LxXF6PsOP5Mm65nu3Cors3J7m12CrLUGXWkJn5HcUxCi91TMS6aCz5NfcE901iQWzso9qRgytMG_8b2LwVMg2cdv_vTU",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bd0KoK4mUBo-OW3eWIvP1kkL32ZQstrJarWvOiPfTWgZI-1nI4tBU-HZJ8UmiEXuKW3Ittz22e0OV0dkxUMt3zsfJHe9qbJ4kzt9EZvTmgYGyz0FXe3efsm2dt8jrJX5c5YVFwfwI0K6j2"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OMFNWVjVjUzF4ZFhObGEwbHJZbTFEVGprd1UyYxAB",
+            "user": {
+                "name": "Riley Proulx",
+                "link": "https://www.google.com/maps/contrib/108628613017556549094?hl=en",
+                "contributor_id": "108628613017556549094",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUjnS-MPVWgKCeuTmKPJEknF1DsqZL8er_fKUwNbcJVk933TFrw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 2
+            },
+            "snippet": "Both the ramen and the Burger we had was amazing. On top of this the server was extremely helpful and kind. Even the machine we had at the end was extremely good. Looking forward to the next time we come back!",
+            "extracted_snippet": {
+                "original": "Both the ramen and the Burger we had was amazing. On top of this the server was extremely helpful and kind. Even the machine we had at the end was extremely good. Looking forward to the next time we come back!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a59,000\u201310,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:49:09Z",
+                "iso_date_of_last_edit": "2025-09-13T06:49:09Z",
+                "snippet": "Dear Riley Proulx,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are so glad to hear that you enjoyed both the ramen and the Wagyu burger, and that our staff\u2019s helpful and kind service made your visit a wonderful experience. We\u2019re also happy to know you appreciated even the small details at the end of your meal. We look forward to welcoming you again soon!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear Riley Proulx,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are so glad to hear that you enjoyed both the ramen and the Wagyu burger, and that our staff\u2019s helpful and kind service made your visit a wonderful experience. We\u2019re also happy to know you appreciated even the small details at the end of your meal. We look forward to welcoming you again soon!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkNWNubFBNWEpKYzFKU2NXZFdSVkJTT0U0M1NtYxAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOld5cnlPMXJJc1JScWdWRVBSOE43Smc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T12:13:44Z",
+            "iso_date_of_last_edit": "2025-09-11T12:13:44Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DAPJj5CBVWAzAOUVnOW4fxTVGf_sJVjHcISd4CMRtpQRFdAT6TVaQ94rXY_N6b_jpjEjQaIz0l4yZ-9zRi4OOoctG5SRjDT_HZZjwlhTJFFtx5rmAGr0X_-6XHLBbv_0PQS2p4OFrcI8U",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AbrFJBXGZMgqfrxr4fScq8WUQw1tjsB3x1kb-q46fNSaQ1GaP4b8Ng2lUxJuM6eM6TjBP9fPUDPte2EOWbBIEto9BUZTrDlSLTNt_lwOh0sxbNd7dQmaLU47P4_tNwmaJznBTVe_7nXCBr",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AA05tGNz9h06YtQrQCwfzk5ABuZAtvXni5yyY6jHMnlMT1TMbGEOAHyvZRNR11xqrNJVrsKW7A2mkjHSh_YSepTSyOQ9hIqiY92wX319dEacglXjCenBoUs-XcWPjHuug4C0BJocDr9yee"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkNWNubFBNWEpKYzFKU2NXZFdSVkJTT0U0M1NtYxAB",
+            "user": {
+                "name": "Riley Woodward",
+                "link": "https://www.google.com/maps/contrib/112620142418967983233?hl=en",
+                "contributor_id": "112620142418967983233",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVb-aKlfg2PJf-bOCrAoXmFNCMWDat2fmVx_DwxVmnIgsoz8vavtg=s120-c-rp-mo-br100",
+                "reviews": 3,
+                "photos": 2
+            },
+            "snippet": "The food was amazing! The waiter was very animated and helpful! Felt right at home!",
+            "extracted_snippet": {
+                "original": "The food was amazing! The waiter was very animated and helpful! Felt right at home!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a59,000\u201310,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:48:29Z",
+                "iso_date_of_last_edit": "2025-09-13T06:48:29Z",
+                "snippet": "Dear Riley Woodward,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are thrilled to hear that you enjoyed the food and felt right at home with the friendly and animated service of our staff. Your warm words mean a lot to us, and we look forward to welcoming you again soon for another wonderful experience.\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear Riley Woodward,\n\nThank you very much for visiting Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are thrilled to hear that you enjoyed the food and felt right at home with the friendly and animated service of our staff. Your warm words mean a lot to us, and we look forward to welcoming you again soon for another wonderful experience.\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2poaU5UUklUR1ZZT0RsNFJWSTRkRkYxWm10eVRWRRAB!2m1!1s0x0:0xa6a651266867621d!3m1!1s2@1:CAIQACodChtycF9oOjhiNTRITGVYODl4RVI4dFF1ZmtyTVE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T09:30:10Z",
+            "iso_date_of_last_edit": "2025-09-11T09:30:10Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poaU5UUklUR1ZZT0RsNFJWSTRkRkYxWm10eVRWRRAB",
+            "user": {
+                "name": "Ceren ALPAY",
+                "link": "https://www.google.com/maps/contrib/103849059845215151013?hl=en",
+                "contributor_id": "103849059845215151013",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKv8U9tZdv_UDDfzWD2HKxDREoTMUHgfE49W1954LlTMmkhKA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Restoran\u0131 helal oldu\u011fu i\u00e7in tercih etmi\u015ftik, i\u00e7eriye girdi\u011fimiz andan itibaren samimi bir ortamla kar\u015f\u0131land\u0131k, Mao bey bize \u00e7ok kibar davrand\u0131 haz\u0131rlad\u0131\u011f\u0131 hamburger lezzetliydi ve kendi yapt\u0131\u011f\u0131 tatl\u0131dan ikram etti, bu deneyimden \u00e7ok memnun kald\u0131k",
+            "extracted_snippet": {
+                "original": "Restoran\u0131 helal oldu\u011fu i\u00e7in tercih etmi\u015ftik, i\u00e7eriye girdi\u011fimiz andan itibaren samimi bir ortamla kar\u015f\u0131land\u0131k, Mao bey bize \u00e7ok kibar davrand\u0131 haz\u0131rlad\u0131\u011f\u0131 hamburger lezzetliydi ve kendi yapt\u0131\u011f\u0131 tatl\u0131dan ikram etti, bu deneyimden \u00e7ok memnun kald\u0131k",
+                "translated": "We chose the restaurant because it was halal. From the moment we entered, we were greeted with a friendly atmosphere. Mr. Mao was very kind to us. The hamburger he prepared was delicious and he offered us a dessert he made himself. We were very pleased with this experience."
+            },
+            "details": {
+                "price_per_person": "\u00a510,000+",
+                "noise_level": "Very quiet",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "20 hours ago",
+                "iso_date": "2025-09-13T06:47:43Z",
+                "iso_date_of_last_edit": "2025-09-13T06:47:43Z",
+                "snippet": "Dear Ceren ALPAY,\n\nThank you very much for choosing Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are delighted to hear that you enjoyed the warm atmosphere, our halal menu, and that Mao\u2019s service and the hamburger and dessert made your experience memorable. Your kind feedback encourages us greatly, and we hope to welcome you again soon!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962",
+                "extracted_snippet": {
+                    "original": "Dear Ceren ALPAY,\n\nThank you very much for choosing Wagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962.\nWe are delighted to hear that you enjoyed the warm atmosphere, our halal menu, and that Mao\u2019s service and the hamburger and dessert made your experience memorable. Your kind feedback encourages us greatly, and we hope to welcome you again soon!\n\nBest regards,\nWagyu (Halal) Steak HamBurger & Ramen (Japanese food) Akihabara Restaurant 5W-Tokyo 1962"
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkpJTkRWU0xWOWZSV2hFY1hsNlJsRmlTbnA2TFdsaFVVaGtXVUZCUVVGQlIyZG1YMEZ0WWtnME5WSXRSMEZCYVVGQg%3D%3D&num=20&place_id=ChIJV8EJyvWPGGARHWJnaCZRpqY&sort_by=newestFirst",
+        "next_page_token": "CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkpJTkRWU0xWOWZSV2hFY1hsNlJsRmlTbnA2TFdsaFVVaGtXVUZCUVVGQlIyZG1YMEZ0WWtnME5WSXRSMEZCYVVGQg=="
+    }
+}
