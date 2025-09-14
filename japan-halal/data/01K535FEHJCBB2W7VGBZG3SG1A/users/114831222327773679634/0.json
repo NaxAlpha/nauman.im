@@ -1,0 +1,43 @@
+{
+    "search_metadata": {
+        "id": "68c63a4bae39f38cedbc017b",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/d9437a58a42e7a58/68c63a4bae39f38cedbc017b.json",
+        "created_at": "2025-09-14 03:45:15 UTC",
+        "processed_at": "2025-09-14 03:45:15 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/114831222327773679634/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/d9437a58a42e7a58/68c63a4bae39f38cedbc017b.html",
+        "prettify_html_file": "https://serpapi.com/searches/d9437a58a42e7a58/68c63a4bae39f38cedbc017b.prettify",
+        "total_time_taken": 0.79
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "114831222327773679634",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "wong pat",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL5TpbfXVi7_MfVO0SO_oIDQ9IXyUoQ7v1cwxVPYaIzZKuRl7Y=s120-c-rp-mo-ba2-br100",
+        "points": 472,
+        "level": 4,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 3,
+            "ratings": 8,
+            "photos": 56,
+            "videos": 0,
+            "captions": 0,
+            "answers": 34,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 2,
+            "q_a": 0
+        }
+    },
+    "search_information": {
+        "reviews_results_state": "Fully empty"
+    },
+    "error": "Google hasn't returned any results for this query."
+}

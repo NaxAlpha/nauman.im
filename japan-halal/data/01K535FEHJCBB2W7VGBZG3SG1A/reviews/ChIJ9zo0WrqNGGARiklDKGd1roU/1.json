@@ -1,0 +1,888 @@
+{
+    "search_metadata": {
+        "id": "68c63a3805bb5904d4b637ef",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/decf49d97ab922c6/68c63a3805bb5904d4b637ef.json",
+        "created_at": "2025-09-14 03:44:56 UTC",
+        "processed_at": "2025-09-14 03:44:56 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/decf49d97ab922c6/68c63a3805bb5904d4b637ef.html",
+        "prettify_html_file": "https://serpapi.com/searches/decf49d97ab922c6/68c63a3805bb5904d4b637ef.prettify",
+        "total_time_taken": 0.82
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJ9zo0WrqNGGARiklDKGd1roU",
+        "hl": "en",
+        "next_page_token": "CAESY0NBRVFDQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMlE1U2tOUU1sOWZSV2hFU0RSd2NUaG5UUzFIWjFVMGMwOTRXVUZCUVVGQlIyZHVPVEp2UVVOYU16QnJTVjlaV1VGRFNVRQ==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201V1VIQTJXbVY1V25kVVUxZzVOWHBtUm5kdE5VRRAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOm5WUHA2WmV5WndUU1g5NXpmRndtNUE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-08-04T06:31:35Z",
+            "iso_date_of_last_edit": "2025-08-04T06:31:35Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201V1VIQTJXbVY1V25kVVUxZzVOWHBtUm5kdE5VRRAB",
+            "user": {
+                "name": "Turki Alenezi",
+                "link": "https://www.google.com/maps/contrib/101557160730126147634?hl=en",
+                "contributor_id": "101557160730126147634",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVI6wAiHHcVI6xGSE9DfM7P-nVmVhHb8FY9Bdj0QR31IpVnu9fq=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-08-05T02:00:03Z",
+                "iso_date_of_last_edit": "2025-08-05T02:00:03Z",
+                "snippet": "\n\u3053\u306e\u5ea6\u306f\u5f53\u5e97\u3092\u3054\u5229\u7528\u3044\u305f\u3060\u304d\u3001\u307e\u305f\u3054\u8a55\u4fa1\u3092\u3044\u305f\u3060\u304d\u307e\u3057\u3066\u8aa0\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u304a\u5ba2\u69d8\u306e\u3054\u652f\u6301\u3092\u5927\u5909\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\u4eca\u5f8c\u3082\u304a\u5ba2\u69d8\u306b\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u308b\u30b5\u30fc\u30d3\u30b9\u3092\u5fc3\u304c\u3051\u3066\u307e\u3044\u308a\u307e\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002\n",
+                "extracted_snippet": {
+                    "original": "\n\u3053\u306e\u5ea6\u306f\u5f53\u5e97\u3092\u3054\u5229\u7528\u3044\u305f\u3060\u304d\u3001\u307e\u305f\u3054\u8a55\u4fa1\u3092\u3044\u305f\u3060\u304d\u307e\u3057\u3066\u8aa0\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u304a\u5ba2\u69d8\u306e\u3054\u652f\u6301\u3092\u5927\u5909\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\u4eca\u5f8c\u3082\u304a\u5ba2\u69d8\u306b\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u308b\u30b5\u30fc\u30d3\u30b9\u3092\u5fc3\u304c\u3051\u3066\u307e\u3044\u308a\u307e\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002\n",
+                    "translated": "\nThank you very much for using our store and for your review. We are very grateful for your support. We will continue to strive to provide service that satisfies our customers. We look forward to seeing you again.\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t3d05VRTRSakpMWlVORE4yZG1TRUpuVlRaUlZYYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOkwwNUE4RjJLZUNDN2dmSEJnVTZRVXc%7C%7C?hl=en",
+            "rating": 1.0,
+            "date": "a month ago",
+            "iso_date": "2025-08-02T11:32:22Z",
+            "iso_date_of_last_edit": "2025-08-02T11:32:22Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3d05VRTRSakpMWlVORE4yZG1TRUpuVlRaUlZYYxAB",
+            "user": {
+                "name": "Hafiz Khurram Shahzad",
+                "link": "https://www.google.com/maps/contrib/110234645890913774081?hl=en",
+                "contributor_id": "110234645890913774081",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXlvwpyTLqTpn6ualtQiwk3AEq_DImwoa3XOJo28g2VLjR37AQ6=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 10,
+                "photos": 28
+            },
+            "snippet": "Quality and quantity both are bad",
+            "extracted_snippet": {
+                "original": "Quality and quantity both are bad"
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-08-03T07:36:06Z",
+                "iso_date_of_last_edit": "2025-08-03T07:36:06Z",
+                "snippet": "\u5f53\u5e97\u3067\u306f\u591a\u304f\u306e\u304a\u5ba2\u69d8\u3088\u308a\u300c\u30dc\u30ea\u30e5\u30fc\u30e0\u304c\u3042\u3063\u3066\u6e80\u8db3\u300d\u3068\u306e\u304a\u58f0\u3092\u3044\u305f\u3060\u3044\u3066\u304a\u308a\u307e\u3059\u304c\u3001\u4eca\u56de\u305d\u306e\u3088\u3046\u306b\u611f\u3058\u3066\u3044\u305f\u3060\u3051\u306a\u304b\u3063\u305f\u3053\u3068\u306f\u5927\u5909\u6b8b\u5ff5\u3067\u3059\u3002\n\u54c1\u8cea\u30fb\u91cf\u3068\u3082\u306b\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u308b\u3088\u3046\u65e5\u3005\u52aa\u529b\u3057\u3066\u304a\u308a\u307e\u3059\u304c\u3001\u4eca\u5f8c\u3082\u3088\u308a\u591a\u304f\u306e\u304a\u5ba2\u69d8\u306b\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u308b\u3088\u3046\u3001\u30b5\u30fc\u30d3\u30b9\u5411\u4e0a\u306b\u52aa\u3081\u3066\u307e\u3044\u308a\u307e\u3059\u3002\u8cb4\u91cd\u306a\u3054\u610f\u898b\u3092\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002",
+                "extracted_snippet": {
+                    "original": "\u5f53\u5e97\u3067\u306f\u591a\u304f\u306e\u304a\u5ba2\u69d8\u3088\u308a\u300c\u30dc\u30ea\u30e5\u30fc\u30e0\u304c\u3042\u3063\u3066\u6e80\u8db3\u300d\u3068\u306e\u304a\u58f0\u3092\u3044\u305f\u3060\u3044\u3066\u304a\u308a\u307e\u3059\u304c\u3001\u4eca\u56de\u305d\u306e\u3088\u3046\u306b\u611f\u3058\u3066\u3044\u305f\u3060\u3051\u306a\u304b\u3063\u305f\u3053\u3068\u306f\u5927\u5909\u6b8b\u5ff5\u3067\u3059\u3002\n\u54c1\u8cea\u30fb\u91cf\u3068\u3082\u306b\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u308b\u3088\u3046\u65e5\u3005\u52aa\u529b\u3057\u3066\u304a\u308a\u307e\u3059\u304c\u3001\u4eca\u5f8c\u3082\u3088\u308a\u591a\u304f\u306e\u304a\u5ba2\u69d8\u306b\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u308b\u3088\u3046\u3001\u30b5\u30fc\u30d3\u30b9\u5411\u4e0a\u306b\u52aa\u3081\u3066\u307e\u3044\u308a\u307e\u3059\u3002\u8cb4\u91cd\u306a\u3054\u610f\u898b\u3092\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002",
+                    "translated": "Many of our customers have told us that their meals were \"very filling and satisfying,\" and we are very disappointed that you did not feel that way this time.\nWe strive every day to ensure that you are satisfied with both the quality and quantity of our meals, and we will continue to strive to improve our service so that we can satisfy even more customers. Thank you for your valuable feedback."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2toWFkzVmlUV3REUmt4V1dWQnNVM2N6Ylc1TFVFRRAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOkhXY3ViTWtDRkxWWVBsU3czbW5LUEE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-29T13:28:59Z",
+            "iso_date_of_last_edit": "2025-07-29T13:28:59Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toWFkzVmlUV3REUmt4V1dWQnNVM2N6Ylc1TFVFRRAB",
+            "user": {
+                "name": "Mo Alanazi",
+                "link": "https://www.google.com/maps/contrib/111983292035141094457?hl=en",
+                "contributor_id": "111983292035141094457",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXpEeVBPi0WyKwnGQiq4iiG6XQ7DJlt3Vi5peZtWEdg10SMT3w=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-07-30T02:00:09Z",
+                "iso_date_of_last_edit": "2025-07-30T02:00:09Z",
+                "snippet": "\n\u3054\u8a55\u4fa1\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002\n",
+                "extracted_snippet": {
+                    "original": "\n\u3054\u8a55\u4fa1\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002\n",
+                    "translated": "\nThank you for your review. We look forward to seeing you again.\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25oSGRFMWlZMm96WW1SM1JrY3pTRUo0TTFJMVMzYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOnhHdE1iY2ozYmR3RkczSEJ4M1I1S3c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-27T11:51:18Z",
+            "iso_date_of_last_edit": "2025-07-27T11:51:18Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CoUH3WiYvpQ7Xke3vrhlMr-KLlAVAXzGUoy94QpEecd4bWAokyf7OM1QPm4G9zwvLxvWAJsVuqm_14ObUBrfM4ffnNfpsEmSH7l1oyWcN9oaTEJ9KBW3cSjXTKYLtm26c7lQCiw99sI0M",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BzQdMbyhoGoYUYoHN2-PEYaWhWft_sXMRIsBZKcIu2B6ySjA-5CHiSVIm-hA0vi0RZXrJKCnuyVxGlXsS34RDvrSYLZZZzYw2AytZX9_Vzh_rmhw7L-BgyiH4u2-pSSwOXhvL1bqz8mWQ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AlMu2EytYywc1tOqOMZuOHTKS01ioHpzlrLsAPbQRwTaNlBGhHBFXttRXjNl0TF_hsJ-wy7JUoOSjBWHK8Y7QuugnyIZj8C2wXFxXvtn-PHH6ap7Pr_i44NF-r2CnY4E1ISCjgUvSZhOM",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ds__AhkSTz_2kfi3MHvvAk-AdEkVyYcsQfVoyq2GJVIW8V8CQq44LkR55_2DItrwsM2mVKjOnjJL0lOVm_r2JuV7lOgaf5mB8AvBdg7d_V80GH8MqzmGuO9HyJs-Q2ayk-QhX0O9w8bzYA",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BJXpC3LoooME5j-8Nd6KDNyfQuqbxxSF30MPtDBk3fLVbdQEvvgvBrhEexW49DmIIq7bZs3EjXcsbe6luLUykLjbsV1r_QgiCTUqW-EzLBS8He-B5ptCgPnCl_khGV5ayxNk_2uvLJixM1",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CxDSFT88urSOGJAfmeax4Q1WPlzjlG8Nfk2UEaKbeL0b9HP29U7uGVLNCn2mOClZhuHG3h_M--G25ET-uhAFfauYerbkPmJsKs6oRkWDIHZl39wyKZ8RSz9TRZi3RprlV3rCRYU7QsFvvV",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AF8Ox9-MUAHIsy3J72Tf8SH2eQzoYHK9CAIc_ATDtUkK7MR5_rDmmQfF35uevEyZEewe5rnUw0Uo3XgnBKuldgKt0PVXlol6TkN1SMaSRr43K9rJiOxHnDSWRTLW49JK0VJkoBc5HQjUx_",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CNoJzlXIWSiFZa_8XNYR0jBNCBQ6PPFFTtuUe4xalp3zdR9_tdvkojnFrSUjer3Bs3PZhDiS1AbzobWizGZiZENMhnEfOOclqC03TmrZ-ZFHao0r4OUSV7BLuOb-VoBe_Oe9pjDM1-CFY",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AQsRRvzvs_JPlGl7guXOkYYi01kmGjS-yDEv_0WXTocsR2bRgWV0a_9dtuRHfwmfPV3fp-yZqnjUq_02lBfREX60NsxVbhjGCH51AF5dl1LzjS1qZk3VP4P1Pvg2w3HjRnINw3PvgHm4B8"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oSGRFMWlZMm96WW1SM1JrY3pTRUo0TTFJMVMzYxAB",
+            "user": {
+                "name": "aki sasa",
+                "link": "https://www.google.com/maps/contrib/103811941562775826257?hl=en",
+                "contributor_id": "103811941562775826257",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL01uyPmUvHFLk0PIdOG2yqXiE13-qEY1qgecJf8ccWdy1qew=s120-c-rp-mo-ba5-br100",
+                "local_guide": true,
+                "reviews": 224,
+                "photos": 934
+            },
+            "snippet": "\u65e9\u7a32\u7530\u306b\u3042\u308a\u306a\u304c\u3089\u3001\u73fe\u5730\u3055\u306a\u304c\u3089\u306e\u6771\u30a4\u30f3\u30c9\u6599\u7406\u304c\u5473\u308f\u3048\u308b\u304a\u5e97\ud83c\uddee\ud83c\uddf3\n\u9999\u308a\u304c\u58f2\u308a\u306e\u30b3\u30eb\u30ab\u30bf\u30d3\u30ea\u30e4\u30cb\u3092\u306f\u3058\u3081\u3001\u30de\u30c8\u30f3\u30ab\u30ec\u30fc\u3001\u30b5\u30b0\u30c1\u30ad\u30f3\u30ab\u30ec\u30fc\u3001\u30c1\u30fc\u30ba\u30ca\u30f3\u306a\u3069\u5168\u3066\u304c\u7d76\u54c1\ud83d\ude0b\n\u30c1\u30e3\u30a4\u3084\u30de\u30f3\u30b4\u30fc\u30e9\u30c3\u30b7\u30fc\u3001\u30ed\u30fc\u30ba\u30e9\u30c3\u30b7\u30fc\u306a\u3069\u81ea\u5bb6\u88fd\u30c9\u30ea\u30f3\u30af\u3082\u7f8e\u5473\u3057\u304f\u3044\u305f\u3060\u304d\u307e\u3057\u305f\ud83c\udf79\ud83e\udd6d\ud83c\udf39\n\u30e1\u30cb\u30e5\u30fc\u306f\u3059\u3079\u3066\u30cf\u30e9\u30fc\u30eb\u306b\u5bfe\u5fdc\u3057\u3001\u30d9\u30b8\u30bf\u30ea\u30a2\u30f3\u5bfe\u5fdc\u3082\u53ef\u80fd\u3068\u306e\u3053\u3068\u3002\u30d5\u30a1\u30df\u30ea\u30fc\u3084\u304a\u53cb\u9054\u540c\u58eb\u306e\u4f1a\u98df\u3001\u304a\u3072\u3068\u308a\u3055\u307e\u306a\u3069\u3055\u307e\u3056\u307e\u306a\u30b7\u30fc\u30f3\u306b\u30de\u30c3\u30c1\u3059\u308b\u96f0\u56f2\u6c17\u3002\u307e\u305f\u884c\u304d\u305f\u3044\u2764\ufe0e",
+            "extracted_snippet": {
+                "original": "\u65e9\u7a32\u7530\u306b\u3042\u308a\u306a\u304c\u3089\u3001\u73fe\u5730\u3055\u306a\u304c\u3089\u306e\u6771\u30a4\u30f3\u30c9\u6599\u7406\u304c\u5473\u308f\u3048\u308b\u304a\u5e97\ud83c\uddee\ud83c\uddf3\n\u9999\u308a\u304c\u58f2\u308a\u306e\u30b3\u30eb\u30ab\u30bf\u30d3\u30ea\u30e4\u30cb\u3092\u306f\u3058\u3081\u3001\u30de\u30c8\u30f3\u30ab\u30ec\u30fc\u3001\u30b5\u30b0\u30c1\u30ad\u30f3\u30ab\u30ec\u30fc\u3001\u30c1\u30fc\u30ba\u30ca\u30f3\u306a\u3069\u5168\u3066\u304c\u7d76\u54c1\ud83d\ude0b\n\u30c1\u30e3\u30a4\u3084\u30de\u30f3\u30b4\u30fc\u30e9\u30c3\u30b7\u30fc\u3001\u30ed\u30fc\u30ba\u30e9\u30c3\u30b7\u30fc\u306a\u3069\u81ea\u5bb6\u88fd\u30c9\u30ea\u30f3\u30af\u3082\u7f8e\u5473\u3057\u304f\u3044\u305f\u3060\u304d\u307e\u3057\u305f\ud83c\udf79\ud83e\udd6d\ud83c\udf39\n\u30e1\u30cb\u30e5\u30fc\u306f\u3059\u3079\u3066\u30cf\u30e9\u30fc\u30eb\u306b\u5bfe\u5fdc\u3057\u3001\u30d9\u30b8\u30bf\u30ea\u30a2\u30f3\u5bfe\u5fdc\u3082\u53ef\u80fd\u3068\u306e\u3053\u3068\u3002\u30d5\u30a1\u30df\u30ea\u30fc\u3084\u304a\u53cb\u9054\u540c\u58eb\u306e\u4f1a\u98df\u3001\u304a\u3072\u3068\u308a\u3055\u307e\u306a\u3069\u3055\u307e\u3056\u307e\u306a\u30b7\u30fc\u30f3\u306b\u30de\u30c3\u30c1\u3059\u308b\u96f0\u56f2\u6c17\u3002\u307e\u305f\u884c\u304d\u305f\u3044\u2764\ufe0e",
+                "translated": "Even though it's in Waseda, this restaurant serves authentic East Indian cuisine \ud83c\uddee\ud83c\uddf3\nTheir dishes are all exquisite, from the fragrant Kolkata biryani to mutton curry, saag chicken curry, and cheese naan \ud83d\ude0b\nTheir homemade drinks, including chai, mango lassi, and rose lassi, were also delicious \ud83c\udf79\ud83e\udd6d\ud83c\udf39\nAll of their menu items are halal, and vegetarian options are also available. The atmosphere is perfect for a variety of occasions, whether you're dining with family, friends, or alone. I'd love to go again \u2764\ufe0e"
+            },
+            "details": {
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "\u30ab\u30ec\u30fc, \u30c1\u30ad\u30f3\u30d3\u30ea\u30e4\u30cb, \u30c1\u30fc\u30ba\u30ca\u30f3",
+                "group_size": "1 person, 2 people, 3-4 people, 5-8 people",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-07-28T02:00:05Z",
+                "iso_date_of_last_edit": "2025-07-28T02:00:05Z",
+                "snippet": "\n\u7d20\u6575\u306a\u30ec\u30d3\u30e5\u30fc\u3092\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u672c\u683c\u7684\u306a\u6771\u30a4\u30f3\u30c9\u306e\u5473\u3092\u3054\u582a\u80fd\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\u30d3\u30ea\u30e4\u30cb\u3084\u30ab\u30ec\u30fc\u3001\u30ca\u30f3\u306a\u3069\u3092\u304a\u6c17\u306b\u5165\u308a\u3044\u305f\u3060\u304d\u611f\u8b1d\u3067\u3059\u3002\u81ea\u5bb6\u88fd\u30c9\u30ea\u30f3\u30af\u3082\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u3066\u4f55\u3088\u308a\u3067\u3059\u3002\u30cf\u30e9\u30fc\u30eb\u5bfe\u5fdc\u3084\u30d9\u30b8\u30bf\u30ea\u30a2\u30f3\u5bfe\u5fdc\u306a\u3069\u3001\u591a\u69d8\u306a\u304a\u5ba2\u69d8\u306b\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u308b\u74b0\u5883\u3065\u304f\u308a\u3092\u5927\u5207\u306b\u3057\u3066\u304a\u308a\u307e\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u2764\ufe0f\n",
+                "extracted_snippet": {
+                    "original": "\n\u7d20\u6575\u306a\u30ec\u30d3\u30e5\u30fc\u3092\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u672c\u683c\u7684\u306a\u6771\u30a4\u30f3\u30c9\u306e\u5473\u3092\u3054\u582a\u80fd\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\u30d3\u30ea\u30e4\u30cb\u3084\u30ab\u30ec\u30fc\u3001\u30ca\u30f3\u306a\u3069\u3092\u304a\u6c17\u306b\u5165\u308a\u3044\u305f\u3060\u304d\u611f\u8b1d\u3067\u3059\u3002\u81ea\u5bb6\u88fd\u30c9\u30ea\u30f3\u30af\u3082\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u3066\u4f55\u3088\u308a\u3067\u3059\u3002\u30cf\u30e9\u30fc\u30eb\u5bfe\u5fdc\u3084\u30d9\u30b8\u30bf\u30ea\u30a2\u30f3\u5bfe\u5fdc\u306a\u3069\u3001\u591a\u69d8\u306a\u304a\u5ba2\u69d8\u306b\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u308b\u74b0\u5883\u3065\u304f\u308a\u3092\u5927\u5207\u306b\u3057\u3066\u304a\u308a\u307e\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u2764\ufe0f\n",
+                    "translated": "\nThank you for your wonderful review! We are happy that you enjoyed the authentic flavors of East India. We appreciate that you enjoyed our biryani, curry, naan, and other dishes. We are also glad that you enjoyed our homemade drinks. We value creating an environment where a diverse range of customers can enjoy themselves, including providing halal and vegetarian options. We look forward to seeing you again \u2764\ufe0f\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxaFZtUTBibEZGV1hSdFYyTklNMmhVVlhORlFuYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOi1hVmQ0blFFWXRtV2NIM2hUVXNFQnc%7C%7C?hl=en",
+            "rating": 1.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-25T12:53:02Z",
+            "iso_date_of_last_edit": "2025-07-25T12:53:02Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A3NxvQlAL9PZlVl2RSzH8DDwF9vGRNMZ80FwA6AMJ2aO8Y_y2yN5lHb2IMN45y1eOKA2qAY0wvU4e8kuwSY7AYPQwN6FWqqmZVCKyM5rvMjh8PfEBqUEUQFZuhaL2BnGrTjj0BgtBB-mUJ"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxaFZtUTBibEZGV1hSdFYyTklNMmhVVlhORlFuYxAB",
+            "user": {
+                "name": "Benazir Hossain",
+                "link": "https://www.google.com/maps/contrib/110768516000604300471?hl=en",
+                "contributor_id": "110768516000604300471",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIVwL6tJbSQqj9pWH3rbswTauCWSh6ncL1AFvt0nqtQrIBlMw=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 19,
+                "photos": 67
+            },
+            "snippet": "One of the worst Indian restaurants I have ever tried. The food quality was terrible. We 9 peoples in total came today, ordered mutton biryani. Unfortunately the biryani was served was not edible. They basically served previously frozen biryani which was terrible in taste. After our order, they just reheated on the microwave and served. I will never recommend this restaurant to anyone. They are just doing scam with customer.",
+            "extracted_snippet": {
+                "original": "One of the worst Indian restaurants I have ever tried. The food quality was terrible. We 9 peoples in total came today, ordered mutton biryani. Unfortunately the biryani was served was not edible. They basically served previously frozen biryani which was terrible in taste. After our order, they just reheated on the microwave and served. I will never recommend this restaurant to anyone. They are just doing scam with customer."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 1,
+                "service": 1,
+                "atmosphere": 2,
+                "wait_time": "10-30 min"
+            },
+            "response": {
+                "date": "a month ago",
+                "iso_date": "2025-08-03T07:32:19Z",
+                "iso_date_of_last_edit": "2025-08-03T07:32:19Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3001\u8aa0\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\u30b1\u30fc\u30ad\u306e\u6301\u3061\u8fbc\u307f\u306b\u95a2\u3057\u3066\u306f\u3001\u3054\u81ea\u8eab\u3067\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u3001\u30b9\u30bf\u30c3\u30d5\u4e00\u540c\u3082\u305d\u306e\u5834\u306e\u548c\u3084\u304b\u306a\u96f0\u56f2\u6c17\u3092\u5b09\u3057\u304f\u611f\u3058\u3066\u304a\u308a\u307e\u3057\u305f\u3002\n\n\u5f53\u65e5\u306f\u30b9\u30bf\u30c3\u30d5\u3068\u306e\u4f1a\u8a71\u3082\u5f3e\u307f\u3001\u30c1\u30e3\u30a4\u306e\u30b5\u30fc\u30d3\u30b9\u306a\u3069\u3082\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3057\u305f\u3002\u30aa\u30fc\u30ca\u30fc\u4e0d\u5728\u4e2d\u306b\u3044\u305f\u3060\u3044\u305f\u3054\u4e0d\u6e80\u306b\u3064\u3044\u3066\u3082\u3001\u3067\u304d\u308b\u9650\u308a\u306e\u5bfe\u5fdc\u3092\u8fc5\u901f\u306b\u884c\u308f\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3057\u305f\u3002\u305d\u308c\u3060\u3051\u306b\u3001\u5f8c\u65e5\u3053\u306e\u3088\u3046\u306a\u5f62\u3067\u306e\u3054\u6295\u7a3f\u304c\u3042\u3063\u305f\u3053\u3068\u306f\u3001\u975e\u5e38\u306b\u6b8b\u5ff5\u306b\u611f\u3058\u3066\u304a\u308a\u307e\u3059\u3002\n\n\u5f53\u5e97\u3067\u306f\u3059\u3079\u3066\u306e\u304a\u5ba2\u69d8\u306b\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u308b\u3088\u3046\u3001\u65e5\u3005\u6700\u5927\u9650\u306e\u52aa\u529b\u3092\u91cd\u306d\u3066\u304a\u308a\u307e\u3059\u304c\u3001\u611f\u3058\u65b9\u306b\u306f\u500b\u4eba\u5dee\u304c\u3042\u308b\u3053\u3068\u3082\u8a8d\u8b58\u3057\u3066\u304a\u308a\u307e\u3059\u3002\u4eca\u5f8c\u3082\u3088\u308a\u826f\u3044\u30b5\u30fc\u30d3\u30b9\u3068\u54c1\u8cea\u5411\u4e0a\u306b\u52aa\u3081\u3066\u307e\u3044\u308a\u307e\u3059\u3002\u3054\u610f\u898b\u3092\u304a\u5bc4\u305b\u3044\u305f\u3060\u304d\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3001\u8aa0\u306b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\u30b1\u30fc\u30ad\u306e\u6301\u3061\u8fbc\u307f\u306b\u95a2\u3057\u3066\u306f\u3001\u3054\u81ea\u8eab\u3067\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u3001\u30b9\u30bf\u30c3\u30d5\u4e00\u540c\u3082\u305d\u306e\u5834\u306e\u548c\u3084\u304b\u306a\u96f0\u56f2\u6c17\u3092\u5b09\u3057\u304f\u611f\u3058\u3066\u304a\u308a\u307e\u3057\u305f\u3002\n\n\u5f53\u65e5\u306f\u30b9\u30bf\u30c3\u30d5\u3068\u306e\u4f1a\u8a71\u3082\u5f3e\u307f\u3001\u30c1\u30e3\u30a4\u306e\u30b5\u30fc\u30d3\u30b9\u306a\u3069\u3082\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3057\u305f\u3002\u30aa\u30fc\u30ca\u30fc\u4e0d\u5728\u4e2d\u306b\u3044\u305f\u3060\u3044\u305f\u3054\u4e0d\u6e80\u306b\u3064\u3044\u3066\u3082\u3001\u3067\u304d\u308b\u9650\u308a\u306e\u5bfe\u5fdc\u3092\u8fc5\u901f\u306b\u884c\u308f\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3057\u305f\u3002\u305d\u308c\u3060\u3051\u306b\u3001\u5f8c\u65e5\u3053\u306e\u3088\u3046\u306a\u5f62\u3067\u306e\u3054\u6295\u7a3f\u304c\u3042\u3063\u305f\u3053\u3068\u306f\u3001\u975e\u5e38\u306b\u6b8b\u5ff5\u306b\u611f\u3058\u3066\u304a\u308a\u307e\u3059\u3002\n\n\u5f53\u5e97\u3067\u306f\u3059\u3079\u3066\u306e\u304a\u5ba2\u69d8\u306b\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u308b\u3088\u3046\u3001\u65e5\u3005\u6700\u5927\u9650\u306e\u52aa\u529b\u3092\u91cd\u306d\u3066\u304a\u308a\u307e\u3059\u304c\u3001\u611f\u3058\u65b9\u306b\u306f\u500b\u4eba\u5dee\u304c\u3042\u308b\u3053\u3068\u3082\u8a8d\u8b58\u3057\u3066\u304a\u308a\u307e\u3059\u3002\u4eca\u5f8c\u3082\u3088\u308a\u826f\u3044\u30b5\u30fc\u30d3\u30b9\u3068\u54c1\u8cea\u5411\u4e0a\u306b\u52aa\u3081\u3066\u307e\u3044\u308a\u307e\u3059\u3002\u3054\u610f\u898b\u3092\u304a\u5bc4\u305b\u3044\u305f\u3060\u304d\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002",
+                    "translated": "Thank you very much for visiting us. It seems that you enjoyed your own cake, and all of our staff were pleased with the relaxed atmosphere.\n\nYou had a lively conversation with our staff that day, and we even served you chai. We addressed your complaints as quickly as possible while the owner was away. For that reason, we are extremely disappointed to see you post a review like this at a later date.\n\nWe strive to satisfy all our customers every day, but we also recognize that customer satisfaction varies. We will continue to strive to provide better service and improve our quality. Thank you for your feedback."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWalZ6ZG5la1pqVUROM1N5MUtWWGRRVjBZNWRHYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOlVjVzdnekZjUDN3Sy1KVXdQV0Y5dGc%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "a month ago",
+            "iso_date": "2025-07-15T07:56:07Z",
+            "iso_date_of_last_edit": "2025-07-15T07:56:07Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWalZ6ZG5la1pqVUROM1N5MUtWWGRRVjBZNWRHYxAB",
+            "user": {
+                "name": "Ibrahim Blushi",
+                "link": "https://www.google.com/maps/contrib/117855830820685006290?hl=en",
+                "contributor_id": "117855830820685006290",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXeF0EVEfh7nNhB_AvDCcpqovuPCrdT1pc0HHL_Z5Jx3HY09X8=s120-c-rp-mo-br100",
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "\u0637\u0627\u0628\u0646\u0627 \u063a\u062f\u0627\u0621 \u0648\u062c\u0627\u0628 \u0644\u0646\u0627 \u0627\u0643\u0644 \u0628\u0627\u064a\u062a . \u0645\u0633\u062e\u0646 \u0648\u0645\u0646 \u062f\u0627\u062e\u0644 \u0628\u0627\u0627\u0627\u0631\u062f",
+            "extracted_snippet": {
+                "original": "\u0637\u0627\u0628\u0646\u0627 \u063a\u062f\u0627\u0621 \u0648\u062c\u0627\u0628 \u0644\u0646\u0627 \u0627\u0643\u0644 \u0628\u0627\u064a\u062a . \u0645\u0633\u062e\u0646 \u0648\u0645\u0646 \u062f\u0627\u062e\u0644 \u0628\u0627\u0627\u0627\u0631\u062f",
+                "translated": "We had lunch and he brought us leftover food. It was hot but cold on the inside."
+            },
+            "details": {
+                "food": 1,
+                "service": 3
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2taWVQzSXlaVXg0TldKa2QzWTRjMHRRZGtGWlNIYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOkZYT3IyZUx4NWJkd3Y4c0tQdkFZSHc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-07-08T13:48:33Z",
+            "iso_date_of_last_edit": "2025-07-08T13:48:33Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taWVQzSXlaVXg0TldKa2QzWTRjMHRRZGtGWlNIYxAB",
+            "user": {
+                "name": "Paxton Sawh",
+                "link": "https://www.google.com/maps/contrib/107712658879812829328?hl=en",
+                "contributor_id": "107712658879812829328",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUArQ167Xjf-RcfCGnfKVhvoj-y6CPAm60c_HF_Vv4hLaRqLIY=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "Very great and delicious food for a great price! Staff were super nice and helped us whenever needed even without asking! If you\u2019re in Waseda, stop by this gem of a spot",
+            "extracted_snippet": {
+                "original": "Very great and delicious food for a great price! Staff were super nice and helped us whenever needed even without asking! If you\u2019re in Waseda, stop by this gem of a spot"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-07-13T09:56:37Z",
+                "iso_date_of_last_edit": "2025-07-13T09:56:37Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u65e9\u7a32\u7530\u306b\u6765\u308b\u969b\u306f\u3001\u307e\u305f\u305c\u3072\u30e0\u30ac\u30eb\u3078\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u65e9\u7a32\u7530\u306b\u6765\u308b\u969b\u306f\u3001\u307e\u305f\u305c\u3072\u30e0\u30ac\u30eb\u3078\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for visiting Mughal this time!\nIf you come to Waseda, please come to Mughal again.\nWe look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQ3NkttOE5REAE!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CIHM0ogKEICAgID76Km8NQ%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "Edited 2 months ago",
+            "iso_date": "2024-08-20T21:13:44Z",
+            "iso_date_of_last_edit": "2025-07-06T06:55:05Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AyQCvLLOaxFyvy-M53xj-beSyF4IsOtsqHLXLqQMmBxszieVuI6KaPHfC_oEooCYUWAY7PD1dE8M1hoslXDiqw7JP2kGR7NYloMzt_P2uiaDB8jDz4WqSibXu8k8C-Rwk_sQElAQ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CmMXIdTwGvyyjdfiPb_2owJ5QLog-2OYc62qXwrBEEDTjVHrl_UiHdFP837UNLzbSaawq49sFaGwBpxa9kDh4aQD3iChzbQVWodxP-znQSs1MMIlEHkHOzbQNTLt7-PqQbt2LE",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DmFfvkPyaNnuEQQ6v67FnUJ8xOEtl5lSe8StTwMtkTZFv3EHiF1FuOLehgJXZUnHvBjABzYLmBVuT54qBnKNe9Kc-pUnYzodmMxRg_dkUtRxkA6VMzIYZLoi7k4cbrE-njsdFB2A",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D5cORW3JxPIC6vBAnxAuSRrYHp1pT5GWole7KZ_jQWXqlAJoo-WlsfPXjxb5qIkdrZdkQZXoj1B9AWXdx8CalSDWCosUhyiemLbC48Q_1OSK-sNZm-9JuGEIPHf-7DuM8OkgI",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AhlEQqzHMTEfSMs6qMGHJ8qMgE3ELoKFzFbR12TFsQiTMFRQ_Ti2SUPV6Q4Sx3FSZyGQMru71wuY6Ki67SuU2a2C02EnNiNNpVtN5XFAdyub90HW9Xko14r3ebRRKDHPbd0YFDuQ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CGf8uzdk01xVmhgwvqayZ-E2-kEzOUQB8Wf5DS6WBGmHD4mtfZHIkq3Er-PT1gntiyggvXgqFwFHV-4mRLLViRWBfUCigRCMopxfOmudmAXlgF8ziOsoRGxE097WoHTROGcxAF",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BBbRBznE5xEMiQnIezcF6_LA19OZVjuglExQSUxONTvgZmb_nyGAI7qPJ2oMJFR18mRUsIQ319fg0OzcbhBICOBnOinCeAYXFRSOCs48-SI40uws5U2enVc8CK7aSjQ8I8XxIIwA",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DHahWFSrtLah2IlZ78uKHZLLpicNeSR2bo8uMHnwP1b2HHdBp77TQ3XbJuUstqBZTC7pfcH8gjwTyFxS3-gaVENzDmrAeqJ6Rq6GPUZe5RaoJ2d1Qg246iaTuEOC3z0k4eK6To",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CjDmbVvxii2w5s0ihtwyRsKLcT8B8x8K1DgcQuA5VTkRZa0M3iOnUfiHCiYSW8FzxAiRKPnjuraQtMaRtKD_sa_Eihb6qyCPPsPuZf5XmsGjoPzbCBsdVuPuORloAzjveICSpe-s7raD1C",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D-VyZqTu7FQM4y1ybHhWUmabze_mGaTO72o7kee0fm1_Ubzy9PoUdmMfskFfoZbRctY18shWv8qqxawcBH3oFDHH8lxL008qw0zRylJrZpq0hC68v3A5eEHpf2kYu3RvRIARvN1J5-Bbdd",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CqbSu6Vhhh-b58B18VjLmj0BqqI9h51ZuD461MWdpTggC1DFWoXJnvT1v5213iMfmC5Q6crRTQPudbNQgCk0SyqgGtNb-eRLbeSRNFKQ2uCUX9NY_oPqWDy8q1vgPGwa4yklMhTqrCoqI2",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CthZS7B8-fPUeUNZcICRN_nDrAlv8R1BqKS2QSM8sgP3j7O7DqmbeFjbEczC9FvMbdBCGGEI1tgkROck5Pv-coDpcjniz9vAG4chAeQndep5ozd3L2vitjAAD3tqi-tzIroxFepTDP2DzU",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DE4sWZoXuauBQjVUwVem5CF4Va2RP46mwNfaL0fWHdDOPlvXvoNPbtARBLVRgQb1M4TD9zkvSQRRm3XJIlT-9vHKQMv-YzlV09pCDPDzsQ2UAE0eQEB1skLPR8509LPV3pfARub96KwxpL",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90ALe4i-mf81Hl0-lz8oSBt1GGqZiklOKMfJea89JgY9lMAo5oCkddcbUQKU1ejUEJhdK1QtxUBTbRc0mvd-aW6LgA8lgj8IATz3hdTUJrI7w-XMM5gTcVqBPrcU7IWu3yscb0T7ymHtH9Qn",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DJRCeAalMfZSaozBGOaoQtJtD9xYPF6sTkcRawEcDe0pN9nBeMngA6E5GQXu4dvwOZgXY2wZgZfYU3vdiWnizRodd-uIMu5wIfLWuBhZT0bI_D91fmFDmKWCdZ8uCRnBMCD6UBwwZuJ8Kw",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DPaHKQNA9zduaDwwGHP2pNTJ93YgBIhFP9-peHkSNIiJbrari_5_Q-Ct594BrWHSsxkkUJoCafVecS2g6nwfF-1uIj7DxEmo8vTgM2I1soLPq8UHxgtqiSeHgJNQoqObulooqw_zF_cbk",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DMFq9sF_480T3F28K-YACUdoHO0teHS62II1i2zBF9jPy1rYZ9OlhvbDXeYXdKlF49OmAiGyJi5s8WGMoQT1ErqlVBMPj-vy4QIaPEWiN29PsxKTQ4qaBlzalUQKQHQUFNjL92enisX3k",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CVNSUAzXcsda0poPcBfO_A2NquVuPmJwh8u74ssRLTiPdg1rFBGEAKYqA5U1IRL2LgxBkpUapnYsEdDQjB6LjyItQqidGa2oMDcbZ06B7gkuSslwd99Ue3abVIt0I6MmnltGRV5JhQd9E8",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CyJBkg5sUYWStDiPmZgazgb7IyjtOyZCBPRmxxQYwhmdnCHh9imurP5tpik3Tp8dyp4yk5uMesZ9F7uZrL9kwuv4Kk6fX6am8g5VFNnjJC54ke8dJN-I887LJ8vacC5vy06HG86xfNuq6s"
+            ],
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUQ3NkttOE5REAE",
+            "user": {
+                "name": "tat_ mogmog",
+                "link": "https://www.google.com/maps/contrib/110318442415640069178?hl=en",
+                "contributor_id": "110318442415640069178",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVQuz9Srkz-01OnQszlF6Q8M-2yNvqfIWv0pvte2kyn7FSRD1pFjw=s120-c-rp-mo-ba7-br100",
+                "local_guide": true,
+                "reviews": 1044,
+                "photos": 7819
+            },
+            "snippet": "\u73fe\u5730\u3055\u306a\u304c\u3089\u306e\u6771\u30a4\u30f3\u30c9\u6599\u7406\u3092\u63d0\u4f9b\u3059\u308b\u304a\u5e97\u3067\u3001\u5b9f\u969b\u306b\u30a4\u30f3\u30c9\u3092\u8a2a\u308c\u305f\u3088\u3046\u306a\u6c17\u5206\u3092\u5473\u308f\u3048\u308b\u5e97\u5185\uff01\uff01\u304a\u5e97\u306e\u65b9\u3068\u304a\u8a71\u3055\u305b\u3066\u9802\u304d\u307e\u3057\u305f\u304c\u3001\u3068\u306b\u304b\u304f\u672c\u5834\u306e\u5473\u3092\u65e5\u672c\u4eba\u306b\u77e5\u3063\u3066\u3082\u3089\u3044\u305f\u3044\u3068\u3044\u3046\u601d\u3044\u304c\u5f37\u304f\u3001\u30e1\u30cb\u30e5\u30fc\u3084\u98df\u6750\u3078\u306e\u3053\u3060\u308f\u308a\u304c\u534a\u7aef\u306a\u304b\u3063\u305f\u3067\u3059\uff01\uff01\n\n\u30cb\u30cf\u30ea\u30bb\u30c3\u30c8\uff082000\u5186\uff09\u3092\u6ce8\u6587\ud83c\udf74\u30bb\u30c3\u30c8\u5185\u5bb9\u306f\u4ee5\u4e0b\u3001\n\u30fb\u30cb\u30cf\u30ea\n\u30fb\u30ed\u30c6\u30a3(or\u30ca\u30f3)\n\u30fb\u30b5\u30e9\u30c0\n\u30fb\u30de\u30f3\u30b4\u30fc\u30e9\u30c3\u30b7\u30fc(\u9078\u3079\u308b\u30c9\u30ea\u30f3\u30af)\n\n\u30cb\u30cf\u30ea\u3068\u306f\u9aa8\u4ed8\u304d\u30de\u30c8\u30f3\u306e\u8f9b\u53e3\u30b7\u30c1\u30e5\u30fc\u3067\u3001\u3058\u3063\u304f\u308a\u716e\u8fbc\u3093\u3060\u30de\u30c8\u30f3\u306f\u30b9\u30d7\u30fc\u30f3\u3067\u5207\u308c\u3066\u3057\u307e\u3046\u307b\u3069\u67d4\u3089\u304b\u304f\u307b\u308d\u307b\u308d\uff01\uff01\u305f\u3063\u3077\u308a\u306e\u6cb9\u306b\u30de\u30c8\u30f3\u306e\u65e8\u5473\u3068\u82b3\u9187\u306a\u30b9\u30d1\u30a4\u30b9\u304c\u6eb6\u3051\u8fbc\u307f\u3001\u4e00\u53e3\u98df\u3079\u308b\u3068\u83ef\u3084\u304b\u306a\u98a8\u5473\u304c\u969b\u7acb\u3061\u3081\u3061\u3083\u304f\u3061\u3083\u7f8e\u5473\u3057\u3044\ud83d\ude0a\u3082\u3061\u308d\u3093\u30ca\u30f3\u3082\u3044\u3044\u306e\u3067\u3059\u304c\u3001\u500b\u4eba\u7684\u306b\u5408\u308f\u305b\u308b\u306e\u306f\u672c\u5834\u3092\u611f\u3058\u308b\u30ed\u30c6\u30a3\u304c\u304a\u3059\u3059\u3081\uff01\uff01\u81ea\u5bb6\u88fd\u306e\u30de\u30f3\u30b4\u30fc\u30e9\u30c3\u30b7\u30fc\u3082\u30af\u30ea\u30fc\u30df\u30fc\u3067\u6fc3\u539a\u3001\u5e97\u5185\u306e\u96f0\u56f2\u6c17\u3082\u542b\u3081\u672c\u5f53\u306b\u30b3\u30eb\u30ab\u30bf\u306e\u3061\u3087\u3063\u3068\u3044\u3044\u30ec\u30b9\u30c8\u30e9\u30f3\u3092\u8a2a\u308c\u305f\u3088\u3046\u306a\u6c17\u5206\u3092\u5473\u308f\u3046\u3053\u3068\u306e\u3067\u304d\u308b\u304a\u5e97\u3067\u3057\u305f\uff01\uff01\n\n8\u6708\u672b\u306b\u306f\u99d2\u8fbc\u99c5\u8fd1\u304f\u306b2\u53f7\u5e97\u3082\u30aa\u30fc\u30d7\u30f3\u3059\u308b\u3068\u306e\u3053\u3068\u3067\u3001\u4eca\u5f8c\u3082\u6ce8\u76ee\u3067\u3059\u2728\n\n-------------------------------------\n2022\u5e7411\u6708\u306b\u30aa\u30fc\u30d7\u30f3\u3057\u305f\u3001\u73fe\u5730\u3055\u306a\u304c\u3089\u306e\u6771\u30a4\u30f3\u30c9\u6599\u7406\u3092\u63d0\u4f9b\u3059\u308b\u304a\u5e97\u3067\u3001\u73fe\u5730\u3092\u8a2a\u308c\u305f\u3088\u3046\u306a\u6c17\u5206\u3092\u5473\u308f\u3048\u308b\u5e97\u5185\uff01\uff01\u304a\u5e97\u306e\u65b9\u3068\u304a\u8a71\u3055\u305b\u3066\u9802\u304d\u307e\u3057\u305f\u304c\u3001\u3068\u306b\u304b\u304f\u672c\u5834\u306e\u5473\u3092\u65e5\u672c\u4eba\u306b\u77e5\u3063\u3066\u3082\u3089\u3044\u305f\u3044\u3068\u3044\u3046\u601d\u3044\u304c\u5f37\u304f\u3001\u30e1\u30cb\u30e5\u30fc\u3084\u98df\u6750\u3078\u306e\u3053\u3060\u308f\u308a\u304c\u534a\u7aef\u306a\u304b\u3063\u305f\u3067\u3059\uff01\uff01\n\n\u30b3\u30eb\u30ab\u30bf\u30d3\u30ea\u30e4\u30cb\u30bb\u30c3\u30c8\uff08\u30c1\u30ad\u30f32200\u5186\uff09\u3092\u6ce8\u6587\ud83c\udf74\u30bb\u30c3\u30c8\u5185\u5bb9\u306f\u4ee5\u4e0b\u3001\n\u30fb\u30b3\u30eb\u30ab\u30bf\u30d3\u30ea\u30e4\u30cb\n\u30fb\u30e9\u30a4\u30bf\uff08\u30e8\u30fc\u30b0\u30eb\u30c8\u30bd\u30fc\u30b9\uff09\n\u30fb\u7279\u88fd\u30b9\u30d1\u30a4\u30b9\u30ab\u30ec\u30fc\n\u30fb\u30b5\u30e9\u30c0\n\u30fb\u9078\u3079\u308b\u30c9\u30ea\u30f3\u30af\n\n\u30d3\u30ea\u30e4\u30cb\u3068\u306f\u30a4\u30f3\u30c9\u3084\u305d\u306e\u5468\u8fba\u56fd\u3067\u98df\u3079\u3089\u308c\u3066\u3044\u308b\u30b9\u30d1\u30a4\u30b9\u3068\u304a\u8089\u306e\u708a\u304d\u8fbc\u307f\u3054\u98ef\u3067\u3001\u30d1\u30a8\u30ea\u30a2\u3001\u677e\u8338\u3054\u98ef\u3068\u4e26\u3073\u4e16\u754c\u4e09\u5927\u708a\u304d\u8fbc\u307f\u3054\u98ef\u306e1\u3064\u3068\u79f0\u3055\u308c\u3066\u3044\u307e\u3059\uff01\uff01\n\n\u305d\u306e\u4e2d\u3067\u3082\u30b3\u30eb\u30ab\u30bf\u30d3\u30ea\u30e4\u30cb\u306f\u30b9\u30d1\u30a4\u30b9\u3068\u30d0\u30b9\u30de\u30c6\u30a3\u30e9\u30a4\u30b9\u306e\u9999\u308a\u3001\u98a8\u5473\u304c\u969b\u7acb\u3061\u3081\u3061\u3083\u304f\u3061\u3083\u7f8e\u5473\u3057\u3044\ud83d\ude0a\u3086\u3067\u5375\u3084\u30b8\u30e3\u30ac\u30a4\u30e2\u3001\u9aa8\u4ed8\u304d\u9d8f\u3082\u3082\u8089\u306a\u3069\u306e\u5177\u6750\u3082\u5927\u304d\u304f\u30a4\u30f3\u30d1\u30af\u30c8\u304c\u3042\u308a\u307e\u3059\uff01\uff01\u7279\u88fd\u30b9\u30d1\u30a4\u30b9\u30ab\u30ec\u30fc\u3084\u30e9\u30a4\u30bf\uff08\u30e8\u30fc\u30b0\u30eb\u30c8\u30bd\u30fc\u30b9\uff09\u3092\u5408\u308f\u305b\u3066\u98df\u3079\u308b\u306e\u3082\u30aa\u30b9\u30b9\u30e1\u3067\u3001\u3053\u306e\u30ab\u30ec\u30fc\u304c\u307e\u305f\u9999\u308a\u8c4a\u304b\u3067\u3088\u304b\u3063\u305f\uff01\uff01\u81ea\u5bb6\u88fd\u306e\u30e9\u30c3\u30b7\u30fc\u3082\u6fc3\u539a\u3067\u30af\u30ea\u30fc\u30df\u30fc\u3001\u30c7\u30b6\u30fc\u30c8\u306b\u3044\u305f\u3060\u3044\u305f\u30de\u30f3\u30b4\u30fc\u30d7\u30ea\u30f3\u3082\u30a2\u30fc\u30e2\u30f3\u30c9\u3068\u30b3\u30b3\u30ca\u30c3\u30c4\u304c\u524a\u3063\u3066\u3042\u308a\u3001\u5e97\u5185\u306e\u96f0\u56f2\u6c17\u3082\u542b\u3081\u672c\u5f53\u306b\u30b3\u30eb\u30ab\u30bf\u306e\u3061\u3087\u3063\u3068\u3044\u3044\u30ec\u30b9\u30c8\u30e9\u30f3\u3092\u8a2a\u308c\u305f\u3088\u3046\u306a\u6c17\u5206\u3092\u5473\u308f\u3046\u3053\u3068\u306e\u3067\u304d\u308b\u304a\u5e97\u3067\u3057\u305f\uff01\uff01",
+            "extracted_snippet": {
+                "original": "\u73fe\u5730\u3055\u306a\u304c\u3089\u306e\u6771\u30a4\u30f3\u30c9\u6599\u7406\u3092\u63d0\u4f9b\u3059\u308b\u304a\u5e97\u3067\u3001\u5b9f\u969b\u306b\u30a4\u30f3\u30c9\u3092\u8a2a\u308c\u305f\u3088\u3046\u306a\u6c17\u5206\u3092\u5473\u308f\u3048\u308b\u5e97\u5185\uff01\uff01\u304a\u5e97\u306e\u65b9\u3068\u304a\u8a71\u3055\u305b\u3066\u9802\u304d\u307e\u3057\u305f\u304c\u3001\u3068\u306b\u304b\u304f\u672c\u5834\u306e\u5473\u3092\u65e5\u672c\u4eba\u306b\u77e5\u3063\u3066\u3082\u3089\u3044\u305f\u3044\u3068\u3044\u3046\u601d\u3044\u304c\u5f37\u304f\u3001\u30e1\u30cb\u30e5\u30fc\u3084\u98df\u6750\u3078\u306e\u3053\u3060\u308f\u308a\u304c\u534a\u7aef\u306a\u304b\u3063\u305f\u3067\u3059\uff01\uff01\n\n\u30cb\u30cf\u30ea\u30bb\u30c3\u30c8\uff082000\u5186\uff09\u3092\u6ce8\u6587\ud83c\udf74\u30bb\u30c3\u30c8\u5185\u5bb9\u306f\u4ee5\u4e0b\u3001\n\u30fb\u30cb\u30cf\u30ea\n\u30fb\u30ed\u30c6\u30a3(or\u30ca\u30f3)\n\u30fb\u30b5\u30e9\u30c0\n\u30fb\u30de\u30f3\u30b4\u30fc\u30e9\u30c3\u30b7\u30fc(\u9078\u3079\u308b\u30c9\u30ea\u30f3\u30af)\n\n\u30cb\u30cf\u30ea\u3068\u306f\u9aa8\u4ed8\u304d\u30de\u30c8\u30f3\u306e\u8f9b\u53e3\u30b7\u30c1\u30e5\u30fc\u3067\u3001\u3058\u3063\u304f\u308a\u716e\u8fbc\u3093\u3060\u30de\u30c8\u30f3\u306f\u30b9\u30d7\u30fc\u30f3\u3067\u5207\u308c\u3066\u3057\u307e\u3046\u307b\u3069\u67d4\u3089\u304b\u304f\u307b\u308d\u307b\u308d\uff01\uff01\u305f\u3063\u3077\u308a\u306e\u6cb9\u306b\u30de\u30c8\u30f3\u306e\u65e8\u5473\u3068\u82b3\u9187\u306a\u30b9\u30d1\u30a4\u30b9\u304c\u6eb6\u3051\u8fbc\u307f\u3001\u4e00\u53e3\u98df\u3079\u308b\u3068\u83ef\u3084\u304b\u306a\u98a8\u5473\u304c\u969b\u7acb\u3061\u3081\u3061\u3083\u304f\u3061\u3083\u7f8e\u5473\u3057\u3044\ud83d\ude0a\u3082\u3061\u308d\u3093\u30ca\u30f3\u3082\u3044\u3044\u306e\u3067\u3059\u304c\u3001\u500b\u4eba\u7684\u306b\u5408\u308f\u305b\u308b\u306e\u306f\u672c\u5834\u3092\u611f\u3058\u308b\u30ed\u30c6\u30a3\u304c\u304a\u3059\u3059\u3081\uff01\uff01\u81ea\u5bb6\u88fd\u306e\u30de\u30f3\u30b4\u30fc\u30e9\u30c3\u30b7\u30fc\u3082\u30af\u30ea\u30fc\u30df\u30fc\u3067\u6fc3\u539a\u3001\u5e97\u5185\u306e\u96f0\u56f2\u6c17\u3082\u542b\u3081\u672c\u5f53\u306b\u30b3\u30eb\u30ab\u30bf\u306e\u3061\u3087\u3063\u3068\u3044\u3044\u30ec\u30b9\u30c8\u30e9\u30f3\u3092\u8a2a\u308c\u305f\u3088\u3046\u306a\u6c17\u5206\u3092\u5473\u308f\u3046\u3053\u3068\u306e\u3067\u304d\u308b\u304a\u5e97\u3067\u3057\u305f\uff01\uff01\n\n8\u6708\u672b\u306b\u306f\u99d2\u8fbc\u99c5\u8fd1\u304f\u306b2\u53f7\u5e97\u3082\u30aa\u30fc\u30d7\u30f3\u3059\u308b\u3068\u306e\u3053\u3068\u3067\u3001\u4eca\u5f8c\u3082\u6ce8\u76ee\u3067\u3059\u2728\n\n-------------------------------------\n2022\u5e7411\u6708\u306b\u30aa\u30fc\u30d7\u30f3\u3057\u305f\u3001\u73fe\u5730\u3055\u306a\u304c\u3089\u306e\u6771\u30a4\u30f3\u30c9\u6599\u7406\u3092\u63d0\u4f9b\u3059\u308b\u304a\u5e97\u3067\u3001\u73fe\u5730\u3092\u8a2a\u308c\u305f\u3088\u3046\u306a\u6c17\u5206\u3092\u5473\u308f\u3048\u308b\u5e97\u5185\uff01\uff01\u304a\u5e97\u306e\u65b9\u3068\u304a\u8a71\u3055\u305b\u3066\u9802\u304d\u307e\u3057\u305f\u304c\u3001\u3068\u306b\u304b\u304f\u672c\u5834\u306e\u5473\u3092\u65e5\u672c\u4eba\u306b\u77e5\u3063\u3066\u3082\u3089\u3044\u305f\u3044\u3068\u3044\u3046\u601d\u3044\u304c\u5f37\u304f\u3001\u30e1\u30cb\u30e5\u30fc\u3084\u98df\u6750\u3078\u306e\u3053\u3060\u308f\u308a\u304c\u534a\u7aef\u306a\u304b\u3063\u305f\u3067\u3059\uff01\uff01\n\n\u30b3\u30eb\u30ab\u30bf\u30d3\u30ea\u30e4\u30cb\u30bb\u30c3\u30c8\uff08\u30c1\u30ad\u30f32200\u5186\uff09\u3092\u6ce8\u6587\ud83c\udf74\u30bb\u30c3\u30c8\u5185\u5bb9\u306f\u4ee5\u4e0b\u3001\n\u30fb\u30b3\u30eb\u30ab\u30bf\u30d3\u30ea\u30e4\u30cb\n\u30fb\u30e9\u30a4\u30bf\uff08\u30e8\u30fc\u30b0\u30eb\u30c8\u30bd\u30fc\u30b9\uff09\n\u30fb\u7279\u88fd\u30b9\u30d1\u30a4\u30b9\u30ab\u30ec\u30fc\n\u30fb\u30b5\u30e9\u30c0\n\u30fb\u9078\u3079\u308b\u30c9\u30ea\u30f3\u30af\n\n\u30d3\u30ea\u30e4\u30cb\u3068\u306f\u30a4\u30f3\u30c9\u3084\u305d\u306e\u5468\u8fba\u56fd\u3067\u98df\u3079\u3089\u308c\u3066\u3044\u308b\u30b9\u30d1\u30a4\u30b9\u3068\u304a\u8089\u306e\u708a\u304d\u8fbc\u307f\u3054\u98ef\u3067\u3001\u30d1\u30a8\u30ea\u30a2\u3001\u677e\u8338\u3054\u98ef\u3068\u4e26\u3073\u4e16\u754c\u4e09\u5927\u708a\u304d\u8fbc\u307f\u3054\u98ef\u306e1\u3064\u3068\u79f0\u3055\u308c\u3066\u3044\u307e\u3059\uff01\uff01\n\n\u305d\u306e\u4e2d\u3067\u3082\u30b3\u30eb\u30ab\u30bf\u30d3\u30ea\u30e4\u30cb\u306f\u30b9\u30d1\u30a4\u30b9\u3068\u30d0\u30b9\u30de\u30c6\u30a3\u30e9\u30a4\u30b9\u306e\u9999\u308a\u3001\u98a8\u5473\u304c\u969b\u7acb\u3061\u3081\u3061\u3083\u304f\u3061\u3083\u7f8e\u5473\u3057\u3044\ud83d\ude0a\u3086\u3067\u5375\u3084\u30b8\u30e3\u30ac\u30a4\u30e2\u3001\u9aa8\u4ed8\u304d\u9d8f\u3082\u3082\u8089\u306a\u3069\u306e\u5177\u6750\u3082\u5927\u304d\u304f\u30a4\u30f3\u30d1\u30af\u30c8\u304c\u3042\u308a\u307e\u3059\uff01\uff01\u7279\u88fd\u30b9\u30d1\u30a4\u30b9\u30ab\u30ec\u30fc\u3084\u30e9\u30a4\u30bf\uff08\u30e8\u30fc\u30b0\u30eb\u30c8\u30bd\u30fc\u30b9\uff09\u3092\u5408\u308f\u305b\u3066\u98df\u3079\u308b\u306e\u3082\u30aa\u30b9\u30b9\u30e1\u3067\u3001\u3053\u306e\u30ab\u30ec\u30fc\u304c\u307e\u305f\u9999\u308a\u8c4a\u304b\u3067\u3088\u304b\u3063\u305f\uff01\uff01\u81ea\u5bb6\u88fd\u306e\u30e9\u30c3\u30b7\u30fc\u3082\u6fc3\u539a\u3067\u30af\u30ea\u30fc\u30df\u30fc\u3001\u30c7\u30b6\u30fc\u30c8\u306b\u3044\u305f\u3060\u3044\u305f\u30de\u30f3\u30b4\u30fc\u30d7\u30ea\u30f3\u3082\u30a2\u30fc\u30e2\u30f3\u30c9\u3068\u30b3\u30b3\u30ca\u30c3\u30c4\u304c\u524a\u3063\u3066\u3042\u308a\u3001\u5e97\u5185\u306e\u96f0\u56f2\u6c17\u3082\u542b\u3081\u672c\u5f53\u306b\u30b3\u30eb\u30ab\u30bf\u306e\u3061\u3087\u3063\u3068\u3044\u3044\u30ec\u30b9\u30c8\u30e9\u30f3\u3092\u8a2a\u308c\u305f\u3088\u3046\u306a\u6c17\u5206\u3092\u5473\u308f\u3046\u3053\u3068\u306e\u3067\u304d\u308b\u304a\u5e97\u3067\u3057\u305f\uff01\uff01",
+                "translated": "This restaurant serves East Indian cuisine just like the real thing, and the interior makes you feel like you're actually in India! I spoke to the staff, and they had a strong desire to let Japanese people know the authentic taste, and they were extremely particular about the menu and ingredients! I ordered the Nihari set (2,000 yen) \ud83c\udf74 The set includes the following: Nihari Roti (or naan) Salad Mango lassi (choice of drink) Nihari is a spicy stew of bone-in mutton, and the mutton is so soft and crumbly that it can be cut with a spoon! The umami of the mutton and the rich spices blend into the abundant oil, and the gorgeous flavor stands out with one bite, making it incredibly delicious \ud83d\ude0a Of course, naan is also good, but personally I recommend pairing it with roti, which gives you a sense of the real thing! The homemade mango lassi is creamy and rich, and the atmosphere of the restaurant made it feel like you were visiting a nice restaurant in Kolkata! ! The restaurant's atmosphere made it feel like you were in a nice restaurant in Kolkata! ! A second store will open near Komagome Station at the end of August, so keep an eye out for more\u2728\n\n-------------------------------------\nThis restaurant opened in November 2022 and serves East Indian cuisine that is just like the real thing, with an interior that makes you feel like you're visiting the country! ! I spoke to the staff, and they had a strong desire to let Japanese people know the authentic taste, and they were extremely particular about the menu and ingredients! ... Among them, the Kolkata Biryani is incredibly delicious with the aroma and flavor of spices and basmati rice \ud83d\ude0a The ingredients such as boiled eggs, potatoes, and chicken thighs on the bone also make a big impact!! I also recommend eating it with the special spice curry and raita (yogurt sauce), which was also fragrant and delicious!! The homemade lassi was rich and creamy, and the mango pudding we had for dessert had shaved almonds and coconut, and the atmosphere inside the restaurant made it feel like you were visiting a nice restaurant in Kolkata!!"
+            },
+            "details": {
+                "service": 4,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "\u30cb\u30cf\u30ea nihari, \u30c1\u30ad\u30f3\u30d3\u30ea\u30e4\u30cb",
+                "group_size": "1 person, 2 people, 3-4 people",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "a year ago",
+                "iso_date": "2024-08-24T06:45:41Z",
+                "iso_date_of_last_edit": "2024-08-24T06:45:41Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u3001\u30e0\u30ac\u30eb\u3092\u304a\u9078\u3073\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\n\u5f53\u5e97\u306e\u3053\u3060\u308f\u308a\u304c\u4f1d\u308f\u3063\u3066\u3068\u3066\u3082\u5b09\u3057\u3044\u3067\u3059\uff01\n\u304a\u7c73\u6599\u7406\u306b\u529b\u3092\u3044\u308c\u3066\u304a\u308a\u307e\u3059\u304c\u3001\u6b21\u56de\u306f\u30ab\u30ec\u30fc\u7cfb\u3082\u305c\u3072\u98df\u3079\u3066\u307f\u3066\u304f\u3060\u3055\u3044\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u3001\u30e0\u30ac\u30eb\u3092\u304a\u9078\u3073\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\n\u5f53\u5e97\u306e\u3053\u3060\u308f\u308a\u304c\u4f1d\u308f\u3063\u3066\u3068\u3066\u3082\u5b09\u3057\u3044\u3067\u3059\uff01\n\u304a\u7c73\u6599\u7406\u306b\u529b\u3092\u3044\u308c\u3066\u304a\u308a\u307e\u3059\u304c\u3001\u6b21\u56de\u306f\u30ab\u30ec\u30fc\u7cfb\u3082\u305c\u3072\u98df\u3079\u3066\u307f\u3066\u304f\u3060\u3055\u3044\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for choosing Mughal.\nWe are very happy to hear about our store's commitment!\nWe focus on rice dishes, but next time please try the curry dishes as well. We look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21sR2JtbG5ObVZJVGpremRWOU1hSFY2T1dveFQzYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOmlGbmlnNmVITjkzdV9MaHV6OWoxT3c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-29T10:06:23Z",
+            "iso_date_of_last_edit": "2025-06-29T10:06:23Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Abqm4uuqwWl_R7D3WcupchP68plf6bVv0_C34_t2FHBFZVwuboHkksOdVIMjuZy_f4i6Gze52h8pv4f4aBjzjmldR7_axtLlVYMazLlJp4bxowcJ3gl5afyev85LE5VfqSGnrubWj-Lwtu",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AqXPazuoITFpZYYo-EPjmrdWtODuLAUtfWzuRN1HVJB4TpiKHKDgftzjciex-1AWiFhiu5PHIpd6dHPiu2HyJ_DMWegOUpsK1G29fRnHh6lxoDB6iOhinflL8lCCj5RqRwIzqkf9Nm11mC",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C_8h1w6j3GUzWaYmvv_Z4z4Y6P5wTrgKywNKPfO_p-z-FAbDe7KJuPnHJZJJJe5qzk7JOEWxFBBRHNhuBJ84IY9L-H2y1bxt5eYvY_XIno4iOsLVpMRzEhU7Qs-IR_i8wMNi7IGVyB7sU",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cs5lhCTgFeiaWYpXMira9vfWhKaBWCGvVatcVnZjo-8mpgCpsJ0WeEcevEtRD7ogu8tBwltsvV4sxuS4DnJBTkZw-95CZ9Qh6nK3V72cigeKeOQ1pXkEeI6x_xW1LZdwbBz_PADhyZ2O6d",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A7VEvrHs2BAG_l0XG9SOkUPP0LJKhaMDP1teAQYleVcZC8sj21QQdZabiEWW7QcHra6JOWjX8NI-0UiLc2wZT0g-jdkhPWaUj5C2zEU1jBBuIZE6E72xzABdVxz4biUjUrgrTiEP4G28Lt",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ai26CVt9VDxFU1caOWu6SF1CULYLyaacZ3di5GAV_MJV31pHvg6HOP8aQ-rehD4z21-1JwnYEq9ktnfiLX_4nCgjV0w7fm3M-rvK7zWy8sM2ggPmQAcSDJh97m24IDOr2WRB2WUANo4nWP",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DfRWx2i3-Mbp1Bf_RSbYqX_KvxkrueypOHT2WnNSKOLosMctlRmozbtW8ovYA7MWYPx_iYctoSc1zRc8AZHzfAQ-mJtS_tG_egH9-rHDsJnjZyABjAPP_gDaBtnDyjsbVOEKJlfWD1dL84",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D5PNL3lhPUulVjNqWHskdmewy3REvtRUGLBIVDlm6FZVvQqitXoXPss0ob7ExDUMvpRQLrBShlalidT5zWmQ0klzzOwO4J91e8XuSB0v9qpew6o60Zs8RRtgikLnyT1kaFGPB_DgPg_rfx",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AwEwOvuKLzeKArlwmiBHxa7lhkhofhadHi4kr_oHmvTaeD8BebiLBUA521nry_vSlMuOYq1NqobOncoMSPQgRmZiUk_06I1rUCdC5DkrVfqyxch7raqIGvTzlNYf1o3sUxvdwgsysRsEl6",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C7mYI6pF3eAbPUqsIOGiofnMYkzYx8ic1KScUp1H8uJgostRgECKIGgP5K6pzVYBjCgf5uOqr_WyqQmMvpw0S_G1CHX0oP-KgnzdOMKPxp9d5QDjSM4a8tOLcOyk7AmaVYIN9RzPwOxSk9"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sR2JtbG5ObVZJVGpremRWOU1hSFY2T1dveFQzYxAB",
+            "user": {
+                "name": "\u3082\u3082\u30cf\u30d4",
+                "link": "https://www.google.com/maps/contrib/110199911223580330366?hl=en",
+                "contributor_id": "110199911223580330366",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWKBQYO1ctF2ww1GqnRVpDbLq9awtsL8m9RYyHLNoJyXIzrqE2nnw=s120-c-rp-mo-ba6-br100",
+                "local_guide": true,
+                "reviews": 293,
+                "photos": 2748
+            },
+            "snippet": "\u30b3\u30eb\u30ab\u30bf\u51fa\u8eab\u306e\u5e97\u4e3b\u304c\u8d08\u308b\u201c\u30ea\u30a2\u30eb\u6771\u30a4\u30f3\u30c9\u201d\u3001\u300c\u30e0\u30ac\u30eb\u300d\u3067\u30b0\u30eb\u30e1\u4f53\u9a13\u3002\n\u90fd\u96fb\u65e9\u7a32\u7530\u99c5\u3059\u3050\u3001\u6249\u3092\u958b\u3051\u308b\u3068\u5e83\u304c\u308b\u306e\u306f\u2026\u30a4\u30f3\u30c9\u305d\u306e\u3082\u306e\u3002\n\u672c\u5834\u306e\u30d3\u30ea\u30e4\u30cb\u3084\u30c1\u30ad\u30f3\u30de\u30f3\u30c7\u30a3\u3001\u30b9\u30d1\u30a4\u30b9\u9999\u308b\u30b7\u30c1\u30e5\u30fc\u7cfb\u30ab\u30ec\u30fc\u307e\u3067\u3001\u65e5\u672c\u3067\u306f\u306a\u304b\u306a\u304b\u51fa\u4f1a\u3048\u306a\u3044\u6771\u30a4\u30f3\u30c9\u6599\u7406\u306e\u5b9d\u5eab\u304c\u3053\u3053\u306b\u3002\n\u304a\u5b50\u69d8\u9023\u308c\u3082OK\u306e\u30ab\u30b8\u30e5\u30a2\u30eb\u306a\u7a7a\u9593\u3067\u3001\u7570\u56fd\u6c17\u5206\u306e\u30e9\u30f3\u30c1\uff06\u30c7\u30a3\u30ca\u30fc\u3092\u6e80\u55ab\u3057\u3066\u304d\u307e\u3057\u305f\u3002\n\u30e9\u30c3\u30b7\u30fc\uff06\u30b9\u30d1\u30a4\u30b9\u30c1\u30e3\u30a4\u3082\u30de\u30b9\u30c8\u3002\n\u7518\u304f\u3066\u723d\u3084\u304b\u306a\u300c\u30ed\u30fc\u30ba\u30e9\u30c3\u30b7\u30fc\u300d\u3001\u751f\u59dc\u304c\u52b9\u3044\u305f\u300c\u30bd\u30eb\u30c6\u30a3\u30e9\u30c3\u30b7\u30fc\u300d\u3001\u725b\u4e73\u3092\u4f7f\u308f\u306a\u3044\u4f1d\u7d71\u88fd\u6cd5\u306e\u300c\u30b9\u30d1\u30a4\u30b9\u30c1\u30e3\u30a4\u300d\u2026\u3069\u308c\u3082\u81ea\u5bb6\u88fd\u3067\u3001\u98df\u5f8c\u306e\u6e80\u8db3\u611f\u304c\u30b0\u30c3\u3068\u30a2\u30c3\u30d7\u3002\n\u5973\u5b50\u4f1a\u30fb\u30d5\u30a1\u30df\u30ea\u30fc\u30fb\u7570\u56fd\u30b0\u30eb\u30e1\u597d\u304d\u306e\u30c7\u30fc\u30c8\u306b\u3082\u30d4\u30c3\u30bf\u30ea\u3002\n\u300c\u9752\u7a7a\u306e\u30da\u30a4\u30f3\u30c8\u300d\u304c\u5e83\u304c\u308b\u5e97\u5185\u3067\u3001\u307e\u308b\u3067\u30a4\u30f3\u30c9\u3092\u65c5\u3057\u3066\u3044\u308b\u6c17\u5206\u3002\n\u6771\u4eac\u3067\u672c\u5834\u306e\u30d3\u30ea\u30e4\u30cb\u3092\u98df\u3079\u305f\u3044\u306a\u3089\u3001\u307e\u305a\u306f\u3053\u3053\u3002\n\u30e0\u30ac\u30eb\u5e1d\u56fd\u306e\u30b9\u30d1\u30a4\u30b9\u306e\u8a18\u61b6\u3092\u4f53\u611f\u3002",
+            "extracted_snippet": {
+                "original": "\u30b3\u30eb\u30ab\u30bf\u51fa\u8eab\u306e\u5e97\u4e3b\u304c\u8d08\u308b\u201c\u30ea\u30a2\u30eb\u6771\u30a4\u30f3\u30c9\u201d\u3001\u300c\u30e0\u30ac\u30eb\u300d\u3067\u30b0\u30eb\u30e1\u4f53\u9a13\u3002\n\u90fd\u96fb\u65e9\u7a32\u7530\u99c5\u3059\u3050\u3001\u6249\u3092\u958b\u3051\u308b\u3068\u5e83\u304c\u308b\u306e\u306f\u2026\u30a4\u30f3\u30c9\u305d\u306e\u3082\u306e\u3002\n\u672c\u5834\u306e\u30d3\u30ea\u30e4\u30cb\u3084\u30c1\u30ad\u30f3\u30de\u30f3\u30c7\u30a3\u3001\u30b9\u30d1\u30a4\u30b9\u9999\u308b\u30b7\u30c1\u30e5\u30fc\u7cfb\u30ab\u30ec\u30fc\u307e\u3067\u3001\u65e5\u672c\u3067\u306f\u306a\u304b\u306a\u304b\u51fa\u4f1a\u3048\u306a\u3044\u6771\u30a4\u30f3\u30c9\u6599\u7406\u306e\u5b9d\u5eab\u304c\u3053\u3053\u306b\u3002\n\u304a\u5b50\u69d8\u9023\u308c\u3082OK\u306e\u30ab\u30b8\u30e5\u30a2\u30eb\u306a\u7a7a\u9593\u3067\u3001\u7570\u56fd\u6c17\u5206\u306e\u30e9\u30f3\u30c1\uff06\u30c7\u30a3\u30ca\u30fc\u3092\u6e80\u55ab\u3057\u3066\u304d\u307e\u3057\u305f\u3002\n\u30e9\u30c3\u30b7\u30fc\uff06\u30b9\u30d1\u30a4\u30b9\u30c1\u30e3\u30a4\u3082\u30de\u30b9\u30c8\u3002\n\u7518\u304f\u3066\u723d\u3084\u304b\u306a\u300c\u30ed\u30fc\u30ba\u30e9\u30c3\u30b7\u30fc\u300d\u3001\u751f\u59dc\u304c\u52b9\u3044\u305f\u300c\u30bd\u30eb\u30c6\u30a3\u30e9\u30c3\u30b7\u30fc\u300d\u3001\u725b\u4e73\u3092\u4f7f\u308f\u306a\u3044\u4f1d\u7d71\u88fd\u6cd5\u306e\u300c\u30b9\u30d1\u30a4\u30b9\u30c1\u30e3\u30a4\u300d\u2026\u3069\u308c\u3082\u81ea\u5bb6\u88fd\u3067\u3001\u98df\u5f8c\u306e\u6e80\u8db3\u611f\u304c\u30b0\u30c3\u3068\u30a2\u30c3\u30d7\u3002\n\u5973\u5b50\u4f1a\u30fb\u30d5\u30a1\u30df\u30ea\u30fc\u30fb\u7570\u56fd\u30b0\u30eb\u30e1\u597d\u304d\u306e\u30c7\u30fc\u30c8\u306b\u3082\u30d4\u30c3\u30bf\u30ea\u3002\n\u300c\u9752\u7a7a\u306e\u30da\u30a4\u30f3\u30c8\u300d\u304c\u5e83\u304c\u308b\u5e97\u5185\u3067\u3001\u307e\u308b\u3067\u30a4\u30f3\u30c9\u3092\u65c5\u3057\u3066\u3044\u308b\u6c17\u5206\u3002\n\u6771\u4eac\u3067\u672c\u5834\u306e\u30d3\u30ea\u30e4\u30cb\u3092\u98df\u3079\u305f\u3044\u306a\u3089\u3001\u307e\u305a\u306f\u3053\u3053\u3002\n\u30e0\u30ac\u30eb\u5e1d\u56fd\u306e\u30b9\u30d1\u30a4\u30b9\u306e\u8a18\u61b6\u3092\u4f53\u611f\u3002",
+                "translated": "A gourmet experience at \"Mughal,\" a \"real East Indian\" restaurant brought to you by a restaurant owner from Kolkata.\nLocated right next to Toden Waseda Station, when you open the door, you'll see... India itself.\nFrom authentic biryani and chicken mandi to spicy stew-style curries, this is a treasure trove of East Indian cuisine that is hard to find in Japan.\nIn a casual space where children are welcome, we enjoyed lunch and dinner with an exotic feel.\nLassi and spiced chai are also a must.\nThe sweet and refreshing \"rose lassi,\" the \"salty lassi\" with ginger, and the \"spiced chai\" made using traditional methods without milk... all are homemade, and will leave you feeling very satisfied after your meal.\nPerfect for a girls' night out, family, or a date with exotic food lovers.\nWith the \"blue sky paint\" spreading out around the restaurant, you'll feel like you're traveling to India.\nIf you want to eat authentic biryani in Tokyo, this is the place to start.\nExperience the memory of spices from the Mughal Empire."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 4,
+                "atmosphere": 5,
+                "noise_level": "Moderate noise",
+                "group_size": "2 people, 3-4 people"
+            },
+            "response": {
+                "date": "Edited a month ago",
+                "iso_date": "2025-07-13T09:53:48Z",
+                "iso_date_of_last_edit": "2025-07-16T08:00:02Z",
+                "snippet": "\n\u7d20\u6575\u306a\u3054\u6295\u7a3f\u3092\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u6771\u30a4\u30f3\u30c9\u6599\u7406\u306e\u9b45\u529b\u3084\u96f0\u56f2\u6c17\u3092\u3053\u308c\u307b\u3069\u8a73\u3057\u304f\u4f1d\u3048\u3066\u3044\u305f\u3060\u304d\u3001\u3068\u3066\u3082\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\u30b3\u30eb\u30ab\u30bf\u306e\u5473\u3068\u4f1d\u7d71\u3092\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u4f55\u3088\u308a\u3067\u3059\u3002\u7279\u306b\u81ea\u5bb6\u88fd\u306e\u30e9\u30c3\u30b7\u30fc\u3084\u30b9\u30d1\u30a4\u30b9\u30c1\u30e3\u30a4\u3082\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u5149\u6804\u3067\u3059\u3002\u307e\u305f\u5973\u5b50\u4f1a\u3084\u30d5\u30a1\u30df\u30ea\u30fc\u3001\u30c7\u30fc\u30c8\u306a\u3069\u69d8\u3005\u306a\u30b7\u30fc\u30f3\u3067\u3054\u5229\u7528\u3044\u305f\u3060\u3051\u308b\u7a7a\u9593\u3065\u304f\u308a\u3092\u5fc3\u304c\u3051\u3066\u304a\u308a\u307e\u3059\u306e\u3067\u3001\u305d\u306e\u3088\u3046\u306b\u611f\u3058\u3066\u3044\u305f\u3060\u3051\u3066\u5b09\u3057\u3044\u3067\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002\n",
+                "extracted_snippet": {
+                    "original": "\n\u7d20\u6575\u306a\u3054\u6295\u7a3f\u3092\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u6771\u30a4\u30f3\u30c9\u6599\u7406\u306e\u9b45\u529b\u3084\u96f0\u56f2\u6c17\u3092\u3053\u308c\u307b\u3069\u8a73\u3057\u304f\u4f1d\u3048\u3066\u3044\u305f\u3060\u304d\u3001\u3068\u3066\u3082\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\u30b3\u30eb\u30ab\u30bf\u306e\u5473\u3068\u4f1d\u7d71\u3092\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u4f55\u3088\u308a\u3067\u3059\u3002\u7279\u306b\u81ea\u5bb6\u88fd\u306e\u30e9\u30c3\u30b7\u30fc\u3084\u30b9\u30d1\u30a4\u30b9\u30c1\u30e3\u30a4\u3082\u3054\u6e80\u8db3\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u5149\u6804\u3067\u3059\u3002\u307e\u305f\u5973\u5b50\u4f1a\u3084\u30d5\u30a1\u30df\u30ea\u30fc\u3001\u30c7\u30fc\u30c8\u306a\u3069\u69d8\u3005\u306a\u30b7\u30fc\u30f3\u3067\u3054\u5229\u7528\u3044\u305f\u3060\u3051\u308b\u7a7a\u9593\u3065\u304f\u308a\u3092\u5fc3\u304c\u3051\u3066\u304a\u308a\u307e\u3059\u306e\u3067\u3001\u305d\u306e\u3088\u3046\u306b\u611f\u3058\u3066\u3044\u305f\u3060\u3051\u3066\u5b09\u3057\u3044\u3067\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002\n",
+                    "translated": "\nThank you for your wonderful post! We are very happy that you have described in such detail the charm and atmosphere of East Indian cuisine. We are glad that you enjoyed the flavors and traditions of Kolkata. We are especially honored that you were pleased with our homemade lassi and spiced chai. We also strive to create a space that can be used for a variety of occasions, such as girls' nights, families, and dates, so we are pleased that you felt that way. We look forward to seeing you again.\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pJMlluTTNSVVZ0ZW5WbVFtRkhPR3RJTkZkUVJXYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOjI2YnM3RUVtenVmQmFHOGtINFdQRWc%7C%7C?hl=en",
+            "rating": 3.0,
+            "date": "Edited 2 months ago",
+            "iso_date": "2025-06-26T07:54:26Z",
+            "iso_date_of_last_edit": "2025-06-27T16:30:04Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D-h7z97UItvtFZCjdGI84jFTq6cvhK4WCUY-QAZ8hpMH4AyQIPtMmq0d_VlLVXSMBxDH6FVRqaxDNEdV2YX53pnNb0JWG37BiQGjBpq--JOyFyHslT8H0wrkzByCVlcGQ8-IItmxuPwBBa",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cl63Ov4PykA6z1w3-jX6TP05QkiRbjEBsDG1yYjDXdITJdDM_4zkXJyJOIESq2TbC2E4s2-V7ZbvI_Wt0S3-jzKHanPuSncaSRTki1ga2SjrA-ixYvOq1zJ7QQ3mLfVFZSjHqIUEFuXEya",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DM2D86lu6uym4GKARxm93UaxLK7qmuzGa-Bapzb6t-BJIEK7rPtVco1xjmPs1a052a1bk1OMG9_VFCXIKzDXCma4yq5xv8GT0cZdccbzDxwKkxe6Ej3GmeLBoTaXiGhTIwG0YQLtm3vJI",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B3Lamnq5NBYFi-cj06wzQLbJXvngBJouGb5x8-hpemBk8TVlResSUad23fGGDfH_M7VWtxgb4pJiE0elMhx9TBLvo06FnN9HR7Z7l7id9amMICGxZt-vp64y9uVTSPLPN53OgdFHqgD-FW",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BBdfTYXIsreetykWc1T6iw8FO-dxvc1BTp3iJKTFRPe-DShJgtANG1BwKN865JDUYm_922Ifg1cIVgzwzyFU-XkyFsZXd8dCQKqJ7xhNn1MOp9kVFN9yjhjjD2SJgfSZeB2kTXnccBL_FR"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pJMlluTTNSVVZ0ZW5WbVFtRkhPR3RJTkZkUVJXYxAB",
+            "user": {
+                "name": "\u5c51\u7537\u658e\u6728",
+                "link": "https://www.google.com/maps/contrib/115263316771996209386?hl=en",
+                "contributor_id": "115263316771996209386",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUwPMp0UlR20EinawgmNDUgXV2s56dhe1Vev9NtVBQeWOsQYAMlZw=s120-c-rp-mo-ba5-br100",
+                "local_guide": true,
+                "reviews": 138,
+                "photos": 350
+            },
+            "snippet": "\u7f8e\u5473\u3057\u305d\u3046\u306a\u770b\u677f\u304c\u3042\u3063\u305f\u306e\u3067\u6765\u5e97\u3057\u307e\u3057\u305f\u3002\n\u304a\u5e97\u306f\uff12\u968e\u306b\u3042\u308a\u3001\u5916\u306b\u770b\u677f\u304c\u3042\u308a\u307e\u3059\u3002\n\n20:00\uff5e\u6765\u5e97\u3057\u307e\u3057\u305f\u3002\n\u5e97\u8217\u306f\u5916\u4eba\u306e\u65b9\u304c\u591a\u304b\u3063\u305f\u3067\u3059\u3002\n\n\u30ab\u30ec\u30fc2\u7a2e\u3000\u30b5\u30e9\u30c0\u4ed8\u304d\n\u6ce8\u6587\u3057\u307e\u3057\u305f\u3002\n\n\u30e9\u30e0\u8089\u304c\u3068\u3066\u3082\u67d4\u3089\u304b\u304f\u3066\u7f8e\u5473\u3057\u3044\u3002\n\u30ca\u30f3\u3082\u5927\u304d\u304f\u3066\u30dc\u30ea\u30e5\u30fc\u30e0\u3042\u3063\u3066\u826f\u304b\u3063\u305f\u3067\u3059\uff01\n\n\u5c11\u3057\u8f9b\u3044\u304b\u3082\u3060\u3051\u3069\u3001\u500b\u4eba\u7684\u306b\u306f\u597d\u304d\u306a\n\u5473\u4ed8\u3051\u3067\u3057\u305f\u3002\n\n\u672c\u683c\u7684\u306a\u30b9\u30d1\u30a4\u30b9\u30ab\u30ec\u30fc\u3092\u6c42\u3081\u3066\u3044\u308b\u4eba\u306f\n\u662f\u975e\u4e00\u5ea6\u8db3\u3092\u904b\u3093\u3067\u307f\u3066\u4e0b\u3055\u3044\u3002\n\n\u5e97\u4e3b\u3055\u3093\u3082\u512a\u3057\u304f\u3066\u8a71\u3057\u3084\u3059\u3044\u3067\u3059\u3088\u3002",
+            "extracted_snippet": {
+                "original": "\u7f8e\u5473\u3057\u305d\u3046\u306a\u770b\u677f\u304c\u3042\u3063\u305f\u306e\u3067\u6765\u5e97\u3057\u307e\u3057\u305f\u3002\n\u304a\u5e97\u306f\uff12\u968e\u306b\u3042\u308a\u3001\u5916\u306b\u770b\u677f\u304c\u3042\u308a\u307e\u3059\u3002\n\n20:00\uff5e\u6765\u5e97\u3057\u307e\u3057\u305f\u3002\n\u5e97\u8217\u306f\u5916\u4eba\u306e\u65b9\u304c\u591a\u304b\u3063\u305f\u3067\u3059\u3002\n\n\u30ab\u30ec\u30fc2\u7a2e\u3000\u30b5\u30e9\u30c0\u4ed8\u304d\n\u6ce8\u6587\u3057\u307e\u3057\u305f\u3002\n\n\u30e9\u30e0\u8089\u304c\u3068\u3066\u3082\u67d4\u3089\u304b\u304f\u3066\u7f8e\u5473\u3057\u3044\u3002\n\u30ca\u30f3\u3082\u5927\u304d\u304f\u3066\u30dc\u30ea\u30e5\u30fc\u30e0\u3042\u3063\u3066\u826f\u304b\u3063\u305f\u3067\u3059\uff01\n\n\u5c11\u3057\u8f9b\u3044\u304b\u3082\u3060\u3051\u3069\u3001\u500b\u4eba\u7684\u306b\u306f\u597d\u304d\u306a\n\u5473\u4ed8\u3051\u3067\u3057\u305f\u3002\n\n\u672c\u683c\u7684\u306a\u30b9\u30d1\u30a4\u30b9\u30ab\u30ec\u30fc\u3092\u6c42\u3081\u3066\u3044\u308b\u4eba\u306f\n\u662f\u975e\u4e00\u5ea6\u8db3\u3092\u904b\u3093\u3067\u307f\u3066\u4e0b\u3055\u3044\u3002\n\n\u5e97\u4e3b\u3055\u3093\u3082\u512a\u3057\u304f\u3066\u8a71\u3057\u3084\u3059\u3044\u3067\u3059\u3088\u3002",
+                "translated": "I came here because I saw a sign that looked delicious.\nThe restaurant is on the second floor and there is a sign outside.\n\nI came here after 8pm.\nThere were a lot of foreigners in the store.\n\nI ordered two types of curry with salad.\n\nThe lamb was very tender and delicious.\nThe naan was also big and filling, which was great!\n\nIt might be a little spicy, but I personally like the flavor.\n\nIf you're looking for authentic spicy curry, you should definitely visit.\n\nThe owner is kind and easy to talk to."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 3,
+                "service": 3,
+                "atmosphere": 3,
+                "reservation": "Reservations not required",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "Edited a month ago",
+                "iso_date": "2025-07-13T09:54:09Z",
+                "iso_date_of_last_edit": "2025-07-16T08:00:00Z",
+                "snippet": "\n\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3001\u307e\u305f\u6e29\u304b\u3044\u304a\u8a00\u8449\u3092\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u770b\u677f\u3092\u898b\u3066\u6765\u3066\u3044\u305f\u3060\u3051\u305f\u3053\u3068\u3001\u305d\u3057\u3066\u30e9\u30e0\u8089\u306e\u67d4\u3089\u304b\u3055\u3084\u30ca\u30f3\u306e\u30dc\u30ea\u30e5\u30fc\u30e0\u611f\u3092\u6c17\u306b\u5165\u3063\u3066\u3044\u305f\u3060\u3051\u3066\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\u30b9\u30d1\u30a4\u30b9\u306e\u52b9\u3044\u305f\u672c\u683c\u7684\u306a\u30ab\u30ec\u30fc\u3092\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u4f55\u3088\u308a\u3067\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002\n",
+                "extracted_snippet": {
+                    "original": "\n\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3001\u307e\u305f\u6e29\u304b\u3044\u304a\u8a00\u8449\u3092\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u770b\u677f\u3092\u898b\u3066\u6765\u3066\u3044\u305f\u3060\u3051\u305f\u3053\u3068\u3001\u305d\u3057\u3066\u30e9\u30e0\u8089\u306e\u67d4\u3089\u304b\u3055\u3084\u30ca\u30f3\u306e\u30dc\u30ea\u30e5\u30fc\u30e0\u611f\u3092\u6c17\u306b\u5165\u3063\u3066\u3044\u305f\u3060\u3051\u3066\u5b09\u3057\u304f\u601d\u3044\u307e\u3059\u3002\u30b9\u30d1\u30a4\u30b9\u306e\u52b9\u3044\u305f\u672c\u683c\u7684\u306a\u30ab\u30ec\u30fc\u3092\u304a\u697d\u3057\u307f\u3044\u305f\u3060\u3051\u305f\u3088\u3046\u3067\u4f55\u3088\u308a\u3067\u3059\u3002\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002\n",
+                    "translated": "\nThank you for visiting us and for your kind words. We're glad that you saw our sign and that you liked the tenderness of our lamb and the volume of our naan. We're also glad that you enjoyed our authentic, spicy curry. We look forward to seeing you again.\n"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWRWVWZHVVVGcwV25FeVpYSnlNM1ZHTlRsdE1HYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOjVEeVduUTg0WnEyZXJyM3VGNTltMGc%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-24T11:12:05Z",
+            "iso_date_of_last_edit": "2025-06-24T11:12:05Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bb-9NzTm36S0c8gsqA9H5NkcNTfWO52STS5DrJvVWueZ9kzyaRrpmReER1IIFp1B-tftkfeQWWvkn9vQGE_otW6wg_dAlJP9Zch7q61ylM7fPkaaHfuUntfrhTkW3Vbz_z1MugZHpzyinW"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWRWVWZHVVVGcwV25FeVpYSnlNM1ZHTlRsdE1HYxAB",
+            "user": {
+                "name": "T S (\u304c\u3089\u3063\u3071\u3061)",
+                "link": "https://www.google.com/maps/contrib/108608268273870225867?hl=en",
+                "contributor_id": "108608268273870225867",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVuIo6qVwxq-719UC_5O7M_OshjW720MfxF5qpjRYLJjTqd4TFK=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "snippet": "\u30a2\u30d5\u30ac\u30cb\u30d7\u30e9\u30aa\u3092\u521d\u3081\u3066\u98df\u3079\u307e\u3057\u305f\u3002\u7f8e\u5473\u3044\uff01\u9aa8\u4ed8\u304d\u8089\u306f\u8eab\u96e2\u308c\u304c\u826f\u304f\u3001\u5473\u306f\u6fc3\u3059\u304e\u305a\u3067\u3061\u3087\u3046\u3069\u3044\u3044\u611f\u3058\u3002\u307e\u305f\u4f3a\u3044\u307e\u3059\u3002",
+            "extracted_snippet": {
+                "original": "\u30a2\u30d5\u30ac\u30cb\u30d7\u30e9\u30aa\u3092\u521d\u3081\u3066\u98df\u3079\u307e\u3057\u305f\u3002\u7f8e\u5473\u3044\uff01\u9aa8\u4ed8\u304d\u8089\u306f\u8eab\u96e2\u308c\u304c\u826f\u304f\u3001\u5473\u306f\u6fc3\u3059\u304e\u305a\u3067\u3061\u3087\u3046\u3069\u3044\u3044\u611f\u3058\u3002\u307e\u305f\u4f3a\u3044\u307e\u3059\u3002",
+                "translated": "This was my first time eating Afghani Pulao. It was delicious! The meat on the bone was easy to separate, and the flavor was just right, not too strong. I'll come back again."
+            },
+            "details": {
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 4,
+                "atmosphere": 4,
+                "group_size": "1 person, 2 people, 3-4 people",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-07-13T09:56:15Z",
+                "iso_date_of_last_edit": "2025-07-13T09:56:15Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for visiting Mughal!\nWe look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tOSlEwcGlWek5sTkdrNFNuQllVVTg0VkZoU2RFRRAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOkNJQ0piVzNlNGk4SnBYUU84VFhSdEE%7C%7C?hl=en",
+            "rating": 3.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-24T10:57:20Z",
+            "iso_date_of_last_edit": "2025-06-24T10:57:20Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90D3XRnNoVmLQdHxTyhIHvwykhCWrrVgVTfyCNolBkixNDIvjibW3bOUidQXu4ycWWXXSJrHc2HCLxBGh6On4ZOdlVvCM2SsKn0pwpiqd6H1YayMCcXcp7_2DCfHKNOwMffrTOLYizHW2xkV",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AEIKr4lG84llUvmLVAy6N56M3Op4hdFeUgNE7FONQ9pSLnb-v5k_dr7eiXTQ7pZGThBh--Ts2IfMC4IH3wP3EWbl8uhXVzF3nHDT3pXn0I0Lp3MZXXt5e9tcyZgSep-OEqmAvnl_6UMxu4"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOSlEwcGlWek5sTkdrNFNuQllVVTg0VkZoU2RFRRAB",
+            "user": {
+                "name": "0022",
+                "link": "https://www.google.com/maps/contrib/112633618971063136979?hl=en",
+                "contributor_id": "112633618971063136979",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKUGhuFST5KzrnBpqWMGIcAi_KngPBzuoB_joNu_077aqbqoQ=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 109,
+                "photos": 342
+            },
+            "snippet": "\u30de\u30f3\u30b4\u30fc\u30e9\u30c3\u30b7\u30fc\u304c\u7f8e\u5473\u3057\u3044\uff01\n\u3082\u3063\u3068\u30d3\u30ea\u30e4\u30cb\u304c\u5b89\u304b\u3063\u305f\u3089\u5b09\u3057\u3044\u306a\n\nThe mango lassi is delicious! I wish the biryani was cheaper.",
+            "extracted_snippet": {
+                "original": "\u30de\u30f3\u30b4\u30fc\u30e9\u30c3\u30b7\u30fc\u304c\u7f8e\u5473\u3057\u3044\uff01\n\u3082\u3063\u3068\u30d3\u30ea\u30e4\u30cb\u304c\u5b89\u304b\u3063\u305f\u3089\u5b09\u3057\u3044\u306a\n\nThe mango lassi is delicious! I wish the biryani was cheaper.",
+                "translated": "The mango lassi is delicious! I wish the biryani was cheaper."
+            },
+            "details": {
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 4,
+                "service": 3,
+                "atmosphere": 4,
+                "recommended_dishes": "\u30c1\u30ad\u30f3\u30d3\u30ea\u30e4\u30cb",
+                "group_size": "1 person, 2 people, 3-4 people",
+                "seating_type": "Indoor dining area"
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-07-13T09:55:56Z",
+                "iso_date_of_last_edit": "2025-07-13T09:55:56Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u65e5\u672c\u306e\u304a\u7c73\u540c\u69d8\u3001\u30d0\u30b9\u30de\u30c6\u30a3\u30e9\u30a4\u30b9\u306e\u4fa1\u683c\u3082\u65e5\u3005\u4e0a\u6607\u50be\u5411\u306b\u3042\u308a\u307e\u3059\uff08\u6d99\uff09\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u65e5\u672c\u306e\u304a\u7c73\u540c\u69d8\u3001\u30d0\u30b9\u30de\u30c6\u30a3\u30e9\u30a4\u30b9\u306e\u4fa1\u683c\u3082\u65e5\u3005\u4e0a\u6607\u50be\u5411\u306b\u3042\u308a\u307e\u3059\uff08\u6d99\uff09\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for visiting Mughal this time! \nJust like rice in Japan, the price of basmati rice is rising day by day (tears) \nWe look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21KcVduUjBOekJHTWxONVZWTkRSazVxVEhGalgzYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOmJqWnR0NzBGMlN5VVNDRk5qTHFjX3c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-23T08:36:29Z",
+            "iso_date_of_last_edit": "2025-06-23T08:36:29Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CWqReJzmXt7F7wlpb4fmSvVIfGNld_SAud64D4oLwhwlM_y2pLXWxmysC0ksV5IJT9FtuIHhY1OAu-9TRtsb4s2H8M0o98Th9hydXxbGL3oVzSQ0cEsDMC800SqO8eyczorUWFUdY7QDA",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A55aYUbYhMtal47YUelqWNvJrdiUK1FLI18GWUZIOjKHV_dPeI8a04lGR5qtaQToMFR5HM-ycOPSbxbjLl81y5OAHi_yG16NOT80S2nqicLBz5NMglDJPsDKiuYhJQ8CfyuETlS6fD82Qf",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AyXhCYlFRohYQ0E61f8hbDzuofxQv05D1pKMPzu99BNG08jX3pJ7BNNuMK1538ANszeTbVsxFSLQLwyKhXYqXmlC-QMQwvgUxU2QwuDdPzIQXP2RKwT9SkC1XD0TS-wGkGhXMC5cTc8yx2"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KcVduUjBOekJHTWxONVZWTkRSazVxVEhGalgzYxAB",
+            "user": {
+                "name": "Tahmid Faiyaz",
+                "link": "https://www.google.com/maps/contrib/104428415866865405633?hl=en",
+                "contributor_id": "104428415866865405633",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVg91OkVQtj6vscGenqP-20eoXKm6A6Lx5QBBQX5ynSRaqXDo0h=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 51,
+                "photos": 264
+            },
+            "snippet": "Everything was very tasty. Although it was a bit on the expensive side, the quality of the food made it worth it.",
+            "extracted_snippet": {
+                "original": "Everything was very tasty. Although it was a bit on the expensive side, the quality of the food made it worth it."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-23T13:37:25Z",
+                "iso_date_of_last_edit": "2025-06-23T13:37:25Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for visiting Mughal!\nWe look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tFNFgwZHVRWGQ2Vkc5dFUyUm5jV016ZVUwM1VXYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOkE4X0duQXd6VG9tU2RncWMzeU03UWc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 months ago",
+            "iso_date": "2025-06-23T03:04:13Z",
+            "iso_date_of_last_edit": "2025-06-23T03:04:23Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DUwgpOAZp7B0LpSRk5wOJSX5WM3ztHliwtfhGs9HJoMODXqg4AVxOD2-mYTDzmI7-QcJAWj75M4nXwl8mtYYvpR7hZ5gYrmgt5_c2ngs9JwtHyFEsyNg69lvxGhrUqRNNZ3X4RH8v8dXc",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dj9RcQDyj4YTn71MN_TK9uZ3QW-B4ZYpBaeP0zi3QKj4VinwKjNXmizHqoFTo6DuhJl9_rHj6CvKZYF90iNwUaublHQU7npWn5tdZH4cmZFq_idymrgCwqMdpi2GLk420UxC-RdW7ebTdK",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CZT_auOC7jI9qsNjuyLzFtb9kZVHCzH5jJB8s_Z9rkocpH8UWfKvMX_Bc3Y194FrzxBOP3K9VDXzJ4BoVPwPUHtGBrbfdVuNfg3elBhlTLDhqy9dnmUWrJUQNc9yn3w6d7GfDbuTY9-R0",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CX9SlocxTDCrCKsy_8Ve7yBTsGbsdWjqu6A42pTZPIcWqoZc6sUTndREfhav6cfVCVf1RyFXWXZmdCqF1QoJE8YtcVtGOB8GFdgF-FSvt0-OJI6Fa4WmVznuP-TrpPpVeZyPTZ9cjW5pAR",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CEX79MOofMC84iSuiL-Akqhz_BNAt1y4J3oBMoWLme5oqzwSuO_zxS6ipdLx8SjEXABAkWKHEe_0W3pSE3NY7-6IN5nCexta7MMOU8N9l9L8Cpg3vchZCnssLtZhVXcPifTXddHj5e458c",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Big5WHeXNp1SqXVXMKDs8ZWQl2kkpZ3vV4OjXnMNuwAMIwT_qc-3Fx2HInm7s4ZCXYhL1002M7zamI3Rq7J6EUqn6NaxvJcBmODWIgLLxrWkQhqL3S7RuXH6zTRkoF37qI_0GZqk2Qkb3f",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DX2tR-By0ZG_p1ERXhG73wUFQGHWQyMkAz9lXFMtuuin9oBhFl6lTI-Uh0cZlx_OE9FvIBkS44dXPuEkmvcyi0wITEu2GcHhCkEsUF2X-dChCGz7NycmicfXhXRg-BnLYYI-tD3B9xJJKT",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90ByWp-moLATEJZGFO9HnsyVgqZdt3bg6IZEXcD-bRPi5SXzWK7IV1NqwkqJUjrEg-VZVpuUPkO5mS6Z2vXAPsx4c0Cwz1MQrr6WzRZP2a-ORxknUzojEKh8L6jPcf1Ptu-iEVMVo4b8sb1C",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C_Ls_oMjbrmXooabptGsU36x4GcwiTAA5ES2mHzRKdkLxw9G-tcS4w1Z3vd_SXJoiiu1HMKUT4BQAtpFSvdrwXPuj7gq9wrfeHkphFluGukHxOlcYxg59UOY_GAfYrMEx-NwoJowy5c7OJ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DYh1HpRPcwb3Tycxm_f6QugBaNmWYgrxDmM_ohbJtQ2PEBX37tibqXNtcjieB3Bv0n8rpakosVK_PMq2y6pmt-13YOlbt9C_cZmdQKRVPecXu9gQTGEEaMH7H-1bXd37EINTFIp5hfJtHt",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AVlCFWODTfsIN-2ZuLuuhkndT99VZ52nQ-Lax8KGNyvXZdx5WqAJPk6vTXruYkO6Wb9MQKDmry3C1wRau_SdfQbHjIgisV7vjBq5Dn5uMUaRbWHmBLAUkRjGB0Qa5iSXcFhPgZMsoq_8Nl",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BFkg0h94MNX1RBVVkIpoAJj590dlp5JKTR2LECEAhecnG2krKhhp0cD8UpRZT4OnCJV6Ao7l7h5hFfeWnkAsIQ9AC4UikWmBrhctglxfgWha05GR9k2WkQUiwDbeElYWb-kSJjmlBDpvIT",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CR_CiawY1Y9_1Mk3wNuYp9fKbvtWL3oP1LTOalP_cp_dcnNkBoovaY7_vLDtzNbiCK6Lf72i6DjfhHDdZ6P_PLlGP437oDMJB5VL2gCk9d4GvhimnYTH-tRh2e3jlgfhUsuCo0b2RUqZg",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A7xCkRB7SFF_3S9loZByM-S4Z2a4ZTYMO7-O8INv9aACApel9NDpMpYq4WC6hj-fZWJcTMzr--MwNmBxyghkXZiHv0T0TMis9sqoW3a7fiYlqAQX3wdFxzxcSltfnFK-hFLSLbeBK_gb0",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BmMI6Vgczr-Cg9itX-P9JOsh37ZYMOZEdCuDpXh-cxGpgzvzKFmcnMG7GMBE_nByKmuXEBOclp18dkjvqDXbtkwa4-amv1JS-AxZqre_RlXiCHbIOxnYMG_COHOqQLlNw-2nsXHT40Zrsi",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CMAMPEnZBtVIICDGh7jHgFFDrZ9BmlB9ogtGCLKlvBcyaoM5sgwI-69n8XDLCqP8ylJlF95OAQMF44u0rdkltVbN8LvcLlGQtwVq8c9tHGJyRsAw_L5-OEUCRYAATicEioodTRzdoXNIU"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tFNFgwZHVRWGQ2Vkc5dFUyUm5jV016ZVUwM1VXYxAB",
+            "user": {
+                "name": "Shoichiro Nishiyama (nishi)",
+                "link": "https://www.google.com/maps/contrib/106386454933985738233?hl=en",
+                "contributor_id": "106386454933985738233",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVHVx-YqZ6PneA2kHXkLiCsQYb6ECZIo49yl2CNZZEBkijE0d_s=s120-c-rp-mo-ba6-br100",
+                "local_guide": true,
+                "reviews": 256,
+                "photos": 3148
+            },
+            "snippet": "\u6700\u9ad8\u5cf0\u306e\u30d3\u30ea\u30e4\u30cb\n\n15\u6642\u9803\u306b\u8a2a\u554f\u3002\u3055\u3059\u304c\u306b\u30e9\u30f3\u30c1\u30bf\u30a4\u30e0\u3092\u5916\u3057\u305f\u306e\u3067\u7a7a\u3044\u3066\u3044\u305f\u306e\u3067\u3086\u3063\u304f\u308a\u51fa\u6765\u307e\u3057\u305f\u3002\n\n\u305b\u3063\u304b\u304f\u306a\u306e\u3067\u30d5\u30e9\u30c3\u30b0\u30b7\u30c3\u30d7\u306e\u54c1\u300c\u30ed\u30fc\u30b9\u30c8\u30d3\u30ea\u30e4\u30cb\u300d2250\u5186\u3092\u30bb\u30c3\u30c8+350\u5186\u3067\u6ce8\u6587\u3002\n\u63d0\u4f9b\u307e\u3067\u306f20\u5206\u7a0b\u3002\n\n\u5927\u304d\u306a\u9d8f\u8089\u30ed\u30fc\u30b9\u30c8\u304c2\u584a\u3082\u4e57\u3063\u305f\u7d20\u6674\u3089\u3057\u3044\u30eb\u30c3\u30af\u30b9\uff01\n\u91cf\u3082\u5927\u98df\u6f22\u3067\u3082\u6e80\u8db3\u3067\u304d\u308b\u304b\u3068\u30012\u4eba\u524d\u7a0b\u5ea6\u3042\u308a\u307e\u3059\u3002\n\n\u304a\u7c73\u306f\u3055\u3089\u3063\u3068\u3057\u305f\u98df\u611f\u3067\u3057\u3064\u3053\u3055\u306f\u5168\u7136\u306a\u3044\u3002\u30ab\u30eb\u30c0\u30e2\u30f3\u3084\u30af\u30df\u30f3\u306e\u9999\u308a\u3082\u7a0b\u3088\u304f\u3001\u5168\u4f53\u304c\u4e00\u3064\u306b\u7e8f\u307e\u3063\u3066\u3044\u3066\u3001\u500b\u4eba\u7684\u306b\u3053\u308c\u307e\u3067\u98df\u3079\u305f\u30d3\u30ea\u30e4\u30cb\u306e\u4e2d\u3067No1\u3067\u3057\u305f\uff01\uff01\n\u30ed\u30fc\u30b9\u30c8\u30c1\u30ad\u30f3\u306f\u898b\u305f\u76ee\u901a\u308a\u30b9\u30d1\u30a4\u30b7\u30fc\u306a\u5473\u4ed8\u3051\u3067\u3001\u30d1\u30b5\u3064\u304d\u306f\u306a\u304f\u3057\u3063\u3068\u308a\u3068\u3057\u3066\u7f8e\u5473\u3057\u304b\u3063\u305f\u3002\n\n\u91cf\u3068\u5473\u3092\u8003\u3048\u308b\u3068\u3068\u3066\u3082\u304a\u5f97\u306a\u306e\u3067\u306f\u3068\u601d\u3044\u307e\u3059\u3002\u307e\u305f\u98df\u3079\u305f\u3044\u5473\u3067\u3059\u3002",
+            "extracted_snippet": {
+                "original": "\u6700\u9ad8\u5cf0\u306e\u30d3\u30ea\u30e4\u30cb\n\n15\u6642\u9803\u306b\u8a2a\u554f\u3002\u3055\u3059\u304c\u306b\u30e9\u30f3\u30c1\u30bf\u30a4\u30e0\u3092\u5916\u3057\u305f\u306e\u3067\u7a7a\u3044\u3066\u3044\u305f\u306e\u3067\u3086\u3063\u304f\u308a\u51fa\u6765\u307e\u3057\u305f\u3002\n\n\u305b\u3063\u304b\u304f\u306a\u306e\u3067\u30d5\u30e9\u30c3\u30b0\u30b7\u30c3\u30d7\u306e\u54c1\u300c\u30ed\u30fc\u30b9\u30c8\u30d3\u30ea\u30e4\u30cb\u300d2250\u5186\u3092\u30bb\u30c3\u30c8+350\u5186\u3067\u6ce8\u6587\u3002\n\u63d0\u4f9b\u307e\u3067\u306f20\u5206\u7a0b\u3002\n\n\u5927\u304d\u306a\u9d8f\u8089\u30ed\u30fc\u30b9\u30c8\u304c2\u584a\u3082\u4e57\u3063\u305f\u7d20\u6674\u3089\u3057\u3044\u30eb\u30c3\u30af\u30b9\uff01\n\u91cf\u3082\u5927\u98df\u6f22\u3067\u3082\u6e80\u8db3\u3067\u304d\u308b\u304b\u3068\u30012\u4eba\u524d\u7a0b\u5ea6\u3042\u308a\u307e\u3059\u3002\n\n\u304a\u7c73\u306f\u3055\u3089\u3063\u3068\u3057\u305f\u98df\u611f\u3067\u3057\u3064\u3053\u3055\u306f\u5168\u7136\u306a\u3044\u3002\u30ab\u30eb\u30c0\u30e2\u30f3\u3084\u30af\u30df\u30f3\u306e\u9999\u308a\u3082\u7a0b\u3088\u304f\u3001\u5168\u4f53\u304c\u4e00\u3064\u306b\u7e8f\u307e\u3063\u3066\u3044\u3066\u3001\u500b\u4eba\u7684\u306b\u3053\u308c\u307e\u3067\u98df\u3079\u305f\u30d3\u30ea\u30e4\u30cb\u306e\u4e2d\u3067No1\u3067\u3057\u305f\uff01\uff01\n\u30ed\u30fc\u30b9\u30c8\u30c1\u30ad\u30f3\u306f\u898b\u305f\u76ee\u901a\u308a\u30b9\u30d1\u30a4\u30b7\u30fc\u306a\u5473\u4ed8\u3051\u3067\u3001\u30d1\u30b5\u3064\u304d\u306f\u306a\u304f\u3057\u3063\u3068\u308a\u3068\u3057\u3066\u7f8e\u5473\u3057\u304b\u3063\u305f\u3002\n\n\u91cf\u3068\u5473\u3092\u8003\u3048\u308b\u3068\u3068\u3066\u3082\u304a\u5f97\u306a\u306e\u3067\u306f\u3068\u601d\u3044\u307e\u3059\u3002\u307e\u305f\u98df\u3079\u305f\u3044\u5473\u3067\u3059\u3002",
+                "translated": "The best biryani\n\nI visited around 3pm. As expected, it was outside of lunch time, so it was empty and I could take my time.\n\nSince I was there, I ordered the flagship item \"Roast Biryani\" for 2,250 yen as a set + 350 yen.\n\nIt took about 20 minutes to be served.\n\nIt looks amazing with two large pieces of roasted chicken on top!\n\nThe amount is enough for two people to satisfy even a big eater.\n\nThe rice has a smooth texture and is not heavy at all. The aroma of cardamom and cumin is just right, and the whole thing is unified, and personally, it was the best biryani I have ever eaten!! !\nThe roast chicken was as spicy as it looked, and it was moist and delicious without being dry.\n\nI think it's a great deal considering the amount and taste. I would like to eat it again."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 4,
+                "atmosphere": 4,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-23T13:36:14Z",
+                "iso_date_of_last_edit": "2025-06-23T13:36:14Z",
+                "snippet": "\u500b\u4eba\u7684\u306b\u3053\u308c\u307e\u3067\u98df\u3079\u305f\u30d3\u30ea\u30e4\u30cb\u306e\u4e2d\u3067No1\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\uff01\n14\u6642\u3059\u304e\u308b\u3068\u30e9\u30f3\u30c1\u30bf\u30a4\u30e0\u3082\u304b\u306a\u308a\u843d\u3061\u7740\u304d\u307e\u3059\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u500b\u4eba\u7684\u306b\u3053\u308c\u307e\u3067\u98df\u3079\u305f\u30d3\u30ea\u30e4\u30cb\u306e\u4e2d\u3067No1\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\uff01\n14\u6642\u3059\u304e\u308b\u3068\u30e9\u30f3\u30c1\u30bf\u30a4\u30e0\u3082\u304b\u306a\u308a\u843d\u3061\u7740\u304d\u307e\u3059\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for saying this is the best biryani I have ever eaten!! \nAfter 2pm, lunchtime calms down considerably. \nWe look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJMmM3SWV6OWJmQTdRRRAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CIHM0ogKEI2c7Iez9bfA7QE%7C%7C?hl=en",
+            "rating": 1.0,
+            "date": "3 months ago",
+            "iso_date": "2025-06-12T00:22:41Z",
+            "iso_date_of_last_edit": "2025-06-12T00:22:41Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJMmM3SWV6OWJmQTdRRRAB",
+            "user": {
+                "name": "Chandru Thapa",
+                "link": "https://www.google.com/maps/contrib/115524682971389503658?hl=en",
+                "contributor_id": "115524682971389503658",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKS4RN_PnlFpJFrsDj3lsA1gv9GqsTqiHWmSRvtPd8hWsaFUg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 7,
+                "photos": 2
+            },
+            "snippet": "Very poor food",
+            "extracted_snippet": {
+                "original": "Very poor food"
+            },
+            "details": {
+                "food": 1,
+                "service": 1,
+                "atmosphere": 1
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJT3hqTm1HcXBpUnBRRRAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CIHM0ogKEIOxjNmGqpiRpQE%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "3 months ago",
+            "iso_date": "2025-06-10T13:37:36Z",
+            "iso_date_of_last_edit": "2025-06-10T13:37:36Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VJT3hqTm1HcXBpUnBRRRAB",
+            "user": {
+                "name": "azhar hussain",
+                "link": "https://www.google.com/maps/contrib/111877510143415454216?hl=en",
+                "contributor_id": "111877510143415454216",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV_4nboCP7tB4_PufQb5vWtasoLSuBztQ0-ZqVJ7d7Xe_rmrwHC=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 90,
+                "photos": 27
+            },
+            "snippet": "Nice Cosy Restaurant. We had the Afghani Lamb Roast Pulav and the Hyderabadi Mutton Biryani. Being in Tokyo and with the local set up, the Afghani Lamb Roast Pulav was great. Portion Sizes are good as well. The Menu is well suited to Indian Subcontinent Delicacies.",
+            "extracted_snippet": {
+                "original": "Nice Cosy Restaurant. We had the Afghani Lamb Roast Pulav and the Hyderabadi Mutton Biryani. Being in Tokyo and with the local set up, the Afghani Lamb Roast Pulav was great. Portion Sizes are good as well. The Menu is well suited to Indian Subcontinent Delicacies."
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000"
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-23T13:33:03Z",
+                "iso_date_of_last_edit": "2025-06-23T13:33:03Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for visiting Mughal!\nWe look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tOd1JVZDFlWFJ0ZW1KRmFGZE5aa2xPU0VkSGFXYxAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CAIQACodChtycF9oOkNwRUd1eXRtemJFaFdNZklOSEdHaWc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 months ago",
+            "iso_date": "2025-06-09T06:30:25Z",
+            "iso_date_of_last_edit": "2025-06-09T06:30:25Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90ASwft_LAy9f_u7OTCIVfL1P7xxv37r3aDNkuHq6PnNDR1uCYzkxWMeewN58jHezBFhsHoR2Xh3G2l3QpvZ80CG7ncEQpTABbyiFvXh4VIe41HB3rTjnlGwFf_0Yf8OPQdxb1XxEBrby39A",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CdoE0ajg9bRCuwhEIkwKSdnIeDSWxQZp0Ye0BJH0-umYuM3tfGNfM582OEz6KIBn4MLVgvdNYy4UNFwDgaZBedFQxkVlLFV9R-11pnipORv3gv9BVEYgCBn3TIUdcBUBxYjWcUjLvnSXqZ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DRKdV0eU67Ynnh0dMHkxtVXcsD0eAqhHZ_6I44T5c-KNT0lZhl5Sh7wnCvd33bAu8FRNzwK4egzqbxq_JEBAqtaH317ryJ5tnC9jmlkWKz-9oX6WK4JkdtR6bBRcfKIrqpYMIVYKw5yhc",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CQdyqEyp8WDU7uwwkbr2JUpxLRx-i6Zwa1fAO4T76yVOUWQdHQ2Y9-Mgqx5ZOlQFwsP0qPs23_Vn72AKJC5_LIPJqAFNFr8gJiTdeJ9ITlrgKu1qLpjeYuDU9CbahaxG2KuQjEJEfJxbZh"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOd1JVZDFlWFJ0ZW1KRmFGZE5aa2xPU0VkSGFXYxAB",
+            "user": {
+                "name": "Landon Brubaker",
+                "link": "https://www.google.com/maps/contrib/117865216035087372724?hl=en",
+                "contributor_id": "117865216035087372724",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWwrlcEkS6Yzni6aEMg6B3oEm_PO4--sLoaaKysDH6QDe7lSqq-=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 10,
+                "photos": 7
+            },
+            "snippet": "I have gone to Mughal many times. I have tried a lot of the different curries and a special chicken dish. While the restaurant is often empty, hence the 3 stars for \u201cAtmosphere\u201d, the owner is extremely kind and takes interest in his customers for sure! The food is incredible, the homemade Mango Lassi is unbelievably good!",
+            "extracted_snippet": {
+                "original": "I have gone to Mughal many times. I have tried a lot of the different curries and a special chicken dish. While the restaurant is often empty, hence the 3 stars for \u201cAtmosphere\u201d, the owner is extremely kind and takes interest in his customers for sure! The food is incredible, the homemade Mango Lassi is unbelievably good!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 3
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-23T13:32:30Z",
+                "iso_date_of_last_edit": "2025-06-23T13:32:30Z",
+                "snippet": "\u4f55\u5ea6\u3082\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u304a\u6599\u7406\u3068\u30de\u30f3\u30b4\u30fc\u30e9\u30c3\u30b7\u30fc\u306e\u7f8e\u5473\u3057\u3055\u306b\u6c17\u3065\u3044\u3066\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\n\u305c\u3072\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u4f55\u5ea6\u3082\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u304a\u6599\u7406\u3068\u30de\u30f3\u30b4\u30fc\u30e9\u30c3\u30b7\u30fc\u306e\u7f8e\u5473\u3057\u3055\u306b\u6c17\u3065\u3044\u3066\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\n\u305c\u3072\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for visiting us so many times! \nThank you for noticing the deliciousness of our food and mango lassi. \nWe look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VKVHhxYlBUaGRXY0F3EAE!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CIHM0ogKEJTxqbPThdWcAw%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 months ago",
+            "iso_date": "2025-06-06T08:41:12Z",
+            "iso_date_of_last_edit": "2025-06-06T08:43:11Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Do8J-NHkaW0UDvl_paR5VJQ1sUAlWrGB_plhVCsnOT4Cb4wdtTq6xpZ4UtSZwLkOXqDgJejNuCsJl6yWjRIF3hdXZ_f_nsnZNLRQO80NvkKOP0PN9v2KTPF6xxu6Q8g53zMeuu",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DArmnCcBNN5hSu0E3gT3oKkg5pn07s-FanvmiiDSjEfgIgXBQVqAn1EC9AFsZxq5NyJV8xObUQkPDWe62kTkhXwbvvFbFyoB7Zvz5VO9WYYIy_dKYx4Mbc5E3XTkslqQwT31GMZg",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C14asNpaeGHEuKH0RYOkbzavOno96vXZY0oBzlnxLV5QTjtFggIwpKvuHBxvEmtxMBQJ55mY9zctcptfE5L3L1wBUp-JCtGy9GvjmwuoNxkqdM-I6r9h8PSA-X3CNSXrvxQwTZ",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DVG-GcV6ia0BhA25UCZtxKTc5sSqs5QLq4ATgtiPnEUAQt9jl6BAvZ7wgjDFxZrn9awZW8CuNVjH0WQ6wLgONIucJWtSYDVwk3fMO0JYwjtsisatliO4u3QpTJvS91Zngk6Euw",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AeC7TiWS1CAuuigDgCnCVOhQ-KKNRslXCDll1spgZ1UQc9h__ptXSli2wX-VPmY8diFmj4XVzKfsFjsBXzg-X-nwi1pxRKqvryWz5nYK9ry6k8PElVkonbqYrNVuBVXCABMjo6",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CzR5hZmJ2kTRZTOB3jGvHAInbaRUaPjKSbGHAvq_4Vz3nrpKJA8LoZ5bmw6es3dec3Tls78Fzm7bFk8FFacgOS4cma1W3gAdSbExS33jDqruXAVm_Sv556oPnskNojX0VI2U0",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BDNQFT0YXsWJ-Mfd4odX-hkVy7AZOblrYlxaQu2jrXv81q9v1hfaITQjpD-rHTtVpw2fkBVmUMLIBUeOB4WSQGmZWPv9GAWPdQXIW-YnPCGyUb4gquh8zwDudAKDi-Qojg_Rem",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DS-rhKN6v3elMOh0d5nW4B3KcQlgZtBsAAnSxIt6LRLpoL4ZBpF_dlwLoPF9r4S_vHX2pai7a8HM5jV8r4QNIP28Zs9uBk62BVXqkD7oSj6-qn3t2eqghf3yPo3OfXt9-wvMmY",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AlrenPjt28UT3wmuvZ4LUbZhQE4xkpXDK9sZMZ6XXcSD8pCqSIvtd1AAb0vyEK48oioDdPiREL5BC-Epi7HzCfZiwJTuKGYnX9juLyblt50s3Ol9oNrIvL6Xj3GlgKSc_4lvCygg"
+            ],
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VKVHhxYlBUaGRXY0F3EAE",
+            "user": {
+                "name": "Emi",
+                "link": "https://www.google.com/maps/contrib/114945474305461045114?hl=en",
+                "contributor_id": "114945474305461045114",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW90EqLRG_CXarYccwwhjNDpLiSW_L2VFLT-yOpMlJrZDJigao=s120-c-rp-mo-ba6-br100",
+                "local_guide": true,
+                "reviews": 448,
+                "photos": 3999
+            },
+            "snippet": "\u30c9\u30a2\u3092\u958b\u3051\u308b\u3068\u3001\u82f1\u8a9e\u3057\u304b\u805e\u3053\u3048\u306a\u3044\u3002\u6d77\u5916\u306e\u30a4\u30f3\u30c9\u6599\u7406\u5c4b\u3055\u3093\u306b\u5165\u3063\u305f\u3088\u3046\u306a\u6c17\u5206\u306b\u306a\u308a\u307e\u3059\u3002\u30cf\u30e9\u30fc\u30eb\u30ec\u30b9\u30c8\u30e9\u30f3\u3060\u304b\u3089\u306a\u306e\u304b\u306a\u3041\u3002\u5185\u88c5\u3082\u30aa\u30b7\u30e3\u30ec\u3067\u3001\u7d75\u306b\u306a\u308a\u307e\u3059\u3002\n\n\u30e9\u30f3\u30c1\u30e1\u30cb\u30e5\u30fc\u3082\u3042\u308b\u306e\u3067\u3059\u304c\u3001\u4ed6\u3067\u306f\u898b\u304b\u3051\u306a\u3044\u30de\u30c8\u30f3\u306e\u304a\u6599\u7406\u304c\u6c17\u306b\u306a\u308b\u3002\u30cb\u30cf\u30ea(\u9aa8\u4ed8\u304d\u30de\u30c8\u30f3\u306e\u8f9b\u53e3\u30b7\u30c1\u30e5\u30fc)\u3068\u30cf\u30ea\u30fc\u30e0(\u8c46\u3068\u30de\u30c8\u30f3\u306e\u6fc3\u539a\u30b7\u30c1\u30e5\u30fc)\u3067\u60a9\u307f\u307e\u3059\u3002\n\u30cb\u30cf\u30ea\u3068\u30cf\u30ea\u30fc\u30e0\u3067\u8ff7\u3063\u3066\u3044\u308b\u3068\u4f1d\u3048\u305f\u3089\u3001\u30cf\u30ea\u30fc\u30e0\u304c\u4eba\u6c17\u3060\u3068\u3044\u3046\u3002\u305d\u308c\u306a\u3089\u3001\u30cf\u30ea\u30fc\u30e0\u3002\u30bb\u30c3\u30c8\u306b\u3057\u3066\u3001\u30c9\u30ea\u30f3\u30af\u306f\u30e9\u30c3\u30b7\u30fc\u306b\u3057\u307e\u3057\u305f\u3002\n\n\u30e9\u30c3\u30b7\u30fc\u304c\u6700\u521d\u306b\u6765\u3066\u3001\u3057\u3070\u3089\u304f\u3057\u305f\u3089\u30b5\u30e9\u30c0\u3001\u30ca\u30f3\u3001\u30cf\u30ea\u30fc\u30e0\u3068\u85ac\u5473\u304c\u6765\u307e\u3057\u305f\u3002\u30b5\u30e9\u30c0\u306f\u80e1\u9ebb\u30c9\u30ec\u30c3\u30b7\u30f3\u30b0\u3002\n\n\u30cf\u30ea\u30fc\u30e0\u3092\u30b9\u30d7\u30fc\u30f3\u3067\u6301\u3061\u4e0a\u3052\u3066\u307f\u308b\u3068\u3001\u30c9\u30ed\u30c3\u3068\u3057\u305f\u611f\u3058\u3002\u6700\u521d\u306f\u305d\u306e\u307e\u307e\u98df\u3079\u305f\u3051\u3069\u3001\u305b\u3063\u304b\u304f\u306a\u306e\u3067\u85ac\u5473\u3092\u6295\u5165\u3002\u751f\u59dc\u3001\u30d1\u30af\u30c1\u30fc\u3001\u30ec\u30e2\u30f3\u3067\u3059\u3002\u30d1\u30af\u30c1\u30fc\u5408\u3046\u308f\u3002\u3082\u3063\u3068\u5165\u308c\u3066\u3082\u3044\u3044\u304b\u3082\u3002\n\n\u8f9b\u3055\u306f\u7d50\u69cb\u8f9b\u3044\u3067\u3059\u3002\u30b7\u30c1\u30e5\u30fc\u3060\u304b\u3089\u306a\u306e\u304b\u3001\u8f9b\u3055\u805e\u304b\u308c\u306a\u304b\u3063\u305f\u3088\u306a\u3001\u78ba\u304b\u3002\u3067\u3082\u3001\u8010\u3048\u3089\u308c\u308b\u30ec\u30d9\u30eb\u3002\n\u30de\u30c8\u30f3\u306f\u307b\u3050\u3057\u3066\u3042\u3063\u3066\u3001\u30b7\u30c1\u30e5\u30fc\u306b\u3088\u304f\u7d61\u3093\u3067\u304a\u3044\u3057\u3044\u3067\u3059\u306d\u3002\u3082\u3063\u3068\u7f8a\u304f\u3055\u3055\u304c\u3042\u3063\u3066\u3082\u79c1\u306f\u597d\u304d\u3060\u3051\u3069\u3001\u7f8a\u82e6\u624b\u306a\u4eba\u3067\u3082\u3044\u3051\u308b\u306e\u3067\u306f\uff1f\u6fc3\u539a\u3060\u304b\u3089\u3001\u304a\u8179\u306b\u305f\u307e\u308a\u307e\u3059\u306d\u3002\n\n\u4ed6\u306b\u3082\u30de\u30c8\u30f3\u6599\u7406\u304c\u305f\u304f\u3055\u3093\u3042\u308b\u306e\u3067\u3001\u7f8a\u30e9\u30d0\u30fc\u3068\u3057\u3066\u306f\u4ed6\u306e\u30e1\u30cb\u30e5\u30fc\u3082\u98df\u3079\u3066\u307f\u305f\u3044\u3068\u3053\u308d\u3002\u30d3\u30ea\u30e4\u30cb\u3082\u4eba\u6c17\u307f\u305f\u3044\u3067\u3059\u3088\u3002\u53cb\u9054\u3068\u6765\u3066\u30b7\u30a7\u30a2\u3059\u308b\u306e\u3082\u3044\u3044\u304b\u3082\u3002\n\n\u9014\u4e2d\u3067\u3084\u3063\u3066\u304d\u305f\u30aa\u30fc\u30ca\u30fc\u3055\u3093\u3089\u3057\u304d\u65b9\u3068\u5c11\u3057\u304a\u3057\u3083\u3079\u308a\u3057\u305f\u306e\u3067\u3059\u304c\u30018\u6708\u9803\u306b\u4e8c\u53f7\u5e97\u3068\u3057\u3066\u99d2\u8fbc\u99c5\u524d\u306b\u51fa\u5e97\u3059\u308b\u305d\u3046\u3067\u3059\u3002\u305d\u3061\u3089\u306f\u3082\u3063\u3068\u5e83\u3044\u3068\u306e\u3053\u3068\u3002\u30aa\u30fc\u30d7\u30f3\u3057\u305f\u3089\u884c\u3063\u3066\u307f\u305f\u3044\u306a\u3002\n\n\u98df\u3079\u30ed\u30b0\u304b\u3089\u4e88\u7d04\u3082\u3067\u304d\u307e\u3059\u306e\u3067\u3001\u304a\u5e97\u306e\u30da\u30fc\u30b8\u3092\u30c1\u30a7\u30c3\u30af\u3057\u3066\u307f\u3066\u304f\u3060\u3055\u3044\u3002",
+            "extracted_snippet": {
+                "original": "\u30c9\u30a2\u3092\u958b\u3051\u308b\u3068\u3001\u82f1\u8a9e\u3057\u304b\u805e\u3053\u3048\u306a\u3044\u3002\u6d77\u5916\u306e\u30a4\u30f3\u30c9\u6599\u7406\u5c4b\u3055\u3093\u306b\u5165\u3063\u305f\u3088\u3046\u306a\u6c17\u5206\u306b\u306a\u308a\u307e\u3059\u3002\u30cf\u30e9\u30fc\u30eb\u30ec\u30b9\u30c8\u30e9\u30f3\u3060\u304b\u3089\u306a\u306e\u304b\u306a\u3041\u3002\u5185\u88c5\u3082\u30aa\u30b7\u30e3\u30ec\u3067\u3001\u7d75\u306b\u306a\u308a\u307e\u3059\u3002\n\n\u30e9\u30f3\u30c1\u30e1\u30cb\u30e5\u30fc\u3082\u3042\u308b\u306e\u3067\u3059\u304c\u3001\u4ed6\u3067\u306f\u898b\u304b\u3051\u306a\u3044\u30de\u30c8\u30f3\u306e\u304a\u6599\u7406\u304c\u6c17\u306b\u306a\u308b\u3002\u30cb\u30cf\u30ea(\u9aa8\u4ed8\u304d\u30de\u30c8\u30f3\u306e\u8f9b\u53e3\u30b7\u30c1\u30e5\u30fc)\u3068\u30cf\u30ea\u30fc\u30e0(\u8c46\u3068\u30de\u30c8\u30f3\u306e\u6fc3\u539a\u30b7\u30c1\u30e5\u30fc)\u3067\u60a9\u307f\u307e\u3059\u3002\n\u30cb\u30cf\u30ea\u3068\u30cf\u30ea\u30fc\u30e0\u3067\u8ff7\u3063\u3066\u3044\u308b\u3068\u4f1d\u3048\u305f\u3089\u3001\u30cf\u30ea\u30fc\u30e0\u304c\u4eba\u6c17\u3060\u3068\u3044\u3046\u3002\u305d\u308c\u306a\u3089\u3001\u30cf\u30ea\u30fc\u30e0\u3002\u30bb\u30c3\u30c8\u306b\u3057\u3066\u3001\u30c9\u30ea\u30f3\u30af\u306f\u30e9\u30c3\u30b7\u30fc\u306b\u3057\u307e\u3057\u305f\u3002\n\n\u30e9\u30c3\u30b7\u30fc\u304c\u6700\u521d\u306b\u6765\u3066\u3001\u3057\u3070\u3089\u304f\u3057\u305f\u3089\u30b5\u30e9\u30c0\u3001\u30ca\u30f3\u3001\u30cf\u30ea\u30fc\u30e0\u3068\u85ac\u5473\u304c\u6765\u307e\u3057\u305f\u3002\u30b5\u30e9\u30c0\u306f\u80e1\u9ebb\u30c9\u30ec\u30c3\u30b7\u30f3\u30b0\u3002\n\n\u30cf\u30ea\u30fc\u30e0\u3092\u30b9\u30d7\u30fc\u30f3\u3067\u6301\u3061\u4e0a\u3052\u3066\u307f\u308b\u3068\u3001\u30c9\u30ed\u30c3\u3068\u3057\u305f\u611f\u3058\u3002\u6700\u521d\u306f\u305d\u306e\u307e\u307e\u98df\u3079\u305f\u3051\u3069\u3001\u305b\u3063\u304b\u304f\u306a\u306e\u3067\u85ac\u5473\u3092\u6295\u5165\u3002\u751f\u59dc\u3001\u30d1\u30af\u30c1\u30fc\u3001\u30ec\u30e2\u30f3\u3067\u3059\u3002\u30d1\u30af\u30c1\u30fc\u5408\u3046\u308f\u3002\u3082\u3063\u3068\u5165\u308c\u3066\u3082\u3044\u3044\u304b\u3082\u3002\n\n\u8f9b\u3055\u306f\u7d50\u69cb\u8f9b\u3044\u3067\u3059\u3002\u30b7\u30c1\u30e5\u30fc\u3060\u304b\u3089\u306a\u306e\u304b\u3001\u8f9b\u3055\u805e\u304b\u308c\u306a\u304b\u3063\u305f\u3088\u306a\u3001\u78ba\u304b\u3002\u3067\u3082\u3001\u8010\u3048\u3089\u308c\u308b\u30ec\u30d9\u30eb\u3002\n\u30de\u30c8\u30f3\u306f\u307b\u3050\u3057\u3066\u3042\u3063\u3066\u3001\u30b7\u30c1\u30e5\u30fc\u306b\u3088\u304f\u7d61\u3093\u3067\u304a\u3044\u3057\u3044\u3067\u3059\u306d\u3002\u3082\u3063\u3068\u7f8a\u304f\u3055\u3055\u304c\u3042\u3063\u3066\u3082\u79c1\u306f\u597d\u304d\u3060\u3051\u3069\u3001\u7f8a\u82e6\u624b\u306a\u4eba\u3067\u3082\u3044\u3051\u308b\u306e\u3067\u306f\uff1f\u6fc3\u539a\u3060\u304b\u3089\u3001\u304a\u8179\u306b\u305f\u307e\u308a\u307e\u3059\u306d\u3002\n\n\u4ed6\u306b\u3082\u30de\u30c8\u30f3\u6599\u7406\u304c\u305f\u304f\u3055\u3093\u3042\u308b\u306e\u3067\u3001\u7f8a\u30e9\u30d0\u30fc\u3068\u3057\u3066\u306f\u4ed6\u306e\u30e1\u30cb\u30e5\u30fc\u3082\u98df\u3079\u3066\u307f\u305f\u3044\u3068\u3053\u308d\u3002\u30d3\u30ea\u30e4\u30cb\u3082\u4eba\u6c17\u307f\u305f\u3044\u3067\u3059\u3088\u3002\u53cb\u9054\u3068\u6765\u3066\u30b7\u30a7\u30a2\u3059\u308b\u306e\u3082\u3044\u3044\u304b\u3082\u3002\n\n\u9014\u4e2d\u3067\u3084\u3063\u3066\u304d\u305f\u30aa\u30fc\u30ca\u30fc\u3055\u3093\u3089\u3057\u304d\u65b9\u3068\u5c11\u3057\u304a\u3057\u3083\u3079\u308a\u3057\u305f\u306e\u3067\u3059\u304c\u30018\u6708\u9803\u306b\u4e8c\u53f7\u5e97\u3068\u3057\u3066\u99d2\u8fbc\u99c5\u524d\u306b\u51fa\u5e97\u3059\u308b\u305d\u3046\u3067\u3059\u3002\u305d\u3061\u3089\u306f\u3082\u3063\u3068\u5e83\u3044\u3068\u306e\u3053\u3068\u3002\u30aa\u30fc\u30d7\u30f3\u3057\u305f\u3089\u884c\u3063\u3066\u307f\u305f\u3044\u306a\u3002\n\n\u98df\u3079\u30ed\u30b0\u304b\u3089\u4e88\u7d04\u3082\u3067\u304d\u307e\u3059\u306e\u3067\u3001\u304a\u5e97\u306e\u30da\u30fc\u30b8\u3092\u30c1\u30a7\u30c3\u30af\u3057\u3066\u307f\u3066\u304f\u3060\u3055\u3044\u3002",
+                "translated": "When I opened the door, I could only hear English. I felt like I was in an Indian restaurant overseas. Maybe it's because it's a halal restaurant. The interior is stylish and picturesque.\n\nThey have a lunch menu, but I'm interested in the mutton dishes that I haven't seen anywhere else. I'm torn between nihari (spicy stew made with mutton on the bone) and haleem (rich stew made with beans and mutton).\n\nWhen I told them I was torn between nihari and haleem, they said that haleem is more popular. So I'll go for the haleem set and drink lassi.\n\nThe lassi came first, and after a while the salad, naan, haleem and condiments came. The salad had sesame dressing.\n\nWhen I picked up the haleem with a spoon, it felt gooey. At first I ate it as it was, but since I was there, I added some condiments. Ginger, coriander and lemon. The coriander goes well with it. Maybe I could add more.\n\nIt's quite spicy. Maybe because it's a stew, I'm sure they didn't ask me how spicy it was. But it was bearable.\nThe mutton was shredded and mixed well with the stew, making it delicious. I would have preferred it if it had a stronger lamb smell, but even people who don't like lamb would probably enjoy it. It's rich, so it fills you up.\n\nThere are many other mutton dishes, so as a lamb lover, I would like to try other menu items. Biryani seems to be popular, too. It might be nice to come with friends and share.\n\nI chatted a little with the owner who came by on the way, and he told me that they will open a second store in front of Komagome Station around August. It will be larger. I'd like to go there when it opens.\n\nYou can make a reservation on Tabelog, so check out the store's page."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Varies by time / day",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-23T13:30:29Z",
+                "iso_date_of_last_edit": "2025-06-23T13:30:29Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\n\u30cf\u30ea\u30fc\u30e0\u3068\u3066\u3082\u4eba\u6c17\u3067\u3059\u266a\u6b21\u56de\u306f\u305c\u3072\u30cb\u30cf\u30ea\u3092\u3054\u8cde\u5473\u304f\u3060\u3055\u3044\u307e\u305b\uff01\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\n\u30cf\u30ea\u30fc\u30e0\u3068\u3066\u3082\u4eba\u6c17\u3067\u3059\u266a\u6b21\u56de\u306f\u305c\u3072\u30cb\u30cf\u30ea\u3092\u3054\u8cde\u5473\u304f\u3060\u3055\u3044\u307e\u305b\uff01\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for visiting Mughal.\nOur haleem is very popular. Next time, be sure to try our nihari!\nWe look forward to seeing you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VQdnAxdUg2dDhLYXpBRRAB!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CIHM0ogKEPvp1uH6t8KazAE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 months ago",
+            "iso_date": "2025-06-05T09:35:39Z",
+            "iso_date_of_last_edit": "2025-06-05T09:35:39Z",
+            "source": "Google",
+            "review_id": "ChdDSUhNMG9nS0VQdnAxdUg2dDhLYXpBRRAB",
+            "user": {
+                "name": "Trojnar Tom",
+                "link": "https://www.google.com/maps/contrib/107706602371452114999?hl=en",
+                "contributor_id": "107706602371452114999",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLJYPt4lDf2sm1rYAI4LK2I2k3WlS0pDMZi6lDsi3BM8KUk5g=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 5,
+                "photos": 0
+            },
+            "snippet": "Excellent food, spiced to perfection. Attentive, friendly owner. We ate here 3 times in a week\u2026just couldn\u2019t stay away.",
+            "extracted_snippet": {
+                "original": "Excellent food, spiced to perfection. Attentive, friendly owner. We ate here 3 times in a week\u2026just couldn\u2019t stay away."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "1 person, 2 people, 3-4 people"
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-23T13:28:36Z",
+                "iso_date_of_last_edit": "2025-06-23T13:28:36Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u4f55\u5ea6\u3082\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\uff01\uff01",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u4f55\u5ea6\u3082\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\uff01\uff01",
+                    "translated": "Thank you for visiting Mughal many times. We look forward to seeing you again!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VKREFuSWpuOGVxRUtREAE!2m1!1s0x0:0x85ae75672843498a!3m1!1s2@1:CIHM0ogKEJDAnIjn8eqEKQ%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 months ago",
+            "iso_date": "2025-06-04T10:12:03Z",
+            "iso_date_of_last_edit": "2025-06-04T10:12:03Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BE4i3Oj_PTyV-tkbQz-r85WYPAl8spGUJQd64fGKMaOMZu71aMhwqfuiQ0QU2K8c4aG8uO40wqm6OLPv402OCC_aw91c0Ms6v9YCXFe1pbTgfJOsrRH6pxlWXP0rQeRtyX3LW2"
+            ],
+            "source": "Google",
+            "review_id": "ChZDSUhNMG9nS0VKREFuSWpuOGVxRUtREAE",
+            "user": {
+                "name": "Murad Albalooshi",
+                "link": "https://www.google.com/maps/contrib/101455334445816602940?hl=en",
+                "contributor_id": "101455334445816602940",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUDXzRM38EM1qMiVzYMyZwxiZuwfdV7N3UwW3lRV94M2AE46TQ=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 38,
+                "photos": 28
+            },
+            "snippet": "Tasty food and wonderful hospitality",
+            "extracted_snippet": {
+                "original": "Tasty food and wonderful hospitality"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "3-4 people",
+                "wheelchair_accessibility": "Not available"
+            },
+            "response": {
+                "date": "2 months ago",
+                "iso_date": "2025-06-23T13:27:41Z",
+                "iso_date_of_last_edit": "2025-06-23T13:27:41Z",
+                "snippet": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                "extracted_snippet": {
+                    "original": "\u3053\u306e\u5ea6\u306f\u30e0\u30ac\u30eb\u306b\u3054\u6765\u5e97\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\uff01\n\u307e\u305f\u306e\u3054\u6765\u5e97\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\u3002",
+                    "translated": "Thank you for visiting Mughal!\nWe look forward to seeing you again."
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMnBHYTNSTFJWOWZSV2hDWW5BME5EbDZhRkE0YzI0MVNFRmpTVUZCUVVGQlIyZHVPVFJCVFVOaFRWZFRNRzlSV1VGRFNVRQ%3D%3D&num=20&place_id=ChIJ9zo0WrqNGGARiklDKGd1roU&sort_by=newestFirst",
+        "next_page_token": "CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMnBHYTNSTFJWOWZSV2hDWW5BME5EbDZhRkE0YzI0MVNFRmpTVUZCUVVGQlIyZHVPVFJCVFVOaFRWZFRNRzlSV1VGRFNVRQ=="
+    }
+}

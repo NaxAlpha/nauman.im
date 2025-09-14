@@ -1,0 +1,795 @@
+{
+    "search_metadata": {
+        "id": "68c63a123c99bab8e14e463b",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/63660c0db49482a3/68c63a123c99bab8e14e463b.json",
+        "created_at": "2025-09-14 03:44:18 UTC",
+        "processed_at": "2025-09-14 03:44:18 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/63660c0db49482a3/68c63a123c99bab8e14e463b.html",
+        "prettify_html_file": "https://serpapi.com/searches/63660c0db49482a3/68c63a123c99bab8e14e463b.prettify",
+        "total_time_taken": 0.6
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJH0nrnxCLGGARsXqyGA8eOlM",
+        "hl": "en",
+        "next_page_token": "CAESYENBRVFDQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkpEVkdwdmJGOWZSV2hFTVhSUVoyb3pRVTlZYWxkVWJGcFVZMEZCUVVGQlIyZG1YMEZ0WWtOVWFtOXNSMEZCYVVGQg==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2paclgzSXpWbGRIWjNBelJXRm1YM2haT0ZkTmVIYxAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOjZrX3IzVldHZ3AzRWFmX3hZOFdNeHc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T11:15:19Z",
+            "iso_date_of_last_edit": "2025-09-12T11:15:19Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paclgzSXpWbGRIWjNBelJXRm1YM2haT0ZkTmVIYxAB",
+            "user": {
+                "name": "Matt Rosenfeld",
+                "link": "https://www.google.com/maps/contrib/114448037443228131863?hl=en",
+                "contributor_id": "114448037443228131863",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXytOp-W_mXV6EHEhZ7mE7lgpSSJ_KZhvXVF7KC5e1LB9-5rSpu5g=s120-c-rp-mo-ba6-br100",
+                "local_guide": true,
+                "reviews": 491,
+                "photos": 1095
+            },
+            "snippet": "This place was a few doors away from our hotel and was a really pleasant experience! Excellent Wagyu entrees and the Yakiniku really added to the enjoyment of our party. We were seated in a private booth and had exceptional service from everyone we met at the restaurant. Highly recommended! @tsukiji, @Ginza @yakiniku @Japanese bbq @wagyu @halal",
+            "extracted_snippet": {
+                "original": "This place was a few doors away from our hotel and was a really pleasant experience! Excellent Wagyu entrees and the Yakiniku really added to the enjoyment of our party. We were seated in a private booth and had exceptional service from everyone we met at the restaurant. Highly recommended! @tsukiji, @Ginza @yakiniku @Japanese bbq @wagyu @halal"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "23 hours ago",
+                "iso_date": "2025-09-13T03:50:01Z",
+                "iso_date_of_last_edit": "2025-09-13T03:50:01Z",
+                "snippet": "Dear Matt,\nThank you kindly for your thoughtful review of Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen!\nWe are thrilled that our Wagyu dishes and yakiniku made your party even more enjoyable, and that our service left a positive impression.\nYour recommendation means a great deal to us, and we hope to welcome you again soon!",
+                "extracted_snippet": {
+                    "original": "Dear Matt,\nThank you kindly for your thoughtful review of Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen!\nWe are thrilled that our Wagyu dishes and yakiniku made your party even more enjoyable, and that our service left a positive impression.\nYour recommendation means a great deal to us, and we hope to welcome you again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tkTmJrRjNSbDlFVXpKemJVOURkbnBVV1dJMmJGRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOkdNbkF3Rl9EUzJzbU9DdnpUWWI2bFE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T11:12:46Z",
+            "iso_date_of_last_edit": "2025-09-12T11:12:46Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CXhDDU6e7ljavy62ZM5M-MZnYggHji7EnQoA17tLdAw3JhLJa3hfxSoijL0SqWEVyyEVVOXTMIcZIz8Zf_reTkx4TZ8wwoeKQsDWrVe_Cbg7or7uZVO0PejQ9A8SV1pCHdgh5i32y0jic",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BQ6n8tEdsKpsnECxTB3cznrlPdEow-gkQYbZ2bGMHCdqCUth6s_Wnp0ZYxpQOLbFZ0ghin0Hw_KE_aVzvmeCpdNFxPfx9P5eJPACiUrBBMA81fGm5cBol_7JYWhxowisHLrSbRGGeklz_X"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkTmJrRjNSbDlFVXpKemJVOURkbnBVV1dJMmJGRRAB",
+            "user": {
+                "name": "Absolute Zero",
+                "link": "https://www.google.com/maps/contrib/103615140197621581836?hl=en",
+                "contributor_id": "103615140197621581836",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW3ABmJf3CbPkt-d0HmV9zKRb4TrHmcgSfwVz_CGJeozPzW_FjL=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 2
+            },
+            "snippet": "Great atmosphere, high quality wagyu and lovely staff.",
+            "extracted_snippet": {
+                "original": "Great atmosphere, high quality wagyu and lovely staff."
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "Suitable for all group sizes",
+                "dietary_restrictions": "Halal certified"
+            },
+            "response": {
+                "date": "23 hours ago",
+                "iso_date": "2025-09-13T03:50:11Z",
+                "iso_date_of_last_edit": "2025-09-13T03:50:11Z",
+                "snippet": "Dear Absolute Zero,\nThank you very much for your generous review of Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen!\nWe are so pleased that you enjoyed the atmosphere, our Wagyu, and the service of our staff.\nProviding the best hospitality is always our goal, and we look forward to serving you again in the near future!",
+                "extracted_snippet": {
+                    "original": "Dear Absolute Zero,\nThank you very much for your generous review of Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen!\nWe are so pleased that you enjoyed the atmosphere, our Wagyu, and the service of our staff.\nProviding the best hospitality is always our goal, and we look forward to serving you again in the near future!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s5TGRYTlplRVJ3ZUVOSGNIbzRXakpLUTNkdlYxRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOk9LdXNZeERweENHcHo4WjJKQ3dvV1E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T11:10:25Z",
+            "iso_date_of_last_edit": "2025-09-12T11:10:25Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5TGRYTlplRVJ3ZUVOSGNIbzRXakpLUTNkdlYxRRAB",
+            "user": {
+                "name": "Tyler Rosenfeld",
+                "link": "https://www.google.com/maps/contrib/106331075012627894180?hl=en",
+                "contributor_id": "106331075012627894180",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIB-Lc2Z8pNwyqBOZkKRg4iotfR0a88ITvu3GtpcyAUspQmbA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 9,
+                "photos": 1
+            },
+            "snippet": "Lovely experience with wonderful wagyu",
+            "extracted_snippet": {
+                "original": "Lovely experience with wonderful wagyu"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a59,000\u201310,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "23 hours ago",
+                "iso_date": "2025-09-13T03:53:08Z",
+                "iso_date_of_last_edit": "2025-09-13T03:53:08Z",
+                "snippet": "Dear Tyler Rosenfeld,\nThank you very much for your generous review of Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen!\nWe are so pleased that you enjoyed the atmosphere, our Wagyu, and the service of our staff.\nProviding the best hospitality is always our goal, and we look forward to serving you again in the near future!",
+                "extracted_snippet": {
+                    "original": "Dear Tyler Rosenfeld,\nThank you very much for your generous review of Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen!\nWe are so pleased that you enjoyed the atmosphere, our Wagyu, and the service of our staff.\nProviding the best hospitality is always our goal, and we look forward to serving you again in the near future!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wdmVuSmpVRTl5ZDJwNWJrZ3pibXN5WHpaYVJsRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOmpvenJjUE9yd2p5bkgzbmsyXzZaRlE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T11:09:43Z",
+            "iso_date_of_last_edit": "2025-09-12T11:09:43Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wdmVuSmpVRTl5ZDJwNWJrZ3pibXN5WHpaYVJsRRAB",
+            "user": {
+                "name": "KC Wattenbarger",
+                "link": "https://www.google.com/maps/contrib/114014392096025565532?hl=en",
+                "contributor_id": "114014392096025565532",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjV7Tr94iTj1pGpjxKSfN9oTKwniDR-YoHAl5-WiM9obZg23n_ZUKg=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 44,
+                "photos": 151
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "2 people, 3-4 people"
+            },
+            "response": {
+                "date": "23 hours ago",
+                "iso_date": "2025-09-13T03:53:24Z",
+                "iso_date_of_last_edit": "2025-09-13T03:53:24Z",
+                "snippet": "Dear KC Wattenbarger,\nThank you very much for your generous review of Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen!\nWe are so pleased that you enjoyed the atmosphere, our Wagyu, and the service of our staff.\nProviding the best hospitality is always our goal, and we look forward to serving you again in the near future!",
+                "extracted_snippet": {
+                    "original": "Dear KC Wattenbarger,\nThank you very much for your generous review of Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen!\nWe are so pleased that you enjoyed the atmosphere, our Wagyu, and the service of our staff.\nProviding the best hospitality is always our goal, and we look forward to serving you again in the near future!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25OWFZrTm5jamxpWVhFd1JGQkRRa3hQT1hGalIxRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOnNXVkNncjliYXEwRFBDQkxPOXFjR1E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T06:59:43Z",
+            "iso_date_of_last_edit": "2025-09-12T06:59:43Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OWFZrTm5jamxpWVhFd1JGQkRRa3hQT1hGalIxRRAB",
+            "user": {
+                "name": "Rachael Bamgboye",
+                "link": "https://www.google.com/maps/contrib/101735968855361681144?hl=en",
+                "contributor_id": "101735968855361681144",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLbBaEqWtzpm84UTW-ffMc8cY89QzvQAEspVV-kTm6LuQdlGw=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 12,
+                "photos": 8
+            },
+            "snippet": "Amazing  wagyu burger! Very close to Tsukiji. Definitely recommend \u263a\ufe0f you won\u2019t be disappointed",
+            "extracted_snippet": {
+                "original": "Amazing  wagyu burger! Very close to Tsukiji. Definitely recommend \u263a\ufe0f you won\u2019t be disappointed"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "2 people"
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-09-13T00:55:40Z",
+                "iso_date_of_last_edit": "2025-09-13T00:55:40Z",
+                "snippet": "Hi, Rachael Bamgboye!\nThank you so much for recommending Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen! We are thrilled that you enjoyed our signature Wagyu burger so close to Tsukiji Ginza. Our team works hard to deliver not only authentic Japanese BBQ and Yakiniku, but also Halal-friendly dishes so that all guests can enjoy with peace of mind. Knowing that you found it \u201cabsolutely delicious\u201d and worth recommending means the world to us. We truly hope every visitor leaves satisfied, and we can\u2019t wait to welcome you back again for more Wagyu and Japanese BBQ!",
+                "extracted_snippet": {
+                    "original": "Hi, Rachael Bamgboye!\nThank you so much for recommending Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen! We are thrilled that you enjoyed our signature Wagyu burger so close to Tsukiji Ginza. Our team works hard to deliver not only authentic Japanese BBQ and Yakiniku, but also Halal-friendly dishes so that all guests can enjoy with peace of mind. Knowing that you found it \u201cabsolutely delicious\u201d and worth recommending means the world to us. We truly hope every visitor leaves satisfied, and we can\u2019t wait to welcome you back again for more Wagyu and Japanese BBQ!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21GSVFYSkJURzVTVDNOU0xYcDZiME5HYkZSVllYYxAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOmFIQXJBTG5ST3NSLXp6b0NGbFRVYXc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T04:36:35Z",
+            "iso_date_of_last_edit": "2025-09-12T04:36:35Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GSVFYSkJURzVTVDNOU0xYcDZiME5HYkZSVllYYxAB",
+            "user": {
+                "name": "Ron Ng",
+                "link": "https://www.google.com/maps/contrib/106799570895276649835?hl=en",
+                "contributor_id": "106799570895276649835",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIolZgyI7-gNOOoEncd6R3hGYEqWbMb5blh_KMj4egbk8TkWA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 1
+            },
+            "snippet": "Service was very great. Good for English speakers to come to this restaurant to eat.",
+            "extracted_snippet": {
+                "original": "Service was very great. Good for English speakers to come to this restaurant to eat."
+            },
+            "details": {
+                "service": 5,
+                "food": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-09-13T00:55:17Z",
+                "iso_date_of_last_edit": "2025-09-13T00:55:17Z",
+                "snippet": "Hi, Ron Ng!\nThank you for sharing such kind words about Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen! We are delighted to know you found our service wonderful, and we are especially happy that English-speaking guests can feel comfortable and enjoy their dining experience here in Tsukiji Ginza. Our team is proud to serve authentic Wagyu and Japanese BBQ in a Halal-friendly way, ensuring every guest can enjoy Yakiniku with peace of mind. Your warm feedback motivates us to keep providing great hospitality, and we look forward to welcoming you back again soon!",
+                "extracted_snippet": {
+                    "original": "Hi, Ron Ng!\nThank you for sharing such kind words about Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen! We are delighted to know you found our service wonderful, and we are especially happy that English-speaking guests can feel comfortable and enjoy their dining experience here in Tsukiji Ginza. Our team is proud to serve authentic Wagyu and Japanese BBQ in a Halal-friendly way, ensuring every guest can enjoy Yakiniku with peace of mind. Your warm feedback motivates us to keep providing great hospitality, and we look forward to welcoming you back again soon!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pRNVRGRmZaSE5aVUdwWU9HbzRTRlo1UjJaM0xYYxAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOjQ5TFFfZHNZUGpYOGo4SFZ5R2Z3LXc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T04:34:43Z",
+            "iso_date_of_last_edit": "2025-09-12T04:34:43Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AzjtlT3aRiES1FNvO0liUS5waVBEzlhCt-wffJAAm8ZGl6Xf-j1F1CsfEG7wDpcqEgay2gtXA_q6DnZyL5HnNeJzCGJyU4eCKv15ia4sHS0nlcqjOAhPYh-N3od9TOHKQPkluNB1QyFpQq",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90B2db2UTdqMyzBD0yRLoDpY5rVZXvgK0kqVq26lun7kMbTPVEc54h-LhydheLWwkqlpyFv-zuBARcHKqElK54rN1-IU7T3nxHQHjjZQEUqrIPz_VuavOB9Nvxanw8hKI_RIUduLesXH3V0M"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRNVRGRmZaSE5aVUdwWU9HbzRTRlo1UjJaM0xYYxAB",
+            "user": {
+                "name": "Susan Neo",
+                "link": "https://www.google.com/maps/contrib/107183136472210859980?hl=en",
+                "contributor_id": "107183136472210859980",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ6wsxkyl5zmz55SHIcSWfeu3wBtldGZsOm6erLVoBf8yxQeQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 0,
+                "photos": 3
+            },
+            "snippet": "2nd time I am at this restaurant, food is really nice",
+            "extracted_snippet": {
+                "original": "2nd time I am at this restaurant, food is really nice"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a58,000\u20139,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-09-13T00:54:57Z",
+                "iso_date_of_last_edit": "2025-09-13T00:54:57Z",
+                "snippet": "Hi, Susan Neo!\nThank you so much for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen for the second time! We are truly honored that you enjoyed our Wagyu and Japanese BBQ again here in Tsukiji Ginza, and we greatly appreciate your kind 5-star ratings for food, service, and atmosphere. Your shared photos beautifully captured the warm dining experience, and we are happy that your group of 4 enjoyed a wonderful lunch together. Providing Halal-friendly dishes with authentic flavors is our passion, and we can\u2019t wait to welcome you back for another special Yakiniku experience!",
+                "extracted_snippet": {
+                    "original": "Hi, Susan Neo!\nThank you so much for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen for the second time! We are truly honored that you enjoyed our Wagyu and Japanese BBQ again here in Tsukiji Ginza, and we greatly appreciate your kind 5-star ratings for food, service, and atmosphere. Your shared photos beautifully captured the warm dining experience, and we are happy that your group of 4 enjoyed a wonderful lunch together. Providing Halal-friendly dishes with authentic flavors is our passion, and we can\u2019t wait to welcome you back for another special Yakiniku experience!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT200ME5tdFRVRXR4VWtOdU1FZ3RSR2xXTXpaMFRrRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOm40NmtTUEtxUkNuMEgtRGlWMzZ0TkE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T04:34:07Z",
+            "iso_date_of_last_edit": "2025-09-12T04:34:07Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT200ME5tdFRVRXR4VWtOdU1FZ3RSR2xXTXpaMFRrRRAB",
+            "user": {
+                "name": "Raiden Goh",
+                "link": "https://www.google.com/maps/contrib/110880482867941382536?hl=en",
+                "contributor_id": "110880482867941382536",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVoN54hkZHQJ-3vn3h7tlV4l8yzLWr6m6bumHlh3auu5yTvm6Q=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 0
+            },
+            "snippet": "The food was so \u7f8e\u5473\u3057\u3044n the service is best",
+            "extracted_snippet": {
+                "original": "The food was so \u7f8e\u5473\u3057\u3044n the service is best",
+                "translated": "The food was so delicious and the service is best"
+            },
+            "details": {
+                "service": 5,
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-09-13T00:54:35Z",
+                "iso_date_of_last_edit": "2025-09-13T00:54:35Z",
+                "snippet": "Hi, Raiden Goh!\nThank you very much for your kind feedback! We are so happy to know you enjoyed both the food and service at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen. Offering authentic Japanese BBQ with premium Wagyu in Tsukiji Ginza, along with a Halal-friendly menu, is our mission. We are glad your group of 4 had a wonderful lunch experience, and we truly appreciate your 5-star ratings for food, service, and atmosphere. We look forward to welcoming you again for more Yakiniku and delicious dishes!",
+                "extracted_snippet": {
+                    "original": "Hi, Raiden Goh!\nThank you very much for your kind feedback! We are so happy to know you enjoyed both the food and service at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen. Offering authentic Japanese BBQ with premium Wagyu in Tsukiji Ginza, along with a Halal-friendly menu, is our mission. We are glad your group of 4 had a wonderful lunch experience, and we truly appreciate your 5-star ratings for food, service, and atmosphere. We look forward to welcoming you again for more Yakiniku and delicious dishes!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2twMWRHaGtSekpIV2trNGNHTlVNMk10V0VkdlFrRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOkp1dGhkRzJHWkk4cGNUM2MtWEdvQkE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a day ago",
+            "iso_date": "2025-09-12T04:32:43Z",
+            "iso_date_of_last_edit": "2025-09-12T04:32:43Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twMWRHaGtSekpIV2trNGNHTlVNMk10V0VkdlFrRRAB",
+            "user": {
+                "name": "Ajmal Ahmed",
+                "link": "https://www.google.com/maps/contrib/107554948445423638688?hl=en",
+                "contributor_id": "107554948445423638688",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocINiPWTwnZc69SwTYpwpQVc0rJV2DRWBZRp1mbSgx2pSYdG2A=s120-c-rp-mo-br100",
+                "reviews": 4,
+                "photos": 0
+            },
+            "snippet": "It's really very tasty and nice full filling food and will recommend to eat \u263a\ufe0f",
+            "extracted_snippet": {
+                "original": "It's really very tasty and nice full filling food and will recommend to eat \u263a\ufe0f"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-09-13T00:53:59Z",
+                "iso_date_of_last_edit": "2025-09-13T00:53:59Z",
+                "snippet": "Hi, Mr. Ajmal Ahmed!\nThank you so much for your wonderful review! We are delighted to hear that you enjoyed our food at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen. Serving premium Wagyu in an authentic Japanese BBQ style here in Tsukiji Ginza is our pride, and we are happy that our Halal-friendly menu could satisfy your appetite. We truly appreciate your kind recommendation and look forward to welcoming you again soon for more delicious Yakiniku and unique flavors!",
+                "extracted_snippet": {
+                    "original": "Hi, Mr. Ajmal Ahmed!\nThank you so much for your wonderful review! We are delighted to hear that you enjoyed our food at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen. Serving premium Wagyu in an authentic Japanese BBQ style here in Tsukiji Ginza is our pride, and we are happy that our Halal-friendly menu could satisfy your appetite. We truly appreciate your kind recommendation and look forward to welcoming you again soon for more delicious Yakiniku and unique flavors!"
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sUlgyc3plRzFoWlRGTmFHWmpMVVpVYVVOalZrRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOnlRX2szeG1hZTFNaGZjLUZUaUNjVkE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T05:00:59Z",
+            "iso_date_of_last_edit": "2025-09-11T05:00:59Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CabKqaLNPMx6nwWTWWszwsLRXkwy0Q-vFMRj-MhfBbIMfVD1LA1ZaKtMIfRrDAdwTOSnVP8N5rY1TiKUdpYrZ0uZzdn4-_keFjBNfGcOVBcq6yOE2K9kWgNtdtJ80PSK1jvOG6qlALpxrK"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sUlgyc3plRzFoWlRGTmFHWmpMVVpVYVVOalZrRRAB",
+            "user": {
+                "name": "Kantore",
+                "link": "https://www.google.com/maps/contrib/111054395319069434845?hl=en",
+                "contributor_id": "111054395319069434845",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWW65Kdja3iuh0v2RuM0CxLNpuLST05hBYLj6BfMkq9XYSuSmpk=s120-c-rp-mo-ba3-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "snippet": "A hidden gem for trying out Wagyu in Ginza. They offer Burgers and Yakiniku, which taste amazing.\n\nService is very forthcoming and speaks english.",
+            "extracted_snippet": {
+                "original": "A hidden gem for trying out Wagyu in Ginza. They offer Burgers and Yakiniku, which taste amazing.\n\nService is very forthcoming and speaks english."
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-12T03:03:49Z",
+                "iso_date_of_last_edit": "2025-09-12T03:03:49Z",
+                "snippet": "Dear Kantore,\nThank you very much for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are delighted you enjoyed both our Wagyu hamburger and yakiniku, and that our English-friendly service made your time with us comfortable.\nYour kind feedback is greatly appreciated, and we look forward to welcoming you again soon.",
+                "extracted_snippet": {
+                    "original": "Dear Kantore,\nThank you very much for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are delighted you enjoyed both our Wagyu hamburger and yakiniku, and that our English-friendly service made your time with us comfortable.\nYour kind feedback is greatly appreciated, and we look forward to welcoming you again soon."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pJMVpuRlBSRmg0YWxKbVoyVmZaMVpIVGpWck5WRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOjI1ZnFPRFh4alJmZ2VfZ1ZHTjVrNVE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "2 days ago",
+            "iso_date": "2025-09-11T03:50:39Z",
+            "iso_date_of_last_edit": "2025-09-11T03:50:39Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pJMVpuRlBSRmg0YWxKbVoyVmZaMVpIVGpWck5WRRAB",
+            "user": {
+                "name": "Zahra Khan",
+                "link": "https://www.google.com/maps/contrib/108116963401774470826?hl=en",
+                "contributor_id": "108116963401774470826",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVLyO7r5M6QiCcnBqOkbel08-cHqvCqZkHF-68Ld4wbkBKYeNA=s120-c-rp-mo-br100",
+                "reviews": 12,
+                "photos": 0
+            },
+            "snippet": "Most amazing mouth watering wagyu in Tsukji, Ginza and service was amazing too!!! Great Japanese BBQ and it was halal :)",
+            "extracted_snippet": {
+                "original": "Most amazing mouth watering wagyu in Tsukji, Ginza and service was amazing too!!! Great Japanese BBQ and it was halal :)"
+            },
+            "details": {
+                "price_per_person": "\u00a510,000+",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Varies by time / day",
+                "noise_level": "Very quiet",
+                "group_size": "2 people",
+                "dietary_restrictions": "Halal"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-12T03:05:33Z",
+                "iso_date_of_last_edit": "2025-09-12T03:05:33Z",
+                "snippet": "Dear Zahra,\nThank you for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nIt makes us so happy to know that our Wagyu and halal-friendly Japanese BBQ left such a strong impression.\nYour encouraging words mean a lot to our staff, and we hope you will visit us again whenever you are in Tokyo.",
+                "extracted_snippet": {
+                    "original": "Dear Zahra,\nThank you for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nIt makes us so happy to know that our Wagyu and halal-friendly Japanese BBQ left such a strong impression.\nYour encouraging words mean a lot to our staff, and we hope you will visit us again whenever you are in Tokyo."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s5S2VYQlRXRmQwTkRGT01IUTNaRUZDUkZWemRrRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOk9KeXBTWFd0NDFOMHQ3ZEFCRFVzdkE%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T12:59:58Z",
+            "iso_date_of_last_edit": "2025-09-10T12:59:58Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5S2VYQlRXRmQwTkRGT01IUTNaRUZDUkZWemRrRRAB",
+            "user": {
+                "name": "S bin omair",
+                "link": "https://www.google.com/maps/contrib/111118089672798694070?hl=en",
+                "contributor_id": "111118089672798694070",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUQSqulaaUBjLm-qyX76nshR9LhEEQ_5kRvN-L37fWkV-MDiDBk=s120-c-rp-mo-br100",
+                "reviews": 5,
+                "photos": 2533
+            },
+            "details": {
+                "food": 4,
+                "service": 4,
+                "atmosphere": 4
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-09-12T06:35:43Z",
+                "iso_date_of_last_edit": "2025-09-12T06:35:43Z",
+                "snippet": "Thank you so much for your kind words! We are truly honored you consider our burger the best in Japan. At Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen, we take pride in serving tender and flavorful Wagyu, authentic Yakiniku, and Halal-friendly Japanese BBQ. We are delighted you enjoyed your time in Tsukiji Ginza and look forward to welcoming you again with our signature Wagyu burger and warm hospitality.",
+                "extracted_snippet": {
+                    "original": "Thank you so much for your kind words! We are truly honored you consider our burger the best in Japan. At Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen, we take pride in serving tender and flavorful Wagyu, authentic Yakiniku, and Halal-friendly Japanese BBQ. We are delighted you enjoyed your time in Tsukiji Ginza and look forward to welcoming you again with our signature Wagyu burger and warm hospitality."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pocU0zVmhVamRTVnpCWWJXRXlRWEJuU0hCYWNHYxAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOjhqM3VhUjdSVzBYbWEyQXBnSHBacGc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T12:46:40Z",
+            "iso_date_of_last_edit": "2025-09-10T12:46:40Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CdLDKS30g1ckBJk4oFMPtCoMrFyBJee7kQ33BOE0mlj3uMCHDfIVaarbKFSBLyMGZemzpPS4KJuYXjqfGlyR03-l55xqRxKxEuXzQMMpWqcaq8IZXfDhCaAdCAwrIXynHV2ZTT-TjMqwB3",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90ChZmJ6F5KkRHX4Kxfou0SFEmhkbMujdnJSxbaQgDDjVpW6khZjynyskcFI1PeXXCpi1MQ5chx2gVmzOYvubWOSpHsXdQOWkIlT6SPYNXdaLHPiGQGohKYTA2HghpDpjAeiE3VWUa9-n9xR"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pocU0zVmhVamRTVnpCWWJXRXlRWEJuU0hCYWNHYxAB",
+            "user": {
+                "name": "Sara Bandr",
+                "link": "https://www.google.com/maps/contrib/114222528210398035825?hl=en",
+                "contributor_id": "114222528210398035825",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVKZXr3UIAvlQH24TJMjU7OZm4lUMkYCml--M624i-0U3wcQnxO=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 2
+            },
+            "snippet": "The best burger in japan \ud83c\uddef\ud83c\uddf5\ud83e\udd0d\ud83e\udd0d",
+            "extracted_snippet": {
+                "original": "The best burger in japan \ud83c\uddef\ud83c\uddf5\ud83e\udd0d\ud83e\udd0d"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-12T03:06:00Z",
+                "iso_date_of_last_edit": "2025-09-12T03:06:00Z",
+                "snippet": "Dear Sara,\nThank you for coming to Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are honored that you consider our hamburger the best in Japan.\nYour praise truly inspires us, and we can\u2019t wait to serve you again.",
+                "extracted_snippet": {
+                    "original": "Dear Sara,\nThank you for coming to Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are honored that you consider our hamburger the best in Japan.\nYour praise truly inspires us, and we can\u2019t wait to serve you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21wbmFITjRaR0ZFWjFKaVZsVkdWM04yTFRRd1FWRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOmpnaHN4ZGFEZ1JiVlVGV3N2LTQwQVE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T12:15:42Z",
+            "iso_date_of_last_edit": "2025-09-10T12:15:42Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wbmFITjRaR0ZFWjFKaVZsVkdWM04yTFRRd1FWRRAB",
+            "user": {
+                "name": "Azoz Mhboub",
+                "link": "https://www.google.com/maps/contrib/107278351078380127845?hl=en",
+                "contributor_id": "107278351078380127845",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL3gxJcAtebrSXlrnDciW0JRLUpQvNQyn6C_7GC7zIhdSSdhQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 3
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a day ago",
+                "iso_date": "2025-09-12T06:35:51Z",
+                "iso_date_of_last_edit": "2025-09-12T06:35:51Z",
+                "snippet": "Thank you very much for your wonderful feedback! We are so happy to hear that you enjoyed the finest Wagyu and excellent service at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen. It is our honor to provide authentic Japanese BBQ and Yakiniku in Tsukiji Ginza with Halal options so that everyone can enjoy the experience. We look forward to welcoming you back again soon for more Wagyu and warm hospitality.",
+                "extracted_snippet": {
+                    "original": "Thank you very much for your wonderful feedback! We are so happy to hear that you enjoyed the finest Wagyu and excellent service at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen. It is our honor to provide authentic Japanese BBQ and Yakiniku in Tsukiji Ginza with Halal options so that everyone can enjoy the experience. We look forward to welcoming you back again soon for more Wagyu and warm hospitality."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0aE5qVkhieTFSYnpSM2RGOUxaMXBST0VabmJVRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOkthNjVHby1RbzR3dF9LZ1pROEZnbUE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T08:21:06Z",
+            "iso_date_of_last_edit": "2025-09-10T08:21:06Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90C7939ms6bRTBLdrzn54Ybit2enGU9v3v3yJZJTAGo-IzahPAvMZ9Y6J-7VmvD1iTmwCNinmGju1-DzWxRyJVL85AvAvbH4dCGEZnaxMJtfRrXxSPfI9GZPIQuT5gZW5GNipDWjF31H1HG0"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0aE5qVkhieTFSYnpSM2RGOUxaMXBST0VabmJVRRAB",
+            "user": {
+                "name": "CallMe RoDaGu",
+                "link": "https://www.google.com/maps/contrib/116449078081271848159?hl=en",
+                "contributor_id": "116449078081271848159",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKSPlIem31V7IaMpUIj_AymXWo_0kVja08sw4DWF3Kh3MVzmQ=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "snippet": "Very good food and great service",
+            "extracted_snippet": {
+                "original": "Very good food and great service"
+            },
+            "details": {
+                "price_per_person": "\u00a59,000\u201310,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required",
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "2 people, 3-4 people"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-12T03:32:36Z",
+                "iso_date_of_last_edit": "2025-09-12T03:32:36Z",
+                "snippet": "Dear RoDaGu,\nThank you kindly for dining at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are pleased to know you enjoyed the food as well as our service.\nYour support encourages us, and we look forward to welcoming you again.",
+                "extracted_snippet": {
+                    "original": "Dear RoDaGu,\nThank you kindly for dining at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are pleased to know you enjoyed the food as well as our service.\nYour support encourages us, and we look forward to welcoming you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0VlVscEVjMGw2U2xSQmNqVk1TaTFXUlVGdmVGRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOktVUlpEc0l6SlRBcjVMSi1WRUFveFE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T08:20:59Z",
+            "iso_date_of_last_edit": "2025-09-10T08:20:59Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A1QKJqUXJo-zrxKoz95BZgNwv5asQClLrlPtAsmvvtdilfs2JxtIh1VnUSA-i_ocLUSz5NlIPmnIcryIsge2gLbCjKhnNCuiaFCOK7B23mkXEaL0l7y--jrASy2POq-7_UMOxTZJjPBog0",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AsB1q0iBhbIKWGnA2AJvmPOgyWpRp3K_Fyg6nxQUgQmeuIGCMr98gWDSXBTb5BNqPNJEFkfoNylAf-SpzPYn072zxhzbg50wyDY9AIuBLiGbjz1aLr7_qUfafBta7AapsM6yo0ZSoFaBbq"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0VlVscEVjMGw2U2xSQmNqVk1TaTFXUlVGdmVGRRAB",
+            "user": {
+                "name": "Kris Guntli",
+                "link": "https://www.google.com/maps/contrib/104297286308554633522?hl=en",
+                "contributor_id": "104297286308554633522",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWlpXEhVLSfYpSm7hJM1U1n-l7DfKsbKpKCrrgrGjS-I0QlqyE=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 3
+            },
+            "snippet": "\"Very fine restaurant.. the service was very friendly and we felt very welcome. The Waygu meat was delicate as butter and extremely delicious... highly recommended to everyone and would come right back.",
+            "extracted_snippet": {
+                "original": "\"Very fine restaurant.. the service was very friendly and we felt very welcome. The Waygu meat was delicate as butter and extremely delicious... highly recommended to everyone and would come right back."
+            },
+            "details": {
+                "price_per_person": "\u00a59,000\u201310,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required",
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "2 people, 3-4 people"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-12T03:32:27Z",
+                "iso_date_of_last_edit": "2025-09-12T03:32:27Z",
+                "snippet": "Dear Kris,\nThank you so much for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are thrilled that our Wagyu and the warmth of our team made your time with us special.\nYour description of our beef as \u201cbuttery and delicate\u201d means a lot, and we would love to welcome you back very soon.",
+                "extracted_snippet": {
+                    "original": "Dear Kris,\nThank you so much for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are thrilled that our Wagyu and the warmth of our team made your time with us special.\nYour description of our beef as \u201cbuttery and delicate\u201d means a lot, and we would love to welcome you back very soon."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tOUFNFTnZOM0pJZEhRMmNUVmZiVEJCT1daRFptYxAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOkNPSENvN3JIdHQ2cTVfbTBBOWZDZmc%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T06:05:26Z",
+            "iso_date_of_last_edit": "2025-09-10T06:05:26Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOUFNFTnZOM0pJZEhRMmNUVmZiVEJCT1daRFptYxAB",
+            "user": {
+                "name": "Andrea Lecoutre",
+                "link": "https://www.google.com/maps/contrib/114960618118739251782?hl=en",
+                "contributor_id": "114960618118739251782",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKpcweNDKiMZns_mHaUFxsxe9GqnBqwwVI2I3uX25HW36ey_Q=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "Great spot in OTsukiji, close to Ginza! I went to @Yakiniku for some Japanese BBQ and it did not disappoint. The Wagyu was top quality and melted in the mouth. They also have (Halal) options which is a big plus. Super convenient location, just near the tsuki market, so it was easy to get to. Definitely a place I\u2019d go back to!",
+            "extracted_snippet": {
+                "original": "Great spot in OTsukiji, close to Ginza! I went to @Yakiniku for some Japanese BBQ and it did not disappoint. The Wagyu was top quality and melted in the mouth. They also have (Halal) options which is a big plus. Super convenient location, just near the tsuki market, so it was easy to get to. Definitely a place I\u2019d go back to!"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-12T03:32:16Z",
+                "iso_date_of_last_edit": "2025-09-12T03:32:16Z",
+                "snippet": "Dear Andrea,\nThank you for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are glad you enjoyed our premium Wagyu and that our location near Tsukiji was convenient for you.\nIt is also wonderful to know that our halal options added to your experience.\nWe hope to welcome you back again whenever you return to the area.",
+                "extracted_snippet": {
+                    "original": "Dear Andrea,\nThank you for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are glad you enjoyed our premium Wagyu and that our location near Tsukiji was convenient for you.\nIt is also wonderful to know that our halal options added to your experience.\nWe hope to welcome you back again whenever you return to the area."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2sxdFkydGFSM3BGTFZJMVVrOUxVRTFtVm5wd2FFRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOk1tY2taR3pFLVI1Uk9LUE1mVnpwaEE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T06:01:44Z",
+            "iso_date_of_last_edit": "2025-09-10T06:01:44Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DPGGKaUb7EGB6Utm33V_qHVGqMJuOEk3M_iPbYPwIZ_kK0sVNHt93iQZubor-ULkJiuSz9yz4ZOOw6b0t9xvcdl8AJ-ep1mFFXfQXLNdgkIhhkRqsUNft1C__j1svq9dQxoDqdDv6dKfuM"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxdFkydGFSM3BGTFZJMVVrOUxVRTFtVm5wd2FFRRAB",
+            "user": {
+                "name": "Eloi PARENT",
+                "link": "https://www.google.com/maps/contrib/112938160441458233194?hl=en",
+                "contributor_id": "112938160441458233194",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKcMZRtxUjEQBa6jzgBz1XN6ibg08fKnnCgKF9ceLI_SQmVwqx6=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 1
+            },
+            "snippet": "Amazing restaurant in Tsukiji, just minutes from Ginza! The yakiniku and Japanese BBQ wagyu were outstanding \u2014 tender, flavorful, and perfectly cooked. Great halal option with friendly service. Highly recommend for anyone craving authentic wagyu in Tokyo!",
+            "extracted_snippet": {
+                "original": "Amazing restaurant in Tsukiji, just minutes from Ginza! The yakiniku and Japanese BBQ wagyu were outstanding \u2014 tender, flavorful, and perfectly cooked. Great halal option with friendly service. Highly recommend for anyone craving authentic wagyu in Tokyo!"
+            },
+            "details": {
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "group_size": "1 person"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-12T03:32:07Z",
+                "iso_date_of_last_edit": "2025-09-12T03:32:07Z",
+                "snippet": "Dear Eloi,\nThank you very much for joining us at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are delighted you enjoyed our BBQ Wagyu and halal-friendly service.\nYour kind recommendation is deeply appreciated, and we would be very happy to serve you again.",
+                "extracted_snippet": {
+                    "original": "Dear Eloi,\nThank you very much for joining us at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are delighted you enjoyed our BBQ Wagyu and halal-friendly service.\nYour kind recommendation is deeply appreciated, and we would be very happy to serve you again."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xoWGFuSTFkbFZRVjBkUWRuQlRUalozVWt3MVZsRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOlhXanI1dlVQV0dQdnBTTjZ3Ukw1VlE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T04:50:11Z",
+            "iso_date_of_last_edit": "2025-09-10T04:50:11Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DFRXfkB3v8HzIkvkS8ubwk8xpqsJOXQ_zf0JAcqCa84OUA5xGvMEGfDyAoep2X1SOW9jHRwDAZtYYJkO5pUknycHi7b9lQhbNKsRZ61UFpF29-Ap6vWjCQBTaL2fLrz7b1OAdMZ1E4mvV-"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoWGFuSTFkbFZRVjBkUWRuQlRUalozVWt3MVZsRRAB",
+            "user": {
+                "name": "Alex Bullock",
+                "link": "https://www.google.com/maps/contrib/105524170437488328888?hl=en",
+                "contributor_id": "105524170437488328888",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU6ydjnQ3GQNEgrb7yGS2cdZ9YDzoamr2FWz28fRFNLAnbN_v7B=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 1
+            },
+            "snippet": "Had an amazing meal at this spot in Tsukiji right next to the market! They had amazing wagyu burgers and the friendliest staff. Would recommend!!",
+            "extracted_snippet": {
+                "original": "Had an amazing meal at this spot in Tsukiji right next to the market! They had amazing wagyu burgers and the friendliest staff. Would recommend!!"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-12T03:31:04Z",
+                "iso_date_of_last_edit": "2025-09-12T03:31:04Z",
+                "snippet": "Dear Alex,\nThank you for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are very pleased to hear that you enjoyed our Wagyu burger and that our friendly staff made you feel welcome.\nYour recommendation means a lot, and we look forward to seeing you again soon.",
+                "extracted_snippet": {
+                    "original": "Dear Alex,\nThank you for visiting Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are very pleased to hear that you enjoyed our Wagyu burger and that our friendly staff made you feel welcome.\nYour recommendation means a lot, and we look forward to seeing you again soon."
+                }
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21GV1QwbHliV3AxTW5nd1gyZHNWamh1YTJsVGJFRRAB!2m1!1s0x0:0x533a1e0f18b27ab1!3m1!1s2@1:CAIQACodChtycF9oOmFWT0lybWp1MngwX2dsVjhua2lTbEE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T04:49:50Z",
+            "iso_date_of_last_edit": "2025-09-10T04:49:50Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GV1QwbHliV3AxTW5nd1gyZHNWamh1YTJsVGJFRRAB",
+            "user": {
+                "name": "fikret arda kundak",
+                "link": "https://www.google.com/maps/contrib/109273938238969824427?hl=en",
+                "contributor_id": "109273938238969824427",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJIQJI-MX8IAA5HmoLHOLOwy-GLIOPiZ6JkiP1C770Z1F6p-g=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 1,
+                "photos": 0
+            },
+            "snippet": "We were around tsukiji ginza, we found out this place is specified its halal. Wagyu burgers were so good. I recommend.",
+            "extracted_snippet": {
+                "original": "We were around tsukiji ginza, we found out this place is specified its halal. Wagyu burgers were so good. I recommend."
+            },
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Walk-ins only",
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "2 days ago",
+                "iso_date": "2025-09-12T03:30:53Z",
+                "iso_date_of_last_edit": "2025-09-12T03:30:53Z",
+                "snippet": "Dear Fikret,\nThank you for dining with us at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are glad you enjoyed the Wagyu burger and appreciated our halal designation.\nYour thoughtful review is greatly valued, and we hope you will visit us again.",
+                "extracted_snippet": {
+                    "original": "Dear Fikret,\nThank you for dining with us at Wagyu Japanese BBQ Yakiniku (Halal) & Hamburger Ramen Tsukiji Ginza Restaurant Zen.\nWe are glad you enjoyed the Wagyu burger and appreciated our halal designation.\nYour thoughtful review is greatly valued, and we hope you will visit us again."
+                }
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkpQUTNCaE1WOWZSV2hCVDBreGJsRndNek5KWjB0Q1pFZEZORUZCUVVGQlIyZG1YMEZ0WWs5RGNHRXhSMEZCYVVGQg%3D%3D&num=20&place_id=ChIJH0nrnxCLGGARsXqyGA8eOlM&sort_by=newestFirst",
+        "next_page_token": "CAESYENBRVFIQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkpQUTNCaE1WOWZSV2hCVDBreGJsRndNek5KWjB0Q1pFZEZORUZCUVVGQlIyZG1YMEZ0WWs5RGNHRXhSMEZCYVVGQg=="
+    }
+}

@@ -1,0 +1,611 @@
+{
+    "search_metadata": {
+        "id": "68c63a4795a6942e920d43ba",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/446ceb4c51bc2584/68c63a4795a6942e920d43ba.json",
+        "created_at": "2025-09-14 03:45:11 UTC",
+        "processed_at": "2025-09-14 03:45:11 UTC",
+        "google_maps_reviews_url": "https://www.google.com/maps/place/data=!4m7!3m6!1s!5m2!4m1!1i2!9m1!1b1?hl=en&gl=",
+        "raw_html_file": "https://serpapi.com/searches/446ceb4c51bc2584/68c63a4795a6942e920d43ba.html",
+        "prettify_html_file": "https://serpapi.com/searches/446ceb4c51bc2584/68c63a4795a6942e920d43ba.prettify",
+        "total_time_taken": 0.84
+    },
+    "search_parameters": {
+        "engine": "google_maps_reviews",
+        "place_id": "ChIJA_VeYVCPGGAREHZYji0Bk60",
+        "hl": "en",
+        "next_page_token": "CAESYENBRVFDQnBDUTJrNFNVRlNTVzVEWjI5QlVEY3lSMkpKTTBac1FsOWZSV2hDY0VkWmQzVXpWR3B2VUdjeFlXZHhkMEZCUVVGQlIyZG1YMEZ0WWtrelJteENSMEZCYVVGQg==",
+        "num": "20",
+        "sort_by": "newestFirst"
+    },
+    "reviews": [
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w5RE1rMVRaWHBCWm01alprUnlUR1pSYkVWR1IzYxAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOl9DMk1TZXpBZm5jZkRyTGZRbEVGR3c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "3 days ago",
+            "iso_date": "2025-09-10T09:18:43Z",
+            "iso_date_of_last_edit": "2025-09-10T09:18:43Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5RE1rMVRaWHBCWm01alprUnlUR1pSYkVWR1IzYxAB",
+            "user": {
+                "name": "Ahmed Hamed",
+                "link": "https://www.google.com/maps/contrib/108344863071176678353?hl=en",
+                "contributor_id": "108344863071176678353",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW7p6K1PQWlYc5oitCCml39AeGKJf-PVIu74JOFGs5f_mIiinAX=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 2,
+                "photos": 3
+            },
+            "snippet": "Delicious Ramen and amazing atmosphere and the service was top notch",
+            "extracted_snippet": {
+                "original": "Delicious Ramen and amazing atmosphere and the service was top notch"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tKT1ZqQjJZM0pFTWxGcFZtUkxXbDgzWTJKaFVGRRAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOkJOVjB2Y3JEMlFpVmRLWl83Y2JhUFE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 days ago",
+            "iso_date": "2025-09-09T12:44:56Z",
+            "iso_date_of_last_edit": "2025-09-09T12:45:38Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKT1ZqQjJZM0pFTWxGcFZtUkxXbDgzWTJKaFVGRRAB",
+            "user": {
+                "name": "In\u00e8s Boukhlouf",
+                "link": "https://www.google.com/maps/contrib/109316338064418514395?hl=en",
+                "contributor_id": "109316338064418514395",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXdQbgdPA8TOfiSHGwWwydY113GjltlJ6_r3x2yjQSDMTg7YRSm=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 8,
+                "photos": 0
+            },
+            "snippet": "Incredible curry place, I wished I had many other stomachs so I could eat some forever! Also, the staff is very sweet even when they\u2019re in a rush. Speaking of rush, be prepared to wait a bit since they\u2019re victims of their success :)",
+            "extracted_snippet": {
+                "original": "Incredible curry place, I wished I had many other stomachs so I could eat some forever! Also, the staff is very sweet even when they\u2019re in a rush. Speaking of rush, be prepared to wait a bit since they\u2019re victims of their success :)"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "group_size": "1 person, 2 people, 3-4 people"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201SGEyTXdZMjVyV21Ga04wUk9jRXMyU21ab1RuYxAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOm5Ha2MwY25rWmFkN0ROcEs2SmZoTnc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "4 days ago",
+            "iso_date": "2025-09-09T04:06:24Z",
+            "iso_date_of_last_edit": "2025-09-09T04:06:24Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201SGEyTXdZMjVyV21Ga04wUk9jRXMyU21ab1RuYxAB",
+            "user": {
+                "name": "Kevin Pinks",
+                "link": "https://www.google.com/maps/contrib/116251179484556379330?hl=en",
+                "contributor_id": "116251179484556379330",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUQXAzf6qagYrmcH_roBq4KTAVG32bhUtVFULmaE3a1evKzYFw=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 14,
+                "photos": 3
+            },
+            "snippet": "Das beste japanische Curry was ich bis jetzt gegessen haben.\nDie die chicken rice bowle auch sehr zu empfehlen.",
+            "extracted_snippet": {
+                "original": "Das beste japanische Curry was ich bis jetzt gegessen haben.\nDie die chicken rice bowle auch sehr zu empfehlen.",
+                "translated": "The best Japanese curry I've ever eaten.\nThe chicken rice bowl is also highly recommended."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tSaFRuSkpNVVJzYVVGZlZ6bG9PSGszY0hob05WRRAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOkRhTnJJMURsaUFfVzloOHk3cHhoNVE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T20:13:04Z",
+            "iso_date_of_last_edit": "2025-09-08T20:13:04Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DbzLQfSC-LhMamvgYinYJtDa9pL_HS-xsAHRKep36yfs0r5EYn4BtrtgQvH_xh3_SuEP8Si8geIK7szXD74eeA9-TUMK8yEEf617sZZBl6sgBPVTjlXT2oR3rJggUEtFQxmE8W3LCZGGHi",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AmIVvwDMWMQHpkB4BBDE1fpwLlJUvveQcprEH9m8CCSgR0M6e8X2h2AMbqO0RS7GlGfn8ha3HFUXtTKu8Ko1QGu7fz7NY9spGwLgYfpmFy-IsgSq_gMRYdayxjfqaN_czUYjxQ2-P5sSXt",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DTfIpD3Ed1CVCXMYX2MRrFXZNpeCsnEkyGzPMBABxnU6Y9gLOL3Bpk0DGIOPvQBuRwLQy5sFxeqRRgLwLzS-tWSpOFvO4jtGd5JS1kxjfbyZfRC5rjA_bua1mP9t-yuqyuYDWStCJNINYP"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSaFRuSkpNVVJzYVVGZlZ6bG9PSGszY0hob05WRRAB",
+            "user": {
+                "name": "Milagros Gomez",
+                "link": "https://www.google.com/maps/contrib/104956787041877423547?hl=en",
+                "contributor_id": "104956787041877423547",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWGj4uHgpwCq2va-9DYH_ClIFTaHmGv30zFhY0toa11tSd9dWo=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 10,
+                "photos": 15
+            },
+            "snippet": "This place is a hidden gem. It was one of the best curries I tried on my trip to Japan, and I can't wait to go back. The service was fast and the food delicious. It's close to Akihabara Station. The place is cozy and small, and it's worth it. We also ordered gyozas.",
+            "extracted_snippet": {
+                "original": "This place is a hidden gem. It was one of the best curries I tried on my trip to Japan, and I can't wait to go back. The service was fast and the food delicious. It's close to Akihabara Station. The place is cozy and small, and it's worth it. We also ordered gyozas."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xKVGJUUnFOMHQ1Y0hadE5sbFljemN4VjAxVU9IYxAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOlJTbTRqN0t5cHZtNllYczcxV01UOHc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T18:00:10Z",
+            "iso_date_of_last_edit": "2025-09-08T18:00:10Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90AcShQzump6UFTR34klDFQrt0eS2YEskiIDVoPjN4BMq80XsYu-NW4CpZA_zXwNE0YxLuQPsA3TVujVa5bJiMQ1LivtZdlEE6lBTaZPSmXO2HG4Ly1Otm0E5iBYdUcnAkJjzEp7rKBm3yA",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BOMlkR1fsOf4o9cNvmmrzoUyfGJYfJfGVrldk_PFCDr850Q78e5sWq9c4jkQWGkvv3GXtZ7QAITetQpPH8Kv8Of-zZqZCLOkGSzQgzSZPih8vnizGRd8eGZlWcTuzO6mhQhzAjwA9zI0LM"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKVGJUUnFOMHQ1Y0hadE5sbFljemN4VjAxVU9IYxAB",
+            "user": {
+                "name": "Mari Hua",
+                "link": "https://www.google.com/maps/contrib/115757560586674910816?hl=en",
+                "contributor_id": "115757560586674910816",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIYEyLD9iQaVAk1MAYqDVZIdb3fdTdph88i6ItzoZgKzvCzRQ=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 51,
+                "photos": 115
+            },
+            "snippet": "Probably one of the best places to get Ramen in Tokyo - Definitely one of the best I\u2019ve been to. The broth is rich and complex and perfectly creamy, the noodles are soaked to perfection, the toppings are generous and well seasoned. Ventured here one rainy, cold, windy, stormy night and would do it again. I tell all my friends about this place and gatekeep it from my enemies \ud83d\ude09.",
+            "extracted_snippet": {
+                "original": "Probably one of the best places to get Ramen in Tokyo - Definitely one of the best I\u2019ve been to. The broth is rich and complex and perfectly creamy, the noodles are soaked to perfection, the toppings are generous and well seasoned. Ventured here one rainy, cold, windy, stormy night and would do it again. I tell all my friends about this place and gatekeep it from my enemies \ud83d\ude09."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Not sure",
+                "wait_time": "Up to 10 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kc1RGSlFSbm93TXpkeldtcENaV3hsWjBOVFNGRRAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOmdsTFJQRnowMzdzWmpCZWxlZ0NTSFE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T13:10:36Z",
+            "iso_date_of_last_edit": "2025-09-08T13:10:36Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CSVcOjzRMAgnlHHImR_FTuxy5AC560VejPg8-5OoXCXCPd-NVtC3EqKx3aK0XBQXtOhYYCfWdYHa66WC1PE3KVgyWgQr-0uwccknsOSH_ewzbCWM9P5KP0Sy5ltyvOm9k5pQFTyuLs8n0"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kc1RGSlFSbm93TXpkeldtcENaV3hsWjBOVFNGRRAB",
+            "user": {
+                "name": "Sabri Abdeslem",
+                "link": "https://www.google.com/maps/contrib/109946537123173781511?hl=en",
+                "contributor_id": "109946537123173781511",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocInGyQ4Vhg-90Qf-cSmb2VbHzPd3_k-AbmDYNRPIZpy4fk6lw=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 109,
+                "photos": 61
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25wR1RXMXZTVVpIWlhSbmJuTlhXbUZDTVZKRk1IYxAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOnpGTW1vSUZHZXRnbnNXWmFCMVJFMHc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T10:49:11Z",
+            "iso_date_of_last_edit": "2025-09-08T10:49:11Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wR1RXMXZTVVpIWlhSbmJuTlhXbUZDTVZKRk1IYxAB",
+            "user": {
+                "name": "Pawe\u0142 Nosal",
+                "link": "https://www.google.com/maps/contrib/109044313561487923276?hl=en",
+                "contributor_id": "109044313561487923276",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLMGSojHvUBJmyoRWc_1H4afcjpmulB60X3YmKxXrDwwUKdvzE=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 10,
+                "photos": 0
+            },
+            "snippet": "Great katsu, good service, fun atmosphere :))",
+            "extracted_snippet": {
+                "original": "Great katsu, good service, fun atmosphere :))"
+            },
+            "details": {
+                "food": 5,
+                "service": 4,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25aR05sQkJURGQ2YW1aV1RrcDNWRlIyT0dscVZIYxAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOnZGNlBBTDd6amZWTkp3VFR2OGlqVHc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "5 days ago",
+            "iso_date": "2025-09-08T04:02:30Z",
+            "iso_date_of_last_edit": "2025-09-08T04:02:30Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aR05sQkJURGQ2YW1aV1RrcDNWRlIyT0dscVZIYxAB",
+            "user": {
+                "name": "Jess Morrison",
+                "link": "https://www.google.com/maps/contrib/115362016396622761238?hl=en",
+                "contributor_id": "115362016396622761238",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJovBlLjII4OEiHaCCbUAwc3n1tvKDESfkdyq1VFZtETHTXNfg=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 3,
+                "photos": 4
+            },
+            "snippet": "Curry with Shrimp Tempura (Lvl 3 Spice) was AMAZING.\n\nI wish I could eat this every day\u2026",
+            "extracted_snippet": {
+                "original": "Curry with Shrimp Tempura (Lvl 3 Spice) was AMAZING.\n\nI wish I could eat this every day\u2026"
+            },
+            "details": {
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xCVE1WVkVNWE10V0RsRFowVlFjSGw1UzB4UFQxRRAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOlBTMVVEMXMtWDlDZ0VQcHl5S0xPT1E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "Edited 6 days ago",
+            "iso_date": "2025-08-31T01:02:21Z",
+            "iso_date_of_last_edit": "2025-09-08T02:28:06Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90Dz9Ps7eqnIGEhQ5-UIuXP6hA8pyP9vTQk0NxO4kbTyBPA0b4WTQtyRMI_CpTNPjDWGwYnP-qMxFm3TAmpuUk7RIPhZp9-iFEoRxnY4k0uMOmtGFdbGMLrHUgOkjI-fRWYA3U8fP-4yzv8"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCVE1WVkVNWE10V0RsRFowVlFjSGw1UzB4UFQxRRAB",
+            "user": {
+                "name": "Hilal Sevim",
+                "link": "https://www.google.com/maps/contrib/105625099868019750323?hl=en",
+                "contributor_id": "105625099868019750323",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJLTY2WUh1ODHWQqtGDcGD2neyhKJzsLcStIH9ysAXie8KXFA=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 8,
+                "photos": 10
+            },
+            "snippet": "C\u2019\u00e9tait d\u00e9licieux! On a pris un curry japonais et du riz avec du poulet, les deux plats \u00e9taient succulents. Endroit petit mais cozy",
+            "extracted_snippet": {
+                "original": "C\u2019\u00e9tait d\u00e9licieux! On a pris un curry japonais et du riz avec du poulet, les deux plats \u00e9taient succulents. Endroit petit mais cozy",
+                "translated": "It was delicious! We had a Japanese curry and rice with chicken, both dishes were delicious. Small but cozy place"
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWV05qRjRiVTk1UTIxVFV6bHVNRFJqT1hSbFVrRRAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOjVWNjF4bU95Q21TUzluMDRjOXRlUkE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "6 days ago",
+            "iso_date": "2025-09-07T11:38:22Z",
+            "iso_date_of_last_edit": "2025-09-07T11:38:22Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWV05qRjRiVTk1UTIxVFV6bHVNRFJqT1hSbFVrRRAB",
+            "user": {
+                "name": "Prince Geta",
+                "link": "https://www.google.com/maps/contrib/110454913455419551328?hl=en",
+                "contributor_id": "110454913455419551328",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWXI6BgJEWKVX0DffOfBR7hHv5f09yhnCSDooAUL0f1pstBl2fz=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 12,
+                "photos": 0
+            },
+            "snippet": "Tokyo's best halal cury RESTAURANT\nFrom belgium I cam twice to tokyo and went there because it s soooooo tasty\nThank you",
+            "extracted_snippet": {
+                "original": "Tokyo's best halal cury RESTAURANT\nFrom belgium I cam twice to tokyo and went there because it s soooooo tasty\nThank you"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Reservations not required",
+                "wait_time": "Up to 10 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s1aFRtTXdPVWt0VTNGdWRUZzBhekkwYzB4TFdVRRAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOk5hTmMwOUktU3FudTg0azI0c0xLWUE%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-06T17:04:51Z",
+            "iso_date_of_last_edit": "2025-09-06T17:04:51Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90DrwUN5L9LfYmEnC1lYbdiwhRbwdZh6SorCt0YptMjgIp1uHHdBwIZosCz50xsvr2Al5Sj8xXoyoBzRekZInmiO5aNSCGlxI1WXxoM_gr_BojovYJzS_5ynWTTmM-zgaqBfYFunNmD39Y2B",
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90BiVWBaWdHtT2kk3JdBf-eYG-oyjUMqzgFe0YgKSNcBA0D9p8LjPE-jUWnJLHj2WGtOJEKX-D9EvKzYj7ObKkT0S59jyHozdrIwalY9bpzckuicHty9dQh-oh7Z0xeAmRbmKKhUrX9BSl8"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1aFRtTXdPVWt0VTNGdWRUZzBhekkwYzB4TFdVRRAB",
+            "user": {
+                "name": "Shihab Billah",
+                "link": "https://www.google.com/maps/contrib/114492948667099982484?hl=en",
+                "contributor_id": "114492948667099982484",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVtXA_wgziZBDXq231Pxoxxmrtzki4r9ZIBs30p6wlMJzipIKEm4A=s120-c-rp-mo-ba5-br100",
+                "local_guide": true,
+                "reviews": 14,
+                "photos": 991
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "noise_level": "Moderate noise",
+                "seating_type": "Indoor dining area, Outdoor patio / terrace, Counter seating"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xWV2Eza3RUbTF2VURkVVJqUk5URGxsVEVRNFZWRRAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOlVWa3ktTm1vUDdURjRNTDllTEQ4VVE%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-06T04:06:03Z",
+            "iso_date_of_last_edit": "2025-09-06T04:06:03Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90A8R0l4yvXKFK0owH1enI7Vv-qzY2FdGCSzSOHpTvIvA3daNLGpjexplnGDHb0CKROL34T8gbhr-S9w0Pi9HmI9U7xNqF0Qx7J-tgzu9v1BQAfy_-KY-j0gcw5aoIOd5nSohChXott1UJGU"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWV2Eza3RUbTF2VURkVVJqUk5URGxsVEVRNFZWRRAB",
+            "user": {
+                "name": "Abdulla Jasem",
+                "link": "https://www.google.com/maps/contrib/107655235684307871133?hl=en",
+                "contributor_id": "107655235684307871133",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUFdiD5AyD_6lubvEa2jxcsVO2DbgE3icvItI-JLjR1bXStZ5w0=s120-c-rp-mo-ba5-br100",
+                "local_guide": true,
+                "reviews": 218,
+                "photos": 215
+            },
+            "snippet": "Good option for those of us craving a chicken katsu curry. They also have ramen (didn\u2019t try it). My only gripe is that the chicken katsu is smashed a bit too thin. Otherwise, it\u2019s pretty good.",
+            "extracted_snippet": {
+                "original": "Good option for those of us craving a chicken katsu curry. They also have ramen (didn\u2019t try it). My only gripe is that the chicken katsu is smashed a bit too thin. Otherwise, it\u2019s pretty good."
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tKZlZqUnRiVmQ2V1RGd1R6VjVTVlU0WWpSYVYxRRAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOkJfVjRtbVd6WTFwTzV5SVU4YjRaV1E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-06T03:15:01Z",
+            "iso_date_of_last_edit": "2025-09-06T03:15:01Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CmDG0ETZ4EsX1nvGHa-NSZr6YQnTJyQm1lkEYgUIABoqMwme6w1r_-1qXMzAyEv0YxjHMhL9URvwECGAokTDsdzCRgf0l4JyOZPVY58DVi4Sy17Zm12TLepeJOnKct_lhaJG41Mf5ZNyI"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKZlZqUnRiVmQ2V1RGd1R6VjVTVlU0WWpSYVYxRRAB",
+            "user": {
+                "name": "FAIZ FAIZAR",
+                "link": "https://www.google.com/maps/contrib/111693701492823953883?hl=en",
+                "contributor_id": "111693701492823953883",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjXZ5PRc4tGFJjdKNGwV8dt7Bn6HKGTD_GWGGN0_s86p3tZnwGTS=s120-c-rp-mo-ba4-br100",
+                "local_guide": true,
+                "reviews": 22,
+                "photos": 177
+            },
+            "snippet": "Katsu curry \ud83d\ude19\ud83d\udc4d",
+            "extracted_snippet": {
+                "original": "Katsu curry \ud83d\ude19\ud83d\udc4d"
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t4R2MxSnFWbmx4Tmxsc2JFaE1NakkyT1RKQmFuYxAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOkxGc1JqVnlxNllsbEhMMjI2OTJBanc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-05T02:03:38Z",
+            "iso_date_of_last_edit": "2025-09-05T02:03:38Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4R2MxSnFWbmx4Tmxsc2JFaE1NakkyT1RKQmFuYxAB",
+            "user": {
+                "name": "Rashad Nawaz",
+                "link": "https://www.google.com/maps/contrib/111484614414512810661?hl=en",
+                "contributor_id": "111484614414512810661",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKKHZY3AuJ3vXKZWa4TP-lIYjVhd6IiKaLgvGx7DRtGPnRHaA=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 17,
+                "photos": 2
+            },
+            "snippet": "This place might look very simple and ordinary but don\u2019t let that fool you, the food is absolutely amazing. I had the fried chicken rice bowl as my main and dumplings for sides. Sometimes the best food comes from the most unassuming places, and this was definitely one of those gems. Highly recommend if you\u2019re looking for delicious halal food in Tokyo.",
+            "extracted_snippet": {
+                "original": "This place might look very simple and ordinary but don\u2019t let that fool you, the food is absolutely amazing. I had the fried chicken rice bowl as my main and dumplings for sides. Sometimes the best food comes from the most unassuming places, and this was definitely one of those gems. Highly recommend if you\u2019re looking for delicious halal food in Tokyo."
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Fried Chicken Rice Bowl & Dumpling",
+                "wait_time": "Up to 10 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WUmVHMHdTaloyTVdsWE5IVlRPRmhoYWkxc2FYYxAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOnVReG0wSjZ2MWlXNHVTOFhhai1saXc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-04T09:51:34Z",
+            "iso_date_of_last_edit": "2025-09-04T09:51:34Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WUmVHMHdTaloyTVdsWE5IVlRPRmhoYWkxc2FYYxAB",
+            "user": {
+                "name": "Qasim Ahmed",
+                "link": "https://www.google.com/maps/contrib/100176489458882290395?hl=en",
+                "contributor_id": "100176489458882290395",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLAcRDkiZz5OzurCcAtFEbM1j7eD4FD6bfTlrY8dX4wHkit4w=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 12,
+                "photos": 1
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Chicken Cutlet Curry",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xVeFEzbzBPRlpwZDBGSFdFVkJka0ZHTWtGd00yYxAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOlUxQ3o0OFZpd0FHWEVBdkFGMkFwM2c%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-03T14:16:09Z",
+            "iso_date_of_last_edit": "2025-09-03T14:16:09Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVeFEzbzBPRlpwZDBGSFdFVkJka0ZHTWtGd00yYxAB",
+            "user": {
+                "name": "Akmal Amani",
+                "link": "https://www.google.com/maps/contrib/108136846888127145759?hl=en",
+                "contributor_id": "108136846888127145759",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWHF7gU6Y581XgRSfhl3ziZt-pgL8R2uocD93T365KUOImrRfDs=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 0
+            },
+            "snippet": "Can't say enough!! Halal and they make authentic GREAT TASTING food. I love it so much I ordered for takeaway as well!",
+            "extracted_snippet": {
+                "original": "Can't say enough!! Halal and they make authentic GREAT TASTING food. I love it so much I ordered for takeaway as well!"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Chicken Cutlet Curry, Beef Curry",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2twT2VGODVUMmRsVG5selgwVkliM0JxY2tzeVkwRRAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOkpOeF85T2dlTnlzX0VIb3BqcksyY0E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-03T03:44:49Z",
+            "iso_date_of_last_edit": "2025-09-03T03:44:49Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twT2VGODVUMmRsVG5selgwVkliM0JxY2tzeVkwRRAB",
+            "user": {
+                "name": "Kurumi Tokisaki",
+                "link": "https://www.google.com/maps/contrib/118336156762588734166?hl=en",
+                "contributor_id": "118336156762588734166",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWkw4coBACr0YbuejH_FljPm-2x_-_iE2SQLWGVVyzZ4YWtJnU=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 12,
+                "photos": 0
+            },
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "wait_time": "Up to 10 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25Sa2JuazJjMnB6WVVsQ1lUWnpjalV4UjBaSGRuYxAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOnRkbnk2c2pzYUlCYTZzcjUxR0ZHdnc%7C%7C?hl=en",
+            "rating": 4.0,
+            "date": "a week ago",
+            "iso_date": "2025-09-02T15:24:39Z",
+            "iso_date_of_last_edit": "2025-09-02T15:24:39Z",
+            "images": [
+                "https://lh3.googleusercontent.com/geougc-cs/AB3l90CEyel2V6rB0Qn7xcRcG-xeqpcYKrw692Ca762YDuP5klk6QaCV6ShoZyJjk5stf9uCLNqx8L5NguaTYyTtzKM0vlKtxEuAQiQbv81VerJMczz8OJX1KYMoGENit8NT-hSyVyEpXGgssG1D"
+            ],
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Sa2JuazJjMnB6WVVsQ1lUWnpjalV4UjBaSGRuYxAB",
+            "user": {
+                "name": "Emre T",
+                "link": "https://www.google.com/maps/contrib/102938707421543951160?hl=en",
+                "contributor_id": "102938707421543951160",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLO_5waYhJmLZ99w5BvZklRmigNGHUZIiwXqbJcGqb9b709U1w=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 13,
+                "photos": 4
+            },
+            "snippet": "A nice spot to try halal japanese curry. The restaurant is a bit tight and they only have bar seats. The curry is all right and the chicken katsu is good.\nAll in all, a good restaurant in the Akihabara area with halal options.",
+            "extracted_snippet": {
+                "original": "A nice spot to try halal japanese curry. The restaurant is a bit tight and they only have bar seats. The curry is all right and the chicken katsu is good.\nAll in all, a good restaurant in the Akihabara area with halal options."
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 4,
+                "service": 4,
+                "atmosphere": 3,
+                "wait_time": "Up to 10 min"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT20xVFdrTm9WM2xhTm5kMU5VaFpXRVJLT1dKVFExRRAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOm1TWkNoV3laNnd1NUhZWERKOWJTQ1E%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-08-31T12:03:15Z",
+            "iso_date_of_last_edit": "2025-08-31T12:04:23Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xVFdrTm9WM2xhTm5kMU5VaFpXRVJLT1dKVFExRRAB",
+            "user": {
+                "name": "Sabrina Belkhiri",
+                "link": "https://www.google.com/maps/contrib/105505821534905070762?hl=en",
+                "contributor_id": "105505821534905070762",
+                "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocLNs4dVlpteFDsXByh-fQclFL5DT421XhmI0TQFeUxA0kDkYw=s120-c-rp-mo-ba2-br100",
+                "local_guide": true,
+                "reviews": 17,
+                "photos": 4
+            },
+            "snippet": "Petit restaurant proche de la gare d\u2019Akihabara\nTr\u00e8s bons plats et tr\u00e8s copieux\nService impeccable",
+            "extracted_snippet": {
+                "original": "Petit restaurant proche de la gare d\u2019Akihabara\nTr\u00e8s bons plats et tr\u00e8s copieux\nService impeccable",
+                "translated": "Small restaurant near Akihabara Station\nVery good and generous dishes\nImpeccable service"
+            },
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "noise_level": "Very quiet",
+                "wait_time": "No wait"
+            }
+        },
+        {
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2taeE5XOWZiMFpuWkVSUWVYWXdNWFpvZEdJNGFuYxAB!2m1!1s0x0:0xad93012d8e587610!3m1!1s2@1:CAIQACodChtycF9oOkZxNW9fb0ZnZERQeXYwMXZodGI4anc%7C%7C?hl=en",
+            "rating": 5.0,
+            "date": "a week ago",
+            "iso_date": "2025-08-31T11:04:27Z",
+            "iso_date_of_last_edit": "2025-08-31T11:04:27Z",
+            "source": "Google",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taeE5XOWZiMFpuWkVSUWVYWXdNWFpvZEdJNGFuYxAB",
+            "user": {
+                "name": "Omar Almulhim",
+                "link": "https://www.google.com/maps/contrib/117972906077775207294?hl=en",
+                "contributor_id": "117972906077775207294",
+                "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUF6NdFBOWFF9e0IV0YcF_Mc9mjL-ifMVE5zd5Lr42hWO21cn5-=s120-c-rp-mo-br100",
+                "local_guide": true,
+                "reviews": 4,
+                "photos": 0
+            },
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps_reviews&hl=en&next_page_token=CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMk5CVFhwb1RGOWZSV2hCTmt3NE16VTNaVlZ3WkVwcFVuVkdXVUZCUVVGQlIyZHVPUzF2YjBOYWQwRjZUMFZ6V1VGRFNVRQ%3D%3D&num=20&place_id=ChIJA_VeYVCPGGAREHZYji0Bk60&sort_by=newestFirst",
+        "next_page_token": "CAESY0NBRVFIQnBFUTJwRlNVRlNTWEJEWjI5QlVEY3lSMk5CVFhwb1RGOWZSV2hCTmt3NE16VTNaVlZ3WkVwcFVuVkdXVUZCUVVGQlIyZHVPUzF2YjBOYWQwRjZUMFZ6V1VGRFNVRQ=="
+    }
+}

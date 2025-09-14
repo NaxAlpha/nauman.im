@@ -1,0 +1,43 @@
+{
+    "search_metadata": {
+        "id": "68c63a5217bdbf9116748592",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/9016aaf522ee187b/68c63a5217bdbf9116748592.json",
+        "created_at": "2025-09-14 03:45:22 UTC",
+        "processed_at": "2025-09-14 03:45:22 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/112549454043787156133/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/9016aaf522ee187b/68c63a5217bdbf9116748592.html",
+        "prettify_html_file": "https://serpapi.com/searches/9016aaf522ee187b/68c63a5217bdbf9116748592.prettify",
+        "total_time_taken": 0.36
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "112549454043787156133",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Arwa Bouraya",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocK28JFmDG4mr_LncHvA_uKcTlk3EZe5VgCMptYcVKfKMKi49A=s120-c-rp-mo-br100",
+        "points": 126,
+        "level": 3,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 9,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 27,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "search_information": {
+        "reviews_results_state": "Fully empty"
+    },
+    "error": "Google hasn't returned any results for this query."
+}

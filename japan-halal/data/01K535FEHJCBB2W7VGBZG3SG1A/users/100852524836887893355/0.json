@@ -1,0 +1,82 @@
+{
+    "search_metadata": {
+        "id": "68c63a4e5c2622285ed54243",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/ee336011801be764/68c63a4e5c2622285ed54243.json",
+        "created_at": "2025-09-14 03:45:18 UTC",
+        "processed_at": "2025-09-14 03:45:18 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/100852524836887893355/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/ee336011801be764/68c63a4e5c2622285ed54243.html",
+        "prettify_html_file": "https://serpapi.com/searches/ee336011801be764/68c63a4e5c2622285ed54243.prettify",
+        "total_time_taken": 1.62
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "100852524836887893355",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "tolga do\u011fruer",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIZgFDKz8svyPFaqBivwJMvT3-R5wLVEgimO2JnNJ3JVdon9Q=s120-c-rp-mo-br100",
+        "points": 14,
+        "level": 1,
+        "local_guide": true,
+        "contributions": {
+            "rezensionen": 1,
+            "bewertungen": 3,
+            "fotos": 0,
+            "videos": 0,
+            "untertitel": 0,
+            "antworten": 0,
+            "bearbeitungen": 0,
+            "als_falsch_gemeldet": 0,
+            "hinzugef\u00fcgte_orte": 0,
+            "stra\u00dfen_hinzugef\u00fcgt": 0,
+            "\u00fcberpr\u00fcfte_fakten": 0,
+            "f_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Asakusa Tokyo",
+                "address": "YN\u30d3\u30eb 2F 1 Chome-10-2 Asakusa, Taito City, Tokyo 111-0032, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.7115576,
+                    "longitude": 139.7923481
+                },
+                "type": "Halalrestaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNhbeykFj0h6pzxGWnI91BJBIpOhZ0zQ1-GGFSl=w200-h200-k-no",
+                "data_id": "0x60188f1f0dc7a417:0xe1bfdd8ef3a8c0f7"
+            },
+            "date": "vor 1\u00a0Tag",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WdFVGRjJiVkI1Tms4emNrcExORVZEU1RoMGJGRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WdFVGRjJiVkI1Tms4emNrcExORVZEU1RoMGJGRRAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOnVtUFF2bVB5Nk8zckpLNEVDSTh0bFE%7C%7C?hl=de",
+            "response": {
+                "date": "vor 1\u00a0Tag",
+                "snippet": "Dear tolga do\u011fruer,\nThank you so much for your 5-star rating! We\u2019re thrilled that you enjoyed your time with us and appreciated our halal ramen. We look forward to welcoming you back soon for another delicious bowl!",
+                "translated_snippet": "Lieber Tolga Do\u011fruer,\nVielen Dank f\u00fcr Ihre 5-Sterne-Bewertung! Wir freuen uns, dass Sie Ihren Aufenthalt bei uns genossen und unsere Halal-Ramen gesch\u00e4tzt haben. Wir freuen uns darauf, Sie bald wieder bei uns begr\u00fc\u00dfen zu d\u00fcrfen und eine weitere k\u00f6stliche Sch\u00fcssel zu genie\u00dfen!"
+            }
+        },
+        {
+            "place_info": {
+                "title": "Full Pizza",
+                "address": "Abidinpa\u015fa, \u015eht. Osman Sk. 22/A, 06620 Mamak/Ankara, T\u00fcrkei",
+                "gps_coordinates": {
+                    "latitude": 39.9274913,
+                    "longitude": 32.886396999999995
+                },
+                "type": "Pizzeria",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMJ1sr2wCQsn2XshTXi7TrMKBwH4TuoyCN1kdd1=w200-h200-k-no",
+                "data_id": "0x14d34e3cd857b51b:0x36264376bc806c0e"
+            },
+            "date": "vor 6 Jahren",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUM0Z09teGFnEAE",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUM0Z09teGFnEAE!2m1!1s0x0:0x36264376bc806c0e!3m1!1s2@1:CIHM0ogKEICAgIC4gOmxag%7C%7C?hl=de"
+        }
+    ]
+}

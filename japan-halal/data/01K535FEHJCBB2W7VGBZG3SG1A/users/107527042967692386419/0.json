@@ -1,0 +1,43 @@
+{
+    "search_metadata": {
+        "id": "68c63b6d1cff191307426ce8",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/1e7174d228ca9f77/68c63b6d1cff191307426ce8.json",
+        "created_at": "2025-09-14 03:50:05 UTC",
+        "processed_at": "2025-09-14 03:50:05 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/107527042967692386419/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/1e7174d228ca9f77/68c63b6d1cff191307426ce8.html",
+        "prettify_html_file": "https://serpapi.com/searches/1e7174d228ca9f77/68c63b6d1cff191307426ce8.prettify",
+        "total_time_taken": 0.51
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "107527042967692386419",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Marwan Raia",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKnDV4gCTVFLH7xuHMyqe7lPouLXJf122zudQxcdRjtxOo6mw=s120-c-rp-mo-br100",
+        "points": 63,
+        "level": 2,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 4,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 18,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 1,
+            "q_a": 0
+        }
+    },
+    "search_information": {
+        "reviews_results_state": "Fully empty"
+    },
+    "error": "Google hasn't returned any results for this query."
+}

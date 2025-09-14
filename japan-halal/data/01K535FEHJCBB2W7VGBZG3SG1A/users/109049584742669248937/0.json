@@ -1,0 +1,67 @@
+{
+    "search_metadata": {
+        "id": "68c63a6714537b8bb3a9e039",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/2118f0c4f9002c5e/68c63a6714537b8bb3a9e039.json",
+        "created_at": "2025-09-14 03:45:43 UTC",
+        "processed_at": "2025-09-14 03:45:43 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/109049584742669248937/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/2118f0c4f9002c5e/68c63a6714537b8bb3a9e039.html",
+        "prettify_html_file": "https://serpapi.com/searches/2118f0c4f9002c5e/68c63a6714537b8bb3a9e039.prettify",
+        "total_time_taken": 0.41
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "109049584742669248937",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "ruben Meynet",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWGcTYTr-JBfBgecFv_Q0AN2KPoc9RfG58MVeTls-CtVfX14uTo=s120-c-rp-mo-br100",
+        "points": 14,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 3,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Asakusa Tokyo",
+                "address": "YN\u30d3\u30eb 2F 1 Chome-10-2 Asakusa, Taito City, Tokyo 111-0032, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.7115576,
+                    "longitude": 139.7923481
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNhbeykFj0h6pzxGWnI91BJBIpOhZ0zQ1-GGFSl=w200-h200-k-no",
+                "data_id": "0x60188f1f0dc7a417:0xe1bfdd8ef3a8c0f7"
+            },
+            "date": "5 days ago",
+            "snippet": "Fantastic place , great food , the staff is super welcoming and very nice , its a great way to discover Japanese cuisine without being in contradiction with your belief.",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOdVUyeG9iemxtZGtobWN6aGhSMFU0V1hZNFRIYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOdVUyeG9iemxtZGtobWN6aGhSMFU0V1hZNFRIYxAB!2m1!1s0x0:0xe1bfdd8ef3a8c0f7!3m1!1s2@1:CAIQACodChtycF9oOjNuU2xobzlmdkhmczhhR0U4WXY4THc%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "5 days ago",
+                "snippet": "Dear ruben Meynet,\nThank you so much for your kind words! We\u2019re delighted that you appreciated our food and hospitality. Our goal is to provide an experience that aligns with your beliefs, and we're glad we could achieve that. We look forward to your next visit!"
+            }
+        }
+    ]
+}

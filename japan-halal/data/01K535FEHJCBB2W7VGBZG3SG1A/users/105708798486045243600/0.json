@@ -1,0 +1,90 @@
+{
+    "search_metadata": {
+        "id": "68c63b66bcd9275b04103ed5",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/89485a3c738cffbb/68c63b66bcd9275b04103ed5.json",
+        "created_at": "2025-09-14 03:49:58 UTC",
+        "processed_at": "2025-09-14 03:49:58 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/105708798486045243600/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/89485a3c738cffbb/68c63b66bcd9275b04103ed5.html",
+        "prettify_html_file": "https://serpapi.com/searches/89485a3c738cffbb/68c63b66bcd9275b04103ed5.prettify",
+        "total_time_taken": 0.93
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "105708798486045243600",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Michael Lies",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU602s2DS9Q-_I_YEhWbVsK_Zd9jxTbmg7ND6icXAzPgxKPi0Ok=s120-c-rp-mo-br100",
+        "points": 21,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 1,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 9,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "Halal Wagyu Yakiniku Panga",
+                "address": "3 Chome-27-9 Taito, Taito City, Tokyo 110-0016, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.704854,
+                    "longitude": 139.781011
+                },
+                "type": "Yakiniku restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPkVDL-NBxlpCRqlwAjG-5Bq7a_lXX0aRt9rjRh=w250-h200-k-no",
+                "data_id": "0x60188ea48c40b1f5:0xcd4299ed4675c9aa"
+            },
+            "date": "a day ago",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrME1rTlhlRTE1ZEVOaFMxSjVTbEV5UVZWS1kxRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xrME1rTlhlRTE1ZEVOaFMxSjVTbEV5UVZWS1kxRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOlk0MkNXeE15dENhS1J5SlEyQVVKY1E%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "place_info": {
+                "title": "Halal Wagyu&Vegan Ramen Shibuya",
+                "address": "\u7b2c106\u30d3\u30eb \u5730\u4e0b1\u968e 2 Chome-19-17 Shibuya, Tokyo 150-0002, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.6597321,
+                    "longitude": 139.704161
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOeQ3mNN6j-RuE9lJe9B34XZTZ0edFi3m_q4Kfu=w300-h200-k-no",
+                "data_id": "0x60188b41997fe4ff:0xde35936013cf40d"
+            },
+            "date": "4 days ago",
+            "snippet": "\u5927\u597d\u304d\u3060\u3088",
+            "translated_snippet": "I love you",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5eGFFNWFkRkIzZEV4UlNVZHJRMHRYY3pOemMyYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s5eGFFNWFkRkIzZEV4UlNVZHJRMHRYY3pOemMyYxAB!2m1!1s0x0:0xde35936013cf40d!3m1!1s2@1:CAIQACodChtycF9oOk9xaE5adFB3dExRSUdrQ0tXczNzc2c%7C%7C?hl=en-US",
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "wait_time": "Up to 10 min"
+            }
+        }
+    ]
+}
