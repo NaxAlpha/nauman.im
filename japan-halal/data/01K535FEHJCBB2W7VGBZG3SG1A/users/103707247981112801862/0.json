@@ -1,0 +1,71 @@
+{
+    "search_metadata": {
+        "id": "68c63ba4acb3e4e7450bdb34",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/b526aa78d9e64d15/68c63ba4acb3e4e7450bdb34.json",
+        "created_at": "2025-09-14 03:51:00 UTC",
+        "processed_at": "2025-09-14 03:51:00 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/103707247981112801862/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/b526aa78d9e64d15/68c63ba4acb3e4e7450bdb34.html",
+        "prettify_html_file": "https://serpapi.com/searches/b526aa78d9e64d15/68c63ba4acb3e4e7450bdb34.prettify",
+        "total_time_taken": 0.67
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "103707247981112801862",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Ali Khoraizat",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKhU1GEawclFOhtyuw85W5JfDwHjTlopm4Xh2cryLBz-BnESmA=s120-c-rp-mo-br100",
+        "points": 12,
+        "contributions": {
+            "reviews": 0,
+            "ratings": 1,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 11,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                "address": "Japan, \u3012171-0021 Tokyo, Toshima City, Nishiikebukuro, 1 Chome\u221221\u221213 \u842c\u76db\u5802\u30d3\u30eb \u5730\u4e0b1\u968e",
+                "gps_coordinates": {
+                    "latitude": 35.7317187,
+                    "longitude": 139.70938959999998
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPVWZqLaw4o2s6ycx03IZJM9-59T9ANoz_QfYmm=w200-h266-k-no",
+                "data_id": "0x60188d8adc764401:0x2aeabb694cae186a"
+            },
+            "date": "3 days ago",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkeFlVVTBiM2hEUkdOT2NqVlNiRXhQZVhKaGJXYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tkeFlVVTBiM2hEUkdOT2NqVlNiRXhQZVhKaGJXYxAB!2m1!1s0x0:0x2aeabb694cae186a!3m1!1s2@1:CAIQACodChtycF9oOkdxYUU0b3hDRGNOcjVSbExPeXJhbWc%7C%7C?hl=en-US",
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Not sure",
+                "group_size": "Not sure",
+                "seating_type": "Indoor dining area, Booth seating, Counter seating",
+                "dietary_restrictions": "Halal"
+            },
+            "response": {
+                "date": "2 days ago",
+                "snippet": "Dear Ali Khoraizat,\nThank you so much for your 5-star feedback! It\u2019s always our goal to make every visit special. We\u2019ll be delighted to welcome you back again soon!"
+            }
+        }
+    ]
+}

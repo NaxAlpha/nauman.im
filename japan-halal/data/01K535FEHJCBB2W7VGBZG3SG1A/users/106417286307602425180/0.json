@@ -1,0 +1,83 @@
+{
+    "search_metadata": {
+        "id": "68c63b85f8cc789093132a7c",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/3fe4010f085eba4c/68c63b85f8cc789093132a7c.json",
+        "created_at": "2025-09-14 03:50:29 UTC",
+        "processed_at": "2025-09-14 03:50:29 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/106417286307602425180/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/3fe4010f085eba4c/68c63b85f8cc789093132a7c.html",
+        "prettify_html_file": "https://serpapi.com/searches/3fe4010f085eba4c/68c63b85f8cc789093132a7c.prettify",
+        "total_time_taken": 0.68
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "106417286307602425180",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Alexandra Sfetcu",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWtPVdqvl3b7ZiNUhpomYaoKm1vx_jp7r1GuIAAPC6A2txl8pkH=s120-c-rp-mo-br100",
+        "points": 28,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 0,
+            "photos": 2,
+            "videos": 0,
+            "captions": 0,
+            "answers": 7,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                "address": "Japan, \u3012171-0021 Tokyo, Toshima City, Nishiikebukuro, 1 Chome\u221221\u221213 \u842c\u76db\u5802\u30d3\u30eb \u5730\u4e0b1\u968e",
+                "gps_coordinates": {
+                    "latitude": 35.7317187,
+                    "longitude": 139.70938959999998
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPVWZqLaw4o2s6ycx03IZJM9-59T9ANoz_QfYmm=w200-h266-k-no",
+                "data_id": "0x60188d8adc764401:0x2aeabb694cae186a"
+            },
+            "date": "17 hours ago",
+            "snippet": "The chicken ramen was fantastic! The place is super cute and the staff so friendly. Definetly recomend! \ud83c\udf38\ud83c\udf38",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWRVdHZEVka3d4YlhBM1ZsWm1la2d0TFVwa2VXYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWRVdHZEVka3d4YlhBM1ZsWm1la2d0TFVwa2VXYxAB!2m1!1s0x0:0x2aeabb694cae186a!3m1!1s2@1:CAIQACodChtycF9oOkVEWGdEdkwxbXA3VlZmekgtLUpkeWc%7C%7C?hl=en-US",
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "wait_time": "No wait"
+            },
+            "images": [
+                {
+                    "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                    "thumbnail": "https://lh3.googleusercontent.com/geougc-cs/AB3l90CRfvvpH7OjQe3WGysHlPbwpIpc4kWiqE9yGMzGqsjOYBRXUxZ2hXcXcNXTW7KcC6uv1KWnWhT2hgnk9oLM3TyPQEh-c209zlOOQhALjb32UIg-xnQYArjRe6gHsfWuPZ84-ENK7QqAOP4",
+                    "date": "2025-9-13"
+                },
+                {
+                    "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                    "thumbnail": "https://lh3.googleusercontent.com/geougc-cs/AB3l90Ck4D5GAe-jRL_pbDRHOS90_vSREahGTpEuXTuYc1T1oATBftxTdfIMyOugq8MCW4Tcu2XorftQqDXkL6dV48Nd-CaOr9CWVWyuYKFRWagP9uI8zn1MCxwY_VVNF5CLQjtbl3mOcPEnt_rw",
+                    "date": "2025-9-13"
+                }
+            ],
+            "response": {
+                "date": "4 hours ago",
+                "snippet": "Dear Alexandra Sfetcu,\nWe\u2019re thrilled that you found our chicken ramen fantastic and enjoyed the atmosphere. Our staff takes pride in providing a welcoming experience. Thank you for your recommendation!"
+            }
+        }
+    ]
+}

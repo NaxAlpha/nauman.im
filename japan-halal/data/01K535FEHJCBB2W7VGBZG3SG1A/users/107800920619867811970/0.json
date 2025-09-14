@@ -1,0 +1,41 @@
+{
+    "search_metadata": {
+        "id": "68c63b9f73d1750e8c4756ad",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/da20ad280c624ed0/68c63b9f73d1750e8c4756ad.json",
+        "created_at": "2025-09-14 03:50:55 UTC",
+        "processed_at": "2025-09-14 03:50:55 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/107800920619867811970/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/da20ad280c624ed0/68c63b9f73d1750e8c4756ad.html",
+        "prettify_html_file": "https://serpapi.com/searches/da20ad280c624ed0/68c63b9f73d1750e8c4756ad.prettify",
+        "total_time_taken": 0.8
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "107800920619867811970",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "myriam benabdelkader",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVCoPs3Ou533KBn2LFcOGvgn40mcaz28XR8pC53KSLxvieBvGM9=s120-c-rp-mo-br100",
+        "points": 48,
+        "contributions": {
+            "reviews": 4,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 3,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 1,
+            "q_a": 0
+        }
+    },
+    "search_information": {
+        "reviews_results_state": "Fully empty"
+    },
+    "error": "Google hasn't returned any results for this query."
+}

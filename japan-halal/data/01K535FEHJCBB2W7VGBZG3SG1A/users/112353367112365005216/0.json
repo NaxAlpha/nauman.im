@@ -1,0 +1,77 @@
+{
+    "search_metadata": {
+        "id": "68c63b79e3e176547a6d7e27",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/2356ef1486c5af0f/68c63b79e3e176547a6d7e27.json",
+        "created_at": "2025-09-14 03:50:17 UTC",
+        "processed_at": "2025-09-14 03:50:17 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/112353367112365005216/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/2356ef1486c5af0f/68c63b79e3e176547a6d7e27.html",
+        "prettify_html_file": "https://serpapi.com/searches/2356ef1486c5af0f/68c63b79e3e176547a6d7e27.prettify",
+        "total_time_taken": 0.95
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "112353367112365005216",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Ruimiao Li",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUf63zrzKXCmD9q8IJuI8S7WUf49_DRb-84K_zyGTfd7A80Q2OE=s120-c-rp-mo-br100",
+        "points": 23,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 0,
+            "photos": 1,
+            "videos": 0,
+            "captions": 0,
+            "answers": 7,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "Halal Wagyu Yakiniku Panga",
+                "address": "3 Chome-27-9 Taito, Taito City, Tokyo 110-0016, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.704854,
+                    "longitude": 139.781011
+                },
+                "type": "Yakiniku restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPkVDL-NBxlpCRqlwAjG-5Bq7a_lXX0aRt9rjRh=w250-h200-k-no",
+                "data_id": "0x60188ea48c40b1f5:0xcd4299ed4675c9aa"
+            },
+            "date": "3 days ago",
+            "snippet": "very happy time here! we twelve people just walked in without reservation. the food are delicious and service is nice. thanks Felix for your kindness and patience",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRMVUyZGFPRUZMV0RGQ1oySldWRFl6Vm1wSVozYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pRMVUyZGFPRUZMV0RGQ1oySldWRFl6Vm1wSVozYxAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOjQ1U2daOEFLWDFCZ2JWVDYzVmpIZ3c%7C%7C?hl=en-US",
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "atmosphere": 5,
+                "group_size": "1 person, 2 people, 3-4 people, 5-8 people, 9+ people, Suitable for all group sizes"
+            },
+            "images": [
+                {
+                    "title": "Halal Wagyu Yakiniku Panga",
+                    "thumbnail": "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bou1cKdRUbi9GY82dUo9B5XBwx-RrvNGKSslc8S3plo00EKBFp5bKO5pMn6qKT6uEvBgz-qBGceLnTYeC-u04XUGKIndd7BzskLrJdeeXCwoGnas1KJHoTzvc1ppv1fGpqUHCvw4tlDD0",
+                    "date": "2025-9-10"
+                }
+            ],
+            "response": {
+                "date": "a day ago",
+                "snippet": "It's wonderful to hear you had a great time with us! Thank you for your feedback. We appreciate your kind words about our food and service. Can't wait to welcome you and your friends back!"
+            }
+        }
+    ]
+}

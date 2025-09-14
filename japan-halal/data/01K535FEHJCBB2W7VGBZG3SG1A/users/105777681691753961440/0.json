@@ -1,0 +1,93 @@
+{
+    "search_metadata": {
+        "id": "68c63b9af9c5e9d3a3d26000",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/e21cf22f091bc12b/68c63b9af9c5e9d3a3d26000.json",
+        "created_at": "2025-09-14 03:50:50 UTC",
+        "processed_at": "2025-09-14 03:50:50 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/105777681691753961440/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/e21cf22f091bc12b/68c63b9af9c5e9d3a3d26000.html",
+        "prettify_html_file": "https://serpapi.com/searches/e21cf22f091bc12b/68c63b9af9c5e9d3a3d26000.prettify",
+        "total_time_taken": 0.8
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "105777681691753961440",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Muhd Solihin",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIk0E5epaPVJsk6X-o-jZBOD1wrvWd9MpgW6euC0edI33xg0A=s120-c-rp-mo-br100",
+        "points": 22,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 1,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 10,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                "address": "Japan, \u3012171-0021 Tokyo, Toshima City, Nishiikebukuro, 1 Chome\u221221\u221213 \u842c\u76db\u5802\u30d3\u30eb \u5730\u4e0b1\u968e",
+                "gps_coordinates": {
+                    "latitude": 35.7317187,
+                    "longitude": 139.70938959999998
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPVWZqLaw4o2s6ycx03IZJM9-59T9ANoz_QfYmm=w200-h266-k-no",
+                "data_id": "0x60188d8adc764401:0x2aeabb694cae186a"
+            },
+            "date": "3 days ago",
+            "snippet": "very good very nice!",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tRMGIxSm9lR1l5VVhaa2NYRXlOUzFpWm5aNlEzYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tRMGIxSm9lR1l5VVhaa2NYRXlOUzFpWm5aNlEzYxAB!2m1!1s0x0:0x2aeabb694cae186a!3m1!1s2@1:CAIQACodChtycF9oOkQ0b1JoeGYyUXZkcXEyNS1iZnZ6Q3c%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "snippet": "Dear Muhd Solihin,\nThank you for your positive feedback! We're glad you enjoyed your time with us."
+            }
+        },
+        {
+            "place_info": {
+                "title": "Tipo Pasta Bar \u2014 Aliwal",
+                "address": "28 Aliwal St, #01-07, Singapore 199918",
+                "gps_coordinates": {
+                    "latitude": 1.302622,
+                    "longitude": 103.861026
+                },
+                "type": "Italian restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr53b4S4wzpC5z9p0ux5G1wfl9VY1xpeD6XJUAJwZBdH3z3DhpkyKnHRm8NPehEB9f15_-8wyCQNa5qATg2DT3XywLmevwbZtloPP_G7cjnuWT-Hmxl_N8Tvv9I-OmBG5p0OxVZnw=w266-h200-k-no",
+                "data_id": "0x31da19232fb34b5d:0x4948faa7a00dcb3"
+            },
+            "date": "2 years ago",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNwdC1ET1hBEAE",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNwdC1ET1hBEAE!2m1!1s0x0:0x4948faa7a00dcb3!3m1!1s2@1:CIHM0ogKEICAgICpt-DOXA%7C%7C?hl=en-US",
+            "details": {
+                "service": 5,
+                "meal_type": "Dinner",
+                "price_per_person": "SGD\u00a010\u201320",
+                "food": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Build Your Own Pasta, Crazy Carbonara"
+            }
+        }
+    ]
+}

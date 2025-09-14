@@ -1,0 +1,43 @@
+{
+    "search_metadata": {
+        "id": "68c63bf93b93e37aa7011937",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/c06c0e59a83312f0/68c63bf93b93e37aa7011937.json",
+        "created_at": "2025-09-14 03:52:25 UTC",
+        "processed_at": "2025-09-14 03:52:25 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/109625248243380175179/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/c06c0e59a83312f0/68c63bf93b93e37aa7011937.html",
+        "prettify_html_file": "https://serpapi.com/searches/c06c0e59a83312f0/68c63bf93b93e37aa7011937.prettify",
+        "total_time_taken": 0.68
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "109625248243380175179",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "amm m. m.",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVtm8a7EHyOrIG_PRDn3olfN8HfByDHxbTuG7iSNAiqoWyTrXWN=s120-c-rp-mo-ba5-br100",
+        "points": 9016,
+        "level": 7,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 11,
+            "ratings": 863,
+            "photos": 195,
+            "videos": 2,
+            "captions": 5,
+            "answers": 4537,
+            "edits": 12,
+            "reported_incorrect": 0,
+            "places_added": 2,
+            "roads_added": 0,
+            "facts_checked": 27,
+            "q_a": 13
+        }
+    },
+    "search_information": {
+        "reviews_results_state": "Fully empty"
+    },
+    "error": "Google hasn't returned any results for this query."
+}

@@ -1,0 +1,79 @@
+{
+    "search_metadata": {
+        "id": "68c63b8bbdfe492d4417abd8",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/18a6c6417f403152/68c63b8bbdfe492d4417abd8.json",
+        "created_at": "2025-09-14 03:50:35 UTC",
+        "processed_at": "2025-09-14 03:50:35 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/109801153488482721432/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/18a6c6417f403152/68c63b8bbdfe492d4417abd8.html",
+        "prettify_html_file": "https://serpapi.com/searches/18a6c6417f403152/68c63b8bbdfe492d4417abd8.prettify",
+        "total_time_taken": 0.65
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "109801153488482721432",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Trinanda Yunisakti",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjX8v6IGxWIw-cJJSHzLKH9k-InSU571ZwDVmlos6z2kvlUfjkk=s120-c-rp-mo-br100",
+        "points": 20,
+        "level": 2,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 0,
+            "photos": 1,
+            "videos": 0,
+            "captions": 0,
+            "answers": 4,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                "address": "Japan, \u3012171-0021 Tokyo, Toshima City, Nishiikebukuro, 1 Chome\u221221\u221213 \u842c\u76db\u5802\u30d3\u30eb \u5730\u4e0b1\u968e",
+                "gps_coordinates": {
+                    "latitude": 35.7317187,
+                    "longitude": 139.70938959999998
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPVWZqLaw4o2s6ycx03IZJM9-59T9ANoz_QfYmm=w200-h266-k-no",
+                "data_id": "0x60188d8adc764401:0x2aeabb694cae186a"
+            },
+            "date": "a day ago",
+            "snippet": "Enak bangat",
+            "translated_snippet": "Really delicious",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25rd2RFWlRVMU5VZEc1c1ZsVXpTMUoxWjBoc1EyYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25rd2RFWlRVMU5VZEc1c1ZsVXpTMUoxWjBoc1EyYxAB!2m1!1s0x0:0x2aeabb694cae186a!3m1!1s2@1:CAIQACodChtycF9oOnkwdEZTU1NUdG5sVlUzS1J1Z0hsQ2c%7C%7C?hl=en-US",
+            "details": {
+                "price_per_person": "\u00a54,000\u20135,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "images": [
+                {
+                    "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                    "thumbnail": "https://lh3.googleusercontent.com/geougc-cs/AB3l90AQ_ZqaRu7BiVifM0QB3RE4qwxECPCQ-trCDxe1ZfuHnTiNcdHmbsIq3vUW27pgPhxHnru0eDQgLdZ07cNZzIhOlJCR_8j_VMRbVeN_orzryS6-EpHJflg5tIs1AhcHtZurrf5G2MkrIdNg",
+                    "date": "2025-9-12"
+                }
+            ],
+            "response": {
+                "date": "a day ago",
+                "snippet": "Senang mendengar Anda menyukai makanan kami! Kami berharap dapat menyambut Anda kembali segera.",
+                "translated_snippet": "Glad to hear you enjoyed our food! We look forward to welcoming you back soon."
+            }
+        }
+    ]
+}

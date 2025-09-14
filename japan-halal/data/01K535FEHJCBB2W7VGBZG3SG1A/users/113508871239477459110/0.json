@@ -1,0 +1,43 @@
+{
+    "search_metadata": {
+        "id": "68c63b7773bf59cda6701489",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/29127e0d73b9374d/68c63b7773bf59cda6701489.json",
+        "created_at": "2025-09-14 03:50:15 UTC",
+        "processed_at": "2025-09-14 03:50:15 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/113508871239477459110/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/29127e0d73b9374d/68c63b7773bf59cda6701489.html",
+        "prettify_html_file": "https://serpapi.com/searches/29127e0d73b9374d/68c63b7773bf59cda6701489.prettify",
+        "total_time_taken": 0.48
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "113508871239477459110",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Asim Almarshedi",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjU0GsxZQ2fAd_8u2mQVgR3_tYOcL4W5jN-u2zDu9KgDW-WxYPsJjQ=s120-c-rp-mo-ba4-br100",
+        "points": 2266,
+        "level": 6,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 97,
+            "ratings": 61,
+            "photos": 164,
+            "videos": 15,
+            "captions": 1,
+            "answers": 101,
+            "edits": 3,
+            "reported_incorrect": 0,
+            "places_added": 1,
+            "roads_added": 0,
+            "facts_checked": 6,
+            "q_a": 4
+        }
+    },
+    "search_information": {
+        "reviews_results_state": "Fully empty"
+    },
+    "error": "Google hasn't returned any results for this query."
+}

@@ -1,0 +1,43 @@
+{
+    "search_metadata": {
+        "id": "68c63bfd3882c56d7fe6681d",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/4de322e8fb27e20f/68c63bfd3882c56d7fe6681d.json",
+        "created_at": "2025-09-14 03:52:29 UTC",
+        "processed_at": "2025-09-14 03:52:29 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/116437919318424202867/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/4de322e8fb27e20f/68c63bfd3882c56d7fe6681d.html",
+        "prettify_html_file": "https://serpapi.com/searches/4de322e8fb27e20f/68c63bfd3882c56d7fe6681d.prettify",
+        "total_time_taken": 0.79
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "116437919318424202867",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Bilal Zahory",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWv5o204pIe9Cv760me9dUOBliYCLg_0YGhjuyvbJ2tajSZqlWJEA=s120-c-rp-mo-ba3-br100",
+        "points": 1494,
+        "level": 5,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 104,
+            "ratings": 49,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 151,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "search_information": {
+        "reviews_results_state": "Fully empty"
+    },
+    "error": "Google hasn't returned any results for this query."
+}

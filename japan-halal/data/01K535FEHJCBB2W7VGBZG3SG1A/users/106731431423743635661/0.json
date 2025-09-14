@@ -1,0 +1,83 @@
+{
+    "search_metadata": {
+        "id": "68c63bb2c83b3fd9ab44c06e",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/9da7f34ec70326b1/68c63bb2c83b3fd9ab44c06e.json",
+        "created_at": "2025-09-14 03:51:14 UTC",
+        "processed_at": "2025-09-14 03:51:14 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/106731431423743635661/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/9da7f34ec70326b1/68c63bb2c83b3fd9ab44c06e.html",
+        "prettify_html_file": "https://serpapi.com/searches/9da7f34ec70326b1/68c63bb2c83b3fd9ab44c06e.prettify",
+        "total_time_taken": 0.54
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "106731431423743635661",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Wise",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjURX77Ki14w1TxtCJkUjfd6Nmk7kkvdgKaQTedjVC87Pgun0EhQ=s120-c-rp-mo-br100",
+        "points": 29,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 0,
+            "photos": 1,
+            "videos": 0,
+            "captions": 0,
+            "answers": 13,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Tokyo Shinjuku",
+                "address": "\u30a8\u30af\u30ec\u65b0\u5bbf B103 3 Chome-11-6 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.6918352,
+                    "longitude": 139.7064149
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6BAg1zpcNZrDmr_DNP-AppLvjbz1F8MnAEDro3levnT8rt1Q56FvGZzANLwx8iHRABTfqnmkVzDBG_R5klfTDM7c1TeegKjunOr95G7WWssSmVdmNpCa4N4SBJ0K3jIZqL6c=w200-h266-k-no",
+                "data_id": "0x60188d8a160764f1:0x5fa21297eefacea5"
+            },
+            "date": "a week ago",
+            "snippet": "Super nice and hoping to fix the price to affordable price",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pseGFHSTJZV2RDTm1Sa1VVNUdkRUpUVkdFemVYYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pseGFHSTJZV2RDTm1Sa1VVNUdkRUpUVkdFemVYYxAB!2m1!1s0x0:0x5fa21297eefacea5!3m1!1s2@1:CAIQACodChtycF9oOjlxaGI2YWdCNmRkUU5GdEJTVGEzeXc%7C%7C?hl=en-US",
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a56,000\u20137,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Wagyu Spicy Ramen",
+                "wait_time": "10-30 min",
+                "vegetarian_options": "Its gud",
+                "dietary_restrictions": "Gud",
+                "parking_space": "Not sure",
+                "kid_friendliness": "Very gud",
+                "wheelchair_accessibility": "Its ok"
+            },
+            "images": [
+                {
+                    "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Tokyo Shinjuku",
+                    "thumbnail": "https://lh3.googleusercontent.com/geougc-cs/AB3l90DpFBJ7626dWEJIb7mvFToXsjKFbozKJAm0oSQETdL_zJuY4302ugC1ZO6VHYE14TdrkupkMLQT-b4WWUYnjJ9qgvXt6mecq5VXG8DD1fDyDpM4iyPLtEY6at9WTrcV9occcIUKNvKGRGCh",
+                    "date": "2025-8-31"
+                }
+            ],
+            "response": {
+                "date": "a week ago",
+                "snippet": "Dear Wise,\nWe appreciate your input and are happy to hear you had a nice experience. Pricing is something we're constantly reviewing to ensure it aligns with customer expectations."
+            }
+        }
+    ]
+}

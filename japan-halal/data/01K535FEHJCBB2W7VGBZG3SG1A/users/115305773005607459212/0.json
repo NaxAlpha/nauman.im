@@ -1,0 +1,87 @@
+{
+    "search_metadata": {
+        "id": "68c63be528b27b6b06191c5c",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/c5a94083fc97f3f7/68c63be528b27b6b06191c5c.json",
+        "created_at": "2025-09-14 03:52:05 UTC",
+        "processed_at": "2025-09-14 03:52:05 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/115305773005607459212/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/c5a94083fc97f3f7/68c63be528b27b6b06191c5c.html",
+        "prettify_html_file": "https://serpapi.com/searches/c5a94083fc97f3f7/68c63be528b27b6b06191c5c.prettify",
+        "total_time_taken": 0.6
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "115305773005607459212",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Ruziboev Tulagan",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIZYOoab9zklAIm1zrVhxaipT5BHUgrIrQcaVKdZbxi3zMt_w=s120-c-rp-mo-br100",
+        "points": 15,
+        "level": 2,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 1,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 3,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL SAKURA",
+                "address": "\u30eb\u30fc\u30c8\u6839\u5cb8\u7b2c\uff12\u30d3\u30eb 1F\u30fb2F 2 Chome-18-11 Negishi, Taito City, Tokyo 110-0003, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.725089,
+                    "longitude": 139.77722
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEn-weFEOEc2bmxvvdBOBr0Ibqnd5Eu6YOEu66P2Xc1igOpH-_xQnt6Xpw1UHLOKOYUWefm0rDkFqw1zxA-oceIfvmtx6ivo9NEiBBjunFyLd6CvX5LItZqqH6TCEb5k5beJiSyA=w200-h266-k-no",
+                "data_id": "0x60188e80d9a2889f:0x8fd99463dfe3d9e"
+            },
+            "date": "a month ago",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kcUxVRXpTM1ZhY1RoYWFrUk5RbVk0YW1jNVJIYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kcUxVRXpTM1ZhY1RoYWFrUk5RbVk0YW1jNVJIYxAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CAIQACodChtycF9oOmdqLUEzS3VacThaakRNQmY4amc5RHc%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a month ago",
+                "snippet": "Thank you so much "
+            }
+        },
+        {
+            "place_info": {
+                "title": "\u30b7\u30e5\u30b7\u30e5BoxGym\u76ee\u9ed2\u5e97",
+                "address": "Japan, \u3012153-0044 Tokyo, Meguro City, Ohashi, 2 Chome\u22128\u221221 \u30c9\u30df\u30b7\u30fc\u30eb\u67ff\u6fa4 403",
+                "gps_coordinates": {
+                    "latitude": 35.6553075,
+                    "longitude": 139.6887208
+                },
+                "type": "Gym",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMsr9v1kIisAtasjgk50OD252OSgkwedAZmRR7U=w299-h200-k-no",
+                "data_id": "0x6018f315212bb259:0x3a1944aca9c4c4ad"
+            },
+            "date": "a month ago",
+            "snippet": "Hello\nThis is for man or for woman?",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kbVJVdE9MV04xWlZGWFIzRTFWalJrZEZwbFdHYxAB",
+            "rating": 1,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25kbVJVdE9MV04xWlZGWFIzRTFWalJrZEZwbFdHYxAB!2m1!1s0x0:0x3a1944aca9c4c4ad!3m1!1s2@1:CAIQACodChtycF9oOndmRUtOLWN1ZVFXR3E1VjRkdFplWGc%7C%7C?hl=en-US"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "search_metadata": {
+        "id": "68c63bed3047f3625730c0c4",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/1d7b3eda7d0a011f/68c63bed3047f3625730c0c4.json",
+        "created_at": "2025-09-14 03:52:13 UTC",
+        "processed_at": "2025-09-14 03:52:13 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/104325159650435841699/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/1d7b3eda7d0a011f/68c63bed3047f3625730c0c4.html",
+        "prettify_html_file": "https://serpapi.com/searches/1d7b3eda7d0a011f/68c63bed3047f3625730c0c4.prettify",
+        "total_time_taken": 0.58
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "104325159650435841699",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Nina Meilani",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWKTagibp589ncmvXF-VKPQKVk0UXtKcZjXVebiOVTgFsCRXPE9=s120-c-rp-mo-br100",
+        "points": 65,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 54,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL SAKURA",
+                "address": "\u30eb\u30fc\u30c8\u6839\u5cb8\u7b2c\uff12\u30d3\u30eb 1F\u30fb2F 2 Chome-18-11 Negishi, Taito City, Tokyo 110-0003, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.725089,
+                    "longitude": 139.77722
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEn-weFEOEc2bmxvvdBOBr0Ibqnd5Eu6YOEu66P2Xc1igOpH-_xQnt6Xpw1UHLOKOYUWefm0rDkFqw1zxA-oceIfvmtx6ivo9NEiBBjunFyLd6CvX5LItZqqH6TCEb5k5beJiSyA=w200-h266-k-no",
+                "data_id": "0x60188e80d9a2889f:0x8fd99463dfe3d9e"
+            },
+            "date": "a month ago",
+            "snippet": "overall the food was delicious but, I need more than sauce please, I ordered the wrap kebab but I think I want some sauce in inside",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxSVQxZGtTRGhPWDBsSmFTMUhTa2RxWkZkTmRWRRAB",
+            "rating": 3,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxSVQxZGtTRGhPWDBsSmFTMUhTa2RxWkZkTmRWRRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CAIQACodChtycF9oOi1IT1dkSDhOX0lJaS1HSkdqZFdNdVE%7C%7C?hl=en-US",
+            "details": {
+                "food": 3,
+                "service": 5,
+                "atmosphere": 4
+            },
+            "response": {
+                "date": "a month ago",
+                "snippet": "Thank you for your feedback!\nWe\u2019re glad you enjoyed the food overall, and we appreciate your comment about the wrap kebab. We\u2019ll definitely consider adding more sauce inside to improve the flavor balance.\n\nWe hope to serve you even better next time. Thank you again! "
+            }
+        }
+    ]
+}

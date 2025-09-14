@@ -1,0 +1,94 @@
+{
+    "search_metadata": {
+        "id": "68c63bf231a601d597551127",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/07336120d906a352/68c63bf231a601d597551127.json",
+        "created_at": "2025-09-14 03:52:18 UTC",
+        "processed_at": "2025-09-14 03:52:18 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/112385633167154953096/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/07336120d906a352/68c63bf231a601d597551127.html",
+        "prettify_html_file": "https://serpapi.com/searches/07336120d906a352/68c63bf231a601d597551127.prettify",
+        "total_time_taken": 0.51
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "112385633167154953096",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Fariss Maziane",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJ5e_r_WZB2nLQuCAoO7qaEx21qOpfvR8gxj0e9aGsydggsTg=s120-c-rp-mo-br100",
+        "points": 28,
+        "level": 2,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 2,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 6,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "Halal Wagyu karemen king",
+                "address": "Toky\u014d Metropolitan Route 302 1-18-2 Sudacho, Kanda, Chiyoda City, Tokyo 101-0041, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.695579699999996,
+                    "longitude": 139.77136769999998
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN-_O33LaHem-YRCQMwi6YGFW4itavts_xk9_vd=w266-h200-k-no",
+                "data_id": "0x60188d00334db6cb:0x69ce1d0a035e4c42"
+            },
+            "date": "2 months ago",
+            "snippet": "Thanks for your welkoming.",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSM1dFNVpaMlJUT1ZCeFZrbFFWRGxQZVV0T1JrRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pSM1dFNVpaMlJUT1ZCeFZrbFFWRGxQZVV0T1JrRRAB!2m1!1s0x0:0x69ce1d0a035e4c42!3m1!1s2@1:CAIQACodChtycF9oOjR3WE5ZZ2RTOVBxVklQVDlPeUtORkE%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            }
+        },
+        {
+            "place_info": {
+                "title": "HALAL SAKURA",
+                "address": "\u30eb\u30fc\u30c8\u6839\u5cb8\u7b2c\uff12\u30d3\u30eb 1F\u30fb2F 2 Chome-18-11 Negishi, Taito City, Tokyo 110-0003, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.725089,
+                    "longitude": 139.77722
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEn-weFEOEc2bmxvvdBOBr0Ibqnd5Eu6YOEu66P2Xc1igOpH-_xQnt6Xpw1UHLOKOYUWefm0rDkFqw1zxA-oceIfvmtx6ivo9NEiBBjunFyLd6CvX5LItZqqH6TCEb5k5beJiSyA=w200-h266-k-no",
+                "data_id": "0x60188e80d9a2889f:0x8fd99463dfe3d9e"
+            },
+            "date": "2 months ago",
+            "snippet": "Vraiment \u00e0 recommander pour la qualit\u00e9 et l\u2019accueil",
+            "translated_snippet": "Highly recommended for the quality and the welcome.",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGRldsVndRVU5MZG5KQmMycFhUMUZ2WVU5QmFrRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pGRldsVndRVU5MZG5KQmMycFhUMUZ2WVU5QmFrRRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CAIQACodChtycF9oOjFFWlVwQUNLdnJBc2pXT1FvYU9BakE%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 months ago",
+                "snippet": "Thank you very much\ud83d\udc4f"
+            }
+        }
+    ]
+}

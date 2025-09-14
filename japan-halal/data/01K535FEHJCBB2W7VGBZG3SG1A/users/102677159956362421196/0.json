@@ -1,0 +1,67 @@
+{
+    "search_metadata": {
+        "id": "68c63bb2550cc40f3f7447ed",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/44c3ebcae6248a13/68c63bb2550cc40f3f7447ed.json",
+        "created_at": "2025-09-14 03:51:14 UTC",
+        "processed_at": "2025-09-14 03:51:14 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/102677159956362421196/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/44c3ebcae6248a13/68c63bb2550cc40f3f7447ed.html",
+        "prettify_html_file": "https://serpapi.com/searches/44c3ebcae6248a13/68c63bb2550cc40f3f7447ed.prettify",
+        "total_time_taken": 0.84
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "102677159956362421196",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Sorbon Dzhuraev",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJboiigRbp0fsL1U23_eQDZlU0Q-wi6t6uyAG9qgtCzaD2wjg=s120-c-rp-mo-br100",
+        "points": 23,
+        "level": 2,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 2,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 1,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Tokyo Shinjuku",
+                "address": "\u30a8\u30af\u30ec\u65b0\u5bbf B103 3 Chome-11-6 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.6918352,
+                    "longitude": 139.7064149
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6BAg1zpcNZrDmr_DNP-AppLvjbz1F8MnAEDro3levnT8rt1Q56FvGZzANLwx8iHRABTfqnmkVzDBG_R5klfTDM7c1TeegKjunOr95G7WWssSmVdmNpCa4N4SBJ0K3jIZqL6c=w200-h266-k-no",
+                "data_id": "0x60188d8a160764f1:0x5fa21297eefacea5"
+            },
+            "date": "a week ago",
+            "snippet": "Must visit place for all people. Husain was an amazing man who served me there. Ramen, sushi I would say number 1 in Japan",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkaFFXRmxZa05SYjBkVVVIRmtOMkpZTjBSeGRGRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tkaFFXRmxZa05SYjBkVVVIRmtOMkpZTjBSeGRGRRAB!2m1!1s0x0:0x5fa21297eefacea5!3m1!1s2@1:CAIQACodChtycF9oOkdhQWFlYkNRb0dUUHFkN2JYN0RxdFE%7C%7C?hl=en-US",
+            "details": {
+                "wait_time": "Up to 10 min"
+            },
+            "response": {
+                "date": "a week ago",
+                "snippet": "Dear Sorbon Dzhuraev,\nThanks for your kind review! We\u2019re thrilled to be considered a must-visit and hope to maintain the high standards you appreciate. We hope to welcome you back soon!"
+            }
+        }
+    ]
+}

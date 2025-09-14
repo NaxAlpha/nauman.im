@@ -1,0 +1,71 @@
+{
+    "search_metadata": {
+        "id": "68c63bb8f7e996d142076201",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/772df33a8090b107/68c63bb8f7e996d142076201.json",
+        "created_at": "2025-09-14 03:51:20 UTC",
+        "processed_at": "2025-09-14 03:51:20 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/103988915166820224630/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/772df33a8090b107/68c63bb8f7e996d142076201.html",
+        "prettify_html_file": "https://serpapi.com/searches/772df33a8090b107/68c63bb8f7e996d142076201.prettify",
+        "total_time_taken": 1.25
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "103988915166820224630",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Jahedul Islam Manik",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVWFGA9yXpHpcQ-mEgssR7gcDNPnDsEsZdFdDHDyllOTe9y3HY=s120-c-rp-mo-br100",
+        "points": 18,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 7,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Tokyo Shinjuku",
+                "address": "\u30a8\u30af\u30ec\u65b0\u5bbf B103 3 Chome-11-6 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.6918352,
+                    "longitude": 139.7064149
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6BAg1zpcNZrDmr_DNP-AppLvjbz1F8MnAEDro3levnT8rt1Q56FvGZzANLwx8iHRABTfqnmkVzDBG_R5klfTDM7c1TeegKjunOr95G7WWssSmVdmNpCa4N4SBJ0K3jIZqL6c=w200-h266-k-no",
+                "data_id": "0x60188d8a160764f1:0x5fa21297eefacea5"
+            },
+            "date": "a week ago",
+            "snippet": "The ramen is so much delicious. Here the people also good and the environment is so much friendly.",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KMlZYSlNPR0Z3VkUxcGJHSjZlbVJWWVRKM1JGRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25KMlZYSlNPR0Z3VkUxcGJHSjZlbVJWWVRKM1JGRRAB!2m1!1s0x0:0x5fa21297eefacea5!3m1!1s2@1:CAIQACodChtycF9oOnJ2VXJSOGFwVE1pbGJ6emRVYTJ3RFE%7C%7C?hl=en-US",
+            "details": {
+                "meal_type": "Dinner",
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "recommended_dishes": "Wagyu Spicy Ramen",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "a week ago",
+                "snippet": "Dear Jahedul Islam Manik,\nWe're thrilled to know you found our ramen delicious and enjoyed the friendly atmosphere. Thank you for visiting, and we hope to see you again!"
+            }
+        }
+    ]
+}

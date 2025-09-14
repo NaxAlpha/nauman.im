@@ -1,0 +1,78 @@
+{
+    "search_metadata": {
+        "id": "68c63b985b92f82422179985",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/1c09aeccd052be8a/68c63b985b92f82422179985.json",
+        "created_at": "2025-09-14 03:50:48 UTC",
+        "processed_at": "2025-09-14 03:50:48 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/114805615736308404964/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/1c09aeccd052be8a/68c63b985b92f82422179985.html",
+        "prettify_html_file": "https://serpapi.com/searches/1c09aeccd052be8a/68c63b985b92f82422179985.prettify",
+        "total_time_taken": 0.72
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "114805615736308404964",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Azlina Noor",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocINv-DJNGgTrqvt8W7ixkvdnrIJhFHo_HuqYdWZgBmlAfKunA=s120-c-rp-mo-br100",
+        "points": 33,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 0,
+            "photos": 1,
+            "videos": 0,
+            "captions": 0,
+            "answers": 7,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                "address": "Japan, \u3012171-0021 Tokyo, Toshima City, Nishiikebukuro, 1 Chome\u221221\u221213 \u842c\u76db\u5802\u30d3\u30eb \u5730\u4e0b1\u968e",
+                "gps_coordinates": {
+                    "latitude": 35.7317187,
+                    "longitude": 139.70938959999998
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPVWZqLaw4o2s6ycx03IZJM9-59T9ANoz_QfYmm=w200-h266-k-no",
+                "data_id": "0x60188d8adc764401:0x2aeabb694cae186a"
+            },
+            "date": "2 days ago",
+            "snippet": "The halal ramen here is excellent \u2014 rich broth, perfectly cooked noodles, and fresh toppings. The staff are very friendly, attentive, and accommodating, ensuring a pleasant dining experience. A great place to enjoy authentic flavors in a welcoming atmosphere. Definitely worth a visit!",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201TlNVWk5UWGRIVjBZNVJEZGplVGhqVjBFMVVuYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201TlNVWk5UWGRIVjBZNVJEZGplVGhqVjBFMVVuYxAB!2m1!1s0x0:0x2aeabb694cae186a!3m1!1s2@1:CAIQACodChtycF9oOm5NSUZNTXdHV0Y5RDdjeThjV0E1Unc%7C%7C?hl=en-US",
+            "details": {
+                "price_per_person": "\u00a55,000\u20136,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "reservation": "Varies by time / day",
+                "group_size": "2 people",
+                "seating_type": "Indoor dining area"
+            },
+            "images": [
+                {
+                    "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                    "thumbnail": "https://lh3.googleusercontent.com/geougc-cs/AB3l90CV4Qt-kDFLdV_h3uxKEqRjZwaLH9ivqZOal-ozZGdX-LD1u5oHIUZ4Fp01TuXMsGkjyTk5JmbSdCo99UgFuoFPmBkhInXMR2Q8K1W7hr_9nTvlX4ozorNYBoqSCzqduMHfM5SSLzkXGH6C",
+                    "date": "2025-9-11"
+                }
+            ],
+            "response": {
+                "date": "2 days ago",
+                "snippet": "Dear Azlina Noor,\nWe appreciate your kind words about our restaurant. It\u2019s always rewarding to know our guests enjoy authentic flavors in a welcoming atmosphere. Hope to see you again soon!"
+            }
+        }
+    ]
+}

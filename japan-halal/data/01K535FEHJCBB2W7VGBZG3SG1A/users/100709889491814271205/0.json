@@ -1,0 +1,86 @@
+{
+    "search_metadata": {
+        "id": "68c63b95018c482f34667c9c",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/3c34ba774da2c1a2/68c63b95018c482f34667c9c.json",
+        "created_at": "2025-09-14 03:50:45 UTC",
+        "processed_at": "2025-09-14 03:50:45 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/100709889491814271205/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/3c34ba774da2c1a2/68c63b95018c482f34667c9c.html",
+        "prettify_html_file": "https://serpapi.com/searches/3c34ba774da2c1a2/68c63b95018c482f34667c9c.prettify",
+        "total_time_taken": 1.33
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "100709889491814271205",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Nike17",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJUhZpdE8Gnq6gWF1Pg6azt2ZBoOlGEEmhYsxQy7r6-CYRSmg=s120-c-rp-mo-br100",
+        "points": 25,
+        "contributions": {
+            "reviews": 2,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 3,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                "address": "Japan, \u3012171-0021 Tokyo, Toshima City, Nishiikebukuro, 1 Chome\u221221\u221213 \u842c\u76db\u5802\u30d3\u30eb \u5730\u4e0b1\u968e",
+                "gps_coordinates": {
+                    "latitude": 35.7317187,
+                    "longitude": 139.70938959999998
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPVWZqLaw4o2s6ycx03IZJM9-59T9ANoz_QfYmm=w200-h266-k-no",
+                "data_id": "0x60188d8adc764401:0x2aeabb694cae186a"
+            },
+            "date": "2 days ago",
+            "snippet": "The service was welcoming as soon as I stepped inside. My server provided me with excellent service. I got the 3 piece spicy wagyu ramen. It was good. Would have been a 5 but I wish it was spicier. Overall, good experience.",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214dFRsRjNWSE5JZEZvNVpteHlXalZXVTJkUGJIYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT214dFRsRjNWSE5JZEZvNVpteHlXalZXVTJkUGJIYxAB!2m1!1s0x0:0x2aeabb694cae186a!3m1!1s2@1:CAIQACodChtycF9oOmxtTlF3VHNIdFo5ZmxyWjVWU2dPbHc%7C%7C?hl=en-US",
+            "details": {
+                "food": 4,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "snippet": "Hello,\nWe appreciate your feedback and are glad you had a good experience with us. We will consider your suggestion on making the ramen spicier. Thank you and see you next time!"
+            }
+        },
+        {
+            "place_info": {
+                "title": "SAW Escape Room",
+                "address": "2121 S Industrial Rd Suite 101, Las Vegas, NV 89102",
+                "gps_coordinates": {
+                    "latitude": 36.1472798,
+                    "longitude": -115.1624626
+                },
+                "type": "Escape room center",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrLCWI1xYBRepXFKXojp4z4K5xO5zsDF2IzQVHH1ksF10bTuKl-RCFNl8cQX3DVoG7uOnYQC7pLp4bDA1t7XivhCvnmXurqpbZNll-3HSEekORd7y-QOXA4L5rn9xLr82sUMBif=w266-h200-k-no",
+                "data_id": "0x80c8c38a5fe55555:0x1d7ebea67c8cc46"
+            },
+            "date": "2 years ago",
+            "snippet": "Great experience. Bailey (Clauss) was a great performer.",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSURSNWRtMHpBRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURSNWRtMHpBRRAB!2m1!1s0x0:0x1d7ebea67c8cc46!3m1!1s2@1:CIHM0ogKEICAgIDR5dm0zAE%7C%7C?hl=en-US"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "search_metadata": {
+        "id": "68c63bfa8270314372514b2a",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/d18f24b22c01f73a/68c63bfa8270314372514b2a.json",
+        "created_at": "2025-09-14 03:52:26 UTC",
+        "processed_at": "2025-09-14 03:52:26 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/118196416330729466059/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/d18f24b22c01f73a/68c63bfa8270314372514b2a.html",
+        "prettify_html_file": "https://serpapi.com/searches/d18f24b22c01f73a/68c63bfa8270314372514b2a.prettify",
+        "total_time_taken": 0.78
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "118196416330729466059",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "MUSTAFO FOZILOV",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocI2OdB5BYuq7UIL35rPjQm4zPLZBQzceg-G6URdnr3waLmN0w=s120-c-rp-mo-br100",
+        "points": 18,
+        "level": 2,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 1,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 6,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL SAKURA",
+                "address": "\u30eb\u30fc\u30c8\u6839\u5cb8\u7b2c\uff12\u30d3\u30eb 1F\u30fb2F 2 Chome-18-11 Negishi, Taito City, Tokyo 110-0003, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.725089,
+                    "longitude": 139.77722
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEn-weFEOEc2bmxvvdBOBr0Ibqnd5Eu6YOEu66P2Xc1igOpH-_xQnt6Xpw1UHLOKOYUWefm0rDkFqw1zxA-oceIfvmtx6ivo9NEiBBjunFyLd6CvX5LItZqqH6TCEb5k5beJiSyA=w200-h266-k-no",
+                "data_id": "0x60188e80d9a2889f:0x8fd99463dfe3d9e"
+            },
+            "date": "2 months ago",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wcmVEQlljRnBHYm1OelQyVkhaRmRsWTBvd1VsRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25wcmVEQlljRnBHYm1OelQyVkhaRmRsWTBvd1VsRRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CAIQACodChtycF9oOnpreDBYcFpGbmNzT2VHZFdlY0owUlE%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "3-4 people",
+                "wait_time": "No wait"
+            },
+            "response": {
+                "date": "2 months ago",
+                "snippet": "Katta rahmat!\ud83d\udc4d\ud83d\udc4f",
+                "translated_snippet": "Thank you very much!\ud83d\udc4d\ud83d\udc4f"
+            }
+        }
+    ]
+}

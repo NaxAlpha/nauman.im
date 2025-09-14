@@ -1,0 +1,334 @@
+{
+    "search_metadata": {
+        "id": "68c63bfe4707f126ac47bd5d",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/5a66e9438ff2b2d8/68c63bfe4707f126ac47bd5d.json",
+        "created_at": "2025-09-14 03:52:30 UTC",
+        "processed_at": "2025-09-14 03:52:30 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/118177078153796751537/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/5a66e9438ff2b2d8/68c63bfe4707f126ac47bd5d.html",
+        "prettify_html_file": "https://serpapi.com/searches/5a66e9438ff2b2d8/68c63bfe4707f126ac47bd5d.prettify",
+        "total_time_taken": 1.6
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "118177078153796751537",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Irfan Handriyadi",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjW2D7yalw4Y1yGdm_rvDWUU-e4tIwh_9d2vIcZo_IKs2nXQGtHG=s120-c-rp-mo-br100",
+        "points": 192,
+        "level": 3,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 11,
+            "ratings": 3,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 47,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 1,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 2
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Tokyo Shibuya",
+                "address": "\uff24\uff29\uff38\u795e\u5357\u30d3\u30eb B1F 1 Chome-17-2 Jinnan, Shibuya, Tokyo 150-0041, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.6631528,
+                    "longitude": 139.7001536
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOYvNt2QpgPXRwubgd71zDT6XnZjvRKMJPG65LH=w300-h200-k-no",
+                "data_id": "0x60188d838396efa1:0xca47e80c5697a4e8"
+            },
+            "date": "22 hours ago",
+            "snippet": "Makanan enak, tempat nyaman",
+            "translated_snippet": "Good food, comfortable place",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT204NFZVZHJkekp0TVVRdFdrVXRXSFp0Wm5OcVJuYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT204NFZVZHJkekp0TVVRdFdrVXRXSFp0Wm5OcVJuYxAB!2m1!1s0x0:0xca47e80c5697a4e8!3m1!1s2@1:CAIQACodChtycF9oOm84VUdrdzJtMUQtWkUtWHZtZnNqRnc%7C%7C?hl=en-US",
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a51,000\u20132,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Very quiet",
+                "group_size": "3-4 people"
+            },
+            "response": {
+                "date": "4 hours ago",
+                "snippet": "Kami sangat senang mendengar Anda menyukai makanan kami dan merasa nyaman! Kami akan terus berusaha memberikan pengalaman terbaik bagi semua pelanggan kami.",
+                "translated_snippet": "We're so happy to hear you enjoyed our food and felt comfortable! We will continue to strive to provide the best possible experience for all our customers."
+            }
+        },
+        {
+            "place_info": {
+                "title": "Ratu Pedesan",
+                "address": "748C+VW2, Kb. Cau, Kec. Ujung Jaya, Kabupaten Sumedang, Jawa Barat 45383, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.732863999999999,
+                    "longitude": 108.12225769999999
+                },
+                "type": "Diner",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nodHpUObeMysW75jd_alB4tEaF-C2yld-fSrRpw2RYm4_bVX4jK7vh9jeoa05tDS7PPZUaN6dKpRN9hXh0YICEkTx5vu1kYNHJFJuG9CkdM_ZCrXUeoEtxntkAVxfdm_yD5HGXK=w266-h200-k-no",
+                "data_id": "0x2e6ed57fdf8df1f1:0x6313fc3d2b7edebc"
+            },
+            "date": "11 months ago",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSURuaTVQQjZnRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURuaTVQQjZnRRAB!2m1!1s0x0:0x6313fc3d2b7edebc!3m1!1s2@1:CIHM0ogKEICAgIDni5PB6gE%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4
+            }
+        },
+        {
+            "place_info": {
+                "title": "Indo Super Grosir Supermarket Bahan Bangunan",
+                "address": "Jl. Arif Rahman Hakim No.27, Muka, Cianjur, Cianjur Regency, West Java 43215, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.813744799999999,
+                    "longitude": 107.148929
+                },
+                "type": "Hardware store",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP_TIubsyuzYuo31hzzF5_RMbDJ3EZ417K1IN5r=w200-h200-k-no",
+                "data_id": "0x2e685302808457cb:0x425c8870692d0a92"
+            },
+            "date": "a year ago",
+            "snippet": "Tempat belanja material terlengkap di Cianjur dan sekitarnya",
+            "translated_snippet": "The most complete place to shop for materials in Cianjur and its surroundings",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNaLTVtTmxBRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNaLTVtTmxBRRAB!2m1!1s0x0:0x425c8870692d0a92!3m1!1s2@1:CIHM0ogKEICAgICZ-5mNlAE%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "Penginapan Srikandi",
+                "address": "Sukapura, Kec. Cidaun, Kabupaten Cianjur, Jawa Barat 43275, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -7.4807893,
+                    "longitude": 107.2247455
+                },
+                "type": "Hotel",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP_CMMaHDBDh9y0Ulc7YGxPczgzxaMq9VkrLQvO=w266-h200-k-no",
+                "data_id": "0x2e67d5b4a5acfa01:0x9c28ec9be9e2c60b"
+            },
+            "date": "3 years ago",
+            "snippet": "Nyaman, terjangkau",
+            "translated_snippet": "Comfortable, affordable",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUQ2c3JpNW5BRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUQ2c3JpNW5BRRAB!2m1!1s0x0:0x9c28ec9be9e2c60b!3m1!1s2@1:CIHM0ogKEICAgID6sri5nAE%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "TOSERBA GRIYA JATINANGOR",
+                "address": "Jl. Raya Jatinangor No.130, Sayang, SUMEDANG, Sumedang Regency, West Java 45363, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.9349069,
+                    "longitude": 107.7689578
+                },
+                "type": "Supermarket",
+                "thumbnail": "//lh4.googleusercontent.com/proxy/kifUTQwOiYrpVnrekDAR2WnSBfW90MJ1bJ7qHUopmiTlRoU3rHZwi7UVh3AH5S2EWzXw8a4BGrl8yx1zjlgpXlbcKKr4M1It3cV9ygsHPCffZyBPP6cCNdomeMhdMm53eHWmGc0yW0AgM3Bi-WxIpjERtw8QPZsuJfDZgM3qmuao=w266-h200-k-no",
+                "data_id": "0x2e68c4a67afc76f5:0xc57e33a6693fa7ca"
+            },
+            "date": "5 years ago",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUQwamNLUXFRRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUQwamNLUXFRRRAB!2m1!1s0x0:0xc57e33a6693fa7ca!3m1!1s2@1:CIHM0ogKEICAgID0jcKQqQE%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "Toko Buku AA Jatinangor",
+                "address": "Jl. Raya Jatinangor No.144, Cikeruh, Jatinangor, Sumedang Regency, West Java 45363, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.9342662,
+                    "longitude": 107.77064709999999
+                },
+                "type": "Book store",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrWu_eUVfiGXTU7huEt6C29JiRgFyoha4jrJYDBHvYrPxoYrGTdSTfpN2UnzRzguZ3iVZ-mpxYysTryfghH3Hp8ATaXs_Vh47f-9ekz-ZtxRrkGOgj2Z75FuUYTmpw5g5KGMPXm=w266-h200-k-no",
+                "data_id": "0x2e68c4a5c5dd01ed:0x42413f1414c4b798"
+            },
+            "date": "5 years ago",
+            "snippet": "Lengkap dan murah",
+            "translated_snippet": "Complete and cheap",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUQwamNLVUlREAE",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQwamNLVUlREAE!2m1!1s0x0:0x42413f1414c4b798!3m1!1s2@1:CIHM0ogKEICAgID0jcKUIQ%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "Indomaret Caringin Jatinangor",
+                "address": "3Q69+XWG, Jl. Caringin No.51, Sayang, Kec. Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.937697999999999,
+                    "longitude": 107.7690684
+                },
+                "type": "Convenience store",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqJbmD5HXGm1cItFJPmk8iknrT35kM9WAjyEm2qyD8Xo6ADheDq46RQjs7hx1JC5If1u-9o9uZcVzaMIKHqIPXkYeZh_SXoKBo-qFaV7k6O_oGUBXKHLdMtqB9QtDubdgZhtHBb=w266-h200-k-no",
+                "data_id": "0x2e68c4a153157e8f:0x1aa6abce572d1d80"
+            },
+            "date": "6 years ago",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSURVaGZqSG9RRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURVaGZqSG9RRRAB!2m1!1s0x0:0x1aa6abce572d1d80!3m1!1s2@1:CIHM0ogKEICAgIDUhfjHoQE%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "Berkah Knalpot",
+                "address": "3Q35+W4V, Jl. Raya Cipacing, Cileunyi Wetan, Kec. Cileunyi, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.9451423,
+                    "longitude": 107.7577891
+                },
+                "type": "Muffler shop",
+                "thumbnail": "//lh3.googleusercontent.com/proxy/QDixVYqXNyghmRdcETAyohr84ou5nNzGGIidHSwplv-8nIlpiVjQIP1tUK5mHmlcB5eLibGrtpGdIT0qBS_mS2kS9RUgCX5-sZA6XrF0pl9l7ob0s3g-6whrwrGxFujRDb_uD9S4dkUep13CUC_ochJXA5NVePHmoclhWSEdrnH7=w266-h200-k-no",
+                "data_id": "0x2e68c360cd5aa543:0xd1927a54d15d2ca7"
+            },
+            "date": "6 years ago",
+            "snippet": "Ramah n murah",
+            "translated_snippet": "Friendly n cheap",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSURrNGJXcm13RRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURrNGJXcm13RRAB!2m1!1s0x0:0xd1927a54d15d2ca7!3m1!1s2@1:CIHM0ogKEICAgIDk4bWrmwE%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "Penginapan Al Firdausi Syariah RedPartner",
+                "address": "Maniskidul, Jalaksana RT/RW 005/001, Kabupaten Kuningan, Jawa Barat 45554, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.9079006,
+                    "longitude": 108.4828768
+                },
+                "type": "Hotel",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOl-TYpgMMUYIvvSc64GmMuBu4Zikc662G3eDPG=w200-h266-k-no",
+                "data_id": "0x2e6f177111317ecd:0xf45aca541814c6f5"
+            },
+            "date": "6 years ago",
+            "snippet": "Rapi n murah",
+            "translated_snippet": "Neat and cheap",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSURJaHJyRUxREAE",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURJaHJyRUxREAE!2m1!1s0x0:0xf45aca541814c6f5!3m1!1s2@1:CIHM0ogKEICAgIDIhrrELQ%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "Istana BEC Bandung",
+                "address": "Gedung Bec Lama Lantai LG Blok A.2, Jl. Purnawarman No.13-15, Babakanciamis, Bandung City, West Java 40117, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.9078216,
+                    "longitude": 107.6087898
+                },
+                "type": "Shopping mall",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrhgSZ6vLIxZfxe0SHzSQplmjYDpBrqHTjH5WFdgg1WoY7pGQWgoi6s9NKbHinqjrLWyl7dNaPPGn-9oZd3tIkq60knZJzXohjSF8iwaCYzT9AxJKlOrQqbgrH5QXBgCD_vYLu6=w355-h200-k-no",
+                "data_id": "0x2e68e7cdf9410439:0xd75e3bea3b5242b2"
+            },
+            "date": "6 years ago",
+            "snippet": "Lengkap n murah dikawasan bandung",
+            "translated_snippet": "Complete and cheap in the Bandung area",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNJMWZ5UExREAE",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNJMWZ5UExREAE!2m1!1s0x0:0xd75e3bea3b5242b2!3m1!1s2@1:CIHM0ogKEICAgICI1fyPLQ%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "AQIQAH RAJA SATE",
+                "address": "Jl. Otista No.360, Pasawahan, Kec. Tarogong Kaler, Kabupaten Garut, Jawa Barat 44151, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -7.169374299999999,
+                    "longitude": 107.89499459999999
+                },
+                "type": "Caterer",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPAaxoGbNr592lv01dn_-2S8j77T8UlRaQg72vE=w267-h200-k-no",
+                "data_id": "0x2e68b0d24809114f:0x7e4ef8d6ca7adfe8"
+            },
+            "date": "6 years ago",
+            "snippet": "Satenya enak.....terutama sate sapinya",
+            "translated_snippet": "The satay is delicious...especially the beef satay",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNJMWZ5VFJnEAE",
+            "rating": 4,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNJMWZ5VFJnEAE!2m1!1s0x0:0x7e4ef8d6ca7adfe8!3m1!1s2@1:CIHM0ogKEICAgICI1fyTRg%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "Toko Buku Diskon Togamas - Supratman",
+                "address": "Jl. Supratman No.45, Cihapit, Bandung Wetan, Bandung City, West Java 40114, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.903956,
+                    "longitude": 107.6277999
+                },
+                "type": "Book store",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nppu4GpWcWKe0l0hVI7E17xY4kqpCz6ciipJWYtvZq5Gs-snsO9YjgkkjoCr_gWQCfn-oku8hzxmxx15ng7mBJoy7MdIanjkydLTDdPe28K4WlfWRi3UcykJDZWkuw23nbdMoME=w200-h200-k-no",
+                "data_id": "0x2e68e7b56fb1c10d:0xbfafd465bf011c60"
+            },
+            "date": "6 years ago",
+            "snippet": "Lengkap sekali",
+            "translated_snippet": "Very complete",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNnMnBpTDlBRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNnMnBpTDlBRRAB!2m1!1s0x0:0xbfafd465bf011c60!3m1!1s2@1:CIHM0ogKEICAgICg2piL9AE%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "Bakso Boedjangan Jatinangor",
+                "address": "Jl. Raya Jatinangor No.73, Cibeusi, Jatinangor, Sumedang Regency, West Java 40623, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.9360637999999994,
+                    "longitude": 107.7646504
+                },
+                "type": "Bakso restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq5a4uTCL7XK1G1Dex8eynxPK6ARedkoscX01EARWpsuXJKdL3hIoWxr_miUenNJhL-QWnFZzNHq5NUyPkwH5UHK9ea185qa2OYebtUjxOiF2gnX6tcbJ26HWyxBB3JfPhtAQVL_w=w266-h200-k-no",
+                "data_id": "0x2e68c4a77274dd7d:0xf4e60d08753a143a"
+            },
+            "date": "7 years ago",
+            "snippet": "enak baksonya n tempatnya",
+            "translated_snippet": "the meatballs and the place are delicious",
+            "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNnMnBpTHdBRRAB",
+            "rating": 4,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNnMnBpTHdBRRAB!2m1!1s0x0:0xf4e60d08753a143a!3m1!1s2@1:CIHM0ogKEICAgICg2piLwAE%7C%7C?hl=en-US"
+        },
+        {
+            "place_info": {
+                "title": "Borma Toserba \u2013 Cijerah",
+                "address": "Jl. Raya Cijerah No.90, Cijerah, Bandung Kulon, Bandung City, West Java 40213, Indonesia",
+                "gps_coordinates": {
+                    "latitude": -6.919788199999999,
+                    "longitude": 107.56954259999999
+                },
+                "type": "Supermarket",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqLjeiJaB8Q1vbwCFS6ID4gL48tfeGVI7ZnZmFC_5g4LKBslW3vSATUnO-XgNdO8wLAsGsET5_alEZiFMsdA4Tc2hpwyRhdq8jxKGTp2S1-_lL0KcXkJfc5W0A1nu5LsEyB0Tl-4A=w355-h200-k-no",
+                "data_id": "0x2e68e5f6580f40d1:0x59b1c10c89a9f66a"
+            },
+            "date": "7 years ago",
+            "snippet": "Komplet pisan",
+            "translated_snippet": "Complete written",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNnMnBpTExBEAE",
+            "rating": 4,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNnMnBpTExBEAE!2m1!1s0x0:0x59b1c10c89a9f66a!3m1!1s2@1:CIHM0ogKEICAgICg2piLLA%7C%7C?hl=en-US"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "search_metadata": {
+        "id": "68c63bca3a920636793e3713",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/64a24a17f4218578/68c63bca3a920636793e3713.json",
+        "created_at": "2025-09-14 03:51:38 UTC",
+        "processed_at": "2025-09-14 03:51:38 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/117285275797943494570/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/64a24a17f4218578/68c63bca3a920636793e3713.html",
+        "prettify_html_file": "https://serpapi.com/searches/64a24a17f4218578/68c63bca3a920636793e3713.prettify",
+        "total_time_taken": 0.61
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "117285275797943494570",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Eka septiana wardani",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjUATi50hiZ5YrFs8IU4q2a2zJM7QvtAgruZWeBCXVp9FwPTMkE=s120-c-rp-mo-br100",
+        "points": 28,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 0,
+            "photos": 1,
+            "videos": 0,
+            "captions": 0,
+            "answers": 12,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Tokyo Shinjuku",
+                "address": "\u30a8\u30af\u30ec\u65b0\u5bbf B103 3 Chome-11-6 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.6918352,
+                    "longitude": 139.7064149
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6BAg1zpcNZrDmr_DNP-AppLvjbz1F8MnAEDro3levnT8rt1Q56FvGZzANLwx8iHRABTfqnmkVzDBG_R5klfTDM7c1TeegKjunOr95G7WWssSmVdmNpCa4N4SBJ0K3jIZqL6c=w200-h266-k-no",
+                "data_id": "0x60188d8a160764f1:0x5fa21297eefacea5"
+            },
+            "date": "a week ago",
+            "snippet": "sangatt rekomendasi guys\naku pesen yang ayam,kuashnya mantap pol terus juga porsinya banyak.",
+            "translated_snippet": "Highly recommended, guys.\nI ordered the chicken, the broth was excellent and the portion was generous.",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0SFIzZG5ibDlZTkY5Q1pESjVWbVpQVm1wRWVWRRAB",
+            "rating": 4,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2t0SFIzZG5ibDlZTkY5Q1pESjVWbVpQVm1wRWVWRRAB!2m1!1s0x0:0x5fa21297eefacea5!3m1!1s2@1:CAIQACodChtycF9oOktHR3dnbl9YNF9CZDJ5VmZPVmpEeVE%7C%7C?hl=en-US",
+            "details": {
+                "meal_type": "Lunch",
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 4,
+                "wait_time": "Up to 10 min",
+                "parking_space": "Not sure",
+                "parking_options": "Parking is unavailable",
+                "parking": ".",
+                "kid_friendliness": ".",
+                "wheelchair_accessibility": "."
+            },
+            "images": [
+                {
+                    "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Tokyo Shinjuku",
+                    "thumbnail": "https://lh3.googleusercontent.com/geougc-cs/AB3l90CXfOsTzDNY2t9T4oZZ7n6OOFNS0vKdMTtbW0XuPrd-poMDV2k6essodYXPeMCQ-d0T1-Ee3ETl0TAGwhT5njbRj7q5XesnyHSoYcWzpMTRIBslI2ywGlI-LY3bUVStEAyDjY3SOGqta521",
+                    "date": "2025-8-31"
+                }
+            ],
+            "response": {
+                "date": "a week ago",
+                "snippet": "Hai! Terima kasih banyak sudah memberi tahu kami bahwa ayam dan kuahnya sesuai harapan, serta porsinya melimpah. Kami berharap bisa segera menyambut anda kembali.",
+                "translated_snippet": "Hi! Thank you so much for letting us know that the chicken and broth were as expected, and the portion was generous. We look forward to welcoming you back soon."
+            }
+        }
+    ]
+}

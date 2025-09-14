@@ -1,0 +1,86 @@
+{
+    "search_metadata": {
+        "id": "68c63b9e6372f3b73bdcda9a",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/7d80db9cd88e7774/68c63b9e6372f3b73bdcda9a.json",
+        "created_at": "2025-09-14 03:50:54 UTC",
+        "processed_at": "2025-09-14 03:50:54 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/111788200638726767381/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/7d80db9cd88e7774/68c63b9e6372f3b73bdcda9a.html",
+        "prettify_html_file": "https://serpapi.com/searches/7d80db9cd88e7774/68c63b9e6372f3b73bdcda9a.prettify",
+        "total_time_taken": 1.0
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "111788200638726767381",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Iqbalhossain Maruf",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWxKHVsrYWodI9F1-gJcvK8xjA2dPXfInpxguWPC0Vqts4TRFhzRg=s120-c-rp-mo-br100",
+        "points": 5,
+        "level": 1,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 0,
+            "ratings": 2,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 3,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                "address": "Japan, \u3012171-0021 Tokyo, Toshima City, Nishiikebukuro, 1 Chome\u221221\u221213 \u842c\u76db\u5802\u30d3\u30eb \u5730\u4e0b1\u968e",
+                "gps_coordinates": {
+                    "latitude": 35.7317187,
+                    "longitude": 139.70938959999998
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPVWZqLaw4o2s6ycx03IZJM9-59T9ANoz_QfYmm=w200-h266-k-no",
+                "data_id": "0x60188d8adc764401:0x2aeabb694cae186a"
+            },
+            "date": "3 days ago",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoMmJrNXVaRmxJV1VGNlF6VXdSa3B3Wm5Wa01uYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xoMmJrNXVaRmxJV1VGNlF6VXdSa3B3Wm5Wa01uYxAB!2m1!1s0x0:0x2aeabb694cae186a!3m1!1s2@1:CAIQACodChtycF9oOlh2bk5uZFlIWUF6QzUwRkpwZnVkMnc%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "2 days ago",
+                "snippet": "Dear Iqbalhossain Maruf,\nWe are truly grateful for your 5-star rating! It\u2019s an honor to serve you, and we\u2019re so pleased that you enjoyed our halal ramen. Your support means a lot to us, and we can\u2019t wait to welcome you back!"
+            }
+        },
+        {
+            "place_info": {
+                "title": "\u09ac\u0989 \u09ac\u09be\u099c\u09be\u09b0",
+                "address": "1 no baburail bou bazar, 1400, Bangladesh",
+                "gps_coordinates": {
+                    "latitude": 23.6089673,
+                    "longitude": 90.495429
+                },
+                "type": "Bazar",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrndntjyyOcRP5zIHe6ldSMmwZSfYqU2NV0cKV9hAfVVNOehlwTSRNYIE4CBi8m0OaoRlJ7Kl52QOSudr-qIKfHNv-HBc5zcdY5raJZhEpdeUVxROfN5Fc9VRnN8nMUZeq6dL-N=w266-h200-k-no",
+                "data_id": "0x3755b1afc9415089:0xb7d0ec73486880dc"
+            },
+            "date": "7 years ago",
+            "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNROExYX1d3EAE",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNROExYX1d3EAE!2m1!1s0x0:0xb7d0ec73486880dc!3m1!1s2@1:CIHM0ogKEICAgICQ8LX_Ww%7C%7C?hl=en-US"
+        }
+    ]
+}

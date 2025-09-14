@@ -1,0 +1,66 @@
+{
+    "search_metadata": {
+        "id": "68c63b8c932b0e6b0af16b92",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/a0cae5d592f9263f/68c63b8c932b0e6b0af16b92.json",
+        "created_at": "2025-09-14 03:50:36 UTC",
+        "processed_at": "2025-09-14 03:50:36 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/110373822676079135665/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/a0cae5d592f9263f/68c63b8c932b0e6b0af16b92.html",
+        "prettify_html_file": "https://serpapi.com/searches/a0cae5d592f9263f/68c63b8c932b0e6b0af16b92.prettify",
+        "total_time_taken": 0.86
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "110373822676079135665",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "\u30b6\u30a4\u30ca\u30eb\u30a2\u30df\u30f3",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKOfB7mPb1xMWT_-H0p_pkjlp0t4-NeVWyvamj6Hiz8Ese_MA=s120-c-rp-mo-br100",
+        "points": 4,
+        "contributions": {
+            "reviews": 0,
+            "ratings": 1,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 3,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Ikebukuro Tokyo",
+                "address": "Japan, \u3012171-0021 Tokyo, Toshima City, Nishiikebukuro, 1 Chome\u221221\u221213 \u842c\u76db\u5802\u30d3\u30eb \u5730\u4e0b1\u968e",
+                "gps_coordinates": {
+                    "latitude": 35.7317187,
+                    "longitude": 139.70938959999998
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPVWZqLaw4o2s6ycx03IZJM9-59T9ANoz_QfYmm=w200-h266-k-no",
+                "data_id": "0x60188d8adc764401:0x2aeabb694cae186a"
+            },
+            "date": "a day ago",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVdGRrVkRkRWRhVEMxNU1rTnZYM1pIVGpKc05GRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xVdGRrVkRkRWRhVEMxNU1rTnZYM1pIVGpKc05GRRAB!2m1!1s0x0:0x2aeabb694cae186a!3m1!1s2@1:CAIQACodChtycF9oOlUtdkVDdEdaTC15MkNvX3ZHTjJsNFE%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a day ago",
+                "snippet": "Thank you so much for your 5-star rating! We\u2019re thrilled that you enjoyed your time with us and appreciated our halal ramen. We look forward to welcoming you back soon for another delicious bowl!"
+            }
+        }
+    ]
+}

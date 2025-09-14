@@ -1,0 +1,75 @@
+{
+    "search_metadata": {
+        "id": "68c63bf550d43ed7369e983f",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/52e48baa7d3d15b3/68c63bf550d43ed7369e983f.json",
+        "created_at": "2025-09-14 03:52:21 UTC",
+        "processed_at": "2025-09-14 03:52:21 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/110402504441747560643/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/52e48baa7d3d15b3/68c63bf550d43ed7369e983f.html",
+        "prettify_html_file": "https://serpapi.com/searches/52e48baa7d3d15b3/68c63bf550d43ed7369e983f.prettify",
+        "total_time_taken": 0.58
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "110402504441747560643",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Supersell Games",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL_tWVuIH9kWVT_780BZ_40gHu5ye9VfOuRqN6Y4ckJw97n7w=s120-c-rp-mo-br100",
+        "points": 29,
+        "level": 2,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 2,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 7,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL SAKURA",
+                "address": "\u30eb\u30fc\u30c8\u6839\u5cb8\u7b2c\uff12\u30d3\u30eb 1F\u30fb2F 2 Chome-18-11 Negishi, Taito City, Tokyo 110-0003, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.725089,
+                    "longitude": 139.77722
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqEn-weFEOEc2bmxvvdBOBr0Ibqnd5Eu6YOEu66P2Xc1igOpH-_xQnt6Xpw1UHLOKOYUWefm0rDkFqw1zxA-oceIfvmtx6ivo9NEiBBjunFyLd6CvX5LItZqqH6TCEb5k5beJiSyA=w200-h266-k-no",
+                "data_id": "0x60188e80d9a2889f:0x8fd99463dfe3d9e"
+            },
+            "date": "2 months ago",
+            "snippet": "\u7d20\u6674\u3089\u3057\u3044\u30b5\u30fc\u30d3\u30b9\u3001\u30e1\u30f3\u30c6\u30ca\u30f3\u30b9\u3001\u305d\u3057\u3066\u4fe1\u3058\u3089\u308c\u306a\u3044\u307b\u3069\u7f8e\u5473\u3057\u3044\u4e2d\u592e\u30a2\u30b8\u30a2\u6599\u7406",
+            "translated_snippet": "Great service, maintenance and incredibly delicious Central Asian food",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WaE1WZzFXa1JSUWxWS1prdG5OR052VkVRelkwRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25WaE1WZzFXa1JSUWxWS1prdG5OR052VkVRelkwRRAB!2m1!1s0x0:0x8fd99463dfe3d9e!3m1!1s2@1:CAIQACodChtycF9oOnVhMVg1WkRRQlVKZktnNGNvVEQzY0E%7C%7C?hl=en-US",
+            "details": {
+                "price_per_person": "\u00a53,000\u20134,000",
+                "food": 4,
+                "service": 5,
+                "atmosphere": 5,
+                "noise_level": "Quiet, easy to talk",
+                "group_size": "3-4 people",
+                "special_events": "Live music"
+            },
+            "response": {
+                "date": "2 months ago",
+                "snippet": "\u5b09\u3057\u3044\u304a\u8a00\u8449\u3092\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\n\u30b5\u30fc\u30d3\u30b9\u3084\u5e97\u5185\u306e\u6e05\u6f54\u3055\u3001\u305d\u3057\u3066\u4e2d\u592e\u30a2\u30b8\u30a2\u6599\u7406\u3092\u697d\u3057\u3093\u3067\u3044\u305f\u3060\u3051\u3066\u672c\u5f53\u306b\u5149\u6804\u3067\u3059\u3002\n\u307e\u305f\u306e\u3054\u6765\u5e97\u3092\u5fc3\u3088\u308a\u304a\u5f85\u3061\u3057\u3066\u304a\u308a\u307e\u3059\uff01",
+                "translated_snippet": "Thank you for your kind words! \nWe are glad that you enjoyed our service, cleanliness, and Central Asian cuisine. \nWe look forward to seeing you again soon!"
+            }
+        }
+    ]
+}

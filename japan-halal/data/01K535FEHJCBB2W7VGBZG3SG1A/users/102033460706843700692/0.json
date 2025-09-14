@@ -1,0 +1,70 @@
+{
+    "search_metadata": {
+        "id": "68c63bb5124815c0cdc6d197",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/af266678368d0254/68c63bb5124815c0cdc6d197.json",
+        "created_at": "2025-09-14 03:51:17 UTC",
+        "processed_at": "2025-09-14 03:51:17 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/102033460706843700692/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/af266678368d0254/68c63bb5124815c0cdc6d197.html",
+        "prettify_html_file": "https://serpapi.com/searches/af266678368d0254/68c63bb5124815c0cdc6d197.prettify",
+        "total_time_taken": 0.93
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "102033460706843700692",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Amanzhol MDNV",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWUlXqRnWeSRc0df8afQXGlp741L69Dum_EN2QmTkYazwNKr1Rf=s120-c-rp-mo-br100",
+        "points": 15,
+        "level": 2,
+        "local_guide": true,
+        "contributions": {
+            "reviews": 1,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 4,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "HALAL WAGYU RAMEN SHINJUKU-TEI Tokyo Shinjuku",
+                "address": "\u30a8\u30af\u30ec\u65b0\u5bbf B103 3 Chome-11-6 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.6918352,
+                    "longitude": 139.7064149
+                },
+                "type": "Halal restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq6BAg1zpcNZrDmr_DNP-AppLvjbz1F8MnAEDro3levnT8rt1Q56FvGZzANLwx8iHRABTfqnmkVzDBG_R5klfTDM7c1TeegKjunOr95G7WWssSmVdmNpCa4N4SBJ0K3jIZqL6c=w200-h266-k-no",
+                "data_id": "0x60188d8a160764f1:0x5fa21297eefacea5"
+            },
+            "date": "a week ago",
+            "snippet": "Very good place, delicious ramen and good personal \ud83d\udc4d\ud83c\udffb",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xS2JYbG1iVjlOWTBwbE1HTTBTVnAyWVZoT01tYxAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT20xS2JYbG1iVjlOWTBwbE1HTTBTVnAyWVZoT01tYxAB!2m1!1s0x0:0x5fa21297eefacea5!3m1!1s2@1:CAIQACodChtycF9oOm1KbXlmbV9NY0plMGM0SVp2YVhOMmc%7C%7C?hl=en-US",
+            "details": {
+                "price_per_person": "\u00a52,000\u20133,000",
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a week ago",
+                "snippet": "Dear Amanzhol MDNV,\nWe're glad you had a great experience with both our ramen and staff. Your positive feedback is highly appreciated and motivates us to continue offering excellent service."
+            }
+        }
+    ]
+}

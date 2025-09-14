@@ -1,0 +1,67 @@
+{
+    "search_metadata": {
+        "id": "68c63b83db99ec98c33264f0",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/850bb6b2fb7f5213/68c63b83db99ec98c33264f0.json",
+        "created_at": "2025-09-14 03:50:27 UTC",
+        "processed_at": "2025-09-14 03:50:27 UTC",
+        "google_maps_contributor_reviews_url": "https://www.google.com/maps/contrib/105526013860544069991/reviews?",
+        "raw_html_file": "https://serpapi.com/searches/850bb6b2fb7f5213/68c63b83db99ec98c33264f0.html",
+        "prettify_html_file": "https://serpapi.com/searches/850bb6b2fb7f5213/68c63b83db99ec98c33264f0.prettify",
+        "total_time_taken": 0.43
+    },
+    "search_parameters": {
+        "engine": "google_maps_contributor_reviews",
+        "contributor_id": "105526013860544069991",
+        "num": "200"
+    },
+    "contributor": {
+        "name": "Florin Salam",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJnx14vCnPU6wbSSdWwKAICLfEk7OxCvkZPVmsNBf34Ijk5kw=s120-c-rp-mo-br100",
+        "points": 45,
+        "contributions": {
+            "reviews": 2,
+            "ratings": 0,
+            "photos": 0,
+            "videos": 0,
+            "captions": 0,
+            "answers": 3,
+            "edits": 0,
+            "reported_incorrect": 0,
+            "places_added": 0,
+            "roads_added": 0,
+            "facts_checked": 0,
+            "q_a": 0
+        }
+    },
+    "reviews": [
+        {
+            "place_info": {
+                "title": "Halal Wagyu Yakiniku Panga",
+                "address": "3 Chome-27-9 Taito, Taito City, Tokyo 110-0016, Japan",
+                "gps_coordinates": {
+                    "latitude": 35.704854,
+                    "longitude": 139.781011
+                },
+                "type": "Yakiniku restaurant",
+                "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPkVDL-NBxlpCRqlwAjG-5Bq7a_lXX0aRt9rjRh=w250-h200-k-no",
+                "data_id": "0x60188ea48c40b1f5:0xcd4299ed4675c9aa"
+            },
+            "date": "4 days ago",
+            "snippet": "I was for the 3rd time there. The food was delicious as always and the service fenomenal. Even though the whole staff is very kind, I would like to point out Felix and Phom who were both extraordinary friendly and welcomed us in a family atmosphere. What I also liked is the fact that in contrast to other japanese restaurants there was no language barrier at all. Each staff member speaks English very well and we could even talk in German with Felix. Thank you very much for the great experience and the delicious food! \ud83d\ude07\u270c\ufe0f",
+            "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSeGNsUlVWV0Y0VDNCdlZXa3hOVUZ4VFZWTVpWRRAB",
+            "rating": 5,
+            "likes": 0,
+            "link": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xSeGNsUlVWV0Y0VDNCdlZXa3hOVUZ4VFZWTVpWRRAB!2m1!1s0x0:0xcd4299ed4675c9aa!3m1!1s2@1:CAIQACodChtycF9oOlRxclRUVWF4T3BvVWkxNUFxTVVMZVE%7C%7C?hl=en-US",
+            "details": {
+                "food": 5,
+                "service": 5,
+                "atmosphere": 5
+            },
+            "response": {
+                "date": "a day ago",
+                "snippet": "We are truly thrilled to have had you with us for the third time! Felix, Phom, and the entire team are dedicated to creating a warm and welcoming atmosphere where communication in multiple languages is possible. We\u2019re pleased to hear we achieved that during your visit. Many thanks for your kind words, and we can't wait to see you again soon!"
+            }
+        }
+    ]
+}
