@@ -1,12 +1,269 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Hello, World!</title>
-	</head>
-	<body>
-		<h1 id="heading">Hello, World!</h1>
-		<p>This page comes from a static asset stored at `public/index.html` as configured in `wrangler.jsonc`.</p>
-	</body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XTranslate — Real‑time English↔Japanese Interpreter</title>
+    <meta name="description" content="Instant voice translation you can interrupt at any time. Hold to talk, hear a natural translation back with low latency, and keep conversations flowing.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with toggles -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>XTranslate</h1>
+                </div>
+                <div class="header-controls">
+                    <button class="toggle-btn" id="langToggle" aria-label="Toggle language">
+                        <span class="lang-option" data-lang="en">EN</span>
+                        <span class="lang-divider">/</span>
+                        <span class="lang-option active" data-lang="jp">JP</span>
+                    </button>
+                    <button class="toggle-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title" data-en="Real‑time English↔Japanese Interpreter" data-jp="リアルタイム英語↔日本語通訳">Real‑time English↔Japanese Interpreter</h2>
+                <p class="hero-subtitle" data-en="Instant voice translation you can interrupt at any time. Hold to talk, hear a natural translation back with low latency, and keep conversations flowing." data-jp="いつでも中断できる瞬時の音声翻訳。話すために押し続け、低遅延で自然な翻訳を聞き、会話をスムーズに進めましょう。">Instant voice translation you can interrupt at any time. Hold to talk, hear a natural translation back with low latency, and keep conversations flowing.</p>
+                <div class="hero-cta">
+                    <a href="#" class="btn btn-primary" data-en="Download on the App Store" data-jp="App Storeでダウンロード">Download on the App Store</a>
+                    <a href="#" class="btn btn-secondary" data-en="Get it on Google Play" data-jp="Google Playで入手">Get it on Google Play</a>
+                </div>
+                <div class="hero-support">
+                    <a href="mailto:xtranslate@nauman.im" data-en="Contact support" data-jp="サポートに連絡">Contact support</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features">
+        <div class="container">
+            <h3 class="section-title" data-en="Why XTranslate" data-jp="XTranslateを選ぶ理由">Why XTranslate</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎙️</div>
+                    <h4 data-en="Real‑time voice translation" data-jp="リアルタイム音声翻訳">Real‑time voice translation</h4>
+                    <p data-en="Streamed audio for smooth, back‑and‑forth conversation." data-jp="スムーズな双方向会話のためのストリーミングオーディオ。">Streamed audio for smooth, back‑and‑forth conversation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h4 data-en="Barge‑in control" data-jp="割り込みコントロール">Barge‑in control</h4>
+                    <p data-en="Interrupt the AI and start speaking again instantly." data-jp="AIを中断して、すぐにまた話し始めることができます。">Interrupt the AI and start speaking again instantly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👆</div>
+                    <h4 data-en="Hold or tap to talk" data-jp="長押しまたはタップで話す">Hold or tap to talk</h4>
+                    <p data-en="Press‑to‑talk or tap‑to‑toggle—your choice." data-jp="プレストゥトークまたはタップトゥトグル—お好みで選択。">Press‑to‑talk or tap‑to‑toggle—your choice.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h4 data-en="Live transcripts" data-jp="ライブトランスクリプト">Live transcripts</h4>
+                    <p data-en="See your speech and the translated response as text." data-jp="あなたのスピーチと翻訳された応答をテキストで確認。">See your speech and the translated response as text.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h4 data-en="English ↔ Japanese" data-jp="英語 ↔ 日本語">English ↔ Japanese</h4>
+                    <p data-en="Optimized both ways. Switch the app UI language to change direction." data-jp="両方向に最適化。アプリのUI言語を切り替えて方向を変更。">Optimized both ways. Switch the app UI language to change direction.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h4 data-en="Simple sign‑in" data-jp="簡単なサインイン">Simple sign‑in</h4>
+                    <p data-en="No passwords—email OTP only." data-jp="パスワード不要—メールOTPのみ。">No passwords—email OTP only.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💳</div>
+                    <h4 data-en="Usage‑based credits" data-jp="使用量ベースのクレジット">Usage‑based credits</h4>
+                    <p data-en="Pay only for what you use. No subscriptions. No ads." data-jp="使った分だけ支払い。サブスクなし。広告なし。">Pay only for what you use. No subscriptions. No ads.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h4 data-en="Privacy‑minded" data-jp="プライバシー重視">Privacy‑minded</h4>
+                    <p data-en="Raw audio isn't stored on our servers; it's securely relayed for translation." data-jp="生の音声はサーバーに保存されません。翻訳のために安全に中継されます。">Raw audio isn't stored on our servers; it's securely relayed for translation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section class="section how-it-works">
+        <div class="container">
+            <h3 class="section-title" data-en="How it works" data-jp="使い方">How it works</h3>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4 data-en="Sign in with your email" data-jp="メールでサインイン">Sign in with your email</h4>
+                        <p data-en="We'll send a one‑time code (OTP). No passwords." data-jp="ワンタイムコード（OTP）を送信します。パスワード不要。">We'll send a one‑time code (OTP). No passwords.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4 data-en="Choose your UI language" data-jp="UI言語を選択">Choose your UI language</h4>
+                        <p data-en="English or Japanese. The app translates in the opposite direction." data-jp="英語または日本語。アプリは反対方向に翻訳します。">English or Japanese. The app translates in the opposite direction.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4 data-en="Press and hold the mic" data-jp="マイクを長押し">Press and hold the mic</h4>
+                        <p data-en="Speak naturally. Release to get the translation." data-jp="自然に話す。離すと翻訳が取得されます。">Speak naturally. Release to get the translation.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4 data-en="Hear the result in real time" data-jp="リアルタイムで結果を聞く">Hear the result in real time</h4>
+                        <p data-en="You'll also see transcripts for both sides." data-jp="両側のトランスクリプトも表示されます。">You'll also see transcripts for both sides.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing">
+        <div class="container">
+            <h3 class="section-title" data-en="Pricing" data-jp="価格">Pricing</h3>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h4 data-en="Pay‑as‑you‑go credits" data-jp="従量課金制クレジット">Pay‑as‑you‑go credits</h4>
+                    <p data-en="Buy small top‑ups as needed—no subscription." data-jp="必要に応じて少額のトップアップを購入—サブスクなし。">Buy small top‑ups as needed—no subscription.</p>
+                </div>
+                <div class="pricing-card">
+                    <h4 data-en="Welcome credit" data-jp="ウェルカムクレジット">Welcome credit</h4>
+                    <p data-en="New accounts get a small, one‑time credit to try the app." data-jp="新規アカウントには、アプリを試すための少額のワンタイムクレジットが提供されます。">New accounts get a small, one‑time credit to try the app.</p>
+                </div>
+                <div class="pricing-card">
+                    <h4 data-en="Transparent usage" data-jp="透明な使用状況">Transparent usage</h4>
+                    <p data-en="A live meter shows session spend inside the app." data-jp="アプリ内でセッション支出を表示するライブメーター。">A live meter shows session spend inside the app.</p>
+                </div>
+            </div>
+            <p class="pricing-note" data-en="In‑App Purchases: Credit top‑ups available within the app. Pricing may vary by region." data-jp="アプリ内購入：アプリ内でクレジットトップアップが可能。価格は地域によって異なる場合があります。">In‑App Purchases: Credit top‑ups available within the app. Pricing may vary by region.</p>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section class="section privacy">
+        <div class="container">
+            <h3 class="section-title" data-en="Privacy" data-jp="プライバシー">Privacy</h3>
+            <div class="privacy-grid">
+                <div class="privacy-item">
+                    <h4 data-en="No raw audio storage" data-jp="生音声の保存なし">No raw audio storage</h4>
+                    <p data-en="Your microphone audio is relayed to our AI provider for transcription/translation and not stored by us." data-jp="マイクの音声は、文字起こし/翻訳のためにAIプロバイダーに中継され、私たちによって保存されることはありません。">Your microphone audio is relayed to our AI provider for transcription/translation and not stored by us.</p>
+                </div>
+                <div class="privacy-item">
+                    <h4 data-en="Minimal account data" data-jp="最小限のアカウントデータ">Minimal account data</h4>
+                    <p data-en="We keep your email, credit ledger, and usage totals for billing." data-jp="請求のために、あなたのメール、クレジット元帳、使用量の合計を保持します。">We keep your email, credit ledger, and usage totals for billing.</p>
+                </div>
+                <div class="privacy-item">
+                    <h4 data-en="No ads, no trackers" data-jp="広告なし、トラッカーなし">No ads, no trackers</h4>
+                    <p data-en="Your data isn't sold to advertisers." data-jp="あなたのデータは広告主に販売されません。">Your data isn't sold to advertisers.</p>
+                </div>
+                <div class="privacy-item">
+                    <h4 data-en="Data deletion" data-jp="データ削除">Data deletion</h4>
+                    <p data-en="Email support to remove your account and associated data." data-jp="アカウントと関連データを削除するには、サポートにメールしてください。">Email support to remove your account and associated data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="section use-cases">
+        <div class="container">
+            <h3 class="section-title" data-en="Use cases" data-jp="使用例">Use cases</h3>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">✈️</div>
+                    <h4 data-en="Travel" data-jp="旅行">Travel</h4>
+                    <p data-en="Ask for directions, order food, and handle logistics with confidence." data-jp="道順を尋ねたり、食事を注文したり、自信を持って物流を処理したりできます。">Ask for directions, order food, and handle logistics with confidence.</p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">💼</div>
+                    <h4 data-en="Meetings" data-jp="会議">Meetings</h4>
+                    <p data-en="Keep cross‑language discussions moving without awkward pauses." data-jp="気まずい間を置かずに、異言語間のディスカッションを続けます。">Keep cross‑language discussions moving without awkward pauses.</p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">📚</div>
+                    <h4 data-en="Learning" data-jp="学習">Learning</h4>
+                    <p data-en="Hear natural phrasing in real time while you practice speaking." data-jp="話す練習をしながら、リアルタイムで自然なフレージングを聞くことができます。">Hear natural phrasing in real time while you practice speaking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq">
+        <div class="container">
+            <h3 class="section-title" data-en="Frequently Asked Questions" data-jp="よくある質問">Frequently Asked Questions</h3>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h4 data-en="Which languages are supported?" data-jp="どの言語がサポートされていますか？">Which languages are supported?</h4>
+                    <p data-en="English and Japanese (both directions)." data-jp="英語と日本語（両方向）。">English and Japanese (both directions).</p>
+                </div>
+                <div class="faq-item">
+                    <h4 data-en="Does it work offline?" data-jp="オフラインで動作しますか？">Does it work offline?</h4>
+                    <p data-en="No, an internet connection is required." data-jp="いいえ、インターネット接続が必要です。">No, an internet connection is required.</p>
+                </div>
+                <div class="faq-item">
+                    <h4 data-en="Can I interrupt the AI?" data-jp="AIを中断できますか？">Can I interrupt the AI?</h4>
+                    <p data-en="Yes—barge‑in is supported. Start speaking anytime." data-jp="はい—割り込みがサポートされています。いつでも話し始めることができます。">Yes—barge‑in is supported. Start speaking anytime.</p>
+                </div>
+                <div class="faq-item">
+                    <h4 data-en="How do I pay?" data-jp="どのように支払いますか？">How do I pay?</h4>
+                    <p data-en="Buy credits in the app when you need more usage." data-jp="使用量が必要なときにアプリでクレジットを購入します。">Buy credits in the app when you need more usage.</p>
+                </div>
+                <div class="faq-item">
+                    <h4 data-en="Do you store my voice recordings?" data-jp="音声録音を保存しますか？">Do you store my voice recordings?</h4>
+                    <p data-en="No. We don't store raw audio on our servers." data-jp="いいえ。サーバーに生の音声を保存しません。">No. We don't store raw audio on our servers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+        <div class="container">
+            <h3 class="section-title" data-en="Get started" data-jp="始めましょう">Get started</h3>
+            <p class="cta-text" data-en="Download the app, sign in with your email code, and start speaking." data-jp="アプリをダウンロードし、メールコードでサインインして、話し始めましょう。">Download the app, sign in with your email code, and start speaking.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary" data-en="Download on the App Store" data-jp="App Storeでダウンロード">Download on the App Store</a>
+                <a href="#" class="btn btn-secondary" data-en="Get it on Google Play" data-jp="Google Playで入手">Get it on Google Play</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-en="© XTranslate. Support: xtranslate@nauman.im" data-jp="© XTranslate. サポート: xtranslate@nauman.im">© XTranslate. Support: xtranslate@nauman.im</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
