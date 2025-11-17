@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nauman Mustafa - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-sun"></i>
+        <span>Dark Mode</span>
+    </div>
+    
+    <div class="container">
+        <div class="resume-top-nav">
+            <a href="/">← Home</a>
+        </div>
+
+        <!-- Header Section -->
+        <header class="header">
+            <img src="./photo.png" alt="Nauman Mustafa" class="profile-img">
+            <h1 class="profile-name">Nauman Mustafa</h1>
+            <p class="profile-title">Sr. Vibe Coder (prev. Sr. Machine Learning Engineer)</p>
+            
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>nauman.mustafa.x@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+92-337-6310-376 🇵🇰</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+81-90-3194-6885 🇯🇵</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/naxalpha/" target="_blank">linkedin.com/in/naxalpha</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/NaxAlpha" target="_blank">github.com/NaxAlpha</a>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Me Section -->
+            <section class="section about-section">
+                <h2 class="section-title">About Me</h2>
+                
+                <div class="about-grid">
+                    <div class="about-item">
+                        <h4>Experience</h4>
+                        <div class="badges">
+                            <span class="badge badge-purple">7+ years in industry</span>
+                        </div>
+                        <div class="badges">
+                            <span class="badge badge-red">6 years ML Engineering</span>
+                            <span class="badge badge-orange">2 years vibe coding</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-item">
+                        <h4>Core Skills</h4>
+                        <div class="badges">
+                            <span class="badge badge-green">Python</span>
+                            <span class="badge badge-green">PyTorch</span>
+                            <span class="badge badge-green">Docker</span>
+                            <span class="badge badge-green">FastAPI</span>
+                            <span class="badge badge-green">Google Cloud</span>
+                            <span class="badge badge-green">Prompt Engineering</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-item">
+                        <h4>Technical Solutions</h4>
+                        <div class="badges">
+                            <span class="badge badge-orange">OCR</span>
+                            <span class="badge badge-orange">Computer Vision</span>
+                            <span class="badge badge-orange">NLP</span>
+                            <span class="badge badge-orange">Transformers</span>
+                            <span class="badge badge-orange">Training & Fine-tuning</span>
+                            <span class="badge badge-orange">LLMs</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-item">
+                        <h4>Industry Domains</h4>
+                        <div class="badges">
+                            <span class="badge badge-blue">Retail</span>
+                            <span class="badge badge-teal">Receipt Scanning</span>
+                        </div>
+                        <div class="badges">
+                            <span class="badge badge-indigo">Software Testing</span>
+                            <span class="badge badge-pink">Visual Testing</span>
+                            <span class="badge badge-pink">e2e Test Generation</span>
+                            <span class="badge badge-pink">Source Code Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Right Panel Content -->
+            <div class="content-sections">
+                <!-- Personal Projects / Writings -->
+                <section class="section">
+                    <h2 class="section-title">Personal Work/Writings</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Sep</span>
+                                <span class="date-year">2023</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/autify-ocr/">MLUI Mobile: Autify OCR vs. Google OCR</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Comprehensive performance comparison of Autify's in-house OCR system against Google Cloud OCR and EasyOCR, with detailed methodology, results analysis, and sample evaluations. Autify OCR achieved 91% accuracy on mobile screenshot text recognition.
+                                </p>
+                                <div class="badges" style="margin-top: 12px;">
+                                    <span class="badge badge-green">Work Done in Autify</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Aug</span>
+                                <span class="date-year">2023</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/token-compression/">Token Compression: Reducing Attention Waste?</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Explored using LLMs to compress multiple tokens into single tokens for more efficient transformers. Demonstrated that 2048 hidden dimensions can compress ~8 tokens losslessly using a two-stage encode-decode architecture with LoRA fine-tuning.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Apr</span>
+                                <span class="date-year">2023</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/long-pythia/">Long Pythia</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Explored token length extension when it was common to have 2048 or 4096 context length.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Nov</span>
+                                <span class="date-year">2021</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/ai-in-autify-mobile-2021/">Machine Learning Features in Autify for Mobile</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Comprehensive overview of AI-powered mobile testing features including Visual Regression Testing (VRT), Visual Self-Healing algorithms, and the upcoming Visual App Explorer (VAX) for autonomous app navigation and bug discovery.
+                                </p>
+                                <div class="badges" style="margin-top: 12px;">
+                                    <span class="badge badge-green">Work Done in Autify</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Jul</span>
+                                <span class="date-year">2021</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/toy-app-navigation/">Solving Automated App Navigation: A Use-case</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Detailed exploration of behavior cloning techniques for automated mobile app navigation, comparing regression vs heatmap approaches, and demonstrating how U²Net successfully models uncertainty in tap location prediction.
+                                </p>
+                                <div class="badges" style="margin-top: 12px;">
+                                    <span class="badge badge-green">Work Done in Autify</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Jan</span>
+                                <span class="date-year">2021</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/apply-modern-deep-learning-2021/">Applying Modern Deep Learning in Autify</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Comprehensive overview of deep learning applications in software testing, including visual regression detection, genetic algorithm optimization, graph neural networks for HTML analysis, and reinforcement learning for intelligent test discovery.
+                                </p>
+                                <div class="badges" style="margin-top: 12px;">
+                                    <span class="badge badge-green">Work Done in Autify</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Apr</span>
+                                <span class="date-year">2020</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/prompt-engineering-2020/">Getting the Most Out of Pre-trained Models</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Deep dive into pre-trained NLP models like GPT-2 and T5, exploring their capabilities for text generation, question answering, summarization, and transfer learning applications. Originally published on Toptal.
+                                </p>
+                                <div class="badges" style="margin-top: 12px;">
+                                    <span class="badge badge-blue">Published in Toptal</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Jun</span>
+                                <span class="date-year">2019</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/ai-advancements-2019/">Recent Advancements in AI</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Comprehensive overview of AI breakthroughs in 2019, covering text generation, image synthesis, audio creation, and video/animation technologies that were transforming industries.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">May</span>
+                                <span class="date-year">2019</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/gan-for-icons/">This Icon Does Not Exist — GAN for Icon Generation</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    An application of Generative Adversarial Networks to icon generation, exploring mode collapse and training challenges with a custom dataset.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Apr</span>
+                                <span class="date-year">2019</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/deploy-ml-on-cloud-run/">Deploy ML on Cloud Run</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Complete tutorial on deploying machine learning models to Google Cloud Run using Docker and GPT-2 as an example.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Apr</span>
+                                <span class="date-year">2019</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/google-cloud-run/">Cloud Run — Future Tech</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Explored Google's revolutionary serverless container platform and its comparison with traditional serverless and container technologies.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span class="date-month">Mar</span>
+                                <span class="date-year">2019</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">
+                                    <a href="/deep-learning-in-cloud/">Deep Learning in Cloud</a>
+                                </h3>
+                                <p class="timeline-description">
+                                    Explored the cloud computing options for deep learning.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Professional Experience -->
+                <section class="section professional-experience-section">
+                    <h2 class="section-title">Professional Experience</h2>
+                    
+                    <div class="professional-timeline">
+                        <div class="company-timeline-item collapsed" data-company="autify">
+                            <div class="company-info sticky-company-header" onclick="toggleCompany('autify')">
+                                <div class="company-logo">
+                                    <div class="logo-placeholder">
+                                        <i class="fas fa-building"></i>
+                                    </div>
+                                </div>
+                                <div class="company-header">
+                                    <h3 class="company-name">
+                                        <a href="https://autify.com/" target="_blank">Autify</a>
+                                    </h3>
+                                    <div class="company-role">Sr. Machine Learning Engineer</div>
+                                    <div class="company-meta">
+                                        <span class="company-duration">May 2020 - June 2025</span>
+                                        <span class="company-location">
+                                            <i class="fas fa-map-marker-alt"></i> Tokyo, Japan
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="expand-toggle">
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            
+                            <div class="experience-timeline" id="autify-timeline">
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">Jan 2025</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Bootstrapped project Lexa</h4>
+                                        <ul class="experience-details">
+                                            <li>Generate PRD from Source Code</li>
+                                            <li>Vibe-coded entire desktop app using cursor in Swift UI</li>
+                                            <li>Vibe-migrated the desktop app to Electron for multiple platforms</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">Jan 2024</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Bootstrapped project Genesis</h4>
+                                        <ul class="experience-details">
+                                            <li>Designed Prompts for the following:
+                                                <ul>
+                                                    <li>Generate Test Cases from PRD</li>
+                                                    <li>Generate Test Scenarios from Test Cases</li>
+                                                    <li>Generate Playwright code from Test Scenarios using Agentic AI</li>
+                                                </ul>
+                                            </li>
+                                            <li>Build Backend/frontend using LLMs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">July 2023</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Developed Step Suggestion Chrome Extension</h4>
+                                        <ul class="experience-details">
+                                            <li>Wrote frontend code in PReact</li>
+                                            <li>Wrote Backend in Python/FastAPI</li>
+                                            <li>Developed the algorithm to slim down the HTML</li>
+                                            <li>Designed the prompt to provide next step suggestions based on current page</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">Jan 2022</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Core Deep Learning Work</h4>
+                                        <ul class="experience-details">
+                                            <li>Developed MLUI, an ensemble of ML models for parsing screenshot of mobile apps
+                                                <ul>
+                                                    <li>A custom OCR model based on encoder-decoder transformer architecture trained on synthetic data</li>
+                                                    <li>Retina net fine-tuned on rico + internal dataset for detecting UI elements</li>
+                                                    <li>A post processing model to merge the output of the above two models</li>
+                                                </ul>
+                                            </li>
+                                            <li>Deployment of MLUI at scale on GKE using cost-effective GPU & queue optimizations</li>
+                                            <li>Explored Reinforcement Learning for automated testing</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">Jan 2021</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Built the baseline ML Infrastructure at Autify</h4>
+                                        <ul class="experience-details">
+                                            <li>Set up Google Cloud GKE for ML Deployment</li>
+                                            <li>Set up pipeline for VRT (Visual Regression Testing) algorithm deployment at scale on GKE</li>
+                                            <li>Fine-tuned Adobe Semantic Web Segmentation model</li>
+                                            <li>Explored Visual Self-Healing using Template Matching</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="experience-item">
+                                    <div class="experience-period">
+                                        <span class="period-start">May 2020</span>
+                                    </div>
+                                    <div class="experience-content">
+                                        <h4 class="experience-title">Early Exploration of Application of ML on Web Apps</h4>
+                                        <ul class="experience-details">
+                                            <li>Implemented OpenCV-based web screenshot comparison</li>
+                                            <li>Fine-tuned BERT on HTML data</li>
+                                            <li>Optimized the weights of an internal feature extraction algorithm using evolutionary algorithms</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <script src="/lib/shared.js"></script>
+</body>
+</html>
+
+

@@ -5,7 +5,7 @@ class ThemeSwitch {
         this.textSelector = options.textSelector || 'span';
         this.cookieName = options.cookieName || 'theme';
         this.cookieDays = options.cookieDays || 365;
-        this.defaultTheme = options.defaultTheme || 'light';
+        this.defaultTheme = options.defaultTheme || 'dark';
         
         this.init();
     }
@@ -29,8 +29,8 @@ class ThemeSwitch {
         this.themeIcon = this.themeToggle.querySelector(this.iconSelector);
         this.themeText = this.themeToggle.querySelector(this.textSelector);
         
-        // Load saved theme or default
-        const savedTheme = this.getCookie(this.cookieName) || this.defaultTheme;
+        // Load saved theme from localStorage/cookie or fallback to default
+        const savedTheme = this.getStoredTheme() || this.defaultTheme;
         this.updateTheme(savedTheme);
         
         // Add event listener
@@ -58,6 +58,28 @@ class ThemeSwitch {
         return null;
     }
     
+    getStoredTheme() {
+        // Prefer localStorage, fall back to cookie for older sessions
+        try {
+            const stored = window.localStorage.getItem(this.cookieName);
+            if (stored) {
+                return stored;
+            }
+        } catch (e) {
+            // Ignore localStorage errors (e.g., disabled storage)
+        }
+        return this.getCookie(this.cookieName);
+    }
+    
+    saveTheme(theme) {
+        try {
+            window.localStorage.setItem(this.cookieName, theme);
+        } catch (e) {
+            // Ignore localStorage errors
+        }
+        this.setCookie(this.cookieName, theme, this.cookieDays);
+    }
+    
     updateTheme(theme) {
         if (theme === 'dark') {
             document.documentElement.setAttribute('data-theme', 'dark');
@@ -71,10 +93,10 @@ class ThemeSwitch {
     }
     
     toggleTheme() {
-        const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const currentTheme = document.documentElement.getAttribute('data-theme') || this.defaultTheme;
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         this.updateTheme(newTheme);
-        this.setCookie(this.cookieName, newTheme, this.cookieDays);
+        this.saveTheme(newTheme);
     }
     
     getCurrentTheme() {
