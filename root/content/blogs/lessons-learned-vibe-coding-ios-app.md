@@ -1,5 +1,7 @@
 <!-- December 20, 2025 -->
 
+> **Disclaimer**: The main points of this essay were written by a human, edited by an AI, and reviewed by the human once more.
+
 # Lessons Learned Vibe Coding an iOS App from Scratch
 
 I've been a developer for over 7 years, primarily focused on Python and Machine Learning. For a long time, I've had the desire to build my own apps, but my lack of experience in frontend and mobile development was a constant source of frustration. 
@@ -121,3 +123,11 @@ However, this democratization comes with a caveat. I still believe a writer with
 There are many problems still to be solved as we head into this future. But for now, if you've been sitting on an idea because you don't "know the stack," let this be your sign. Pick a problem you care about, choose your AI collaborator, and start vibing. 
 
 The world is waiting for your story, your app, and your vision.
+
+---
+
+### Featured Project: XTranslate
+
+The project referenced in this post is **XTranslate**, an app that provides real-time voice translation between Japanese and many other languages. It is specifically designed to offer a seamless interpreter experience for tourists, foreigners living in Japan, and Japanese people who frequently interact with international visitors.
+
+**Check it out here: [xtranslate.nauman.im](https://xtranslate.nauman.im/)**
