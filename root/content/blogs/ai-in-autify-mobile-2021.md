@@ -1,5 +1,5 @@
 <!-- https://nocode.autify.com/blog/machine-learning-features-in-autify-for-mobile -->
-<!-- December 21, 2025 -->
+<!-- November 8, 2021 -->
 
 # Machine Learning Features in Autify for Mobile
 
