@@ -1,4 +1,4 @@
-<!-- December 20, 2025 -->
+December 20, 2025
 
 > **Disclaimer**: The main points of this essay were written by a human, edited by an AI, and reviewed by the human once more.
 

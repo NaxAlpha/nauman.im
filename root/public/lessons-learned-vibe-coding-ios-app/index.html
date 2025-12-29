@@ -7,7 +7,9 @@
     <title>Lessons Learned Vibe Coding an iOS App from Scratch - Nauman Mustafa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700;800&family=Inconsolata:wght@400;500;600&family=Inter:wght@400;600;700;800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -34,6 +36,10 @@
                 </blockquote>
 
                 <h1>Lessons Learned Vibe Coding an iOS App from Scratch</h1>
+
+                <div class="post-meta">
+                    <i class="fas fa-calendar-alt"></i> December 20, 2025
+                </div>
 
                 <p>I've been a developer for over 7 years, primarily focused on Python and Machine Learning. For a long
                     time, I've had the desire to build my own apps, but my lack of experience in frontend and mobile
@@ -77,7 +83,8 @@
                 <h3>2. Framework Selection: The "Native-ish" Sweet Spot</h3>
 
                 <p>Choosing the right framework was critical. I evaluated three main contenders:
-                    <strong>SwiftUI</strong>, <strong>React Native</strong>, and <strong>Flutter</strong>.</p>
+                    <strong>SwiftUI</strong>, <strong>React Native</strong>, and <strong>Flutter</strong>.
+                </p>
 
                 <ul>
                     <li><strong>SwiftUI (Xcode)</strong>: Coming from a Python background, Xcode and Swift felt somewhat
@@ -86,7 +93,8 @@
                         vibe-coding project.</li>
                     <li><strong>React Native</strong>: This felt too much like web development. The massive
                         <code>node_modules</code> folders, the heavy React dependency, and the layers of wrappers didn't
-                        appeal to me. I wanted something that felt more focused on the mobile experience itself.</li>
+                        appeal to me. I wanted something that felt more focused on the mobile experience itself.
+                    </li>
                     <li><strong>Flutter</strong>: This turned out to be the balanced option. It provided a "native-ish"
                         feel without the overhead of React Native or the steep barrier of entry of SwiftUI.</li>
                 </ul>
@@ -100,7 +108,8 @@
                 <h3>3. Solving a Real Problem: The "Not-Just-a-Wrapper" Realization</h3>
 
                 <p>My goal wasn't to build a $1M+ MRR powerhouse; I simply had a specific problem I wanted to solve:
-                    <strong>real-time voice translation.</strong></p>
+                    <strong>real-time voice translation.</strong>
+                </p>
 
                 <p>To achieve this, I chose <strong>OpenAI's GPT-realtime</strong> as the engine. With the right
                     prompting, it works remarkably well. On the surface, the app was essentially a "wrapper" around this
@@ -181,7 +190,8 @@
                     <li><strong>Targeted Commands</strong>: <code>make android</code> handled the build and deployment
                         directly to my personal device; <code>make deploy</code> automated the backend;
                         <code>make screenshots</code> generated marketing materials; and <code>make publish</code>
-                        handled the App Store draft process.</li>
+                        handled the App Store draft process.
+                    </li>
                 </ul>
 
                 <div class="takeaway">
@@ -199,7 +209,8 @@
                 <p>The biggest hurdle was understanding the dance between the build and the configuration of
                     <strong>In-App Purchases (IAP)</strong>. Figuring out how to submit the first IAP alongside the
                     initial build for review was a bit of a puzzle. It required a fair amount of trial and error,
-                    cross-referencing documentation, and patience.</p>
+                    cross-referencing documentation, and patience.
+                </p>
 
                 <p>But eventually, the notification came through: <strong>Approved.</strong></p>
 

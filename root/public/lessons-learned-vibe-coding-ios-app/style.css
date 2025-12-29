@@ -1,13 +1,16 @@
 :root {
     --paper-bg: #fffcf5;
-    --line-color: rgba(0, 100, 255, 0.1);
-    --margin-color: rgba(255, 0, 0, 0.15);
-    --text-primary: #2c3e50;
-    --text-secondary: #576574;
-    --accent-blue: #3498db;
-    --accent-dark: #2980b9;
+    --line-color: rgba(0, 100, 255, 0.08);
+    /* Faint blue */
+    --margin-color: rgba(255, 0, 0, 0.12);
+    /* Faint red */
+    --text-primary: #2d3436;
+    --text-secondary: #636e72;
+    --accent-blue: #0984e3;
+    --accent-dark: #74b9ff;
     --card-bg: #ffffff;
-    --shadow-soft: 0 4px 15px rgba(0, 0, 0, 0.05);
+    --shadow-soft: 0 4px 15px rgba(0, 0, 0, 0.03);
+    --baseline: 32px;
 }
 
 [data-theme="dark"] {
@@ -29,11 +32,14 @@
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Crimson Pro', serif;
     background-color: var(--paper-bg);
     color: var(--text-primary);
-    line-height: 1.8;
+    line-height: var(--baseline);
+    font-size: 20px;
+    /* Slightly larger for the "pro" feel */
     transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* Theme Toggle */
@@ -61,13 +67,14 @@ body {
 
 /* Paper Container with Ruler Lines */
 .paper-container {
-    max-width: 850px;
-    margin: 40px auto;
+    max-width: 900px;
+    margin: 64px auto;
     background: var(--paper-bg);
-    padding: 80px 100px;
+    padding: calc(var(--baseline) * 3) 100px;
     position: relative;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border: 1px solid var(--line-color);
+    box-sizing: border-box;
 }
 
 /* Vertical Margin Line */
@@ -90,8 +97,10 @@ body {
     bottom: 0;
     pointer-events: none;
     background-image: linear-gradient(var(--line-color) 1px, transparent 1px);
-    background-size: 100% 1.8em; /* Matching the line-height 1.8 */
-    opacity: 0.6;
+    background-size: 100% var(--baseline);
+    background-position: 0 calc(var(--baseline) * 3 - 6px);
+    /* Adjusted to sit under character baseline */
+    opacity: 0.8;
 }
 
 .content-wrapper {
@@ -99,69 +108,95 @@ body {
     z-index: 1;
 }
 
+.content-wrapper>* {
+    margin-top: 0 !important;
+}
+
 /* Back Link */
 .back-link {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 8px;
     text-decoration: none;
     color: var(--text-secondary);
     font-size: 14px;
-    margin-bottom: 40px;
+    height: var(--baseline);
+    margin-bottom: var(--baseline);
     transition: color 0.2s ease;
+    font-family: 'Inter', sans-serif;
 }
 
 .back-link:hover {
     color: var(--accent-blue);
 }
 
-/* Typography */
+/* Typography - Strict Vertical Rhythm */
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 800;
-    margin-bottom: 1.5rem;
-    line-height: 1.2;
+    margin: 0 0 calc(var(--baseline) * 1);
+    line-height: calc(var(--baseline) * 2);
+    /* Takes 2 lines exactly */
     color: var(--text-primary);
+    padding: 0;
 }
 
 h2 {
     font-size: 1.8rem;
     font-weight: 700;
-    margin: 3rem 0 1.5rem;
+    margin: calc(var(--baseline) * 2) 0 var(--baseline);
+    line-height: var(--baseline);
     color: var(--text-primary);
     border-bottom: 2px solid var(--line-color);
-    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+    height: var(--baseline);
+    /* Strict height to keep rhythm */
+    display: flex;
+    align-items: center;
 }
 
 h3 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin: 2rem 0 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: var(--baseline) 0 var(--baseline);
+    line-height: var(--baseline);
     color: var(--accent-blue);
+    font-family: 'Inter', sans-serif;
 }
 
 p {
-    margin-bottom: 1.5rem;
-    font-size: 1.05rem;
+    margin: 0 0 var(--baseline) 0;
+    font-size: 1.2rem;
+    line-height: var(--baseline);
+}
+
+code {
+    font-family: 'Inconsolata', monospace;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 2px 6px;
+    border-radius: 4px;
 }
 
 blockquote {
     border-left: 4px solid var(--accent-blue);
-    padding: 1rem 1.5rem;
-    margin: 2rem 0;
+    padding: 0 var(--baseline);
+    margin: var(--baseline) 0;
     background: var(--card-bg);
     font-style: italic;
     color: var(--text-secondary);
     box-shadow: var(--shadow-soft);
+    line-height: var(--baseline);
+    min-height: var(--baseline);
 }
 
 ul {
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--baseline);
     padding-left: 1.5rem;
 }
 
 li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
+    line-height: var(--baseline);
 }
 
 strong {
@@ -185,24 +220,31 @@ a:hover {
     background: var(--card-bg);
     border: 1px solid var(--line-color);
     border-radius: 12px;
-    padding: 30px;
-    margin-top: 50px;
+    padding: var(--baseline);
+    margin-top: calc(var(--baseline) * 2);
     box-shadow: var(--shadow-soft);
+    line-height: var(--baseline);
 }
 
 .project-card h3 {
     margin-top: 0;
 }
 
+.project-card p {
+    margin-bottom: var(--baseline);
+}
+
 .project-card a {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 0;
     font-weight: 600;
     border: none;
     background: var(--accent-blue);
-    color: white;
-    padding: 10px 20px;
+    color: white !important;
+    padding: 0 calc(var(--baseline) * 2);
+    height: var(--baseline);
     border-radius: 6px;
+    line-height: var(--baseline);
 }
 
 .project-card a:hover {
@@ -212,17 +254,19 @@ a:hover {
 
 /* Takeaway boxes */
 .takeaway {
-    background: rgba(52, 152, 219, 0.05);
-    border: 1px solid var(--line-color);
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px 0;
+    background: rgba(9, 132, 227, 0.04);
+    border-left: 4px solid var(--accent-blue);
+    padding: var(--baseline);
+    margin: var(--baseline) 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
 }
 
 .takeaway strong {
     color: var(--accent-blue);
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    font-weight: 700;
 }
 
 /* Footer */
@@ -239,12 +283,29 @@ footer {
         padding: 40px 30px;
         margin: 20px 10px;
     }
-    
+
     .paper-container::before {
         left: 20px;
     }
-    
+
     h1 {
         font-size: 2rem;
     }
+}
+
+/* Post Meta (Date) */
+.post-meta {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-top: calc(var(--baseline) * -0.5);
+    /* Pull it up a bit towards the H1 */
+    margin-bottom: var(--baseline);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.post-meta i {
+    color: var(--accent-blue);
 }
