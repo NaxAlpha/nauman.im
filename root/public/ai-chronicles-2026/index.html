@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>From Vibe Coding to Compound Engineering | Building Software Philosophies in the AI Era</title>
+    <meta name="title"
+        content="From Vibe Coding to Compound Engineering | Building Software Philosophies in the AI Era">
+    <meta name="description"
+        content="A 7-year software engineer's journey from Python wizard to clean architecture student, exploring how AI transforms software development through compound engineering and intent-driven design.">
+    <meta name="keywords"
+        content="vibe coding, compound engineering, AI software development, clean architecture, software philosophy, intent driven architecture, AI coding, software design patterns, Claude AI, cursor IDE">
+    <meta name="author" content="Nauman">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://nauman.im/ai-chronicles-2026">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://nauman.im/ai-chronicles-2026">
+    <meta property="og:title" content="From Vibe Coding to Compound Engineering">
+    <meta property="og:description"
+        content="A 7-year software engineer's journey exploring how AI transforms software development through compound engineering and intent-driven design.">
+    <meta property="og:image" content="https://nauman.im/ai-chronicles-2026/vibe-coding-og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Nauman's Blog">
+    <meta property="article:published_time" content="2026-01-01T00:00:00+09:00">
+    <meta property="article:author" content="Nauman">
+    <meta property="article:tag" content="Software Engineering">
+    <meta property="article:tag" content="AI Development">
+    <meta property="article:tag" content="Clean Architecture">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://nauman.im/ai-chronicles-2026">
+    <meta name="twitter:title" content="From Vibe Coding to Compound Engineering">
+    <meta name="twitter:description"
+        content="A 7-year software engineer's journey exploring how AI transforms software development through compound engineering and intent-driven design.">
+    <meta name="twitter:image" content="https://nauman.im/ai-chronicles-2026/vibe-coding-og.png">
+    <meta name="twitter:creator" content="@super_nauman">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "From Vibe Coding to Compound Engineering: Building Software Philosophies in the AI Era",
+        "description": "A 7-year software engineer's journey from Python wizard to clean architecture student, exploring how AI transforms software development.",
+        "image": "https://nauman.im/ai-chronicles-2026/vibe-coding-og.png",
+        "author": {
+            "@type": "Person",
+            "name": "Nauman",
+            "url": "https://nauman.im"
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": "Nauman"
+        },
+        "datePublished": "2026-01-01",
+        "dateModified": "2026-01-01",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://nauman.im/ai-chronicles-2026"
+        },
+        "keywords": ["vibe coding", "compound engineering", "AI software development", "clean architecture", "software philosophy"],
+        "articleSection": "Technology",
+        "wordCount": "1800"
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230a0a0b'/><circle cx='16' cy='16' r='6' fill='%2300d4aa'/></svg>">
+    <link rel="apple-touch-icon" href="https://nauman.im/apple-touch-icon.png">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0a0a0b">
+    <meta name="msapplication-TileColor" content="#0a0a0b">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,400&family=JetBrains+Mono:wght@400;500&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-deep: #0a0a0b;
+            --bg-surface: #111113;
+            --text-primary: #e8e6e3;
+            --text-secondary: #8a8a8a;
+            --text-muted: #4a4a4a;
+            --accent-cyan: #00d4aa;
+            --accent-blue: #4d9fff;
+            --accent-purple: #a78bfa;
+            --column-width: min(680px, 90vw);
+            --reading-rhythm: 1.75;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: var(--bg-deep);
+            color: var(--text-primary);
+            font-family: 'Fraunces', Georgia, serif;
+            font-size: clamp(17px, 2.5vw, 19px);
+            line-height: var(--reading-rhythm);
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* The Living Margins */
+        #margin-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.5;
+        }
+
+        /* Main Content Column */
+        .content-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+
+        article {
+            max-width: var(--column-width);
+            margin: 0 auto;
+            padding: 15vh 1.5rem 20vh;
+            position: relative;
+        }
+
+        /* Hero Section */
+        header {
+            margin-bottom: 8rem;
+            text-align: left;
+        }
+
+        .version-tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--accent-cyan);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+
+        h1 {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 800;
+            line-height: 1.05;
+            letter-spacing: -0.03em;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            font-style: italic;
+            font-weight: 300;
+            max-width: 500px;
+        }
+
+        .meta {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .meta-dot {
+            width: 6px;
+            height: 6px;
+            background: var(--accent-cyan);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 0.4;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 5rem;
+        }
+
+        h2 {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            position: relative;
+            display: inline-block;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-cyan), transparent);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        strong {
+            color: var(--accent-cyan);
+            font-weight: 600;
+        }
+
+        em {
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        /* Philosophy Cards */
+        .philosophy-card {
+            background: var(--bg-surface);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2.5rem 0;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .philosophy-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(0, 212, 170, 0.2);
+        }
+
+        .philosophy-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue), var(--accent-purple));
+        }
+
+        .philosophy-card h3 {
+            font-family: 'Syne', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--accent-cyan);
+        }
+
+        .philosophy-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        /* Tech Stack Visual */
+        .tech-flow {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin: 2rem 0;
+            justify-content: flex-start;
+        }
+
+        .tech-tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            padding: 0.5rem 1rem;
+            background: rgba(0, 212, 170, 0.1);
+            border: 1px solid rgba(0, 212, 170, 0.2);
+            border-radius: 100px;
+            color: var(--accent-cyan);
+            transition: all 0.3s ease;
+        }
+
+        .tech-tag:hover {
+            background: rgba(0, 212, 170, 0.2);
+            transform: scale(1.05);
+        }
+
+        /* Blockquote */
+        blockquote {
+            border-left: 3px solid var(--accent-purple);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        /* Code inline */
+        code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85em;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 0.2em 0.5em;
+            border-radius: 4px;
+            color: var(--accent-blue);
+        }
+
+        /* Scroll Progress */
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-blue));
+            z-index: 1000;
+            transform-origin: left;
+            transform: scaleX(0);
+        }
+
+        /* Side annotation */
+        .margin-note {
+            position: relative;
+        }
+
+        .margin-note::before {
+            content: attr(data-note);
+            position: absolute;
+            right: calc(100% + 2rem);
+            top: 0;
+            width: 150px;
+            font-size: 0.7rem;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-muted);
+            text-align: right;
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: all 0.3s ease;
+        }
+
+        @media (min-width: 1100px) {
+            .margin-note:hover::before {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 6rem;
+            padding-top: 3rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            text-align: center;
+        }
+
+        .changelog {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 100px;
+            transition: all 0.3s ease;
+        }
+
+        .changelog:hover {
+            border-color: var(--accent-cyan);
+            color: var(--text-secondary);
+        }
+
+        .changelog-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-align: left;
+            margin-top: 1rem;
+        }
+
+        .changelog-content.open {
+            max-height: 200px;
+        }
+
+        .changelog-content ul {
+            list-style: none;
+            padding: 1rem;
+            background: var(--bg-surface);
+            border-radius: 8px;
+        }
+
+        .changelog-content li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+        }
+
+        .changelog-content li:last-child {
+            border-bottom: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            article {
+                padding: 10vh 1.25rem 15vh;
+            }
+
+            header {
+                margin-bottom: 5rem;
+            }
+
+            .meta {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+        }
+
+        /* Reading indicator */
+        .reading-indicator {
+            position: fixed;
+            right: 2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            z-index: 100;
+        }
+
+        .reading-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .reading-dot.active {
+            background: var(--accent-cyan);
+            box-shadow: 0 0 10px var(--accent-cyan);
+        }
+
+        @media (max-width: 1000px) {
+            .reading-indicator {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="margin-canvas"></canvas>
+    <div class="scroll-progress" id="progress"></div>
+
+    <div class="reading-indicator" id="readingIndicator">
+        <div class="reading-dot" data-section="0"></div>
+        <div class="reading-dot" data-section="1"></div>
+        <div class="reading-dot" data-section="2"></div>
+        <div class="reading-dot" data-section="3"></div>
+        <div class="reading-dot" data-section="4"></div>
+    </div>
+
+    <div class="content-wrapper">
+        <article>
+            <header>
+                <div class="version-tag">Essay v1.0 · Thinking in Progress</div>
+                <h1>From Vibe Coding to Compound Engineering</h1>
+                <p class="subtitle">Building Software Philosophies in the AI Era</p>
+                <div class="meta">
+                    <span>
+                        <div class="meta-dot"></div>January 1, 2026
+                    </span>
+                    <span>7 years in AI/ML</span>
+                    <span>Tokyo → Compound</span>
+                </div>
+            </header>
+
+            <section data-section="0">
+                <p class="margin-note" data-note="The Python wizard era">Mid 2025 came knocking, and there I was—sitting
+                    with my 7 years badge of "software engineer specializing in AI/ML" like some kind of Python wizard.
+                    Python was my weapon, my companion, my everything.</p>
+
+                <p>Then July happened. After spending 5 whole years at a startup in Tokyo <em>(yes, Tokyo, very
+                        fancy)</em>, I joined my 3rd company thinking I'm ready for whatever comes next.</p>
+
+                <p>And boom—life introduced me to something called <strong>Clean Architecture</strong>.</p>
+
+                <p>Now listen, I wasn't completely new to this world. I knew about dependency injection and all those
+                    fancy programming patterns that make you sound smart at tech meetups. But an entire software design
+                    philosophy? Like, a <em>whole</em> philosophy? That was new territory.</p>
+
+                <p class="margin-note" data-note="Leetcode ≠ Architecture">Here's the interesting part—I was that guy
+                    who topped many coding tests, especially in Python. Leetcode? Solved it. HackerRank? Done. But
+                    suddenly, I found myself staring at a simple problem in clean architecture, completely unable to
+                    formulate the solution. My brain just went <code>error 404: pattern not found</code>.</p>
+
+                <p>And this felt... different. Like discovering there's an entire ocean when you thought you knew all
+                    the rivers.</p>
+            </section>
+
+            <section data-section="1">
+                <h2>The Vibe Coding Era</h2>
+                <p class="margin-note" data-note="Before it was cool™">Now here's the plot twist that makes everything
+                    make sense—I had been doing what people now call "vibe coding" long before the term even became a
+                    thing. For the last two and half years, I wasn't really writing a lot of code myself. So yeah, this
+                    context matters.</p>
+
+                <p>I asked Cursor to follow the clean architecture patterns, and my first PR went live. Success! Or so I
+                    thought.</p>
+
+                <p>Then the code review comments came rolling in like monsoon rain—so many issues, so many suggestions,
+                    so much feedback that I started wondering if there's a better way to do this. Back and forth we
+                    went. Many times. Multiple PRs. Each one teaching something new.</p>
+
+                <p>See, in my previous company, working on a project was simple mathematics—I would simply prompt the
+                    feature, fix the bug when it breaks, repeat the cycle, and call it a day. But scaling the project
+                    this way? <em>Difficult</em> doesn't even begin to describe it.</p>
+
+                <blockquote>Adding new features broke something else. Always. Every single time. It was like playing
+                    Jenga with code—pull one piece, entire structure wobbles.</blockquote>
+
+                <p>So naturally, at first I wasn't a fan of clean architecture. But slowly, very slowly, the pieces
+                    started clicking together. The various barriers it creates, the patterns it suggests—they all
+                    started making sense. These weren't restrictions—they were <strong>guide rails</strong> keeping the
+                    project on track.</p>
+
+                <p>They helped reduce AI slop and actually ship better code into production. Turns out structure can be
+                    quite liberating when you give it a chance.</p>
+            </section>
+
+            <section data-section="2">
+                <h2>The Rabbit Hole</h2>
+                <p class="margin-note" data-note="Casual Tuesday ambitions">Now here's where things get really
+                    interesting. One of the fascinating things about AI is that you can do what took others a decade to
+                    do within just a few hours. Suddenly you're exploring territories that would have required years of
+                    experience.</p>
+
+                <p>So naturally, based on my experience with clean architecture, I got myself into the rabbit hole of
+                    <strong>creating new software design philosophies</strong>. Because if we can understand existing
+                    ones, why not try building new ones?
+                </p>
+
+                <p>Multiple attempts happened. Multiple iterations. Interactive chats with AI that went deep into
+                    software design theory. My goal was ambitious—create something that could scale to billions of lines
+                    of code without the issues that plague existing philosophies.</p>
+
+                <p>But then reality came knocking, this time wearing Gödel's face and carrying mathematics textbooks.
+                </p>
+
+                <blockquote>I realized something profound—it is not possible to build a logically consistent AND
+                    complete philosophy. You have to choose. Consistency or completeness. Pick one.</blockquote>
+
+                <p>This is the realm of Gödel's incompleteness theorem, information theory, uncertainty principle, and
+                    the fundamental nature of our reality... okay fine, maybe I'm being a bit dramatic here, but yeah,
+                    it was a genuinely mind-bending realization.</p>
+
+                <p>The good news? I found out we can build <strong>useful</strong> ones. Not perfect, but useful. And
+                    suddenly, TypeScript became a crucial ally. Linting rules that seemed boring before? Now they're
+                    essential. Test cases? Not just a checkbox to tick anymore—they're the foundation that prevents your
+                    architectural ideas from becoming a wobbly tower of cards.</p>
+            </section>
+
+            <section data-section="3">
+                <h2>The Experimentation Phase</h2>
+                <p>So here's where things get practical. I have created a few such philosophies and have been running
+                    experiments with them. And you know what? It seems to work well. Not just in theory, but in actual
+                    projects where rubber meets the road.</p>
+
+                <div class="philosophy-card">
+                    <h3>Contract Interface & Implementation Philosophy</h3>
+                    <p>The idea is beautifully simple—implementation layer is <em>disposable</em> AI-generated code.
+                        Yes, disposable. Like those paper plates you use at a picnic and then throw away. But the
+                        contract layer? That's the good china, the stuff you keep. Human-reviewed test cases,
+                        interfaces, the promises your code makes to the world.</p>
+                </div>
+
+                <p>The magic happens when changes made shouldn't break anything existing AND it should overall improve
+                    the codebase based on new requirements. It's like having your cake and eating it too, except the
+                    cake is code and eating it means deploying to production.</p>
+
+                <div class="philosophy-card">
+                    <h3>Intent Driven Architecture</h3>
+                    <p>Instead of being slave to rigid specifications, the generated code is continuously aligned with
+                        human intent. We spend so much time writing specs, but specs are just translation of what we
+                        actually want. Why not cut the middleman? <strong>Intent over specs. Desire over
+                            documentation.</strong></p>
+                </div>
+
+                <p>For each philosophy, I create a <code>Claude.md</code> file that explains the philosophy, the rules,
+                    the patterns to follow. Then I build projects that actually follow these philosophies. Real
+                    projects, not just toy examples.</p>
+
+                <p>This is very much in the process of experimentation right now—think of it as software design
+                    philosophy in beta version.</p>
+            </section>
+
+            <section data-section="4">
+                <h2>The Compound Engineering Revolution</h2>
+                <p class="margin-note" data-note="The game changer">Now, when watching content related to vibe coding,
+                    there was one critique that kept popping up everywhere. People said AI has frozen knowledge and
+                    unlike an engineer who gains context of the project gradually and learns from their mistakes, AI
+                    can't do that.</p>
+
+                <p>Every session is a fresh start, tabula rasa, blank slate. The AI doesn't remember what happened
+                    yesterday, what patterns worked last week, what preferences you have. Fair criticism, honestly.</p>
+
+                <p>However—and this is a <em>big</em> however—some people created something called <strong>Compound
+                        Engineering</strong> where AI grows after every session. Not just pretends to grow, but actually
+                    grows.</p>
+
+                <blockquote>It documents its processes and interaction with user. Records user preferences and
+                    engineering processes. Improves along with the project like an actual team member who's been there
+                    since day one.</blockquote>
+
+                <p>The AI becomes contextually aware, historically informed, progressively smarter about YOUR specific
+                    project. This was one of the best tricks I learned, in my opinion. Game changer doesn't even begin
+                    to describe it.</p>
+
+                <p>The results?</p>
+
+                <div class="tech-flow">
+                    <span class="tech-tag">Swift Desktop Apps</span>
+                    <span class="tech-tag">Flutter Mobile</span>
+                    <span class="tech-tag">Cloudflare Workers</span>
+                    <span class="tech-tag">p5.js Games</span>
+                </div>
+
+                <p>Each project building on lessons from the previous one, each AI session smarter than the last, each
+                    iteration teaching the system something new about how I think, how I work, what quality means to me.
+                </p>
+
+                <p>It's like having an engineering partner who actually pays attention and gets better over time, not
+                    just someone who nods politely and forgets everything by tomorrow.</p>
+            </section>
+
+            <footer>
+                <div class="changelog" onclick="toggleChangelog()">
+                    <span>↳</span> View changelog
+                </div>
+                <div class="changelog-content" id="changelogContent">
+                    <ul>
+                        <li><strong>v1.0</strong> — Initial thoughts crystallized. The journey from vibe coding to
+                            compound engineering documented.</li>
+                        <li><strong>v0.9</strong> — Draft iterations with AI assistance. Multiple rewrites.</li>
+                        <li><strong>v0.1</strong> — First spark: "What if I wrote about this?"</li>
+                    </ul>
+                </div>
+            </footer>
+        </article>
+    </div>
+
+    <script>
+        // ═══════════════════════════════════════════════════════════════
+        // THE LIVING MARGINS - Compound Growth Visualization
+        // ═══════════════════════════════════════════════════════════════
+
+        const canvas = document.getElementById('margin-canvas');
+        const ctx = canvas.getContext('2d');
+
+        let nodes = [];
+        let connections = [];
+        let scrollProgress = 0;
+        let targetNodeCount = 0;
+        let animationFrame;
+
+        const config = {
+            maxNodes: 80,
+            nodeBaseRadius: 2,
+            connectionDistance: 150,
+            marginWidth: 250,
+            colors: {
+                node: 'rgba(0, 212, 170, 0.6)',
+                nodeBright: 'rgba(0, 212, 170, 0.9)',
+                connection: 'rgba(0, 212, 170, 0.08)',
+                connectionActive: 'rgba(0, 212, 170, 0.15)'
+            }
+        };
+
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        function createNode(side) {
+            const margin = config.marginWidth;
+            const x = side === 'left'
+                ? Math.random() * margin
+                : canvas.width - Math.random() * margin;
+
+            return {
+                x,
+                y: Math.random() * canvas.height,
+                vx: (Math.random() - 0.5) * 0.15,
+                vy: (Math.random() - 0.5) * 0.15,
+                radius: config.nodeBaseRadius + Math.random() * 2,
+                side,
+                birth: Date.now(),
+                pulse: Math.random() * Math.PI * 2
+            };
+        }
+
+        function updateNodes() {
+            // Add nodes based on scroll progress
+            targetNodeCount = Math.floor(scrollProgress * config.maxNodes);
+
+            while (nodes.length < targetNodeCount) {
+                nodes.push(createNode(Math.random() > 0.5 ? 'left' : 'right'));
+            }
+
+            // Update existing nodes
+            nodes.forEach(node => {
+                node.x += node.vx;
+                node.y += node.vy;
+                node.pulse += 0.01;
+
+                // Boundary check - keep in margins
+                const margin = config.marginWidth;
+                if (node.side === 'left') {
+                    if (node.x < 0 || node.x > margin) node.vx *= -1;
+                } else {
+                    if (node.x < canvas.width - margin || node.x > canvas.width) node.vx *= -1;
+                }
+
+                if (node.y < 0 || node.y > canvas.height) node.vy *= -1;
+
+                // Clamp
+                node.x = Math.max(0, Math.min(canvas.width, node.x));
+                node.y = Math.max(0, Math.min(canvas.height, node.y));
+            });
+        }
+
+        function getEdgeFade(x) {
+            // Calculate how far from the edge the node is
+            // Returns 1 at screen edge, 0 near content column
+            const centerX = canvas.width / 2;
+            const contentEdge = 400; // Distance from center where content lives
+            const distFromCenter = Math.abs(x - centerX);
+
+            if (distFromCenter < contentEdge) return 0;
+
+            const fadeZone = (canvas.width / 2) - contentEdge;
+            return Math.min(1, (distFromCenter - contentEdge) / fadeZone);
+        }
+
+        function drawConnections() {
+            ctx.lineWidth = 1;
+
+            for (let i = 0; i < nodes.length; i++) {
+                for (let j = i + 1; j < nodes.length; j++) {
+                    if (nodes[i].side !== nodes[j].side) continue;
+
+                    const dx = nodes[i].x - nodes[j].x;
+                    const dy = nodes[i].y - nodes[j].y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+
+                    if (dist < config.connectionDistance) {
+                        const alpha = 1 - (dist / config.connectionDistance);
+                        const edgeFade = Math.min(getEdgeFade(nodes[i].x), getEdgeFade(nodes[j].x));
+                        ctx.strokeStyle = `rgba(0, 212, 170, ${alpha * 0.12 * edgeFade})`;
+                        ctx.beginPath();
+                        ctx.moveTo(nodes[i].x, nodes[i].y);
+                        ctx.lineTo(nodes[j].x, nodes[j].y);
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+
+        function drawNodes() {
+            nodes.forEach(node => {
+                const age = (Date.now() - node.birth) / 1000;
+                const fadeIn = Math.min(1, age / 0.5);
+                const pulseScale = 1 + Math.sin(node.pulse) * 0.2;
+                const edgeFade = getEdgeFade(node.x);
+
+                // Skip if too close to content
+                if (edgeFade < 0.05) return;
+
+                // Glow
+                const gradient = ctx.createRadialGradient(
+                    node.x, node.y, 0,
+                    node.x, node.y, node.radius * 3 * pulseScale
+                );
+                gradient.addColorStop(0, `rgba(0, 212, 170, ${0.4 * fadeIn * edgeFade})`);
+                gradient.addColorStop(1, 'rgba(0, 212, 170, 0)');
+
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, node.radius * 3 * pulseScale, 0, Math.PI * 2);
+                ctx.fill();
+
+                // Core
+                ctx.fillStyle = `rgba(0, 212, 170, ${0.8 * fadeIn * edgeFade})`;
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, node.radius * pulseScale, 0, Math.PI * 2);
+                ctx.fill();
+            });
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            updateNodes();
+            drawConnections();
+            drawNodes();
+            animationFrame = requestAnimationFrame(animate);
+        }
+
+        // ═══════════════════════════════════════════════════════════════
+        // SCROLL INTERACTIONS
+        // ═══════════════════════════════════════════════════════════════
+
+        const progressBar = document.getElementById('progress');
+        const sections = document.querySelectorAll('section');
+        const readingDots = document.querySelectorAll('.reading-dot');
+
+        let ticking = false;
+
+        function updateScroll() {
+            const scrollY = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            scrollProgress = Math.min(1, scrollY / docHeight);
+
+            // Update progress bar
+            progressBar.style.transform = `scaleX(${scrollProgress})`;
+
+            // Update reading indicator
+            sections.forEach((section, index) => {
+                const rect = section.getBoundingClientRect();
+                const dot = readingDots[index];
+                if (rect.top < window.innerHeight / 2 && rect.bottom > window.innerHeight / 2) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(updateScroll);
+                ticking = true;
+            }
+        });
+
+        // ═══════════════════════════════════════════════════════════════
+        // UTILITIES
+        // ═══════════════════════════════════════════════════════════════
+
+        function toggleChangelog() {
+            document.getElementById('changelogContent').classList.toggle('open');
+        }
+
+        // Initialize
+        window.addEventListener('resize', resize);
+        resize();
+        animate();
+        updateScroll();
+    </script>
+</body>
+
+</html>
