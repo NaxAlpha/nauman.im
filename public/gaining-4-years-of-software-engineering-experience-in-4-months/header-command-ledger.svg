@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="title desc">
+  <title id="title">Command Ledger visual header</title>
+  <desc id="desc">A visual-first dark hero with workflow spine, agent tiles, and a 48m to 4m acceleration graphic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d13"/>
+      <stop offset="1" stop-color="#101a28"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111d2d"/>
+      <stop offset="1" stop-color="#0b1420"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d3a7"/>
+      <stop offset="1" stop-color="#4ea1ff"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#2b3c56" stroke-width="1" opacity="0.25"/>
+    </pattern>
+    <style>
+      .display { font: 800 56px/1 Inter, Segoe UI, Arial, sans-serif; fill: #e8eef8; letter-spacing: -1px; }
+      .mono-md { font: 600 16px/1.2 "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8aa5c8; letter-spacing: 1px; }
+      .mono-sm { font: 500 13px/1.2 "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; fill: #7d99bf; letter-spacing: 0.5px; }
+      .label { font: 600 18px/1.2 Inter, Segoe UI, Arial, sans-serif; fill: #d6e2f5; }
+      .num-lg { font: 800 76px/1 Inter, Segoe UI, Arial, sans-serif; fill: #edf3fc; letter-spacing: -1px; text-anchor: middle; }
+      .num-sm { font: 700 20px/1 Inter, Segoe UI, Arial, sans-serif; fill: #c7d8ee; text-anchor: middle; }
+      .emoji { font: 700 42px/1.1 "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif; text-anchor: middle; }
+      .dot-ok { fill: #00d3a7; }
+      .dot-mid { fill: #4ea1ff; }
+      .dot-warn { fill: #f5b84e; }
+      .dot-risk { fill: #ff7e79; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="980" cy="470" r="290" fill="#0f2a43" opacity="0.14"/>
+  <circle cx="860" cy="450" r="220" fill="#00d3a7" opacity="0.06"/>
+
+  <!-- Left workflow spine -->
+  <rect x="70" y="80" width="300" height="740" rx="24" fill="url(#panel)" stroke="#2b3c55" stroke-width="2"/>
+  <text x="102" y="132" class="mono-md">COMMAND LEDGER</text>
+  <rect x="102" y="146" width="170" height="3" rx="1.5" fill="url(#accent)"/>
+  <line x1="214" y1="198" x2="214" y2="720" stroke="#335070" stroke-width="3"/>
+
+  <circle cx="214" cy="218" r="11" class="dot-ok"/>
+  <text x="250" y="225" class="label">Plan</text>
+  <text x="250" y="245" class="mono-sm">scope + intent</text>
+  <text x="175" y="227" class="emoji">🧠</text>
+
+  <circle cx="214" cy="326" r="11" class="dot-mid"/>
+  <text x="250" y="333" class="label">Assign</text>
+  <text x="250" y="353" class="mono-sm">parallel agents</text>
+  <text x="175" y="335" class="emoji">🧩</text>
+
+  <circle cx="214" cy="434" r="11" class="dot-ok"/>
+  <text x="250" y="441" class="label">Build</text>
+  <text x="250" y="461" class="mono-sm">code + tests</text>
+  <text x="175" y="443" class="emoji">⚙️</text>
+
+  <circle cx="214" cy="542" r="11" class="dot-warn"/>
+  <text x="250" y="549" class="label">Review</text>
+  <text x="250" y="569" class="mono-sm">quality gate</text>
+  <text x="175" y="551" class="emoji">✅</text>
+
+  <circle cx="214" cy="650" r="11" class="dot-risk"/>
+  <text x="250" y="657" class="label">Reflect</text>
+  <text x="250" y="677" class="mono-sm">mental load</text>
+  <text x="175" y="659" class="emoji">🧭</text>
+
+  <rect x="102" y="726" width="236" height="70" rx="12" fill="#0c1522" stroke="#304865"/>
+  <text x="122" y="754" class="mono-sm">worktrees: 5</text>
+  <text x="122" y="777" class="mono-sm">tickets: linear</text>
+
+  <!-- Title (kept short, visual-first layout) -->
+  <text x="430" y="145" class="mono-md">AI ORCHESTRATION ERA</text>
+  <text x="430" y="212" class="display">Experience Compression</text>
+
+  <!-- Top-right visual agent cluster (no title overlap now) -->
+  <rect x="1180" y="84" width="350" height="250" rx="20" fill="#0e1826" stroke="#2f4664" stroke-width="2"/>
+  <text x="1212" y="120" class="mono-sm">AGENT SWARM</text>
+
+  <rect x="1212" y="142" width="96" height="74" rx="12" fill="#121f30" stroke="#365273"/>
+  <circle cx="1230" cy="160" r="6" class="dot-ok"/>
+  <rect x="1242" y="154" width="48" height="4" rx="2" fill="#2f4967"/>
+  <rect x="1224" y="178" width="66" height="4" rx="2" fill="#2f4967"/>
+  <rect x="1224" y="190" width="54" height="4" rx="2" fill="#2f4967"/>
+
+  <rect x="1320" y="142" width="96" height="74" rx="12" fill="#121f30" stroke="#365273"/>
+  <circle cx="1338" cy="160" r="6" class="dot-mid"/>
+  <rect x="1350" y="154" width="48" height="4" rx="2" fill="#2f4967"/>
+  <rect x="1332" y="178" width="68" height="4" rx="2" fill="#2f4967"/>
+  <rect x="1332" y="190" width="56" height="4" rx="2" fill="#2f4967"/>
+
+  <rect x="1428" y="142" width="84" height="74" rx="12" fill="#121f30" stroke="#365273"/>
+  <circle cx="1446" cy="160" r="6" class="dot-warn"/>
+  <rect x="1458" y="154" width="36" height="4" rx="2" fill="#2f4967"/>
+  <rect x="1440" y="178" width="54" height="4" rx="2" fill="#2f4967"/>
+  <rect x="1440" y="190" width="44" height="4" rx="2" fill="#2f4967"/>
+
+  <rect x="1212" y="228" width="300" height="80" rx="14" fill="#121f30" stroke="#365273"/>
+  <rect x="1234" y="252" width="256" height="8" rx="4" fill="#26384f"/>
+  <rect x="1234" y="252" width="194" height="8" rx="4" fill="url(#accent)"/>
+  <text x="1234" y="285" class="mono-sm">delivery pressure</text>
+
+  <!-- Main visual: 48m -> 4m -->
+  <circle cx="650" cy="460" r="156" fill="#111c2b" stroke="#304866" stroke-width="3"/>
+  <circle cx="650" cy="460" r="132" fill="none" stroke="#2d4563" stroke-width="14"/>
+  <circle cx="650" cy="460" r="132" fill="none" stroke="#00d3a7" stroke-width="14" stroke-dasharray="560 270"/>
+  <text x="650" y="450" class="num-sm">before</text>
+  <text x="650" y="500" class="num-lg">48m</text>
+
+  <circle cx="1030" cy="460" r="120" fill="#111c2b" stroke="#304866" stroke-width="3"/>
+  <circle cx="1030" cy="460" r="98" fill="none" stroke="#2d4563" stroke-width="12"/>
+  <circle cx="1030" cy="460" r="98" fill="none" stroke="#4ea1ff" stroke-width="12" stroke-dasharray="140 476"/>
+  <text x="1030" y="452" class="num-sm">after</text>
+  <text x="1030" y="496" class="num-lg">4m</text>
+
+  <path d="M806 460H906" stroke="url(#accent)" stroke-width="24" stroke-linecap="round"/>
+  <polygon points="906,442 950,460 906,478" fill="#4ea1ff"/>
+  <text x="858" y="404" class="emoji">⏩</text>
+  <text x="858" y="544" class="mono-md" text-anchor="middle">48 months → 4 months</text>
+
+  <!-- Ticket stack, now visual not paragraph-heavy -->
+  <rect x="450" y="640" width="780" height="200" rx="20" fill="#0f1826" stroke="#314865" stroke-width="2"/>
+  <text x="482" y="676" class="mono-sm">ACTIVE STREAMS</text>
+
+  <rect x="482" y="694" width="716" height="34" rx="17" fill="#132233" stroke="#355072"/>
+  <circle cx="506" cy="711" r="7" class="dot-ok"/>
+  <text x="524" y="716" class="mono-sm">TKT-031  feature implementation</text>
+  <rect x="1078" y="706" width="100" height="10" rx="5" fill="#24354b"/>
+  <rect x="1078" y="706" width="74" height="10" rx="5" fill="#00d3a7"/>
+
+  <rect x="482" y="736" width="716" height="34" rx="17" fill="#132233" stroke="#355072"/>
+  <circle cx="506" cy="753" r="7" class="dot-warn"/>
+  <text x="524" y="758" class="mono-sm">TKT-032  instruction system evolution</text>
+  <rect x="1078" y="748" width="100" height="10" rx="5" fill="#24354b"/>
+  <rect x="1078" y="748" width="56" height="10" rx="5" fill="#f5b84e"/>
+
+  <rect x="482" y="778" width="716" height="34" rx="17" fill="#132233" stroke="#355072"/>
+  <circle cx="506" cy="795" r="7" class="dot-risk"/>
+  <text x="524" y="800" class="mono-sm">TKT-033  release + bug loop</text>
+  <rect x="1078" y="790" width="100" height="10" rx="5" fill="#24354b"/>
+  <rect x="1078" y="790" width="42" height="10" rx="5" fill="#ff7e79"/>
+</svg>

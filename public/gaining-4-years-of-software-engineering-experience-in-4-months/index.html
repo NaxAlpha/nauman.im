@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaining 4 Years of Software Engineering Experience in 4 Months - Nauman Mustafa</title>
+
+    <meta name="description"
+        content="A first-person essay on how AI coding agents changed software work from writing code to directing systems, and why it felt like 4 years of experience in 4 months.">
+    <meta name="author" content="Nauman Mustafa">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://nauman.im/gaining-4-years-of-software-engineering-experience-in-4-months">
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://nauman.im/gaining-4-years-of-software-engineering-experience-in-4-months">
+    <meta property="og:title" content="Gaining 4 Years of Software Engineering Experience in 4 Months">
+    <meta property="og:description"
+        content="A first-person essay on AI agents, software leadership, delivery pressure, and accelerated learning.">
+    <meta property="og:image"
+        content="https://nauman.im/gaining-4-years-of-software-engineering-experience-in-4-months/header-command-ledger-abstract.svg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gaining 4 Years of Software Engineering Experience in 4 Months">
+    <meta name="twitter:description"
+        content="From writing code to orchestrating agents: reflections on delivery, quality, and mental load.">
+    <meta name="twitter:image"
+        content="https://nauman.im/gaining-4-years-of-software-engineering-experience-in-4-months/header-command-ledger-abstract.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Space+Grotesk:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="progress-track" aria-hidden="true">
+        <div class="progress-fill" id="progress-fill"></div>
+    </div>
+
+    <div class="controls">
+        <a href="/" class="back-home">
+            <i class="fas fa-arrow-left"></i>
+            <span>Home</span>
+        </a>
+
+        <button class="mobile-rail-toggle" id="mobile-rail-toggle" aria-controls="mobile-rail-panel" aria-expanded="false"
+            aria-label="Toggle section navigation">
+            <i class="fas fa-bars"></i>
+            <span>Sections</span>
+        </button>
+
+        <div class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+            <span>Light Mode</span>
+        </div>
+    </div>
+
+    <div class="mobile-rail-panel" id="mobile-rail-panel" aria-hidden="true">
+        <div class="mobile-rail-panel-inner">
+            <nav class="phase-links phase-links-mobile" id="mobile-phase-links"></nav>
+        </div>
+    </div>
+
+    <header class="hero">
+        <div class="hero-shell">
+            <img class="hero-art" src="./header-command-ledger-abstract.svg"
+                alt="Abstract command ledger visual showing AI orchestration and experience compression.">
+            <div class="hero-copy">
+                <p class="eyebrow">Essay · February 21, 2026</p>
+                <h1 class="hero-title">Gaining 4 Years of Software Engineering Experience in 4 Months</h1>
+                <p class="hero-subtitle">
+                    AI changed my job from writing every line to directing parallel software systems. This is my field
+                    report from that shift.
+                </p>
+                <ul class="hero-meta">
+                    <li>AI development</li>
+                    <li>Command Ledger</li>
+                    <li>Human + agent workflow</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="layout">
+        <aside class="ledger-nav" id="ledger-nav" aria-label="Article navigation">
+            <h2>Command Ledger</h2>
+            <p>phase flow</p>
+            <nav class="phase-links">
+                <a class="phase-link" href="#engineer-manager"><span class="phase-dot"></span><span>Engineer to
+                        Manager</span></a>
+                <a class="phase-link" href="#priority-shift"><span class="phase-dot"></span><span>Delivery vs Code
+                        Craft</span></a>
+                <a class="phase-link" href="#reality-check"><span class="phase-dot"></span><span>Quality and
+                        Risk</span></a>
+                <a class="phase-link" href="#compression"><span class="phase-dot"></span><span>4 Years in 4
+                        Months</span></a>
+                <a class="phase-link" href="#mental-load"><span class="phase-dot"></span><span>Mental
+                        Exhaustion</span></a>
+                <a class="phase-link" href="#agents-md"><span class="phase-dot"></span><span>AGENTS.md
+                        Evolution</span></a>
+                <a class="phase-link" href="#learning-pattern"><span class="phase-dot"></span><span>New Learning
+                        Pattern</span></a>
+                <a class="phase-link" href="#democratization"><span class="phase-dot"></span><span>Open Gate to
+                        Builders</span></a>
+                <a class="phase-link" href="#optimism"><span class="phase-dot"></span><span>Concerns and
+                        Optimism</span></a>
+                <a class="phase-link" href="#final-thought"><span class="phase-dot"></span><span>Final
+                        Thought</span></a>
+            </nav>
+        </aside>
+
+        <article class="article">
+            <section class="disclaimer-card">
+                <p class="disclaimer-label">Disclaimer</p>
+                <p><strong>This essay is from my real experience using coding agents.</strong> It reflects what I have
+                    observed so far, and my thinking is still evolving.</p>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section class="stat-band" aria-label="Experience compression">
+                <div class="stat-block">
+                    <div class="stat-value">48m</div>
+                    <div class="stat-label">Traditional arc</div>
+                </div>
+                <div class="stat-arrow">⏩</div>
+                <div class="stat-block">
+                    <div class="stat-value">4m</div>
+                    <div class="stat-label">Felt experience arc</div>
+                </div>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section id="engineer-manager" class="section-card">
+                <p class="section-kicker">Shift 01</p>
+                <h2>From Engineer to Manager Overnight</h2>
+                <p>AI is changing how we build software.</p>
+                <p>For most of my career, software development meant writing code line by line, file by file. Today, I
+                    can hand a task to an agent and watch it do what used to take me hours or days: research the
+                    problem, write code, run tests, and report results.</p>
+                <p>In practice, it feels like having a junior-to-mid-level software engineer working with me full-time.
+                    I can assign work, ask follow-up questions, request improvements, and redirect when implementation
+                    goes off track.</p>
+                <p>This changes everything.</p>
+                <p>When we work with agents at scale, we naturally move into a management role. I do not always read
+                    every line of generated code. Sometimes I review diffs deeply, but often I evaluate through
+                    behavior: test cases, summaries, app checks, and whether the feature works in production-like
+                    flows.</p>
+                <p>That is exactly how managers have worked for years with human teams.</p>
+                <ul>
+                    <li>define goals</li>
+                    <li>split work into tickets</li>
+                    <li>review progress</li>
+                    <li>validate outcomes</li>
+                    <li>ship</li>
+                </ul>
+                <p>The strange part is that many of us engineers used to dislike this side of software work. Tickets,
+                    standups, status updates, visibility tasks, and process overhead felt like distractions from real
+                    engineering.</p>
+                <p>Now I run multiple worktrees, assign parallel tasks to agents, and maintain instruction files like
+                    <code>AGENTS.md</code> to enforce workflow discipline.
+                </p>
+                <ul>
+                    <li>keep tickets linear</li>
+                    <li>update tasks while working</li>
+                    <li>post daily summaries</li>
+                    <li>keep decisions documented</li>
+                </ul>
+                <p>The same managerial habits I used to resist now make perfect sense when coordinating several
+                    autonomous coding streams at once.</p>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section id="priority-shift" class="section-card">
+                <p class="section-kicker">Shift 02</p>
+                <h2>Priority Shift: Product Delivery Over Code Craft</h2>
+                <p>Another major shift is personal: my top priority is now delivering a working product, not polishing
+                    every implementation into the most elegant possible version.</p>
+                <p>In the past, I could spend hours refining structure, style, and optimization details. Sometimes my
+                    manager would ask why I was still improving internals when the feature already worked. Now I
+                    understand that tension from the other side.</p>
+                <p>When agents dramatically increase implementation speed, bottlenecks move upward.</p>
+                <ul>
+                    <li>scope decisions</li>
+                    <li>sequencing</li>
+                    <li>quality gates</li>
+                    <li>release coordination</li>
+                    <li>customer feedback loops</li>
+                </ul>
+                <p>You still need strong technical judgment, but your leverage comes more from direction than from
+                    typing speed.</p>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section id="reality-check" class="section-card">
+                <p class="section-kicker">Shift 03</p>
+                <h2>Will AI Code Be Garbage?</h2>
+                <div class="callout reality">
+                    <h3>Reality Check</h3>
+                    <p>The right comparison is not AI code versus perfect code. The real comparison is AI-assisted
+                        teams versus how software has always been built in messy reality.</p>
+                </div>
+                <p>Let us be honest about the fears.</p>
+                <p>Will there be bugs? Yes. Human teams shipped bugs for decades.</p>
+                <p>Will some code quality be poor? Yes. Even large, well-funded software organizations have shipped
+                    fragile systems.</p>
+                <p>Will we ship code we do not fully understand? Very likely. That already happened before AI too. The
+                    industry has countless stories of production bugs that took weeks or months to trace.</p>
+                <p>Will there be slop? Definitely. A skill that used to be protected by a high barrier is now far more
+                    accessible.</p>
+                <p>That democratization is both a gift and a risk.</p>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section id="compression" class="section-card">
+                <p class="section-kicker">Shift 04</p>
+                <h2>Why It Feels Like 4 Years in 4 Months</h2>
+                <p>I cannot literally compress time. What experienced managers learn in four years cannot be fully
+                    simulated in a single season.</p>
+                <p>But by running multiple projects in parallel, including personal projects, I compressed exposure to
+                    decision-making cycles.</p>
+                <ul>
+                    <li>planning</li>
+                    <li>delegation</li>
+                    <li>review</li>
+                    <li>release</li>
+                    <li>incident handling</li>
+                    <li>iteration</li>
+                </ul>
+                <p>When those loops run every week instead of every quarter, you accumulate experience rapidly.</p>
+                <blockquote>That is why I say it feels like I gained four years of software engineering experience in
+                    four months.</blockquote>
+                <p>Not because I magically skipped fundamentals, but because I repeatedly practiced higher-level
+                    responsibilities under real delivery pressure.</p>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section id="mental-load" class="section-card">
+                <p class="section-kicker">Shift 05</p>
+                <h2>The Hidden Cost: Mental Exhaustion</h2>
+                <p>There is a misconception that if AI writes most code, the work becomes easy. My experience is the
+                    opposite.</p>
+                <p>The hardest part is holding the whole project in your head.</p>
+                <ul>
+                    <li>product direction</li>
+                    <li>roadmap</li>
+                    <li>architecture</li>
+                    <li>tradeoffs</li>
+                    <li>timeline</li>
+                    <li>quality risks</li>
+                </ul>
+                <p>Things that used to unfold over months are now expected in days or weeks. That compression creates a
+                    different kind of fatigue: less mechanical typing stress, more cognitive orchestration stress.</p>
+                <p>I felt that exhaustion clearly.</p>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section id="agents-md" class="section-card">
+                <p class="section-kicker">Shift 06</p>
+                <h2>The Evolution of <code>AGENTS.md</code>: From Coding Notes to SDLC Playbook</h2>
+                <p>One under-discussed area is how instruction files evolve.</p>
+                <p>At first, my agent docs were mostly coding style and technical guardrails. Over time, they expanded
+                    into something closer to SDLC operating manuals.</p>
+                <ul>
+                    <li>how tasks are tracked</li>
+                    <li>how progress is reported</li>
+                    <li>how verification is done</li>
+                    <li>how handoff summaries are written</li>
+                    <li>how release readiness is judged</li>
+                </ul>
+                <p>In other words, prompt files are becoming lightweight management systems. That evolution alone
+                    teaches you a lot about what software leadership actually is.</p>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section id="learning-pattern" class="section-card">
+                <p class="section-kicker">Shift 07</p>
+                <h2>A New Learning Pattern (and Its Risks)</h2>
+                <p>There is another deeper shift happening: how humans learn technical subjects.</p>
+                <p>Traditionally, we learned from basics to advanced in a structured sequence. Now, with AI, we often
+                    receive only the piece we need right now. That is powerful, but it can create shallow confidence.</p>
+                <div class="callout side-topic">
+                    <h3>Side Topic That Matters</h3>
+                    <p>We already saw a version of this in the social media era: short clips from long lectures gave
+                        people isolated facts without full context. They felt informed but lacked dense understanding.
+                    </p>
+                </div>
+                <p>AI is different because it can answer follow-up questions and provide context interactively. But it
+                    introduces another risk: confident falsehoods. Human minds are not fully prepared for systems that
+                    can sound authoritative while being wrong.</p>
+                <p>So we need a new discipline.</p>
+                <ul>
+                    <li>ask better questions</li>
+                    <li>verify claims</li>
+                    <li>test assumptions in code</li>
+                    <li>stay humble about what we actually understand</li>
+                </ul>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section id="democratization" class="section-card">
+                <p class="section-kicker">Shift 08</p>
+                <h2>The Best Outcome: Software Is No Longer a Closed Gate</h2>
+                <p>Despite the concerns, one thing makes me genuinely happy.</p>
+                <p>Building software is no longer a guarded skill available only to people with specific geography,
+                    credentials, or elite network access.</p>
+                <p>Talented people with limited resources can now build real products. And they are already doing it.
+                </p>
+                <p>That is a historic change.</p>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section id="optimism" class="section-card">
+                <p class="section-kicker">Shift 09</p>
+                <h2>My Position: Concerned, but Optimistic</h2>
+                <p>I do have concerns about where this goes.</p>
+                <ul>
+                    <li>quality drift</li>
+                    <li>over-reliance</li>
+                    <li>cognitive laziness</li>
+                    <li>information overload</li>
+                </ul>
+                <p>But overall, I am optimistic.</p>
+                <p>As a Muslim, I believe we are responsible for using tools with intention, ethics, and service to
+                    people. Technology itself is not the destination. It is a means.</p>
+                <p>If we stay grounded in purpose and accountability, this shift can expand human creativity instead of
+                    shrinking it.</p>
+            </section>
+            <hr class="section-divider" aria-hidden="true">
+
+            <section id="final-thought" class="section-card">
+                <p class="section-kicker">Shift 10</p>
+                <h2>Final Thought</h2>
+                <p>I do not claim to have the final answer. I am still processing many of these changes.</p>
+                <p>But one thing is clear in my experience: coding agents did not make engineering irrelevant. They
+                    changed where value sits.</p>
+                <p>The leverage is moving from who can type the fastest to who can think clearly, direct systems well,
+                    and ship useful products responsibly.</p>
+                <p>That is why the last four months felt like an accelerated career chapter. Not because coding got
+                    easy. Because software leadership arrived at my desk earlier than expected.</p>
+            </section>
+        </article>
+    </main>
+
+    <footer class="page-footer">
+        <div class="page-footer-inner">Command Ledger essay · written by Nauman Mustafa · 2026</div>
+    </footer>
+
+    <script src="/lib/shared.js"></script>
+    <script>
+        (function () {
+            const sections = Array.from(document.querySelectorAll('.section-card'));
+            const progressFill = document.getElementById('progress-fill');
+            const rail = document.getElementById('ledger-nav');
+            const railToggle = document.getElementById('mobile-rail-toggle');
+            const railPanel = document.getElementById('mobile-rail-panel');
+            const mobileLinksContainer = document.getElementById('mobile-phase-links');
+            const mobileMq = window.matchMedia('(max-width: 1080px)');
+            let railBreakY = 0;
+            const sourceLinksContainer = rail ? rail.querySelector('.phase-links') : null;
+            const linkGroups = new Map();
+
+            if (sourceLinksContainer && mobileLinksContainer) {
+                mobileLinksContainer.innerHTML = sourceLinksContainer.innerHTML;
+            }
+
+            const links = Array.from(document.querySelectorAll('.phase-link'));
+            if (!sections.length || !links.length || !rail) return;
+
+            links.forEach((link) => {
+                const id = link.getAttribute('href').slice(1);
+                if (!linkGroups.has(id)) {
+                    linkGroups.set(id, []);
+                }
+                linkGroups.get(id).push(link);
+            });
+
+            const activate = (id) => {
+                links.forEach((link) => link.classList.remove('active'));
+                const activeLinks = linkGroups.get(id);
+                if (activeLinks) {
+                    activeLinks.forEach((link) => link.classList.add('active'));
+                }
+            };
+
+            const updateProgress = () => {
+                const doc = document.documentElement;
+                const max = doc.scrollHeight - doc.clientHeight;
+                const ratio = max > 0 ? doc.scrollTop / max : 0;
+                progressFill.style.transform = `scaleX(${Math.min(1, Math.max(0, ratio))})`;
+            };
+
+            const updateActiveByScroll = () => {
+                const activationLine = window.innerHeight * 0.28;
+                let currentId = sections[0].id;
+
+                for (const section of sections) {
+                    if (section.getBoundingClientRect().top <= activationLine) {
+                        currentId = section.id;
+                    } else {
+                        break;
+                    }
+                }
+
+                activate(currentId);
+            };
+
+            const setMobilePanelOpen = (open) => {
+                if (!railPanel || !railToggle) return;
+                railPanel.classList.toggle('is-open', open);
+                railToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+                railPanel.setAttribute('aria-hidden', open ? 'false' : 'true');
+            };
+
+            const closeMobilePanel = () => setMobilePanelOpen(false);
+
+            const computeRailBreakY = () => {
+                const rect = rail.getBoundingClientRect();
+                railBreakY = rect.top + window.scrollY + rail.offsetHeight;
+            };
+
+            const updateMobileRailUi = () => {
+                if (!railToggle || !railPanel) return;
+
+                if (!mobileMq.matches) {
+                    railToggle.classList.remove('is-visible');
+                    closeMobilePanel();
+                    return;
+                }
+
+                const pastRail = window.scrollY > railBreakY;
+
+                railToggle.classList.toggle('is-visible', pastRail);
+                if (!pastRail) {
+                    closeMobilePanel();
+                }
+            };
+
+            links.forEach((link) => {
+                link.addEventListener('click', () => {
+                    const id = link.getAttribute('href').slice(1);
+                    activate(id);
+                    closeMobilePanel();
+                });
+            });
+
+            if (railToggle && railPanel) {
+                railToggle.addEventListener('click', () => {
+                    if (!mobileMq.matches || !railToggle.classList.contains('is-visible')) return;
+                    const next = !railPanel.classList.contains('is-open');
+                    setMobilePanelOpen(next);
+                });
+
+                document.addEventListener('click', (event) => {
+                    if (!mobileMq.matches || !railPanel.classList.contains('is-open')) return;
+                    if (railPanel.contains(event.target) || railToggle.contains(event.target)) return;
+                    closeMobilePanel();
+                });
+            }
+
+            window.addEventListener('scroll', () => {
+                updateProgress();
+                updateActiveByScroll();
+                updateMobileRailUi();
+            }, { passive: true });
+            window.addEventListener('resize', () => {
+                computeRailBreakY();
+                updateMobileRailUi();
+            });
+
+            updateProgress();
+            updateActiveByScroll();
+            computeRailBreakY();
+            updateMobileRailUi();
+        })();
+    </script>
+</body>
+
+</html>

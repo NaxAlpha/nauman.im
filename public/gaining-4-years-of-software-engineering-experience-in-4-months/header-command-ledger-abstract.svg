@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract Command Ledger Header</title>
+  <desc id="desc">Abstract dark hero artwork representing AI orchestration and compressed engineering experience.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070d14"/>
+      <stop offset="1" stop-color="#0f1927"/>
+    </linearGradient>
+    <linearGradient id="accentA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d3a7"/>
+      <stop offset="1" stop-color="#4ea1ff"/>
+    </linearGradient>
+    <linearGradient id="accentB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#46f1c7"/>
+      <stop offset="1" stop-color="#4ea1ff"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121e2f"/>
+      <stop offset="1" stop-color="#0b1523"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#00d3a7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00d3a7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#4ea1ff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#4ea1ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#2b3c56" stroke-width="1" opacity="0.24"/>
+    </pattern>
+    <filter id="blur24" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="blur10" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+
+  <!-- soft atmospheric blobs -->
+  <circle cx="860" cy="470" r="300" fill="#00d3a7" opacity="0.08" filter="url(#blur24)"/>
+  <circle cx="980" cy="430" r="260" fill="#4ea1ff" opacity="0.08" filter="url(#blur24)"/>
+  <circle cx="520" cy="300" r="200" fill="#1b3350" opacity="0.32" filter="url(#blur24)"/>
+
+  <!-- left ledger spine (abstract) -->
+  <rect x="70" y="70" width="220" height="760" rx="24" fill="url(#panel)" stroke="#304561" stroke-width="2"/>
+  <line x1="180" y1="140" x2="180" y2="760" stroke="#385272" stroke-width="3"/>
+  <circle cx="180" cy="180" r="12" fill="#00d3a7"/>
+  <circle cx="180" cy="300" r="12" fill="#4ea1ff"/>
+  <circle cx="180" cy="420" r="12" fill="#00d3a7"/>
+  <circle cx="180" cy="540" r="12" fill="#f5b84e"/>
+  <circle cx="180" cy="660" r="12" fill="#ff7e79"/>
+  <circle cx="180" cy="180" r="32" fill="url(#glowCyan)"/>
+  <circle cx="180" cy="300" r="32" fill="url(#glowBlue)"/>
+  <circle cx="180" cy="420" r="32" fill="url(#glowCyan)"/>
+  <circle cx="180" cy="540" r="32" fill="#f5b84e" opacity="0.18"/>
+  <circle cx="180" cy="660" r="32" fill="#ff7e79" opacity="0.16"/>
+  <rect x="100" y="720" width="160" height="74" rx="12" fill="#0f1a2b" stroke="#314865"/>
+  <rect x="118" y="742" width="124" height="8" rx="4" fill="#2a3d57"/>
+  <rect x="118" y="760" width="98" height="8" rx="4" fill="#2a3d57"/>
+
+  <!-- main compression bridge -->
+  <path d="M560 430 C710 350, 890 350, 1120 440 L1120 500 C900 560, 710 560, 560 480 Z"
+        fill="url(#accentA)" opacity="0.18"/>
+  <path d="M560 450 C710 390, 890 390, 1120 460" fill="none" stroke="url(#accentA)" stroke-width="4" opacity="0.5"/>
+  <path d="M560 470 C710 530, 890 530, 1120 480" fill="none" stroke="url(#accentA)" stroke-width="4" opacity="0.5"/>
+
+  <!-- large origin rings -->
+  <circle cx="620" cy="455" r="182" fill="#111e2d" stroke="#334b69" stroke-width="3"/>
+  <circle cx="620" cy="455" r="148" fill="none" stroke="#3a5677" stroke-width="14"/>
+  <circle cx="620" cy="455" r="148" fill="none" stroke="#00d3a7" stroke-width="14" stroke-dasharray="560 368"/>
+  <circle cx="620" cy="455" r="112" fill="none" stroke="#2d4665" stroke-width="10"/>
+  <circle cx="620" cy="455" r="74" fill="none" stroke="#3b5b7e" stroke-width="8"/>
+  <circle cx="620" cy="455" r="48" fill="url(#glowCyan)"/>
+
+  <!-- compressed destination rings -->
+  <circle cx="1040" cy="455" r="120" fill="#111e2d" stroke="#334b69" stroke-width="3"/>
+  <circle cx="1040" cy="455" r="96" fill="none" stroke="#3a5677" stroke-width="12"/>
+  <circle cx="1040" cy="455" r="96" fill="none" stroke="#4ea1ff" stroke-width="12" stroke-dasharray="155 448"/>
+  <circle cx="1040" cy="455" r="66" fill="none" stroke="#2f496a" stroke-width="8"/>
+  <circle cx="1040" cy="455" r="42" fill="url(#glowBlue)"/>
+
+  <!-- directional arrow form -->
+  <path d="M800 455 H910" stroke="url(#accentA)" stroke-width="22" stroke-linecap="round"/>
+  <polygon points="910,432 958,455 910,478" fill="#4ea1ff"/>
+
+  <!-- particle stream -->
+  <circle cx="700" cy="430" r="6" fill="#46f1c7"/>
+  <circle cx="740" cy="418" r="4" fill="#46f1c7"/>
+  <circle cx="775" cy="438" r="5" fill="#4ea1ff"/>
+  <circle cx="815" cy="420" r="4" fill="#46f1c7"/>
+  <circle cx="850" cy="438" r="5" fill="#4ea1ff"/>
+  <circle cx="885" cy="426" r="4" fill="#46f1c7"/>
+  <circle cx="920" cy="440" r="5" fill="#4ea1ff"/>
+  <circle cx="955" cy="450" r="4" fill="#46f1c7"/>
+  <circle cx="990" cy="458" r="5" fill="#4ea1ff"/>
+  <circle cx="702" cy="486" r="5" fill="#46f1c7" opacity="0.85"/>
+  <circle cx="742" cy="498" r="4" fill="#4ea1ff" opacity="0.85"/>
+  <circle cx="780" cy="476" r="5" fill="#46f1c7" opacity="0.85"/>
+  <circle cx="822" cy="492" r="4" fill="#4ea1ff" opacity="0.85"/>
+  <circle cx="860" cy="476" r="5" fill="#46f1c7" opacity="0.85"/>
+  <circle cx="900" cy="490" r="4" fill="#4ea1ff" opacity="0.85"/>
+  <circle cx="936" cy="474" r="5" fill="#46f1c7" opacity="0.85"/>
+  <circle cx="974" cy="466" r="4" fill="#4ea1ff" opacity="0.85"/>
+
+  <!-- top-right abstract orchestration cluster -->
+  <rect x="1200" y="90" width="320" height="240" rx="20" fill="#0f1a2a" stroke="#304764" stroke-width="2"/>
+  <rect x="1232" y="124" width="84" height="66" rx="12" fill="#132235" stroke="#365375"/>
+  <rect x="1328" y="124" width="84" height="66" rx="12" fill="#132235" stroke="#365375"/>
+  <rect x="1424" y="124" width="64" height="66" rx="12" fill="#132235" stroke="#365375"/>
+  <circle cx="1248" cy="142" r="6" fill="#00d3a7"/>
+  <circle cx="1344" cy="142" r="6" fill="#4ea1ff"/>
+  <circle cx="1440" cy="142" r="6" fill="#f5b84e"/>
+  <rect x="1232" y="212" width="256" height="82" rx="14" fill="#132235" stroke="#365375"/>
+  <rect x="1252" y="238" width="216" height="9" rx="4.5" fill="#273a52"/>
+  <rect x="1252" y="238" width="164" height="9" rx="4.5" fill="url(#accentA)"/>
+  <rect x="1252" y="258" width="128" height="8" rx="4" fill="#273a52"/>
+
+  <!-- bottom abstract ticket lanes -->
+  <rect x="420" y="650" width="820" height="190" rx="20" fill="#0f1a2a" stroke="#314866" stroke-width="2"/>
+  <rect x="452" y="690" width="756" height="36" rx="18" fill="#142437" stroke="#355072"/>
+  <rect x="452" y="736" width="756" height="36" rx="18" fill="#142437" stroke="#355072"/>
+  <rect x="452" y="782" width="756" height="36" rx="18" fill="#142437" stroke="#355072"/>
+  <circle cx="478" cy="708" r="7" fill="#00d3a7"/>
+  <circle cx="478" cy="754" r="7" fill="#f5b84e"/>
+  <circle cx="478" cy="800" r="7" fill="#ff7e79"/>
+  <rect x="520" y="703" width="388" height="9" rx="4.5" fill="#2a3d57"/>
+  <rect x="520" y="749" width="294" height="9" rx="4.5" fill="#2a3d57"/>
+  <rect x="520" y="795" width="336" height="9" rx="4.5" fill="#2a3d57"/>
+  <rect x="1078" y="703" width="108" height="10" rx="5" fill="#24354b"/>
+  <rect x="1078" y="703" width="76" height="10" rx="5" fill="#00d3a7"/>
+  <rect x="1078" y="749" width="108" height="10" rx="5" fill="#24354b"/>
+  <rect x="1078" y="749" width="54" height="10" rx="5" fill="#f5b84e"/>
+  <rect x="1078" y="795" width="108" height="10" rx="5" fill="#24354b"/>
+  <rect x="1078" y="795" width="40" height="10" rx="5" fill="#ff7e79"/>
+
+  <!-- subtle sparkle accents -->
+  <circle cx="1160" cy="420" r="2.5" fill="#46f1c7"/>
+  <circle cx="1120" cy="520" r="2" fill="#4ea1ff"/>
+  <circle cx="760" cy="350" r="2.5" fill="#46f1c7"/>
+  <circle cx="920" cy="330" r="2" fill="#4ea1ff"/>
+  <circle cx="688" cy="578" r="2.5" fill="#46f1c7"/>
+  <circle cx="954" cy="584" r="2" fill="#4ea1ff"/>
+</svg>
