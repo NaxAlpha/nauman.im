@@ -5,7 +5,8 @@
 	"scripts": {
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
-		"start": "wrangler dev"
+		"start": "wrangler dev",
+		"seo:optimize": "node scripts/seo-optimize.mjs"
 	},
 	"devDependencies": {
 		"wrangler": "^4.20.5"
