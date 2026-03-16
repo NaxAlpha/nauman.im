@@ -236,7 +236,10 @@ function detectPublishedDate(html, route) {
 }
 
 async function detectModifiedDate(file, sourceFile, publishedDate) {
-  const candidates = Array.from(new Set([sourceFile, file].filter(Boolean)));
+  const prefersSourceFile = sourceFile && sourceFile !== file;
+  const candidates = prefersSourceFile
+    ? [sourceFile]
+    : Array.from(new Set([sourceFile, file].filter(Boolean)));
 
   for (const candidate of candidates) {
     if (await hasWorkingTreeChanges(candidate)) {
