@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Getting the Most Out of Pre-trained Models - Nauman Mustafa</title>
+                            <title>Getting the Most Out of Pre-trained Models - Nauman Mustafa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -13,12 +13,14 @@
     <!-- SEO Metadata -->
     <meta name="description" content="How to use pre-trained NLP models effectively for text generation and question answering, with practical examples and tradeoffs.">
     <meta name="author" content="Nauman Mustafa">
-    <meta name="keywords" content="getting, pre, trained, models, nauman mustafa, ai, machine learning, software engineering, technical blog">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="theme-color" content="#0f172a">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/photo.png">
     <link rel="canonical" href="https://nauman.im/prompt-engineering-2020/">
+    <link rel="stylesheet" href="/lib/seo.css">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <link rel="alternate" type="application/rss+xml" title="Nauman Mustafa RSS Feed" href="/rss.xml">
     <meta property="og:type" content="article">
@@ -31,7 +33,7 @@
     <meta property="og:image:alt" content="Getting the Most Out of Pre-trained Models">
     <meta property="article:author" content="Nauman Mustafa">
     <meta property="article:published_time" content="2020-04-09T00:00:00Z">
-    <meta property="article:modified_time" content="2026-02-21T00:00:00Z">
+    <meta property="article:modified_time" content="2026-03-16T00:00:00Z">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@super_nauman">
     <meta name="twitter:creator" content="@super_nauman">
@@ -41,35 +43,71 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "Getting the Most Out of Pre-trained Models",
-      "description": "How to use pre-trained NLP models effectively for text generation and question answering, with practical examples and tradeoffs.",
-      "image": [
-        "https://nauman.im/prompt-engineering-2020/atten.png"
-      ],
-      "author": {
-        "@type": "Person",
-        "@id": "https://nauman.im/#person",
-        "name": "Nauman Mustafa",
-        "url": "https://nauman.im/",
-        "image": "https://nauman.im/photo.png"
-      },
-      "publisher": {
-        "@type": "Person",
-        "@id": "https://nauman.im/#person",
-        "name": "Nauman Mustafa",
-        "url": "https://nauman.im/",
-        "image": "https://nauman.im/photo.png"
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://nauman.im/prompt-engineering-2020/"
-      },
-      "url": "https://nauman.im/prompt-engineering-2020/",
-      "datePublished": "2020-04-09",
-      "dateModified": "2026-02-21",
-      "inLanguage": "en-US",
-      "keywords": "getting, pre, trained, models, nauman mustafa, ai, machine learning, software engineering, technical blog"
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Getting the Most Out of Pre-trained Models",
+          "description": "How to use pre-trained NLP models effectively for text generation and question answering, with practical examples and tradeoffs.",
+          "image": [
+            "https://nauman.im/prompt-engineering-2020/atten.png"
+          ],
+          "author": {
+            "@type": "Person",
+            "@id": "https://nauman.im/#person",
+            "name": "Nauman Mustafa",
+            "url": "https://nauman.im/",
+            "image": "https://nauman.im/photo.png",
+            "sameAs": [
+              "https://www.linkedin.com/in/naxalpha/",
+              "https://github.com/NaxAlpha"
+            ],
+            "jobTitle": "AI Systems Engineer"
+          },
+          "publisher": {
+            "@type": "Person",
+            "@id": "https://nauman.im/#person",
+            "name": "Nauman Mustafa",
+            "url": "https://nauman.im/",
+            "image": "https://nauman.im/photo.png",
+            "sameAs": [
+              "https://www.linkedin.com/in/naxalpha/",
+              "https://github.com/NaxAlpha"
+            ],
+            "jobTitle": "AI Systems Engineer"
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://nauman.im/prompt-engineering-2020/"
+          },
+          "url": "https://nauman.im/prompt-engineering-2020/",
+          "datePublished": "2020-04-09",
+          "dateModified": "2026-03-16",
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://nauman.im/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Writing",
+              "item": "https://nauman.im/writing/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Getting the Most Out of Pre-trained Models",
+              "item": "https://nauman.im/prompt-engineering-2020/"
+            }
+          ]
+        }
+      ]
     }
     </script>
 </head>
@@ -153,7 +191,7 @@
                         The Transformer Architecture
                     </h3>
                     <div class="transformer-content">
-                        <img src="./atten.png" alt="Transformer Architecture" class="transformer-image">
+                        <img height="908" width="756" fetchpriority="high" decoding="async" src="./atten.png" alt="Transformer Architecture" class="transformer-image">
                         <div class="transformer-description">
                             <p>The Transformer architecture as presented in Google's 2017 paper, <strong>"Attention Is All You Need."</strong></p>
                             <p>This revolutionary architecture became the foundation for models like BERT, GPT-2, and T5, enabling unprecedented capabilities in natural language understanding and generation.</p>
@@ -472,7 +510,21 @@
                 <i class="fas fa-arrow-left"></i>
                 <span>Back to Home</span>
             </a>
-        </main>
+<!-- SITE-RELATED-START -->
+<section class="site-related-links" aria-labelledby="site-related-heading">
+  <div class="site-related-inner">
+    <p class="site-related-kicker">Explore more</p>
+    <h2 id="site-related-heading">More writing on AI systems and shipping software</h2>
+    <ul class="site-related-list">
+      <li><a href="/apply-modern-deep-learning-2021/">Applying Modern Deep Learning in Autify</a><span>A practical guide to applying modern deep learning and pre-trained NLP models in production software and product workflows.</span></li>
+      <li><a href="/ai-advancements-2019/">Recent AI Advancements in 2019</a><span>A 2019 snapshot of major AI breakthroughs across text, image, audio, and video generation, with practical startup use cases.</span></li>
+      <li><a href="/gan-for-icons/">GANs for Icon Generation</a><span>Using GANs to generate unique icon designs, with model behavior examples and creative applications for design workflows.</span></li>
+    </ul>
+    <p class="site-related-archive"><a href="/writing/">Browse the full writing archive</a></p>
+  </div>
+</section>
+<!-- SITE-RELATED-END -->
+</main>
         
         <footer class="footer">
             <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>

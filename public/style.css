@@ -748,6 +748,13 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.home-section-lead {
+    font-size: 0.95rem;
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+
 .home-section-title {
     font-size: 1.2rem;
     font-weight: 600;
@@ -774,6 +781,12 @@ a:hover {
     font-size: 0.95rem;
     color: var(--text-color);
     opacity: 0.9;
+}
+
+.topic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
 }
 
 .home-list {
@@ -805,10 +818,16 @@ a:hover {
     font-size: 0.85rem;
 }
 
+.home-archive-link {
+    margin-top: 14px;
+    font-size: 0.92rem;
+}
+
 /* Resume top nav */
 .resume-top-nav {
     display: flex;
     justify-content: flex-end;
+    gap: 16px;
     padding: 16px 0 0;
 }
 

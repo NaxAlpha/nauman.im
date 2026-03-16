@@ -1,28 +1,54 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { execFile as execFileCallback } from 'node:child_process';
+import { promisify } from 'node:util';
+
+const execFile = promisify(execFileCallback);
 
 const SITE_URL = 'https://nauman.im';
 const SITE_NAME = 'Nauman Mustafa';
 const AUTHOR_NAME = 'Nauman Mustafa';
 const AUTHOR_TWITTER = '@super_nauman';
-const PUBLIC_DIR = path.resolve(process.cwd(), 'public');
+const PERSON_JOB_TITLE = 'AI Systems Engineer';
+const PERSON_SAME_AS = [
+  'https://www.linkedin.com/in/naxalpha/',
+  'https://github.com/NaxAlpha',
+];
+const ROOT_DIR = process.cwd();
+const PUBLIC_DIR = path.resolve(ROOT_DIR, 'public');
+const CONTENT_DIR = path.resolve(ROOT_DIR, 'content');
+const SITE_ICON_PATH = '/favicon.svg';
+const APPLE_TOUCH_ICON_PATH = '/photo.png';
 const TODAY = new Date().toISOString().slice(0, 10);
+const gitDateCache = new Map();
+const gitDirtyCache = new Map();
+const imageDimensionCache = new Map();
 
 const NOINDEX_ROUTES = new Set([
   '/403.html',
   '/404.html',
   '/500.html',
   '/maintenance.html',
+  '/resume.html',
 ]);
 
 const TITLE_OVERRIDES = {
   '/': 'Nauman Mustafa | AI Systems Engineer and ML Builder',
-  '/resume.html': 'Nauman Mustafa Resume | AI Systems Engineer',
+  '/resume/': 'Nauman Mustafa Resume | AI Systems Engineer',
+  '/writing/': 'Writing | Nauman Mustafa on AI Systems and LLMs',
+  '/ai-advancements-2019/': 'Recent AI Advancements in 2019 | Nauman Mustafa',
+  '/ai-chronicles-2026/': 'From Vibe Coding to Compound Engineering | Nauman Mustafa',
+  '/deploy-ml-on-cloud-run/': 'Deploy ML Models on Google Cloud Run | Nauman Mustafa',
+  '/gaining-4-years-of-software-engineering-experience-in-4-months/': '4 Years of Engineering Experience in 4 Months | Nauman Mustafa',
+  '/gan-for-icons/': 'GANs for Icon Generation | Nauman Mustafa',
+  '/lessons-learned-vibe-coding-ios-app/': 'Lessons From Vibe Coding an iOS App | Nauman Mustafa',
 };
 
 const DESCRIPTION_OVERRIDES = {
   '/': 'Portfolio and technical writing by Nauman Mustafa on AI systems, machine learning engineering, LLM applications, and production-ready software.',
-  '/resume.html': 'Resume of Nauman Mustafa, an AI systems and machine learning engineer with experience in OCR, NLP, computer vision, and LLM-based products.',
+  '/resume/': 'Resume of Nauman Mustafa, an AI systems and machine learning engineer with experience in OCR, NLP, computer vision, and LLM-based products.',
+  '/resume.html': 'Redirecting to the canonical resume URL for Nauman Mustafa.',
+  '/writing/': 'Browse Nauman Mustafa’s essays and tutorials on AI systems, OCR, LLM engineering, mobile automation, and product delivery.',
   '/403.html': 'Access to this page is forbidden.',
   '/404.html': 'The requested page could not be found.',
   '/500.html': 'An unexpected server error occurred while loading this page.',
@@ -50,38 +76,31 @@ const DATE_OVERRIDES = {
   '/toy-app-navigation/': '2021-07-25',
   '/autify-ocr/': '2023-09-06',
   '/token-compression/': '2023-08-11',
+  '/social/linkedin-gpt-4-rumers/': '2023-01-15',
   '/ai-chronicles-2026/': '2026-01-01',
   '/gaining-4-years-of-software-engineering-experience-in-4-months/': '2026-02-21',
 };
 
 const IMAGE_OVERRIDES = {
   '/': '/photo.png',
-  '/resume.html': '/photo.png',
+  '/resume/': '/photo.png',
   '/ai-chronicles-2026/': '/ai-chronicles-2026/vibe-coding-og.png',
   '/gaining-4-years-of-software-engineering-experience-in-4-months/': '/gaining-4-years-of-software-engineering-experience-in-4-months/header-command-ledger-abstract.svg',
 };
-
-const RESUME_KEYWORDS = [
-  'Nauman Mustafa resume',
-  'machine learning engineer',
-  'AI systems engineer',
-  'LLM engineer',
-  'NLP',
-  'computer vision',
-  'OCR',
-  'software engineering',
-];
-
-const HOME_KEYWORDS = [
-  'Nauman Mustafa',
-  'AI systems',
-  'machine learning engineer',
-  'LLM applications',
-  'NLP',
-  'computer vision',
-  'OCR',
-  'technical blog',
-];
+const CANONICAL_OVERRIDES = {
+  '/resume.html': `${SITE_URL}/resume/`,
+};
+const ROUTE_SOURCE_OVERRIDES = {
+  '/': path.join(PUBLIC_DIR, 'index.html'),
+  '/resume/': path.join(PUBLIC_DIR, 'resume', 'index.html'),
+  '/resume.html': path.join(PUBLIC_DIR, 'resume.html'),
+  '/writing/': path.join(PUBLIC_DIR, 'writing', 'index.html'),
+  '/apply-modern-deep-learning-2021/': path.join(CONTENT_DIR, 'blogs', 'modern-deep-learning-2021.md'),
+  '/social/linkedin-gpt-4-rumers/': path.join(CONTENT_DIR, 'social', 'linkedin-gpt-4-rumers.md'),
+};
+const PAGE_KIND_OVERRIDES = {
+  '/writing/': 'writing',
+};
 
 async function main() {
   const htmlFiles = (await walk(PUBLIC_DIR)).filter((file) => file.endsWith('.html')).sort();
@@ -92,6 +111,7 @@ async function main() {
     const route = routeFromFile(file);
     const kind = pageKind(route);
     const indexable = !NOINDEX_ROUTES.has(route);
+    const sourceFile = await resolveSourceFile(route, file);
 
     const existingTitle = getTitle(originalHtml);
     const finalTitle = TITLE_OVERRIDES[route] || existingTitle || fallbackTitle(route);
@@ -99,21 +119,21 @@ async function main() {
 
     const firstParagraph = extractFirstParagraph(originalHtml);
     const description = DESCRIPTION_OVERRIDES[route] || buildDescription(finalTitle, firstParagraph, kind);
-    const keywords = buildKeywords(route, finalTitle, kind);
-    const canonical = new URL(route, `${SITE_URL}/`).toString();
+    const canonical = CANONICAL_OVERRIDES[route] || new URL(route, `${SITE_URL}/`).toString();
     const ogImage = resolveAbsoluteUrl(selectImage(originalHtml, route), route);
     const publishedDate = detectPublishedDate(originalHtml, route);
-    const dateModified = TODAY;
+    const dateModified = await detectModifiedDate(file, sourceFile, publishedDate);
 
     const metadata = {
       route,
       file,
+      sourceFile,
+      originalHtml,
       kind,
       indexable,
       title: finalTitle,
       ogTitle,
       description,
-      keywords,
       canonical,
       ogImage,
       publishedDate,
@@ -124,9 +144,13 @@ async function main() {
       ogType: kind === 'article' ? 'article' : 'website',
     };
 
-    const optimizedHtml = injectSeo(originalHtml, metadata);
-    await fs.writeFile(file, optimizedHtml, 'utf8');
     pages.push(metadata);
+  }
+
+  for (const page of pages) {
+    const optimizedMarkup = await optimizePageMarkup(page.originalHtml, page, pages);
+    const optimizedHtml = injectSeo(optimizedMarkup, page, pages);
+    await fs.writeFile(page.file, optimizedHtml, 'utf8');
   }
 
   await fs.writeFile(path.join(PUBLIC_DIR, 'sitemap.xml'), buildSitemap(pages), 'utf8');
@@ -137,8 +161,9 @@ async function main() {
 }
 
 function pageKind(route) {
+  if (PAGE_KIND_OVERRIDES[route]) return PAGE_KIND_OVERRIDES[route];
   if (route === '/') return 'home';
-  if (route === '/resume.html') return 'resume';
+  if (route === '/resume/') return 'resume';
   if (NOINDEX_ROUTES.has(route)) return 'utility';
   if (route.startsWith('/social/')) return 'article';
   if (!route.endsWith('.html')) return 'article';
@@ -163,37 +188,12 @@ function buildDescription(title, firstParagraph, kind) {
     return DESCRIPTION_OVERRIDES['/'];
   }
   if (kind === 'resume') {
-    return DESCRIPTION_OVERRIDES['/resume.html'];
+    return DESCRIPTION_OVERRIDES['/resume/'];
+  }
+  if (kind === 'writing') {
+    return DESCRIPTION_OVERRIDES['/writing/'];
   }
   return truncate(`Explore ${toOgTitle(title)} by ${AUTHOR_NAME}.`, 156);
-}
-
-function buildKeywords(route, title, kind) {
-  if (route === '/') return HOME_KEYWORDS.join(', ');
-  if (route === '/resume.html') return RESUME_KEYWORDS.join(', ');
-  if (NOINDEX_ROUTES.has(route)) return 'nauman.im';
-
-  const stopWords = new Set([
-    'the', 'and', 'for', 'with', 'from', 'into', 'this', 'that', 'your', 'you', 'are', 'how', 'use', 'case', 'part', 'very', 'more', 'most', 'over', 'than', 'does', 'not', 'but', 'out', 'all', 'run',
-  ]);
-
-  const tokens = normalizeSpace(toOgTitle(title))
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, ' ')
-    .split(/\s+/)
-    .filter((token) => token.length > 2 && !stopWords.has(token));
-
-  const set = new Set(tokens.slice(0, 7));
-  set.add('nauman mustafa');
-  set.add('ai');
-  set.add('machine learning');
-  set.add('software engineering');
-
-  if (kind === 'article') {
-    set.add('technical blog');
-  }
-
-  return Array.from(set).slice(0, 12).join(', ');
 }
 
 function selectImage(html, route) {
@@ -235,6 +235,25 @@ function detectPublishedDate(html, route) {
   return TODAY;
 }
 
+async function detectModifiedDate(file, sourceFile, publishedDate) {
+  const candidates = Array.from(new Set([sourceFile, file].filter(Boolean)));
+
+  for (const candidate of candidates) {
+    if (await hasWorkingTreeChanges(candidate)) {
+      const stat = await fs.stat(candidate);
+      return toIsoDate(stat.mtime);
+    }
+  }
+
+  const gitDates = await Promise.all(candidates.map((candidate) => getGitLastModified(candidate)));
+  const validGitDates = gitDates.filter(Boolean).sort();
+  if (validGitDates.length > 0) {
+    return validGitDates.at(-1);
+  }
+
+  return publishedDate;
+}
+
 function monthNameToNumber(month) {
   const key = month.toLowerCase();
   const map = {
@@ -271,7 +290,7 @@ function isIsoDate(value) {
   return Number.isFinite(timestamp);
 }
 
-function injectSeo(html, page) {
+function injectSeo(html, page, pages) {
   const headRegex = /<head>([\s\S]*?)<\/head>/i;
   const match = html.match(headRegex);
   if (!match) return html;
@@ -286,7 +305,7 @@ function injectSeo(html, page) {
     headInner = `\n    <title>${escapeHtml(page.title)}</title>\n${headInner}`;
   }
 
-  const seoBlock = buildSeoBlock(page);
+  const seoBlock = buildSeoBlock(page, pages);
   const normalizedHead = `${headInner.replace(/^\s*\n/, '').trimEnd()}\n\n${seoBlock}\n`;
   const updatedHead = `<head>\n${normalizedHead}</head>`;
 
@@ -308,6 +327,8 @@ function removeManagedSeo(headInner) {
     /<link\b[^>]*\brel=["']canonical["'][^>]*>\s*/gi,
     /<link\b[^>]*\brel=["']sitemap["'][^>]*>\s*/gi,
     /<link\b[^>]*\brel=["']alternate["'][^>]*\btype=["']application\/rss\+xml["'][^>]*>\s*/gi,
+    /<link\b[^>]*\brel=["'](?:icon|shortcut icon|apple-touch-icon)["'][^>]*>\s*/gi,
+    /<link\b[^>]*\bhref=["']\/lib\/seo\.css["'][^>]*>\s*/gi,
     /<script\b[^>]*\btype=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>\s*/gi,
   ];
 
@@ -319,17 +340,19 @@ function removeManagedSeo(headInner) {
   return output;
 }
 
-function buildSeoBlock(page) {
+function buildSeoBlock(page, pages) {
   const lines = [
     '    <!-- SEO Metadata -->',
     `    <meta name="description" content="${escapeAttr(page.description)}">`,
     `    <meta name="author" content="${escapeAttr(AUTHOR_NAME)}">`,
-    `    <meta name="keywords" content="${escapeAttr(page.keywords)}">`,
     `    <meta name="robots" content="${escapeAttr(page.robots)}">`,
     `    <meta name="googlebot" content="${escapeAttr(page.robots)}">`,
     '    <meta name="referrer" content="strict-origin-when-cross-origin">',
     '    <meta name="theme-color" content="#0f172a">',
+    `    <link rel="icon" type="image/svg+xml" href="${SITE_ICON_PATH}">`,
+    `    <link rel="apple-touch-icon" href="${APPLE_TOUCH_ICON_PATH}">`,
     `    <link rel="canonical" href="${escapeAttr(page.canonical)}">`,
+    '    <link rel="stylesheet" href="/lib/seo.css">',
     '    <link rel="sitemap" type="application/xml" href="/sitemap.xml">',
   ];
 
@@ -359,7 +382,7 @@ function buildSeoBlock(page) {
   lines.push(`    <meta name="twitter:description" content="${escapeAttr(page.description)}">`);
   lines.push(`    <meta name="twitter:image" content="${escapeAttr(page.ogImage)}">`);
 
-  const jsonLd = buildJsonLd(page);
+  const jsonLd = buildJsonLd(page, pages);
   if (jsonLd) {
     lines.push('    <script type="application/ld+json">');
     lines.push(indentJson(jsonLd, 4));
@@ -369,13 +392,15 @@ function buildSeoBlock(page) {
   return lines.join('\n');
 }
 
-function buildJsonLd(page) {
+function buildJsonLd(page, pages) {
   const personEntity = {
     '@type': 'Person',
     '@id': `${SITE_URL}/#person`,
     name: AUTHOR_NAME,
     url: `${SITE_URL}/`,
     image: `${SITE_URL}/photo.png`,
+    sameAs: PERSON_SAME_AS,
+    jobTitle: PERSON_JOB_TITLE,
   };
 
   if (page.kind === 'home') {
@@ -400,20 +425,54 @@ function buildJsonLd(page) {
   if (page.kind === 'resume') {
     return {
       '@context': 'https://schema.org',
-      '@type': 'ProfilePage',
-      url: page.canonical,
-      name: page.ogTitle,
-      description: page.description,
-      mainEntity: {
-        ...personEntity,
-        knowsAbout: ['Machine Learning', 'AI Systems', 'NLP', 'Computer Vision', 'LLM Engineering'],
-      },
+      '@graph': [
+        {
+          '@type': 'ProfilePage',
+          url: page.canonical,
+          name: page.ogTitle,
+          description: page.description,
+          mainEntity: {
+            ...personEntity,
+            knowsAbout: ['Machine Learning', 'AI Systems', 'NLP', 'Computer Vision', 'LLM Engineering'],
+          },
+        },
+        buildBreadcrumbList(page),
+      ],
+    };
+  }
+
+  if (page.kind === 'writing') {
+    const listItems = pages
+      .filter((entry) => entry.kind === 'article' && entry.indexable)
+      .sort((a, b) => b.publishedDate.localeCompare(a.publishedDate))
+      .map((entry, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: entry.canonical,
+        name: entry.ogTitle,
+      }));
+
+    return {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'CollectionPage',
+          url: page.canonical,
+          name: page.ogTitle,
+          description: page.description,
+          inLanguage: 'en-US',
+        },
+        {
+          '@type': 'ItemList',
+          itemListElement: listItems,
+        },
+        buildBreadcrumbList(page),
+      ],
     };
   }
 
   if (page.kind === 'article') {
-    return {
-      '@context': 'https://schema.org',
+    const articleEntity = {
       '@type': 'BlogPosting',
       headline: page.ogTitle,
       description: page.description,
@@ -428,18 +487,37 @@ function buildJsonLd(page) {
       datePublished: page.publishedDate,
       dateModified: page.dateModified,
       inLanguage: 'en-US',
-      keywords: page.keywords,
+    };
+
+    return {
+      '@context': 'https://schema.org',
+      '@graph': [articleEntity, buildBreadcrumbList(page)],
     };
   }
 
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'WebPage',
-    name: page.ogTitle,
-    description: page.description,
-    url: page.canonical,
-    inLanguage: 'en-US',
-  };
+  const breadcrumb = buildBreadcrumbList(page);
+  return breadcrumb
+    ? {
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'WebPage',
+            name: page.ogTitle,
+            description: page.description,
+            url: page.canonical,
+            inLanguage: 'en-US',
+          },
+          breadcrumb,
+        ],
+      }
+    : {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: page.ogTitle,
+        description: page.description,
+        url: page.canonical,
+        inLanguage: 'en-US',
+      };
 }
 
 function buildSitemap(pages) {
@@ -450,8 +528,8 @@ function buildSitemap(pages) {
   const urls = indexablePages
     .map((page) => {
       const priority =
-        page.route === '/' ? '1.0' : page.route === '/resume.html' ? '0.8' : page.kind === 'article' ? '0.7' : '0.6';
-      const changefreq = page.route === '/' ? 'weekly' : 'monthly';
+        page.route === '/' ? '1.0' : page.route === '/resume/' ? '0.8' : page.kind === 'article' ? '0.7' : '0.6';
+      const changefreq = page.route === '/' ? 'weekly' : page.kind === 'article' ? 'monthly' : 'weekly';
 
       return `  <url>\n    <loc>${escapeXml(page.canonical)}</loc>\n    <lastmod>${page.dateModified}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
     })
@@ -464,13 +542,8 @@ function buildRobotsTxt() {
   return [
     'User-agent: *',
     'Allow: /',
-    'Disallow: /403.html',
-    'Disallow: /404.html',
-    'Disallow: /500.html',
-    'Disallow: /maintenance.html',
     '',
     `Sitemap: ${SITE_URL}/sitemap.xml`,
-    `Host: ${SITE_URL.replace(/^https?:\/\//, '')}`,
     '',
   ].join('\n');
 }
@@ -550,6 +623,472 @@ function routeFromFile(file) {
   return `/${relativePath}`;
 }
 
+async function resolveSourceFile(route, htmlFile) {
+  const override = ROUTE_SOURCE_OVERRIDES[route];
+  if (override && (await fileExists(override))) {
+    return override;
+  }
+
+  if (route.startsWith('/social/')) {
+    const socialCandidate = path.join(CONTENT_DIR, 'social', `${route.split('/').filter(Boolean).at(-1)}.md`);
+    if (await fileExists(socialCandidate)) {
+      return socialCandidate;
+    }
+  }
+
+  if (route.endsWith('/') && route !== '/' && !route.startsWith('/resume/')) {
+    const slug = route.split('/').filter(Boolean).at(-1);
+    const blogCandidate = path.join(CONTENT_DIR, 'blogs', `${slug}.md`);
+    if (await fileExists(blogCandidate)) {
+      return blogCandidate;
+    }
+  }
+
+  return htmlFile;
+}
+
+async function optimizePageMarkup(html, page, pages) {
+  let output = stripManagedRelatedLinks(html);
+  output = await optimizeImages(output, page.file, page.route);
+
+  if (page.kind === 'article') {
+    output = injectRelatedLinks(output, page, pages);
+  }
+
+  return output;
+}
+
+function stripManagedRelatedLinks(html) {
+  return html.replace(/\s*<!-- SITE-RELATED-START -->[\s\S]*?<!-- SITE-RELATED-END -->\s*/g, '\n');
+}
+
+function injectRelatedLinks(html, page, pages) {
+  const relatedPages = selectRelatedPages(page, pages);
+  if (relatedPages.length === 0) {
+    return html;
+  }
+
+  const links = relatedPages
+    .map(
+      (relatedPage) =>
+        `      <li><a href="${escapeAttr(relatedPage.route)}">${escapeHtml(relatedPage.ogTitle)}</a><span>${escapeHtml(relatedPage.description)}</span></li>`,
+    )
+    .join('\n');
+
+  const block = [
+    '<!-- SITE-RELATED-START -->',
+    '<section class="site-related-links" aria-labelledby="site-related-heading">',
+    '  <div class="site-related-inner">',
+    '    <p class="site-related-kicker">Explore more</p>',
+    '    <h2 id="site-related-heading">More writing on AI systems and shipping software</h2>',
+    '    <ul class="site-related-list">',
+    links,
+    '    </ul>',
+    '    <p class="site-related-archive"><a href="/writing/">Browse the full writing archive</a></p>',
+    '  </div>',
+    '</section>',
+    '<!-- SITE-RELATED-END -->',
+  ].join('\n');
+
+  if (html.includes('</main>')) {
+    return injectBeforeLastClosingTag(html, '</main>', `${block}\n`);
+  }
+
+  if (html.includes('</article>')) {
+    return injectBeforeLastClosingTag(html, '</article>', `${block}\n`);
+  }
+
+  return injectBeforeLastClosingTag(html, '</body>', `${block}\n`);
+}
+
+function injectBeforeLastClosingTag(html, closingTag, content) {
+  const index = html.lastIndexOf(closingTag);
+  if (index === -1) {
+    return html;
+  }
+
+  return `${html.slice(0, index)}${content}${html.slice(index)}`;
+}
+
+function selectRelatedPages(page, pages) {
+  const candidates = pages.filter((entry) => entry.kind === 'article' && entry.indexable && entry.route !== page.route);
+  if (candidates.length === 0) {
+    return [];
+  }
+
+  const sourceTokens = new Set(tokenizeForSimilarity(`${page.ogTitle} ${page.description} ${page.route}`));
+  const scored = candidates.map((candidate) => {
+    const candidateTokens = tokenizeForSimilarity(`${candidate.ogTitle} ${candidate.description} ${candidate.route}`);
+    const overlap = candidateTokens.filter((token) => sourceTokens.has(token)).length;
+    const yearDistance = Math.abs(Number(candidate.publishedDate.slice(0, 4)) - Number(page.publishedDate.slice(0, 4)));
+    const recencyBonus = Math.max(0, 2 - yearDistance);
+    return {
+      candidate,
+      score: overlap * 4 + recencyBonus,
+    };
+  });
+
+  scored.sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    return b.candidate.publishedDate.localeCompare(a.candidate.publishedDate);
+  });
+
+  const best = scored.filter((entry) => entry.score > 0).slice(0, 3).map((entry) => entry.candidate);
+  if (best.length > 0) {
+    return best;
+  }
+
+  return candidates
+    .sort((a, b) => b.publishedDate.localeCompare(a.publishedDate))
+    .slice(0, 3);
+}
+
+function tokenizeForSimilarity(value) {
+  const stopWords = new Set([
+    'the',
+    'and',
+    'for',
+    'with',
+    'from',
+    'into',
+    'this',
+    'that',
+    'your',
+    'you',
+    'are',
+    'how',
+    'what',
+    'when',
+    'where',
+    'why',
+    'using',
+    'used',
+    'learned',
+    'lessons',
+    'build',
+    'building',
+    'system',
+    'systems',
+    'software',
+    'engineering',
+    'nauman',
+    'mustafa',
+  ]);
+
+  return normalizeSpace(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter((token) => token.length > 2 && !stopWords.has(token));
+}
+
+async function optimizeImages(html, htmlFile, route) {
+  const imgRegex = /<img\b[^>]*>/gi;
+  let lastIndex = 0;
+  let match;
+  let imageIndex = 0;
+  let output = '';
+
+  while ((match = imgRegex.exec(html)) !== null) {
+    output += html.slice(lastIndex, match.index);
+    output += await optimizeImageTag(match[0], htmlFile, route, imageIndex);
+    lastIndex = match.index + match[0].length;
+    imageIndex += 1;
+  }
+
+  output += html.slice(lastIndex);
+  return output;
+}
+
+async function optimizeImageTag(tag, htmlFile, route, imageIndex) {
+  const srcMatch = tag.match(/\bsrc=["']([^"']+)["']/i);
+  if (!srcMatch) {
+    return tag;
+  }
+
+  let updatedTag = tag;
+  if (!/\bdecoding=/.test(updatedTag)) {
+    updatedTag = insertImgAttribute(updatedTag, 'decoding="async"');
+  }
+
+  if (imageIndex > 0 && !/\bloading=/.test(updatedTag)) {
+    updatedTag = insertImgAttribute(updatedTag, 'loading="lazy"');
+  }
+
+  if (imageIndex === 0 && !/\bfetchpriority=/.test(updatedTag)) {
+    updatedTag = insertImgAttribute(updatedTag, 'fetchpriority="high"');
+  }
+
+  const dimensions = await getImageDimensionsForTag(srcMatch[1], htmlFile, route);
+  if (dimensions) {
+    if (!/\bwidth=/.test(updatedTag)) {
+      updatedTag = insertImgAttribute(updatedTag, `width="${dimensions.width}"`);
+    }
+    if (!/\bheight=/.test(updatedTag)) {
+      updatedTag = insertImgAttribute(updatedTag, `height="${dimensions.height}"`);
+    }
+  }
+
+  return updatedTag;
+}
+
+function insertImgAttribute(tag, attribute) {
+  return tag.replace(/<img\b/i, `<img ${attribute}`);
+}
+
+async function getImageDimensionsForTag(src, htmlFile, route) {
+  const assetPath = resolveLocalAssetPath(src, htmlFile, route);
+  if (!assetPath) {
+    return null;
+  }
+
+  if (imageDimensionCache.has(assetPath)) {
+    return imageDimensionCache.get(assetPath);
+  }
+
+  const dimensions = await readImageDimensions(assetPath);
+  imageDimensionCache.set(assetPath, dimensions);
+  return dimensions;
+}
+
+function resolveLocalAssetPath(src, htmlFile) {
+  const raw = src.split('#')[0].split('?')[0].trim();
+  if (!raw || /^https?:\/\//i.test(raw) || raw.startsWith('//') || raw.startsWith('data:')) {
+    return null;
+  }
+
+  if (raw.startsWith('/')) {
+    return path.join(PUBLIC_DIR, raw);
+  }
+
+  return path.resolve(path.dirname(htmlFile), raw);
+}
+
+async function readImageDimensions(assetPath) {
+  try {
+    const extension = path.extname(assetPath).toLowerCase();
+
+    if (extension === '.svg') {
+      const svg = await fs.readFile(assetPath, 'utf8');
+      return readSvgDimensions(svg);
+    }
+
+    const buffer = await fs.readFile(assetPath);
+    if (extension === '.png') return readPngDimensions(buffer);
+    if (extension === '.gif') return readGifDimensions(buffer);
+    if (extension === '.webp') return readWebpDimensions(buffer);
+    if (extension === '.jpg' || extension === '.jpeg') return readJpegDimensions(buffer);
+  } catch {
+    return null;
+  }
+
+  return null;
+}
+
+function readSvgDimensions(svg) {
+  const width = svg.match(/\bwidth=["']([\d.]+)(?:px)?["']/i);
+  const height = svg.match(/\bheight=["']([\d.]+)(?:px)?["']/i);
+
+  if (width && height) {
+    return {
+      width: Math.round(Number(width[1])),
+      height: Math.round(Number(height[1])),
+    };
+  }
+
+  const viewBox = svg.match(/\bviewBox=["']([\d.\s-]+)["']/i);
+  if (!viewBox) return null;
+
+  const [, values] = viewBox;
+  const parts = values.trim().split(/\s+/).map(Number);
+  if (parts.length !== 4 || parts.some((value) => Number.isNaN(value))) return null;
+
+  return {
+    width: Math.round(parts[2]),
+    height: Math.round(parts[3]),
+  };
+}
+
+function readPngDimensions(buffer) {
+  if (buffer.length < 24) return null;
+  return {
+    width: buffer.readUInt32BE(16),
+    height: buffer.readUInt32BE(20),
+  };
+}
+
+function readGifDimensions(buffer) {
+  if (buffer.length < 10) return null;
+  return {
+    width: buffer.readUInt16LE(6),
+    height: buffer.readUInt16LE(8),
+  };
+}
+
+function readJpegDimensions(buffer) {
+  let offset = 2;
+  while (offset < buffer.length) {
+    if (buffer[offset] !== 0xff) {
+      offset += 1;
+      continue;
+    }
+
+    const marker = buffer[offset + 1];
+    const length = buffer.readUInt16BE(offset + 2);
+    const isStartOfFrame =
+      marker >= 0xc0 &&
+      marker <= 0xcf &&
+      ![0xc4, 0xc8, 0xcc].includes(marker);
+
+    if (isStartOfFrame) {
+      return {
+        width: buffer.readUInt16BE(offset + 7),
+        height: buffer.readUInt16BE(offset + 5),
+      };
+    }
+
+    offset += 2 + length;
+  }
+
+  return null;
+}
+
+function readWebpDimensions(buffer) {
+  if (buffer.length < 30 || buffer.toString('ascii', 0, 4) !== 'RIFF' || buffer.toString('ascii', 8, 12) !== 'WEBP') {
+    return null;
+  }
+
+  let offset = 12;
+  while (offset + 8 <= buffer.length) {
+    const chunkType = buffer.toString('ascii', offset, offset + 4);
+    const chunkSize = buffer.readUInt32LE(offset + 4);
+    const chunkData = offset + 8;
+
+    if (chunkType === 'VP8X' && chunkData + 10 <= buffer.length) {
+      return {
+        width: 1 + readUInt24LE(buffer, chunkData + 4),
+        height: 1 + readUInt24LE(buffer, chunkData + 7),
+      };
+    }
+
+    if (chunkType === 'VP8 ' && chunkData + 10 <= buffer.length) {
+      return {
+        width: buffer.readUInt16LE(chunkData + 6) & 0x3fff,
+        height: buffer.readUInt16LE(chunkData + 8) & 0x3fff,
+      };
+    }
+
+    if (chunkType === 'VP8L' && chunkData + 5 <= buffer.length) {
+      const bits = buffer.readUInt32LE(chunkData + 1);
+      return {
+        width: (bits & 0x3fff) + 1,
+        height: ((bits >> 14) & 0x3fff) + 1,
+      };
+    }
+
+    offset = chunkData + chunkSize + (chunkSize % 2);
+  }
+
+  return null;
+}
+
+function readUInt24LE(buffer, offset) {
+  return buffer[offset] + (buffer[offset + 1] << 8) + (buffer[offset + 2] << 16);
+}
+
+function buildBreadcrumbList(page) {
+  if (page.kind === 'home') {
+    return null;
+  }
+
+  const items = [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: `${SITE_URL}/`,
+    },
+  ];
+
+  if (page.kind === 'article') {
+    items.push({
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Writing',
+      item: `${SITE_URL}/writing/`,
+    });
+    items.push({
+      '@type': 'ListItem',
+      position: 3,
+      name: page.ogTitle,
+      item: page.canonical,
+    });
+  } else {
+    items.push({
+      '@type': 'ListItem',
+      position: 2,
+      name: page.kind === 'resume' ? 'Resume' : page.ogTitle,
+      item: page.canonical,
+    });
+  }
+
+  return {
+    '@type': 'BreadcrumbList',
+    itemListElement: items,
+  };
+}
+
+async function hasWorkingTreeChanges(file) {
+  if (gitDirtyCache.has(file)) {
+    return gitDirtyCache.get(file);
+  }
+
+  const relativePath = path.relative(ROOT_DIR, file);
+  try {
+    const { stdout } = await execFile('git', ['status', '--porcelain', '--', relativePath], {
+      cwd: ROOT_DIR,
+    });
+    const changed = stdout.trim().length > 0;
+    gitDirtyCache.set(file, changed);
+    return changed;
+  } catch {
+    gitDirtyCache.set(file, false);
+    return false;
+  }
+}
+
+async function getGitLastModified(file) {
+  if (gitDateCache.has(file)) {
+    return gitDateCache.get(file);
+  }
+
+  const relativePath = path.relative(ROOT_DIR, file);
+  try {
+    const { stdout } = await execFile('git', ['log', '-1', '--format=%cs', '--', relativePath], {
+      cwd: ROOT_DIR,
+    });
+    const value = stdout.trim() || null;
+    gitDateCache.set(file, value);
+    return value;
+  } catch {
+    gitDateCache.set(file, null);
+    return null;
+  }
+}
+
+async function fileExists(file) {
+  try {
+    await fs.access(file);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function toIsoDate(value) {
+  return new Date(value).toISOString().slice(0, 10);
+}
+
 function resolveAbsoluteUrl(value, route) {
   if (!value) {
     return `${SITE_URL}/photo.png`;
@@ -619,7 +1158,10 @@ function decodeEntities(value) {
     .replace(/&#39;/g, "'")
     .replace(/&apos;/g, "'")
     .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>');
+    .replace(/&gt;/g, '>')
+    .replace(/&#8217;/g, "'")
+    .replace(/&#8211;/g, '-')
+    .replace(/&#8212;/g, '-');
 }
 
 function escapeHtml(value) {

@@ -1,0 +1,74 @@
+.site-related-links {
+    max-width: min(760px, calc(100% - 32px));
+    margin: 48px auto 24px;
+    padding: 0 4px;
+    color: inherit;
+}
+
+.site-related-inner {
+    border: 1px solid var(--border-color, rgba(127, 127, 127, 0.22));
+    border-radius: 20px;
+    background: var(--card-bg, rgba(255, 255, 255, 0.04));
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    padding: 20px 22px;
+}
+
+.site-related-kicker {
+    margin: 0 0 8px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.72;
+}
+
+.site-related-links h2 {
+    margin: 0 0 12px;
+    font-size: clamp(1.1rem, 2vw, 1.35rem);
+    line-height: 1.2;
+    color: inherit;
+}
+
+.site-related-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+}
+
+.site-related-list li {
+    display: grid;
+    gap: 4px;
+}
+
+.site-related-list a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.site-related-list a:hover {
+    text-decoration: underline;
+}
+
+.site-related-list span {
+    font-size: 0.92rem;
+    line-height: 1.45;
+    opacity: 0.82;
+}
+
+.site-related-archive {
+    margin: 14px 0 0;
+    font-size: 0.92rem;
+}
+
+@media (max-width: 640px) {
+    .site-related-links {
+        margin-top: 40px;
+    }
+
+    .site-related-inner {
+        padding: 18px 16px;
+    }
+}

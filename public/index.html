@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Nauman Mustafa | AI Systems Engineer and ML Builder</title>
+                            <title>Nauman Mustafa | AI Systems Engineer and ML Builder</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -14,12 +14,14 @@
     <!-- SEO Metadata -->
     <meta name="description" content="Portfolio and technical writing by Nauman Mustafa on AI systems, machine learning engineering, LLM applications, and production-ready software.">
     <meta name="author" content="Nauman Mustafa">
-    <meta name="keywords" content="Nauman Mustafa, AI systems, machine learning engineer, LLM applications, NLP, computer vision, OCR, technical blog">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="theme-color" content="#0f172a">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/photo.png">
     <link rel="canonical" href="https://nauman.im/">
+    <link rel="stylesheet" href="/lib/seo.css">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <link rel="alternate" type="application/rss+xml" title="Nauman Mustafa RSS Feed" href="/rss.xml">
     <meta property="og:type" content="website">
@@ -45,7 +47,12 @@
           "@id": "https://nauman.im/#person",
           "name": "Nauman Mustafa",
           "url": "https://nauman.im/",
-          "image": "https://nauman.im/photo.png"
+          "image": "https://nauman.im/photo.png",
+          "sameAs": [
+            "https://www.linkedin.com/in/naxalpha/",
+            "https://github.com/NaxAlpha"
+          ],
+          "jobTitle": "AI Systems Engineer"
         },
         {
           "@type": "WebSite",
@@ -73,10 +80,11 @@
             <header class="home-header">
                 <div class="home-brand">
                     <span class="home-brand-name">Nauman Mustafa</span>
-                    <span class="home-brand-tagline">Sr. Vibe Coder</span>
+                    <span class="home-brand-tagline">AI Systems Engineer · Vibe Coding in Production</span>
                 </div>
                 <nav class="home-nav">
-                    <a href="/resume.html" class="home-nav-link">Resume</a>
+                    <a href="/writing/" class="home-nav-link">Writing</a>
+                    <a href="/resume/" class="home-nav-link">Resume</a>
                 </nav>
             </header>
 
@@ -84,12 +92,16 @@
                 <section class="home-section">
                     <h1 class="home-title">Building ML systems and tools that actually ship</h1>
                     <p class="home-bio">
-                        I'm a Sr. Vibe Coder (prev. Sr. Machine Learning Engineer) with 7+ years of experience
-                        shipping OCR, computer vision, NLP, and LLM-powered systems from prototype to production.
+                        I am an AI systems engineer with 7+ years of experience shipping OCR, computer vision, NLP,
+                        and LLM-powered products from prototype to production.
                     </p>
                     <p class="home-bio">
-                        These days I am vibe coding LLM/agent based systems in production and exploring ideas
-                        around scaling vibe coding to large, messy enterprise systems.
+                        These days I work on human-plus-agent delivery workflows, production LLM systems, and the
+                        engineering discipline required to scale AI-assisted product development beyond toy demos.
+                    </p>
+                    <p class="home-bio">
+                        This site is where I document technical experiments, field notes, and hard-earned lessons from
+                        building AI products across research, mobile automation, and cloud delivery.
                     </p>
                 </section>
 
@@ -114,6 +126,25 @@
                             in real time, keeping the interface out of the way so the conversation can stay in flow.
                         </p>
                     </article>
+                </section>
+
+                <section class="home-section">
+                    <h2 class="home-section-title">Focus Areas</h2>
+                    <p class="home-section-lead">A quick way into the strongest topics on the site.</p>
+                    <div class="topic-grid">
+                        <article class="home-card">
+                            <h3 class="home-card-title"><a href="/writing/#llm-systems">LLM Systems</a></h3>
+                            <p class="home-card-body">Essays and experiments on long context, token compression, agent workflows, and production LLM usage.</p>
+                        </article>
+                        <article class="home-card">
+                            <h3 class="home-card-title"><a href="/writing/#ocr-computer-vision">OCR + Computer Vision</a></h3>
+                            <p class="home-card-body">Work on mobile UI understanding, OCR benchmarks, and ML features that shipped into testing products.</p>
+                        </article>
+                        <article class="home-card">
+                            <h3 class="home-card-title"><a href="/writing/#product-delivery">Product Delivery</a></h3>
+                            <p class="home-card-body">Notes from building with AI, choosing stacks, and keeping quality high while shipping faster.</p>
+                        </article>
+                    </div>
                 </section>
 
                 <section class="home-section">
@@ -192,11 +223,12 @@
                             <span class="home-list-meta"> · 2019</span>
                         </li>
                     </ul>
+                    <p class="home-archive-link"><a href="/writing/">Browse the full archive by topic</a></p>
                 </section>
             </main>
 
             <footer class="footer">
-                <p>&copy; 2025 Nauman Mustafa. All rights reserved.</p>
+                <p>&copy; 2026 Nauman Mustafa. All rights reserved.</p>
             </footer>
         </div>
     </div>
