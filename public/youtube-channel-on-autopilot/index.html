@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Running a YouTube Channel on Autopilot | YouTube Automation Lessons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- SEO Metadata -->
+    <meta name="description" content="A 2-month YouTube automation experiment: scraping news, turning stories into videos, uploading them automatically, and learning hard lessons about niche, cost, and watch time.">
+    <meta name="author" content="Nauman Mustafa">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/photo.png">
+    <link rel="canonical" href="https://nauman.im/youtube-channel-on-autopilot/">
+    <link rel="stylesheet" href="/lib/seo.css">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    <link rel="alternate" type="application/rss+xml" title="Nauman Mustafa RSS Feed" href="/rss.xml">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Nauman Mustafa">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://nauman.im/youtube-channel-on-autopilot/">
+    <meta property="og:title" content="Running a YouTube Channel on Autopilot | YouTube Automation Lessons">
+    <meta property="og:description" content="A 2-month YouTube automation experiment: scraping news, turning stories into videos, uploading them automatically, and learning hard lessons about niche, cost, and watch time.">
+    <meta property="og:image" content="https://nauman.im/youtube-channel-on-autopilot/channel-autopilot-header.svg">
+    <meta property="og:image:alt" content="Running a YouTube Channel on Autopilot | YouTube Automation Lessons">
+    <meta property="article:author" content="Nauman Mustafa">
+    <meta property="article:published_time" content="2026-03-24T00:00:00Z">
+    <meta property="article:modified_time" content="2026-03-24T00:00:00Z">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@super_nauman">
+    <meta name="twitter:creator" content="@super_nauman">
+    <meta name="twitter:title" content="Running a YouTube Channel on Autopilot | YouTube Automation Lessons">
+    <meta name="twitter:description" content="A 2-month YouTube automation experiment: scraping news, turning stories into videos, uploading them automatically, and learning hard lessons about niche, cost, and watch time.">
+    <meta name="twitter:image" content="https://nauman.im/youtube-channel-on-autopilot/channel-autopilot-header.svg">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Running a YouTube Channel on Autopilot | YouTube Automation Lessons",
+          "description": "A 2-month YouTube automation experiment: scraping news, turning stories into videos, uploading them automatically, and learning hard lessons about niche, cost, and watch time.",
+          "image": [
+            "https://nauman.im/youtube-channel-on-autopilot/channel-autopilot-header.svg"
+          ],
+          "author": {
+            "@type": "Person",
+            "@id": "https://nauman.im/#person",
+            "name": "Nauman Mustafa",
+            "url": "https://nauman.im/",
+            "image": "https://nauman.im/photo.png",
+            "sameAs": [
+              "https://www.linkedin.com/in/naxalpha/",
+              "https://github.com/NaxAlpha"
+            ],
+            "jobTitle": "AI Systems Engineer"
+          },
+          "publisher": {
+            "@type": "Person",
+            "@id": "https://nauman.im/#person",
+            "name": "Nauman Mustafa",
+            "url": "https://nauman.im/",
+            "image": "https://nauman.im/photo.png",
+            "sameAs": [
+              "https://www.linkedin.com/in/naxalpha/",
+              "https://github.com/NaxAlpha"
+            ],
+            "jobTitle": "AI Systems Engineer"
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://nauman.im/youtube-channel-on-autopilot/"
+          },
+          "url": "https://nauman.im/youtube-channel-on-autopilot/",
+          "datePublished": "2026-03-24",
+          "dateModified": "2026-03-24",
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://nauman.im/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Writing",
+              "item": "https://nauman.im/writing/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Running a YouTube Channel on Autopilot | YouTube Automation Lessons",
+              "item": "https://nauman.im/youtube-channel-on-autopilot/"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+
+<body>
+    <div class="progress-track" aria-hidden="true">
+        <div class="progress-fill" id="progress-fill"></div>
+    </div>
+
+    <div class="page-controls">
+        <div class="control-links">
+            <a href="/" class="control-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Home</span>
+            </a>
+            <a href="/writing/" class="control-link">
+                <i class="fas fa-book-open"></i>
+                <span>Writing</span>
+            </a>
+        </div>
+        <div class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-sun"></i>
+            <span>Dark Mode</span>
+        </div>
+    </div>
+
+    <main class="report-shell">
+        <header class="masthead">
+            <div class="masthead-top">
+                <span>Experiment Log · March 24, 2026</span>
+                <span>YouTube automation field report</span>
+            </div>
+
+            <h1 class="masthead-title">Running a YouTube Channel on Autopilot</h1>
+            <p class="standfirst">
+                I built a system that scraped news, turned stories into videos, reviewed them for policy issues,
+                uploaded them automatically, and kept the channel running in the background. The software layer worked.
+                The strategic layer was much less forgiving.
+            </p>
+
+            <dl class="fact-strip" aria-label="Experiment summary">
+                <div>
+                    <dt>Channel outcome</dt>
+                    <dd>0 → ~300</dd>
+                </div>
+                <div>
+                    <dt>Total spend</dt>
+                    <dd>~$250</dd>
+                </div>
+                <div>
+                    <dt>Strongest signal</dt>
+                    <dd>~100 hrs</dd>
+                </div>
+                <div>
+                    <dt>Main lesson</dt>
+                    <dd>Niche wins</dd>
+                </div>
+            </dl>
+
+            <figure class="masthead-figure">
+                <img class="masthead-image" src="./channel-autopilot-header.svg"
+                    alt="Minimal editorial illustration showing an automated YouTube channel experiment and its core metrics."
+                    width="1600" height="900" fetchpriority="high" decoding="async">
+                <figcaption class="figure-caption">The pipeline worked. The harder question was whether the channel strategy deserved to scale.</figcaption>
+            </figure>
+
+            <nav class="jump-nav" aria-label="Jump to sections">
+                <a href="#what-i-built">What I built</a>
+                <a href="#niche-matters">Niche matters</a>
+                <a href="#competitive-market">Competition</a>
+                <a href="#shorts-vs-long-form">Shorts vs long-form</a>
+                <a href="#cost-per-video">Costs</a>
+                <a href="#final-takeaway">Takeaway</a>
+            </nav>
+        </header>
+
+        <section class="intro-note" aria-label="Introduction">
+            <p><strong>Disclaimer:</strong> This essay reflects a real YouTube automation experiment I ran over roughly two months. The system worked, but my views on the right strategy are still evolving.</p>
+            <p class="lead-line">A working channel pipeline is not the same thing as a channel people will keep coming back to.</p>
+            <p>
+                I created a brand new channel, scraped news sites, selected stories with AI, turned them into videos,
+                reviewed them for policy issues, and automated the upload process. That was enough to prove the technical
+                side. It was not enough to prove that the channel should keep scaling.
+            </p>
+        </section>
+
+        <article class="essay">
+            <section id="what-i-built" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">01</p>
+                    <p class="section-topic">System</p>
+                </div>
+                <div class="section-body">
+                    <h2>What I Built</h2>
+                    <p>
+                        At a high level, the system scraped fresh news from the web, ranked stories based on relevance and
+                        expected usefulness, converted chosen stories into scripts and visuals, reviewed the output for policy
+                        risk, uploaded the finished videos, and published them on a schedule with minimal intervention.
+                    </p>
+                    <p>
+                        At the later stages, I moved the workflow from my laptop to Cloudflare Workers, added cron jobs, and
+                        built a dashboard to monitor the pipeline. That meant the system could keep producing videos while I
+                        slept, and I only needed to step in when I wanted to improve prompts, tune quality, or shift strategy.
+                    </p>
+                    <div class="metric-line" aria-label="System traits">
+                        <div>
+                            <strong>Remote runs</strong>
+                            <span>Cloudflare Workers and cron replaced laptop babysitting.</span>
+                        </div>
+                        <div>
+                            <strong>Policy gate</strong>
+                            <span>An AI review layer sat between generation and publication.</span>
+                        </div>
+                        <div>
+                            <strong>Background flow</strong>
+                            <span>The channel could keep moving even when I was offline.</span>
+                        </div>
+                    </div>
+                    <p>
+                        From an engineering perspective, this was satisfying. I had built a content factory that could run in
+                        the background. From a creator perspective, the real lessons began only after the factory existed.
+                    </p>
+                </div>
+            </section>
+
+            <section id="niche-matters" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">02</p>
+                    <p class="section-topic">Positioning</p>
+                </div>
+                <div class="section-body">
+                    <h2>Niche Matters More Than Generic Relevance</h2>
+                    <p>
+                        The hardest lesson was also the most obvious in hindsight: niche matters a lot. I approached the
+                        problem like an engineer. My assumption was that if AI could identify the most important or most useful
+                        news, the channel would naturally find its audience.
+                    </p>
+                    <p>
+                        That did not happen. The channel was too broad. It covered useful news, but it did not stand for one
+                        specific thing in the viewer's mind. It had relevance, but not identity.
+                    </p>
+                    <blockquote class="pull-quote">Automation should serve the niche. It should not be the niche.</blockquote>
+                    <p>
+                        The people who are truly good at this game usually go narrow. They build for one audience, one
+                        repeated need, and often one recognizable content format. That narrowness looks limiting from the
+                        outside, but it creates loyalty on the inside. If I do this again, I would choose the niche first and
+                        only then design the machine around it.
+                    </p>
+                </div>
+            </section>
+
+            <section id="competitive-market" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">03</p>
+                    <p class="section-topic">Market</p>
+                </div>
+                <div class="section-body">
+                    <h2>I Entered a Mature and Competitive Market</h2>
+                    <p>
+                        Another realization was that YouTube automation is not some untouched edge case. I entered a field
+                        that has already been explored for years by people who understand thumbnails, packaging, watch-time
+                        optimization, topic selection, and aggressive growth tactics far better than I did at the start.
+                    </p>
+                    <p>
+                        I entered with a more idealistic mindset. I wanted to make useful, non-clickbait content and help
+                        people one video at a time. That instinct still matters. But idealism alone does not win inside a
+                        market where many participants optimize hard for reach and ranking.
+                    </p>
+                    <div class="compare-line">
+                        <div>
+                            <h3>Established operators</h3>
+                            <ul>
+                                <li>Multiple channels running at once</li>
+                                <li>Aggressive packaging and growth tactics</li>
+                                <li>Years of audience pattern knowledge</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>My edge</h3>
+                            <ul>
+                                <li>Higher technical leverage through automation</li>
+                                <li>Cleaner system design and reproducibility</li>
+                                <li>Long-term room to improve quality with software</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>
+                        If I want to stay idealistic and still compete, the answer is not simply to produce more. The answer
+                        is a stronger long-term strategy with better positioning and tighter economics.
+                    </p>
+                </div>
+            </section>
+
+            <section id="shorts-vs-long-form" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">04</p>
+                    <p class="section-topic">Format</p>
+                </div>
+                <div class="section-body">
+                    <h2>Shorts Gave Dopamine. Long-Form Gave Signal.</h2>
+                    <p>
+                        I started with Shorts because they produced quick feedback. Many of them crossed 1,000 views on
+                        average, which felt exciting early on. That made the channel look healthier than it really was.
+                    </p>
+                    <p>
+                        Later I shifted attention toward long-form. One video was only around three minutes long, but it
+                        reached roughly 2,000 views and generated close to 100 watch hours. That single result told me more
+                        about channel potential than many Shorts had.
+                    </p>
+                    <blockquote class="pull-quote">Views are not all equal. Watch time, repeat behavior, and depth of engagement matter more.</blockquote>
+                    <p>
+                        That was the moment I realized I should have tested long-form earlier. Shorts are useful for momentum,
+                        but they do not automatically build a durable channel.
+                    </p>
+                </div>
+            </section>
+
+            <section id="too-much-content" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">05</p>
+                    <p class="section-topic">Volume</p>
+                </div>
+                <div class="section-body">
+                    <h2>More Content Is Not Automatically Better</h2>
+                    <p>I tested multiple production strategies:</p>
+                    <ul>
+                        <li>batching videos from the previous 24 hours of news and scheduling them every 30 minutes</li>
+                        <li>scraping every two hours and publishing from a rolling shorter window</li>
+                        <li>batching every 6 hours instead of continuously</li>
+                        <li>combining several stories into a short summary</li>
+                        <li>turning one story into a deeper breakdown</li>
+                    </ul>
+                    <p>
+                        Each strategy had different tradeoffs around freshness, volume, quality, and cost. What I eventually
+                        learned is that I was producing too much content. Engineering thinking made me treat throughput like a
+                        default win. Content does not work that way.
+                    </p>
+                    <p>
+                        Flooding a channel can dilute quality, confuse the audience, and increase cost without improving
+                        retention. If I run this again, I would rather publish fewer, better-targeted videos than operate the
+                        system at maximum speed just because it can.
+                    </p>
+                </div>
+            </section>
+
+            <section id="manual-first" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">06</p>
+                    <p class="section-topic">Workflow</p>
+                </div>
+                <div class="section-body">
+                    <h2>The First Version Was Manual, and That Was the Right Call</h2>
+                    <p>
+                        Before building the full system, I made the first video manually. I moved between Claude, Canva,
+                        Google AI Studio, and other tools to see whether the concept had any pull at all. My first Short got
+                        roughly 1,000 views within a few hours. That was not enough to prove a business, but it was enough to
+                        justify building a system around the idea.
+                    </p>
+                    <p>
+                        After that, I automated piece by piece. The earliest system-generated videos were rough. Quality was
+                        inconsistent. But as I kept shipping, the pipeline improved: scripts got better, visuals improved, the
+                        workflow became more reliable, and eventually auto-upload and auto-publication came online.
+                    </p>
+                    <p>
+                        One thing I noticed while studying the space is that many of the more experienced operators are still
+                        doing a lot of this work manually. They move between tools and tabs, generate assets in one place,
+                        edit in another, upload somewhere else, and coordinate the workflow through habit rather than fully
+                        codified automation.
+                    </p>
+                    <p>
+                        That does not mean they are doing it wrong. In many cases, their manual process is already highly
+                        optimized. But my advantage is different: I can turn the whole workflow itself into software and let it
+                        run without living inside a maze of tabs.
+                    </p>
+                </div>
+            </section>
+
+            <section id="cost-per-video" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">07</p>
+                    <p class="section-topic">Economics</p>
+                </div>
+                <div class="section-body">
+                    <h2>Cost Per Video Matters More Than Most Engineers Expect</h2>
+                    <p>
+                        One of the most important metrics in the experiment was cost per video. For text generation, I mostly
+                        used cheaper models for light tasks and stronger models for harder reasoning. That part usually landed
+                        around $0.05 to $0.10 per video.
+                    </p>
+                    <p>
+                        The expensive part was image generation. I wanted visuals that felt polished enough to support the
+                        narrative, so I used high-quality image generation and tried to reduce the burn by creating 3x3 image
+                        grids inside a single 4K asset.
+                    </p>
+                    <div class="metric-line" aria-label="Cost breakdown">
+                        <div>
+                            <strong>$0.05-$0.10</strong>
+                            <span>Typical text generation cost per video.</span>
+                        </div>
+                        <div>
+                            <strong>$0.50-$1.00</strong>
+                            <span>Total estimated cost per video once the visual layer was included.</span>
+                        </div>
+                        <div>
+                            <strong>$3-$5 / day</strong>
+                            <span>Enough to prove viability, not efficient enough for carefree scaling.</span>
+                        </div>
+                    </div>
+                    <p>
+                        At the experiment's peak, that translated into roughly $100 to $150 per month. More experienced
+                        operators usually constrain costs much harder, often by relying on subscription tooling, fewer uploads,
+                        and tighter topic selection. That changed the whole framing for me.
+                    </p>
+                    <blockquote class="pull-quote">The real question is not whether AI can make the video. It is whether AI can make the video cheaply enough for the channel economics to make sense.</blockquote>
+                </div>
+            </section>
+
+            <section id="policy-review" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">08</p>
+                    <p class="section-topic">Safety</p>
+                </div>
+                <div class="section-body">
+                    <h2>Policy Review Had to Become a First-Class System Component</h2>
+                    <p>
+                        One thing I am glad I implemented was a policy-aware generation and review layer. I built a workflow
+                        where AI would fetch YouTube policy guidance, incorporate those constraints into generation prompts, and
+                        then run a second review pass to flag content that might violate policies before publication.
+                    </p>
+                    <p>
+                        This came later in the experiment, which means some earlier videos may have had issues I would not be
+                        comfortable with now. Once the review loop existed, I felt much better about enabling automatic
+                        publication.
+                    </p>
+                    <ul>
+                        <li>generate with policy constraints already in the prompt</li>
+                        <li>review scripts and visuals again before release</li>
+                        <li>publish automatically only after the review stage passes</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="infrastructure" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">09</p>
+                    <p class="section-topic">Infra</p>
+                </div>
+                <div class="section-body">
+                    <h2>Infrastructure Was Not the Bottleneck</h2>
+                    <p>
+                        Moving the workflow from my laptop to Cloudflare Workers, wiring up cron jobs, and building a
+                        dashboard made the whole experiment feel much more real. The system became durable, remote, and less
+                        dependent on me staying online.
+                    </p>
+                    <p>
+                        But infrastructure was never the main challenge. The real bottlenecks were channel strategy, content
+                        positioning, and economics. That is a useful reminder for engineers: sometimes the hard part is not
+                        making the system autonomous. The hard part is deciding what it should produce, how often it should
+                        produce it, and for whom.
+                    </p>
+                </div>
+            </section>
+
+            <section id="why-i-paused" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">10</p>
+                    <p class="section-topic">Decision</p>
+                </div>
+                <div class="section-body">
+                    <h2>Why I Paused the Experiment</h2>
+                    <p>By the end, I had a clear list of ideas for version two:</p>
+                    <ul>
+                        <li>reduce unnecessary code and simplify the pipeline</li>
+                        <li>narrow the niche dramatically</li>
+                        <li>focus more on long-form video</li>
+                        <li>improve subscriber and watch-time growth</li>
+                        <li>reduce generation costs</li>
+                        <li>publish less often but with stronger editorial intent</li>
+                    </ul>
+                    <p>
+                        But I paused because time is also a cost. The technical foundation was there. The strategic
+                        foundation was not yet strong enough to justify continued spend and attention. I would rather pause a
+                        working system than keep feeding it money without conviction.
+                    </p>
+                </div>
+            </section>
+
+            <section id="final-takeaway" class="essay-section">
+                <div class="section-rail">
+                    <p class="section-index">11</p>
+                    <p class="section-topic">Takeaway</p>
+                </div>
+                <div class="section-body">
+                    <h2>Automation Is Real. A Channel Worth Returning To Is Harder.</h2>
+                    <p>
+                        This experiment proved that fully automated YouTube production is possible. You can scrape
+                        information, transform it into videos, review them, upload them, and run the whole thing in the
+                        background.
+                    </p>
+                    <p>
+                        What is harder is building a channel that deserves to grow. If I revisit this idea, I would approach
+                        it less like a generic automation engineer and more like a media operator: one niche, one audience,
+                        one editorial identity, and one cost structure that actually holds up.
+                    </p>
+                    <p>
+                        I still think there is real opportunity here. The opportunity is not in blindly automating content
+                        production. It is in combining strong engineering with sharp taste, strategic restraint, and a clear
+                        understanding of what people actually return for.
+                    </p>
+                </div>
+            </section>
+        </article>
+
+        <section class="afterword" aria-labelledby="afterword-heading">
+            <h2 id="afterword-heading" class="afterword-title">Afterword</h2>
+            <p>
+                Version two would be smaller, sharper, and much more intentional. If you want something like this
+                custom-built for your workflow, the technical path is clear now. For more essays like this, browse the
+                <a href="/writing/">writing archive</a>. If you want the broader context on the systems work behind projects
+                like this, start from the <a href="/">homepage</a>.
+            </p>
+        </section>
+<!-- SITE-RELATED-START -->
+<section class="site-related-links" aria-labelledby="site-related-heading">
+  <div class="site-related-inner">
+    <p class="site-related-kicker">Explore more</p>
+    <h2 id="site-related-heading">More writing on AI systems and shipping software</h2>
+    <ul class="site-related-list">
+      <li><a href="/deep-learning-in-cloud/">Deep Learning in Cloud — Cheap but High Quality</a><span>A cost-focused comparison of cloud GPU options for deep learning across AWS, Paperspace, Colab, and Google Cloud preemptible machines.</span></li>
+      <li><a href="/apply-modern-deep-learning-2021/">Applying Modern Deep Learning in Autify</a><span>A practical guide to applying modern deep learning and pre-trained NLP models in production software and product workflows.</span></li>
+      <li><a href="/ai-in-autify-mobile-2021/">Machine Learning Features in Autify for Mobile</a><span>How Autify for Mobile uses machine learning for visual regression testing, visual self-healing, and AI-powered app exploration.</span></li>
+    </ul>
+    <p class="site-related-archive"><a href="/writing/">Browse the full writing archive</a></p>
+  </div>
+</section>
+<!-- SITE-RELATED-END -->
+</main>
+
+    <footer class="page-footer">
+        <div class="page-footer-inner">YouTube automation experiment · written by Nauman Mustafa · 2026</div>
+    </footer>
+
+    <script src="/lib/shared.js"></script>
+    <script>
+        window.themeSwitch = new ThemeSwitch({ defaultTheme: 'light' });
+
+        (function () {
+            const progressFill = document.getElementById('progress-fill');
+            const updateProgress = () => {
+                const max = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                const ratio = max > 0 ? window.scrollY / max : 0;
+                progressFill.style.transform = `scaleX(${Math.min(1, Math.max(0, ratio))})`;
+            };
+
+            window.addEventListener('scroll', updateProgress, { passive: true });
+            updateProgress();
+        })();
+    </script>
+</body>
+
+</html>

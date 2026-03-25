@@ -42,6 +42,7 @@ const TITLE_OVERRIDES = {
   '/gaining-4-years-of-software-engineering-experience-in-4-months/': '4 Years of Engineering Experience in 4 Months | Nauman Mustafa',
   '/gan-for-icons/': 'GANs for Icon Generation | Nauman Mustafa',
   '/lessons-learned-vibe-coding-ios-app/': 'Lessons From Vibe Coding an iOS App | Nauman Mustafa',
+  '/youtube-channel-on-autopilot/': 'Running a YouTube Channel on Autopilot | YouTube Automation Lessons',
 };
 
 const DESCRIPTION_OVERRIDES = {
@@ -69,6 +70,7 @@ const DESCRIPTION_OVERRIDES = {
   '/social/linkedin-gpt-4-rumers/': 'A short opinion post on GPT-4 expectations, scaling constraints, and likely directions for next-generation language models.',
   '/token-compression/': 'An experiment on compressing multiple LLM tokens into one representation for faster decoding and longer effective context.',
   '/toy-app-navigation/': 'A case study on automated mobile app navigation using behavior cloning and heatmap prediction for tap-location modeling.',
+  '/youtube-channel-on-autopilot/': 'A 2-month YouTube automation experiment: scraping news, turning stories into videos, uploading them automatically, and learning hard lessons about niche, cost, and watch time.',
 };
 
 const DATE_OVERRIDES = {
@@ -79,6 +81,7 @@ const DATE_OVERRIDES = {
   '/social/linkedin-gpt-4-rumers/': '2023-01-15',
   '/ai-chronicles-2026/': '2026-01-01',
   '/gaining-4-years-of-software-engineering-experience-in-4-months/': '2026-02-21',
+  '/youtube-channel-on-autopilot/': '2026-03-24',
 };
 
 const IMAGE_OVERRIDES = {
@@ -86,6 +89,7 @@ const IMAGE_OVERRIDES = {
   '/resume/': '/photo.png',
   '/ai-chronicles-2026/': '/ai-chronicles-2026/vibe-coding-og.png',
   '/gaining-4-years-of-software-engineering-experience-in-4-months/': '/gaining-4-years-of-software-engineering-experience-in-4-months/header-command-ledger-abstract.svg',
+  '/youtube-channel-on-autopilot/': '/youtube-channel-on-autopilot/channel-autopilot-header.svg',
 };
 const CANONICAL_OVERRIDES = {
   '/resume.html': `${SITE_URL}/resume/`,
